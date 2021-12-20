@@ -2,7 +2,7 @@
 # Homepage: https://github.com/Cats-Team/AdRules
 # Powerd by CatsTeam
 # Expires: 12 Hours
-# 该规则合并自AdGuardDNS过滤器，Githosts，Adaway等! Version: 2021-12-20 17:42:57
+# 该规则合并自AdGuardDNS过滤器，Githosts，Adaway等! Version: 2021-12-20 17:58:13
 ! Total count: 102581
 0.0.0.0 qappcenterv6.3g.qq.com
 0.0.0.0 udpolimenew.baidu.com
@@ -12,6 +12,19 @@
 0.0.0.0 log.qvb.qcloud.com
 0.0.0.0 www.google-analytics.com
 0.0.0.0 collector.githubapp.com
+0.0.0.0 data.bilibili.com
+0.0.0.0 dataflow.biliapi.com
+0.0.0.0 midas.gtimg.cn
+0.0.0.0 game.weixin.qq.com
+0.0.0.0 wxsnsdythumb.wxs.qq.com
+0.0.0.0 wxsnsdy.wxs.qq.com
+0.0.0.0 app-monitor.ele.me
+0.0.0.0 grand.ele.me
+0.0.0.0 appcloud2.zhihu.com
+0.0.0.0 ww38.zhihuu.com
+0.0.0.0 log.tpns.tencent.com
+0.0.0.0 tts.baidu.com
+0.0.0.0 pp.myapp.com
 0.0.0.0 0.0.0.0
 0.0.0.0 0.nextyourcontent.com
 0.0.0.0 0.oldgyhogola.com
