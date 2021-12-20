@@ -11,9 +11,8 @@ curl -o i6.txt https://raw.githubusercontent.com/badmojr/1Hosts/master/mini/host
 curl -o i7.txt https://raw.githubusercontent.com/VeleSila/yhosts/master/hosts.txt
 curl -o i8.txt https://raw.githubusercontent.com/jdlingyu/ad-wars/master/hosts
 curl -o i9.txt https://raw.githubusercontent.com/ilpl/ad-hosts/master/hosts
-curl -o i10.txt https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts
-curl -o i11.txt https://raw.githubusercontent.com/Goooler/1024_hosts/master/hosts
-curl -o i12.txt https://raw.githubusercontent.com/E7KMbb/AD-hosts/master/system/etc/hosts
+curl -o i10.txt https://raw.githubusercontent.com/Goooler/1024_hosts/master/hosts
+ 
 # Start Merge and Duplicate Removal
 cat i*.txt > mergd.txt
 cat mergd.txt | grep '^1'  > 1.txt
