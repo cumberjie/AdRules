@@ -27,7 +27,7 @@ num=`cat tmp.txt | wc -l`
 # Start Add title and date
 echo "! Version: `date +"%Y-%m-%d %H:%M:%S"`" >> tpdate.txt
 echo "! Total count: $num" >> tpdate.txt
-cat title.dd tpdate.txt tmp.txt > final.txt
+cat title.dd tpdate.txt user.dd tmp.txt > final.txt
 
 mv final.txt ../../hosts.txt
 rm *.txt
