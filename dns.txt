@@ -4,8 +4,8 @@
 ! Powerd by CatsTeam
 ! Expires: 12 Hours
 ! 该规则合并自AdGuardDNS过滤器，1hosts，adgk等
-! Version: 2022-01-07 22:12:15
-! Total count: 93362
+! Version: 2022-01-08 10:13:00
+! Total count: 93372
 @@dnsotls-ds.metric.gstatic.com^
 @@|ads.adsterra.com^|
 @@|adsterra.com^|
@@ -123,6 +123,7 @@
 @@||equifaxps.122.2o7.net^
 @@||feed.adrelayer.com^|
 @@||feed.mix.sina.com.cn^
+@@||files.1drv.com^
 @@||forum.notebookreview.com^|
 @@||front-go.lemall.com^
 @@||ftp.bmp.ovh^
@@ -210,6 +211,7 @@
 @@||sdkapi.sms.mob.com^
 @@||settings-win.data.microsoft.com^
 @@||sina.com.hk^*_ads.cgi
+@@||skyapi.live.net^
 @@||skyapi.onedrive.live.com^
 @@||skydrivesync.policies.live.net^
 @@||smartpixel.tv
@@ -2240,7 +2242,6 @@
 ||54kefu.net^
 ||55-trk-srv.com^
 ||55.la
-||55.la^
 ||550b3ikb9j.com^
 ||550sky.com^
 ||550tg.com^
@@ -5349,7 +5350,6 @@
 ||ad-stir.com^
 ||ad-stub-tvc.cdnvideo.ru^
 ||ad-sun.de^
-||ad-switcher.com^
 ||ad-sys.com^
 ||ad-tag.biz^
 ||ad-tag.inner-active.mobi^
@@ -7787,6 +7787,7 @@
 ||ads.go2reach.com^
 ||ads.gogovest.com^
 ||ads.gold^
+||ads.golem.de^
 ||ads.golfweek.com^
 ||ads.goodreads.com^
 ||ads.gosu.vn^
@@ -10621,7 +10622,6 @@
 ||aiyouji.xyz
 ||aiyun.club^
 ||aiyyu.com^
-||aizhigu.com.cn^
 ||aj1010.online^
 ||aj1047.online^
 ||aj1052.online^
@@ -10698,6 +10698,7 @@
 ||ak-events-collector.spot.im^
 ||ak-is.net^
 ||ak-is2.net^
+||ak-ns.sascdn.com^
 ||ak.exe.imgfarm.com^
 ||ak.imgaft.com^
 ||ak.pipoffers.apnpartners.com^
@@ -11585,6 +11586,7 @@
 ||analytics.chilevision.cl^
 ||analytics.chumbak.com^
 ||analytics.churchthemes.com^
+||analytics.churnzero.net^
 ||analytics.chvnoticias.cl^
 ||analytics.cibc.com^
 ||analytics.cibcrewards.com^
@@ -16469,6 +16471,7 @@
 ||belkinuk.evyy.net^
 ||bellaads.com^
 ||bellabusinesssolutions.actonservice.com^
+||bellca.demdex.net^
 ||bellmedia.hb.omtrdc.net^
 ||belmonhezamil.pro^
 ||belointeractive.com^
@@ -16916,6 +16919,7 @@
 ||bidscape.it^
 ||bidsimulator.com^
 ||bidsopt.com^
+||bidswitch.com^
 ||bidswitch.net^
 ||bidsxchange.com^
 ||bidsystem.com^
@@ -17122,7 +17126,6 @@
 ||bitbeat7.com^
 ||bitbucket.data.epmdisabled.net.zooplus.de^
 ||bitbucket.data.net.zooplus.de^
-||bitbucket.io^
 ||bitbucket.mail.net.zooplus.nl^
 ||bitbucketmarketing.net.daraz.com^
 ||bitcast-a.bitgravity.com^
@@ -17721,6 +17724,7 @@
 ||bodymedia.ojrq.net^
 ||boerse.today^
 ||boetwu.com^
+||bofa.demdex.net^
 ||bofa.inq.com^
 ||boffinsoft.com^
 ||boffoadsapi.com^
@@ -19148,6 +19152,7 @@
 ||ca.minexmr.com^
 ||ca.promo.skf.com^
 ||ca.video-cdn.net^
+||ca.w8.com.cn^
 ||ca.xxxshame.com^
 ||ca4-bid.adsrvr.org^
 ||ca4.revieworbit.com^
@@ -20277,7 +20282,6 @@
 ||cdn.wonderfulengineering.com^
 ||cdn.wuyou.ca^
 ||cdn.www.shglegle.com^
-||cdn.x-lift.jp^
 ||cdn.xianliao.me^
 ||cdn.yanews24.com^
 ||cdn.yektanet.com^
@@ -21053,6 +21057,7 @@
 ||chocohjuanfhdhf.com^
 ||choconart.com^
 ||chograud.com^
+||choice.demdex.net^
 ||choice.microsoft.com.nsatc.net^
 ||choice.microsoft.com^
 ||cholaga.ru^
@@ -22225,6 +22230,7 @@
 ||cmp.nextday.media^
 ||cmp.nouvelobs.com^
 ||cmp.osano.com^
+||cmp.parkers.co.uk^
 ||cmp.parool.nl^
 ||cmp.pcwelt.de^
 ||cmp.pcworld.pl^
@@ -26270,7 +26276,6 @@
 ||dasterx.ru^
 ||dat.funheroic.com^
 ||dat.red^
-||dat8.cc^
 ||data-analyst.biz^
 ||data-canary.flurry.com^
 ||data-cl-f.ads.oppomobile.com^
@@ -28031,6 +28036,7 @@
 ||dkrcwc.shoper.pl^
 ||dkre4lyk6a9bt.cloudfront.net^
 ||dkskbu.demae-can.com^
+||dkupaw9ae63a8.cloudfront.net^
 ||dkus30wj6f84p.cloudfront.net^
 ||dkyp75kj7ldlr.cloudfront.net^
 ||dkypsidljq.com^
@@ -32847,7 +32853,6 @@
 ||fast.appcues.com^
 ||fast.astro.demdex.net^
 ||fast.aufeminin.demdex.net^
-||fast.bellca.demdex.net^
 ||fast.canada.demdex.net^
 ||fast.cbsi.demdex.net^
 ||fast.chegginc.demdex.net^
@@ -32856,7 +32861,6 @@
 ||fast.fandangollc.demdex.net^
 ||fast.homedepot.demdex.net^
 ||fast.intelcorp.demdex.net^
-||fast.lenovo.demdex.net^
 ||fast.nbcu.demdex.net^
 ||fast.philipslighting.demdex.net^
 ||fast.rcci.demdex.net^
@@ -34133,6 +34137,7 @@
 ||foxcdn.live^
 ||foxentertainment.hb.omtrdc.net^
 ||foxilymartext.cam^
+||foxnet.demdex.net^
 ||foxnews.hb.omtrdc.net^
 ||foxpush.com^
 ||foxpush.net^
@@ -36043,7 +36048,6 @@
 ||gigaads.xyz^
 ||gigabitadex.com^
 ||gigacpmserv.com^
-||gigafyde.dev^
 ||gigamega.ru^
 ||gigamega.su^
 ||gigaonclick.com^
@@ -38133,6 +38137,7 @@
 ||hd2.3g.qq.com^
 ||hd3pi8cv.com^
 ||hda.maxli.cn^
+||hda.watchtimes.com.cn^
 ||hdacode.com^
 ||hdapp1003-a.akamaihd.net^
 ||hdapp1008-a.akamaihd.net^
@@ -44440,6 +44445,7 @@
 ||kakam.info^
 ||kakayy.com^
 ||kako.futakuro.com^
+||kakstitotako.com^
 ||kaktakkk.ru^
 ||kalauxet.com^
 ||kalespurhoes.com^
@@ -46221,6 +46227,7 @@
 ||lenkmio.com^
 ||lenmit.com^
 ||lenovo-co.evyy.net^
+||lenovo.demdex.net^
 ||lenovo.evergage.com^
 ||lenovo.evyy.net^
 ||lenovo.net.7eer.net^
@@ -48752,6 +48759,7 @@
 ||m.beautypageants.in^
 ||m.bedhdig.cn^
 ||m.beidian.com^
+||m.benaughty.com^
 ||m.bfhfhk.cn^
 ||m.bgaix.com^
 ||m.bgcse.cn^
@@ -64323,6 +64331,7 @@
 ||qajypx.com^
 ||qakdki.com^
 ||qanmw.space^
+||qantas.demdex.net^
 ||qapm.baidu.com^
 ||qappcenterv6.3g.qq.com^
 ||qaquzakalaka.com^
@@ -64869,6 +64878,7 @@
 ||quickanalytics.ca^
 ||quickandeasy.co.za^
 ||quickdomainfwd.com^
+||quicken.demdex.net^
 ||quickinfo247.com^
 ||quickkoala.io^
 ||quicklesvad.xyz^
@@ -66913,6 +66923,7 @@
 ||rofurekika.com^
 ||rofwvvyp.com^
 ||rogde.adocean.pl^
+||rogers.demdex.net^
 ||rogersmedia.hb.omtrdc.net^
 ||rogerwilliams.evergage.com^
 ||rogew.com^
@@ -67942,7 +67953,6 @@
 ||s10.histats.com^
 ||s103.cnzz.com^
 ||s105.cnzz.com^
-||s11.cn^
 ||s11.cnzz.com^
 ||s121.cnzz.com^
 ||s13.cnzz.com^
@@ -68043,6 +68053,7 @@
 ||s3r.tut.by^
 ||s3s-main.net^
 ||s3xified.com^
+||s4.55.la^
 ||s4.cnzz.com^
 ||s4.parkeren-amsterdam.com^
 ||s4.parkeren-haarlem.nl^
@@ -70998,7 +71009,6 @@
 ||sin-data.adsrvr.org^
 ||sin-whisp.adsrvr.org^
 ||sin.creativecdn.com^
-||sin.di2y21.top^
 ||sin01-event.spotxchange.com^
 ||sin01-search.spotxchange.com^
 ||sin1-ib.adnxs.com^
@@ -71504,7 +71514,6 @@
 ||smartlook.com^
 ||smartmad.com^
 ||smartmnews.pro^
-||smartmovies.net^
 ||smartnews-ads.com^
 ||smartocto.com^
 ||smartoffer.site^
@@ -73091,6 +73100,7 @@
 ||smetrix.avon.uk.com^
 ||smetrix.youravon.com^
 ||smgru.net^
+||smh.ink^
 ||smi.pp.ua^
 ||smi.today^
 ||smi2.ru^
@@ -73216,7 +73226,6 @@
 ||snalytics.allianz-voyage.fr^
 ||snalytics.allyz.com^
 ||snammar-jumntal.com^
-||snap.com^
 ||snap.snapmobile.asia^
 ||snap.yeppz.com^
 ||snapcheat.app^
@@ -74427,6 +74436,7 @@
 ||ssa.tlc.com^
 ||ssaa.cc^
 ||ssac.suning.com^
+||ssacdn.com^
 ||ssangyong.co.il^
 ||ssb-sgp.smartadserver.com^
 ||ssb-us.smartadserver.com^
@@ -74842,6 +74852,7 @@
 ||st.tmgrup.com.tr^
 ||st.top100.ru^
 ||st.wir-entdecken-bayern.de^
+||st.yagla.ru^
 ||st.zzhyyj.com^
 ||st02.net^
 ||st1.lg.avendrealouer.fr^
@@ -80112,6 +80123,7 @@
 ||topmaincash.com^
 ||topmalaysia.com^
 ||topmosthospitable.com^
+||topn.xyz^
 ||topofblogs.com^
 ||toponclick.com^
 ||toppage.vn^
@@ -82606,6 +82618,7 @@
 ||trvtrk.com^
 ||trw12.com^
 ||trx-hub.com^
+||trx.mxmfb.com^
 ||trx3.famousfix.com^
 ||trxxh.com^
 ||try.abtasty.com^
@@ -83676,7 +83689,6 @@
 ||un1.adriver.ru^
 ||un1.lawyernet.cn^
 ||un1.takefoto.cn^
-||un1.wayoulegal.com^
 ||un2.banmamedia.com^
 ||unableincludingrow.com^
 ||unablewisdom.com^
@@ -84251,7 +84263,6 @@
 ||usabilitytools.com^
 ||usabilla.com^
 ||usablenet.com^
-||usachoice.net^
 ||usadmm-ds.dotomi.com^
 ||usadmm.dotomi.com^
 ||usads.futurenet.nl^
@@ -86361,7 +86372,6 @@
 ||wakamoment.tk^
 ||wakanmounds.cam^
 ||wakapita.com^
-||wake.chinaerman.com^
 ||wakefulcook.com^
 ||wakeup.klick.vn^
 ||wal.wolfram.com^
@@ -86554,7 +86564,6 @@
 ||watchmygf.to^
 ||watchsk.com^
 ||watchtaro.com^
-||watchtimes.com.cn^
 ||water.7eer.net^
 ||wateranik.com^
 ||waterboa.midu.dev^
@@ -86991,7 +87000,6 @@
 ||websitealive2.com^
 ||websitealive5.com^
 ||websiteceo.com^
-||websiteconnecting.com^
 ||websiteonlinecounter.com^
 ||websiteperform.com^
 ||websitepromoserver.com^
@@ -87399,7 +87407,6 @@
 ||whexamipta.com^
 ||whezogrewha.com^
 ||whfpbc.99.com.cn^
-||whhd.gov.cn^
 ||whhepyd.cn^
 ||whhrux.com^
 ||whhxnz.com^
@@ -88714,6 +88721,7 @@
 ||www.behe.com^
 ||www.beintoo.com^
 ||www.belles-photos.net.zooplus.nl^
+||www.benaughty.com^
 ||www.benhamlyn.plus.com^
 ||www.benn8bord.com^
 ||www.besti.ga^
@@ -89405,6 +89413,7 @@
 ||www.onclickpredictiv.com^
 ||www.one-door.com^
 ||www.onelouder.com^
+||www.onenightfriend.com^
 ||www.onesafe-software.com^
 ||www.onetag.com^
 ||www.only-dates.de^
@@ -90107,6 +90116,7 @@
 ||x.ojgoy.cn^
 ||x.porn.fr^
 ||x.shopsavvy.com^
+||x.skimresources.com^
 ||x.vindicosuite.com^
 ||x.weather.com^
 ||x.zhuyuanp.top^
@@ -92134,7 +92144,6 @@
 ||yun-pdm5000.cn^
 ||yun.duiba.com.cn^
 ||yun.sifuhe.cn^
-||yun.tuia.cn^
 ||yun.tuisnake.com^
 ||yun.tuitiger.com^
 ||yun.yuyiya.com^
@@ -92648,6 +92657,7 @@
 ||zgody.infor.pl^
 ||zgqgig.skillbox.ru^
 ||zgrsq.cn^
+||zgsdk.zhugeio.com^
 ||zgsxhx.com^
 ||zgtcar.com^
 ||zgty365.com^
