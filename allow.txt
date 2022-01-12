@@ -1,6 +1,6 @@
 ! Title: Allowlist
-! Version: 2022-01-11 22:12:27
-! Total count: 4855
+! Version: 2022-01-12 10:13:42
+! Total count: 4856
 @@||bkimg.cdn.bcebos.com^
 @@||imgstat.baidu.com^
 @@||v6lvs.com^
@@ -5240,6 +5240,7 @@
 @@||estafeta.com/shared/js/tracking.js
 @@||ethn.io/*.js$domain=medicare.gov
 @@||etonline.com/modules/contrib/ctd_cvp/js/prebid-ads.js$script,~third-party
+@@||etsy.com/api/v3/ajax/bespoke/*log_performance_metrics=$~third-party
 @@||euronewsgroup.demdex.net/event?d_event=$~third-party
 @@||eventim.de^*/xtcore.js
 @@||events-collector.spot.im/api/$xmlhttprequest
