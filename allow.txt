@@ -1,6 +1,6 @@
 ! Title: Allowlist
-! Version: 2022-01-14 10:13:52
-! Total count: 4858
+! Version: 2022-01-14 22:12:12
+! Total count: 4860
 @@||bkimg.cdn.bcebos.com^
 @@||imgstat.baidu.com^
 @@||v6lvs.com^
@@ -3525,6 +3525,7 @@
 
 @@$generichide,domain=heapfiles.com|vidoza.co|vidoza.net
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
+@@-ds.metric.gstatic.com^
 @@-social-bar.$domain=mobi.yahoo.com
 @@.2o7.net/$domain=today.com
 @@.adserver.$domain=litv.tv
@@ -3705,7 +3706,6 @@
 @@_cpc_cpm_$domain=ygo-sem.cn
 @@adsense$domain=adnanguney.com,image
 @@analytics^$domain=wwe.com
-@@dnsotls-ds.metric.gstatic.com^
 @@jd.com/*ad_
 @@u-ads.adap.tv*youku.$domain=youku.com
 @@|ads.adsterra.com^|
@@ -4606,6 +4606,7 @@
 @@||cdn.bootcss.com^$script,domain=59xs.com|biqudd.com|didaxiaoshuo.cc|geilwx.com|shudai.org|xhxswz.com|xsw55.com|ysxs8.com
 @@||cdn.bootcss.com^$script,domain=rijutv.com
 @@||cdn.cervell.io^$domain=cildimveben.com
+@@||cdn.clerk.io/clerk.js$domain=batteribyen.dk|batterionline.no|batterionline.se
 @@||cdn.cloudflare.net^$stylesheet,script,xmlhttprequest,domain=cocomanga.com|cocomanga.com
 @@||cdn.cquotient.com/js/*/gretel.min.js$domain=karstadt.de
 @@||cdn.cquotient.com/js/*/gretel.min.js$domain=sloggi.com
@@ -8001,6 +8002,7 @@
 @@||uefa.com/inc/js/core/projects/statistics/statistics.js?$script
 @@||ugdturner.com/xd.sjs$domain=tbs.com
 @@||uid.mavencoalition.io/v$domain=owlcation.com
+@@||uid.mavencoalition.io/v3$xmlhttprequest,domain=discover.hubpages.com
 @@||uid.mavencoalition.io/v3$xmlhttprequest,domain=globalcovidsummit.org
 @@||uid.mavencoalition.io^$xmlhttprequest,domain=mtonews.com|thestreet.com
 @@||uim.tifbs.net/js/$script,domain=web.de
