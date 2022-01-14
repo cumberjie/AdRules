@@ -1,6 +1,6 @@
 ! Title: Allowlist
-! Version: 2022-01-13 22:12:32
-! Total count: 4857
+! Version: 2022-01-14 10:13:52
+! Total count: 4858
 @@||bkimg.cdn.bcebos.com^
 @@||imgstat.baidu.com^
 @@||v6lvs.com^
@@ -7146,6 +7146,7 @@
 @@||playep.pro/log_event$~third-party,xmlhttprequest
 @@||player-feedback-v1.glomex.com/pf/|$domain=player.glomex.com
 @@||player-feedback.p7s1video.net^$script,domain=kabeleins.de|sat1.de
+@@||player.aniview.com/script/$script,domain=odysee.com
 @@||player.anyclip.com/anyclip-widget/lre-widget/$script,domain=video.timeout.com|video.venturebeat.com|videos.heute.at
 @@||player.avplayer.com^$script,domain=explosm.net
 @@||player.bizportal.co.il/scripts/GoogleAnalytics.js$domain=bizportal.co.il
