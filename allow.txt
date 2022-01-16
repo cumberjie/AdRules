@@ -1,5 +1,5 @@
 ! Title: Allowlist
-! Version: 2022-01-16 10:13:16
+! Version: 2022-01-16 22:11:50
 ! Total count: 4861
 @@||bkimg.cdn.bcebos.com^
 @@||imgstat.baidu.com^
@@ -3760,7 +3760,6 @@
 @@||199it.com^$generichide
 @@||19iiii.info/js/logo$script
 @@||1gr.cz/js/dtm/cache/satelliteLib-$domain=idnes.cz
-@@||1point3acres.com^$generichide
 @@||1trackapp.com//static/tracking/$script,domain=1track.ru
 @@||1trackapp.com/static/tracking/$domain=1track.ru
 @@||1trackapp.com/static/tracking/$script,stylesheet,~third-party
@@ -6879,6 +6878,7 @@
 @@||netflav.com^$generichide
 @@||netflix.com^$generichide
 @@||netinsight.travelers.com/scripts/ntpagetaghttps.js
+@@||netmede.pt/code/ga.min.js$script,domain=netmede.pt
 @@||netmile.co.jp/ad/images/$image
 @@||netsh.org^$script,~third-party,xmlhttprequest,domain=serve.netsh.org
 @@||nettix.fi^*_analytics.js$domain=nettiauto.com|nettikaravaani.com|nettikone.com|nettimokki.com|nettimoto.com|nettivaraosa.com
@@ -8300,7 +8300,7 @@
 @@||xtool.ru/js/analyze.js$script,domain=xtool.ru
 @@||yabs.yandex.ru$domain=yandex.by|yandex.com.tr|yandex.kz|yandex.ru|yandex.ua
 @@||yadayadayada.nl/banner/banner.php$image,domain=murf.nl|workhardclimbharder.nl
-@@||yads.c.yimg.jp/js/yads-async.js$domain=yahoo.co.jp
+@@||yads.c.yimg.jp/js/yads-async.js$domain=kobe-np.co.jp|yahoo.co.jp
 @@||yandex.com/search/?$generichide
 @@||yandex.ru/metrika/tag.js$script,domain=kuchenland.ru
 @@||yandex.ru/metrika/watch.js$domain=alean.ru|anoncer.net|nabortu.ru|samozapis-spb.ru|tv.yandex.ru|tvrain.ru
