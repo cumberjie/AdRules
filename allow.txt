@@ -1,5 +1,5 @@
 ! Title: Allowlist
-! Version: 2022-01-20 10:12:18
+! Version: 2022-01-20 22:11:02
 ! Total count: 4872
 @@||bkimg.cdn.bcebos.com^
 @@||imgstat.baidu.com^
@@ -4768,6 +4768,7 @@
 @@||chartbeat.com/*/chartbeat/$~third-party
 @@||chartbeat.com/js/chartbeat.js$domain=salon.com
 @@||chasecdn.com^*/@ccb-blueanalytics/$script,domain=chase.com
+@@||chat-webim.rsb.ru/l/v/track.php?
 @@||chat.conveyhs.com/chatadapter/clickstream/clickstream.js$script
 @@||chatzy.com/?jsonp:$script
 @@||chdbits.co/pic/cattrans.gif
@@ -5529,7 +5530,6 @@
 @@||google-analytics.com/analytics.js$domain=cwtv.com
 @@||google-analytics.com/analytics.js$domain=dashboard.kitcast.tv
 @@||google-analytics.com/analytics.js$domain=defesanet.com.br
-@@||google-analytics.com/analytics.js$domain=dermokozmetik.com
 @@||google-analytics.com/analytics.js$domain=dev.silverfish.com
 @@||google-analytics.com/analytics.js$domain=developers.google.com
 @@||google-analytics.com/analytics.js$domain=dirkzwager.nl
