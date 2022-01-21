@@ -4,8 +4,8 @@
 ! Powerd by CatsTeam
 ! Expires: 12 Hours
 ! 该规则合并自AdGuardDNS过滤器，1hosts，adgk等
-! Version: 2022-01-20 22:11:01
-! Total count: 72844
+! Version: 2022-01-21 10:12:33
+! Total count: 72845
 @@-ds.metric.gstatic.com^
 @@|ads.adsterra.com^|
 @@|adsterra.com^|
@@ -41,6 +41,7 @@
 @@||ad.siemens.com.cn^
 @@||adcdn.pingan.com^
 @@||adm.10jqka.com.cn^
+@@||adm.crowdicity.com^
 @@||admin.dable.io^|
 @@||ads.amazon^
 @@||ads.cdn.tvb.com^*.key
@@ -14852,6 +14853,7 @@
 ||cdnspace.io^
 ||cdnstats-a.akamaihd.net^
 ||cdnstoremedia.com^
+||cdnstr.com^
 ||cdntest.a8tiyu.com^
 ||cdntlz.cn^
 ||cdntrf.com^
@@ -30349,7 +30351,6 @@
 ||huanbao110.com.cn^
 ||huanbaoxiangmu.xyz^
 ||huangdao.info^
-||huangye.miui.com^
 ||huangyeqing.cn^
 ||huanrentv.cn^
 ||huapuzs.com^
