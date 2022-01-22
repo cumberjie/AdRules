@@ -8,6 +8,7 @@ curl -o i3.txt https://adaway.org/hosts.txt
 curl -o i4.txt https://raw.githubusercontent.com/r-a-y/mobile-hosts/master/AdguardApps.txt
 curl -o i5.txt https://raw.githubusercontent.com/r-a-y/mobile-hosts/master/AdguardMobileAds.txt
 curl -o i6.txt https://raw.githubusercontent.com/badmojr/1Hosts/master/mini/hosts.txt
+curl -o i7.txt https://raw.githubusercontent.com/cumberjie/Ad-set-hosts/master/hosts
 
 # Start Merge and Duplicate Removal
 cat i*.txt > mergd.txt
