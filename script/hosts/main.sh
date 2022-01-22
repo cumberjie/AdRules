@@ -4,14 +4,14 @@ cd script/hosts/src
 # Start Download
 curl -o i1.txt https://raw.githubusercontent.com/r-a-y/mobile-hosts/master/AdguardDNS.txt 
 curl -o i2.txt https://raw.githubusercontent.com/r-a-y/mobile-hosts/master/AdguardMobileSpyware.txt
-curl -o i3.txt https://adaway.org/hosts.txt
+#curl -o i3.txt https://adaway.org/hosts.txt
 curl -o i4.txt https://raw.githubusercontent.com/r-a-y/mobile-hosts/master/AdguardApps.txt
 curl -o i5.txt https://raw.githubusercontent.com/r-a-y/mobile-hosts/master/AdguardMobileAds.txt
 curl -o i6.txt https://raw.githubusercontent.com/badmojr/1Hosts/master/mini/hosts.txt
 curl -o i7.txt https://raw.githubusercontent.com/VeleSila/yhosts/master/hosts.txt
-curl -o i8.txt https://raw.githubusercontent.com/jdlingyu/ad-wars/master/hosts
+#curl -o i8.txt https://raw.githubusercontent.com/jdlingyu/ad-wars/master/hosts
 curl -o i9.txt https://raw.githubusercontent.com/ilpl/ad-hosts/master/hosts
-curl -o i10.txt https://raw.githubusercontent.com/Goooler/1024_hosts/master/hosts
+#curl -o i10.txt https://raw.githubusercontent.com/Goooler/1024_hosts/master/hosts
  
 # Start Merge and Duplicate Removal
 cat i*.txt > mergd.txt
