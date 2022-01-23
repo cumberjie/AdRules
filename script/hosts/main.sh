@@ -22,7 +22,8 @@ cat 1.txt 0.txt user.dd > tmpp.txt
 sort tmpp.txt | uniq > tmp.txt
 
 # hosts
-curl -s https://raw.githubusercontent.com/521xueweihan/GitHub520/master/hosts > gh.txt
+curl -s https://cats-team.coding.net/p/adguard/d/AdRules/git/raw/main/rules/fasthosts.txt > gh.txt
+sed -i "s/#.*//g" gh.txt
 
 # Start Count Rules
 num=`cat tmp.txt gh.txt | wc -l`
@@ -31,7 +32,7 @@ num=`cat tmp.txt gh.txt | wc -l`
 echo "! Version: `date +"%Y-%m-%d %H:%M:%S"`" >> tpdate.txt
 echo "! Total count: $num" >> tpdate.txt
  
-cat title.dd tpdate.txt tmp.txt gh.txt> final.txt
+cat tpdate.txt tmp.txt gh.txt> final.txt
 
 mv final.txt ../../hosts.txt
 rm *.txt
