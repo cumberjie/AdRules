@@ -21,14 +21,17 @@ cat mergd.txt | grep '^0'  > 0.txt
 cat 1.txt 0.txt > tmpp.txt
 sort tmpp.txt | uniq > tmp.txt
 
-
 # Start Count Rules
 num=`cat tmp.txt | wc -l`
+
+# hosts
+curl -s https://raw.githubusercontent.com/521xueweihan/GitHub520/master/hosts | sed "/#/d;s/ \{2,\}/ /g" > gh
 
 # Start Add title and date
 echo "! Version: `date +"%Y-%m-%d %H:%M:%S"`" >> tpdate.txt
 echo "! Total count: $num" >> tpdate.txt
-cat title.dd tpdate.txt user.dd tmp.txt > final.txt
+ 
+cat title.dd tpdate.txt user.dd gh tmp.txt > final.txt
 
 mv final.txt ../../hosts.txt
 rm *.txt
