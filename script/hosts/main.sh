@@ -18,15 +18,15 @@ curl -o i11.txt https://raw.githubusercontent.com/cumberjie/Ad-set-hosts/master/
 cat i*.txt > mergd.txt
 cat mergd.txt | grep '^1'  > 1.txt
 cat mergd.txt | grep '^0'  > 0.txt
-cat 1.txt 0.txt > tmpp.txt
+cat 1.txt 0.txt user.dd > tmpp.txt
 sort tmpp.txt | uniq > tmp.txt
 
-# Start Count Rules
-num=`cat tmp.txt | wc -l`
-
 # hosts
-curl -s https://raw.githubusercontent.com/521xueweihan/GitHub520/master/hosts | sed "/#/d;s/ \{2,\}/ /g" > gh.txt
- 
+curl -s https://raw.githubusercontent.com/521xueweihan/GitHub520/master/hosts > gh.txt
+
+# Start Count Rules
+num=`cat tmp.txt gh.txt | wc -l`
+
 # Start Add title and date
 echo "! Version: `date +"%Y-%m-%d %H:%M:%S"`" >> tpdate.txt
 echo "! Total count: $num" >> tpdate.txt
