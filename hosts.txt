@@ -2,8 +2,8 @@
 # Homepage: https://github.com/Cats-Team/AdRules
 # Powerd by CatsTeam
 # Expires: 12 Hours
-# 该规则合并自AdGuardDNS过滤器，Githosts，Adaway等! Version: 2022-01-23 09:18:15
-! Total count: 103157
+# 该规则合并自AdGuardDNS过滤器，Githosts，Adaway等! Version: 2022-01-23 09:23:12
+! Total count: 103207
 0.0.0.0 0.0.0.0
 0.0.0.0 0.nextyourcontent.com
 0.0.0.0 0.oldgyhogola.com
@@ -38139,6 +38139,7 @@
 0.0.0.0 game.weibo.com
 0.0.0.0 game.weibo.com.cn
 0.0.0.0 game.weixin.qq.com
+0.0.0.0 game.weixin.qq.com
 0.0.0.0 game3737.com
 0.0.0.0 game3896.com
 0.0.0.0 game4343.com
@@ -51621,6 +51622,7 @@
 0.0.0.0 log.tinxe.vn
 0.0.0.0 log.toss.vn
 0.0.0.0 log.tpns.tencent.com
+0.0.0.0 log.tpns.tencent.com
 0.0.0.0 log.trackingio.com
 0.0.0.0 log.travel.co.jp
 0.0.0.0 log.trendingnow.video
@@ -57079,6 +57081,7 @@
 0.0.0.0 midas-i.com
 0.0.0.0 midas-network.com
 0.0.0.0 midas.evergage.com
+0.0.0.0 midas.gtimg.cn
 0.0.0.0 midas.gtimg.cn
 0.0.0.0 midas.rong360.com
 0.0.0.0 midasatlas.com
@@ -87737,6 +87740,7 @@
 0.0.0.0 trackedweb.net
 0.0.0.0 trackeoz.fr
 0.0.0.0 tracker-01.qvb.qcloud.com
+0.0.0.0 tracker-01.qvb.qcloud.com
 0.0.0.0 tracker-adserver.ibillboard.com
 0.0.0.0 tracker-api.my.com
 0.0.0.0 tracker-int-01.webtrekk.net
@@ -95698,6 +95702,7 @@
 0.0.0.0 ww3232.smartadserver.com
 0.0.0.0 ww370.smartadserver.com
 0.0.0.0 ww38.zhihuu.com
+0.0.0.0 ww38.zhihuu.com
 0.0.0.0 ww4.leadboltads.net
 0.0.0.0 ww4.tongji123.com
 0.0.0.0 ww400.smartadserver.com
@@ -99565,6 +99570,8 @@
 0.0.0.0 wxsnsdy.tc.qq.com
 0.0.0.0 wxsnsdy.video.qq.com
 0.0.0.0 wxsnsdy.wxs.qq.com
+0.0.0.0 wxsnsdy.wxs.qq.com
+0.0.0.0 wxsnsdythumb.wxs.qq.com
 0.0.0.0 wxsnsdythumb.wxs.qq.com
 0.0.0.0 wxsohu.com
 0.0.0.0 wxspfkln.com
@@ -103161,41 +103168,46 @@
 185.199.108.154 github.githubassets.com
 192.0.66.2 github.blog
 199.232.69.194 github.global.ssl.fastly.net
-140.82.112.25 alive.github.com
-140.82.112.26 live.github.com
-185.199.108.154 github.githubassets.com
-140.82.112.22 central.github.com
-185.199.108.133 desktop.githubusercontent.com
-185.199.108.153 assets-cdn.github.com
-185.199.108.133 camo.githubusercontent.com
-185.199.108.133 github.map.fastly.net
-199.232.69.194 github.global.ssl.fastly.net
-140.82.112.4 gist.github.com
-185.199.108.153 github.io
-140.82.113.4 github.com
-192.0.66.2 github.blog
-140.82.114.5 api.github.com
-185.199.108.133 raw.githubusercontent.com
-185.199.108.133 user-images.githubusercontent.com
-185.199.108.133 favicons.githubusercontent.com
-185.199.108.133 avatars5.githubusercontent.com
-185.199.108.133 avatars4.githubusercontent.com
-185.199.108.133 avatars3.githubusercontent.com
-185.199.108.133 avatars2.githubusercontent.com
-185.199.108.133 avatars1.githubusercontent.com
-185.199.108.133 avatars0.githubusercontent.com
-185.199.108.133 avatars.githubusercontent.com
-140.82.114.9 codeload.github.com
-52.216.142.68 github-cloud.s3.amazonaws.com
-52.217.37.44 github-com.s3.amazonaws.com
-52.217.202.193 github-production-release-asset-2e65be.s3.amazonaws.com
-52.217.163.105 github-production-user-asset-6210df.s3.amazonaws.com
-54.231.202.209 github-production-repository-file-5c1aeb.s3.amazonaws.com
-185.199.108.153 githubstatus.com
-64.71.144.202 github.community
-23.100.27.125 github.dev
-185.199.108.133 media.githubusercontent.com
-185.199.108.133 cloud.githubusercontent.com
-185.199.108.133 objects.githubusercontent.com
+# GitHub520 Host Start
+140.82.112.25                 alive.github.com
+140.82.112.26                 live.github.com
+185.199.108.154               github.githubassets.com
+140.82.112.22                 central.github.com
+185.199.108.133               desktop.githubusercontent.com
+185.199.108.153               assets-cdn.github.com
+185.199.108.133               camo.githubusercontent.com
+185.199.108.133               github.map.fastly.net
+199.232.69.194                github.global.ssl.fastly.net
+140.82.112.4                  gist.github.com
+185.199.108.153               github.io
+140.82.113.4                  github.com
+192.0.66.2                    github.blog
+140.82.114.5                  api.github.com
+185.199.108.133               raw.githubusercontent.com
+185.199.108.133               user-images.githubusercontent.com
+185.199.108.133               favicons.githubusercontent.com
+185.199.108.133               avatars5.githubusercontent.com
+185.199.108.133               avatars4.githubusercontent.com
+185.199.108.133               avatars3.githubusercontent.com
+185.199.108.133               avatars2.githubusercontent.com
+185.199.108.133               avatars1.githubusercontent.com
+185.199.108.133               avatars0.githubusercontent.com
+185.199.108.133               avatars.githubusercontent.com
+140.82.114.9                  codeload.github.com
+52.216.142.68                 github-cloud.s3.amazonaws.com
+52.217.37.44                  github-com.s3.amazonaws.com
+52.217.202.193                github-production-release-asset-2e65be.s3.amazonaws.com
+52.217.163.105                github-production-user-asset-6210df.s3.amazonaws.com
+54.231.202.209                github-production-repository-file-5c1aeb.s3.amazonaws.com
+185.199.108.153               githubstatus.com
+64.71.144.202                 github.community
+23.100.27.125                 github.dev
+185.199.108.133               media.githubusercontent.com
+185.199.108.133               cloud.githubusercontent.com
+185.199.108.133               objects.githubusercontent.com
 
 
+# Update time: 2022-01-23T16:06:04+08:00
+# Update url: https://raw.hellogithub.com/hosts
+# Star me: https://github.com/521xueweihan/GitHub520
+# GitHub520 Host End
