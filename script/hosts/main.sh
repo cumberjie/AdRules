@@ -25,13 +25,13 @@ sort tmpp.txt | uniq > tmp.txt
 num=`cat tmp.txt | wc -l`
 
 # hosts
-curl -s https://raw.githubusercontent.com/521xueweihan/GitHub520/master/hosts | sed "/#/d;s/ \{2,\}/ /g" > gh
-
+curl -s https://raw.githubusercontent.com/521xueweihan/GitHub520/master/hosts | sed "/#/d;s/ \{2,\}/ /g" > gh.txt
+ 
 # Start Add title and date
 echo "! Version: `date +"%Y-%m-%d %H:%M:%S"`" >> tpdate.txt
 echo "! Total count: $num" >> tpdate.txt
  
-cat title.dd tpdate.txt user.dd gh tmp.txt > final.txt
+cat title.dd tpdate.txt tmp.txt gh.txt> final.txt
 
 mv final.txt ../../hosts.txt
 rm *.txt
