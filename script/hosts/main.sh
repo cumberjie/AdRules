@@ -20,7 +20,6 @@ cat mergd.txt | grep '^1'  > 1.txt
 cat mergd.txt | grep '^0'  > 0.txt
 cat 1.txt 0.txt user.dd > tmpp.txt
 sort tmpp.txt | uniq > tmp.txt
-sed -i '1d' tmp.txt
 
 # hosts
 curl -s https://cats-team.coding.net/p/adguard/d/AdRules/git/raw/main/rules/fasthosts.txt > gh.txt
