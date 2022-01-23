@@ -30,7 +30,7 @@ sed -i "/^$/d" gh.txt
 num=`cat tmp.txt gh.txt | wc -l`
 
 # Start Add title and date
-echo "! Version: `date +"%Y-%m-%d %H:%M:%S"`" >> tpdate.txt
+echo "! Version: $(date '+%Y-%m-%d %T')" >> tpdate.txt
 echo "! Total count: $num" >> tpdate.txt
  
 cat tpdate.txt tmp.txt gh.txt> final.txt
