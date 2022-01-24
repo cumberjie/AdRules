@@ -18,7 +18,7 @@ curl -o i11.txt https://raw.githubusercontent.com/cumberjie/Ad-set-hosts/master/
 cat i*.txt > mergd.txt
 cat mergd.txt | grep '^1'  > 1.txt
 cat mergd.txt | grep '^0'  > 0.txt
-cat 1.txt 0.txt user.dd > tmpp.txt
+cat 1.txt 0.txt > tmpp.txt
 sort tmpp.txt | uniq > tmp.txt
 
 # hosts
@@ -27,13 +27,13 @@ sed -i "s/#.*//g" gh.txt
 sed -i "/^$/d" gh.txt
 
 # Start Count Rules
-num=`cat tmp.txt gh.txt | wc -l`
+num=`cat user.dd tmp.txt gh.txt | wc -l`
 
 # Start Add title and date
 echo "! Version: $(date '+%Y-%m-%d %T')" >> tpdate.txt
 echo "! Total count: $num" >> tpdate.txt
  
-cat tpdate.txt tmp.txt gh.txt> final.txt
+cat tpdate.txt user.dd tmp.txt gh.txt> final.txt
 
 mv final.txt ../../hosts.txt
 rm *.txt
