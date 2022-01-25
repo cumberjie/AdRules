@@ -16,9 +16,9 @@ curl -o i11.txt https://raw.githubusercontent.com/cumberjie/Ad-set-hosts/master/
 
 # Start Merge and Duplicate Removal
 cat i*.txt > mergd.txt
-cat mergd.txt | grep '^1'  > 1.txt
+#cat mergd.txt | grep '^1'  > 1.txt
 cat mergd.txt | grep '^0'  > 0.txt
-cat 1.txt 0.txt > tmpp.txt
+cat 0.txt > tmpp.txt
 sort tmpp.txt | uniq > tmp.txt
 
 # hosts
