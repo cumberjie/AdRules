@@ -1,5 +1,5 @@
 ! Title: Allowlist
-! Version: 2022-01-24 22:11:29
+! Version: 2022-01-25 06:50:04
 ! Total count: 4879
 @@||bkimg.cdn.bcebos.com^
 @@||imgstat.baidu.com^
@@ -4057,7 +4057,7 @@
 @@||advert.kf5.com^
 @@||adx.yiche.com/cityindex.ashx
 @@||adx.yiche.com/ssp/echo/v1.0/en?*,*,*&cs=
-@@||aeries.net/aeries/scripts/require/analytics/views/$script,~third-party
+@@||aeries.net^*/require/analytics/views/$script,~third-party
 @@||aetv.com^$generichide
 @@||aff.bstatic.com/static/affiliate_base/js/booking_sp_widget.js$domain=arukikata.co.jp
 @@||affyun.com^$generichide
