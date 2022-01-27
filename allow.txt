@@ -1,6 +1,6 @@
 ! Title: Allowlist
-! Version: 2022-01-26 22:10:53
-! Total count: 4888
+! Version: 2022-01-27 10:12:24
+! Total count: 4889
 @@||bkimg.cdn.bcebos.com^
 @@||imgstat.baidu.com^
 @@||v6lvs.com^
@@ -4839,7 +4839,7 @@
 @@||cloudflare.com/ajax/libs/fingerprintjs2/*/fingerprint2.min.js$domain=nfmovies.com
 @@||cloudflare.com/ajax/libs/fuckadblock/$domain=seselah.com
 @@||cloudflare.com/analytics?$domain=cloudflare.com
-@@||cloudflare.com/cdn-cgi/trace$domain=myair2.resmed.com
+@@||cloudflare.com/cdn-cgi/trace$domain=infyspringboard.onwingspan.com|myair2.resmed.com
 @@||cloudflare.com^$script,stylesheet,domain=canyoublockit.com
 @@||cloudflare.com^*/videojs-contrib-ads.js$domain=wtk.pl
 @@||cloudflareinsights.com/beacon.min.js$script,domain=app.uniswap.org
@@ -4925,6 +4925,7 @@
 @@||constantcontact.com/js/WebTracking/
 @@||contacts.google.com^$generichide
 @@||content.adunity.com/aulib.js$script,domain=b1tv.ro
+@@||content.pouet.net/avatars/adx.gif$image,~third-party
 @@||content.s8bbs.com/ad/bbs/*.jpg
 @@||contents*.00110.citi.com^|
 @@||conversion.im/images/icons/google-analytics.png
