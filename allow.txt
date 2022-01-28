@@ -1,6 +1,6 @@
 ! Title: Allowlist
-! Version: 2022-01-28 10:13:08
-! Total count: 4892
+! Version: 2022-01-28 22:10:50
+! Total count: 4894
 @@||bkimg.cdn.bcebos.com^
 @@||imgstat.baidu.com^
 @@||v6lvs.com^
@@ -4679,6 +4679,7 @@
 @@||cdn.retailrocket.*/*/tracking.js$domain=ozerki.ru
 @@||cdn.retailrocket.ru/content/javascript/tracking.js$domain=comfy.ua
 @@||cdn.rozetka.com.ua^|
+@@||cdn.sajari.com/embed/*/*.js$domain=insurancebusinessmag.com
 @@||cdn.scarabresearch.com/js/*/scarab-v*.js$domain=avansas.com
 @@||cdn.segment.com/*/analytics.min.js$domain=canva.com
 @@||cdn.segment.com/analytics-next/$domain=app.cryptotrader.tax|givingassistant.org
@@ -5257,6 +5258,7 @@
 @@||etonline.com/modules/contrib/ctd_cvp/js/prebid-ads.js$script,~third-party
 @@||etsy.com/api/v3/ajax/bespoke/*log_performance_metrics=$~third-party
 @@||euronewsgroup.demdex.net/event?d_event=$~third-party
+@@||ev.tpocdm.com^$xmlhttprequest,domain=wowma.jp
 @@||eventim.de^*/xtcore.js
 @@||events-collector.spot.im/api/$xmlhttprequest
 @@||events-collector.spot.im/api/$xmlhttprequest,other,domain=rt.com
