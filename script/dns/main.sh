@@ -12,6 +12,8 @@ curl -o i8.txt https://raw.githubusercontent.com/o0HalfLife0o/list/master/ad-ede
 #curl -o i9.txt https://raw.githubusercontent.com/banbendalao/ADgk/master/ADgk.txt
 #curl -o i10.txt https://raw.githubusercontent.com/Cats-Team/AdRules/main/adblock.txt
 curl -o i11.txt https://anti-ad.net/easylist.txt
+curl -o i12.txt https://raw.githubusercontent.com/Cats-Team/AdRules/main/script/dns/src/brules.dd
+curl -o i13.txt https://raw.githubusercontent.com/Cats-Team/AdRules/main/script/adblock/src/user-rules.dd
 
 # Start Merge and Duplicate Removal
 cat i*.txt > mergd.txt
