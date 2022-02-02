@@ -1,6 +1,6 @@
 ! Title: Allowlist
-! Version: 2022-02-02 17:08:26
-! Total count: 4907
+! Version: 2022-02-02 22:11:08
+! Total count: 4909
 @@||bkimg.cdn.bcebos.com^
 @@||imgstat.baidu.com^
 @@||v6lvs.com^
@@ -5869,6 +5869,7 @@
 @@||googletagmanager.com/gtag/js?id=$domain=kawasaki.com
 @@||googletagmanager.com/gtag/js?id=$domain=laudamotion.com
 @@||googletagmanager.com/gtag/js?id=$domain=rotana.net
+@@||googletagmanager.com/gtag/js?id=$domain=thenewsfetcher.com
 @@||googletagmanager.com/gtag/js?id=$domain=view.epageview.com
 @@||googletagmanager.com/gtag/js^$domain=stardock.com
 @@||googletagmanager.com/gtag/js^$domain=teb.com.tr
@@ -8424,6 +8425,7 @@
 @@||zillowstatic.com/c/*/linktrack.js$domain=zillow.com
 @@||zinro.net/m/end.php?$~third-party
 @@||zinro.net/m/log.php
+@@||zjjcxy.cn^*/ad.css?$stylesheet
 @@||zmtt.net^$script,domain=luoqiuzw.com
 @@||zohopublic.com^*/ADManager_$subdocument,xmlhttprequest,domain=manageengine.com|zohopublic.com
 @@||zoominfo.com/c/amplitude-js$script,~third-party
