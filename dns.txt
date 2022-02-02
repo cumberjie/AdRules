@@ -4,8 +4,8 @@
 ! Powerd by CatsTeam
 ! Expires: 12 Hours
 ! 该规则合并自AdGuardDNS过滤器，1hosts，adgk等
-! Version: 2022-02-02 14:09:25
-! Total count: 65952
+! Version: 2022-02-02 15:44:51
+! Total count: 65998
 @@-ds.metric.gstatic.com^
 @@|ads.adsterra.com^|
 @@|adsterra.com^|
@@ -63,6 +63,7 @@
 @@||api.ads.tvb.com^
 @@||api.huangye.miui.com^
 @@||api.onedrive.com^
+@@||api.yjllq.com^
 @@||app-advertise.zhihuishu.com^
 @@||app.adjust.com^
 @@||app.adjust.com^|
@@ -73,6 +74,7 @@
 @@||awin1.com^|
 @@||baidu.com^*&cb=BaiduSuggestion.
 @@||baozhang.baidu.com^
+@@||bkimg.cdn.bcebos.com^
 @@||blog.logrocket.com^|
 @@||buyad.bi-xenon.cn^
 @@||captcha.qq.com^*&refer=http
@@ -123,6 +125,7 @@
 @@||grp07.ias.rakuten.co.jp^|
 @@||gs.statcounter.com^|
 @@||guce.advertising.com^
+@@||gw.m.163.com^
 @@||h-sdk.online-metrix.net^|
 @@||hb.afl.rakuten.co.jp^|
 @@||health.halodoc.com^|
@@ -133,12 +136,15 @@
 @@||id.i2i.jp^|
 @@||imasdk.googleapis.com^|
 @@||img.ads.tvb.com^
+@@||imgstat.baidu.com^
+@@||inews.gtimg.com^
 @@||insideruser.microsoft.com^
 @@||intersport.peerius.com^|
 @@||iufostworldcongress-singapore.com^
 @@||letvcloud.com^*&showAd=
 @@||links.e.theatlantic.com^|
 @@||links.getblueshift.com^|
+@@||list-manage.com
 @@||log.mmstat.com^
 @@||log.mmstat.com^|
 @@||logentries.com^|
@@ -148,6 +154,7 @@
 @@||mc.*.exacttarget.com^|
 @@||meizu.coapi.moji.com^
 @@||metrics.vrch.at^
+@@||metrics1.data.hicloud.com^
 @@||mmy.la^*300*250
 @@||my.tealiumiq.com^|
 @@||newad.mail.wo.cn^
@@ -159,6 +166,7 @@
 @@||omsc.kpn.com^|
 @@||oneline.nextday.media^|
 @@||pagead.l.doubleclick.net^|
+@@||pan.quark.cn^
 @@||passiontimes.hk^*-ad.php?
 @@||passport.bobo.com^
 @@||pic.iask.cn^
@@ -167,6 +175,7 @@
 @@||proto2ad.durasite.net^|
 @@||pt.afl.rakuten.co.jp^|
 @@||qq.com^*?ADTAG=
+@@||quark.sm.cn^
 @@||r.sascdn.com^|
 @@||radiofrance.targetspot.com^|
 @@||redir.tradedoubler.com^|
@@ -182,6 +191,7 @@
 @@||skydrivesync.policies.live.net^
 @@||stat.jseea.cn^
 @@||static.atm.youku.com^*.swf
+@@||static.yximgs.com^
 @@||static3.iask.cn^
 @@||stats.gov.cn^
 @@||stats.uptimerobot.com^
@@ -221,6 +231,8 @@
 @@||www.googleadservices.com^|
 @@||www.jdoqocy.com^|
 @@||www.msftconnecttest.com^
+@@||wxsnsdy.wxs.qq.com^
+@@||yoda.kwd.inkuai.com^
 @@||youku.com^*^adshow
 @@||youku.com^*^showAd
 @@||yzzkb.com.cn^*ad.
@@ -3480,6 +3492,7 @@
 ||aagqrr.com^
 ||aahqiyum.com^
 ||aahvz.top^
+||aaid.umeng.com^
 ||aakkzzz.com^
 ||aaliyaheartha.com^
 ||aamapi.com^
@@ -3823,7 +3836,9 @@
 ||access-analyze.org^
 ||access-mc.com^
 ||access.acspubs.org^
+||access.pangolin-sdk-toutiao-b.com^
 ||access.sunpower.com^
+||access1.tpns.tencent.com^
 ||accessi.it^
 ||accessiblescopevisitor.com^
 ||accessintel.com^
@@ -6245,6 +6260,7 @@
 ||aesus.so-net.ne.jp^
 ||aetejxolo.com^
 ||aeucutsmpwtvr.top^
+||aeventlog.beacon.qq.com^
 ||aexz.rm.fhxiaoshuo.com^
 ||af-110.com^
 ||af-event-logger.appsflyer.com^
@@ -6857,6 +6873,7 @@
 ||algovid.com^
 ||ali-bestshop.ru^
 ||ali-crm.ru^
+||ali-stats.jpush.cn^
 ||aliadvert.ru^
 ||aliapp.org^
 ||alibdm.xyz^
@@ -7945,6 +7962,7 @@
 ||api*.batmobi.net^
 ||api*.batmobil.net^
 ||api-*.bidmachine.io^
+||api-access.pangolin-sdk-toutiao-b.com^
 ||api-access.pangolin-sdk-toutiao.com^
 ||api-ad.kajicam.com^
 ||api-ads.tiantianqutao.com^
@@ -8729,6 +8747,7 @@
 ||astoapsu.com^
 ||astop.xyz^
 ||astra9dlya10.com^
+||astrategy.beacon.qq.com^
 ||astrazichostfilez2.xyz^
 ||astro-way.com^
 ||astrolabio.net^
@@ -17142,6 +17161,7 @@
 ||data.email-signify.cjm.adobe.com^
 ||data.email-tsb.cjm.adobe.com^
 ||data.engelhorn.de^
+||data.flurry.com^
 ||data.glamour.ru^
 ||data.goertz.de^
 ||data.haoma.sogou.com^
@@ -17993,6 +18013,7 @@
 ||difficultydilapidationsodium.com^
 ||diffusion-tracker.com^
 ||difnxm.cn^
+||dig.bdurl.net
 ||dig.bdurl.net^
 ||dig.qbao.com^
 ||dig.ultimedia.com^
@@ -23778,6 +23799,7 @@
 ||game.weibo.cn^
 ||game.weibo.com.cn^
 ||game.weibo.com^
+||game.weixin.qq.com^
 ||game3737.com^
 ||game3896.com^
 ||game4343.com^
@@ -27535,6 +27557,7 @@
 ||i.mxplayer.j2inter.com^
 ||i.pokernews.com^
 ||i.singular.net^
+||i.snssdk.com^
 ||i.ssix.io^
 ||i.stat.nearme.com.cn^
 ||i.viafoura.co^
@@ -28162,6 +28185,7 @@
 ||img1.pszyzxh.org^
 ||img1.qqwangming6.com^
 ||img1.yulu99.com^
+||img14.360buyimg.com^
 ||img1458.r.worldssl.net^
 ||img1461.r.worldssl.net^
 ||img16.diyifanwen.com^
@@ -28317,6 +28341,7 @@
 ||imyqb.cn^
 ||imzhide.net.cn^
 ||imzhv.xyz^
+||in-addr.arpa^
 ||in-appadvertising.com^
 ||in-page-push.com^
 ||in-page-push.net^
@@ -32950,6 +32975,7 @@
 ||liveupdate.mac.sandai.net^
 ||liveviewer.ez.no^
 ||livew.l.qq.com^
+||liveweb*.msstatic.com^
 ||livewebstats.dk^
 ||livexxx.me^
 ||liveyield.com^
@@ -33154,6 +33180,7 @@
 ||log-*.previewnetworks.com^
 ||log-api.aillis.net^
 ||log-api.newrelic.com^
+||log-api.pangolin-sdk-toutiao-b.com^
 ||log-api.pangolin-sdk-toutiao.com^
 ||log-collector.shopee.
 ||log-collector.shopee.vn^
@@ -37389,6 +37416,7 @@
 ||midan.io^
 ||midas-i.com^
 ||midas-network.com^
+||midas.gtimg.cn^
 ||midas.rong360.com^
 ||midasatlas.com^
 ||midastouchrt.com^
@@ -38446,6 +38474,7 @@
 ||msr.p-antiaging.com^
 ||msri.club^
 ||msrv.su^
+||mssdk-bu.snssdk.com^
 ||mssheng.com^
 ||mssp.baidu.com^
 ||mstat.acestream.net^
@@ -41464,6 +41493,8 @@
 ||otdsngganpsgru.com^
 ||otefauks.link^
 ||otf.msn.com^
+||oth.eve.mdt.qq.com^
+||oth.eve.qq.com^
 ||othecheb.net^
 ||othepbuttit.com^
 ||other.appcpi.net^
@@ -47876,6 +47907,7 @@
 ||s2strk.info^
 ||s2whyufxmzam.chatpay.com.br^
 ||s3-analytics-events.easybrain.com^
+||s3-fe-scm.pglstatp-toutiao.com^
 ||s3.chengmingliang.com^
 ||s3.joexl.com^
 ||s3.minexmr.com^
@@ -47885,6 +47917,7 @@
 ||s3.ttpsdk.info^
 ||s362693299.aon.com^
 ||s37.click^
+||s3a.pstatp.com^
 ||s3d4.cn^
 ||s3m.milkjpg.com^
 ||s3network1.com^
@@ -49441,7 +49474,12 @@
 ||sezvc.com^
 ||sf-ifc.cn^
 ||sf.vserv.mobi^
+||sf1-be-pack.pglstatp-toutiao.com^
 ||sf14g.com^
+||sf3-be-pack.pglstatp-toutiao.com^
+||sf3-fe-tos.pglstatp-toutiao.com^
+||sf3-ttcdn-tos.pstatp.com^
+||sf6-be-pack.pglstatp-toutiao.com^
 ||sf9yvla26s5t.com^
 ||sfajfu.boulanger.com^
 ||sfanf.com^
@@ -49454,6 +49492,7 @@
 ||sfhyojoctcry.com^
 ||sfilm.com^
 ||sfixretarum.com^
+||sfl-fe-tos.pglstatp-toutiao.com^
 ||sflywdvzyh.com^
 ||sfo.xsgfhkwd.date^
 ||sfoimvwyyf.com^
@@ -50144,6 +50183,7 @@
 ||skadnetwork.singular.net^
 ||skads.gxsky.com^
 ||skatestooped.com^
+||skdisplay.jd.com^
 ||skeettools.com^
 ||skenqaamefeoncfegrytbuvksebpefer.com^
 ||sketchinferiorunits.com^
@@ -53394,6 +53434,7 @@
 ||stats.jerickson.net^
 ||stats.johnmac.pro^
 ||stats.joincomet.app^
+||stats.jpush.cn^
 ||stats.justanotherpm.com^
 ||stats.kaltura.com^
 ||stats.kensho.com^
@@ -54312,6 +54353,7 @@
 ||sv-pr.ru^
 ||sv-static-lottery.headlines.pw^
 ||sv-static1-lottery.headlines.pw^
+||sv.mnyh.fun^
 ||sv.sheego.de^
 ||sv2.biz^
 ||sv88.com^
@@ -58309,6 +58351,7 @@
 ||tshuxi.bbqguys.com^
 ||tsia1114.top^
 ||tsinadol.ru^
+||tsis.jpush.cn^
 ||tsitelur.ru^
 ||tsj0.madeindesign.com^
 ||tsjdgzm.m.3dllc.cc^
@@ -59772,6 +59815,7 @@
 ||v2mlamber.com^
 ||v2mlemerald.com^
 ||v3-ad.ixigua.com^
+||v3-be-pack.pglstatp-toutiao.com^
 ||v3.jiathis.com^
 ||v3cdn.net^
 ||v3qdrfxuyzwb.com^
@@ -63006,6 +63050,8 @@
 ||wxsnsad.tc.qq.com^
 ||wxsnsdy.tc.qq.com^
 ||wxsnsdy.video.qq.com^
+||wxsnsdy.wxs.qq.com^
+||wxsnsdythumb.wxs.qq.com^
 ||wxsohu.com^
 ||wxspfkln.com^
 ||wxtp.cdn.bcebos.com^
