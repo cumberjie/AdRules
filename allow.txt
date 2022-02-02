@@ -1,6 +1,6 @@
 ! Title: Allowlist
-! Version: 2022-02-01 22:11:10
-! Total count: 4904
+! Version: 2022-02-02 10:12:34
+! Total count: 4905
 @@||bkimg.cdn.bcebos.com^
 @@||imgstat.baidu.com^
 @@||v6lvs.com^
@@ -4148,7 +4148,7 @@
 @@||amazonaws.com/static.madlan.co.il/*/heatmap.json?$xmlhttprequest
 @@||amazoncustomerservice.d2.sc.omtrdc.net^$domain=amazon.es
 @@||amc-widgets.crowdtwist.com/widgets/t/account-
-@@||amebame.com/pub/ads/$image,domain=ameba.jp|ameblo.jp
+@@||amebame.com/pub/ads/$image,domain=abema.tv|ameba.jp|ameblo.jp
 @@||amplitude.com/libs/$script,domain=elconfidencial.com
 @@||ampproject.org/v0/amp-analytics-$script,domain=cnnespanol.cnn.com
 @@||ams.amazon.co.jp^$domain=ams.amazon.co.jp
@@ -6082,7 +6082,7 @@
 @@||googletagmanager.com/gtm.js$domain=zeelandnet.nl
 @@||googletagmanager.com/gtm.js$domain=zolotoyvek.ua
 @@||googletagmanager.com/gtm.js$script,domain=animeanime.jp|carcareplus.jp|cinemacafe.net|cyclestyle.net|gamebusiness.jp|gamespark.jp|inside-games.jp|mycar-life.com|newscafe.ne.jp|reanimal.jp|resemom.jp|response.jp|scan.netsecurity.ne.jp|spyder7.com
-@@||googletagmanager.com/gtm.js$script,domain=anond.hatelabo.jp|benesse-style-care.co.jp|book.impress.co.jp|cyclestyle.net|dengekionline.com|dholic.co.jp|hatenacorp.jp|junonline.jp|kakuyomu.jp|mangaseek.net|nap-camp.com|radiko.jp|stage.parco.jp|viviennewestwood-tokyo.com|ymobile.jp
+@@||googletagmanager.com/gtm.js$script,domain=anond.hatelabo.jp|benesse-style-care.co.jp|book.impress.co.jp|cyclestyle.net|dengekionline.com|dholic.co.jp|hatenacorp.jp|junonline.jp|kakuyomu.jp|mainichi.jp|mangaseek.net|nap-camp.com|radiko.jp|stage.parco.jp|viviennewestwood-tokyo.com|ymobile.jp
 @@||googletagmanager.com/gtm.js$script,domain=beterbed.nl|finanzen.ch|mediamarkt.nl
 @@||googletagmanager.com/gtm.js$script,domain=cdon.fi|como.fi|episodi.fi|fum.fi|hobbyhall.fi|inferno.fi|rumba.fi|soundi.fi|tilt.fi|veho.fi
 @@||googletagmanager.com/gtm.js$script,domain=chronopost.fr|linternaute.com|sciencesetavenir.fr|wamiz.com
@@ -6199,6 +6199,7 @@
 @@||harvard.edu/scripts/ga_social_tracking.js
 @@||hatenacorp.jp/_next/static/chunks/pages/ads-$script,~third-party
 @@||hb.afl.rakuten.co.jp^|
+@@||hb.improvedigital.com/pbw/headerlift.min.js$domain=spielen.com
 @@||hbomax.com^$generichide
 @@||hbu.cn^*/ad.css?$stylesheet
 @@||hc360.com/ad/*.css
