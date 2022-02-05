@@ -1,6 +1,6 @@
 ! Title: Allowlist
-! Version: 2022-02-05 10:10:15
-! Total count: 4912
+! Version: 2022-02-05 22:14:03
+! Total count: 4915
 @@||bkimg.cdn.bcebos.com^
 @@||imgstat.baidu.com^
 @@||v6lvs.com^
@@ -4464,6 +4464,7 @@
 @@||bing.com/translator/api/Translate/TranslateArray?$third-party,xmlhttprequest
 @@||bingfeng.tw/data/attachment/common/ad/common_ad_icon.png
 @@||bingfeng.tw^$generichide
+@@||biqupai.com^$domain=shudai.cc
 @@||bitauto.com/bglogpostlog.js
 @@||bitbucket.org^$generichide
 @@||bitcoinbazis.hu/advertise-with-us/$~third-party
@@ -6881,6 +6882,7 @@
 @@||mxpnl.com^$domain=mixpanel.com
 @@||my.tealiumiq.com^|
 @@||myaccount.chicagotribune.com/assets/scripts/tag-manager/googleTag.js$~third-party
+@@||myaccount.depositprotection.com/Scripts/lib/jsnlog/$script,~third-party
 @@||myaccount.google.com^$generichide
 @@||mybuys.com/webrec/wr.do?
 @@||mycargo.rzd.ru/dst/scripts/common/analytics-helper.js$~third-party
@@ -7634,6 +7636,7 @@
 @@||smetrics.ticketmaster.com/b/ss/$image
 @@||smp.sankei.co.jp/js/analytics/skd.Analysis.js
 @@||smtcaw.com^$generichide
+@@||snap.licdn.com/li.lms-analytics/insight.min.js$domain=msci.com
 @@||snapchat.com/static/js/autotrack.js
 @@||softwarebrother.com^$generichide
 @@||sogou.com/adpub/cfg/sendmsg.
