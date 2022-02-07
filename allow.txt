@@ -1,6 +1,6 @@
 ! Title: Allowlist
-! Version: 2022-02-06 22:10:47
-! Total count: 4916
+! Version: 2022-02-07 10:12:24
+! Total count: 4918
 @@||bkimg.cdn.bcebos.com^
 @@||imgstat.baidu.com^
 @@||v6lvs.com^
@@ -3543,6 +3543,7 @@
 @@.png#$domain=9zvip.net|club.tgfcer.com|coolinet.com|d1-dm.com
 @@//store.donanimhaber.com/ad/*$domain=forum.donanimhaber.com
 @@/520cc/myxedetectadsx.js$domain=520cc.cc|520cc.me
+@@/_sess/script.js$domain=naszemiasto.pl
 @@/ad-close.png$domain=ch.com
 @@/ad.aspx|$domain=biqudao.com|ldzw.com|xdingdiann.com
 @@/ad/ads.js$domain=5278.cc|5278bbs.com|67.212.233.38
@@ -5039,8 +5040,8 @@
 @@||data.lidl.de^$jsinject
 @@||data.mistat.xiaomi.com^$app=com.tencent.mm
 @@||data:text^$popup,domain=box.com|clker.com|labcorp.com|zipit.io
+@@||datadoghq-browser-agent.com/datadog-$script,domain=bbcgoodfood.com|usa.experian.com
 @@||datadoghq-browser-agent.com/datadog-logs-v*.js$domain=radiotimes.com
-@@||datadoghq-browser-agent.com/datadog-rum-us.js$script,domain=usa.experian.com
 @@||datadoghq-browser-agent.com/datadog-rum.js$domain=notonthehighstreet.com
 @@||daumcdn.net/adfit/static/ad-native.min.js$domain=daum.net
 @@||daumcdn.net/adfit/static/ad.min.js$script,domain=daum.net
@@ -5185,6 +5186,7 @@
 @@||e.crashlytics.com/spi/v2/events$app=com.gedoor.monkeybook
 @@||e9china.net^$generichide
 @@||easternbank.com/sites/easternbank/files/google_tag/eastern_bank/google_tag.script.js$script,~third-party
+@@||easy-firmware.com/templates/default/html/*/assets/js/fingerprint2.min.js$script,~third-party
 @@||easylife.tw/js/adblockDetector.js
 @@||easylife.tw^$generichide
 @@||easypari.fr^*/sitestat.js
