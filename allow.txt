@@ -1,6 +1,6 @@
 ! Title: Allowlist
-! Version: 2022-02-12 10:11:28
-! Total count: 4929
+! Version: 2022-02-12 22:10:11
+! Total count: 4936
 @@||bkimg.cdn.bcebos.com^
 @@||imgstat.baidu.com^
 @@||v6lvs.com^
@@ -4307,6 +4307,7 @@
 @@||arte.tv^*/xtcore.js
 @@||artifactory.appodeal.com^|
 @@||arukikata.com/images_ad/$image,~third-party
+@@||as.uncn.jp/uwt/$script,domain=www3.nissan.co.jp
 @@||asadcdn.com/adlib/pages/sport1.js$domain=sport1.de
 @@||asahi.com/ads/$image,~third-party
 @@||asahicom.jp/ad/js/video/ytpfp.js$domain=asahi.com
@@ -4379,6 +4380,8 @@
 @@||b.scorecardresearch.com/r$domain=macworld.com|elmundo.es|pcworld.com|seattletimes.com|ancestry.com|ancestry.co.uk|ancestry.ca|ancestry.de|ancestry.it|ancestry.fr|ancestry.se|ancestry.mx
 @@||b.scorecardresearch.com/r$domain=techhive.com
 @@||b.scorecardresearch.com/r?$domain=bedfordshire-news.co.uk
+@@||b90.yahoo.co.jp/conv.js$domain=www3.nissan.co.jp
+@@||b92.yahoo.co.jp/js/s_retargeting.js$domain=www3.nissan.co.jp
 @@||bagehd.com/iplookup.
 @@||bahamut.com.tw/s01/$domain=forum.gamer.com.tw
 @@||baidu-taobao-av.com/js/home.js
@@ -6087,6 +6090,7 @@
 @@||googletagmanager.com/gtm.js$domain=wibc.com
 @@||googletagmanager.com/gtm.js$domain=wikium.ru
 @@||googletagmanager.com/gtm.js$domain=wutangclan.net
+@@||googletagmanager.com/gtm.js$domain=www3.nissan.co.jp
 @@||googletagmanager.com/gtm.js$domain=x-kom.pl|al.to
 @@||googletagmanager.com/gtm.js$domain=xn--80adinvscgek9d.xn--p1ai
 @@||googletagmanager.com/gtm.js$domain=yargici.com
@@ -6484,6 +6488,7 @@
 @@||jrhot.com/data/attachment/*_300_250_
 @@||js-agent.newrelic.com/nr-*.min.js$domain=copy.com
 @@||js-agent.newrelic.com/nr-spa-$script,domain=kapwing.com
+@@||js.adsrvr.org/up_loader.$script,domain=www3.nissan.co.jp
 @@||js.agkn.com/prod/v0/tag.js$domain=netd.com
 @@||js.appboycdn.com/web-sdk/*/appboy.min.js$domain=equinox.com
 @@||js.appboycdn.com/web-sdk/*/appboy.min.js$domain=learning.edx.org
@@ -7547,6 +7552,7 @@
 @@||securepubads.g.doubleclick.net/gpt/pubads_impl_*.js$domain=gamestar.de
 @@||securepubads.g.doubleclick.net/gpt/pubads_impl_*.js$domain=news.tvb.com
 @@||securepubads.g.doubleclick.net/tag/js/gpt.js$domain=avclub.com|clickhole.com|deadspin.com|gizmodo.com|jalopnik.com|jezebel.com|kotaku.com|lifehacker.com|splinternews.com|theinventory.com|theonion.com|theroot.com|thetakeout.com
+@@||securepubads.g.doubleclick.net/tag/js/gpt.js$domain=freundin.de
 @@||securepubads.g.doubleclick.net/tag/js/gpt.js$domain=line.me
 @@||securitytrails.com/app/api/domain/$~third-party,xmlhttprequest
 @@||seewhy.com^$domain=nixon.com
@@ -8397,6 +8403,7 @@
 @@||yimg.com^*/react-share-buttons.
 @@||yimg.com^*/ywa.js$domain=nydailynews.com|travelscream.com|yahoo.com
 @@||yimg.jp/combo?*/ad/
+@@||yimg.jp/images/listing/tool/cv/$script,domain=www3.nissan.co.jp
 @@||yimuhe.com/n_js/advertiser.js
 @@||yiqifa.com/ad_images/$~third-party
 @@||yktj.yzz.cn/htmldata/mds/yzz_single_gg.js$domain=bbs.yzz.cn
