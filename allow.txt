@@ -1,6 +1,6 @@
 ! Title: Allowlist
-! Version: 2022-02-14 10:12:28
-! Total count: 4938
+! Version: 2022-02-14 22:11:03
+! Total count: 4940
 @@||bkimg.cdn.bcebos.com^
 @@||imgstat.baidu.com^
 @@||v6lvs.com^
@@ -5304,6 +5304,7 @@
 @@||ez3c.tw^$generichide
 @@||ezoic.net/detroitchicago/cmb.js$script,domain=gerweck.net
 @@||ezsoftwarestorage.com^$image,media,domain=ezfunnels.com
+@@||f-droid.org/assets/Ads_$~third-party
 @@||f.monetate.net/trk/$domain=debenhams.com
 @@||f11.baidu.com/it^
 @@||facebook.com/ads/profile/$~third-party,xmlhttprequest
@@ -6712,6 +6713,7 @@
 @@||mangawt.com/wp-content/uploads/*.png#
 @@||mangawt.com^$generichide
 @@||manhua.weibo.com/adv/
+@@||manhwaid.org^$generichide
 @@||maps.google.*/gen_204?$xmlhttprequest
 @@||marcokrenn.com/public/js/logger.js
 @@||marketingsolutions.com.pl^*/googleanalytics-$image,domain=marketingsolutions.com.pl
