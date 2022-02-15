@@ -11,7 +11,7 @@ curl -o i6.txt https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/mast
 curl -o i7.txt https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/GermanFilter/sections/whitelist.txt 
 curl -o i8.txt https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/TurkishFilter/sections/whitelist.txt 
 curl -o i9.txt https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/SpywareFilter/sections/whitelist.txt
-curl -o i10.txt https://raw.githubusercontent.com/Potterli20/hosts/Allow/allow-all.txt
+curl -o i10.txt https://raw.githubusercontent.com/Cats-Team/AdRules/main/rules/allow-lm.txt
 
 # Start Merge and Duplicate Removal
 cat i*.txt > mergd.txt
@@ -19,13 +19,12 @@ cat mergd.txt | grep '^@' > allow.txt
 cat allow.txt > tmpp.txt
 sort -n tmpp.txt | uniq > tmp.txt
 
-
 # Start Count Rules
 num=`cat tmp.txt | wc -l`
 
 # Start Add title and date
 echo "! Title: Allowlist" >> tpdate.txt
-echo "! Version: `date +"%Y-%m-%d %H:%M:%S"`" >> tpdate.txt
+echo "! Version: $(TZ=UTC-8 date +'%Y-%m-%d %H:%M:%S')（北京时间） " >> tpdate.txt
 echo "! Total count: $num" >> tpdate.txt
 cat tpdate.txt frules.dd tmp.txt > final.txt
 
