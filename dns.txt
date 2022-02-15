@@ -4,10 +4,8 @@
 ! Powerd by CatsTeam
 ! Expires: 12 Hours
 ! 该规则合并自AdGuardDNS过滤器，1hosts，adgk等
-! Version: 2022-02-15 17:33:29（北京时间） 
-! Total count: 60972
-@@||*.alipay.com^
-@@||*.alipay.com^$important
+! Version: 2022-02-15 17:42:37（北京时间） 
+! Total count: 60950
 @@||ad.10010.com^
 @@||ad.abchina.com^
 @@||ad.kazakinfo.com^
@@ -15,9 +13,6 @@
 @@||adcdn.pingan.com^
 @@||ads.tdbank.com^
 @@||advert.kf5.com^
-@@||alicdn.com^$important
-@@||alissl.ucdl.pp.uc.cn^$important
-@@||aliyun.com^$important
 @@||aod.itunes.g.aaplimg.com^
 @@||api-merchants.skimlinks.com^
 @@||api.ads.tvb.com^
@@ -25,45 +20,27 @@
 @@||app-advertise.zhihuishu.com^
 @@||authentication-api.skimlinks.com^
 @@||bkimg.cdn.bcebos.com^
-@@||broccoli.uc.cn^$important
 @@||buyad.bi-xenon.cn^
 @@||captcha.su.baidu.com^
-@@||cl2.webterren.com^$important
-@@||click.simba.taobao.com^$important
 @@||dash.cloudflare.com^
-@@||dj.1688.com^$important
-@@||downum.game.uc.cn^$important
 @@||drive.quark.cn^
 @@||e.kuaishou.com^
-@@||g.shumafen.cn^$important
 @@||guce.advertising.com^
 @@||gw.m.163.com^
-@@||h5.m.taobao.com^$important
-@@||iflow.uc.cn^$important
-@@||image.uc.cn^$important
 @@||img.ads.tvb.com^
 @@||imgstat.baidu.com^
 @@||inews.gtimg.com^
-@@||ip.taobao.com^$important
 @@||list-manage.com
 @@||mb.yidianzixun.com^
 @@||metrics1.data.hicloud.com^
-@@||mos.m.taobao.com^$important
-@@||mparticle.uc.cn^$important
 @@||newad.mail.wo.cn^
 @@||package.wallpaper.cdn.pandora.xiaomi.com.lan^
 @@||pan.quark.cn^
 @@||quark.sm.cn^
 @@||qun.qq.com^
-@@||s.click.taobao.com
-@@||s.click.taobao.com^$important
-@@||s.click.tmall.com
 @@||static.yximgs.com^
 @@||sug.browser.miui.com^
 @@||tracker.namitiyu.com^
-@@||uczzd.cn^$important
-@@||uland.taobao.com^$important
-@@||unet.ucweb.com^$important
 @@||uri6.com^
 @@||w.pandora.xiaomi.com^
 @@||wallpaper.cdn.pandora.xiaomi.com^
@@ -21983,6 +21960,7 @@
 ||game.gamingnonstop.net^
 ||game.vulcan-casino.com^
 ||game.weixin.qq.com^
+||game.weixin.qq.com^$important
 ||game4343.com^
 ||gameads.com^
 ||gameads.net^
