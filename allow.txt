@@ -1,6 +1,6 @@
 ! Title: Allowlist
-! Version: 2022-02-18 18:13:25（北京时间） 
-! Total count: 53871
+! Version: 2022-02-19 06:12:45（北京时间） 
+! Total count: 53868
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=heapfiles.com|vidoza.co|vidoza.net
 @@$generichide,domain=heapfiles.com|vidoza.co|vidoza.net
@@ -313,7 +313,6 @@
 @@/banners*swf$domain=vma.esec.vu.lt
 @@/beacon.js$domain=ww1.canada.com
 @@/beacon.min.js$domain=qq.com
-@@/beacon.min.js$domain=qq.com
 @@/bilder$~third-party,domain=giessener-allgemeine.de|da-imnetz.de|werra-rundschau.de|fnp.de|merkur.de|fr.de|extratipp.com|wetterauer-zeitung.de|hallo-muenchen.de|wlz-online.de|tz.de
 @@/build/js/analytics.$script,domain=lx.com|nbcbayarea.com|nbcboston.com|nbcchicago.com|nbcconnecticut.com|nbcdfw.com|nbclosangeles.com|nbcmiami.com|nbcnewyork.com|nbcphiladelphia.com|nbcsandiego.com|nbcwashington.com|necn.com|telemundo40.com|telemundo48elpaso.com|telemundoarizona.com|telemundolasvegas.com|telemundopr.com
 @@/cdn-cgi/challenge-platform/*/orchestrate/jsch/v$domain=kat.*
@@ -410,7 +409,7 @@
 @@/frosmo.easy.js$domain=sklep.pl.canalplus.com
 @@/fuckadblock.$domain=bde4.com|ck101.com|datehub.co|dilidili.one|golangnote.com|lnk2.cc|nfmovies.com|papalah.com|qqdie.com
 @@/fuckadblock.$domain=ck101.com|datehub.co|golangnote.com|joyk.com|liumingye.cn|lnk2.cc|papalah.com|poedb.tw|share1223.com
-@@/fuckadblock.$domain=ck101.com|datehub.co|golangnote.com|joyk.com|liumingye.cn|lnk2.cc|papalah.com|poedb.tw|share1223.com
+@@/fuckadblock.$domain=datehub.co|golangnote.com|joyk.com|liumingye.cn|lnk2.cc|papalah.com|poedb.tw|share1223.com
 @@/fuckadblock.js$domain=animedub.ru
 @@/fuckadblock.js$domain=bemad.es|cuatro.com|divinity.es|eltiempohoy.es|energytv.es|factoriadeficcion.com|mitele.es|mtmad.es|telecinco.es
 @@/fuckadblock.js$domain=camiris.com
@@ -2777,7 +2776,6 @@
 @@||ads.businessmixer.net^$domain=ads.businessmixer.net
 @@||ads.cdn.tvb.com^*.key
 @@||ads.cdn.tvb.com^*.key
-@@||ads.ck101.com/www/delivery/asyncjs.php
 @@||ads.ck101.com/www/delivery/asyncjs.php
 @@||ads.clubedohardware.com.br/
 @@||ads.co.ua^$domain=ads.co.ua
@@ -22768,7 +22766,6 @@
 @@||gstatic.com/recaptcha/
 @@||gstatic.com/recaptcha/$subdocument,xmlhttprequest
 @@||gstatic.com^
-@@||gstatic.com^$domain=mixdrop.co
 @@||gstatic.com^$domain=mixdrop.co
 @@||gstatic.com^*/adwords/$domain=support.google.com
 @@||gstatic.com^*/adwords/$domain=support.google.com
