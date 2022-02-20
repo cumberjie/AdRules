@@ -1,6 +1,6 @@
 ! Title: Allowlist
-! Version: 2022-02-20 18:12:29（北京时间） 
-! Total count: 53896
+! Version: 2022-02-21 06:11:23（北京时间） 
+! Total count: 53900
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=heapfiles.com|vidoza.co|vidoza.net
 @@$generichide,domain=heapfiles.com|vidoza.co|vidoza.net
@@ -15868,6 +15868,7 @@
 @@||drivesolutions.com^
 @@||drivespark.com^
 @@||drivetime.com^
+@@||drivetrain.ai/drive/*/metrics/$~third-party
 @@||drivetrain.ai/drive/api/v1/metrics/$~third-party
 @@||driving-tests.org^
 @@||driving.co.uk^
@@ -19207,6 +19208,7 @@
 @@||frontiersin.org^
 @@||frontlineaids.org^
 @@||frosmo.com/messageApi$xmlhttprequest,domain=hobbyhall.fi
+@@||frosmo.com/recoApi/$xmlhttprequest,domain=apu.fi|hobbyhall.fi|lily.fi|meillakotona.fi|terve.fi
 @@||frosmo.com/recoApi/$xmlhttprequest,domain=hobbyhall.fi|lily.fi|meillakotona.fi|terve.fi
 @@||frsky-rc.com^
 @@||frt9.co^
@@ -34129,6 +34131,7 @@
 @@||nitropay.com/ads-*.js$domain=genshinimpactcalculator.com
 @@||nitropdf.com^
 @@||nitroware.net^
+@@||nittsu.com/Tracking/Scripts/Tracking/track.js
 @@||niucache.com/service/www/ad/
 @@||niucache.com/service/www/ad/
 @@||niuhuskies.com/components/js/analytics.js$domain=niuhuskies.com
@@ -46715,6 +46718,7 @@
 @@||tealsmarket.com^
 @@||team-bhp.com^
 @@||team-cymru.com^
+@@||team-rec.jp^$domain=search-voi.0101.co.jp|voi.0101.co.jp
 @@||teambeachbody.com^
 @@||teambeyond.net^
 @@||teambition.com^$jsinject,elemhide,extension
