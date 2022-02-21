@@ -1,6 +1,6 @@
 ! Title: Allowlist
-! Version: 2022-02-21 06:11:23（北京时间） 
-! Total count: 53900
+! Version: 2022-02-21 18:13:47（北京时间） 
+! Total count: 53903
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=heapfiles.com|vidoza.co|vidoza.net
 @@$generichide,domain=heapfiles.com|vidoza.co|vidoza.net
@@ -15869,7 +15869,6 @@
 @@||drivespark.com^
 @@||drivetime.com^
 @@||drivetrain.ai/drive/*/metrics/$~third-party
-@@||drivetrain.ai/drive/api/v1/metrics/$~third-party
 @@||driving-tests.org^
 @@||driving.co.uk^
 @@||drjessicalattman.com^
@@ -19209,7 +19208,6 @@
 @@||frontlineaids.org^
 @@||frosmo.com/messageApi$xmlhttprequest,domain=hobbyhall.fi
 @@||frosmo.com/recoApi/$xmlhttprequest,domain=apu.fi|hobbyhall.fi|lily.fi|meillakotona.fi|terve.fi
-@@||frosmo.com/recoApi/$xmlhttprequest,domain=hobbyhall.fi|lily.fi|meillakotona.fi|terve.fi
 @@||frsky-rc.com^
 @@||frt9.co^
 @@||fruithosted.net/dl/*.mp4
@@ -22730,6 +22728,7 @@
 @@||gs-loc.apple.com^
 @@||gs.apple.com.akadns.net^
 @@||gs.apple.com^
+@@||gs.statcounter.com/chart.php$script,third-party
 @@||gs.statcounter.com^
 @@||gs.statcounter.com^|
 @@||gs.statcounter.com^|
@@ -34044,6 +34043,7 @@
 @@||nightowlsp.com^
 @@||nightvisionoutfitters.com^
 @@||nih.gov^
+@@||nihasi.ru/upload/resize_cache/*/300_250_$image,~third-party
 @@||nihonfasshon.blogspot.com^$generichide
 @@||nihongo.alc.co.jp/theme/Japanese/img/home/nf/us.gif$image,~third-party
 @@||nik-ser.at.ua/js/pagead2.ads.js$domain=remont-aud.net
@@ -44344,6 +44344,8 @@
 @@||stat24.com/crossdomain.xml$domain=ipla.tv
 @@||statbroadcast.com^
 @@||statcounter.com/css/packed/statcounter-$stylesheet,~third-party
+@@||statcounter.com/js//fusioncharts.charts.js
+@@||statcounter.com/js/fusioncharts.js
 @@||statcounter.com/js/packed/statcounter-$script,~third-party
 @@||statcounter.com^
 @@||state.gov^
@@ -52849,6 +52851,7 @@
 @@||www.squaretrade.com^
 @@||www.ssl.bblck.me^
 @@||www.startpage.com^
+@@||www.statcounter.com/images/$image,third-party
 @@||www.statcounter.com^
 @@||www.storage.googleapis.com^
 @@||www.supertoinette.com/js/all-eb810df98a.js$script,~third-party
