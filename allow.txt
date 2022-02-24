@@ -1,6 +1,6 @@
 ! Title: Allowlist
-! Version: 2022-02-24 18:13:21（北京时间） 
-! Total count: 53990
+! Version: 2022-02-25 06:12:28（北京时间） 
+! Total count: 53992
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=heapfiles.com|vidoza.co|vidoza.net
 @@$generichide,domain=heapfiles.com|vidoza.co|vidoza.net
@@ -3025,6 +3025,7 @@
 @@||adswizz.com/adswizz/js/SynchroClient*.js$script,third-party,domain=esradio.libertaddigital.com
 @@||adswizz.com/adswizz/js/SynchroClient*.js$script,third-party,domain=jjazz.net
 @@||adswizz.com/adswizz/js/SynchroClient*.js$script,third-party,domain=jjazz.net
+@@||adswizz.com/sca_newenco/$xmlhttprequest,domain=triplem.com.au
 @@||adswizz.com/www/components/$domain=esradio.fm
 @@||adswizz.com/www/delivery/swfIndex.php?$domain=esradio.fm
 @@||adsy.pw^$generichide
@@ -47291,6 +47292,7 @@
 @@||thedailyguardian.com^
 @@||thedailymeal.com^
 @@||thedailystar.net^
+@@||thedailywtf.com/images/*-advertisement.png$~third-party
 @@||thedcpatriot.com^
 @@||thedenverchannel.com^
 @@||thedermspecs.com^
