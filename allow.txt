@@ -1,6 +1,6 @@
 ! Title: Allowlist
-! Version: 2022-03-01 18:13:45（北京时间） 
-! Total count: 54037
+! Version: 2022-03-02 06:11:59（北京时间） 
+! Total count: 54040
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=heapfiles.com|vidoza.co|vidoza.net
 @@$generichide,domain=heapfiles.com|vidoza.co|vidoza.net
@@ -2593,6 +2593,7 @@
 @@||admin.dable.io^|
 @@||admin.mailchimp.com^
 @@||admin.mailchimp.com^$extension
+@@||admin.memberspace.com/sites/*/analytics/views$~third-party
 @@||admin.mgid.com^$popup
 @@||admin.mgid.com^$popup
 @@||admin.onedrive.com^
@@ -22233,6 +22234,7 @@
 @@||googletagmanager.com/gtm.js$domain=runlesswire.com
 @@||googletagmanager.com/gtm.js$domain=sante.journaldesfemmes.fr
 @@||googletagmanager.com/gtm.js$domain=sante.journaldesfemmes.fr
+@@||googletagmanager.com/gtm.js$domain=sanwacompany.co.jp
 @@||googletagmanager.com/gtm.js$domain=saturn.de
 @@||googletagmanager.com/gtm.js$domain=sciencesetavenir.fr
 @@||googletagmanager.com/gtm.js$domain=sciencesetavenir.fr
@@ -23741,6 +23743,7 @@
 @@||hit.gemius.pl/__/redataredir?$domain=ing.pl
 @@||hit.gemius.pl/xlgemius.js$script,domain=ojogo.pt
 @@||hit.gemius.pl^$app=pl.allegro
+@@||hit.interia.pl/iwa_core$script,~third-party
 @@||hit.stat24.com/*ad.xml$xmlhttprequest,other,domain=polsatnews.pl|polsatsport.pl|twojapogoda.pl|geekweek.pl
 @@||hitachidigitalmedia.com^
 @@||hitbits.io/v1/ads2/ads/$xmlhttprequest
