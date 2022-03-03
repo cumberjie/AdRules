@@ -1,6 +1,6 @@
 ! Title: Allowlist
-! Version: 2022-03-03 06:12:33（北京时间） 
-! Total count: 54100
+! Version: 2022-03-03 18:13:36（北京时间） 
+! Total count: 54158
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=heapfiles.com|vidoza.co|vidoza.net
 @@$generichide,domain=heapfiles.com|vidoza.co|vidoza.net
@@ -950,7 +950,6 @@
 @@||126.net/images/blank.gif
 @@||127.0.0.1/admin/admin_ad.php?$domain=127.0.0.1
 @@||127.0.0.1/admin/admin_ad.php?$domain=127.0.0.1
-@@||127.0.0.1:4001/isrunning?unique=$script,domain=papystreaming.com
 @@||12news.com^
 @@||12tomatoes.com^
 @@||12up.com^
@@ -5445,6 +5444,7 @@
 @@||ars.smartscreen.microsoft.com^
 @@||arsopo.com^$generichide
 @@||arstech.net^
+@@||arstechnica.com/*/*/*-banner-ad-
 @@||arstechnica.com/information-technology/2019/07/data-slurped-from-4-million-browsers-still-available-via-google-analytics/
 @@||arstechnica.com/information-technology/2019/07/data-slurped-from-4-million-browsers-still-available-via-google-analytics/
 @@||arstechnica.com/services/incr.php?*=interactions.adblock-annoy.click$xmlhttprequest
@@ -8110,6 +8110,8 @@
 @@||britishtelecom.112.2o7.net^$domain=bt.com
 @@||britishtelecom.112.2o7.net^$domain=bt.com
 @@||brm-core-*.brsrvr.com^|
+@@||brm-core-*.brsrvr.com^|
+@@||brm-core-0.brsrvr.com/api/*/core$domain=dollargeneral.com
 @@||brm-core-0.brsrvr.com/api/*/core$domain=dollargeneral.com
 @@||brm-core-0.brsrvr.com/api/*/core/?account_id=$domain=m.toysrus.com
 @@||brm-core-0.brsrvr.com/api/*/core/?account_id=$domain=m.toysrus.com
@@ -9250,7 +9252,9 @@
 @@||cdn-pics.pornhd.com^$stealth
 @@||cdn-prod.back4blood.com^
 @@||cdn-prod.medicalnewstoday.com^
+@@||cdn-profiles.tunein.com.cdn.cloudflare.net^
 @@||cdn-profiles.tunein.com^
+@@||cdn-radiotime-logos.tunein.com.cdn.cloudflare.net^
 @@||cdn-radiotime-logos.tunein.com^
 @@||cdn-roslandcapital.imgix.net^
 @@||cdn-s10.cfeucdn.com^
@@ -9289,6 +9293,7 @@
 @@||cdn-usa.skypixel.com^
 @@||cdn-vzn.yottaa.net^
 @@||cdn-web.jifo.co^
+@@||cdn-web.tunein.com.cdn.cloudflare.net^
 @@||cdn-web.tunein.com^
 @@||cdn-webimages.wimages.net^
 @@||cdn-ws.turnto.com^
@@ -9671,6 +9676,7 @@
 @@||cdn.field59.com.cdn.cloudflare.net^
 @@||cdn.field59.com^
 @@||cdn.filestackcontent.com^
+@@||cdn.film-fish.com^
 @@||cdn.firespring.com^
 @@||cdn.flipboard.com^
 @@||cdn.flippenterprise.net^
@@ -12516,6 +12522,7 @@
 @@||connectcdk.com^
 @@||connectedpdf.com^
 @@||connection.com^
+@@||connectivity-staging.s3.us-east-2.amazonaws.com^
 @@||connectivitycheck.android.com^
 @@||connectivitycheck.getdropbox.com^
 @@||connectivitycheck.gstatic.com^
@@ -14061,6 +14068,7 @@
 @@||daringgourmet.com^
 @@||dark-storm.com^
 @@||darkhorrorgames.com^
+@@||darkice.org^
 @@||darkknightnews.com^
 @@||darksky.net^
 @@||darksoftware.net/js/Siropu/AM/ads.min.js
@@ -14184,6 +14192,7 @@
 @@||datomatic.no-intro.org^
 @@||datoporn.co/js/pop.js
 @@||datoporn.co^$domain=xmoviesforyou.com
+@@||datphanmem.com^$generichide
 @@||datpiff.com^$csp=script-src 'self' * blob: data:
 @@||daumcdn.net/adfit/static/ad-native.min.js$domain=daum.net
 @@||daumcdn.net/adfit/static/ad-native.min.js$domain=daum.net
@@ -14946,6 +14955,7 @@
 @@||directexpose.com^
 @@||directfilesdown.com^
 @@||directionus.com^
+@@||directline.botframework.com^$stealth
 @@||directline.com/touchclarity/$script
 @@||directline.com/touchclarity/$script
 @@||directlink.thomecallex.com^
@@ -16185,6 +16195,7 @@
 @@||dxo.com^
 @@||dxomark.com^
 @@||dxport.ru/none-reklama
+@@||dxsoft.com^
 @@||dy1ywzohuuzsd.cloudfront.net^
 @@||dy5vgx5yyjho5.cloudfront.net^
 @@||dy7glz37jgl0b.cloudfront.net^
@@ -17496,6 +17507,7 @@
 @@||exchange.opera.com^
 @@||exchange.xforce.ibmcloud.com^
 @@||exchangestatebankmn.com^
+@@||exe.io/js/prebid-ads.js$domain=exey.io
 @@||executeatwill.com^
 @@||executivetraveller.com^$generichide
 @@||exhibitions.psu.edu^
@@ -18060,6 +18072,7 @@
 @@||feed.adrelayer.com^|
 @@||feed.mix.sina.com.cn^
 @@||feed.theplatform.com^
+@@||feed.tunein.com.cdn.cloudflare.net^
 @@||feed.tunein.com^
 @@||feedback.aliexpress.com^
 @@||feedback.ebay.com^
@@ -18099,6 +18112,7 @@
 @@||fengkongcloud.com/fpv2.js
 @@||fenix-store.com^
 @@||fenixlighting.com^
+@@||fenu-radio.ch^
 @@||feodotracker.abuse.ch^
 @@||feralinteractive.com^
 @@||fernsehzone.online^$generichide
@@ -18279,6 +18293,7 @@
 @@||filezilla-project.org^
 @@||fili.cc^
 @@||filings.sos.iowa.gov^
+@@||film-fish.com^
 @@||filmaffinity.com^
 @@||filmdaily.co^
 @@||filmdumpster.com^
@@ -18765,6 +18780,7 @@
 @@||forum.doom9.org^
 @@||forum.dvdtalk.com^
 @@||forum.eastmans.com^
+@@||forum.f-droid.org^
 @@||forum.fanart.tv^
 @@||forum.flacmania.ru/*ads*.*/
 @@||forum.flacmania.ru^$generichide
@@ -21960,7 +21976,6 @@
 @@||googletagmanager.com/gtm.js$domain=accupass.com
 @@||googletagmanager.com/gtm.js$domain=accupass.com
 @@||googletagmanager.com/gtm.js$domain=acehardware.com|ads.spotify.com|atptour.com|bsa-whitelabel.com|ccleaner.com|chipotle.com|complex.com|crello.com|cyclingnews.com|cypress.io|doodle.com|easternbank.com|fortune.com|kedronparkhotel.com.au|level.travel|nflgamepass.com|nordvpn.com|petsathome.com|pioneer.eu|primeoak.co.uk|royalbank.com|scotsman.com|soundguys.com|stressless.com|support.creative.com|trademe.co.nz
-@@||googletagmanager.com/gtm.js$domain=acehardware.com|ads.spotify.com|atptour.com|bsa-whitelabel.com|ccleaner.com|chipotle.com|complex.com|crello.com|cyclingnews.com|cypress.io|doodle.com|easternbank.com|fortune.com|kedronparkhotel.com.au|level.travel|nflgamepass.com|nordvpn.com|petsathome.com|pioneer.eu|royalbank.com|scotsman.com|soundguys.com|stressless.com|support.creative.com|trademe.co.nz
 @@||googletagmanager.com/gtm.js$domain=ads.allegro.pl
 @@||googletagmanager.com/gtm.js$domain=ads.allegro.pl
 @@||googletagmanager.com/gtm.js$domain=aena.es
@@ -22833,6 +22848,7 @@
 @@||gslblui.ebay.com^
 @@||gslink.co/wp-$image,script,stylesheet,domain=g5u.pw|getsl.me|gsurl.in|gsurl.me
 @@||gsliveupdate.deere.com^
+@@||gsm1x.xyz^$generichide
 @@||gsmarena.com^
 @@||gsmoutdoors.com^
 @@||gsmturkey.net^$generichide
@@ -23033,6 +23049,8 @@
 @@||gunvalues.gundigest.com^
 @@||gunvaluesboard.com^
 @@||gunvault.com^
+@@||gunwatcher.com^
+@@||gunwatcher1926.blob.core.windows.net^
 @@||gunwerks.com^
 @@||gunworld.com^
 @@||gunxtras.com^
@@ -23161,6 +23179,7 @@
 @@||hammonline.de/statistik/piwik.js
 @@||hammonline.de/statistik/piwik.js
 @@||hamms.com^
+@@||hamport.com^
 @@||hampshirelive.news^
 @@||hamradio.com^
 @@||hamreus.com^$image,stealth,domain=manhuagui.com
@@ -23222,6 +23241,7 @@
 @@||hardenwindows8forsecurity.com^
 @@||hardenwindowsvistaforsecurity.com^
 @@||hardforum.com^
+@@||hardkernel.com^
 @@||hardware-corner.net^
 @@||hardware.fr^
 @@||hardwarebbq.com^$generichide
@@ -23370,6 +23390,7 @@
 @@||hdradcache.acmeaom.com.cdn.cloudflare.net^
 @@||hdradcache.acmeaom.com^
 @@||hds.ak.token.bild.de^
+@@||hdsdr.de^
 @@||hdserials.tv/upload/banners/banner.jpg
 @@||hdsky.net/ad/down.png
 @@||hdsky.net/ad/down.png
@@ -24567,6 +24588,7 @@
 @@||i.turner.ncaa.com^
 @@||i.tw.cx^
 @@||i.ua/*/ico/share/share_*_24.png$domain=passport.i.ua
+@@||i.upcindex.com^
 @@||i.usacoinbook.com^
 @@||i.vgy.me^
 @@||i.vimeocdn.com^
@@ -26006,6 +26028,7 @@
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=tvn24.pl|tvn.pl
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=tvp.pl
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=tvp.pl|tvp.info
+@@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=ulifestyle.com.hk
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=ulke.com.tr
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=ultimedia.com
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=umterps.com
@@ -26404,6 +26427,7 @@
 @@||img.tfd.com^
 @@||img.thedailybeast.com^
 @@||img.theepochtimes.com^
+@@||img.tineye.com^
 @@||img.tpt.cloud^
 @@||img.trendo.bg^
 @@||img.trex-arms.com^
@@ -26510,6 +26534,7 @@
 @@||img2.hulu.com^
 @@||img2.imagesbn.com^
 @@||img2.imagetwist.com^
+@@||img2.localgymsandfitness.com^
 @@||img2.lsistatic.com^
 @@||img2.nickiswift.com^
 @@||img2.parts-people.com^
@@ -28443,6 +28468,7 @@
 @@||khcu.ac.kr/resources/user/adcss/
 @@||khedame.com^$generichide
 @@||khlinks.buzz^$generichide
+@@||khmdb.google.com^
 @@||khms0.google.com^
 @@||khms0.googleapis.com^
 @@||khms1.google.com^
@@ -28602,6 +28628,7 @@
 @@||kiwibreaching.com^
 @@||kiwiexploits.com^$generichide
 @@||kiwihousesitters.co.nz/members$urlblock
+@@||kiwisdr.com^
 @@||kizi.com/assets/*advertisement-*.js
 @@||kizlarsoruyor.com^$generichide
 @@||kjaay.com^$domain=dizimania.ru,script
@@ -29862,6 +29889,7 @@
 @@||localbitcoins.com/ads_edit
 @@||locale.boxxspring.com.s3-website-us-east-1.amazonaws.com^
 @@||localfirstbank.com^
+@@||localgymsandfitness.com^
 @@||localhost^
 @@||localist-images.azureedge.net^
 @@||localizaagencia.com^$generichide
@@ -30682,6 +30710,7 @@
 @@||manytracks.com^
 @@||manyweb.ru^
 @@||map.baidu.com^$elemhide
+@@||map.localgymsandfitness.com^
 @@||map.naver.com^
 @@||map.poketrack.xyz/js/ads-min.js
 @@||map.qq.com^
@@ -30777,6 +30806,7 @@
 @@||mariinsky.ru/images/
 @@||marinegunbuilder.com^
 @@||marinetraffic.com/js/468.
+@@||marinetraffic.com^
 @@||marionettes.cz^
 @@||marions-kochbuch.de^
 @@||mariouniverse.com^$generichide
@@ -31622,6 +31652,7 @@
 @@||mediawiki.org^
 @@||mediaworks.co.nz^
 @@||mediaworld.it^*/GoogleTagManager.js?
+@@||mediazomer.s3.us-west-2.amazonaws.com^
 @@||medica.com^
 @@||medicalgiftguide.com^
 @@||medicalnewstoday.com^
@@ -33104,6 +33135,7 @@
 @@||muscledfitness.com^
 @@||muse.jhu.edu^
 @@||museo8bits.es^
+@@||musescore.org^
 @@||mushinavi.com^$generichide
 @@||music-201.boomplaymusic.com^
 @@||music-pa.googleapis.com^
@@ -34772,6 +34804,7 @@
 @@||obituaries.frontrunnerpro.com^
 @@||objectivequiz.com^$generichide
 @@||objects.airfrance.com^
+@@||objects.githubusercontent.com^
 @@||oboom.com^
 @@||obozrevatel.com/assets/banners/oboz-tv-
 @@||obozrevatel.com/js/ads*.js
@@ -34958,6 +34991,8 @@
 @@||ok7-crtr-tls12-993ab30d8d78b8f6.elb.us-west-2.amazonaws.com^
 @@||ok7-crtr-tls12-nlb-83b5f5dde116ef44.elb.us-west-2.amazonaws.com^
 @@||ok7static.oktacdn.com^
+@@||okayplayer-wpengine.netdna-ssl.com^
+@@||okayplayer.com^
 @@||okcaller.com^
 @@||okcguns.com^
 @@||okdiario.com^$generichide
@@ -35395,6 +35430,7 @@
 @@||opl.0ps.us^
 @@||oplata.kykyryza.ru^$document
 @@||oploverz.in^$generichide
+@@||opml.radiotime.com.cdn.cloudflare.net^
 @@||opml.radiotime.com^
 @@||opnsense.org^
 @@||oppo.yidianzixun.com^
@@ -35546,6 +35582,7 @@
 @@||osmand.net^
 @@||osmanias.com^$generichide
 @@||osmc.tv^
+@@||osmocom.org^
 @@||osnews.com^
 @@||ospserver.net^
 @@||osqa-ask.wireshark.org^
@@ -36463,6 +36500,7 @@
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,domain=androidacy.com|udocz.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,domain=apkandroidhub.in
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,domain=asiaon.top
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,domain=b2bhint.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,domain=babymodz.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,domain=calculator-online.net
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,domain=egotter.com
@@ -36826,6 +36864,7 @@
 @@||passport.alipay.com^
 @@||passport.baidu.com^
 @@||passport.biligame.com^
+@@||passport.jlcpcb.com^
 @@||passport.lenovo.com^
 @@||passport.mobilenations.com^
 @@||passport.n.shifen.com^
@@ -36961,6 +37000,7 @@
 @@||pcast-us-west.phenixrts.com^
 @@||pcast.phenixrts.com^
 @@||pcbuildadvisor.com^
+@@||pcbway.com^
 @@||pcengine.co.uk^
 @@||pcforum.biz/abp/adblock_detector.js
 @@||pcgamebenchmark.com^
@@ -38110,6 +38150,7 @@
 @@||polsatnews.pl^
 @@||polskieszlaki.pl^$generichide
 @@||polvod.pl/advertisement.js
+@@||polycase.com^
 @@||polycom.com/polycomservice/js/unica/ntpagetag.js
 @@||polycom.com/polycomservice/js/unica/ntpagetag.js
 @@||polyfill.io^
@@ -38358,6 +38399,7 @@
 @@||powerbrokpackers.comersinc.com^
 @@||poweredby.jads.co/js/jads.js$domain=javcl.com
 @@||poweredby.jads.co/js/jads2.js$domain=javcl.com
+@@||poweredbygraves.com^
 @@||powerequipment.honda.com^
 @@||powerequipmentdirect.com^
 @@||powergamesnetwork.com^
@@ -38826,6 +38868,7 @@
 @@||prudentpennypincher.com^
 @@||prudentreviews.com^
 @@||prueba.pixelshost.com^$generichide
+@@||prussiabier.activehosted.com/proc.php?$domain=loja.prussiabier.com.br
 @@||przegladpiaseczynski.pl/wp-content/plugins/wppas/$~third-party
 @@||przegladpiaseczynski.pl/wp-content/plugins/wppas/$~third-party
 @@||przegladpiaseczynski.pl/wp-content/uploads/*-300x250-$image,~third-party
@@ -39240,6 +39283,7 @@
 @@||qqpublic.qpic.cn^
 @@||qqread.com/swf/qqread_rollpic.swf
 @@||qqread.com/swf/qqread_rollpic.swf
+@@||qrpblog.com^
 @@||qrz.ru/js/ad*.js
 @@||qs.ioam.de^$image,script,third-party,domain=lustich.de
 @@||qs.ioam.de^$script,third-party,domain=gamona.de
@@ -39588,6 +39632,7 @@
 @@||ranchers.net^
 @@||ranchrewards.myguestaccount.com^
 @@||randakks.com^
+@@||randl.com^
 @@||random.org^
 @@||randomhacks.co.uk^
 @@||randomhouse.com/book/css/certona.css
@@ -40179,6 +40224,7 @@
 @@||resources.crowdtwist.com/fan_club/clients/$domain=myperks.catchow.com
 @@||resources.distilnetworks.com^
 @@||resources.download.minecraft.net^
+@@||resources.finalsite.net^
 @@||resources.neko-san.fr^
 @@||resources.news.e.abb.com^
 @@||resources.psychologytoday.com^
@@ -44417,6 +44463,7 @@
 @@||standardmedia.co.ke/assets/js/prebid-google-ads.js
 @@||standardnewswire.com^
 @@||standards-oui.ieee.org^
+@@||standingstills.com^
 @@||stands4.com^
 @@||standsonline.com^
 @@||stanev.org^
@@ -46034,6 +46081,7 @@
 @@||subtitles.topserialy.to/*.vtt$xmlhttprequest,domain=openload.io
 @@||subtitleshub.net^
 @@||subwayblaze.com^
+@@||subzerocomics.com^
 @@||succeedsocially.com^
 @@||suchen.mobile.de^
 @@||suchmaschine.com/scripts/ads.js
@@ -47047,6 +47095,7 @@
 @@||tecknity.com^$generichide
 @@||teclane.com^$generichide
 @@||tecmint.com^
+@@||tecnec.com^
 @@||tecnofullpc.com^$generichide
 @@||tecnomusic-evolution.com^$generichide
 @@||tecnotutoshd.net^$generichide
@@ -47475,6 +47524,7 @@
 @@||thehinh.com^
 @@||thehomeschoolmagazine-digital.com^
 @@||thehomesecuritysuperstore.com^
+@@||thehometheaterdiy.com^
 @@||thehonestkitchen.com^
 @@||thehorrormoviesblog.com^
 @@||thehouseofmarley.com^
@@ -47969,6 +48019,7 @@
 @@||timeinc.net/people/static/mobile/j/tgx-ads.js$domain=people.com
 @@||timeinc.net^
 @@||timeincsecure-a.akamaihd.net^
+@@||timeline.com^
 @@||timeout.com^
 @@||timepad.ru^
 @@||timepiecesusa.com^
@@ -48279,6 +48330,7 @@
 @@||toro.com^
 @@||toronto.com^
 @@||torontofilmsociety.com^
+@@||torontoguardian.com^
 @@||torontolife.com^
 @@||torqueless.com^
 @@||torquelist.com^
@@ -48593,6 +48645,7 @@
 @@||travel.usnews.com^
 @@||travelb.priceline.com^
 @@||travelbook.de^$generichide
+@@||travelerdoor.com^
 @@||traveliowa.com^
 @@||traveljapanblog.com^
 @@||travelmath.com^
@@ -49399,6 +49452,7 @@
 @@||unav.t-mobile.com^
 @@||unblocksit.es^
 @@||unbouncepages.com^
+@@||unboxing-tomorrow.com^
 @@||unbxd.s3.amazonaws.com^
 @@||unc.edu^
 @@||uncached.com^
@@ -49533,6 +49587,7 @@
 @@||upbeatnews.com^
 @@||upbitcoin.com^$generichide
 @@||upci.org^
+@@||upcindex.com^
 @@||upcitemdb.com^
 @@||update-information.zzux.com^
 @@||update-security.ddns.info^
@@ -50805,6 +50860,7 @@
 @@||vintagepaperads.com^
 @@||vintagerecordplaygo.com^
 @@||vintagetvsets.com^
+@@||vintagevinyl.com^
 @@||vintagevinylgarden.com^
 @@||vintagewinepicks.blogspot.com^$generichide
 @@||vinu.edu^
@@ -52015,6 +52071,7 @@
 @@||widget.beesender.com/*/chunk-vendors.js$domain=cab.meest.cn
 @@||widget.beesender.com/*/widget.js$domain=cab.meest.cn
 @@||widget.kassa.rambler.ru/CrossDomainInteraction/$stealth
+@@||widget.musicgrid.me^
 @@||widget.myrentacar.me^$script,subdocument
 @@||widget.myrentacar.me^$script,subdocument
 @@||widget.nfusionsolutions.com^
@@ -54025,6 +54082,7 @@
 @@||zomboscloset.com^
 @@||zomer.nextlot.com^
 @@||zomerbid.com^
+@@||zomercompany.com^
 @@||zona.mobi/js/build/libs/likely.js
 @@||zonasports.es^$generichide
 @@||zonasports.to^$generichide
