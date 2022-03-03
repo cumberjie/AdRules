@@ -1,6 +1,6 @@
 ! Title: Allowlist
-! Version: 2022-03-03 18:13:36（北京时间） 
-! Total count: 54158
+! Version: 2022-03-04 06:12:26（北京时间） 
+! Total count: 54146
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=heapfiles.com|vidoza.co|vidoza.net
 @@$generichide,domain=heapfiles.com|vidoza.co|vidoza.net
@@ -56,7 +56,6 @@
 @@.gif#$domain=cnprint.org|huhupan.com|tgfcer.com|wgun.net
 @@.google-analytics.com%2Fanalytics.js$domain=free.com.tw
 @@.google-analytics.com%2Fanalytics.js$domain=free.com.tw
-@@.google-analytics.com%2Fanalytics.js$domain=free.com.tw|kobe.ga
 @@.googleadservices.*.js$domain=ponominalu.ru
 @@.googleadservices.*.js$domain=ponominalu.ru
 @@.ico|$domain=wowebook.org|hdwallpapers.in|psypost.org
@@ -216,7 +215,6 @@
 @@/adsbox.$domain=long7.qq.com
 @@/adsbygoogle.$domain=moa.tw
 @@/adsbygoogle.$domain=moa.tw
-@@/adsbygoogle.$domain=moa.tw|serve.netsh.org
 @@/adsbygoogle.js$script,domain=animeshouse.net
 @@/adscript.js$domain=animeshouse.net
 @@/adsense.js$~third-party,domain=bestpornever.xyz|fuckedintransit.com|gayporn-videos.xyz|handjob.pro|jav-hd.xyz|lezbiyen-tube.com|mybigbeautifulwoman.com|mystreetgirl.com|pinay-porn.xyz|sex-jav.com|shemale-videos.xyz|thaiporn-videos.xyz|vrporn-videos.xyz
@@ -448,7 +446,6 @@
 @@/images/adv$domain=multitime.ru|multitime24.ru
 @@/images/adv/*$domain=gueizu.com
 @@/images/adv/*$domain=gueizu.com
-@@/images/adv/*$domain=gueizu.com|topfilex.com
 @@/images/bnr/*chat$domain=ymobile.jp
 @@/img/ad/*$domain=exp.qq.com
 @@/img/ad/*$domain=exp.qq.com
@@ -1501,7 +1498,6 @@
 @@||79423.analytics.edgekey.net^
 @@||79423.analytics.edgekey.net^|
 @@||79423.analytics.edgekey.net^|
-@@||795pao.com:88/999pc/ckplayer.js
 @@||7apple.net^$generichide
 @@||7cups.com^
 @@||7eer.net^
@@ -24982,9 +24978,6 @@
 @@||ifengimg.com/a/201*Player
 @@||ifengimg.com/fe/shank/content/mobile_view.*_modern.js
 @@||ifengimg.com/fe/shank/content/mobile_view.*_modern.js
-@@||ifengimg.com/ifeng/sources/inice_$domain=auto.ifeng.com|v.ifeng.com|www.ifeng.com
-@@||ifengimg.com/ifeng/sources/inice_v1.js
-@@||ifengimg.com/ifeng/sources/region_$domain=auto.ifeng.com|www.ifeng.com
 @@||ifengimg.com/pdt/cfg/mudu/aplayer.xml$domain=v.ifeng.com
 @@||ifengimg.com/pdt/cfg/mudu/aplayer.xml$domain=v.ifeng.com
 @@||ifh.cc^
@@ -25571,7 +25564,6 @@
 @@||images.skinnerinc.com^
 @@||images.skyscnr.com^
 @@||images.slideplayer.com^
-@@||images.sohu.com/bill/$domain=~auto.sohu.com
 @@||images.spingo.com^
 @@||images.splitcoaststampers.com^
 @@||images.sprinklecontent.com^$image,domain=como.fi|episodi.fi|fum.fi|inferno.fi|kaaoszine.fi|rumba.fi|soundi.fi|tilt.fi
@@ -27518,7 +27510,6 @@
 @@||itaupersonnalite.com.br^
 @@||itavisen.no^$generichide
 @@||itbusiness.com.ua^$generichide
-@@||itc.*^prod=ad&$domain=ttkyy.net|wlbgt.com
 @@||itc.cn/site/share/
 @@||itc.cn/site/share/
 @@||itch.io^
@@ -38354,7 +38345,6 @@
 @@||pos.baidu.com/*?psi=*adblock$domain=jkpan.cc
 @@||pos.baidu.com^$script,domain=fxpan.com|htqyy.com|jkpan.cc
 @@||pos.baidu.com^$script,domain=fxpan.com|htqyy.com|jkpan.cc
-@@||pos.baidu.com^$script,domain=fxpan.com|htqyy.com|jkpan.cc|www.pctowap.com
 @@||pos.baidu.com^$script,domain=rjno1.com
 @@||poseidontee.com^
 @@||poshmark.com^
@@ -38900,6 +38890,7 @@
 @@||pstatic.net^$image,stealth
 @@||pstatp.com/cdn/*/jquery/$script,domain=bxwx11.com
 @@||pstatp.com/cdn/*/jquery/$script,domain=bxwx11.com
+@@||pstatp.com/obj/ad-tetris-site/file/$image,domain=player.kongbuya.com
 @@||pstatp.com^
 @@||pstream.net/*.js$xmlhttprequest,domain=pstream.net
 @@||pstream.net/js/prebid*.js
@@ -40791,7 +40782,6 @@
 @@||rutab.net^$generichide
 @@||ruten.com.tw/ahd/fetch_ad.php
 @@||ruten.com.tw/ahd/fetch_ad.php
-@@||ruten.com.tw/ahd/fetch_ad.php?
 @@||ruten.com.tw/js/jquery.ruten.supertop_ad.js
 @@||ruten.com.tw/js/jquery.ruten.supertop_ad.js
 @@||ruten.com.tw^$stealth
@@ -41690,7 +41680,6 @@
 @@||scubidu.eu^$generichide
 @@||scumware.org^
 @@||scuofficehome.msocdn.com^
-@@||scupio.com/adpinline/ADmediaJS/$domain=moviesunusaaa.org
 @@||scusatrading.com^
 @@||scv.band.us/jackpotlog/*/logs$domain=m.cafe.naver.com
 @@||scv.band.us/jackpotlog/*/logs$domain=m.cafe.naver.com
@@ -43735,7 +43724,6 @@
 @@||sogou.com/pv.gif?*&stype=showskinpanel
 @@||sogou.com/pv.gif?*&stype=showskinpanel
 @@||sogoucdn.com^
-@@||sohu.com/adgtr/$domain=auto.sohu.com
 @@||sohu.com/cityjson$domain=114shouji.com|51credit.com|castech.com|eduyun.cn|ems.com.cn|jdboshi.com|jialingmm.net|lcm88.com|meiju11.com|mop.com|platinum-pen.com.cn|shouji.com.cn|skk.moe|vivo.com.cn
 @@||sohu.com/cityjson$domain=114shouji.com|51credit.com|castech.com|eduyun.cn|ems.com.cn|jdboshi.com|jialingmm.net|lcm88.com|meiju11.com|mop.com|platinum-pen.com.cn|shouji.com.cn|skk.moe|vivo.com.cn
 @@||sohu.com/cityjson$domain=114shouji.com|51credit.com|dilidili.one|jdboshi.com|jialingmm.net|lcm88.com|mop.com|shouji.com.cn|skk.moe|yxdm.tv
