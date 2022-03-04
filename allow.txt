@@ -1,6 +1,6 @@
 ! Title: Allowlist
-! Version: 2022-03-04 18:13:29（北京时间） 
-! Total count: 54169
+! Version: 2022-03-05 06:09:45（北京时间） 
+! Total count: 54152
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=heapfiles.com|vidoza.co|vidoza.net
 @@$generichide,domain=heapfiles.com|vidoza.co|vidoza.net
@@ -402,7 +402,7 @@
 @@/fingerprintjs2.min.js$domain=imooc.com
 @@/friendbuy.min.js$script,domain=butcherbox.com
 @@/frosmo.easy.js$domain=sklep.pl.canalplus.com
-@@/fuckadblock.$domain=bde4.com|ck101.com|datehub.co|dilidili.one|golangnote.com|lnk2.cc|nfmovies.com|papalah.com|qqdie.com
+@@/fuckadblock.$domain=bde4.com|datehub.co|dilidili.one|golangnote.com|lnk2.cc|nfmovies.com|papalah.com|qqdie.com
 @@/fuckadblock.$domain=datehub.co|golangnote.com|joyk.com|liumingye.cn|lnk2.cc|papalah.com|poedb.tw|share1223.com
 @@/fuckadblock.$domain=datehub.co|golangnote.com|joyk.com|liumingye.cn|lnk2.cc|papalah.com|poedb.tw|share1223.com
 @@/fuckadblock.js$domain=animedub.ru
@@ -1448,8 +1448,6 @@
 @@||5tps.com/playm/flw.
 @@||5w8.fun/myads/img/*.gif
 @@||5w8.fun/myads/img/*.gif
-@@||5w8s.com/myads/img/otherwp.gif
-@@||5w8s.com^*/thunder$image
 @@||6-edge-chat.facebook.com^
 @@||6.allegroimg.com^
 @@||6.viki.io^
@@ -6907,7 +6905,6 @@
 @@||bdstatic.com^$domain=17k.com|bxwx888.org
 @@||bdstatic.com^$domain=doupocangqiong1.com
 @@||bdstatic.com^$domain=dq.tieba.com
-@@||bdstatic.com^*/share_
 @@||bdtcs.maple3142.net^$jsinject,extension
 @@||bdtrims.com^
 @@||bdu.deals^
@@ -9434,8 +9431,7 @@
 @@||cdn.bootcss.com^$domain=openload.co|oload.tv|javno.me|imagebam.com|imagevenue.com|playvid.com|4horlover.com|linkshrink.net
 @@||cdn.bootcss.com^$script,domain=59xs.com|ah123z.com|biqudd.com|didaxiaoshuo.cc|gllmh.com|luoqiuzw.com|shudai.cc|xbiqugela.com|xhtxt.cc|xiaoshuwu5.com|ysxs8.com
 @@||cdn.bootcss.com^$script,domain=59xs.com|ah123z.com|biqudd.com|didaxiaoshuo.cc|gllmh.com|luoqiuzw.com|shudai.cc|xbiqugela.com|xhtxt.cc|xiaoshuwu5.com|ysxs8.com
-@@||cdn.bootcss.com^$script,domain=59xs.com|biqudd.com|didaxiaoshuo.cc|geilwx.com|shudai.org|xhxswz.com|xsw55.com|ysxs8.com
-@@||cdn.bootcss.com^$script,domain=rijutv.com
+@@||cdn.bootcss.com^$script,domain=59xs.com|biqudd.com|didaxiaoshuo.cc|rijutv.com|shudai.org|xhxswz.com|xsw55.com|ysxs8.com
 @@||cdn.breathecast.com^
 @@||cdn.bringatrailer.com^
 @@||cdn.britannica.com^
@@ -10262,13 +10258,11 @@
 @@||cdn.staticdata.site/js/loadjs.min.js$domain=vipleague.pw
 @@||cdn.staticdata.site/js/loadjsV*.min.js$domain=vipstand.se
 @@||cdn.staticdata.site/site/vs/img/$domain=vipleague.pw
-@@||cdn.staticfile.org^$script,domain=00ksw.com|147xiaoshuo.com|31xs.org|31xsxs.com|35xs.org|49zw.com|biquge18.com|biququ.info|qihaoqihao.com|tsxsw.net|xbiqugexsw.com|xx31xs.org|ziyouge.com
+@@||cdn.staticfile.org^$script,domain=00ksw.com|147xiaoshuo.com|31xs.org|31xsxs.com|35xs.org|biquge18.com|biququ.info|manhuadui.com|qihaoqihao.com|rijutv.com|tsxsw.net|xbiqugexsw.com|xx31xs.org|ziyouge.com
 @@||cdn.staticfile.org^$script,domain=00ksw.com|147xsw.com|31xiaoshuo.com|biququ.info|feisucn.net|tsxsw.la|yushubo.com|ziyouge.top
 @@||cdn.staticfile.org^$script,domain=00ksw.com|147xsw.com|31xiaoshuo.com|biququ.info|feisucn.net|tsxsw.la|yushubo.com|ziyouge.top
 @@||cdn.staticfile.org^$script,domain=dybee.tv
 @@||cdn.staticfile.org^$script,domain=dybee.tv
-@@||cdn.staticfile.org^$script,domain=manhuadui.com
-@@||cdn.staticfile.org^$script,domain=rijutv.com
 @@||cdn.staticsfly.com^
 @@||cdn.steamid.co.uk/js/ads.js
 @@||cdn.steamstatic.com^
@@ -16252,7 +16246,6 @@
 @@||dzlgdtxcws9pb.cloudfront.net^
 @@||dzone.com^
 @@||dzyannica.by/sites/default/files/files/files/Reclama/$image
-@@||dzz8.com/public/ptcms/*.js?g=$domain=m.daizhuzai.com
 @@||e-0001.e-msedge.net^
 @@||e-cdn-images.deezer.com^
 @@||e-didaskalia.blogspot.com^$generichide
@@ -16616,7 +16609,6 @@
 @@||edmontonsun.com/*/flyertown_module.js$domain=edmontonsun.com
 @@||edmunds.com^
 @@||eds.xboxlive.com^
-@@||edu.cn/epstar/*/gg/
 @@||edu.cn^*/ad.css?$stylesheet
 @@||edu.cn^*/ad.css?$stylesheet
 @@||edu.hebnews.cn^
@@ -27988,7 +27980,6 @@
 @@||jquerytools.org^
 @@||jr.jd.com^
 @@||jre-travel.com/content/dam/jretravel/site/page/top/images/bnr/
-@@||jrhot.com/data/attachment/*_300_250_
 @@||jrtstudio.com^
 @@||jrupprechtlaw.com^
 @@||js-agent.newrelic.com/nr-*.min.js$domain=copy.com
@@ -28083,7 +28074,6 @@
 @@||jsdelivr.net/gh/bde4admin/*/prebid-ads.js$domain=bde4.icu
 @@||jsdelivr.net/npm/@fingerprintjs/fingerprintjs@3/dist/fp.min.js$domain=suki-kira.com
 @@||jsdelivr.net/npm/@fingerprintjs/fingerprintjs@3/dist/fp.min.js$domain=suki-kira.com
-@@||jsdelivr.net/opensug/1.1.2/opensug.js
 @@||jsdelivr.net^
 @@||jsdelivr.net^$script,domain=thepiratebay.org
 @@||jsdelivr.net^$script,domain=thepiratebay.org
@@ -29191,7 +29181,6 @@
 @@||league-funny.com^$generichide
 @@||league-funny.com^$script,~third-party
 @@||leagueoflegends.com^
-@@||leagueofmovie.com^$generichide
 @@||leaked.im^$generichide
 @@||leakforums.co/js/SvgAdblockDetected/advertising.js
 @@||leakforums.co/js/siropu/am/ads.min.js
@@ -31733,8 +31722,6 @@
 @@||meituan.net/bs/js/*/js/tracker.js
 @@||meituan.net/bs/js/*/js/tracker.js
 @@||meituan.net^
-@@||meiwenfen.com^$xmlhttprequest,domain=520tingshu.com
-@@||meizitu.net/mfiles/m.js$domain=m.mzitu.com
 @@||meizu.com/fileserver/ad/img/
 @@||meizu.com/fileserver/ad/img/
 @@||mejoresmodsminecraft.site^$generichide
@@ -46762,7 +46749,6 @@
 @@||tags.w55c.net/rs?*&t=marketing$image
 @@||tags2.adshell.net/j^$domain=h5.adshell.net
 @@||tahoeyukonforum.com^
-@@||taihainet.com^*/thumb_300_250_
 @@||tails.boum.org^
 @@||taimeod.co.il^
 @@||tainhanhvn.com^$generichide
@@ -47856,7 +47842,6 @@
 @@||throwawaymail.com^
 @@||throwbacks.com^
 @@||thrunite.com^
-@@||thu.edu.tw/upload/ad_upload/
 @@||thueringen24.de/img^
 @@||thueringen24.de^$generichide
 @@||thuglink.com^$generichide
@@ -53303,7 +53288,6 @@
 @@||x5.ru/assets/Branding/
 @@||x5.xclicks.net/js/x3165.js$domain=small-breasted-teens.com
 @@||x5.xclicks.net/js/x3165.js$domain=small-breasted-teens.com
-@@||x81zw.com/images/all.gif
 @@||x86.fr^
 @@||xanimehub.com^$generichide
 @@||xapca1.uloz.to^
@@ -53703,7 +53687,6 @@
 @@||yimg.com/zz/combo?*&*.css$domain=~search.yahoo.com
 @@||yimg.com/zz/combo?*&*.css$domain=~search.yahoo.com
 @@||yimg.com^
-@@||yimg.com^*/react-share-buttons.
 @@||yimg.com^*/ywa.js$domain=nydailynews.com|travelscream.com|yahoo.com
 @@||yimg.com^*/ywa.js$domain=nydailynews.com|travelscream.com|yahoo.com
 @@||yimg.jp/bdv/yahoo/javascript/gyao/clover.js$domain=gyao.yahoo.co.jp
