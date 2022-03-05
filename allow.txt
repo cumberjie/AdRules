@@ -1,6 +1,6 @@
 ! Title: Allowlist
-! Version: 2022-03-05 06:09:45（北京时间） 
-! Total count: 54152
+! Version: 2022-03-05 18:12:48（北京时间） 
+! Total count: 54172
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=heapfiles.com|vidoza.co|vidoza.net
 @@$generichide,domain=heapfiles.com|vidoza.co|vidoza.net
@@ -271,7 +271,7 @@
 @@/advertising/*$domain=315.sh.cn
 @@/adverts/*$domain=onlychild.cn
 @@/adverts/*$domain=onlychild.cn
-@@/adview_pic_$domain=1090ys2.com|2hanju.com|laimanhua.com|lfqie.com|lingjike.com|mahua.com|mati.hk|meiyouad.com|mh160.com|myqqjd.com|reh.tw|silisili.in|sssam.com|xiaoz.me|ykit.cn|zgpingshu.com|zyshow.net
+@@/adview_pic_$domain=1090ys8.com|2hanju.com|laimanhua.com|lfqie.com|lingjike.com|mahua.com|mati.hk|meiyouad.com|mh160.com|myqqjd.com|reh.tw|silisili.in|sssam.com|xiaoz.me|ykit.cn|zgpingshu.com|zyshow.net
 @@/adview_pic_$domain=1090ys8.com|2hanju.com|laimanhua.com|lfqie.com|lingjike.com|mahua.com|mati.hk|meiyouad.com|mh160.com|myqqjd.com|reh.tw|silisili.in|sssam.com|xiaoz.me|ykit.cn|zgpingshu.com|zyshow.net
 @@/adview_pic_$domain=2hanju.com|laimanhua.com|lingjike.com|mahua.com|meiyouad.com|mh160.com|reh.tw|silisili.me|xiaoz.me|ykit.cn|zgpingshu.com
 @@/adview_pic_$domain=doutula.com|fastadmin.net|toolfk.com|xclient.info
@@ -1153,6 +1153,7 @@
 @@||2embed.ru^
 @@||2f13yq12csmv2yraq925m73i-wpengine.netdna-ssl.com^
 @@||2gis.com^
+@@||2happybirthday.com^
 @@||2htetn-ydazfwt7lrh2.cloudmaestro.com^
 @@||2images.cgames.de/images
 @@||2k.com^
@@ -6103,6 +6104,7 @@
 @@||auth-rgl-prod.ros.rockstargames.com^
 @@||auth.api.np.ac.playstation.net^
 @@||auth.api.sonyentertainmentnetwork.com^
+@@||auth.barracudanetworks.com^
 @@||auth.cableone.net^
 @@||auth.centurylink.net^
 @@||auth.eu1.apc.avira.com^
@@ -7183,6 +7185,7 @@
 @@||bigbangtheory.fandom.com^
 @@||bigborear.com^
 @@||bigboxcollection.com^
+@@||bigbrothercanada.ca^$generichide
 @@||bigbtc.win/js/ads-prebid.js
 @@||bigbtc.win^$generichide
 @@||bigcartel-admin.a.ssl.fastly.net^
@@ -8773,6 +8776,7 @@
 @@||campingworld.com^
 @@||camps.intuit.com^
 @@||campsaver.com^
+@@||campus.barracuda.com^
 @@||campusfont.ucdavis.edu^
 @@||cams.cdn-surfline.com^
 @@||camsclips.com/player/player_ads.html
@@ -8810,6 +8814,7 @@
 @@||candidate.hr-manager.net/Advertisement/PreviewAdvertisement.aspx$subdocument,~third-party
 @@||candycrushsoda.king.com^
 @@||canlidershane.net^$generichide
+@@||canna-power.to/links.php?action=$popup
 @@||canon-asia.com^
 @@||canon-europe.com^
 @@||canon.co.uk^
@@ -13655,6 +13660,8 @@
 @@||d1w7fb2mkkr3kw.cloudfront.net^
 @@||d1wa642fa19wy3.cloudfront.net^
 @@||d1wa9546y9kg0n.cloudfront.net/index.js$domain=saratogian.com|union-bulletin.com|reporterherald.com|sgvtribune.com|bostonherald.com|theoaklandpress.com|dailybreeze.com|eastbaytimes.com|mercurynews.com|ocregister.com|chicoer.com|delcotimes.com|denverpost.com|macombdaily.com|newsday.com|pe.com|reviewjournal.com|trentonian.com|twincities.com|marinij.com|dailybulletin.com|timescall.com|dailydemocrat.com|tampabay.com|adn.com|times-standard.com|montereyherald.com|spokesman.com|ajc.com
+@@||d1wkfmh9vjlr1l.cloudfront.net^
+@@||d1wli5mq9yq9mw.cloudfront.net^
 @@||d1x9snl812q4nd.cloudfront.net^
 @@||d1xduvjfvmwim6.cloudfront.net^
 @@||d1xuyebzzdfqlr.cloudfront.net^
@@ -13713,6 +13720,7 @@
 @@||d2c87l0yth4zbw.cloudfront.net^
 @@||d2c8v52ll5s99u.cloudfront.net^
 @@||d2cnv2pop2xy4v.cloudfront.net^
+@@||d2ct96dh4lkill.cloudfront.net^
 @@||d2culxnxbccemt.cloudfront.net^
 @@||d2d0b2rxqzh1q5.cloudfront.net^
 @@||d2d6mmnke47ihx.cloudfront.net^
@@ -15188,6 +15196,7 @@
 @@||dl-protect1.com^$generichide
 @@||dl-qa.flipagram.com^
 @@||dl-web.dropbox.com^
+@@||dl.520cc.cc/*/ad.php?$~third-party
 @@||dl.airtable.com^
 @@||dl.appstreaming.autodesk.com^
 @@||dl.backup.com^
@@ -15298,6 +15307,7 @@
 @@||dloady.com/js/*/ad-banner.js
 @@||dloady.com/js/*/ad728x90-gmu.js
 @@||dloady.com^$generichide
+@@||dlportal.barracudanetworks.com^
 @@||dlr.sd.gov^
 @@||dlrdoc.deere.com^
 @@||dlshield.com^
@@ -18245,6 +18255,7 @@
 @@||files.graphiq.com^
 @@||files.harrispublications.com^
 @@||files.homepagemodules.de^
+@@||files.jotform.com^
 @@||files.knifecenter.com^
 @@||files.kuula.io^
 @@||files.logoscdn.com^
@@ -25074,6 +25085,8 @@
 @@||ilan.memurlar.net/common/job/advert/images/*/headline.jpg|
 @@||ileak.xyz^$generichide
 @@||ilfattoquotidiano.it^$extension
+@@||iliferobot.com^
+@@||iliferobot.store^
 @@||iliketomakestuff.com^
 @@||illamadas.es/public/javascripts/wp-banners.js
 @@||illink.net^$generichide
@@ -26082,8 +26095,8 @@
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=znanija.com
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=zoomtventertainment.com
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$script,domain=animedigitalnetwork.fr|esgentside.com|gentside.com|gentside.com.br|gentside.de|maxisciences.com|ohmirevista.com|ohmymag.com|ohmymag.com.br|ohmymag.de|planet.fr
-@@||imasdk.googleapis.com/js/sdkloader/ima3.js$script,domain=bloomberg.co.jp|farfeshplus.com|filmweb.pl|game.pointmall.rakuten.net|gamepix.com|klix.ba|locipo.jp|maharashtratimes.com|minigame.aeriagames.jp|nettavisen.no|niusdiario.es|pointmall.rakuten.co.jp|rtlnieuws.nl|sportsbull.jp|sportsport.ba|success-games.net|synk-casualgames.com|tbs.co.jp|tv-asahi.co.jp|tv.rakuten.co.jp|tver.jp|video.tv-tokyo.co.jp|vlive.tv|voe.sx|webdunia.com|wowbiz.ro|wtk.pl
-@@||imasdk.googleapis.com/js/sdkloader/ima3.js$script,domain=bloomberg.co.jp|farfeshplus.com|filmweb.pl|game.pointmall.rakuten.net|gamepix.com|klix.ba|locipo.jp|maharashtratimes.com|minigame.aeriagames.jp|nettavisen.no|niusdiario.es|pointmall.rakuten.co.jp|rtlnieuws.nl|sportsbull.jp|sportsport.ba|success-games.net|synk-casualgames.com|tbs.co.jp|tv-asahi.co.jp|tv.rakuten.co.jp|tver.jp|video.tv-tokyo.co.jp|vlive.tv|voe.sx|webdunia.com|wowbiz.ro|wtk.pl
+@@||imasdk.googleapis.com/js/sdkloader/ima3.js$script,domain=bloomberg.co.jp|farfeshplus.com|filmweb.pl|game.pointmall.rakuten.net|gamebox.gesoten.com|gamepix.com|klix.ba|locipo.jp|maharashtratimes.com|minigame.aeriagames.jp|nettavisen.no|niusdiario.es|pointmall.rakuten.co.jp|rtlnieuws.nl|sportsbull.jp|sportsport.ba|success-games.net|synk-casualgames.com|tbs.co.jp|tv-asahi.co.jp|tv.rakuten.co.jp|tver.jp|video.tv-tokyo.co.jp|vlive.tv|voe.sx|webdunia.com|wowbiz.ro|wtk.pl
+@@||imasdk.googleapis.com/js/sdkloader/ima3.js$script,domain=bloomberg.co.jp|farfeshplus.com|filmweb.pl|game.pointmall.rakuten.net|gamebox.gesoten.com|gamepix.com|klix.ba|locipo.jp|maharashtratimes.com|minigame.aeriagames.jp|nettavisen.no|niusdiario.es|pointmall.rakuten.co.jp|rtlnieuws.nl|sportsbull.jp|sportsport.ba|success-games.net|synk-casualgames.com|tbs.co.jp|tv-asahi.co.jp|tv.rakuten.co.jp|tver.jp|video.tv-tokyo.co.jp|vlive.tv|voe.sx|webdunia.com|wowbiz.ro|wtk.pl
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$script,domain=games.cdn.famobi.com
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$script,domain=mitele.es
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$script,domain=play.neos-easygames.com
@@ -26794,6 +26807,7 @@
 @@||imore.com/sites/imore.com/files/*/public/field/image/*/google-ad$image,domain=imore.com
 @@||imore.com/sites/imore.com/files/advagg_js/$script
 @@||imore.com^
+@@||imp-adedge.i-mobile.co.jp/script/v1/spot.js$domain=musenboya.com
 @@||imp.appledaily.com^
 @@||impactammo.com^
 @@||impactguns.com^
@@ -33050,6 +33064,7 @@
 @@||mstreamcdn.com^*/snapsho$image,domain=mstream.fun|mstream.icu|mstream.press|mstream.rocks|mstream.space|mstream.tech|mstream.website|mystream.to
 @@||msu.edu^
 @@||msubload.com/sub/$xmlhttprequest
+@@||msubload.com/sub/$xmlhttprequest
 @@||msubobcats.com^
 @@||mt.de/img
 @@||mt.gov^
@@ -33128,6 +33143,7 @@
 @@||murray-countymn.com^
 @@||muscledfitness.com^
 @@||muse.jhu.edu^
+@@||musenboya.com^$generichide
 @@||museo8bits.es^
 @@||musescore.org^
 @@||mushinavi.com^$generichide
@@ -36277,7 +36293,6 @@
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=mshare.io|mshare.xyz
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=mshares.co
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=mufasi.ga
-@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=musenboya.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=muzolandia.pl
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=mycinema.pro|edtechnology.co.uk|facciabuco.com|mifirm.net|derechadiario.com.ar|comnuan.com|zeelandnet.nl|abcya.com|vectorizer.io|alpinforum.com|infopedia.su|studopedia.net|studopedia.su|studopedia.org|studopedia.ru|studopedia.com.ua|lektsii.org|mydocx.ru
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=myjest.com
@@ -36597,7 +36612,6 @@
 @@||pagead2.googlesyndication.com/pagead/managed/js/adsense/$script,domain=ff14angler.com
 @@||pagead2.googlesyndication.com/pagead/managed/js/adsense/*/show_ads_impl_fy2019.js$domain=beatsnoop.com
 @@||pagead2.googlesyndication.com/pagead/managed/js/adsense/*/show_ads_impl_fy2019.js$domain=htmlweb.ru
-@@||pagead2.googlesyndication.com/pagead/managed/js/adsense/*/show_ads_impl_fy2019.js$domain=musenboya.com
 @@||pagead2.googlesyndication.com/pagead/managed/js/adsense/*/show_ads_impl_with_ama_fy2019.js$domain=cdkm.com
 @@||pagead2.googlesyndication.com/pagead/managed/js/adsense/*/show_ads_impl_with_ama_fy2019.js$domain=q84sale.com
 @@||pagead2.googlesyndication.com/pagead/managed/js/adsense/*/show_ads_impl_with_ama_fy2019.js?client=ca-pub-$domain=downloads.descendant.me
@@ -38358,6 +38372,8 @@
 @@||post.spmailtechnol.com^
 @@||post4earn.com/js/advertisement.js
 @@||posta.com.tr^
+@@||postable.com^
+@@||postable.us5.list-manage.com^
 @@||postage.ebay.com^
 @@||postallocations.com^
 @@||postandcourier.com^$generichide
@@ -44080,6 +44096,7 @@
 @@||splitter.lendingtree.com^
 @@||splunk-heavyforwarder-public.vtex.com:8088/services/collector/event$xmlhttprequest,domain=loja3m.com.br
 @@||splunk.com^
+@@||spnativeapi-tls.i-mobile.co.jp/api/ad_spot.ashx?$domain=musenboya.com
 @@||spng.pngfind.com^
 @@||spoc-pool-gtm.norton.com^
 @@||spockthedog.com^
@@ -44357,6 +44374,7 @@
 @@||sso.techdata.com^
 @@||sso.ubnt.com^
 @@||sso.ui.com^
+@@||ssp-bidapi.i-mobile.co.jp/api/v1/spot.ashx?$domain=musenboya.com
 @@||ssp.c8.net.ua/getcode.php$domain=tree.tv
 @@||ssp.meba.kr^
 @@||ssp.rambler.ru/acp/capirs_main.$script,domain=afisha.ru
@@ -48968,6 +48986,7 @@
 @@||turkdebrid.site^$generichide
 @@||turkdown.com/*/advertisement.js
 @@||turkdown.com^$generichide
+@@||turkishaudiocenter.com/js/*/800x90.js
 @@||turkleech.com^$generichide
 @@||turkmmo.com/js/siropu/am/ads.min.js
 @@||turkrock.com/js/*/crossdomainads.js
@@ -53188,6 +53207,7 @@
 @@||www3.corsair.com^
 @@||www3.djicdn.com^
 @@||www3.doubleclick.net/|$xmlhttprequest,domain=shaalaa.com
+@@||www3.doubleclick.net/|$xmlhttprequest,domain=tivify.tv
 @@||www3.doubleclick.net/|$xmlhttprequest,domain=vn.trueid.net
 @@||www3.doubleclick.net^|$domain=mac2sell.net
 @@||www3.doubleclick.net^|$xmlhttprequest,other,domain=thingiverse.com
