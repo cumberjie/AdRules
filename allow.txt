@@ -1,6 +1,6 @@
 ! Title: Allowlist
-! Version: 2022-03-05 18:12:48（北京时间） 
-! Total count: 54172
+! Version: 2022-03-06 06:11:52（北京时间） 
+! Total count: 54177
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=heapfiles.com|vidoza.co|vidoza.net
 @@$generichide,domain=heapfiles.com|vidoza.co|vidoza.net
@@ -282,6 +282,7 @@
 @@/analytics.php?$domain=xcar.com.cn
 @@/analytics.php?$domain=xcar.com.cn
 @@/analyticsmediator.$script,domain=mysortimo.be|mysortimo.co.uk|mysortimo.com|mysortimo.com.au|mysortimo.de|mysortimo.dk|mysortimo.es|mysortimo.fr|mysortimo.no|mysortimo.se
+@@/analyticsmediator.$script,domain=mysortimo.be|mysortimo.co.uk|mysortimo.com|mysortimo.com.au|mysortimo.de|mysortimo.dk|mysortimo.es|mysortimo.fr|mysortimo.no|mysortimo.se|repco.co.nz|repco.com.au
 @@/api/ad/*$domain=pinduoduo.com
 @@/api/ad/*$domain=pinduoduo.com
 @@/api/ads?$domain=nmkjxy.com
@@ -14258,6 +14259,7 @@
 @@||dcape-na.amazon.com^
 @@||dcarack08.vpg.cdn.yimg.com^
 @@||dccomics.com^
+@@||dcdirtylaundry.com/cdn-cgi/challenge-platform/$~third-party
 @@||dcdirtylaundry.com^
 @@||dcdws.blob.core.windows.net^
 @@||dcedh.org^
@@ -22216,6 +22218,7 @@
 @@||googletagmanager.com/gtm.js$domain=morningstar.nl|morningstar.de|morningstar.at|morningstar.fr|morningstarfunds.ie|morningstar.it|morningstar.es|morningstar.se|morningstar.ch|morningstar.co.uk|morningstar.hk|morningstar.com
 @@||googletagmanager.com/gtm.js$domain=morningstar.nl|morningstar.de|morningstar.at|morningstar.fr|morningstarfunds.ie|morningstar.it|morningstar.es|morningstar.se|morningstar.ch|morningstar.co.uk|morningstar.hk|morningstar.com
 @@||googletagmanager.com/gtm.js$domain=moviefone.com
+@@||googletagmanager.com/gtm.js$domain=n11.com
 @@||googletagmanager.com/gtm.js$domain=napishem.ru
 @@||googletagmanager.com/gtm.js$domain=napishem.ru
 @@||googletagmanager.com/gtm.js$domain=nestleprofessional.com.tr
@@ -43890,6 +43893,7 @@
 @@||sourcepoint.mgr.consensu.org^$domain=t3n.de
 @@||sourcepoint.telegraph.co.uk^$~third-party,xmlhttprequest
 @@||sourcepointcmp.bloomberg.*/ccpa.js$script,domain=bloomberg.co.jp|bloomberg.com
+@@||sourcepointcmp.bloomberg.*/mms/get_site_data?requestUUID=$domain=bloomberg.*
 @@||sourcingjournal.com^
 @@||sourl.cn^
 @@||south-pak.com^
@@ -49572,6 +49576,7 @@
 @@||unlockapk.com^$generichide
 @@||unmineable.com^
 @@||unofficialnetworks.com^
+@@||unpkg.com/@optimizely/optimizely-sdk$script,domain=talktalk.co.uk
 @@||unpkg.com/aos@*/dist/aos.js$domain=xsanime.com
 @@||unpkg.com/fuckadblock@3.2.1/fuckadblock.js
 @@||unpkg.com/vast-client*/dist/vast-client.js$domain=hindipix.in
