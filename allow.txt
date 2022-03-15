@@ -1,6 +1,6 @@
 ! Title: Allowlist
-! Version: 2022-03-15 06:12:47（北京时间） 
-! Total count: 4922
+! Version: 2022-03-15 18:14:30（北京时间） 
+! Total count: 4930
 @@$generichide,domain=heapfiles.com|vidoza.co|vidoza.net
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
 @@-ds.metric.gstatic.com^
@@ -732,6 +732,7 @@
 @@||apis.kostprice.com/fapi/$script,domain=gadgets.ndtv.com
 @@||apiservices.krxd.net/click_tracker^
 @@||apk.tw^*/ads.js$script,~third-party
+@@||apkmirror.com^$generichide
 @@||apmebf.com/ad/$domain=betfair.com
 @@||app-advertise.zhihuishu.com^
 @@||app-sjf.marketo.com^$domain=live.altium.com
@@ -1584,6 +1585,7 @@
 @@||dmhy.b168.net^$generichide
 @@||dmm.com/p/general/$image,~third-party
 @@||dmm.com^*/display_ad.js$~third-party
+@@||dmp.im-apps.net/pms/*/pmt.js$domain=zakzak.co.jp
 @@||dnbus.com.tw/AD/tab_route.html
 @@||dnsleak.privateinternetaccess.com^$xmlhttprequest,domain=dnsleak.com
 @@||dnspod.cn/static/common/js/analytics.js
@@ -1929,6 +1931,7 @@
 @@||geoplugin.net/json.gp?jsoncallback=$script,domain=worldc.am
 @@||geostag.cardinalcommerce.com/DeviceFingerprintWeb/includes/js/fingerprint2.min.js$script
 @@||get.cervell.io/api/$domain=cildimveben.com
+@@||get.s-onetag.com/*/tag.min.js$domain=zakzak.co.jp
 @@||getclicky.com/ajax/marketshare?$script
 @@||getgoods.de^*/emstrack.js
 @@||getjad.io/library/$script,domain=allocine.fr
@@ -2357,6 +2360,7 @@
 @@||googletagmanager.com/gtm.js$domain=amd.com
 @@||googletagmanager.com/gtm.js$domain=anond.hatelabo.jp
 @@||googletagmanager.com/gtm.js$domain=argeweb.nl
+@@||googletagmanager.com/gtm.js$domain=arzum.com.tr
 @@||googletagmanager.com/gtm.js$domain=asicstr.com
 @@||googletagmanager.com/gtm.js$domain=ask.com
 @@||googletagmanager.com/gtm.js$domain=askona.ru
@@ -2410,6 +2414,7 @@
 @@||googletagmanager.com/gtm.js$domain=eldorado.com.ua
 @@||googletagmanager.com/gtm.js$domain=elnuevodia.com
 @@||googletagmanager.com/gtm.js$domain=eprice.it|euronics.it|iphoneitalia.com|la7.it|raiplayradio.it|savethechildren.it|unieuro.it
+@@||googletagmanager.com/gtm.js$domain=evofone.com
 @@||googletagmanager.com/gtm.js$domain=filgoal.com
 @@||googletagmanager.com/gtm.js$domain=flo.com.tr
 @@||googletagmanager.com/gtm.js$domain=flyingv.cc
@@ -2559,6 +2564,7 @@
 @@||googletagmanager.com/gtm.js$domain=ymobile.jp
 @@||googletagmanager.com/gtm.js$domain=youfoodz.com
 @@||googletagmanager.com/gtm.js$domain=yourstory.com
+@@||googletagmanager.com/gtm.js$domain=zakzak.co.jp
 @@||googletagmanager.com/gtm.js$domain=zeelandnet.nl
 @@||googletagmanager.com/gtm.js$domain=zolotoyvek.ua
 @@||googletagmanager.com/gtm.js$script,domain=animeanime.jp|carcareplus.jp|cinemacafe.net|cyclestyle.net|gamebusiness.jp|gamespark.jp|inside-games.jp|mycar-life.com|newscafe.ne.jp|reanimal.jp|resemom.jp|response.jp|scan.netsecurity.ne.jp|spyder7.com
@@ -2970,6 +2976,7 @@
 @@||jsonip.com/?callback=$domain=hotelforex.com
 @@||jsonip.com/?callback=$script,domain=pagtel.com.br
 @@||jsonip.com/?callback=jQuery$domain=pagtel.com.br
+@@||jsqsjn.com^$script,domain=yssm.info
 @@||jsr9.com^$domain=jsr9.com
 @@||jsrdn.com/s/$script,domain=distro.tv
 @@||jssdkcdns.mparticle.com/js/v*/*/mparticle.js$domain=cwseed.com
@@ -4322,6 +4329,7 @@
 @@||tag.md-nx.com^$script,domain=weather.us
 @@||tag.perfectaudience.com/serve/*.js$domain=asana.com
 @@||tagcommander.com^*/tc_$script
+@@||tagger.opecloud.com/mediaconsortium/*/tagger.js$domain=zakzak.co.jp
 @@||tags.bkrtx.com/js/$domain=cnet.com
 @@||tags.bkrtx.com/js/bk-coretag.js$domain=mobile.pcmag.com
 @@||tags.bkrtx.com/js/bk-coretag.js$domain=tmz.com
