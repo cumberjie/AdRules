@@ -1,6 +1,6 @@
 ! Title: Allowlist
-! Version: 2022-03-26 18:13:12（北京时间） 
-! Total count: 4944
+! Version: 2022-03-27 06:11:47（北京时间） 
+! Total count: 4945
 @@$generichide,domain=heapfiles.com|vidoza.co|vidoza.net
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
 @@-ds.metric.gstatic.com^
@@ -4133,6 +4133,7 @@
 @@||smtcaw.com^$generichide
 @@||snap.licdn.com/li.lms-analytics/insight.min.js$domain=msci.com
 @@||snapchat.com/static/js/autotrack.js
+@@||snva.jp/javascripts/reco/$script,domain=store.charle.co.jp
 @@||softwarebrother.com^$generichide
 @@||sogou.com/adpub/cfg/sendmsg.
 @@||sogou.com/pv.gif?*&stype=showskinpanel
