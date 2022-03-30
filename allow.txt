@@ -1,6 +1,6 @@
 ! Title: Allowlist
-! Version: 2022-03-30 06:12:44（北京时间） 
-! Total count: 4946
+! Version: 2022-03-30 18:13:59（北京时间） 
+! Total count: 4947
 @@$generichide,domain=heapfiles.com|vidoza.co|vidoza.net
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
 @@-ds.metric.gstatic.com^
@@ -4860,6 +4860,7 @@
 @@||xnimg.cn^*/nx/ugc/share/js/hotlist.js
 @@||xsc.lise.edu.cn/ad/
 @@||xtool.ru/js/analyze.js$script,domain=xtool.ru
+@@||xumo.com/xumocdn/*/beacon?$domain=roku.com
 @@||yabs.yandex.ru$domain=yandex.by|yandex.com.tr|yandex.kz|yandex.ru|yandex.ua
 @@||yadayadayada.nl/banner/banner.php$image,domain=murf.nl|workhardclimbharder.nl
 @@||yads.c.yimg.jp/js/yads-async.js$domain=kobe-np.co.jp|yahoo.co.jp
