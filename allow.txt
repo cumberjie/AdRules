@@ -1,6 +1,6 @@
 ! Title: Allowlist
-! Version: 2022-04-11 18:15:52（北京时间） 
-! Total count: 4974
+! Version: 2022-04-12 06:12:57（北京时间） 
+! Total count: 4976
 @@$generichide,domain=heapfiles.com|vidoza.co|vidoza.net
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
 @@-ds.metric.gstatic.com^
@@ -2412,6 +2412,7 @@
 @@||googletagmanager.com/gtm.js$domain=cildimveben.com
 @@||googletagmanager.com/gtm.js$domain=cinemaximum.com.tr
 @@||googletagmanager.com/gtm.js$domain=cinemaxx.de
+@@||googletagmanager.com/gtm.js$domain=coda.io
 @@||googletagmanager.com/gtm.js$domain=coolermaster.com
 @@||googletagmanager.com/gtm.js$domain=cotizadorsalud.mapfre.com.mx
 @@||googletagmanager.com/gtm.js$domain=cuk.pl
@@ -4234,6 +4235,7 @@
 @@||starbucks.com^*/optimizely.$script,~third-party
 @@||starbucksassets.com/weblx/static/optimizely.$script,domain=starbucks.ca|starbucks.com
 @@||startpage.com/js/abp.js^
+@@||stash.roistat.com^|
 @@||stat.pc.music.qq.com/fcgi-bin/player_
 @@||stat.prsmedia.fr/tag/stat.js$domain=bienpublic.com
 @@||stat.safeway.com/b/ss/$image
