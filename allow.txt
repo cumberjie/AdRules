@@ -1,6 +1,6 @@
 ! Title: Allowlist
-! Version: 2022-04-11 06:12:52（北京时间） 
-! Total count: 4972
+! Version: 2022-04-11 18:15:52（北京时间） 
+! Total count: 4974
 @@$generichide,domain=heapfiles.com|vidoza.co|vidoza.net
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
 @@-ds.metric.gstatic.com^
@@ -1966,6 +1966,7 @@
 @@||gitlab.com^$generichide
 @@||gittigidiyor.net/reklam/$image
 @@||givingassistant.org/Advertisers/$~third-party
+@@||gj.mmstat.com/aliyun.$domain=work.aliyun.com
 @@||gjensidige.lv/Content/dev/scripts/analytics.js
 @@||gjensidige.lv/Content/dev/scripts/analytics.min.js
 @@||glenat.com^*/static/analytics.js$script,~third-party
@@ -2849,6 +2850,7 @@
 @@||imasdk.googleapis.com/js/sdkloader/ima3_dai.js$domain=vk.sportsbull.jp
 @@||imasdk.googleapis.com/js/sdkloader/ima3_debug.js$domain=abcnews.go.com|brightcove.net
 @@||imasdk.googleapis.com^|
+@@||img*.kangaroobro.com/images/$image,domain=leyuman.com
 @@||img-cdn.mediaplex.com^$image,domain=betfair.com
 @@||img-lescon.mncdn.com/UPLOAD/Banner/$domain=lescon.com.tr
 @@||img-trendyol.mncdn.com/assets/banner/slidertransparent.gif
@@ -3695,6 +3697,7 @@
 @@||planetazdorovo.ru/pics/transparent_pixel.png$image,~third-party
 @@||plantyn.com/optiext/optiextension.dll$~third-party
 @@||platform-modules.sgweb.softgames.de/ads/p2-ads-client.js$domain=games.softgames.com
+@@||plausible.io/js/plausible.js$script,domain=sammobile.com
 @@||play.google.com/log?$domain=meet.google.com
 @@||play.google.com/log?format=json$domain=news.google.com
 @@||playcanvas.com.*/keen.min.js
@@ -3950,7 +3953,6 @@
 @@||sahibinden.com/assets/analytics*.js$script
 @@||sail-horizon.com/spm/spm.v1.min.js$script,domain=voguegirl.jp
 @@||salfordonline.com/wp-content/plugins/wp_pro_ad_system/$script
-@@||sammobile.com/wp-content/themes/sammobile-6/assets/js/newrelic.js$~third-party
 @@||samplefan.com/img/ad/$image
 @@||sankei.co.jp/js/analytics/skd.Analysis.js$script
 @@||sanspo.com/parts/chartbeat/$xmlhttprequest
