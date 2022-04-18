@@ -1,6 +1,6 @@
 ! Title: Allowlist
-! Version: 2022-04-18 18:15:16（北京时间） 
-! Total count: 4996
+! Version: 2022-04-19 06:13:53（北京时间） 
+! Total count: 4997
 @@$generichide,domain=heapfiles.com|vidoza.co|vidoza.net
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
 @@-ds.metric.gstatic.com^
@@ -3460,6 +3460,7 @@
 @@||nflcdn.com/static/site/$script,domain=nfl.com
 @@||nfmovies.com/static/side.jpg$xmlhttprequest,domain=nfmovies.com!
 @@||ngastatic.com/*/tracker.js$domain=ads.allegro.pl
+@@||nhkondemand.sc.omtrdc.net^$domain=nhk-ondemand.jp
 @@||nhl.com/components/shared/omniture-tracking-scripts/newRelic.js$~third-party
 @@||nihasi.ru/upload/resize_cache/*/300_250_$image,~third-party
 @@||nihongo.alc.co.jp/theme/Japanese/img/home/nf/us.gif$image,~third-party
@@ -3575,7 +3576,7 @@
 @@||optimatic.com/shell.js$domain=pch.com
 @@||optimize.webtrends.com^$domain=peterboroughtoday.co.uk
 @@||optimizely.addmilk.nl^$image,domain=simyo.nl
-@@||optimizely.com/datafiles/$domain=talktalk.co.uk
+@@||optimizely.com/datafiles/$domain=nike.com|talktalk.co.uk
 @@||optimizely.com/js/geo2.js$domain=cbs.com
 @@||optimizely.com^$script,domain=kabeleins.de|prosieben.de|prosiebenmaxx.de|ran.de|sat1.de|sixx.de
 @@||optimost.com/counter/*/event.js?$domain=bebo.com
@@ -4252,7 +4253,7 @@
 @@||starbucksassets.com/weblx/static/optimizely.$script,domain=starbucks.ca|starbucks.com
 @@||startpage.com/js/abp.js^
 @@||stash.roistat.com^|
-@@||stat-rock.com/player/$domain=adplayer.pro
+@@||stat-rock.com/player/$domain=4shared.com|adplayer.pro
 @@||stat.pc.music.qq.com/fcgi-bin/player_
 @@||stat.prsmedia.fr/tag/stat.js$domain=bienpublic.com
 @@||stat.safeway.com/b/ss/$image
