@@ -1,6 +1,6 @@
 ! Title: Allowlist
-! Version: 2022-04-22 18:15:26（北京时间） 
-! Total count: 5006
+! Version: 2022-04-23 06:13:46（北京时间） 
+! Total count: 5008
 @@$generichide,domain=heapfiles.com|vidoza.co|vidoza.net
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
 @@-ds.metric.gstatic.com^
@@ -3531,6 +3531,7 @@
 @@||official.paymaya.com^|
 @@||oiihk.com^$generichide
 @@||oisd.nl^$generichide
+@@||okccdn.com/builds/desktop/js/tracking_center.$script,domain=okcupid.com
 @@||olcdn.com/net/v1/gb2312/$script
 @@||olgame.tw^$generichide
 @@||olx.*/static/*/js/xgemius.js$domain=olx.kz|olx.ua|olx.pl
@@ -4302,6 +4303,7 @@
 @@||static.lci.fr/assets/scripts/vendors/smarttag-prod.js
 @@||static.leaddyno.com/js$script,domain=s4l.us
 @@||static.mytf1.tf1.fr/assets/js/build/lib/smarttag.js$domain=tf1.fr
+@@||static.okccdn.com/builds/desktop/js/tracking_center.$script,domain=okcupid.com
 @@||static.parsely.com/p.js$domain=nfl.com
 @@||static.parsely.com^$script,domain=dailystar.co.uk|express.co.uk|nydailynews.com
 @@||static.rpxnow.com/js/lib/rpx.js$domain=colbertnation.com|thedailyshow.com
