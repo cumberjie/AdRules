@@ -1,5 +1,5 @@
 ! Title: Allowlist
-! Version: 2022-04-24 18:13:53（北京时间） 
+! Version: 2022-04-25 06:12:42（北京时间） 
 ! Total count: 5009
 @@$generichide,domain=heapfiles.com|vidoza.co|vidoza.net
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
@@ -1610,7 +1610,7 @@
 @@||docs.google.com/*/viewdata$~third-party
 @@||docs.woopt.com/wgact/$image,~third-party,xmlhttprequest
 @@||dominos.com^*/assets/build/js/modules/dpz.tealium.js$script
-@@||doodcdn.co^$domain=dood.so
+@@||doodcdn.co^$domain=dood.la|dood.so|dood.to|dood.watch|dood.ws
 @@||doortodoor.co.kr/jsp/cmn/Tracking.jsp^
 @@||douban.com/popup/login?
 @@||doubibackup.com^$generichide
@@ -4257,7 +4257,7 @@
 @@||st.top100.ru/top100/top100.js$domain=m.gazeta.ru
 @@||st.top100.ru/top100/top100.js$domain=rambler.ru
 @@||st.wetteronline.de/dr/*/css/p_*.css
-@@||staff-start.com/js/track/$domain=enoteca.co.jp|store.alpen-group.jp
+@@||staff-start.com/js/track/$domain=enoteca.co.jp|francfranc.com|store.alpen-group.jp
 @@||star-telegram.com/mistats/sites/dfw/startelegram.js
 @@||starbucks.ca^*/optimizely.$script,~third-party
 @@||starbucks.com^*/optimizely.$script,~third-party
