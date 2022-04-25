@@ -1,6 +1,6 @@
 ! Title: Allowlist
-! Version: 2022-04-25 06:12:42（北京时间） 
-! Total count: 5009
+! Version: 2022-04-25 18:15:03（北京时间） 
+! Total count: 5010
 @@$generichide,domain=heapfiles.com|vidoza.co|vidoza.net
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
 @@-ds.metric.gstatic.com^
@@ -1726,6 +1726,7 @@
 @@||embeddedanalytics.com/updateeakpi.html$domain=brocardi.it
 @@||emerald.omeda.com/npdn/custsrv_login.do
 @@||emome.net/files/advertising/
+@@||enchambered.com^*/googleanalytics_2.js?
 @@||energy.de^*/ivw.js?$domain=energy.de
 @@||engine.presearch.org^$generichide
 @@||ens.nzz.ch^$~third-party
