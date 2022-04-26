@@ -1,6 +1,6 @@
 ! Title: Allowlist
-! Version: 2022-04-26 06:13:21（北京时间） 
-! Total count: 5012
+! Version: 2022-04-26 18:16:10（北京时间） 
+! Total count: 5013
 @@$generichide,domain=heapfiles.com|vidoza.co|vidoza.net
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
 @@-ds.metric.gstatic.com^
@@ -4063,6 +4063,7 @@
 @@||secure.logmein.com/scripts/Tracking/$script,domain=logme.in|logmein.com
 @@||secure.logmein.com/scripts/Tracking/Tracking.js$domain=logmein.com
 @@||secure.quantserve.com/quant.js$domain=fruitlab.com
+@@||securegames.iwin.com/data/gtm.json$~third-party,xmlhttprequest
 @@||securemetrics.apple.com/b/ss/$image
 @@||securenetsystems.net/advertising/ad_campaign_get.cfm?$xmlhttprequest
 @@||securepubads.g.doubleclick.net/gampad/ads$domain=cinemaxx.de
