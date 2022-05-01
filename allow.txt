@@ -1,6 +1,6 @@
 ! Title: Allowlist
-! Version: 2022-05-01 06:13:10（北京时间） 
-! Total count: 5031
+! Version: 2022-05-01 18:14:46（北京时间） 
+! Total count: 5032
 @@$generichide,domain=heapfiles.com|vidoza.co|vidoza.net
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
 @@-ds.metric.gstatic.com^
@@ -3144,6 +3144,7 @@
 @@||letvcloud.com^*&showAd=
 @@||level.travel/tracker/tracker.js$script,~third-party
 @@||levexis.com/nbty/$domain=puritan.com
+@@||lexpress.fr/tagcommander.js$script,~third-party
 @@||lgr.visilabs.net/kapsamaharitasi/om.gif$domain=kapsamaharitasi.turktelekom.com.tr
 @@||lib.baomitu.com^$domain=meituhe.com
 @@||libhunt.com^$generichide
