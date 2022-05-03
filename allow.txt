@@ -1,6 +1,6 @@
 ! Title: Allowlist
-! Version: 2022-05-03 18:18:11（北京时间） 
-! Total count: 5040
+! Version: 2022-05-04 06:13:37（北京时间） 
+! Total count: 5041
 @@$generichide,domain=heapfiles.com|vidoza.co|vidoza.net
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
 @@-ds.metric.gstatic.com^
@@ -1319,6 +1319,7 @@
 @@||cloud.talend.com/api/ipaas/services/analytics/$~third-party,xmlhttprequest
 @@||cloudflare.com/*/fingerprint2.min.js$domain=saavn.com
 @@||cloudflare.com/ajax/$stylesheet,domain=shink.me|shon.xyz
+@@||cloudflare.com/ajax/libs/fingerprintjs2/$domain=winnipegfreepress.com
 @@||cloudflare.com/ajax/libs/fingerprintjs2/$script,domain=gamebox.gesoten.com
 @@||cloudflare.com/ajax/libs/fingerprintjs2/*/fingerprint2.min.js$domain=nfmovies.com
 @@||cloudflare.com/ajax/libs/fuckadblock/$domain=seselah.com
