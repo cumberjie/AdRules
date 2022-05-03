@@ -1,6 +1,6 @@
 ! Title: Allowlist
-! Version: 2022-05-03 06:14:01（北京时间） 
-! Total count: 5039
+! Version: 2022-05-03 18:18:11（北京时间） 
+! Total count: 5040
 @@$generichide,domain=heapfiles.com|vidoza.co|vidoza.net
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
 @@-ds.metric.gstatic.com^
@@ -3918,6 +3918,7 @@
 @@||recs.engageya.com/rec-api/getrecs.json$domain=haber7.com
 @@||recs.richrelevance.com/rrserver/p13n_generated.js$domain=bergfreunde.de
 @@||recs.richrelevance.com/rrserver/p13n_generated.js$domain=drogaraia.com.br
+@@||redbull.com/gtm.js
 @@||redditenhancementsuite.com/js/jquery.google-analytics.js
 @@||redditinc.com/assets/images/site/*_300x250.$image,~third-party
 @@||redfin.com/stingray/clicktracker.jsp?
