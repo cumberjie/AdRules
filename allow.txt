@@ -1,6 +1,6 @@
 ! Title: Allowlist
-! Version: 2022-05-04 06:13:37（北京时间） 
-! Total count: 5041
+! Version: 2022-05-04 18:15:18（北京时间） 
+! Total count: 5045
 @@$generichide,domain=heapfiles.com|vidoza.co|vidoza.net
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
 @@-ds.metric.gstatic.com^
@@ -686,6 +686,7 @@
 @@||aolcdn.com^*/beacon.min.js$domain=autoblog.com|dailyfinance.com
 @@||aone-soft.com/style/images/ad2.jpg
 @@||apc-pli.com/api/tracking/$~third-party,xmlhttprequest
+@@||api-analytics.magstimconnect.net^$~third-party
 @@||api-merchants.skimlinks.com^
 @@||api-v*.trbo.com/r.php$domain=blau.de
 @@||api-v*.trbo.com/r.php$domain=o2online.de
@@ -3626,6 +3627,7 @@
 @@||p.d.1emn.com^$script,domain=hotair.com
 @@||p.jwpcdn.com$script
 @@||p.jwpcdn.com/*/googima.js$domain=kar360.com
+@@||p.typekit.net/*.css$domain=burnabyvillagemuseum.ca
 @@||p.typekit.net/*.css$domain=cfr.org
 @@||p.typekit.net/*.css$domain=fedandfit.com
 @@||p.typekit.net/*.css$domain=store.steampowered.com|nejm.org
@@ -4115,6 +4117,8 @@
 @@||segundamano.mx^*/tealium.js
 @@||selfimg.com.cn/??
 @@||sellpoint.net/smart_button/$script,domain=walmart.com
+@@||sephora-track.inside-graph.com/gtm/$domain=sephora.com
+@@||sephora-track.inside-graph.com/ig.js$domain=sephora.com
 @@||sephora.com/js/ufe/isomorphic/thirdparty/fp.min.js$script,~third-party
 @@||serasaexperian.com.br/dist/scripts/fingerprint2.js$~third-party
 @@||serve-ts.amagi.tv^*/beacon?$xmlhttprequest,domain=watch.truecrimenetworktv.com
