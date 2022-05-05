@@ -1,6 +1,6 @@
 ! Title: Allowlist
-! Version: 2022-05-05 06:13:34（北京时间） 
-! Total count: 5055
+! Version: 2022-05-05 18:15:12（北京时间） 
+! Total count: 5058
 @@$generichide,domain=heapfiles.com|vidoza.co|vidoza.net
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
 @@-ds.metric.gstatic.com^
@@ -1110,12 +1110,14 @@
 @@||cdn.cxense.com/cx*.js$domain=bangkokpost.com
 @@||cdn.cxense.com/cx*.js$domain=tn.com.ar
 @@||cdn.cxense.com/cx.cce.js$domain=tarzanweb.jp
+@@||cdn.cxense.com/cx.cce.js$domain=wsj.com
 @@||cdn.cxense.com/cx.js$domain=itmedia.co.jp
 @@||cdn.cxense.com/cx.js$domain=lavoz.com.ar
 @@||cdn.cxense.com/cx.js$domain=stomp.com.sg
 @@||cdn.cxense.com/cx.js$domain=tarzanweb.jp|wpb.shueisha.co.jp
 @@||cdn.cxense.com/cx.js$domain=tn.com.ar
 @@||cdn.cxense.com/cx.js$domain=wpb.shueisha.co.jp
+@@||cdn.cxense.com/cx.js$domain=wsj.com
 @@||cdn.cxense.com/cx.js$domain=yenisafak.com
 @@||cdn.cxense.com/cx.js$script,domain=handelsblatt.com
 @@||cdn.cxense.com^$script,domain=bizjournals.com|bloombergquint.com|marketwatch.com
@@ -2567,6 +2569,7 @@
 @@||googletagmanager.com/gtm.js$domain=sciencesetavenir.fr
 @@||googletagmanager.com/gtm.js$domain=scotsman.com
 @@||googletagmanager.com/gtm.js$domain=seattletimes.com
+@@||googletagmanager.com/gtm.js$domain=secure.sakura.ad.jp
 @@||googletagmanager.com/gtm.js$domain=security-demo.extrahop.com
 @@||googletagmanager.com/gtm.js$domain=shieldsgazette.com
 @@||googletagmanager.com/gtm.js$domain=shockwave.com
