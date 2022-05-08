@@ -1,6 +1,6 @@
 ! Title: Allowlist
-! Version: 2022-05-08 18:14:40（北京时间） 
-! Total count: 5064
+! Version: 2022-05-09 06:12:44（北京时间） 
+! Total count: 5065
 @@$generichide,domain=heapfiles.com|vidoza.co|vidoza.net
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
 @@-ds.metric.gstatic.com^
@@ -268,7 +268,7 @@
 @@||520cc.cc/api/jspopunder.
 @@||520cc.cc/jspopunder.
 @@||5278.cool^$generichide
-@@||52xiyou.com$domain=9377.com|52guoguo.cn
+@@||52xiyou.com^$domain=9377.com|52guoguo.cn
 @@||52zy.com/gg/
 @@||53kf.com/company.php?arg=51fanli
 @@||5471782.fls.doubleclick.net^|
@@ -870,7 +870,7 @@
 @@||baidu.com/share/count?
 @@||baidu.com/static/touch/js/lib/fingerprint.js$~third-party
 @@||baidu.com^*&cb=BaiduSuggestion.
-@@||baidustatic.com$domain=xoyo.com
+@@||baidustatic.com^$domain=xoyo.com
 @@||baixing.net/combine/*,/css/ad-
 @@||bam.nr-data.net^$script,domain=kapwing.com
 @@||bam.nr-data.net^$script,domain=play.spotify.com
@@ -962,7 +962,7 @@
 @@||bluecare.express/js/tracking/$script,~third-party
 @@||blueconic.net/capitolbroadcasting.js$script,domain=wral.com
 @@||bnc.lt/a/key_live$domain=pinterest.co.kr|pinterest.com|pinterest.de|pinterest.com.au|pinterest.com.mx|pinterest.es|pinterest.jp|pinterest.it|pinterest.ca|pinterest.co.uk|pinterest.ru|pinterest.ch|pinterest.fr|pinterest.cl|pinterest.at|pinterest.pt|pinterest.nz|pinterest.dk|pinterest.se|pinterest.ie|pinterest.ph|pinterest.info
-@@||bnet.163.com/
+@@||bnet.163.com^
 @@||boatwizard.com/ads_prebid.min.js$script,domain=boats.com
 @@||bobbibrowncosmetics.com^*/analytics.min.js$~third-party
 @@||bokecc.com/flash/playlog?
@@ -1420,6 +1420,7 @@
 @@||connatix.com/min/connatix.renderer.infeed.min.js$domain=accuweather.com|collider.com|gamepress.gg|salon.com
 @@||connect.facebook.net^$script,domain=up-4ever.com|up-4ever.org
 @@||connect.facebook.net^*/fbevents.js$domain=elinoi.com
+@@||console.statsig.com/_next/static/chunks/pages/$script,~third-party
 @@||constantcontact.com/js/WebTracking/
 @@||contacts.google.com^$generichide
 @@||content.adunity.com/aulib.js$script,domain=b1tv.ro
@@ -1901,7 +1902,7 @@
 @@||g.doubleclick.net/pagead/ads?*&description_url=https%3A%2F%2Fgames.wkb.jp$xmlhttprequest,domain=imasdk.googleapis.com
 @@||g.doubleclick.net/tag/js/gpt.js$domain=spiegel.de
 @@||g.doubleclick.net/tag/js/gpt.js$script,xmlhttprequest,domain=accuweather.com|blastingnews.com|digitaltrends.com|edy.rakuten.co.jp|epaper.timesgroup.com|formularywatch.com|gamespot.com|gamestar.de|indy100.com|managedhealthcareexecutive.com|mediaite.com|medicaleconomics.com|physicianspractice.com|standard.co.uk|theta.tv
-@@||g.tbcdn.cn/
+@@||g.tbcdn.cn^
 @@||g.w.bilicdn1.com/$script,domain=bilibili.com
 @@||g2crowd.com/uploads/product/image/$image,domain=g2.com
 @@||gaanacdn.com/*_social_tracking.js$domain=gaana.com
@@ -2700,7 +2701,7 @@
 @@||gooogle.how^$generichide
 @@||goto.target.com^|
 @@||goto.walmart.com^|
-@@||gotunnel.org
+@@||gotunnel.org^
 @@||gov.au/Scripts/ga.js$script,~third-party
 @@||gov.cn/scripts/Comm/AdRotator.js
 @@||government-and-constitution.org/images/presidential-seal-300-250.gif$image,~third-party
@@ -3639,8 +3640,8 @@
 @@||oyster.com/wp-content/plugins/smartertravel-shared/assets/js/tracking.min.js$~third-party
 @@||ozone.ru/assets/analytics.$script,~third-party
 @@||p.d.1emn.com^$script,domain=hotair.com
-@@||p.jwpcdn.com$script
 @@||p.jwpcdn.com/*/googima.js$domain=kar360.com
+@@||p.jwpcdn.com^$script
 @@||p.typekit.net/*.css$domain=burnabyvillagemuseum.ca
 @@||p.typekit.net/*.css$domain=cfr.org
 @@||p.typekit.net/*.css$domain=fedandfit.com
