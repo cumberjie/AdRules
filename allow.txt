@@ -1,6 +1,6 @@
 ! Title: Allowlist
-! Version: 2022-05-09 06:12:44（北京时间） 
-! Total count: 5065
+! Version: 2022-05-09 18:15:25（北京时间） 
+! Total count: 5068
 @@$generichide,domain=heapfiles.com|vidoza.co|vidoza.net
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
 @@-ds.metric.gstatic.com^
@@ -1163,6 +1163,7 @@
 @@||cdn.petametrics.com^$domain=techgenix.com
 @@||cdn.petametrics.com^$domain=telegraph.co.uk
 @@||cdn.petametrics.com^$script,domain=comics.mecha.cc
+@@||cdn.plyvdo.live/scripts/$script
 @@||cdn.popt.in/pixel.js$domain=userstyles.org
 @@||cdn.qgraph.io/dist/aiqua-wp.js$domain=cw.com.tw
 @@||cdn.questionpro.com/stylesheets/$domain=surveyanalytics.com
@@ -1461,6 +1462,7 @@
 @@||crunchyroll.com^*/ads_$script
 @@||crwdcntrl.net/*callback=setPIDForPlayer$domain=static.rtl.nl
 @@||crystalmark.info/wp-content/uploads/*-300x250.$image,~third-party
+@@||crystalmark.info/wp-content/uploads/sites/$image,~third-party
 @@||cs-op.douyucdn.cn/dycatr^
 @@||cs-op.douyucdn.cn/vod-cover^
 @@||cs-op.douyucdn.cn/vod-index^
@@ -4573,6 +4575,7 @@
 @@||ton.twimg.com^$domain=ads.twitter.com|analytics.twitter.com
 @@||toolbox.dfb.de/img/partner-logos^
 @@||toolfk.com/tools/js/share/js/jquery.share.min.js
+@@||tools.services.tvn.pl/maertsg.js$domain=tvn24.pl
 @@||tools.usps.com/go/scripts/tracking.js
 @@||top.list.ru/counter?id=$domain=crimea-kurort.com
 @@||top.list.ru/jump?from=$domain=pvo.guns.ru
