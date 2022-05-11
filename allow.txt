@@ -1,6 +1,6 @@
 ! Title: Allowlist
-! Version: 2022-05-11 18:15:45（北京时间） 
-! Total count: 5068
+! Version: 2022-05-12 06:13:21（北京时间） 
+! Total count: 5070
 @@$generichide,domain=heapfiles.com|vidoza.co|vidoza.net
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
 @@-ds.metric.gstatic.com^
@@ -2359,6 +2359,7 @@
 @@||googleapis.com^$domain=openload.co|oload.tv|javno.me|imagebam.com|imagevenue.com|playvid.com|4horlover.com|linkshrink.net
 @@||googleapis.com^$script,stylesheet,domain=canyoublockit.com
 @@||googleoptimize.com/optimize.js$domain=leukerecepten.nl
+@@||googleoptimize.com/optimize.js$domain=tehnomanija.rs
 @@||googleoptimize.com/optimize.js$script,domain=inquirer.com|tentree.ca
 @@||googleoptimize.com/optimize.js$script,domain=wallapop.com
 @@||googlesyndication.com/simgad/$image,domain=pccomponentes.com
@@ -4391,6 +4392,7 @@
 @@||stream.adunity.com^$xmlhttprequest,domain=b1tv.ro
 @@||stream4free.live^$generichide
 @@||streamlare.com^$subdocument
+@@||streamtape.com^$subdocument
 @@||stroeerdigitalgroup.de/metatag/live/bauer-autozeitung/metaTag.min.js$domain=autozeitung.de
 @@||studioclassroom.com/ad/
 @@||stuttgarter-nachrichten.de/cre-1.0/tracking/call.js?$script,~third-party
