@@ -1,6 +1,6 @@
 ! Title: Allowlist
-! Version: 2022-05-12 18:16:49（北京时间） 
-! Total count: 5070
+! Version: 2022-05-13 06:15:44（北京时间） 
+! Total count: 5077
 @@$generichide,domain=heapfiles.com|vidoza.co|vidoza.net
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
 @@-ds.metric.gstatic.com^
@@ -463,6 +463,7 @@
 @@||ads-twitter.com/oct.js$domain=jp.square-enix.com
 @@||ads.adthrive.com/builds/$script,domain=www.mediaite.com
 @@||ads.adthrive.com/sites/$script,domain=www.mediaite.com
+@@||ads.alafish.cn^$~third-party
 @@||ads.amazon^$popup
 @@||ads.askgamblers.com^$popup
 @@||ads.cdn.tvb.com^*.key
@@ -1310,6 +1311,7 @@
 @@||clicktale.net/WRc5.js$domain=telefonkonyv.hu
 @@||clicktale.net/wrb.js$domain=microsoft.com
 @@||clients*.google.com/adsense/*?key=$domain=~calcalist.co.il|~gaytube.com|~mako.co.il|~pornhub.com|~pornhubthbh7ap3u.onion|~redtube.com|~redtube.com.br|~tube8.com|~tube8.es|~tube8.fr|~walla.co.il|~xtube.com|~ynet.co.il|~youjizz.com|~youporn.com|~youporngay.com
+@@||clj.valuecommerce.com/*/vcushion.min.js
 @@||clj.valuecommerce.com^|
 @@||clk*.tradedoubler.com^|
 @@||cloud.189.cn/web/subapp/main.html$jsinject,elemhide,extension
@@ -1629,6 +1631,7 @@
 @@||docs.amplify.aws^*/platform/js/autotrack.json$~third-party
 @@||docs.google.com/*/viewdata$~third-party
 @@||docs.woopt.com/wgact/$image,~third-party,xmlhttprequest
+@@||doctorzerenia.com/home/bower_components/angulartics-google-analytics/dist/angulartics-ga.min.js
 @@||dominos.com^*/assets/build/js/modules/dpz.tealium.js$script
 @@||doodcdn.co^$domain=dood.la|dood.pm|dood.so|dood.to|dood.watch|dood.ws
 @@||doortodoor.co.kr/jsp/cmn/Tracking.jsp^
@@ -1832,6 +1835,7 @@
 @@||files.slack.com^$image,~third-party
 @@||filmon.com/ad/affiliateimages/banner-250x350.png
 @@||fingerprintjs.com^$generichide
+@@||firebase.google.com/docs/analytics/$~third-party
 @@||firefox.com.cn/media/img/mozcn/spread/468-60-
 @@||firstdirect.com^*/logging-code.js
 @@||firststatesuper.com.au^*/js/analytics.js$script,~third-party
@@ -2873,6 +2877,7 @@
 @@||ilan.memurlar.net/common/job/advert/images/$domain=memurlar.net
 @@||ilsole24ore.com^*/fingerprint2.min.js?
 @@||image.coolapk.com^
+@@||image.shutterstock.com^$image,domain=icons8.com
 @@||images*.engageya.com^$image,domain=popmech.ru
 @@||images-dl.taboola.com^$domain=samsung.com|thestartmagazine.com
 @@||images-eu.ssl-images-amazon.com/images/$domain=amazon.com.tr
@@ -4835,6 +4840,8 @@
 @@||wancaibb.com/share/js/share.min.js
 @@||ware.shop.jd.com^$genericblock,generichide
 @@||wargag.ru/public/js/counter.js?
+@@||warpwire.com/AD/
+@@||warpwire.net/AD/
 @@||washingtonpost.com/wp-stat/analytics/latest/main.js
 @@||wavepc.pl/wp-content/*-500x100.png$image,~third-party
 @@||wbshop.com/fcgi-bin/iipsrv.fcgi?
