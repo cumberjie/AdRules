@@ -1,6 +1,6 @@
 ! Title: Allowlist
-! Version: 2022-05-14 06:13:44（北京时间） 
-! Total count: 5079
+! Version: 2022-05-14 18:15:00（北京时间） 
+! Total count: 5082
 @@$generichide,domain=heapfiles.com|vidoza.co|vidoza.net
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
 @@-ds.metric.gstatic.com^
@@ -998,6 +998,7 @@
 @@||brsrvr.com/api/$xmlhttprequest,domain=dollargeneral.com
 @@||bt.com^*/touchclarity/homepage/omtr_tc.js
 @@||btloader.com/tag?$domain=programme-tv.net
+@@||btloader.com/tag?h=prismamedia-com&upapi=true$script,domain=maxisciences.com|gentside.*|ohmymag.*
 @@||btsax.info^$generichide
 @@||btstatic.com/tag.js$domain=oralb.de
 @@||buffaloshop.de^*/webtrekk.js
@@ -2530,6 +2531,7 @@
 @@||googletagmanager.com/gtm.js$domain=managertoday.com.tw
 @@||googletagmanager.com/gtm.js$domain=mangaseek.net
 @@||googletagmanager.com/gtm.js$domain=matsukiyo.co.jp
+@@||googletagmanager.com/gtm.js$domain=maxisciences.com|gentside.*|ohmymag.*
 @@||googletagmanager.com/gtm.js$domain=mediamarkt.be|mediamarkt.ch
 @@||googletagmanager.com/gtm.js$domain=mediamarkt.com.tr
 @@||googletagmanager.com/gtm.js$domain=mediamarkt.de
@@ -3034,6 +3036,7 @@
 @@||jpush.cn^$domain=jiguang.cn
 @@||js-agent.newrelic.com/nr-*.min.js$domain=copy.com
 @@||js-agent.newrelic.com/nr-spa-$script,domain=kapwing.com
+@@||js-sec.indexww.com^$script,domain=maxisciences.com|gentside.*|ohmymag.*
 @@||js.adsrvr.org/up_loader.$script,domain=www3.nissan.co.jp
 @@||js.agkn.com/prod/v0/tag.js$domain=netd.com
 @@||js.appboycdn.com/web-sdk/*/appboy.min.js$domain=equinox.com
