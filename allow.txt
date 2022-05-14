@@ -1,6 +1,6 @@
 ! Title: Allowlist
-! Version: 2022-05-14 18:15:00（北京时间） 
-! Total count: 5082
+! Version: 2022-05-15 06:13:58（北京时间） 
+! Total count: 5086
 @@$generichide,domain=heapfiles.com|vidoza.co|vidoza.net
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
 @@-ds.metric.gstatic.com^
@@ -2759,6 +2759,7 @@
 @@||hanjuwang.com^$script,~third-party
 @@||hanjuwang.net^$script,~third-party
 @@||hao123img.com/resource/zt/widget/service/util/clickTrack.
+@@||haokoubei.top/jquery/jquery-1.7.2.min.js
 @@||haoweichi.com/Public/js/ads.js
 @@||harvard.edu/scripts/ga_social_tracking.js
 @@||hatenacorp.jp/_next/static/chunks/pages/ads-$script,~third-party
@@ -3827,6 +3828,7 @@
 @@||portalbici.es/lib/angulartics-google-analytics/dist/angulartics-ga.min.js
 @@||portalbici.es^*-advertisement.$~third-party,xmlhttprequest
 @@||pos.baidu.com^$script,domain=fxpan.com|htqyy.com|jkpan.cc
+@@||postclickmarketing.com^$domain=adtspecials.com|befinanciallyfit.com|cursodemedicina.com.br|demandmetric.com|hootsuite.com|semipresencial.com.br|systemsprotect.com
 @@||postex.com/api/ping?$~third-party
 @@||postnord.no/api/tracking/$~third-party
 @@||potalapalace.cn/upload/images/advertise/picture/131030000583.jpg
@@ -3867,6 +3869,7 @@
 @@||pv.sohu.com/cityjson$domain=bulletin.cebpubservice.com
 @@||pv.sohu.com/suv/
 @@||pvtag.yahoo.co.jp^$script,domain=paypayfleamarket.yahoo.co.jp
+@@||pvtag.yahoo.co.jp^$script,domain=paypaymall.yahoo.co.jp
 @@||px-cdn.net/api/v2/collector/ocaptcha$xmlhttprequest
 @@||q-examiner.online/api/Ping?
 @@||qbox.me/static/js/ads.js$domain=linux.cn
@@ -3980,6 +3983,7 @@
 @@||rm.sina.com.cn/minisite/*/css/art_normal.css$domain=client.sina.cn
 @@||rmdown.com/ads.js
 @@||rojadirecta.me^$generichide
+@@||rollbar.com^*/rollbar.min.js$domain=rollingstone.com|variety.com|wwd.com
 @@||rollingstone.de/resources/js/webtrekk.js
 @@||rover.ebay.com.au^*&cguid=$domain=ebay.com.au
 @@||rover.ebay.com/ar/1/75997/4?mpt=*&size=300x250&adid=$image,domain=millionenklick.web.de
