@@ -1,6 +1,6 @@
 ! Title: Allowlist
-! Version: 2022-05-19 06:13:34（北京时间） 
-! Total count: 5092
+! Version: 2022-05-19 18:16:16（北京时间） 
+! Total count: 5093
 @@$generichide,domain=heapfiles.com|vidoza.co|vidoza.net
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
 @@-ds.metric.gstatic.com^
@@ -1198,6 +1198,7 @@
 @@||cdn.segmentify.com/*/segmentify.css$domain=koctas.com.tr
 @@||cdn.segmentify.com/*/segmentify.css$domain=migros.com.tr
 @@||cdn.segmentify.com/*/segmentify.js$domain=gittigidiyor.com
+@@||cdn.segmentify.com/*/segmentify.js$domain=gratis.com
 @@||cdn.segmentify.com/*/segmentify.js$domain=koctas.com.tr
 @@||cdn.segmentify.com/*/segmentify.js$domain=migros.com.tr
 @@||cdn.segmentify.com/account-js/segmentify_flo.js$domain=flo.com.tr
