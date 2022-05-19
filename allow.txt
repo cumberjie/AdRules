@@ -1,6 +1,6 @@
 ! Title: Allowlist
-! Version: 2022-05-19 18:16:16（北京时间） 
-! Total count: 5093
+! Version: 2022-05-20 06:12:51（北京时间） 
+! Total count: 5094
 @@$generichide,domain=heapfiles.com|vidoza.co|vidoza.net
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
 @@-ds.metric.gstatic.com^
@@ -3668,6 +3668,7 @@
 @@||p.typekit.net/*.css$domain=cfr.org
 @@||p.typekit.net/*.css$domain=fedandfit.com
 @@||p.typekit.net/*.css$domain=store.steampowered.com|nejm.org
+@@||p.typekit.net/p.css$domain=scamadviser.com
 @@||pagead.l.doubleclick.net^|
 @@||pagead2.googlesyndication.com/getconfig/sodar?$xmlhttprequest,domain=spiegel.de
 @@||pagead2.googlesyndication.com/pagead/js/*/show_ads_impl$domain=ff14angler.com|logi.im
