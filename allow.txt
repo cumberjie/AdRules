@@ -1,6 +1,6 @@
 ! Title: Allowlist
-! Version: 2022-05-20 18:15:52（北京时间） 
-! Total count: 5094
+! Version: 2022-05-21 06:14:20（北京时间） 
+! Total count: 5092
 @@$generichide,domain=heapfiles.com|vidoza.co|vidoza.net
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
 @@-ds.metric.gstatic.com^
@@ -2400,6 +2400,7 @@
 @@||googletagmanager.com/gtag/js$domain=roman.com.tr
 @@||googletagmanager.com/gtag/js$domain=ryanair.com
 @@||googletagmanager.com/gtag/js$domain=shiftdelete.net
+@@||googletagmanager.com/gtag/js$domain=snake.io
 @@||googletagmanager.com/gtag/js$domain=srek.net
 @@||googletagmanager.com/gtag/js$domain=xl-bygg.no
 @@||googletagmanager.com/gtag/js$script,domain=dholic.co.jp
@@ -2502,6 +2503,7 @@
 @@||googletagmanager.com/gtm.js$domain=glamusha.ru
 @@||googletagmanager.com/gtm.js$domain=gratis.com
 @@||googletagmanager.com/gtm.js$domain=gumtree.com
+@@||googletagmanager.com/gtm.js$domain=harveynorman.co.nz|harveynorman.com.au
 @@||googletagmanager.com/gtm.js$domain=highsnobiety.com
 @@||googletagmanager.com/gtm.js$domain=hipolink.net
 @@||googletagmanager.com/gtm.js$domain=hub.docker.com
@@ -3328,10 +3330,6 @@
 @@||media.bnd.com/mistats/finalizestats.js
 @@||media.bnd.com/mistats/micb.js
 @@||media.bnd.com/mistats/products/escenic_s_code.js
-@@||media.flixcar.com/*cdn/$domain=shop.samsung.com
-@@||media.flixcar.com/delivery/$domain=shop.samsung.com
-@@||media.flixfacts.com/js/loader.js$domain=hansapost.ee
-@@||media.flixfacts.com/js/loader.js$domain=shop.samsung.com
 @@||media.ft.com/j/optimost-$domain=ft.com
 @@||media.jd.com/static/*/ad
 @@||media.kaspersky.com/tracking/omniture/s_code_single_suite.js
