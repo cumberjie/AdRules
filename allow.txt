@@ -1,6 +1,6 @@
 ! Title: Allowlist
-! Version: 2022-05-27 06:14:25（北京时间） 
-! Total count: 5109
+! Version: 2022-05-27 18:16:27（北京时间） 
+! Total count: 5111
 @@$generichide,domain=heapfiles.com|vidoza.co|vidoza.net
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
 @@-ds.metric.gstatic.com^
@@ -639,6 +639,7 @@
 @@||analytics.163.com/ntes.js$domain=3g.163.com
 @@||analytics.amplitude.com^$~third-party
 @@||analytics.amplitude.com^|
+@@||analytics.analytics-egain.com/onetag/$script,domain=boohoo.com
 @@||analytics.atomiconline.com/services/jquery.js
 @@||analytics.cervell.io/api/collect/connect$domain=cildimveben.com
 @@||analytics.cervell.io/api/product/getProduct/$domain=cildimveben.com
@@ -2444,6 +2445,7 @@
 @@||googletagmanager.com/gtm.js$domain=asus.com.cn|support.amd.com|warnermusic.com.tw
 @@||googletagmanager.com/gtm.js$domain=auone.jp
 @@||googletagmanager.com/gtm.js$domain=avast.com
+@@||googletagmanager.com/gtm.js$domain=beleuchtung.de
 @@||googletagmanager.com/gtm.js$domain=benesse-style-care.co.jp
 @@||googletagmanager.com/gtm.js$domain=besplatka.ua
 @@||googletagmanager.com/gtm.js$domain=besplatka.ua|cdek.ru|glamusha.ru|rustih.ru|sportmaster.ru|teddyfood.com
