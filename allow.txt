@@ -1,6 +1,6 @@
 ! Title: Allowlist
-! Version: 2022-05-28 06:13:24（北京时间） 
-! Total count: 5112
+! Version: 2022-05-28 18:14:40（北京时间） 
+! Total count: 5113
 @@$generichide,domain=heapfiles.com|vidoza.co|vidoza.net
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
 @@-ds.metric.gstatic.com^
@@ -749,6 +749,7 @@
 @@||api.tv.sohu.com/mobile_user/device^$app=com.sohu.sohuvideo
 @@||api.vigo.ru^*/network_status?$object,xmlhttprequest,domain=vk.com
 @@||apibay.org^$script,xmlhttprequest,domain=thepiratebay.org
+@@||apikey.wrld3d.com/generate_204/$xmlhttprequest,domain=maps.wrld3d.com
 @@||apis.google.com^$domain=openload.co|oload.tv|javno.me|imagebam.com|imagevenue.com|playvid.com|4horlover.com|linkshrink.net
 @@||apis.kostprice.com/fapi/$script,domain=gadgets.ndtv.com
 @@||apiservices.krxd.net/click_tracker^
