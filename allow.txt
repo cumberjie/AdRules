@@ -1,6 +1,6 @@
 ! Title: Allowlist
-! Version: 2022-06-01 18:18:25（北京时间） 
-! Total count: 5115
+! Version: 2022-06-02 06:15:05（北京时间） 
+! Total count: 5112
 @@$generichide,domain=heapfiles.com|vidoza.co|vidoza.net
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
 @@-ds.metric.gstatic.com^
@@ -3053,8 +3053,6 @@
 @@||jlthjy.com^$generichide
 @@||jmap.io/*/libs/Overture.js$~third-party
 @@||jmedj.co.jp/files/$image,~third-party
-@@||jobmorgen.de/Scripts/ApiTracking.js$~third-party
-@@||jobs.pnp.de/Scripts/ApiTracking.js$~third-party
 @@||jokerly.com/Okidak/adSelectorDirect.htm?id=$document,subdocument
 @@||jokerly.com/Okidak/vastChecker.htm$document,subdocument
 @@||jolie.de/sites/default/files/google_tag/google_tag_manager/google_tag.script.js
@@ -4419,7 +4417,6 @@
 @@||stats.statbroadcast.com/interface/webservice/event/$~third-party
 @@||staty.portalradiowy.pl/wstats/$script,third-party
 @@||steamcn.com/source/plugin/steamcn_gift/template/images/*steam.png
-@@||stellen.donaukurier.de/Scripts/ApiTracking.js?$script,~third-party
 @@||stippleit.com/stipple.js$domain=photos.toofab.com
 @@||stives.co.uk/cms/advert_search_thumb.php$image,domain=chycor.co.uk
 @@||stjscn.s-msn.com/portal/hp/2011/udctrack.
@@ -4544,7 +4541,7 @@
 @@||techadvisor.com/cmsdata/$image,~third-party
 @@||technews.tw/www/delivery/$badfilter
 @@||technews.tw^$generichide,badfilter
-@@||technical-service.net/api?$domain=n-tv.de
+@@||technical-service.net/api?$domain=n-tv.de|vip.de
 @@||technical-service.net^$xmlhttprequest,domain=n-tv.de|vip.de
 @@||technopat.net/*/add-reply$xmlhttprequest
 @@||technopat.net/*/draft$xmlhttprequest
