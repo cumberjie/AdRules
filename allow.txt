@@ -1,6 +1,6 @@
 ! Title: Allowlist
-! Version: 2022-06-02 18:16:15（北京时间） 
-! Total count: 5113
+! Version: 2022-06-03 06:12:30（北京时间） 
+! Total count: 5114
 @@$generichide,domain=heapfiles.com|vidoza.co|vidoza.net
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
 @@-ds.metric.gstatic.com^
@@ -424,7 +424,7 @@
 @@||adnz.co/dmp/publisher.js$domain=finanzen.ch
 @@||adnz.co/header.js?adTagId=$domain=finanzen.ch
 @@||adobedtm.com/*-libraryCode_source.min.js$script,domain=ally.com|crave.ca
-@@||adobedtm.com/*-source.min.js$script,domain=aarp.org|ally.com|atresplayer.com|backcountry.com|bose.com|bt.com|cadenaser.com|churchofjesuschrist.org|crave.ca|currys.co.uk|dollargeneral.com|kroger.com|personal.natwest.com|ssrn.com|telus.com|verizon.com
+@@||adobedtm.com/*-source.min.js$script,domain=aarp.org|ally.com|atresplayer.com|backcountry.com|bose.com|bt.com|cadenaser.com|churchofjesuschrist.org|crave.ca|currys.co.uk|dollargeneral.com|kroger.com|news.sky.com|personal.natwest.com|ssrn.com|telus.com|verizon.com
 @@||adobedtm.com/*_source.min.js$script,domain=backcountry.com|hl.co.uk|kroger.com|telus.com
 @@||adobedtm.com/extensions/$script,domain=antena3.com|atresmedia.com|atresplayer.com|lasexta.com
 @@||adobedtm.com/extensions/$script,domain=apple.com|bravotv.com|cadenaser.com|crave.ca|foodnetwork.com|telus.com|verizon.com
@@ -3420,6 +3420,7 @@
 @@||mmgd.xyz^$generichide
 @@||mmiyue.com/zhenbuka2/statics/js/guanggao.js
 @@||mmstat.com/eg.js$domain=1688.com|taobao.com|tmall.com|tudou.com|youku.com
+@@||mmstat.com/eg.js$domain=aliexpress.*
 @@||mmstat.com^$domain=youku.com
 @@||mmuu22.link^$generichide
 @@||mmy.la^*300*250
