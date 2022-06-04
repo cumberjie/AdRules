@@ -1,6 +1,6 @@
 ! Title: Allowlist
-! Version: 2022-06-04 06:12:34（北京时间） 
-! Total count: 5106
+! Version: 2022-06-04 18:13:02（北京时间） 
+! Total count: 5108
 @@$generichide,domain=heapfiles.com|vidoza.co|vidoza.net
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
 @@-ds.metric.gstatic.com^
@@ -614,7 +614,7 @@
 @@||almanilan.com/ads/$~third-party
 @@||almayadeen.net/Content/VideoJS/js/videoPlayer/VideoAds.js$script,~third-party
 @@||alternate.de/js/emos2.js
-@@||amazon-adsystem.com/aax2/apstag.js$domain=accuweather.com|barstoolsports.com|blastingnews.com|cnn.com|exomashomepage.com|familyhandyman.com|foxbusiness.com|gamingbible.co.uk|history.com|keloland.com|radio.com|rd.com|tasteofhome.com|thehealthy.com|wboy.com|wkrn.com|wlns.com|wvnstv.com
+@@||amazon-adsystem.com/aax2/apstag.js$domain=accuweather.com|barstoolsports.com|blastingnews.com|cnn.com|exomashomepage.com|familyhandyman.com|foxbusiness.com|gamingbible.co.uk|history.com|keloland.com|radio.com|rd.com|tasteofhome.com|thehealthy.com|time.com|wboy.com|wkrn.com|wlns.com|wvnstv.com
 @@||amazon-adsystem.com/aax2/apstag.js$script,domain=abola.pt|gamestar.de|los40.com
 @@||amazon-adsystem.com/aax2/apstag.js$script,domain=programme-tv.net
 @@||amazon-adsystem.com/e/cm?$document,subdocument,domain=affiliate-program.amazon.co.uk|affiliate-program.amazon.com|affiliate-program.amazon.in|affiliate.amazon.co.jp|afiliados.amazon.es|associados.amazon.com.br|associates.amazon.ca|associates.amazon.cn|partenaires.amazon.fr|partnernet.amazon.de|programma-affiliazione.amazon.it
@@ -3008,6 +3008,7 @@
 @@||ipcheck.tmgrup.com.tr/ipcheck/get*?json=$xmlhttprequest,domain=aspor.com.tr
 @@||ipfs-lab.com^$generichide
 @@||ipinfo.io/?token=$domain=assurancemortgage.com|webtv.ert.gr
+@@||ipinfo.io/static/images/use-cases/adtech.jpg$image,~third-party
 @@||ipip.net/ping.php?
 @@||ipstatp.com/business_center/dist/img/ad-$domain=tiktok.com
 @@||island.lk/userfiles/image/danweem/island.gif
@@ -4837,6 +4838,7 @@
 @@||vodgc.net^*/genoa-event-tracking.min.js
 @@||vodjk.com/offlights.js
 @@||voeunblock.com^$subdocument
+@@||voeunblock3.com^$subdocument
 @@||volterra.io^*/advertise_policy$~third-party
 @@||volterra.us^*/advertise_policy$~third-party
 @@||vplayer.ilsemedia.nl/swf/im_player.swf?
