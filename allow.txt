@@ -1,6 +1,6 @@
 ! Title: Allowlist
-! Version: 2022-06-08 06:12:08（北京时间） 
-! Total count: 5103
+! Version: 2022-06-08 18:14:20（北京时间） 
+! Total count: 5098
 @@$generichide,domain=heapfiles.com|vidoza.co|vidoza.net
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
 @@-ds.metric.gstatic.com^
@@ -425,7 +425,7 @@
 @@||adnz.co/dmp/publisher.js$domain=finanzen.ch
 @@||adnz.co/header.js?adTagId=$domain=finanzen.ch
 @@||adobedtm.com/*-libraryCode_source.min.js$script,domain=ally.com|crave.ca
-@@||adobedtm.com/*-source.min.js$script,domain=aarp.org|ally.com|atresplayer.com|backcountry.com|bose.com|bt.com|cadenaser.com|churchofjesuschrist.org|crave.ca|currys.co.uk|dollargeneral.com|kroger.com|news.sky.com|personal.natwest.com|ssrn.com|telus.com|verizon.com
+@@||adobedtm.com/*-source.min.js$script,domain=aarp.org|ally.com|atresplayer.com|backcountry.com|bose.com|bt.com|cadenaser.com|churchofjesuschrist.org|crave.ca|currys.co.uk|dollargeneral.com|hilton.com|kroger.com|news.sky.com|personal.natwest.com|ssrn.com|telus.com|verizon.com
 @@||adobedtm.com/*_source.min.js$script,domain=backcountry.com|hl.co.uk|kroger.com|telus.com
 @@||adobedtm.com/extensions/$script,domain=antena3.com|atresmedia.com|atresplayer.com|lasexta.com
 @@||adobedtm.com/extensions/$script,domain=apple.com|bravotv.com|cadenaser.com|crave.ca|foodnetwork.com|telus.com|verizon.com
@@ -632,6 +632,7 @@
 @@||amc-widgets.crowdtwist.com/widgets/t/account-
 @@||amebame.com/pub/ads/$image,domain=abema.tv|ameba.jp|ameblo.jp
 @@||amplitude.com/libs/$script,domain=elconfidencial.com
+@@||amplitude.com/libs/amplitude-4.5.2-min.gz.js$script,domain=pdfexpert.com
 @@||ampproject.org/v0/amp-analytics-$script,domain=cnnespanol.cnn.com
 @@||ams.amazon.co.jp^$domain=ams.amazon.co.jp
 @@||ams.amazon.co.uk^$domain=ams.amazon.co.uk
@@ -724,7 +725,6 @@
 @@||api.cxense.com/public/widget/data?json=$domain=pcgames.de
 @@||api.cxense.com/public/widget/data?json=$domain=wpb.shueisha.co.jp
 @@||api.cxense.com/public/widget/data?json=$domain=wsj.com
-@@||api.cxense.com/public/widget/data?json=$domain=yenisafak.com
 @@||api.cxense.com/public/widget/data?json=$script,domain=ksml.fi|savonsanomat.fi
 @@||api.cxense.com/public/widget/data|$xmlhttprequest,domain=friday.kodansha.co.jp
 @@||api.dmcdn.net/pxl/advertisers/$domain=dailymotion.com
@@ -778,6 +778,7 @@
 @@||apps.admob.com/admob/*.adsense.$script,domain=apps.admob.com
 @@||apps.derstandard.at^*/TrackingCookieCheck?$subdocument
 @@||appspot.com/static/js/tracker/$script,domain=bugs.avm99963.com
+@@||apv-launcher.minute.ly/api/$script
 @@||aqy103.com/js/aqy/main.js
 @@||ara.cat/static/BB3Core/images/pixel.gif?hash=$image,domain=ara.cat
 @@||aramex.co.nz/Umbraco/Api/Tracking/$~third-party
@@ -911,6 +912,7 @@
 @@||bcebos.com/static/translation/widget/translate/output/AdBanner/AdBanner.js
 @@||bcebos.com^$script,domain=31xiaoshuo.com|biququ.info|jingwubook.com
 @@||bchangtai.vip/static/ad/main.js
+@@||bcicl.*.evergage.com^|
 @@||bdash-cloud.com/recommend-script/$script,domain=junonline.jp
 @@||bdash-cloud.com/tracking-script/*/tracking.js$domain=junonline.jp
 @@||bdimg.com/advert/js/advert.js$domain=music.baidu.com
@@ -1131,7 +1133,6 @@
 @@||cdn.cxense.com/cx.js$domain=tn.com.ar
 @@||cdn.cxense.com/cx.js$domain=wpb.shueisha.co.jp
 @@||cdn.cxense.com/cx.js$domain=wsj.com
-@@||cdn.cxense.com/cx.js$domain=yenisafak.com
 @@||cdn.cxense.com/cx.js$script,domain=handelsblatt.com
 @@||cdn.cxense.com^$script,domain=bizjournals.com|bloombergquint.com|marketwatch.com
 @@||cdn.dimml.io/dimml.js$domain=consumentenbond.nl
@@ -1778,6 +1779,7 @@
 @@||epub.ekh.no/*/static/analytics.js
 @@||epubit.com/static/epubit/share/js/share.min.js
 @@||equifaxps.122.2o7.net^
+@@||eservice.nationalgeneral.com/service/lib/gtm.js$~third-party
 @@||eslite.com^*/ad
 @@||espn.com/b/ss/$domain=espn.com
 @@||espncdn.com/combiner/*/chartbeat/$script,domain=espn.go.com
@@ -2049,7 +2051,6 @@
 @@||google-analytics.com/analytics.js$domain=4kdownload.com
 @@||google-analytics.com/analytics.js$domain=afternic.com|clipitto.com|deviantart.com
 @@||google-analytics.com/analytics.js$domain=amd.com
-@@||google-analytics.com/analytics.js$domain=anadolu.edu.tr
 @@||google-analytics.com/analytics.js$domain=androidpit.com|androidpit.com.br|androidpit.de|androidpit.es|androidpit.fr|androidpit.it
 @@||google-analytics.com/analytics.js$domain=antenaplay.ro
 @@||google-analytics.com/analytics.js$domain=apkmaza.net
@@ -2092,7 +2093,6 @@
 @@||google-analytics.com/analytics.js$domain=dirkzwager.nl
 @@||google-analytics.com/analytics.js$domain=displate.com
 @@||google-analytics.com/analytics.js$domain=dmax.com.tr
-@@||google-analytics.com/analytics.js$domain=doviz.com
 @@||google-analytics.com/analytics.js$domain=dramahd.me
 @@||google-analytics.com/analytics.js$domain=dtf.ru
 @@||google-analytics.com/analytics.js$domain=earthclassmail.com
@@ -2407,7 +2407,6 @@
 @@||googletagmanager.com/gtag/js$domain=riamo.ru
 @@||googletagmanager.com/gtag/js$domain=roman.com.tr
 @@||googletagmanager.com/gtag/js$domain=ryanair.com
-@@||googletagmanager.com/gtag/js$domain=shiftdelete.net
 @@||googletagmanager.com/gtag/js$domain=snake.io
 @@||googletagmanager.com/gtag/js$domain=srek.net
 @@||googletagmanager.com/gtag/js$domain=xl-bygg.no
@@ -2433,7 +2432,7 @@
 @@||googletagmanager.com/gtag/js^$domain=timparty.tim.it
 @@||googletagmanager.com/gtm.js$domain=20min.ch
 @@||googletagmanager.com/gtm.js$domain=accupass.com
-@@||googletagmanager.com/gtm.js$domain=acehardware.com|ads.spotify.com|aeromexico.com|atptour.com|bsa-whitelabel.com|ccleaner.com|chipotle.com|complex.com|crello.com|cyclingnews.com|cypress.io|doodle.com|easternbank.com|flytap.com|fortune.com|harveynorman.co.nz|harveynorman.com.au|jn.pt|kedronparkhotel.com.au|level.travel|nflgamepass.com|nordvpn.com|nourison.com|oakandfort.com|petsathome.com|pioneer.eu|primeoak.co.uk|royalbank.com|scotsman.com|soundguys.com|stressless.com|support.creative.com|trademe.co.nz|tumi.com|uniqlo.com|uqr.to
+@@||googletagmanager.com/gtm.js$domain=acehardware.com|ads.spotify.com|aeromexico.com|atptour.com|bsa-whitelabel.com|ccleaner.com|chipotle.com|complex.com|crello.com|cyclingnews.com|cypress.io|doodle.com|easternbank.com|flytap.com|formula1.com|fortune.com|harveynorman.co.nz|harveynorman.com.au|jn.pt|kedronparkhotel.com.au|level.travel|nflgamepass.com|nordvpn.com|nourison.com|oakandfort.com|petsathome.com|pioneer.eu|primeoak.co.uk|royalbank.com|scotsman.com|soundguys.com|stressless.com|support.creative.com|trademe.co.nz|tumi.com|uniqlo.com|uqr.to
 @@||googletagmanager.com/gtm.js$domain=ads.allegro.pl
 @@||googletagmanager.com/gtm.js$domain=aena.es
 @@||googletagmanager.com/gtm.js$domain=amd.com
@@ -2586,6 +2585,7 @@
 @@||googletagmanager.com/gtm.js$domain=realestate.co.nz
 @@||googletagmanager.com/gtm.js$domain=redbull.com
 @@||googletagmanager.com/gtm.js$domain=renault.ru
+@@||googletagmanager.com/gtm.js$domain=repubblica.it
 @@||googletagmanager.com/gtm.js$domain=rewards.msi.com
 @@||googletagmanager.com/gtm.js$domain=rollingstone.com
 @@||googletagmanager.com/gtm.js$domain=rottentomatoes.com
@@ -2978,7 +2978,6 @@
 @@||ingest.sentry.io/api/$xmlhttprequest,domain=orionprotocol.io|tesco.com
 @@||ingest.sentry.io/api/$xmlhttprequest,domain=tesco.hu
 @@||ingrossoprofumitester.it/img/ad-profumeria-$image,~third-party
-@@||ingturkey.tt.omtrdc.net/m2/ingturkey^$domain=ingbank.com.tr
 @@||innovelsolutions.com^*/tracking/$~third-party
 @@||inoreader.com^$genericblock,generichide
 @@||inpad.com.tw/data/adv/
@@ -3224,7 +3223,6 @@
 @@||live.house.gov/js/analytics.$script,~third-party
 @@||live.indiatimes.com/trackjs.cms
 @@||live.lequipe.fr/thirdparty/prebid.js$~third-party
-@@||live.sekindo.com^$domain=appleinsider.com
 @@||liveinternet.ru/code$generichide,genericblock,domain=liveinternet.ru
 @@||livenation.122.2o7.net/b/ss/$domain=oss.ticketmaster.com
 @@||livew.l.qq.com/crossdomain.xml
@@ -4040,7 +4038,6 @@
 @@||s.tgfcer.com^$generichide
 @@||s.thebrighttag.com/tag?site=$domain=sephora.com
 @@||s.visilabs.net/Target.js^$domain=boyner.com.tr
-@@||s.visilabs.net/Target.js^$domain=evidea.com
 @@||s.w.org/wp-content/$stylesheet,domain=wordpress.org
 @@||s.yimg.com/ja/ap/*/jquery.$domain=hk.news.yahoo.com|hk.yahoo.com|tw.news.yahoo.com|tw.stock.yahoo.com|tw.yahoo.com
 @@||s.yimg.com/ss/rapid-*.js$domain=engadget.com
@@ -4063,7 +4060,6 @@
 @@||savjee.be/uploads/2020-10-27-effect-adblockers-on-google-analytics-vs-plausible/$~third-party
 @@||sax.sina.com.cn/video/newimpress?
 @@||sb.scorecardresearch.com/beacon.js$domain=animalplanet.com
-@@||sb.scorecardresearch.com/beacon.js$domain=cnnturk.com
 @@||sb.scorecardresearch.com/beacon.js$domain=discovery.com
 @@||sb.scorecardresearch.com/beacon.js$domain=hurriyet.com.tr
 @@||sb.scorecardresearch.com/beacon.js$domain=investigationdiscovery.com
@@ -4841,7 +4837,6 @@
 @@||vpro.nl^*/vpro-analytics/Analytics.js$xmlhttprequest
 @@||vsh.visilabs.net/Visilabs.js^$domain=boyner.com.tr
 @@||vsh.visilabs.net/Visilabs.js^$domain=cinemaximum.com.tr
-@@||vsh.visilabs.net/Visilabs.js^$domain=evidea.com
 @@||vsh.visilabs.net/Visilabs.js^$domain=kapsamaharitasi.turktelekom.com.tr
 @@||vulture.com/decor/javascript/magnify_stats.js
 @@||vuplay.co.uk/stats/adobe/*/AppMeasurement.js$script,domain=radioplus.be
