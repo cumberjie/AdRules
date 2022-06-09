@@ -1,6 +1,6 @@
 ! Title: Allowlist
-! Version: 2022-06-09 06:12:43（北京时间） 
-! Total count: 5100
+! Version: 2022-06-09 18:15:08（北京时间） 
+! Total count: 5102
 @@$generichide,domain=heapfiles.com|vidoza.co|vidoza.net
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
 @@-ds.metric.gstatic.com^
@@ -701,6 +701,7 @@
 @@||api-v*.trbo.com/r.php$domain=blau.de
 @@||api-v*.trbo.com/r.php$domain=o2online.de
 @@||api-v*.trbo.com^|
+@@||api-v4.trbo.com/r.php?$script,domain=blau.de
 @@||api.adinplay.com/libs/aiptag/$script,domain=bigescapegames.com|brofist.io|findcat.io|squadd.io
 @@||api.adnetmedia.lt/api/$~third-party
 @@||api.ads.tvb.com^
@@ -2453,6 +2454,7 @@
 @@||googletagmanager.com/gtm.js$domain=bestradio.fm
 @@||googletagmanager.com/gtm.js$domain=beterbed.nl
 @@||googletagmanager.com/gtm.js$domain=beymen.com
+@@||googletagmanager.com/gtm.js$domain=bigc.co.th
 @@||googletagmanager.com/gtm.js$domain=bike24.de
 @@||googletagmanager.com/gtm.js$domain=biomedglobal.net
 @@||googletagmanager.com/gtm.js$domain=blaklader.*
@@ -4650,6 +4652,7 @@
 @@||translate.googleapis.com/translate_
 @@||travel-assets.com/platform-analytics-prime/$domain=chase.com
 @@||travelbags.nl^*/web-vitals.$~third-party
+@@||trbo.com/plugin/trbo_$script,domain=blau.de
 @@||trc.taboola.com/alluremedia-gizmodoau/trc/*$domain=gizmodo.com.au
 @@||trc.taboola.com/axelspringer-dieweltprojectberlin/trc*json$domain=welt.de
 @@||trc.taboola.com/ilmeteo-*/trc/$domain=ilmeteo.it
@@ -4676,7 +4679,6 @@
 @@||tt1069.com/dfp.
 @@||ttkdex.com^$generichide
 @@||ttkdex.com^*ad$~third-party
-@@||ttrar.com/statics/pos_js/jquery.gotop.js
 @@||ttutu.biz/log_event$~third-party,xmlhttprequest
 @@||tubecorp.com/vs/vs.js$domain=hentaihd.xyz
 @@||tuhu.cn^
