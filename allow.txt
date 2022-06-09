@@ -1,5 +1,5 @@
 ! Title: Allowlist
-! Version: 2022-06-09 18:15:08（北京时间） 
+! Version: 2022-06-10 06:14:11（北京时间） 
 ! Total count: 5102
 @@$generichide,domain=heapfiles.com|vidoza.co|vidoza.net
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
@@ -3279,7 +3279,6 @@
 @@||mail.biz.rr.com/images/portal/blank.gif$domain=mail.biz.rr.com
 @@||mail.google.com^$generichide
 @@||mail.proton.me^$generichide
-@@||mail.protonmail.com^$generichide
 @@||mail.wo.cn/ad/
 @@||mail.yahoo.com/d/gemini_api/?adCount=
 @@||mail.yahoo.com/neo/ymstat$xmlhttprequest
@@ -3304,6 +3303,7 @@
 @@||marvel-*.bc0a.com/*/images/$domain=whittard.co.uk
 @@||masterkong.com.cn/adimages/
 @@||matchid.adfox.yandex.ru/?url=$script,domain=ctc.ru
+@@||material.angular.io^$generichide
 @@||matomo.miraheze.org/matomo.js$script,~third-party
 @@||matsukiyo.co.jp^*/js/analytics/GoogleTagManager.js$~third-party
 @@||mavikadin.com/js/infinite/DFP.js
