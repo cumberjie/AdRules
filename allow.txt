@@ -1,6 +1,6 @@
 ! Title: Allowlist
-! Version: 2022-06-12 18:13:02（北京时间） 
-! Total count: 5107
+! Version: 2022-06-13 06:12:42（北京时间） 
+! Total count: 5105
 @@$generichide,domain=heapfiles.com|vidoza.co|vidoza.net
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
 @@-ds.metric.gstatic.com^
@@ -957,7 +957,6 @@
 @@||billiger.de/js/emos2.js
 @@||bing.com/fd/ls/GLinkPing.aspx?
 @@||bing.com/search?$generichide
-@@||bing.com/shop$generichide
 @@||bing.com/translator/api/Translate/TranslateArray?$third-party,xmlhttprequest
 @@||bingfeng.tw^$generichide
 @@||biqupai.com^$domain=shudai.cc
@@ -1770,7 +1769,6 @@
 @@||emome.net/files/advertising/
 @@||enchambered.com^*/googleanalytics_2.js?
 @@||energy.de^*/ivw.js?$domain=energy.de
-@@||engine.presearch.org^$generichide
 @@||ens.nzz.ch^$~third-party
 @@||ensighten.com^*/Bootstrap.js$domain=americanexpress.com|britishairways.com|capitalone.com|caranddriver.com|cart.autodesk.com|citi.com|citigold.com.sg|citizensbank.com|dell.com|fidelity.com|france24.com|homedepot.com|hp.com|norton.com|rfi.fr|sbs.com.au|sfgate.com|staples.com|t-mobile.com|target.com|verizonwireless.com|williamhill.com|womenshealthmag.com|zales.com
 @@||ensighten.com^*/Bootstrap.js$domain=williamhill.it
