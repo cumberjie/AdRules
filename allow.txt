@@ -1,5 +1,5 @@
 ! Title: Allowlist
-! Version: 2022-06-15 18:14:40（北京时间） 
+! Version: 2022-06-16 06:13:26（北京时间） 
 ! Total count: 5114
 @@$generichide,domain=heapfiles.com|vidoza.co|vidoza.net
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
@@ -66,8 +66,8 @@
 @@/advertisement_ads_$domain=pdawiki.com|tahua.net
 @@/advertising/*$domain=315.sh.cn
 @@/adverts/*$domain=onlychild.cn
-@@/adview_pic_$domain=1090ys8.com|2hanju.com|fydy8.com|laimanhua.com|lfqie.com|lingjike.com|mahua.com|mati.hk|meiyouad.com|mh160.com|myqqjd.com|reh.tw|silisili.in|sssam.com|xiaoz.me|ykit.cn|zgpingshu.com|zyshow.net
 @@/adview_pic_$domain=2hanju.com|laimanhua.com|lingjike.com|mahua.com|meiyouad.com|mh160.com|reh.tw|silisili.me|xiaoz.me|ykit.cn|zgpingshu.com
+@@/adview_pic_$domain=bigpixel.cn|1090ys8.com|2hanju.com|fydy8.com|laimanhua.com|lfqie.com|lingjike.com|mahua.com|mati.hk|meiyouad.com|mh160.com|myqqjd.com|reh.tw|silisili.in|sssam.com|xiaoz.me|ykit.cn|zgpingshu.com|zyshow.net
 @@/adview_pic_$domain=doutula.com|fastadmin.net|toolfk.com|xclient.info
 @@/advs/*$domain=ciros.com.cn|gotobuy.com.tw|sj-touch.com
 @@/adx.$domain=tanx.com
@@ -172,8 +172,8 @@
 @@_370x270.$domain=bairuitool-cn.aliyun-hk03.hicheng.net
 @@_ads_cpc_$domain=90lover.cn
 @@_adview_$domain=muzlan.top
-@@_adview_cpc_$domain=52xkdy.com
 @@_cpc_cpm_$domain=saraba1st.com|ygo-sem.cn|youranshare.com
+@@_pic_cpm_$domain=52xkdy.com
 @@adsense$domain=adnanguney.com,image
 @@analytics^$domain=wwe.com
 @@jd.com/*ad_
@@ -619,7 +619,7 @@
 @@||almayadeen.net/Content/VideoJS/js/videoPlayer/VideoAds.js$script,~third-party
 @@||alternate.de/js/emos2.js
 @@||amazon-adsystem.com/aax2/apstag.js$domain=accuweather.com|barstoolsports.com|blastingnews.com|cnn.com|exomashomepage.com|familyhandyman.com|foxbusiness.com|gamingbible.co.uk|history.com|keloland.com|radio.com|rd.com|tasteofhome.com|thehealthy.com|time.com|wboy.com|wkrn.com|wlns.com|wvnstv.com
-@@||amazon-adsystem.com/aax2/apstag.js$script,domain=abola.pt|gamestar.de|los40.com
+@@||amazon-adsystem.com/aax2/apstag.js$script,domain=abola.pt|los40.com
 @@||amazon-adsystem.com/aax2/apstag.js$script,domain=programme-tv.net
 @@||amazon-adsystem.com/e/cm?$document,subdocument,domain=affiliate-program.amazon.co.uk|affiliate-program.amazon.com|affiliate-program.amazon.in|affiliate.amazon.co.jp|afiliados.amazon.es|associados.amazon.com.br|associates.amazon.ca|associates.amazon.cn|partenaires.amazon.fr|partnernet.amazon.de|programma-affiliazione.amazon.it
 @@||amazon-adsystem.com/e/ir?$image,domain=kasi-time.com
@@ -1463,6 +1463,7 @@
 @@||cpro.baidu.com/cpro/ui/uijs.php?$domain=www.400gb.com|www.pipipan.com
 @@||cpro.baidustatic.com/cpro/ui/c.js$domain=htqyy.com
 @@||cpro.baidustatic.com/cpro/ui/cm.js$domain=ali213.net|tangdoucdn.com
+@@||cpro.baidustatic.com/cpro/ui/cm.js$domain=bigpixel.cn
 @@||cpro.baidustatic.com/cpro/ui/f.js$script,domain=www.400gb.com|www.pipipan.com|colayun.com|coladrive.com
 @@||cpt-static.gannettdigital.com/universal-web-client/master/latest/elements/vendor/adobe/
 @@||cq.qq.com/js/cody/*scroll_ad.js
@@ -1918,18 +1919,18 @@
 @@||g.doubleclick.net/aclk?$popup,domain=bodas.com.mx|bodas.net|casamentos.com.br|casamentos.pt|casamiento.com.uy|casamientos.com.ar|mariages.net|matrimonio.com|matrimonio.com.co|matrimonio.com.pe|matrimonios.cl|pianobuyer.com|weddingspot.co.uk|zillow.com
 @@||g.doubleclick.net/gampad/ads$xmlhttprequest,domain=bloomberg.com|formularywatch.com|gamespot.com|managedhealthcareexecutive.com|medicaleconomics.com|physicianspractice.com
 @@||g.doubleclick.net/gampad/ads*%20Web%20Player$domain=imasdk.googleapis.com
-@@||g.doubleclick.net/gampad/ads?$domain=edy.rakuten.co.jp|gamestar.de|pccomponentes.com|tv-tokyo.co.jp|vogue.de|voici.fr
+@@||g.doubleclick.net/gampad/ads?$domain=edy.rakuten.co.jp|pccomponentes.com|tv-tokyo.co.jp|voici.fr
 @@||g.doubleclick.net/gampad/ads?*RakutenShowtime$xmlhttprequest,domain=imasdk.googleapis.com
 @@||g.doubleclick.net/gampad/ads?*superbanner_3$xmlhttprequest,domain=spiegel.de
 @@||g.doubleclick.net/gampad/ads?*wallpaper_1$xmlhttprequest,domain=spiegel.de
 @@||g.doubleclick.net/gampad/adx?$xmlhttprequest,domain=v.ifeng.com
 @@||g.doubleclick.net/gampad/adx?*/sparta/*&t=ad_type%3Dtoolbar%26$document,subdocument,domain=wetter.com,badfilter
-@@||g.doubleclick.net/gpt/pubads_impl_$domain=bloomberg.com|chelseafc.com|digitaltrends.com|edy.rakuten.co.jp|gamestar.de|gentside.com|pccomponentes.com|vogue.de|voici.fr
+@@||g.doubleclick.net/gpt/pubads_impl_$domain=bloomberg.com|chelseafc.com|digitaltrends.com|edy.rakuten.co.jp|gentside.com|pccomponentes.com|voici.fr
 @@||g.doubleclick.net/gpt/pubads_impl_$script,domain=spiegel.de
 @@||g.doubleclick.net/pagead/ads?*&description_url=https%3A%2F%2Fgames.wkb.jp$xmlhttprequest,domain=imasdk.googleapis.com
 @@||g.doubleclick.net/pagead/ppub_config?$domain=bloomberg.com
 @@||g.doubleclick.net/tag/js/gpt.js$domain=spiegel.de
-@@||g.doubleclick.net/tag/js/gpt.js$script,xmlhttprequest,domain=accuweather.com|blastingnews.com|bloomberg.com|digitaltrends.com|edy.rakuten.co.jp|epaper.timesgroup.com|formularywatch.com|gamespot.com|gamestar.de|indy100.com|managedhealthcareexecutive.com|mediaite.com|medicaleconomics.com|physicianspractice.com|standard.co.uk|theta.tv
+@@||g.doubleclick.net/tag/js/gpt.js$script,xmlhttprequest,domain=accuweather.com|blastingnews.com|bloomberg.com|digitaltrends.com|edy.rakuten.co.jp|epaper.timesgroup.com|formularywatch.com|gamespot.com|indy100.com|managedhealthcareexecutive.com|mediaite.com|medicaleconomics.com|physicianspractice.com|standard.co.uk|theta.tv
 @@||g.tbcdn.cn^
 @@||g.w.bilicdn1.com/$script,domain=bilibili.com
 @@||g2crowd.com/uploads/product/image/$image,domain=g2.com
@@ -1950,7 +1951,6 @@
 @@||games.pch.com^$generichide
 @@||games.wkb.jp/ykg/javascripts/*/adsense_$script,domain=games.wkb.jp
 @@||gamespot.com/js/compiled/trackingWithCT.js$domain=gamespot.com
-@@||gamestar.de/gs_cb/assets/core/js/libs/dfp/prebid.$script,domain=gamestar.de
 @@||gandalf.segmentify.com/*/add/events/v1.json$domain=koctas.com.tr
 @@||gandalf.segmentify.com^$domain=pttavm.com
 @@||ganji.com/findjob/send_resume.*&ad_type=
@@ -2722,7 +2722,7 @@
 @@||googletagservices.com/tag/js/gpt.js$domain=dafiti.com.co
 @@||googletagservices.com/tag/js/gpt.js$domain=eksisozluk.com
 @@||googletagservices.com/tag/js/gpt.js$domain=epaper.timesgroup.com
-@@||googletagservices.com/tag/js/gpt.js$domain=farfeshplus.com|gentside.com|pccomponentes.com|tv-asahi.co.jp|vlive.tv|vogue.de|voici.fr
+@@||googletagservices.com/tag/js/gpt.js$domain=farfeshplus.com|gentside.com|pccomponentes.com|tv-asahi.co.jp|vlive.tv|voici.fr
 @@||googletagservices.com/tag/js/gpt.js$domain=gamestar.de
 @@||googletagservices.com/tag/js/gpt.js$domain=gentside.com|gentside.de|gentside.co.uk|gentside.com.br|esgentside.com|maxisciences.com|ohmymag.com|ohmymag.de|ohmymag.com.br|ohmirevista.com
 @@||googletagservices.com/tag/js/gpt.js$domain=imgur.com
@@ -2783,7 +2783,7 @@
 @@||hanjuwang.net^$script,~third-party
 @@||hao123img.com/resource/zt/widget/service/util/clickTrack.
 @@||haokoubei.top/dl/rfo_v_f_pc.js
-@@||haokoubei.top/jquery/jquery-1.7.2.min.js
+@@||haokoubei.top/sz/to_v_f.js
 @@||haoweichi.com/Public/js/ads.js
 @@||harvard.edu/scripts/ga_social_tracking.js
 @@||hatenacorp.jp/_next/static/chunks/pages/ads-$script,~third-party
@@ -3808,7 +3808,6 @@
 @@||playcanvas.com.*/keen.min.js
 @@||playep.pro/log_event$~third-party,xmlhttprequest
 @@||player-feedback-v1.glomex.com/pf/|$domain=player.glomex.com
-@@||player-feedback.p7s1video.net^$script,domain=kabeleins.de|sat1.de
 @@||player.aniview.com/script/$script,domain=odysee.com
 @@||player.anyclip.com/anyclip-widget/lre-widget/$script,domain=video.timeout.com|video.venturebeat.com|videos.heute.at
 @@||player.avplayer.com^$script,domain=explosm.net
@@ -3853,6 +3852,8 @@
 @@||portalbici.es/lib/angulartics-google-analytics/dist/angulartics-ga.min.js
 @@||portalbici.es^*-advertisement.$~third-party,xmlhttprequest
 @@||pos.baidu.com^$script,domain=fxpan.com|htqyy.com|jkpan.cc
+@@||pos.baidu.com^$subdocument,domain=bigpixel.cn
+@@||pos.baidu.com^*?di=u3160754&$domain=bigpixel.cn
 @@||post2go.ru/widget/tracking?$~third-party
 @@||postclickmarketing.com^$domain=adtspecials.com|befinanciallyfit.com|cursodemedicina.com.br|demandmetric.com|hootsuite.com|semipresencial.com.br|systemsprotect.com
 @@||postex.com/api/ping?$~third-party
@@ -4305,7 +4306,6 @@
 @@||spatialbuzz.com/piwik/piwik.js$domain=spatialbuzz.com
 @@||speakout7eleven.ca^*/Magento_GoogleTagManager/$~third-party
 @@||speedtest.net^
-@@||spendino.de/admanager/
 @@||spiegel.de/layout/js/http/netmind-$script
 @@||spiegel.de^$genericblock,generichide
 @@||spiele.rtl.de/landingpage/index/$document
