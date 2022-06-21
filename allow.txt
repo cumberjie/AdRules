@@ -1,6 +1,6 @@
 ! Title: Allowlist
-! Version: 2022-06-21 06:12:21（北京时间） 
-! Total count: 5074
+! Version: 2022-06-21 18:20:52（北京时间） 
+! Total count: 5076
 @@$generichide,domain=heapfiles.com|vidoza.co|vidoza.net
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
 @@-ds.metric.gstatic.com^
@@ -1128,7 +1128,7 @@
 @@||cdn.cxense.com/cx.js$domain=itmedia.co.jp
 @@||cdn.cxense.com/cx.js$domain=lavoz.com.ar
 @@||cdn.cxense.com/cx.js$domain=stomp.com.sg
-@@||cdn.cxense.com/cx.js$domain=tarzanweb.jp|wpb.shueisha.co.jp
+@@||cdn.cxense.com/cx.js$domain=tarzanweb.jp|tv-tokyo.co.jp|wpb.shueisha.co.jp
 @@||cdn.cxense.com/cx.js$domain=tn.com.ar
 @@||cdn.cxense.com/cx.js$domain=wpb.shueisha.co.jp
 @@||cdn.cxense.com/cx.js$domain=wsj.com
@@ -1471,6 +1471,7 @@
 @@||crowdscience.com/max-$script,domain=everydayhealth.com
 @@||crowdscience.com/start-$script,domain=everydayhealth.com
 @@||cruisecenter.com.tw/data/ad/
+@@||cruisemapper.com/assets/*/js/tracker.js$script,~third-party
 @@||crunchyroll.com^*/ads_$script
 @@||crwdcntrl.net/*callback=setPIDForPlayer$domain=static.rtl.nl
 @@||crystalmark.info/wp-content/uploads/*-300x250.$image,~third-party
@@ -2404,6 +2405,7 @@
 @@||googletagmanager.com/gtag/js?id=$domain=canale.live
 @@||googletagmanager.com/gtag/js?id=$domain=chainreactioncycles.com
 @@||googletagmanager.com/gtag/js?id=$domain=cnbctv18.com
+@@||googletagmanager.com/gtag/js?id=$domain=inforesist.org
 @@||googletagmanager.com/gtag/js?id=$domain=kawasaki.com
 @@||googletagmanager.com/gtag/js?id=$domain=laudamotion.com
 @@||googletagmanager.com/gtag/js?id=$domain=rotana.net
@@ -2636,7 +2638,7 @@
 @@||googletagmanager.com/gtm.js$domain=zakzak.co.jp
 @@||googletagmanager.com/gtm.js$domain=zeelandnet.nl
 @@||googletagmanager.com/gtm.js$domain=zolotoyvek.ua
-@@||googletagmanager.com/gtm.js$script,domain=animeanime.jp|anond.hatelabo.jp|benesse-style-care.co.jp|book.impress.co.jp|carcareplus.jp|cinemacafe.net|cmoa.jp|cyclestyle.net|dengekionline.com|dholic.co.jp|gamebusiness.jp|gamespark.jp|hatenacorp.jp|inside-games.jp|junonline.jp|kakuyomu.jp|mainichi.jp|mangaseek.net|mycar-life.com|nap-camp.com|newscafe.ne.jp|radiko.jp|rbbtoday.com|reanimal.jp|resemom.jp|response.jp|sanwacompany.co.jp|scan.netsecurity.ne.jp|spyder7.com|stage.parco.jp|viviennewestwood-tokyo.com|ymobile.jp|zakzak.co.jp
+@@||googletagmanager.com/gtm.js$script,domain=animeanime.jp|anond.hatelabo.jp|benesse-style-care.co.jp|book.impress.co.jp|carcareplus.jp|cinemacafe.net|cmoa.jp|cyclestyle.net|dengekionline.com|dholic.co.jp|gamebusiness.jp|gamespark.jp|hatenacorp.jp|inside-games.jp|junonline.jp|kakuyomu.jp|mainichi.jp|mangaseek.net|mycar-life.com|nap-camp.com|newscafe.ne.jp|okwave.jp|radiko.jp|rbbtoday.com|reanimal.jp|resemom.jp|response.jp|sanwacompany.co.jp|scan.netsecurity.ne.jp|spyder7.com|stage.parco.jp|viviennewestwood-tokyo.com|ymobile.jp|zakzak.co.jp
 @@||googletagmanager.com/gtm.js$script,domain=animeanime.jp|carcareplus.jp|cinemacafe.net|cyclestyle.net|gamebusiness.jp|gamespark.jp|inside-games.jp|mycar-life.com|newscafe.ne.jp|reanimal.jp|resemom.jp|response.jp|scan.netsecurity.ne.jp|spyder7.com
 @@||googletagmanager.com/gtm.js$script,domain=beterbed.nl|finanzen.ch|mediamarkt.nl
 @@||googletagmanager.com/gtm.js$script,domain=cdon.fi|como.fi|episodi.fi|fum.fi|hobbyhall.fi|iltalehti.fi|inferno.fi|rumba.fi|soundi.fi|tilt.fi|veho.fi
@@ -3762,7 +3764,6 @@
 @@||pixelexperience.org^$generichide
 @@||pixelpressmedia.com/wp-content/plugins/duracelltomi-google-tag-manager/$script,domain=pixelpressmedia.com
 @@||pjtra.com/b/$image,domain=extrarebates.com
-@@||pl.smotrim.ru/js/stat.js$script,domain=player.vgtrk.com
 @@||places.mercedes-benz.com/*/adrum.js
 @@||pladform.ru/dive/$xmlhttprequest
 @@||pladform.ru/player$subdocument
@@ -4232,6 +4233,7 @@
 @@||smetrics.nintendo.com/id?d_visid_ver=$domain=en-americas-support.nintendo.com
 @@||smetrics.target.com/b/ss/$image
 @@||smetrics.ticketmaster.com/b/ss/$image
+@@||smotrim.ru/js/stat.js$script
 @@||smp.sankei.co.jp/js/analytics/skd.Analysis.js
 @@||smtcaw.com^$generichide
 @@||smushcdn.com^*/1.gif$domain=retrounlim.com
