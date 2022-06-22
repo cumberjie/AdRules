@@ -1,6 +1,6 @@
 ! Title: Allowlist
-! Version: 2022-06-22 06:12:16（北京时间） 
-! Total count: 5076
+! Version: 2022-06-22 18:16:30（北京时间） 
+! Total count: 5078
 @@$generichide,domain=heapfiles.com|vidoza.co|vidoza.net
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
 @@-ds.metric.gstatic.com^
@@ -3269,6 +3269,7 @@
 @@||maps.google.*/gen_204?$xmlhttprequest
 @@||marcokrenn.com/public/js/logger.js
 @@||marketing.net.idealo-partner.com^|
+@@||marketingautomation.services^$script,domain=leeuwerik.nl
 @@||marketingsolutions.com.pl^*/googleanalytics-$image,domain=marketingsolutions.com.pl
 @@||marketo.com/*/form$domain=orcad.com
 @@||marketo.com//index.php/form/
@@ -4175,6 +4176,7 @@
 @@||shopify.com/*assets/pixel.gif$image,domain=metrovac.com
 @@||shopify.com/shopifycloud/boomerang/shopify-boomerang-$domain=rydewear.com
 @@||shopping.naver.net/ad/$image,script,stylesheet,domain=naver.com
+@@||shoutcast.hubu.fm/stats?sid=$script,~third-party
 @@||show.g.mediav.com/s?type=$domain=v.360kan.com
 @@||show.g.mediav.com/s?type=$script,domain=miercn.com
 @@||showcase.codethislab.com/banners/$image,~third-party
