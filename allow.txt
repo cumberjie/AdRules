@@ -1,6 +1,6 @@
 ! Title: Allowlist
-! Version: 2022-06-22 18:16:30（北京时间） 
-! Total count: 5078
+! Version: 2022-06-23 06:12:27（北京时间） 
+! Total count: 5086
 @@$generichide,domain=heapfiles.com|vidoza.co|vidoza.net
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
 @@-ds.metric.gstatic.com^
@@ -367,6 +367,7 @@
 @@||ad.crwdcntrl.net^$domain=ap.org|newsinc.com
 @@||ad.crwdcntrl.net^$script,domain=rtl.nl
 @@||ad.de.doubleclick.net/imp;$object,domain=rtl-now.rtl.de|rtl2now.rtl2.de|rtlnitronow.de|superrtlnow.de|voxnow.de
+@@||ad.doubleclick.net/clk*&destinationURL=$popup
 @@||ad.doubleclick.net/ddm/$popup,domain=billiger.de|guide-epargne.be|legacy.com|mail.yahoo.com|nytimes.com|spaargids.be
 @@||ad.doubleclick.net/ddm/clk/*http$popup
 @@||ad.doubleclick.net/ddm/pfadx^$domain=n-tv.de
@@ -671,7 +672,10 @@
 @@||analytics.ooyala.com/static/analytics.js$script,domain=humo.be
 @@||analytics.tercept.com/js/ga.js$script,~third-party
 @@||analytics.tiktok.com/*/pixel/sdk.js$domain=wopilo.com
+@@||analytics.twitter.com/*/api$domain=analytics.twitter.com
 @@||analytics.twitter.com/mob_idsync_click
+@@||analytics.twitter.com/user/*.json?$domain=analytics.twitter.com
+@@||analytics.twitter.com/user/*/tweets/bundle?$domain=analytics.twitter.com
 @@||analytics.twitter.com^$domain=analytics.twitter.com
 @@||analytics.wearekiss.com/piwik.js$domain=spritepad.wearekiss.com
 @@||ananas.chaoxing.com^*video/ad/
@@ -687,6 +691,7 @@
 @@||anteraja.id/api/api/tracking/api/captchaImg$~third-party
 @@||anteraja.id/api/api/tracking/api/reloadCaptchaImg$~third-party
 @@||anthem.com/includes/foresee/foresee-trigger.js
+@@||anwb.webpower.eu^|
 @@||anyknew.com^$generichide
 @@||anymind360.com/js/*/ats.js$domain=automaton-media.com
 @@||aobi.100bt.com/play/ad/ad*.swf
@@ -3622,6 +3627,7 @@
 @@||online.tivo.com/assets/tve/common/js/vendor/jsnlog/$script,~third-party
 @@||online.unionpay.com/ads/$script
 @@||onlinebanking.usbank.com/TUX/public/libs/adobe/appmeasurement.js$script,~third-party
+@@||onlyfans.com/theme/onlyfans/spa/statistics.js$~third-party
 @@||ooyala.com/3rdparty/comscore_$domain=livetvcafe.net
 @@||ooyala.com/3rdparty/comscore_*.swf$domain=bloomberg.com|businessweek.com|greentechmedia.com
 @@||ooyala.com/crossdomain.xml
@@ -3677,7 +3683,7 @@
 @@||pagead2.googlesyndication.com/pagead/show_ads.js$domain=knowlet3389.blogspot.com|knowlet3389.blogspot.hk|knowlet3389.blogspot.jp|knowlet3389.blogspot.tw|mnighthk.net|weithenn.org
 @@||pagead2.googlesyndication.com/pagead/show_ads.js$domain=nlfreevpn.com|oldapps.com
 @@||paginegialle.it/js/shinystat.js
-@@||pagure.io/static/issues_stats.js?
+@@||pagure.io/static/issues_stats.js$~third-party
 @@||pandora.com/images/public/devicead/$image
 @@||pandora.com^$generichide
 @@||panel.flops.ru/js/member/evercookie_init.js
@@ -3708,8 +3714,11 @@
 @@||paypalobjects.com/tagmgmt/bootstrap.js
 @@||paypalobjects.com/web/*/gAnalytics.js$script,domain=paypal.com
 @@||pbs.twimg.com/ad_img/$image,xmlhttprequest
-@@||pbskids.org/js/ga-current.js
 @@||pcbac.com/web/legacy/js/analytics.js$script,~third-party
+@@||pcbeta.com/data/cache//common_
+@@||pcbeta.com/data/cache/common_extra.js
+@@||pcbeta.com/data/cache/forum_post.js
+@@||pcbeta.com/data/cache/forum_viewthread.js
 @@||pchome.com.tw/img/js/xpcadshow.js$domain=game735.com
 @@||pchomepay.com.tw/share/js/
 @@||pcworld.com/www/js/ads/jquery.lazyload-ad.js
@@ -3775,7 +3784,6 @@
 @@||plausible.io/js/plausible.js$script,domain=sammobile.com
 @@||play.google.com/log?$domain=meet.google.com
 @@||play.google.com/log?format=json$domain=news.google.com
-@@||playcanvas.com.*/keen.min.js
 @@||playep.pro/log_event$~third-party,xmlhttprequest
 @@||player-feedback-v1.glomex.com/pf/|$domain=player.glomex.com
 @@||player.aniview.com/script/$script,domain=odysee.com
