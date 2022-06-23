@@ -1,6 +1,6 @@
 ! Title: Allowlist
-! Version: 2022-06-23 18:14:39（北京时间） 
-! Total count: 5087
+! Version: 2022-06-24 06:12:17（北京时间） 
+! Total count: 5089
 @@$generichide,domain=heapfiles.com|vidoza.co|vidoza.net
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
 @@-ds.metric.gstatic.com^
@@ -1212,6 +1212,7 @@
 @@||cdn.segmentify.com/*/segmentify.js$domain=gratis.com
 @@||cdn.segmentify.com/*/segmentify.js$domain=koctas.com.tr
 @@||cdn.segmentify.com/account-js/segmentify_flo.js$domain=flo.com.tr
+@@||cdn.segmentify.com^$domain=gratis.com
 @@||cdn.segmentify.com^$domain=pttavm.com
 @@||cdn.sorsware.com/bsl/ContentImages/Banner/*.gif$domain=bsl.com.tr
 @@||cdn.static.zdbb.net/js/zd-email.min.js$domain=pcmag.com
@@ -4886,6 +4887,7 @@
 @@||westjet.com/js/webstats.js
 @@||wfpscripts.webspectator.com/bootstrap/$script,domain=gpfans.com
 @@||wgun.net^$elemhide
+@@||whatsapp.com^$generichide
 @@||where2getit.com/traderjoes/rest/clicktrack?$domain=traderjoes.com
 @@||whirlpool.com/foresee/foresee-trigger.js
 @@||whirlpool.tt.omtrdc.net/m2/whirlpool/mbox/json?mbox=$domain=kitchenaid.com
