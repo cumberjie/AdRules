@@ -1,6 +1,6 @@
 ! Title: Allowlist
-! Version: 2022-06-26 06:12:45（北京时间） 
-! Total count: 5090
+! Version: 2022-06-26 18:13:25（北京时间） 
+! Total count: 5091
 @@$generichide,domain=heapfiles.com|vidoza.co|vidoza.net
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
 @@-ds.metric.gstatic.com^
@@ -185,6 +185,7 @@
 @@|beta.partners.adsterra.com^|
 @@|beta.publishers.adsterra.com^|
 @@|core.crazyegg.com^|
+@@|data:text^$popup,domain=box.com|clker.com|labcorp.com
 @@|ftp.bmp.ovh^|
 @@|help-advertisers.adsterra.com^|
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org
@@ -1557,7 +1558,6 @@
 @@||dashboard.unity3d.com/services/analytics/$~third-party
 @@||data.lidl.de^$jsinject
 @@||data.mistat.xiaomi.com^$app=com.tencent.mm
-@@||data:text^$popup,domain=box.com|clker.com|labcorp.com|zipit.io
 @@||datadoghq-browser-agent.com/datadog-$script,domain=bbcgoodfood.com|usa.experian.com
 @@||datadoghq-browser-agent.com/datadog-logs-v*.js$domain=radiotimes.com
 @@||datadoghq-browser-agent.com/datadog-rum.js$domain=notonthehighstreet.com
@@ -1990,7 +1990,7 @@
 @@||geo.ngtv.io/locate/$domain=hbo.com
 @@||geo.query.yahoo.com^$xmlhttprequest,domain=tw.autos.yahoo.com|tw.buy.yahoo.com
 @@||geoip-db.com/jsonp/$script,third-party
-@@||geoip-js.com/js/apis/geoip2/$script,domain=freshdesk.com|myvanillacard.com
+@@||geoip-js.com/js/apis/geoip2/$script,domain=freshdesk.com|myvanillacard.com|web.aw.ca
 @@||geoip-js.com^*/me?referrer=$xmlhttprequest,domain=freshdesk.com|ibanez.com
 @@||geoloc.hurriyet.com.tr/api/country/$domain=hurriyet.com.tr
 @@||geolocation-db.com/jsonp$script,domain=parts.hp.com
@@ -3165,6 +3165,7 @@
 @@||lcs.naver.com/*?u=*service_id$image,domain=smartstore.naver.com
 @@||lcs.naver.com/m?u=$domain=smartstore.naver.com
 @@||ldxinyong.com^$generichide
+@@||leadpages.io/analytics/v1/observations/capture?$xmlhttprequest
 @@||league-funny.com^$script,~third-party
 @@||leffatykki.com/media/banners/tykkibanneri-728x90.png$image,~third-party
 @@||lefile.cn/??*,
