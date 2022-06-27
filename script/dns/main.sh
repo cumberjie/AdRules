@@ -6,11 +6,11 @@ curl -o i1.txt https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.tx
 #curl -o i2.txt https://raw.githubusercontent.com/xinggsf/Adblock-Plus-Rule/master/rule.txt
 curl -o i3.txt https://raw.githubusercontent.com/o0HalfLife0o/list/master/ad-pc.txt
 curl -o i4.txt https://raw.githubusercontent.com/o0HalfLife0o/list/master/ad-edentw.txt
-#curl -o i5.txt https://raw.githubusercontent.com/banbendalao/ADgk/master/ADgk.txt
-#curl -o i6.txt https://raw.githubusercontent.com/Cats-Team/AdRules/main/adblock.txt
-curl -o i7.txt https://raw.githubusercontent.com/Cats-Team/AdRules/main/script/dns/src/brules.dd
-curl -o i8.txt https://raw.githubusercontent.com/Cats-Team/AdRules/main/script/adblock/src/user-rules.dd
-curl -o i12.txt https://adaway.org/hosts.txt
+curl -o i5.txt https://raw.githubusercontent.com/banbendalao/ADgk/master/ADgk.txt
+curl -o i6.txt https://raw.githubusercontent.com/Cats-Team/AdRules/main/adblock.txt
+#curl -o i7.txt https://raw.githubusercontent.com/Cats-Team/AdRules/main/script/dns/src/brules.dd
+#curl -o i8.txt https://raw.githubusercontent.com/Cats-Team/AdRules/main/script/adblock/src/user-rules.dd
+#curl -o i12.txt https://adaway.org/hosts.txt
 wget https://raw.githubusercontent.com/damengzhu/banad/main/jiekouAD.txt
 
 # Start Merge and Duplicate Removal
