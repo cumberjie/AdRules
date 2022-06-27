@@ -10,6 +10,7 @@ curl -o i5.txt https://raw.githubusercontent.com/banbendalao/ADgk/master/ADgk.tx
 curl -o i6.txt https://raw.githubusercontent.com/Cats-Team/AdRules/main/adblock.txt
 #curl -o i7.txt https://raw.githubusercontent.com/Cats-Team/AdRules/main/script/dns/src/brules.dd
 #curl -o i8.txt https://raw.githubusercontent.com/Cats-Team/AdRules/main/script/adblock/src/user-rules.dd
+curl -o i9.txt https://anti-ad.net/easylist.txt
 #curl -o i12.txt https://adaway.org/hosts.txt
 wget https://raw.githubusercontent.com/damengzhu/banad/main/jiekouAD.txt
 
