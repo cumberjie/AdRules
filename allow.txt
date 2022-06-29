@@ -1,6 +1,6 @@
 ! Title: Allowlist
-! Version: 2022-06-29 18:15:32（北京时间） 
-! Total count: 5099
+! Version: 2022-06-30 06:12:50（北京时间） 
+! Total count: 5093
 @@$generichide,domain=heapfiles.com|vidoza.co|vidoza.net
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
 @@-ds.metric.gstatic.com^
@@ -683,7 +683,6 @@
 @@||anandabazar.com/js/anandabazar-bootstrap/$script
 @@||ancestrycdn.com/ui-static/lib/tracking/$domain=ancestry.com
 @@||android.bugly.qq.com/rqd/async?aid=47fefd70-7c99-4821-b989-25e49187e5e2$app=com.bilibili.app.blue
-@@||androidgalaxys.net/wp-content/plugins/*/google-analyticator/$script
 @@||anhuinews.com/zhuyeguanli/2020ad/xidad.jpg
 @@||anime1.me/ads.js
 @@||anitasrecipes.com/Content/Images/Recipes/$image,~third-party
@@ -1009,7 +1008,7 @@
 @@||brm-core-0.brsrvr.com/api/*/core$domain=dollargeneral.com
 @@||brm-core-0.brsrvr.com/api/*/core/?account_id=$domain=m.toysrus.com
 @@||browser.cloud.ucweb.com^
-@@||browser.sentry-cdn.com^$domain=dic.pixiv.net|doconcall.com.my|eco-clobber.co.uk|timesprime.com
+@@||browser.sentry-cdn.com^$domain=dic.pixiv.net|doconcall.com.my|eco-clobber.co.uk|menshealth.com|timesprime.com|womenshealthmag.com
 @@||browser.sentry-cdn.com^$domain=marshmallow-qa.com
 @@||browser.sentry-cdn.com^$script,domain=podcasty.seznam.cz
 @@||browser.sentry-cdn.com^$script,domain=vivareal.com.br
@@ -1017,6 +1016,7 @@
 @@||brsrvr.com/api/$xmlhttprequest,domain=dollargeneral.com
 @@||bt.com^*/touchclarity/homepage/omtr_tc.js
 @@||btloader.com/tag?$domain=programme-tv.net
+@@||btloader.com/tag?$domain=voici.fr
 @@||btloader.com/tag?h=prismamedia-com&upapi=true$script,domain=maxisciences.com|gentside.*|ohmymag.*
 @@||btsax.info^$generichide
 @@||btstatic.com/tag.js$domain=oralb.de
@@ -2624,6 +2624,7 @@
 @@||googletagmanager.com/gtm.js$domain=thestar.co.uk
 @@||googletagmanager.com/gtm.js$domain=thethaiger.com
 @@||googletagmanager.com/gtm.js$domain=tvnow.de|tvnow.at
+@@||googletagmanager.com/gtm.js$domain=type.jp
 @@||googletagmanager.com/gtm.js$domain=ucicinemas.pt
 @@||googletagmanager.com/gtm.js$domain=ucpa-vacances.com
 @@||googletagmanager.com/gtm.js$domain=unbiased.co.uk
@@ -2888,7 +2889,6 @@
 @@||ikea.cn^*/img/ads/
 @@||ikea.com/cdn/googleanalytics/$~third-party,xmlhttprequest
 @@||ilan.memurlar.net/common/job/advert/images/$domain=memurlar.net
-@@||ilsole24ore.com^*/fingerprint2.min.js?
 @@||image.coolapk.com^
 @@||image.shutterstock.com^$image,domain=icons8.com
 @@||images*.engageya.com^$image,domain=popmech.ru
@@ -2949,7 +2949,7 @@
 @@||imrworldwide.com/novms/js/2/ggc$script,domain=9now.com.au|adelaidenow.com.au|advertiser.com.au|bestrecipes.com.au|byronnews.com.au|cairnspost.com.au|coffscoastadvocate.com.au|couriermail.com.au|dailyexaminer.com.au|espn.com|frasercoastchronicle.com.au|gattonstar.com.au|geelongadvertiser.com.au|gladstoneobserver.com.au|goldcoastbulletin.com.au|heraldsun.com.au|ipswichadvertiser.com.au|news-mail.com.au|news.com.au|noosanews.com.au|ntnews.com.au|sunshinecoastdaily.com.au|theaustralian.com.au|themercury.com.au|theweeklytimes.com.au|townsvillebulletin.com.au|weeklytimesnow.com.au|whitsundaytimes.com.au
 @@||imrworldwide.com/novms/js/2/ggcmb353.js$domain=nexttv.com.tw
 @@||imrworldwide.com/v60.js$domain=adelaidenow.com.au|advertiser.com.au|bestrecipes.com.au|byronnews.com.au|cairnspost.com.au|coffscoastadvocate.com.au|couriermail.com.au|dailyexaminer.com.au|frasercoastchronicle.com.au|gattonstar.com.au|geelongadvertiser.com.au|gladstoneobserver.com.au|goldcoastbulletin.com.au|heraldsun.com.au|ipswichadvertiser.com.au|last.fm|musicfeeds.com.au|news-mail.com.au|noosanews.com.au|ntnews.com.au|nzherald.co.nz|realestateview.com.au|sf.se|sunshinecoastdaily.com.au|theaustralian.com.au|themercury.com.au|theweeklytimes.com.au|threenow.co.nz|townsvillebulletin.com.au|weatherchannel.com.au|weeklytimesnow.com.au|whitsundaytimes.com.au
-@@||imrworldwide.com/v60.js$domain=capital.it|corriereadriatico.it|fanpage.it|huffingtonpost.it|ilgazzettino.it|ilmattino.it|ilmessaggero.it|la7.it|leggo.it|m2o.it|quotidianodipuglia.it|video.deejay.it|video.espresso.repubblica.it|video.ilsecoloxix.it|video.lanuovasardegna.it|video.lastampa.it|video.rep.repubblica.it|video.repubblica.it
+@@||imrworldwide.com/v60.js$domain=corriereadriatico.it|fanpage.it|huffingtonpost.it|ilgazzettino.it|ilmattino.it|ilmessaggero.it|la7.it|leggo.it|quotidianodipuglia.it|video.deejay.it|video.espresso.repubblica.it|video.ilsecoloxix.it|video.lastampa.it|video.repubblica.it
 @@||imrworldwide.com/v60.js$domain=last.fm|musicfeeds.com.au|nzherald.co.nz|realestateview.com.au|sf.se|threenow.co.nz|weatherchannel.com.au|corriereadriatico.it|ilgazzettino.it|ilmattino.it|ilmessaggero.it|leggo.it|quotidianodipuglia.it|freeview.com.au
 @@||imrworldwide.com^*-mediaplayer&$domain=au.launch.yahoo.com
 @@||imrworldwide.com^*/flashdetect.js
@@ -3108,7 +3108,7 @@
 @@||kapaza.be/nl/js/xtcore_$script,domain=kapaza.be
 @@||kaptcha.com/collect/sdk?$domain=wyze.com
 @@||kaspersky.co$content
-@@||kataweb.it/wt/wt.js?http$domain=gelocal.it|video.huffingtonpost.it|video.ilsecoloxix.it|video.lanuovasardegna.it|video.lastampa.it|video.rep.repubblica.it|video.repubblica.it
+@@||kataweb.it/wt/wt.js?http$domain=gelocal.it|video.huffingtonpost.it|video.ilsecoloxix.it|video.lastampa.it|video.repubblica.it
 @@||kawasaki.com/Scripts/Analytics/BaseAnalytics.js$script,~third-party
 @@||kaxsdc.com/collect/sdk$xmlhttprequest,domain=vanillaereward.com
 @@||kayixin.com^*/advert
@@ -3691,14 +3691,12 @@
 @@||pagead2.googlesyndication.com/pagead/managed/js/*/show_ads_impl_$script,domain=games.wkb.jp
 @@||pagead2.googlesyndication.com/pagead/show_ads.js$domain=knowlet3389.blogspot.com|knowlet3389.blogspot.hk|knowlet3389.blogspot.jp|knowlet3389.blogspot.tw|mnighthk.net|weithenn.org
 @@||pagead2.googlesyndication.com/pagead/show_ads.js$domain=nlfreevpn.com|oldapps.com
-@@||paginegialle.it/js/shinystat.js
 @@||pagure.io/static/issues_stats.js$~third-party
 @@||pandora.com/images/public/devicead/$image
 @@||pandora.com^$generichide
 @@||panel.flops.ru/js/member/evercookie_init.js
 @@||pangzi.ca^$subdocument
 @@||panjiachen.github.io^$generichide
-@@||panorama.it/wp-content/themes/panorama/js/google-nielsen-analytics.js?
 @@||paperpk.com/Ads/site/$image,domain=paperpk.com
 @@||paperpk.com/ads_pic_directory/$image,domain=paperpk.com
 @@||paperpk.com/pk_img/$image,domain=paperpk.com
@@ -3928,7 +3926,6 @@
 @@||quapp.1122dh.com/top/man^$app=com.biquge.ebook.app
 @@||quapp.1122dh.com/v4/biquge/SearchEngine.html$app=com.biquge.ebook.app
 @@||quapp.1122dh.com/v4/biquge/man.html
-@@||quattroruote.it^*/webtrekk_mediaTracking.min.js$script,~third-party
 @@||query.petametrics.com^$image,xmlhttprequest,domain=comics.mecha.cc
 @@||query1.petametrics.com/*&sdk=bc-jsonp$domain=lanacion.com.ar
 @@||query1.petametrics.com/*&sdk=bc-jsonp$domain=ranker.com
@@ -3976,8 +3973,6 @@
 @@||renault.de/js/sitestat.js
 @@||renewcanceltv.com/porpoiseant/banger.js$script,~third-party
 @@||repairtrackingsite.nintendo.eu/Tracking/$subdocument,domain=nintendo.co.uk
-@@||repstatic.it/minify/sites/common/config_webtrekk_$script,domain=video.repubblica.it
-@@||repstatic.it^*/Nielsen.js
 @@||repubblica.it/pw/pw.js?deskurl=$domain=gelocal.it|ilsecoloxix.it|lastampa.it
 @@||res-x.com^*/Resonance.aspx?
 @@||res.yyets.com/ads/mediav-250.js
@@ -4446,7 +4441,6 @@
 @@||swr3.de/static/swrplayer/web/plugins/ivw/ivw.js
 @@||swsc.com.cn/download/ad_images/
 @@||sxjbjt.com^*/ad
-@@||synlab.it^*/angular-google-analytics.js
 @@||szhr.com.cn^$generichide
 @@||szhr.com.cn^*ad
 @@||szhr.com^$generichide
@@ -4580,7 +4574,6 @@
 @@||tinypass.com^*/logAutoMicroConversion?$domain=chicago.suntimes.com
 @@||tipico.de/js/modules/fingerprintjs2/fingerprint2.min.js$script,~third-party
 @@||tiscali.it/js/webtrends/$script,domain=mail.tiscali.it
-@@||tiscali.it^*/webtrekk_mediaTracking.min.js$script,~third-party
 @@||tkec.com.tw/api/ad/
 @@||tlaol.com^|
 @@||tlc.com^$generichide
@@ -4761,6 +4754,7 @@
 @@||v.fwmrm.net/ad/g/1?csid=vcbs_cbsnews_desktop_$xmlhttprequest
 @@||v.fwmrm.net/ad/p/1?$domain=cc.com|channel5.com|cmt.com|eonline.com|foodnetwork.com|nbcnews.com|ncaa.com|player.theplatform.com|simpsonsworld.com|today.com|uktv.co.uk
 @@||v.me/personal/assets/ntpagetag-$script
+@@||v2rayssr.com/wp-content/plugins/dh-anti-adblocker/public/js/prebid-ads.js
 @@||v2rayssr.com^$generichide
 @@||vaillant.de/inc/assets/js/webtrekk_$script
 @@||valf.atm.youku.com/vf?site=1&rst=mp4&
