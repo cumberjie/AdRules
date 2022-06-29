@@ -1,6 +1,6 @@
 ! Title: Allowlist
-! Version: 2022-06-29 06:14:12（北京时间） 
-! Total count: 5097
+! Version: 2022-06-29 18:15:32（北京时间） 
+! Total count: 5099
 @@$generichide,domain=heapfiles.com|vidoza.co|vidoza.net
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
 @@-ds.metric.gstatic.com^
@@ -1246,6 +1246,7 @@
 @@||cdn.turner.com/analytics/cnnvan/jsmd.min.js$domain=6abc.com
 @@||cdn.videoplaza.tv/contrib/de-ipd/svm/homadConfigVideoplaza-rtl.json$domain=rtl.de
 @@||cdn.vidoza.co/js/$script,domain=heapfiles.com|vidoza.co|vidoza.net
+@@||cdnbc-wup.hsbc.com.hk^|
 @@||cdnbigdata.azureedge.net/scripts/fingerprint2.min.js$domain=news.abs-cbn.com
 @@||cdndm5.com/*/dm5/images/banners/$image
 @@||cdndx.clouddata8g.xyz^$domain=ohmanhua.com
@@ -2455,6 +2456,7 @@
 @@||googletagmanager.com/gtm.js$domain=blokker.nl
 @@||googletagmanager.com/gtm.js$domain=blue-tomato.com
 @@||googletagmanager.com/gtm.js$domain=braun.com
+@@||googletagmanager.com/gtm.js$domain=brita.de
 @@||googletagmanager.com/gtm.js$domain=bunte.de|computerbild.de|finanzen.at|finanzen.net|freenet-funk.de|idealo.at|idealo.de|radiorur.de|saturn.at|sport1.de|vox.de
 @@||googletagmanager.com/gtm.js$domain=bunte.de|stiefelparadies.de
 @@||googletagmanager.com/gtm.js$domain=cabinet.planetakino.ua
