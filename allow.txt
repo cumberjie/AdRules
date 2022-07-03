@@ -1,6 +1,6 @@
 ! Title: Allowlist
-! Version: 2022-07-03 18:14:07（北京时间） 
-! Total count: 5099
+! Version: 2022-07-04 06:11:57（北京时间） 
+! Total count: 5095
 @@$generichide,domain=heapfiles.com|vidoza.co|vidoza.net
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
 @@-ds.metric.gstatic.com^
@@ -3726,10 +3726,6 @@
 @@||paypalobjects.com/web/*/gAnalytics.js$script,domain=paypal.com
 @@||pbs.twimg.com/ad_img/$image,xmlhttprequest
 @@||pcbac.com/web/legacy/js/analytics.js$script,~third-party
-@@||pcbeta.com/data/cache//common_
-@@||pcbeta.com/data/cache/common_extra.js
-@@||pcbeta.com/data/cache/forum_post.js
-@@||pcbeta.com/data/cache/forum_viewthread.js
 @@||pchome.com.tw/img/js/xpcadshow.js$domain=game735.com
 @@||pchomepay.com.tw/share/js/
 @@||pcworld.com/www/js/ads/jquery.lazyload-ad.js
