@@ -1,6 +1,6 @@
 ! Title: Allowlist
-! Version: 2022-07-04 06:11:57（北京时间） 
-! Total count: 5095
+! Version: 2022-07-04 18:15:57（北京时间） 
+! Total count: 5096
 @@$generichide,domain=heapfiles.com|vidoza.co|vidoza.net
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
 @@-ds.metric.gstatic.com^
@@ -967,6 +967,7 @@
 @@||bitauto.com/bglogpostlog.js
 @@||bitbucket.org^$generichide
 @@||bitcoinbazis.hu/advertise-with-us/$~third-party
+@@||bitrix.info/ba.js$domain=galamart.ru
 @@||bjjhq.com/HttpCombiner.ashx?$script,~third-party
 @@||blackcircles.ca^*/gtm.js$~third-party
 @@||blackmod.net^$generichide
