@@ -1,6 +1,6 @@
 ! Title: Allowlist
-! Version: 2022-07-06 18:15:33（北京时间） 
-! Total count: 5084
+! Version: 2022-07-07 06:13:31（北京时间） 
+! Total count: 5085
 @@$generichide,domain=heapfiles.com|vidoza.co|vidoza.net
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
 @@-ds.metric.gstatic.com^
@@ -1217,6 +1217,7 @@
 @@||cdn.segmentify.com/account-js/segmentify_flo.js$domain=flo.com.tr
 @@||cdn.segmentify.com^$domain=gratis.com
 @@||cdn.segmentify.com^$domain=pttavm.com
+@@||cdn.smartclip-services.com^$script,domain=cerebriti.com
 @@||cdn.sorsware.com/bsl/ContentImages/Banner/*.gif$domain=bsl.com.tr
 @@||cdn.static.zdbb.net/js/zd-email.min.js$domain=pcmag.com
 @@||cdn.staticfile.org^$script,domain=00ksw.com|147xiaoshuo.com|31xiaoshuo.com|biququ.info|feisucn.net|tsxsw.la|yushubo.com|ziyouge.top
