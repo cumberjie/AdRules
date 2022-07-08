@@ -1,6 +1,6 @@
 ! Title: Allowlist
-! Version: 2022-07-08 06:13:06（北京时间） 
-! Total count: 5085
+! Version: 2022-07-08 18:25:38（北京时间） 
+! Total count: 5087
 @@$generichide,domain=heapfiles.com|vidoza.co|vidoza.net
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
 @@-ds.metric.gstatic.com^
@@ -3394,6 +3394,7 @@
 @@||minigame.aeriagames.jp/*/ae-tpgs-$~third-party
 @@||minigame.aeriagames.jp/css/videoad.css
 @@||minigame.qq.com^
+@@||minkou.jp/js/tracking.js$~third-party
 @@||mirror*.mangafunc.fun/comic/
 @@||mirror.co.uk^*/prebid-test.js$script,~third-party
 @@||mistore.jp/content/dam/isetan_mitsukoshi/advertise/$~third-party
@@ -3810,6 +3811,7 @@
 @@||plplayer.online/log_event$~third-party,xmlhttprequest
 @@||plugins.matomo.org^$image,~third-party
 @@||pmdstatic.net/advertising-$script,xmlhttprequest,domain=programme-tv.net
+@@||pngimg.com/distr/$image,~third-party
 @@||pntrac.com/b/$image,domain=extrarebates.com
 @@||pntrs.com/b/$image,domain=extrarebates.com
 @@||pobeda.aero/*/check-in/$document
