@@ -1,6 +1,6 @@
 ! Title: Allowlist
-! Version: 2022-07-10 18:13:24（北京时间） 
-! Total count: 5091
+! Version: 2022-07-11 06:13:04（北京时间） 
+! Total count: 5092
 @@$generichide,domain=heapfiles.com|vidoza.co|vidoza.net
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
 @@-ds.metric.gstatic.com^
@@ -1322,6 +1322,7 @@
 @@||citytalk.tw/js/ct/common/v3/ui/fblike/FBLike.html
 @@||cj.dotomi.com^|
 @@||cl9a.com/static/ad/main.js
+@@||classic.comunio.de/clubImg.phtml/$image,~third-party
 @@||classistatic.de^*/hitcounter.js$domain=mobile.de
 @@||classliving.lpages.co^|
 @@||cleananalytics.com/browser.js?$script,domain=cheapflights.com
@@ -3979,6 +3980,7 @@
 @@||researchintel.com^*/feedback.asp$xmlhttprequest,domain=intel.com
 @@||reseguiden.se^*.siteCatalyst.js
 @@||resources.crowdtwist.com/fan_club/clients/$domain=myperks.catchow.com
+@@||responder.wt-safetag.com/resp/api/get/$script,domain=myhermes.de
 @@||retailmenot.com/__wsm.gif$ping,~third-party,xmlhttprequest
 @@||reutersmedia.net/resources_v*/js/rcom-scroll-tracker.js$domain=reuters.com
 @@||revsci.net/*/pcx.js?csid=$script,domain=video.foxnews.com|video.foxbusiness.com
@@ -4125,7 +4127,6 @@
 @@||secure.logmein.com/scripts/Tracking/Tracking.js$domain=logmein.com
 @@||secure.quantserve.com/quant.js$domain=fruitlab.com
 @@||securegames.iwin.com/data/gtm.json$~third-party,xmlhttprequest
-@@||securemetrics.apple.com/b/ss/$image
 @@||securenetsystems.net/advertising/ad_campaign_get.cfm?$xmlhttprequest
 @@||securepubads.g.doubleclick.net/gampad/ads$domain=cinemaxx.de
 @@||securepubads.g.doubleclick.net/gampad/ads?$domain=league-funny.com
