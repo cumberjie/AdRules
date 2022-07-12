@@ -1,6 +1,6 @@
 ! Title: Allowlist
-! Version: 2022-07-12 06:12:56（北京时间） 
-! Total count: 5095
+! Version: 2022-07-12 18:15:58（北京时间） 
+! Total count: 5097
 @@$generichide,domain=heapfiles.com|vidoza.co|vidoza.net
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
 @@-ds.metric.gstatic.com^
@@ -2866,7 +2866,7 @@
 @@||i.snssdk.com/slardar/sdk$domain=ixigua.com
 @@||i.y.qq.com/*.html?ADTAG=
 @@||i3.sinaimg.cn/video/deco/2013/0325/js/
-@@||ia.hit.interia.pl/*/date?$domain=interia.pl
+@@||ia.hit.interia.pl/*/date?$domain=interia.pl|pomponik.pl
 @@||ia.hit.interia.pl^|
 @@||ias.global.rakuten.com/adv/$script,domain=rakuten.co.jp
 @@||iatv.tmgrup.com.tr/*/advmanager.js$domain=atv.com.tr
@@ -3877,6 +3877,7 @@
 @@||pub.alimama.com/common/adzone/
 @@||pubads.g.doubleclick.net/gampad/ads?*&description_url=https%3A%2F%2Fani.gamer.com.tw$domain=imasdk.googleapis.com
 @@||pubads.g.doubleclick.net/ssai/$domain=worldsurfleague.com
+@@||public-cis.exponea.com^|
 @@||publicwww.com^$generichide
 @@||publisher.adservice.com^$domain=publisher.adservice.com
 @@||publisher.adservice.com^$generichide
@@ -4993,6 +4994,7 @@
 @@||wzrkt.com/e?$domain=lottiefiles.com
 @@||x5.xclicks.net/js/x3165.js$domain=small-breasted-teens.com
 @@||xcweather.co.uk/*/geo.php?
+@@||xeroshoes.co.uk/affiliate/scripts/trackjs.js$~third-party
 @@||xfinity.com^*/Comcast.SelfService.Sitecatalyst.js
 @@||xfreehd.com^$generichide
 @@||xia1ge.com/wp-content/plugins/detect-adblock/js/ads.js
