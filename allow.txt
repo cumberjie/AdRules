@@ -1,6 +1,6 @@
 ! Title: Allowlist
-! Version: 2022-07-25 06:12:31（北京时间） 
-! Total count: 5113
+! Version: 2022-07-25 18:16:15（北京时间） 
+! Total count: 5116
 @@$generichide,domain=heapfiles.com|vidoza.co|vidoza.net
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
 @@-ds.metric.gstatic.com^
@@ -1335,6 +1335,7 @@
 @@||cleverbridge.com/*/cleveranalytics.js^$domain=secure.ccleaner.com
 @@||cleverpush.com/channel/$script,domain=bsdex.de
 @@||click.appcast.io/track^$domain=neuvoo.co.uk
+@@||click.appcast.io^|
 @@||click.simba.taobao.com^|
 @@||click.trafficguard.ai^|
 @@||click.virt.exacttarget.com^|
@@ -4759,6 +4760,7 @@
 @@||usbank.com^*/adrum.js?$~third-party
 @@||useinsider.com/ins.js$domain=pizzahut.jp
 @@||userload.co/adpopup.js$script
+@@||userneeds.com^$domain=foreca.fi
 @@||userreport.com/*/settings.js$domain=csb.app
 @@||userreport.com/SystemSettings.js$domain=csb.app
 @@||userreport.com/computools/launcher.js$domain=csb.app
@@ -4772,6 +4774,7 @@
 @@||v.17173.com/advideo/*.mp4
 @@||v.17173.com/advideo/20*.flv
 @@||v.fwmrm.net/ad/g/1$script,domain=vevo.com
+@@||v.fwmrm.net/ad/g/1?*_html5_live
 @@||v.fwmrm.net/ad/g/1?csid=vcbs_cbsnews_desktop_$xmlhttprequest
 @@||v.fwmrm.net/ad/p/1?$domain=cc.com|channel5.com|cmt.com|eonline.com|foodnetwork.com|nbcnews.com|ncaa.com|player.theplatform.com|simpsonsworld.com|today.com|uktv.co.uk
 @@||v.me/personal/assets/ntpagetag-$script
