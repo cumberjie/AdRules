@@ -1,6 +1,6 @@
 ! Title: Allowlist
-! Version: 2022-07-28 18:15:31（北京时间） 
-! Total count: 5122
+! Version: 2022-07-29 06:12:51（北京时间） 
+! Total count: 5123
 @@$generichide,domain=heapfiles.com|vidoza.co|vidoza.net
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
 @@-ds.metric.gstatic.com^
@@ -390,6 +390,7 @@
 @@||ad4.on.cc/web/www/delivery/spc.php?zones=content_float$domain=hk.on.cc
 @@||ad4.on.cc/web/www/delivery/spcjs.php
 @@||ad4.on.cc/web/www/delivery/spcjs.php$domain=hk.on.cc
+@@||ad71.adfarm1.adition.com/lt?nw=$domain=atv.at
 @@||adac.de/_common/js/adac.webtrekk.js
 @@||adap.tv/redir/javascript/vpaid.js
 @@||adapi.zcool.com.cn/api/adstrategy/realtime/get_ad_info?location_id=$domain=zcool.com.cn
