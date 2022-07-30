@@ -1,6 +1,6 @@
 ! Title: Allowlist
-! Version: 2022-07-30 06:12:58（北京时间） 
-! Total count: 5130
+! Version: 2022-07-30 18:13:34（北京时间） 
+! Total count: 5131
 @@$generichide,domain=heapfiles.com|vidoza.co|vidoza.net
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
 @@-ds.metric.gstatic.com^
@@ -1829,6 +1829,7 @@
 @@||eveselibaspunkts.lv/js/global/fingerprint2.min.js?
 @@||evestment.com/api/analytics/$domain=evestment.com
 @@||evil-inc.com/comic/advertising-age/$~third-party,xmlhttprequest
+@@||evolutionpayroll.com/ess/scripts/angularytics/angularytics.min.js$~third-party
 @@||exoclick.com/iframe.php?*=2596969&$domain=jav777.cc
 @@||exoclick.com/iframe.php?*=2596969&$domain=jav777.cc|jav777.xyz
 @@||exoclick.com/iframe.php?idzone=*&size=468x60$domain=porn77.info
