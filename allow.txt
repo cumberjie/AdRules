@@ -1,6 +1,6 @@
 ! Title: Allowlist
-! Version: 2022-08-01 18:16:02（北京时间） 
-! Total count: 5134
+! Version: 2022-08-02 06:14:22（北京时间） 
+! Total count: 5137
 @@$generichide,domain=heapfiles.com|vidoza.co|vidoza.net
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
 @@-ds.metric.gstatic.com^
@@ -2256,6 +2256,8 @@
 @@||google-analytics.com/analytics.js$domain=zeelandnet.nl
 @@||google-analytics.com/analytics.js$domain=zolotoyvek.ua
 @@||google-analytics.com/analytics.js$script,domain=hobbyhall.fi
+@@||google-analytics.com/analytics.js$script,redirect=google-analytics,domain=expressvpn.com
+@@||google-analytics.com/analytics.js$script,redirect=google-analytics,domain=nordvpn.com,important
 @@||google-analytics.com/analytics.js$script,redirect=google-analytics,domain=tv-media.at,important
 @@||google-analytics.com/analytics.js^$domain=cosstores.com
 @@||google-analytics.com/analytics.js^$domain=freshmilk.tv
@@ -2516,6 +2518,7 @@
 @@||googletagmanager.com/gtm.js$domain=elnuevodia.com
 @@||googletagmanager.com/gtm.js$domain=evernote.com
 @@||googletagmanager.com/gtm.js$domain=evofone.com
+@@||googletagmanager.com/gtm.js$domain=expressvpn.com
 @@||googletagmanager.com/gtm.js$domain=filgoal.com
 @@||googletagmanager.com/gtm.js$domain=filmzie.com
 @@||googletagmanager.com/gtm.js$domain=flyingv.cc
