@@ -1,6 +1,6 @@
 ! Title: Allowlist
-! Version: 2022-08-02 18:16:57（北京时间） 
-! Total count: 5137
+! Version: 2022-08-03 06:14:32（北京时间） 
+! Total count: 5140
 @@$generichide,domain=heapfiles.com|vidoza.co|vidoza.net
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
 @@-ds.metric.gstatic.com^
@@ -425,6 +425,7 @@
 @@||adnxs.com/ast/static/$domain=outlook.live.com
 @@||adnz.co/dmp/publisher.js$domain=finanzen.ch
 @@||adnz.co/header.js?adTagId=$domain=finanzen.ch
+@@||adobedc.demdex.net/ee/v1/identity/$xmlhttprequest,domain=cibc.com
 @@||adobedtm.com/*-libraryCode_source.min.js$script,domain=ally.com|crave.ca|nbarizona.com
 @@||adobedtm.com/*-source.min.js$script,domain=53.com|aarp.org|ally.com|americanexpress.com|atresplayer.com|backcountry.com|bose.com|bt.com|cadenaser.com|churchofjesuschrist.org|cibc.com|crave.ca|currys.co.uk|dollargeneral.com|etihad.com|hilton.com|ing.com.au|ingrammicro.com|kroger.com|natwest.com|nbarizona.com|news.sky.com|personal.natwest.com|ssrn.com|telus.com|verizon.com|virginplus.ca|walgreens.com
 @@||adobedtm.com/*_source.min.js$script,domain=backcountry.com|hl.co.uk|kroger.com|telus.com
@@ -2545,6 +2546,7 @@
 @@||googletagmanager.com/gtm.js$domain=infoq.com
 @@||googletagmanager.com/gtm.js$domain=iphoneitalia.com
 @@||googletagmanager.com/gtm.js$domain=itv.com
+@@||googletagmanager.com/gtm.js$domain=jalan.net
 @@||googletagmanager.com/gtm.js$domain=jbc.be
 @@||googletagmanager.com/gtm.js$domain=jn.pt
 @@||googletagmanager.com/gtm.js$domain=kakuyomu.jp
@@ -4092,6 +4094,7 @@
 @@||sb.scorecardresearch.com/beacon.js$domain=sciencechannel.com
 @@||sb.scorecardresearch.com/beacon.js$domain=velocity.com
 @@||sbg.hit.gemius.pl/gplayer.js$domain=play.nova.bg
+@@||sc.omtrdc.net^$domain=cibc.com
 @@||sc2casts.com^$generichide
 @@||sc2casts.com^$script,domain=sc2casts.com
 @@||scan-manga.eu/*pageID=$~third-party
