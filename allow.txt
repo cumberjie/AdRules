@@ -1,6 +1,6 @@
 ! Title: Allowlist
-! Version: 2022-08-05 18:14:43（北京时间） 
-! Total count: 5132
+! Version: 2022-08-06 06:12:55（北京时间） 
+! Total count: 5126
 @@$generichide,domain=heapfiles.com|vidoza.co|vidoza.net
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
 @@-ds.metric.gstatic.com^
@@ -36,7 +36,6 @@
 @@/adblockDetector.$domain=softwarebrother.com
 @@/adblock_$domain=xingk.cc
 @@/adfile/*$domain=cidianwang.com
-@@/adgpt.$domain=gotrip.hk|nmplus.hk|weekendhk.com
 @@/adguard.$domain=llq.dml.ink
 @@/adimage/*$domain=scyts.com|wacom.tw
 @@/adimages/*$domain=p9.com.tw
@@ -52,7 +51,6 @@
 @@/adsbygoogle.$domain=moa.tw
 @@/adsense/*$domain=piseneasy.com|taobao.com
 @@/adshow/*$domain=mndxy.org
-@@/adsimg/*$domain=wdxuexi.com
 @@/adslider/*$domain=firstbank.com.tw
 @@/adsystem/*$domain=adcenter.dhgate.com
 @@/advert/*$domain=csxbank.com|fjgcjxgl.com|juxiangyou.com|locuspublishing.com|moretv.com.cn
@@ -3299,7 +3297,6 @@
 @@||mail.biz.rr.com/images/portal/blank.gif$domain=mail.biz.rr.com
 @@||mail.google.com^$generichide
 @@||mail.proton.me^$generichide
-@@||mail.wo.cn/ad/
 @@||mail.yahoo.com/d/gemini_api/?adCount=
 @@||mail.yahoo.com/neo/ymstat$xmlhttprequest
 @@||makeuseof.com/public/build/images/bg-advert-with-us.$~third-party
@@ -3546,7 +3543,6 @@
 @@||netto-online.de/jquery/webanalytics/xtcore.js
 @@||networkworld.com^*/demandbase.js
 @@||new.hnair.com/hainanair/ibe/static/scripts/new/profile/fingerprint2.js
-@@||newad.mail.wo.cn^
 @@||newrelic.com/nr-*.min.js$domain=surveymonkey.co.uk|surveymonkey.com|surveymonkey.de|surveymonkey.ru
 @@||newrelic.com/public/charts/$subdocument,xmlhttprequest
 @@||news.u17i.com/advert/
@@ -4907,7 +4903,6 @@
 @@||webcenter.tiscali.it/distribuzione/_script/audience_science.js$domain=mail.tiscali.it
 @@||webmail.smartlinkcorp.com/dotrans_20160909.php
 @@||webmd.com/dtmcms/live/webmd/*/video-ad.js$script,~third-party
-@@||websetnet.com^$generichide
 @@||websimages.com/JS/Tracker.js
 @@||webstat.channel4.com/b/ss/channel4dotcom/$domain=channel4.com
 @@||webtrack.dhlglobalmail.com^
@@ -4964,7 +4959,6 @@
 @@||wordpress.org/stats/plugin/$domain=wordpress.org
 @@||wordpress.org/wp-slimstat/assets/banner-$image,~third-party
 @@||worldgravity.com^$script,domain=hotstar.com
-@@||worldssl.net/wp-content/themes/mts_ad_sense/js/ads.js
 @@||wowsai.com/data/files/ad/
 @@||wp.com/_static/*/gaAddons.js
 @@||wp.com/www.datahjelperne.no^*/annonser.png$image,domain=datahjelperne.no
