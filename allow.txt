@@ -1,6 +1,6 @@
 ! Title: Allowlist
-! Version: 2022-08-07 18:13:44（北京时间） 
-! Total count: 5126
+! Version: 2022-08-08 06:12:59（北京时间） 
+! Total count: 5128
 @@$generichide,domain=heapfiles.com|vidoza.co|vidoza.net
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
 @@-ds.metric.gstatic.com^
@@ -3244,6 +3244,7 @@
 @@||live.house.gov/js/analytics.$~third-party
 @@||live.indiatimes.com/trackjs.cms
 @@||live.lequipe.fr/thirdparty/prebid.js$~third-party
+@@||live.streamtheworld.com/partnerIds$domain=iheart.com
 @@||liveinternet.ru/code$generichide,genericblock,domain=liveinternet.ru
 @@||livenation.122.2o7.net/b/ss/$domain=oss.ticketmaster.com
 @@||livew.l.qq.com/crossdomain.xml
@@ -4899,6 +4900,7 @@
 @@||web.archive.org^$generichide
 @@||web.telegram.org^$generichide
 @@||webapp.simplisafe.com^*/angulartics-ga.min.js$script,~third-party
+@@||webbtelescope.org/files/live/sites/webb/$image,~third-party
 @@||webcdn.stream.ne.jp^*/referrer.js$domain=stream.ne.jp
 @@||webcenter.tiscali.it/distribuzione/_script/audience_science.js$domain=mail.tiscali.it
 @@||webmail.smartlinkcorp.com/dotrans_20160909.php
