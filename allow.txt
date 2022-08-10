@@ -1,6 +1,6 @@
 ! Title: Allowlist
-! Version: 2022-08-10 18:14:46（北京时间） 
-! Total count: 5128
+! Version: 2022-08-11 06:12:57（北京时间） 
+! Total count: 5127
 @@$generichide,domain=heapfiles.com|vidoza.co|vidoza.net
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
 @@-ds.metric.gstatic.com^
@@ -1724,6 +1724,7 @@
 @@||dydog.org/*/DPlayer.min.css
 @@||dydog.org/*/DPlayer.min.js
 @@||dynamicyield.com/st?$script,domain=computeruniverse.net|croma.com|fendi.com|harborfreight.com|thewarehouse.co.nz|zalora.com.my|zalora.com.ph|zalora.sg
+@@||dyncdn.me/static/20/js/jquery$script
 @@||dz9qn8fh4jznm.cloudfront.net/script.js$script,domain=bostonglobe.com
 @@||e-stat.go.jp/modules/custom/retrieve/src/js/stat.js?$script,~third-party
 @@||e.cn.miaozhen.com/r/k=*=http
@@ -2531,6 +2532,7 @@
 @@||googletagmanager.com/gtm.js$domain=gratis.com
 @@||googletagmanager.com/gtm.js$domain=gumtree.com
 @@||googletagmanager.com/gtm.js$domain=harveynorman.co.nz|harveynorman.com.au
+@@||googletagmanager.com/gtm.js$domain=hepsiburada.com
 @@||googletagmanager.com/gtm.js$domain=highsnobiety.com
 @@||googletagmanager.com/gtm.js$domain=hipolink.net
 @@||googletagmanager.com/gtm.js$domain=hub.docker.com
@@ -3311,14 +3313,12 @@
 @@||marketing.net.idealo-partner.com^|
 @@||marketingautomation.services^$script,domain=leeuwerik.nl
 @@||marketingsolutions.com.pl^*/googleanalytics-$image,domain=marketingsolutions.com.pl
-@@||marketo.com/*/form$domain=orcad.com
 @@||marketo.com//index.php/form/
 @@||marketo.com//js/forms$script,stylesheet
 @@||marketo.com/index.php/form/
 @@||marketo.com/js/forms$script,stylesheet
 @@||marktest.pt/netscope-gemius.js$script,domain=ojogo.pt
 @@||martinfowler.com/articles/asyncJS.css$stylesheet,~third-party
-@@||marvel-*.bc0a.com/*/images/$domain=whittard.co.uk
 @@||masterkong.com.cn/adimages/
 @@||matchid.adfox.yandex.ru/?url=$script,domain=ctc.ru
 @@||material.angular.io^$generichide
@@ -3704,10 +3704,9 @@
 @@||pagead2.googlesyndication.com/pagead/js/*/show_ads_impl.js$domain=doitwell.tw
 @@||pagead2.googlesyndication.com/pagead/js/*/show_ads_impl.js$domain=downloads.codefi.re|globaldjmix.com|nlfreevpn.com|oldapps.com|slideplayer.com|smallseotools.com|tampermonkey.net|thefreedictionary.com|windows7themes.net
 @@||pagead2.googlesyndication.com/pagead/js/*/show_ads_impl.js$domain=ekstrembilgi.com
-@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=chaojizhibo.net|chtoen.com|dizhishengcheng.com|doitwell.tw|ff14angler.com|freedidi.com|haoweichi.com|it365.abctool.info|linovelib.com|logi.im|monnsutogatya.com|numberempire.com|ozabc.com|patch.ali213.net|pc3mag.com|shenfendaquan.com|switch520.com|vaptcha.com|wenxuecity.com|wuyong.fun|xbeibeix.com|xiebruce.top|xugaoxiang.com|yabook.org|yodu.org
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=chaojizhibo.net|chtoen.com|dizhishengcheng.com|doitwell.tw|eu4cn.com|ff14angler.com|freedidi.com|haoweichi.com|it365.abctool.info|linovelib.com|logi.im|monnsutogatya.com|numberempire.com|ozabc.com|patch.ali213.net|pc3mag.com|shenfendaquan.com|switch520.com|vaptcha.com|wenxuecity.com|wuyong.fun|xbeibeix.com|xiebruce.top|xugaoxiang.com|yabook.org|yodu.org
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=cpu-world.com|megaleech.us
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=download.pixelexperience.org|knowfacts.info|lacoste.com|real-sports.jp|slideplayer.com|smallseotools.com|soranews24.com|tampermonkey.net|teemo.gg|thefreedictionary.com
-@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=eu4cn.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=games.wkb.jp
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,domain=duelmeta.com|liout.com|moneysave.info|youneed.win
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,domain=nullpress.net
