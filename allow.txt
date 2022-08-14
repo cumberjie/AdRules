@@ -1,5 +1,5 @@
 ! Title: Allowlist
-! Version: 2022-08-14 18:13:48（北京时间） 
+! Version: 2022-08-15 06:12:57（北京时间） 
 ! Total count: 5133
 @@$generichide,domain=heapfiles.com|vidoza.co|vidoza.net
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
@@ -747,7 +747,7 @@
 @@||api.ipify.org/?format=json$domain=utils.surf
 @@||api.ipify.org/?format=jsonp&callback=getIP$domain=embedflix.net
 @@||api.ipify.org^$script,domain=right-on.co.jp
-@@||api.ipify.org^$xmlhttprequest,domain=247sports.com|account.pennytel.com.au|bicyclebluebook.com|equinoxplus.com|speedcheck.ky
+@@||api.ipify.org^$xmlhttprequest,domain=247sports.com|account.pennytel.com.au|bicyclebluebook.com|equinoxplus.com|speedcheck.ky|urbanswan.com
 @@||api.ipinfodb.com^$xmlhttprequest,domain=management30.com
 @@||api.ipstack.com/check$domain=blockfi.com|get-in.com|withpersona.com
 @@||api.mixpanel.com/engage/?data=$xmlhttprequest,domain=deezer.com
@@ -1016,6 +1016,7 @@
 @@||browser.sentry-cdn.com^$domain=marshmallow-qa.com
 @@||browser.sentry-cdn.com^$script,domain=podcasty.seznam.cz
 @@||browser.sentry-cdn.com^$script,domain=vivareal.com.br
+@@||browserbench.org^$generichide
 @@||browserscope.org/user/beacon/*?callback=$script,domain=jsperf.com
 @@||brsrvr.com/api/$xmlhttprequest,domain=dollargeneral.com
 @@||bt.com^*/touchclarity/homepage/omtr_tc.js
@@ -3865,7 +3866,6 @@
 @@||pornbraze.com^$generichide
 @@||portal.autotrader.co.uk/advert/$~third-party
 @@||portalbici.es/lib/angulartics-google-analytics/dist/angulartics-ga.min.js
-@@||portalbici.es^*-advertisement.$~third-party,xmlhttprequest
 @@||pos.baidu.com^$script,domain=fxpan.com|htqyy.com|jkpan.cc
 @@||pos.baidu.com^$subdocument,domain=bigpixel.cn
 @@||pos.baidu.com^*?di=u3160754&$domain=bigpixel.cn
@@ -4583,7 +4583,6 @@
 @@||th7.cn/sanda2015/css/ads.js
 @@||the-japan-news.com/modules/js/lib/fgp/fingerprint2.js
 @@||thebrighttag.com/tag?site=$script,domain=oralb.de
-@@||thedailywtf.com/images/*-advertisement.png$~third-party
 @@||thefreedictionary.com^$generichide
 @@||thehackernews.com/images^
 @@||thehulltruth.com/clientscript/vbulletin_analytics.js
@@ -4903,6 +4902,7 @@
 @@||wcs.naver.com/m$image,domain=sooldamhwa.com
 @@||wcs.naver.net/wcslog.js$domain=ciokorea.com|adpiamall.com|live.joins.com|naver.com|jbe.go.kr|privatenote.co.kr|dabangapp.com|kyobobook.co.kr
 @@||web.archive.org^$generichide
+@@||web.basemark.com^$generichide
 @@||web.telegram.org^$generichide
 @@||webapp.simplisafe.com^*/angulartics-ga.min.js$script,~third-party
 @@||webbtelescope.org/files/live/sites/webb/$image,~third-party
