@@ -1,6 +1,6 @@
 ! Title: Allowlist
-! Version: 2022-08-15 06:12:57（北京时间） 
-! Total count: 5133
+! Version: 2022-08-15 18:16:00（北京时间） 
+! Total count: 5135
 @@$generichide,domain=heapfiles.com|vidoza.co|vidoza.net
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
 @@-ds.metric.gstatic.com^
@@ -1577,6 +1577,8 @@
 @@||datadoghq-browser-agent.com/datadog-$script,domain=bbcgoodfood.com|usa.experian.com
 @@||datadoghq-browser-agent.com/datadog-logs-v*.js$domain=radiotimes.com
 @@||datadoghq-browser-agent.com/datadog-rum.js$domain=notonthehighstreet.com
+@@||datadome.co/js/$xmlhttprequest,domain=sso.garena.com
+@@||datadome.co/tags.js$domain=sso.garena.com
 @@||daumcdn.net/adfit/static/ad-native.min.js$domain=daum.net
 @@||daumcdn.net/adfit/static/ad.min.js$script,domain=daum.net
 @@||dayanzai.me/image/ad/$image
