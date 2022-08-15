@@ -1,6 +1,6 @@
 ! Title: Allowlist
-! Version: 2022-08-15 18:16:00（北京时间） 
-! Total count: 5135
+! Version: 2022-08-16 06:14:29（北京时间） 
+! Total count: 5138
 @@$generichide,domain=heapfiles.com|vidoza.co|vidoza.net
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
 @@-ds.metric.gstatic.com^
@@ -3416,6 +3416,7 @@
 @@||microsoft.com/click/services/RioTracking2.js
 @@||microsoft.com/translate/auth
 @@||microsofttranslator.com/translate?
+@@||middleware.p7s1.io^$app=at.zappn
 @@||milb.com/shared/scripts/bam.tracking.js
 @@||milfzr.com^$generichide
 @@||minhacontachevroletsf.com.br^*/CampaignImageProcessor.bon?*&BannerID=$image,~third-party
@@ -4659,6 +4660,8 @@
 @@||track.ksta.de/cre-*/tracking/tracking.js
 @@||track.mybloglog.com/js/jsserv.php?$domain=egotastic.com
 @@||track.nnn.de/cre-*/tracking/tracking.js
+@@||track.nzz.ch/*/api/auth_v*/
+@@||track.nzz.ch/*/api/oauth/
 @@||track.nzz.ch/cre-*/tracking/
 @@||track.nzz.ch^$script,~third-party
 @@||track.rundschau-online.de/cre-*/tracking/tracking.js
