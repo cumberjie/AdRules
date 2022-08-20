@@ -1,6 +1,6 @@
 ! Title: Allowlist
-! Version: 2022-08-20 18:14:06（北京时间） 
-! Total count: 5160
+! Version: 2022-08-21 06:13:06（北京时间） 
+! Total count: 5161
 @@$generichide,domain=heapfiles.com|vidoza.co|vidoza.net
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
 @@-ds.metric.gstatic.com^
@@ -3403,6 +3403,7 @@
 @@||mediav.com/js/reward_video_pc.min.js$domain=baiten.cn
 @@||mediaweaver.jp^$image,domain=ismedia.jp
 @@||mediaworld.it^*/GoogleTagManager.js?
+@@||medicare.uhc.com/medicare/etc.clientlibs/cq/personalization/clientlib
 @@||meduza.io/static/ads/$media,~third-party
 @@||megafon.ru/static/?files=*/tealeaf.js
 @@||meituan.net/bs/js/*/js/tracker.js
