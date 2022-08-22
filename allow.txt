@@ -1,6 +1,6 @@
 ! Title: Allowlist
-! Version: 2022-08-22 06:13:18（北京时间） 
-! Total count: 5162
+! Version: 2022-08-22 18:15:54（北京时间） 
+! Total count: 5163
 @@$generichide,domain=heapfiles.com|vidoza.co|vidoza.net
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
 @@-ds.metric.gstatic.com^
@@ -4603,6 +4603,7 @@
 @@||tennispro.eu/min/?$script,~third-party
 @@||tenpay.com/v2/res/pub/cps/main/bottom_ad.js
 @@||tenpay.com^*?ADTAG=
+@@||texasmonthly.com/wp-content/plugins/txmo-header-bidding/dist/js/txmo-prebid.js
 @@||texasroadhouse.com/common/javascript/google-analytics.js
 @@||tf.360.cn/e/wb?
 @@||tgfcer.com/advert.js
