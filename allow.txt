@@ -1,6 +1,6 @@
 ! Title: Allowlist
-! Version: 2022-08-24 18:15:39（北京时间） 
-! Total count: 3069
+! Version: 2022-08-25 06:13:31（北京时间） 
+! Total count: 3071
 @@$generichide,domain=heapfiles.com|vidoza.co|vidoza.net
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
 @@-ds.metric.gstatic.com^
@@ -712,7 +712,7 @@
 @@||bdash-cloud.com/tracking-script/*/tracking.js$domain=junonline.jp
 @@||bdimg.com/advert/js/advert.js$domain=music.baidu.com
 @@||bdimg.com/libs/$domain=00ksw.com|147xiaoshuo.com|18xs.org|1biquge.com|23us.la|23xsw.cc|52biquge.com|b5200.net|biqiuge.com|biqiugexsw.com|biquge.lu|biquge.tv|biquge.tw|biquge5200.cc|biquge9.cc|biqugecd.com|biqugeg.com|biquger.com|biqugetv.com|biqugex.com|biquguan.com|biqukan.com|biqumo.com|biquw.com|bixia.org|boquge.com|bqg5.cc|bqg99.cc|ddbiquge.cc|didaxiaoshuo.cc|gdbzkz.com|gzbpi.com|huanyue123.com|iqksw.com|janpn.com|jx.la|ldks.cc|lindiankanshu.cc|m.sjtxt.la|malshenzu.com|maopuzw.com|meegoq.com|paoshu8.com|qianrenge.cc|shuquge.com|touxiang.la|ttzw.tv|txtwan.com|uu234.cc|x23us.me|xbiqugecc.com|xinxs.la|xshengyan.com|xshuyaya.com|xsw55.com|xwxguan.com|xxqb5200.com|xyangguiweihuo.com|ymxxs.com|yssm.tv|yuyouge.com|zanghaihuatxt.com|zbzw.la|ztv.la
-@@||bdimg.com/libs/$domain=00ksw.com|147xiaoshuo.com|1biqug.com|23xstxt.com|24kwx.cc|52biquge.com|abcxs.net|b520.cc|b5200.net|biqiugege8.com|biqiugexsw.com|biqkan.com|biquge99.cc|biqugecd.com|biqugeg.com|biqugeq.com|biqugesk.org|biqugetv.com|biqugewu.net|biqulu.net|biquw.com|bixia.org|boquku.com|bqg999.cc|bqkan8.com|bqwxg8.com|cits0871.com|ddbqgtxt.com|exiaoshuo.com|gdbzkz.com|ggkxs.com|huanyue123.com|huixsw.com|janpn.com|jx.la|lindiankanshu.cc|lingdianxs.org|mxguan5.com|paoshu8.com|piaotian5.net|qbiqu.com|qianqianxsw.net|qianrenge.cc|quge66.com|ranwen.com|shuquge.com|shuyyw.com|sytxt.cc|taiuu.com|ttzw.tv|txtwan.com|viviyzw.com|x23us.me|xbiqugecc.com|xiaoshuwu5.com|xinxs.la|xmalshenzu.com|xqianqian.com|xxbiqudu.com|xxqb5200.com|ymxwx.com|yuyougu.com|zbzw.la|zhhbqg.com
+@@||bdimg.com/libs/$domain=00ksw.com|147xiaoshuo.com|1biqug.com|23xstxt.com|24kwx.cc|52biquge.com|abcxs.net|b520.cc|b5200.net|biqiugege8.com|biqiugexsw.com|biqkan.com|biquge99.cc|biqugecd.com|biqugeg.com|biqugeq.com|biqugesk.org|biqugewu.net|biqulu.net|biquw.com|bixia.org|boquku.com|bqg999.cc|bqkan8.com|bqwxg8.com|cascoo.net|cits0871.com|ddbqgtxt.com|exiaoshuo.com|gdbzkz.com|ggkxs.com|huanyue123.com|huixsw.com|janpn.com|jx.la|lindiankanshu.cc|lingdianxs.org|mxguan5.com|paoshu8.com|piaotian5.net|qbiqu.com|qianqianxsw.net|qianrenge.cc|quge66.com|ranwen.com|shuquge.com|shuyyw.com|sytxt.cc|taiuu.com|ttzw.tv|txtwan.com|viviyzw.com|x23us.me|xbiqugecc.com|xiaoshuwu5.com|xinxs.la|xmalshenzu.com|xqianqian.com|xxbiqudu.com|xxqb5200.com|ymxwx.com|yuyougu.com|zbzw.la|zhhbqg.com
 @@||bdimg.com/libs/$domain=dybee.tv
 @@||bdimg.com/static/wapwenku/static/common/widget/share/share_
 @@||bdimg.com/static/wenda-pc/widget/share/share_
@@ -1475,6 +1475,7 @@
 @@||googleads.github.io/videojs-ima/node_modules/video.js/dist/video$domain=ulifestyle.com.hk
 @@||googleadservices.com/pagead/conversion_async.js$script,domain=jp.square-enix.com
 @@||googleadservices.com/pagead/conversion_async.js$script,domain=zubizu.com
+@@||googleapis.com/js/sdkloader/ima3.js$domain=udn.com
 @@||googleapis.com^$domain=openload.co|oload.tv|javno.me|imagebam.com|imagevenue.com|playvid.com|4horlover.com|linkshrink.net
 @@||googleapis.com^$script,stylesheet,domain=canyoublockit.com
 @@||googleoptimize.com/optimize.js$script,domain=inquirer.com|lodgecastiron.com|tentree.ca
@@ -1487,7 +1488,7 @@
 @@||googletagmanager.com/gtag/js$script,domain=timparty.tim.it
 @@||googletagmanager.com/gtag/js$script,domain=xl-bygg.no
 @@||googletagmanager.com/gtag/js?id=$domain=av01.tv
-@@||googletagmanager.com/gtm.js$domain=acehardware.com|ads.spotify.com|aeromexico.com|atptour.com|backcountry.com|bsa-whitelabel.com|carhartt-wip.com|ccleaner.com|chipotle.com|complex.com|crello.com|cyclingnews.com|cypress.io|doodle.com|easternbank.com|edwardjones.com|flytap.com|formula1.com|fortune.com|gorillamind.com|gumtree.com|harveynorman.co.nz|harveynorman.com.au|independent.co.uk|jn.pt|kedronparkhotel.com.au|level.travel|mcgeeandco.com|nflgamepass.com|nordvpn.com|nourison.com|oakandfort.com|petsathome.com|pioneer.eu|primeoak.co.uk|qrcode-monkey.com|royalbank.com|scotsman.com|soundguys.com|stressless.com|support.creative.com|trademe.co.nz|tumi.com|uniqlo.com|uqr.to
+@@||googletagmanager.com/gtm.js$domain=acehardware.com|ads.spotify.com|aeromexico.com|atptour.com|backcountry.com|bsa-whitelabel.com|carhartt-wip.com|ccleaner.com|chipotle.com|complex.com|crello.com|cyclingnews.com|cypress.io|doodle.com|easternbank.com|edwardjones.com|flytap.com|formula1.com|fortune.com|gorillamind.com|gumtree.com|harveynorman.co.nz|harveynorman.com.au|independent.co.uk|jn.pt|kedronparkhotel.com.au|level.travel|mcgeeandco.com|nflgamepass.com|nordvpn.com|nourison.com|oakandfort.com|petsathome.com|pioneer.eu|primeoak.co.uk|qrcode-monkey.com|royalbank.com|scotsman.com|soundguys.com|stressless.com|support.creative.com|trademe.co.nz|tumi.com|uniqlo.com|upwork.com|uqr.to
 @@||googletagmanager.com/gtm.js$domain=asus.com.cn|support.amd.com|warnermusic.com.tw
 @@||googletagmanager.com/gtm.js$domain=besplatka.ua|cdek.ru|glamusha.ru|rustih.ru|sportmaster.ru|teddyfood.com
 @@||googletagmanager.com/gtm.js$domain=betten.de|bunte.de|computerbild.de|finanzen.at|finanzen.net|freenet-funk.de|idealo.at|idealo.de|karriere.at|radiorur.de|saturn.at|sport1.de|vox.de
@@ -2285,6 +2286,7 @@
 @@||publisher.adservice.com^$domain=publisher.adservice.com
 @@||publisher.adservice.com^$generichide
 @@||puch-ersatzteile.at^*/google-analytics.min.js
+@@||pv.sohu.com/cityjson$domain=vip.jsjinfu.com
 @@||pv.sohu.com/suv/
 @@||pvtag.yahoo.co.jp^$script,domain=paypaymall.yahoo.co.jp
 @@||px-cdn.net/api/v2/collector/ocaptcha$xmlhttprequest
