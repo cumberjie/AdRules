@@ -1,6 +1,6 @@
 ! Title: Allowlist
-! Version: 2022-08-26 18:15:18（北京时间） 
-! Total count: 3073
+! Version: 2022-08-27 06:13:31（北京时间） 
+! Total count: 3072
 @@$generichide,domain=heapfiles.com|vidoza.co|vidoza.net
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
 @@-ds.metric.gstatic.com^
@@ -1840,7 +1840,6 @@
 @@||line-scdn.net^*/torimochi.js$script,domain=web-tw-pay.line.me
 @@||linetv.tw/public/scripts/ads.js
 @@||linetv.tw^*/scripts/ads.js
-@@||link.androidauthority.com^|
 @@||link.morningbrew.com^|
 @@||linkbucks.com/tmpl/$image,stylesheet
 @@||links.e.theatlantic.com^|
@@ -2339,6 +2338,7 @@
 @@||radiofrance.targetspot.com^|
 @@||radiosun.fi/wp-content/uploads/*300x250$image,~third-party
 @@||radiotimes.com/static/advertising/$script,~third-party
+@@||rakuten-bank.co.jp/rb/ams/img/ad/$~third-party
 @@||rasset.ie/dotie/js/tracker.js$domain=rte.ie
 @@||rba-screen.healthsafe-id.com/fp/tags.js$script,domain=myuhc.com
 @@||readmoo.com/images/social/
@@ -2589,7 +2589,6 @@
 @@||stats.pusher.com/timeline/$script,domain=bringatrailer.com
 @@||stats.statbroadcast.com/interface/webservice/event/$~third-party
 @@||staty.portalradiowy.pl/wstats/$script,third-party
-@@||stcblink.nypost.com^|
 @@||steamcn.com/source/plugin/steamcn_gift/template/images/*steam.png
 @@||steamstatic.com/steam/apps/$image,domain=store.steampowered.com
 @@||stives.co.uk/cms/advert_search_thumb.php$image,domain=chycor.co.uk
