@@ -1,6 +1,6 @@
 ! Title: Allowlist
-! Version: 2022-08-29 18:15:21（北京时间） 
-! Total count: 3073
+! Version: 2022-08-30 06:13:44（北京时间） 
+! Total count: 3075
 @@$generichide,domain=heapfiles.com|vidoza.co|vidoza.net
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
 @@-ds.metric.gstatic.com^
@@ -103,6 +103,7 @@
 @@/iplookup.$domain=cankaoxiaoxi.com|dongfeng-nissan.com.cn|huomao.com|loldk.com|sina.com.cn
 @@/jquery/*$domain=dm530.net|sobooks.cc
 @@/js/ads.$domain=shrinklink.co
+@@/js/prebid-$domain=huruwo.top
 @@/mobileads.$domain=naviking.localking.com.tw
 @@/modules/ads/*$domain=shopee.tw
 @@/needsharebutton.min.js$domain=leetcode-cn.com
@@ -1314,6 +1315,7 @@
 @@||fotor.com.cn/static/web/share/js/
 @@||fplay.online/log_event$~third-party,xmlhttprequest
 @@||franklymedia.com/*/300x150_WBNQ_TEXT.png$image,domain=wbnq.com
+@@||freedidi.com^$generichide
 @@||freelitecoin.vip/assets/img/ad_$~third-party
 @@||freeplayervideo.com^$subdocument
 @@||freeride.se/img/admarket/$~third-party
