@@ -1,6 +1,6 @@
 ! Title: Allowlist
-! Version: 2022-08-30 18:15:06（北京时间） 
-! Total count: 3076
+! Version: 2022-08-31 06:14:29（北京时间） 
+! Total count: 3072
 @@$generichide,domain=heapfiles.com|vidoza.co|vidoza.net
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
 @@-ds.metric.gstatic.com^
@@ -392,6 +392,7 @@
 @@||ads.com^$popup
 @@||ads.cs.washington.edu^$popup
 @@||ads.dollartree.com/SneakPeek/$~third-party
+@@||ads.elevateplatform.co.uk^$popup
 @@||ads.emarketer.com/redirect.spark?$popup,domain=emarketer.com
 @@||ads.exoclick.com/*.js$script,domain=gelbooru.com
 @@||ads.finance^$popup
@@ -811,8 +812,6 @@
 @@||carsensor.net/usedcar/modules/clicklog_top_lp_revo.php$xmlhttprequest
 @@||cat.telia.no/gtm.js$script,domain=telia.no
 @@||catalogue.jbhifi.com.au^*/static/analytics.js$script,~third-party
-@@||cb.baidu.com/crossdomain.xml$domain=v.baidu.com
-@@||cb.baidu.com/ecom?*.baomihua.$domain=v.baidu.com
 @@||cbjs.baidu.com/js/m.js$domain=fxpan.com|iyingdi.com|pic.tiexue.net
 @@||cbjs.baidu.com/js/o.js$domain=jkpan.cc
 @@||cbs.com^$generichide
@@ -939,7 +938,6 @@
 @@||cloudfront.net/libs/amplitude-$script,domain=elconfidencial.com
 @@||cloudfront.net/vis_opt.js$script,domain=gre.magoosh.com
 @@||cloudinary.com/perimeterx/$image,domain=perimeterx.com
-@@||cloudinary.com/portalbici/advertisements/$domain=portalbici.es
 @@||cloudmaestro.com^$script,domain=overtone.co
 @@||club.tgfcer.com^$generichide
 @@||cm-beacon.nakanohito.jp/at/ranking/$script
@@ -1078,7 +1076,6 @@
 @@||delet.jhi.pl/bower_components/angular-google-analytics/$script,~third-party
 @@||delivery.satr.jp^$script,domain=mieru-ca.com
 @@||delivery.vidible.tv/jsonp/$script,domain=engadget.com
-@@||delivery.wasu.cn/crossdomain.xml
 @@||derwesten.de/resources/*/img/transparent_pixel.png$image,~third-party
 @@||destinationamerica.com^$generichide
 @@||deteql.net/recommend/provision?$xmlhttprequest,domain=t-fashion.jp
@@ -2937,7 +2934,6 @@
 @@||wordpress.org/plugins/$domain=wordpress.org
 @@||wordpress.org/stats/plugin/$domain=wordpress.org
 @@||worldgravity.com^$script,domain=hotstar.com
-@@||wowsai.com/data/files/ad/
 @@||wp.com/www.datahjelperne.no^*/annonser.png$image,domain=datahjelperne.no
 @@||wp.com^*/google-analytics-for-wordpress/$domain=wordpress.org
 @@||wp.pl^*/dot.gif?$xmlhttprequest,domain=open.fm|wp.tv
