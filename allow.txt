@@ -1,6 +1,6 @@
 ! Title: Allowlist
-! Version: 2022-09-02 06:14:09（北京时间） 
-! Total count: 3074
+! Version: 2022-09-02 18:15:48（北京时间） 
+! Total count: 3075
 @@$generichide,domain=heapfiles.com|vidoza.co|vidoza.net
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
 @@-ds.metric.gstatic.com^
@@ -1866,6 +1866,7 @@
 @@||logcg.content-delivery.top/wp-content/plugins/bwp-minify/min/?f=
 @@||logentries.com^|
 @@||logging.apache.org^$~third-party
+@@||logic-immo.com/lib/xiti/xiti.js$script,~third-party
 @@||login.ingbank.pl^*/satelliteLib-$script
 @@||login.sendpulse.com^|
 @@||logmein.com/js/tracking.js$domain=logme.in|logmein.com
