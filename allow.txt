@@ -1,6 +1,6 @@
 ! Title: Allowlist
-! Version: 2022-09-05 06:13:29（北京时间） 
-! Total count: 3076
+! Version: 2022-09-05 18:15:32（北京时间） 
+! Total count: 3083
 @@$generichide,domain=heapfiles.com|vidoza.co|vidoza.net
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
 @@-ds.metric.gstatic.com^
@@ -894,6 +894,7 @@
 @@||chinatimes.com/css-main/ad.css
 @@||chiptec.net/skin/*/GoogleAnalyticsPlus/$script
 @@||chronopost.fr/tracking-no-cms/resources/js/lib/atinternet/smarttag.prod.$script
+@@||chrysler.com.br/etc/clientlibs/wisdom/base/analytics.min.js$domain=chrysler.com.br
 @@||chtoen.com/js/adsbygoogle.js
 @@||chuangkit.com^$generichide
 @@||chuiyao.com/static/js*/pinglun.js?v=
@@ -902,6 +903,7 @@
 @@||cio.com/www/js/ads/gpt_includes.js$~third-party
 @@||circuitv.com/assets/js/analytics.js$~third-party
 @@||citiintl.122.2o7.net^|
+@@||citroen.com.br/etc/clientlibs/wisdom/base/analytics.min.js$domain=citroen.com.br
 @@||citysbs.com^*/swfupload/
 @@||citytalk.tw/js/ct/common/v3/ui/fblike/FBLike.html
 @@||cj.dotomi.com^|
@@ -1135,6 +1137,7 @@
 @@||docs.google.com^$generichide
 @@||docs.woopt.com/wgact/$image,~third-party,xmlhttprequest
 @@||doctorzerenia.com/home/bower_components/angulartics-google-analytics/dist/angulartics-ga.min.js
+@@||dodge.com.br/etc/clientlibs/wisdom/base/analytics.min.js$domain=dodge.com.br
 @@||dominos.com^*/assets/build/js/modules/dpz.tealium.js$script
 @@||doodcdn.co^$domain=dood.la|dood.pm|dood.so|dood.to|dood.watch|dood.ws
 @@||doodstream.com^$subdocument
@@ -1550,6 +1553,7 @@
 @@||guim.co.uk/uploader/$image,~third-party
 @@||gumtree.co.za/my/ads.html$~third-party
 @@||gunosy.co.jp/img/ad/$image,~third-party
+@@||gymnasedeburier.ch/themes/segment/js/$~third-party
 @@||h-sdk.online-metrix.net^|
 @@||haaretz.co.il/logger/p.gif?$image,xmlhttprequest
 @@||habibs.com.br/build/assets/js/tracking.js$domain=habibs.com.br
@@ -1717,6 +1721,7 @@
 @@||jd.com/setCookie?
 @@||jd.com^*&refer=http$script
 @@||jdfood.com.tw/Upload/ADImages/*Image.jpg
+@@||jeep.com.br/etc/clientlibs/wisdom/base/analytics.min.js$domain=jeep.com.br
 @@||jetzt.de^$generichide
 @@||jianshu.com/asimov/ab_test/info
 @@||jiav000.com^$generichide
@@ -2125,6 +2130,7 @@
 @@||onlinebanking.usbank.com/TUX/public/libs/adobe/appmeasurement.js$script,~third-party
 @@||onlyfans.com/theme/onlyfans/spa/statistics.js$~third-party
 @@||open.spotify.com^$generichide
+@@||open.spotifycdn.com/cdn/build/embed/overture.$script,domain=open.spotify.com
 @@||openapi.youku.com/router^$app=com.huawei.hwvplayer.youku
 @@||openx.com^$domain=openx.com
 @@||optimatic.com/iframe.html$subdocument,domain=pch.com
@@ -2344,6 +2350,7 @@
 @@||radiosun.fi/wp-content/uploads/*300x250$image,~third-party
 @@||radiotimes.com/static/advertising/$script,~third-party
 @@||rakuten-bank.co.jp/rb/ams/img/ad/$~third-party
+@@||ram.com.br/etc/clientlibs/wisdom/base/analytics.min.js$domain=ram.com.br
 @@||rasset.ie/dotie/js/tracker.js$domain=rte.ie
 @@||rba-screen.healthsafe-id.com/fp/tags.js$script,domain=myuhc.com
 @@||readmoo.com/images/social/
