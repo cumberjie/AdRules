@@ -1,6 +1,6 @@
 ! Title: Allowlist
-! Version: 2022-09-05 18:15:32（北京时间） 
-! Total count: 3083
+! Version: 2022-09-06 06:14:25（北京时间） 
+! Total count: 3085
 @@$generichide,domain=heapfiles.com|vidoza.co|vidoza.net
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
 @@-ds.metric.gstatic.com^
@@ -2703,6 +2703,10 @@
 @@||th7.cn/sanda2015/css/ads.js
 @@||the-japan-news.com/modules/js/lib/fgp/fingerprint2.js
 @@||thefreedictionary.com^$generichide
+@@||thegay.com/assets/jwplayer-*/jwplayer.core.controls.html5.js|$domain=thegay.com
+@@||thegay.com/assets/jwplayer-*/jwplayer.js|$domain=thegay.com
+@@||thegay.com/upd/*/assets/preview*.js|$domain=thegay.com
+@@||thegay.com/upd/*/static/js/*.js|$domain=thegay.com
 @@||themarker.com/logger/p.gif?$image,xmlhttprequest
 @@||thepiratebay.*/static/js/details.js$domain=pirateproxy.live|thehiddenbay.com|thepiratebay.org
 @@||thepiratebay.*/static/js/prototype.js$domain=pirateproxy.live|thehiddenbay.com|thepiratebay.org
@@ -3002,8 +3006,6 @@
 @@||xeroshoes.co.uk/affiliate/scripts/trackjs.js$~third-party
 @@||xfinity.com^*/Comcast.SelfService.Sitecatalyst.js
 @@||xfreehd.com^$generichide
-@@||xia1ge.com/wp-content/plugins/detect-adblock/js/ads.js
-@@||xia1ge.com^$generichide
 @@||xianzhenyuan.cn^$generichide
 @@||xianzhenyuan.cn^$script,~third-party
 @@||xiaoyuanzhao.com/adservice/$domain=shixiseng.com
