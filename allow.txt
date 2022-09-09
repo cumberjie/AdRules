@@ -1,6 +1,6 @@
 ! Title: Allowlist
-! Version: 2022-09-09 06:14:48（北京时间） 
-! Total count: 3088
+! Version: 2022-09-09 18:16:39（北京时间） 
+! Total count: 3089
 @@$generichide,domain=heapfiles.com|vidoza.co|vidoza.net
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
 @@-ds.metric.gstatic.com^
@@ -2399,6 +2399,7 @@
 @@||s-microsoft.com/mscc/statics/$script,domain=microsoft.com
 @@||s-sfr.fr/stats/header.js$script,domain=red-by-sfr.fr|sfr.fr
 @@||s.btstatic.com/tag.js$domain=sephora.com
+@@||s.ntv.io/serve/load.js$domain=titantv.com
 @@||s.tgfcer.com^$generichide
 @@||s.thebrighttag.com/tag?site=$domain=sephora.com
 @@||s.w.org/wp-content/$stylesheet,domain=wordpress.org
