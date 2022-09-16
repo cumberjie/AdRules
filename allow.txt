@@ -1,6 +1,6 @@
 ! Title: Allowlist
-! Version: 2022-09-16 06:15:00（北京时间） 
-! Total count: 3099
+! Version: 2022-09-16 18:17:07（北京时间） 
+! Total count: 3102
 @@$generichide,domain=heapfiles.com|vidoza.co|vidoza.net
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
 @@-ds.metric.gstatic.com^
@@ -681,6 +681,7 @@
 @@||bagehd.com/iplookup.
 @@||baidu-taobao-av.com/js/home.js
 @@||baidu-taobao-av.com/js/jquery.
+@@||baidu.com/api/bidder/$domain=jump2.bdimg.com
 @@||baidu.com/cse/search?$domain=16xx8.com
 @@||baidu.com/customer_search/api/
 @@||baidu.com/h.js$domain=19lou.com|baomihua.com|ihome99.com
@@ -690,6 +691,7 @@
 @@||baidu.com/share/count?
 @@||baidu.com/static/touch/js/lib/fingerprint.js$~third-party
 @@||baidu.com^*&cb=BaiduSuggestion.
+@@||baidu.com^*/track.gif$image,domain=jump2.bdimg.com
 @@||baidustatic.com^$domain=xoyo.com
 @@||baixing.net/combine/*,/css/ad-
 @@||bam.nr-data.net^$script,domain=kapwing.com
@@ -856,7 +858,7 @@
 @@||cdn.plyvdo.live/scripts/$script
 @@||cdn.rozetka.com.ua^|
 @@||cdn.segment.com/analytics-next/
-@@||cdn.segment.com/analytics.js/$script,domain=app.cryptotrader.tax|fender.com|finerdesk.com|givingassistant.org|inxeption.io|my.foxnews.com
+@@||cdn.segment.com/analytics.js/$script,domain=app.cryptotrader.tax|driversed.com|fender.com|finerdesk.com|givingassistant.org|inxeption.io|my.foxnews.com
 @@||cdn.segment.com/next-integrations/integrations/
 @@||cdn.segment.com/v1/projects/
 @@||cdn.smartclip-services.com^$script,domain=cerebriti.com
@@ -1516,9 +1518,9 @@
 @@||googletagmanager.com/gtm.js$script,domain=chronopost.fr|linternaute.com|sciencesetavenir.fr|wamiz.com
 @@||googletagmanager.com/gtm.js$script,domain=komputronik.pl|upc.pl
 @@||googletagmanager.com/gtm.js$script,domain=olx.ro
+@@||googletagmanager.com/gtm.js$script,domain=pccomponentes.com|tn.com.ar
 @@||googletagmanager.com/gtm.js$script,domain=sport-wear.com.ua
 @@||googletagmanager.com/gtm.js$script,domain=telia.no
-@@||googletagmanager.com/gtm.js$script,domain=tn.com.ar
 @@||googletagmanager.com/gtm.js$script,domain=vtvgo.vn
 @@||googletagmanager.com/gtm.js?$domain=autorevue.cz|e15.cz|mobilmania.cz|zive.cz
 @@||googletagmanager.com/gtm.js?$domain=feex.co.il
@@ -2554,6 +2556,7 @@
 @@||soranews24.com^$generichide
 @@||soufunimg.com/??*/fshare.
 @@||soufunimg.com/count/uvbforpc.js
+@@||sourcegraph.com^$generichide
 @@||sourcepoint.telegraph.co.uk^$~third-party,xmlhttprequest
 @@||sourcepointcmp.bloomberg.*/ccpa.js$script,domain=bloomberg.co.jp|bloomberg.com
 @@||sourcepointcmp.bloomberg.*/mms/get_site_data?$domain=bloomberg.co.jp|bloomberg.com
