@@ -1,6 +1,6 @@
 ! Title: Allowlist
-! Version: 2022-09-18 18:15:41（北京时间） 
-! Total count: 3102
+! Version: 2022-09-19 06:14:11（北京时间） 
+! Total count: 3105
 @@$generichide,domain=heapfiles.com|vidoza.co|vidoza.net
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
 @@-ds.metric.gstatic.com^
@@ -519,6 +519,7 @@
 @@||alkosto.engine.adglare.net^$script,xmlhttprequest,domain=alkosto.com|ktronix.com
 @@||allabout.co.jp/mtx_cnt.js$script,~third-party
 @@||almayadeen.net/Content/VideoJS/js/videoPlayer/VideoAds.js$script,~third-party
+@@||alphaapi.brandify.com/rest/clicktrack$xmlhttprequest,domain=traderjoes.com
 @@||amazon-adsystem.com/aax2/apstag.js$domain=accuweather.com|barstoolsports.com|blastingnews.com|cnn.com|exomashomepage.com|familyhandyman.com|foxbusiness.com|gamingbible.co.uk|history.com|keloland.com|radio.com|rd.com|tasteofhome.com|thehealthy.com|time.com|wboy.com|wkrn.com|wlns.com|wvnstv.com
 @@||amazon-adsystem.com/aax2/apstag.js$script,domain=abola.pt|los40.com
 @@||amazon-adsystem.com/aax2/apstag.js$script,domain=programme-tv.net
@@ -605,6 +606,7 @@
 @@||apis.kostprice.com/fapi/$script,domain=gadgets.ndtv.com
 @@||apk.tw^*/ads.js$script,~third-party
 @@||apkmirror.com^$generichide
+@@||apkpure.com^$generichide
 @@||apmebf.com/ad/$domain=betfair.com
 @@||app-advertise.zhihuishu.com^
 @@||app.adjust.com^|
@@ -1030,7 +1032,6 @@
 @@||criteo.net/js/ld/publishertag.js$domain=novayagazeta.ru
 @@||cruisecenter.com.tw/data/ad/
 @@||cruisemapper.com/assets/*/js/tracker.js$script,~third-party
-@@||crunchyroll.com^*/ads_$script
 @@||crystalmark.info/wp-content/uploads/*-300x250.$image,~third-party
 @@||crystalmark.info/wp-content/uploads/sites/$image,~third-party
 @@||cs-op.douyucdn.cn/dycatr^
@@ -1314,6 +1315,7 @@
 @@||fm.p0y.cn^$domain=ipinyou.com.cn
 @@||fmz.com/pkg/fingerprint2.min.js$~third-party,xmlhttprequest
 @@||fonts.googleapis.com^$stylesheet,domain=up-4ever.com|up-4ever.org
+@@||fooducate.com/resources/js/Analytics.js$~third-party
 @@||forecast.lemonde.fr/p/event/pageview?$image,~third-party
 @@||forexprostools.com^$domain=shougedui.com
 @@||forexprostools.com^$subdocument,domain=fx-rashinban.com
@@ -1505,10 +1507,10 @@
 @@||googletagmanager.com/gtag/js$script,domain=timparty.tim.it
 @@||googletagmanager.com/gtag/js$script,domain=xl-bygg.no
 @@||googletagmanager.com/gtag/js?id=$domain=av01.tv
-@@||googletagmanager.com/gtm.js$domain=acehardware.com|ads.spotify.com|aeromexico.com|atptour.com|backcountry.com|bsa-whitelabel.com|carhartt-wip.com|ccleaner.com|chipotle.com|complex.com|coolermaster.com|crello.com|cyclingnews.com|cypress.io|doodle.com|easternbank.com|edwardjones.com|ergotron.com|expressvpn.com|flytap.com|formula1.com|fortune.com|gorillamind.com|gumtree.com|harveynorman.co.nz|harveynorman.com.au|independent.co.uk|jn.pt|kedronparkhotel.com.au|level.travel|mcgeeandco.com|nflgamepass.com|nordvpn.com|nourison.com|oakandfort.com|petsathome.com|pioneer.eu|primeoak.co.uk|qrcode-monkey.com|royalbank.com|scotsman.com|soundguys.com|stressless.com|support.creative.com|trademe.co.nz|tumi.com|uniqlo.com|upwork.com|uqr.to
+@@||googletagmanager.com/gtm.js$domain=acehardware.com|ads.spotify.com|aeromexico.com|atptour.com|backcountry.com|bsa-whitelabel.com|carhartt-wip.com|ccleaner.com|chipotle.com|complex.com|coolermaster.com|crello.com|cyclingnews.com|cypress.io|doodle.com|easternbank.com|edwardjones.com|ergotron.com|expressvpn.com|flytap.com|formula1.com|fortune.com|gorillamind.com|gumtree.com|harveynorman.co.nz|harveynorman.com.au|independent.co.uk|jn.pt|kedronparkhotel.com.au|level.travel|mcgeeandco.com|nflgamepass.com|nordvpn.com|nourison.com|oakandfort.com|petsathome.com|pioneer.eu|primeoak.co.uk|qrcode-monkey.com|royalbank.com|runescape.com|scotsman.com|soundguys.com|stressless.com|support.creative.com|trademe.co.nz|tumi.com|uniqlo.com|upwork.com|uqr.to
 @@||googletagmanager.com/gtm.js$domain=asus.com.cn|support.amd.com|warnermusic.com.tw
 @@||googletagmanager.com/gtm.js$domain=besplatka.ua|cdek.ru|glamusha.ru|rustih.ru|sportmaster.ru|teddyfood.com
-@@||googletagmanager.com/gtm.js$domain=betten.de|bunte.de|computerbild.de|finanzen.at|finanzen.net|freenet-funk.de|idealo.at|idealo.de|karriere.at|radiorur.de|saturn.at|sport1.de|vox.de
+@@||googletagmanager.com/gtm.js$domain=betten.de|bunte.de|computerbild.de|finanzen.at|finanzen.net|freenet-funk.de|idealo.at|idealo.de|karriere.at|radiorur.de|saturn.at|spektrum.de|sport1.de|vox.de
 @@||googletagmanager.com/gtm.js$domain=blaklader.at|blaklader.be|blaklader.ca|blaklader.com|blaklader.cz|blaklader.de|blaklader.dk|blaklader.ee|blaklader.es|blaklader.fi|blaklader.fr|blaklader.ie|blaklader.it|blaklader.nl|blaklader.no|blaklader.pl|blaklader.se|blaklader.uk
 @@||googletagmanager.com/gtm.js$domain=casa.it|eprice.it|euronics.it|iphoneitalia.com|la7.it|lastampa.it|savethechildren.it|unieuro.it|video.repubblica.it
 @@||googletagmanager.com/gtm.js$domain=insiderstore.com.br|netcombo.com.br|odia.ig.com.br|saraiva.com.br|superesportes.com.br|topper.com.br|tugatech.com.pt
@@ -1998,6 +2000,7 @@
 @@||moea.gov.tw/EgisWeb/Scripts/google-analytics.js
 @@||moengage.com/v2/$xmlhttprequest,domain=olx.com.lb
 @@||moengage.com/webpush/$script,domain=olx.com.lb
+@@||moja-ostroleka.pl/mapa/sensorsdata.json$~third-party,xmlhttprequest
 @@||momovod.com/js/momo/adsbygoogle.js
 @@||money18.on.cc/js/ad/liveinfo_page/
 @@||money18.on.cc/js/adbanner.js
