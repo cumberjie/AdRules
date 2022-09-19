@@ -1,6 +1,6 @@
 ! Title: Allowlist
-! Version: 2022-09-19 06:14:11（北京时间） 
-! Total count: 3105
+! Version: 2022-09-19 18:17:22（北京时间） 
+! Total count: 3106
 @@$generichide,domain=heapfiles.com|vidoza.co|vidoza.net
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
 @@-ds.metric.gstatic.com^
@@ -1945,6 +1945,7 @@
 @@||mcbar.cn^$generichide
 @@||mccc11.com^$generichide
 @@||mccm88.com^$generichide
+@@||mclo.gs/js/logview.js$~third-party
 @@||mealty.ru/js/ga_events.js$~third-party
 @@||measure.ic.tver.jp^|
 @@||media.jd.com/static/*/ad
