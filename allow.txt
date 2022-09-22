@@ -1,6 +1,6 @@
 ! Title: Allowlist
-! Version: 2022-09-22 06:15:17（北京时间） 
-! Total count: 3109
+! Version: 2022-09-22 18:16:34（北京时间） 
+! Total count: 3107
 @@$generichide,domain=heapfiles.com|vidoza.co|vidoza.net
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
 @@-ds.metric.gstatic.com^
@@ -788,7 +788,6 @@
 @@||browser.sentry-cdn.com^$domain=marshmallow-qa.com
 @@||browser.sentry-cdn.com^$script,domain=podcasty.seznam.cz
 @@||browser.sentry-cdn.com^$script,domain=vivareal.com.br
-@@||browserbench.org^$generichide
 @@||brsrvr.com/api/$xmlhttprequest,domain=dollargeneral.com
 @@||btsax.info^$generichide
 @@||bugsnag.com^$~third-party,domain=app.bugsnag.com
@@ -2933,7 +2932,6 @@
 @@||wavepc.pl/wp-content/*-500x100.png$image,~third-party
 @@||wcs.naver.com/m$image,domain=sooldamhwa.com
 @@||web.archive.org^$generichide
-@@||web.basemark.com^$generichide
 @@||web.telegram.org^$generichide
 @@||webapp.simplisafe.com^*/angulartics-ga.min.js$script,~third-party
 @@||webbtelescope.org/files/live/sites/webb/$image,~third-party
