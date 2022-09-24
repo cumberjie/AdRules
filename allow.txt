@@ -1,5 +1,5 @@
 ! Title: Allowlist
-! Version: 2022-09-24 06:19:19（北京时间） 
+! Version: 2022-09-24 18:15:39（北京时间） 
 ! Total count: 3107
 @@$generichide,domain=heapfiles.com|vidoza.co|vidoza.net
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
@@ -638,7 +638,7 @@
 @@||asahi.com/ads/$image,~third-party
 @@||asahicom.jp/ad/js/video/ytpfp.js$domain=asahi.com
 @@||asahicom.jp/ads/$image,script,stylesheet,domain=asahi.com
-@@||ascii.jp/img/ad/yayoi/rank_$image,~third-party
+@@||ascii.jp/img/ad/$image,~third-party
 @@||ask4movie.io^$generichide
 @@||assets.adobedtm.com^$script,domain=mtvuutiset.fi
 @@||assets.adobedtm.com^*-librarycode_source.min.js$script,domain=mora.jp
