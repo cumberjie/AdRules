@@ -1,6 +1,6 @@
 ! Title: Allowlist
-! Version: 2022-09-26 18:17:16（北京时间） 
-! Total count: 3107
+! Version: 2022-09-27 06:16:06（北京时间） 
+! Total count: 3104
 @@$generichide,domain=heapfiles.com|vidoza.co|vidoza.net
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
 @@-ds.metric.gstatic.com^
@@ -59,7 +59,7 @@
 @@/advertisement_ads_$domain=pdawiki.com|tahua.net
 @@/advertising/*$domain=315.sh.cn
 @@/adverts/*$domain=onlychild.cn
-@@/adview_pic_$domain=1090ys8.com|2hanju.com|bigpixel.cn|fydy8.com|laimanhua.net|lfqie.com|lingjike.com|mahua.com|mati.hk|meiyouad.com|mh160.com|reh.tw|silisili.in|sssam.com|yanyue.cn|ykit.cn|zgpingshu.com|zyshow.net
+@@/adview_pic_$domain=1090ys8.com|2hanju.com|bigpixel.cn|fydy8.com|laimanhua.net|lfqie.com|lingjike.com|mahua.com|mati.hk|meiyouad.com|mh160.com|reh.tw|silisili.in|sssam.com|yanyue.cn|zgpingshu.com|zyshow.net
 @@/adview_pic_$domain=2hanju.com|laimanhua.com|lingjike.com|mahua.com|meiyouad.com|mh160.com|reh.tw|silisili.me|xiaoz.me|ykit.cn|zgpingshu.com
 @@/adview_pic_$domain=doutula.com|fastadmin.net|toolfk.com|xclient.info
 @@/advs/*$domain=ciros.com.cn|gotobuy.com.tw|sj-touch.com
@@ -3080,11 +3080,8 @@
 @@||youtube.com/ads/preferences/$popup
 @@||youtube.com/api/analytics/$~third-party
 @@||youtube.com/get_video_info?$xmlhttprequest,domain=music.youtube.com|tv.youtube.com
-@@||yqszkzx.cn/images/ad
 @@||yu.xyz.mn/images/event.gif?$image,~third-party
-@@||yunlin.com.tw/php01/ad/showad.
 @@||yygsz.com^$generichide
-@@||yzzkb.com.cn^*ad.
 @@||z.moatads.com^$script,domain=standard.co.uk
 @@||zanpinc.com/api/ad.php?
 @@||zappos.com/js/trackingPixel/mercentTracker.js
