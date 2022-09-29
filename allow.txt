@@ -1,5 +1,5 @@
 ! Title: Allowlist
-! Version: 2022-09-29 06:16:00（北京时间） 
+! Version: 2022-09-29 18:17:40（北京时间） 
 ! Total count: 3104
 @@$generichide,domain=heapfiles.com|vidoza.co|vidoza.net
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
@@ -1709,6 +1709,7 @@
 @@||inpref.s3.amazonaws.com/sites/$script,domain=kauppahalli24.fi
 @@||inskinmedia.com^*/js/base/api/$domain=appledaily.com|nextmedia.com
 @@||insurglobal.xyz^$generichide
+@@||interactives.ap.org^*/bower_components/ap/lib/analytics.js$~third-party
 @@||intersport.peerius.com/tracker/tracker.page$script,domain=intersport.de
 @@||intersport.peerius.com^|
 @@||ipapi.co/json/$xmlhttprequest,domain=168.dailymaverick.co.za|audius.co
@@ -2331,7 +2332,6 @@
 @@||qingcheng.com^*/ad
 @@||qingdaoport.net/adv/random.jsp
 @@||qiyipic.com/common/fix/pub_images/
-@@||qiyushangmao.top^*/jquery.min.js
 @@||qq.com/ads/js/$domain=privacy.qq.com
 @@||qq.com/bossweb/jifen/
 @@||qq.com/cgi-bin/*?sid=ads
