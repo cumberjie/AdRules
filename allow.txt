@@ -1,6 +1,6 @@
 ! Title: Allowlist
-! Version: 2022-10-03 18:18:13（北京时间） 
-! Total count: 3106
+! Version: 2022-10-04 06:16:40（北京时间） 
+! Total count: 3105
 @@$generichide,domain=heapfiles.com|vidoza.co|vidoza.net
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
 @@-ds.metric.gstatic.com^
@@ -451,7 +451,6 @@
 @@||adswizz.com/adswizz/js/SynchroClient*.js$script,third-party,domain=esradio.libertaddigital.com
 @@||adswizz.com/adswizz/js/SynchroClient*.js$script,third-party,domain=jjazz.net
 @@||adswizz.com/sca_newenco/$xmlhttprequest,domain=triplem.com.au
-@@||adsynth-ofx-quotewidget-prod.herokuapp.com/api/1
 @@||adtng.com/get/$subdocument,domain=hanime.tv
 @@||adv.asahi.com^$popup
 @@||adv.cr^$popup
@@ -1065,6 +1064,7 @@
 @@||da.mgtv.com/m5/page?
 @@||daan.dev/wp-content/*/caos-supports-google-analytics-$image,~third-party
 @@||daikoku.ebis.ne.jp^|
+@@||dailylol.com/wp-content/uploads/$image,~third-party
 @@||dailymotion.com/advertise/$xmlhttprequest
 @@||daoju.qq.com/time/*/js/ad/
 @@||darmstadt.ui-traffic.de/mobile/webapp/bower_components/heatmap.js$domain=darmstadt.ui-traffic.de
@@ -2100,6 +2100,7 @@
 @@||nostv.pt^*/angulartics-google-analytics.js?
 @@||notafree.host^$generichide
 @@||nowscore.com/script/common/adHelper.js
+@@||noxgroup.com/noxinfluencer/sensor_sdk/$script,domain=noxinfluencer.com
 @@||npr.org/sponsorship/targeting/$~third-party,xmlhttprequest
 @@||nsfw.xxx/vendor/fingerprint/fingerprint2.min.js$script,~third-party
 @@||nthu.edu.tw^*ad
@@ -2178,11 +2179,10 @@
 @@||pagead2.googlesyndication.com/pagead/js/*/show_ads_impl$domain=ff14angler.com|logi.im
 @@||pagead2.googlesyndication.com/pagead/js/*/show_ads_impl.js$domain=doitwell.tw
 @@||pagead2.googlesyndication.com/pagead/js/*/show_ads_impl.js$domain=downloads.codefi.re|globaldjmix.com|nlfreevpn.com|oldapps.com|slideplayer.com|smallseotools.com|tampermonkey.net|thefreedictionary.com|windows7themes.net
-@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=chaojizhibo.net|chtoen.com|dizhishengcheng.com|doitwell.tw|eu4cn.com|ff14angler.com|freedidi.com|haoweichi.com|it365.abctool.info|linovelib.com|logi.im|monnsutogatya.com|numberempire.com|ozabc.com|patch.ali213.net|pc3mag.com|shenfendaquan.com|sto520.com|switch520.com|vaptcha.com|wenxuecity.com|wuyong.fun|xbeibeix.com|xiebruce.top|xugaoxiang.com|yodu.org
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=chaojizhibo.net|chtoen.com|dizhishengcheng.com|doitwell.tw|eu4cn.com|ff14angler.com|freedidi.com|haoweichi.com|it365.abctool.info|linovelib.com|logi.im|monnsutogatya.com|numberempire.com|ozabc.com|patch.ali213.net|pc3mag.com|shenfendaquan.com|sto520.com|switch520.com|vaptcha.com|wenxuecity.com|wuyong.fun|xbeibeix.com|xiebruce.top|xugaoxiang.com|xxxxx520.com|yodu.org
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=cpu-world.com|megaleech.us
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=download.pixelexperience.org|knowfacts.info|lacoste.com|real-sports.jp|slideplayer.com|smallseotools.com|soranews24.com|tampermonkey.net|teemo.gg|thefreedictionary.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=games.wkb.jp
-@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=xxxxx520.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,domain=duelmeta.com|liout.com|moneysave.info|myqqjd.com|zxmee.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,domain=nullpress.net
 @@||pagead2.googlesyndication.com/pagead/js/google_top_exp.js$domain=ebb.io
@@ -3064,7 +3064,6 @@
 @@||yimg.com/ss/rapid-3.*.js$domain=hk.yahoo.com|tw.yahoo.com
 @@||yimg.com/ss/rapid3.js$domain=style.yahoo.com.tw|tw.answers.yahoo.com
 @@||yimg.com/ud/fp/js/Ads.*.min.js$domain=mobi.yahoo.com
-@@||yimg.com/zz/combo?*&*.css$domain=~search.yahoo.com
 @@||yimg.com^*/ywa.js$domain=nydailynews.com|travelscream.com|yahoo.com
 @@||yimg.jp/combo?*/ad/
 @@||yimg.jp/images/news-web/all/images/jsonld_image_300x250.png$domain=news.yahoo.co.jp
