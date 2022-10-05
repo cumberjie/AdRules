@@ -1,6 +1,6 @@
 ! Title: Allowlist
-! Version: 2022-10-05 18:18:09（北京时间） 
-! Total count: 3105
+! Version: 2022-10-06 06:17:41（北京时间） 
+! Total count: 3104
 @@$generichide,domain=heapfiles.com|vidoza.co|vidoza.net
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
 @@-ds.metric.gstatic.com^
@@ -782,7 +782,7 @@
 @@||britannica.com/mendel-resources/3-52/js/libs/prebid4.$script,~third-party
 @@||brm-core-*.brsrvr.com^|
 @@||browser.cloud.ucweb.com^
-@@||browser.sentry-cdn.com^$domain=dic.pixiv.net|doconcall.com.my|eco-clobber.co.uk|menshealth.com|timesprime.com|womenshealthmag.com
+@@||browser.sentry-cdn.com^$domain=dic.pixiv.net|doconcall.com.my|eco-clobber.co.uk|fundhero.io|menshealth.com|timesprime.com|womenshealthmag.com
 @@||browser.sentry-cdn.com^$domain=marshmallow-qa.com
 @@||browser.sentry-cdn.com^$script,domain=podcasty.seznam.cz
 @@||browser.sentry-cdn.com^$script,domain=vivareal.com.br
@@ -1951,7 +1951,6 @@
 @@||mccm88.com^$generichide
 @@||mclo.gs/js/logview.js$~third-party
 @@||mealty.ru/js/ga_events.js$~third-party
-@@||measure.ic.tver.jp^|
 @@||media.jd.com/static/*/ad
 @@||media.kijiji.ca/api/$image,~third-party
 @@||media.org.hk^*/ads_
@@ -2869,7 +2868,7 @@
 @@||v.17173.com/advideo/*.mp4
 @@||v.17173.com/advideo/20*.flv
 @@||v.fwmrm.net/ad/g/1$domain=uktv.co.uk|vevo.com
-@@||v.fwmrm.net/ad/g/1?*_html5_live
+@@||v.fwmrm.net/ad/g/1?*_html5_live$domain=~msn.com
 @@||v.fwmrm.net/ad/g/1?csid=vcbs_cbsnews_desktop_$xmlhttprequest
 @@||v.fwmrm.net/ad/p/1?$domain=cc.com|channel5.com|cmt.com|eonline.com|foodnetwork.com|nbcnews.com|ncaa.com|player.theplatform.com|simpsonsworld.com|today.com
 @@||v.fwmrm.net/crossdomain.xml$xmlhttprequest
