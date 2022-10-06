@@ -1,6 +1,6 @@
 ! Title: Allowlist
-! Version: 2022-10-06 18:19:11（北京时间） 
-! Total count: 3103
+! Version: 2022-10-07 06:16:24（北京时间） 
+! Total count: 3104
 @@$generichide,domain=heapfiles.com|vidoza.co|vidoza.net
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
 @@-ds.metric.gstatic.com^
@@ -2035,6 +2035,7 @@
 @@||mxpnl.com/libs/mixpanel-*.min.js$domain=change.org|frigidaire.com
 @@||mxpnl.com/libs/mixpanel-*.min.js$domain=eloan.co.il
 @@||mxpnl.com^$domain=mixpanel.com
+@@||my.appacademy.io/_content/Blazor-Analytics/blazor-analytics.js$script,~third-party
 @@||my.dxdelivery.com/js/tracking.js$script,~third-party
 @@||my.tealiumiq.com^|
 @@||myaccount.chicagotribune.com/assets/scripts/tag-manager/googleTag.js$~third-party
