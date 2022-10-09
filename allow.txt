@@ -1,6 +1,6 @@
 ! Title: Allowlist
-! Version: 2022-10-09 06:15:09（北京时间） 
-! Total count: 3108
+! Version: 2022-10-09 18:16:56（北京时间） 
+! Total count: 3110
 @@$generichide,domain=heapfiles.com|vidoza.co|vidoza.net
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
 @@-ds.metric.gstatic.com^
@@ -2651,6 +2651,8 @@
 @@||sunday.de/skin/*/googleanalytics.js$script
 @@||sundaysportclassifieds.com/ads/$image,~third-party
 @@||suning.cn/project/msIndex/js/??
+@@||suntory.co.jp/beer/kinmugi/css2020/ad.css?
+@@||suntory.co.jp/beer/kinmugi/img/ad/$image,~third-party
 @@||supertaxi.com/webclient/scripts/tracking/tracking.js$script,~third-party
 @@||support-beacon.nakanohito.jp/widget/$xmlhttprequest
 @@||support-beacon.nakanohito.jp^|
