@@ -1,5 +1,5 @@
 ! Title: Allowlist
-! Version: 2022-10-15 06:15:18（北京时间） 
+! Version: 2022-10-15 18:16:07（北京时间） 
 ! Total count: 3117
 @@$generichide,domain=heapfiles.com|vidoza.co|vidoza.net
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
@@ -2263,7 +2263,7 @@
 @@||playep.pro/log_event$~third-party,xmlhttprequest
 @@||player.aniview.com/script/$script,domain=odysee.com
 @@||player.anyclip.com/anyclip-widget/lre-widget/$script,domain=video.timeout.com|video.venturebeat.com|videos.heute.at
-@@||player.avplayer.com^$script,domain=explosm.net
+@@||player.avplayer.com^$script,domain=explosm.net|justthenews.com
 @@||player.bizportal.co.il/scripts/GoogleAnalytics.js$domain=bizportal.co.il
 @@||player.fc-zenit.ru/msi/geoip?$xmlhttprequest
 @@||player.letvcdn.com*/newplayer/*.swf
