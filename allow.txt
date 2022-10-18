@@ -1,5 +1,5 @@
 ! Title: Allowlist
-! Version: 2022-10-18 06:16:52（北京时间） 
+! Version: 2022-10-18 18:19:52（北京时间） 
 ! Total count: 3120
 @@$generichide,domain=heapfiles.com|vidoza.co|vidoza.net
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
@@ -1509,7 +1509,7 @@
 @@||googletagmanager.com/gtag/js$script,domain=timparty.tim.it
 @@||googletagmanager.com/gtag/js$script,domain=xl-bygg.no
 @@||googletagmanager.com/gtag/js?id=$domain=av01.tv
-@@||googletagmanager.com/gtm.js$domain=acehardware.com|ads.spotify.com|aeromexico.com|atptour.com|axeptio.eu|backcountry.com|bsa-whitelabel.com|carhartt-wip.com|ccleaner.com|chipotle.com|complex.com|coolermaster.com|crello.com|cyclingnews.com|cypress.io|doodle.com|easternbank.com|edwardjones.com|ergotron.com|expressvpn.com|festoolusa.com|flytap.com|formula1.com|fortune.com|gorillamind.com|gumtree.com|harveynorman.co.nz|harveynorman.com.au|independent.co.uk|jn.pt|kedronparkhotel.com.au|level.travel|mcgeeandco.com|mercell.com|nflgamepass.com|nordvpn.com|nourison.com|oakandfort.com|petsathome.com|pioneer.eu|plantsome.ca|primeoak.co.uk|prisonfellowship.org|prizehometickets.com.au|qrcode-monkey.com|royalbank.com|runescape.com|scotsman.com|soundguys.com|stressless.com|support.creative.com|trademe.co.nz|tumi.com|uniqlo.com|upwork.com|uqr.to|zennioptical.com
+@@||googletagmanager.com/gtm.js$domain=acehardware.com|ads.spotify.com|aeromexico.com|atptour.com|axeptio.eu|backcountry.com|bsa-whitelabel.com|carhartt-wip.com|ccleaner.com|chipotle.com|complex.com|coolermaster.com|crello.com|cyclingnews.com|cypress.io|doodle.com|easternbank.com|edwardjones.com|ergotron.com|expressvpn.com|festoolusa.com|flytap.com|formula1.com|fortune.com|gorillamind.com|gumtree.com|harveynorman.co.nz|harveynorman.com.au|independent.co.uk|jn.pt|kedronparkhotel.com.au|konami.com|lecker.de|level.travel|mcgeeandco.com|mercell.com|nflgamepass.com|nordvpn.com|nourison.com|oakandfort.com|petsathome.com|pioneer.eu|plantsome.ca|primeoak.co.uk|prisonfellowship.org|prizehometickets.com.au|qrcode-monkey.com|royalbank.com|runescape.com|scotsman.com|soundguys.com|stressless.com|support.creative.com|trademe.co.nz|tumi.com|uniqlo.com|upwork.com|uqr.to|zennioptical.com
 @@||googletagmanager.com/gtm.js$domain=asus.com.cn|support.amd.com|warnermusic.com.tw
 @@||googletagmanager.com/gtm.js$domain=besplatka.ua|cdek.ru|glamusha.ru|rustih.ru|sportmaster.ru|teddyfood.com
 @@||googletagmanager.com/gtm.js$domain=betten.de|bunte.de|computerbild.de|finanzen.at|finanzen.net|focus.de|freenet-funk.de|idealo.at|idealo.de|karriere.at|oetker-shop.de|radiorur.de|saturn.at|spektrum.de|sport1.de|vox.de
@@ -1770,6 +1770,7 @@
 @@||jsdelivr.net^*/keen-tracking.min.js$domain=nextquotidiano.it
 @@||jsfiddle.net^$generichide
 @@||jsjiami.com^$generichide
+@@||json.geoiplookup.io/?callback=$script,domain=chilepeajes.cl
 @@||jsonip.com/?callback=$script,domain=pagtel.com.br
 @@||jsqsjn.com^$script,domain=fyxfcw.com
 @@||jsrdn.com/s/$script,domain=distro.tv
@@ -1883,6 +1884,7 @@
 @@||live.bbc.co.uk^*/comscore.js$~third-party
 @@||live.house.gov/js/analytics.$~third-party
 @@||live.lequipe.fr/thirdparty/prebid.js$~third-party
+@@||live.rezync.com^$script,domain=batteriesplus.com
 @@||live.streamtheworld.com/partnerIds$domain=iheart.com
 @@||livew.l.qq.com/crossdomain.xml
 @@||livew.l.qq.com/livemsg?pf=H5&ad$domain=m.v.qq.com
@@ -2670,8 +2672,6 @@
 @@||support.google.com/adsense/$~third-party
 @@||support.google.com/google-ads/$domain=ads.google.com
 @@||survey.g.doubleclick.net^$script,domain=sporcle.com
-@@||survey.userneeds.com^$subdocument,domain=foreca.com|forecaweather.com
-@@||survey.userneeds.com^$subdocument,domain=foreca.fi
 @@||suumo.jp/sp/js/beacon.js$script,~third-party
 @@||swa.mail.ru/cgi-bin/counters?$script
 @@||switchfly.com/static/108f088/resources/shopping/.build/scripts/analytics-$script,domain=reise-services.americanexpress.de|travel.americanexpress.co.uk|viaggi.americanexpress.it
