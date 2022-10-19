@@ -1,6 +1,6 @@
 ! Title: Allowlist
-! Version: 2022-10-19 06:17:24（北京时间） 
-! Total count: 3120
+! Version: 2022-10-19 18:24:08（北京时间） 
+! Total count: 3121
 @@$generichide,domain=heapfiles.com|vidoza.co|vidoza.net
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
 @@-ds.metric.gstatic.com^
@@ -1032,6 +1032,7 @@
 @@||create.jd.com/ad/
 @@||criteo.com/delivery/ajs.php?zoneid=$script,domain=gaus.ee
 @@||criteo.net/js/ld/publishertag.js$domain=novayagazeta.ru
+@@||crowdtwist.com/img/$image,domain=disneymovieinsiders.com
 @@||cruisecenter.com.tw/data/ad/
 @@||cruisemapper.com/assets/*/js/tracker.js$script,~third-party
 @@||crystalmark.info/wp-content/uploads/*-300x250.$image,~third-party
