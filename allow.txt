@@ -1,6 +1,6 @@
 ! Title: Allowlist
-! Version: 2022-10-31 06:13:40（北京时间） 
-! Total count: 3116
+! Version: 2022-10-31 18:17:12（北京时间） 
+! Total count: 3117
 @@$generichide,domain=heapfiles.com|vidoza.co|vidoza.net
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
 @@-ds.metric.gstatic.com^
@@ -1761,6 +1761,7 @@
 @@||js.captcha-display.com/xhr_tag.js$script,domain=auth.garena.com
 @@||js.datadome.co/tags.js$script,domain=sso.garena.com
 @@||js.monitor.azure.com/scripts/$script,domain=microsoft.com
+@@||js.monitor.azure.com^|
 @@||js.sentry-cdn.com^$script,domain=book.dmm.com|interacty.me|jobs.ch|pizzahut.com.au
 @@||js.taplytics.com/jssdk/$domain=foxnews.com
 @@||js.tv.itc.cn/gg.seed.js
