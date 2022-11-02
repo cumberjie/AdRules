@@ -1,6 +1,6 @@
 ! Title: Allowlist
-! Version: 2022-11-02 18:16:43（北京时间） 
-! Total count: 3118
+! Version: 2022-11-03 06:14:01（北京时间） 
+! Total count: 3117
 @@$generichide,domain=heapfiles.com|vidoza.co|vidoza.net
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
 @@-ds.metric.gstatic.com^
@@ -1752,7 +1752,6 @@
 @@||jjjgame.com/plus/ad_
 @@||jjkmn.com^$generichide
 @@||jlthjy.com^$generichide
-@@||jmap.io/*/libs/Overture.js$~third-party
 @@||jmedj.co.jp/files/$image,~third-party
 @@||jokerly.com/Okidak/adSelectorDirect.htm?id=$document,subdocument
 @@||jokerly.com/Okidak/vastChecker.htm$document,subdocument
