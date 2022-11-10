@@ -1,6 +1,6 @@
 ! Title: Allowlist
-! Version: 2022-11-10 18:15:12（北京时间） 
-! Total count: 3110
+! Version: 2022-11-11 06:14:08（北京时间） 
+! Total count: 3107
 @@$generichide,domain=heapfiles.com|vidoza.co|vidoza.net
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
 @@-ds.metric.gstatic.com^
@@ -117,7 +117,6 @@
 @@/site/ad/*$domain=islide.cc
 @@/social-share.$domain=patentguru.com
 @@/store_ad/*$domain=pcstore.com.tw
-@@/unadblock/adjs_$domain=bingfeng.tw
 @@/unadblock/adjs_$domain=hepan.com
 @@/urchin.js$domain=on.cc
 @@/vlive.qqvideo.tc.qq.com^$media,app=com.tencent.qqlivexiaomi
@@ -319,7 +318,6 @@
 @@||ad4.on.cc/web/www/delivery/spcjs.php
 @@||adap.tv/redir/javascript/vpaid.js
 @@||adblockplus.org^$generichide
-@@||adcdn.holmesmind.com/adserver/Preset.js?z=6472$domain=bingfeng.tw
 @@||adcdn.pingan.com^
 @@||adconsole.ch/api/ws-businessclick/*/data.json$domain=finanzen.ch
 @@||addicted.es^*/ad728-$image,~third-party
@@ -445,7 +443,6 @@
 @@||adservex.media.net/videoAds.js?$script,domain=forbes.com
 @@||adservice.com/wp-content/themes/adservice/$~third-party
 @@||adservice.google.com/adsid/integrator.js$domain=logi.im
-@@||adsinstant.com/bingfeng/gm$domain=bingfeng.tw
 @@||adswizz.com/adswizz/js/SynchroClient*.js$script,third-party,domain=jjazz.net
 @@||adswizz.com/sca_newenco/$xmlhttprequest,domain=triplem.com.au
 @@||adtng.com/get/$subdocument,domain=hanime.tv
@@ -587,6 +584,7 @@
 @@||api.cxense.com/public/widget/data?json=$script,domain=ksml.fi|savonsanomat.fi
 @@||api.cxense.com/public/widget/data|$xmlhttprequest,domain=friday.gold|friday.kodansha.co.jp
 @@||api.dmcdn.net/pxl/advertisers/$domain=dailymotion.com
+@@||api.docodoco.jp^|
 @@||api.friends.ponta.jp/api/$~third-party
 @@||api.getmakerlog.com/discussions/$~third-party,websocket,xmlhttprequest
 @@||api.ipify.org^$script,domain=medexpress.com|right-on.co.jp
@@ -745,7 +743,6 @@
 @@||bilibili.com^*/web_page_view?$domain=message.bilibili.com
 @@||bing.com/search?$generichide
 @@||bing.com/translator/api/Translate/TranslateArray?$third-party,xmlhttprequest
-@@||bingfeng.tw^$generichide
 @@||bioaksxter.com/files/*/Tracking.min.js$script,~third-party
 @@||biqupai.com^$domain=shudai.cc
 @@||bitauto.com/bglogpostlog.js
