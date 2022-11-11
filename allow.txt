@@ -1,6 +1,6 @@
 ! Title: Allowlist
-! Version: 2022-11-11 18:15:39（北京时间） 
-! Total count: 3107
+! Version: 2022-11-12 06:13:55（北京时间） 
+! Total count: 3108
 @@$generichide,domain=heapfiles.com|vidoza.co|vidoza.net
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
 @@-ds.metric.gstatic.com^
@@ -225,6 +225,7 @@
 @@||520cc.cc/ad/ad_1.php
 @@||520cc.cc/api/jspopunder.
 @@||520cc.cc/jspopunder.
+@@||520cc.cc^*/ad.php
 @@||5278.cool^$generichide
 @@||52xiyou.com^$domain=9377.com|52guoguo.cn
 @@||52zy.com/gg/
@@ -1149,7 +1150,7 @@
 @@||docs.woopt.com/wgact/$image,~third-party,xmlhttprequest
 @@||doctorzerenia.com/home/bower_components/angulartics-google-analytics/dist/angulartics-ga.min.js
 @@||dodge.com.br/etc/clientlibs/wisdom/base/analytics.min.js$domain=dodge.com.br
-@@||dodo.ac/np/images/thumb/$image,domain=nookipedia.com
+@@||dodo.ac/np/images/$image,domain=nookipedia.com
 @@||dominos.com^*/assets/build/js/modules/dpz.tealium.js$script
 @@||doodcdn.co^$domain=dood.la|dood.pm|dood.so|dood.to|dood.watch|dood.ws
 @@||doodstream.com^$subdocument
