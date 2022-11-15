@@ -1,6 +1,6 @@
 ! Title: Allowlist
-! Version: 2022-11-15 06:17:43（北京时间） 
-! Total count: 3111
+! Version: 2022-11-15 18:14:44（北京时间） 
+! Total count: 3113
 @@$generichide,domain=heapfiles.com|vidoza.co|vidoza.net
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
 @@-ds.metric.gstatic.com^
@@ -630,6 +630,7 @@
 @@||argep.hu/googleanalytics.js
 @@||arnhemland-safaris.com/images/made/$image,~third-party
 @@||artifactory.appodeal.com^|
+@@||artnet.com^$generichide
 @@||arukikata.com/images_ad/$image,~third-party
 @@||asahi.com/ads/$image,~third-party
 @@||asahicom.jp/ad/js/video/ytpfp.js$domain=asahi.com
@@ -2771,6 +2772,7 @@
 @@||tmall.com/go/*/banner.php
 @@||tmx.bestbuy.com/z3nsvo31pnlmt3tw.js$domain=bestbuy.com
 @@||toggo.de/static/js/sourcepoint.js$domain=toggo.de
+@@||tokbox.com/prod/logging/ClientEvent$domain=examroom.ai
 @@||ton.twimg.com^$domain=ads.twitter.com|analytics.twitter.com
 @@||toolfk.com/tools/js/share/js/jquery.share.min.js
 @@||tools.usps.com/go/scripts/tracking.js$~third-party
