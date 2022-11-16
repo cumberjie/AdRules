@@ -1,6 +1,6 @@
 ! Title: Allowlist
-! Version: 2022-11-16 18:14:16（北京时间） 
-! Total count: 3116
+! Version: 2022-11-17 06:12:39（北京时间） 
+! Total count: 3118
 @@$generichide,domain=heapfiles.com|vidoza.co|vidoza.net
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
 @@-ds.metric.gstatic.com^
@@ -194,6 +194,7 @@
 @@||1trackapp.com//static/tracking/$script,domain=1track.ru
 @@||1trackapp.com/static/tracking/$domain=1track.ru
 @@||1trackapp.com/static/tracking/$script,stylesheet,~third-party
+@@||1vkx.cn/public/1/assets/js/common/plugins/jquery/jquery.min.jss
 @@||2018x.bid/adview.js
 @@||210.40.130.91^*/ad.css?$stylesheet
 @@||230book.com/images/bqg.js$domain=230book.net
@@ -1570,6 +1571,7 @@
 @@||gumtree.co.za/my/ads.html$~third-party
 @@||gunosy.co.jp/img/ad/$image,~third-party
 @@||gymnasedeburier.ch/themes/segment/js/$~third-party
+@@||h-sdk.online-metrix.net^|
 @@||haaretz.co.il/logger/p.gif?$image,xmlhttprequest
 @@||habibs.com.br/build/assets/js/tracking.js$domain=habibs.com.br
 @@||hackread.com/wp-content/uploads/$image,~third-party
