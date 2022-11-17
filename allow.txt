@@ -1,6 +1,6 @@
 ! Title: Allowlist
-! Version: 2022-11-17 18:14:12（北京时间） 
-! Total count: 3118
+! Version: 2022-11-18 06:13:11（北京时间） 
+! Total count: 3119
 @@$generichide,domain=heapfiles.com|vidoza.co|vidoza.net
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
 @@-ds.metric.gstatic.com^
@@ -2418,6 +2418,7 @@
 @@||rtoaster.jp/Rtoaster.js$domain=satofull.jp
 @@||rtoaster.jp^$script,domain=lexus.jp|melonbooks.co.jp
 @@||rtr-vesti.ru/pvc_cdn/js/stat.js$domain=player.vgtrk.com
+@@||rubiconproject.com/prebid/dynamic/$script,domain=ask.com
 @@||rudaw.net/images/pixel.gif$~third-party
 @@||rule34hentai.net^$generichide
 @@||rules.atgsvcs.com/EERules/view/$domain=lenovo.com
