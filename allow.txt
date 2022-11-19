@@ -1,6 +1,6 @@
 ! Title: Allowlist
-! Version: 2022-11-19 18:13:16（北京时间） 
-! Total count: 3123
+! Version: 2022-11-20 06:12:22（北京时间） 
+! Total count: 3121
 @@$generichide,domain=heapfiles.com|vidoza.co|vidoza.net
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
 @@-ds.metric.gstatic.com^
@@ -1221,7 +1221,6 @@
 @@||edmodo.com/ads$~third-party,xmlhttprequest
 @@||edmondpoon.com^$generichide
 @@||edu.cn^*/ad.css?$stylesheet
-@@||efworks.proquest.com/public/js/tracking.js$~third-party
 @@||einthusan.tv/prebid.js$script,~third-party
 @@||eiv.baidu.com/fcimg
 @@||elconfidencial.com^*/AnalyticsEvent.js
@@ -1860,8 +1859,6 @@
 @@||leroymerlin.ru/config/analytics.js$script
 @@||lesports.com/pc/??*/click_statistics/
 @@||letocard.fr/wp-content/uploads/$image,~third-party
-@@||letv.com/tuiguang/$subdocument
-@@||letvcloud.com^*&showAd=
 @@||level.travel/tracker/tracker.js$script,~third-party
 @@||lexpress.fr/tagcommander.js$script,~third-party
 @@||lib.baomitu.com^$domain=meituhe.com
@@ -2402,6 +2399,7 @@
 @@||redir.tradedoubler.com^|
 @@||redirect.appmetrica.yandex.com^|
 @@||redventures.io/lib/dist/prod/bidbarrel-$script,domain=cnet.com|techrepublic.com|zdnet.com
+@@||refworks.proquest.com/public/js/tracking.js$~third-party
 @@||regapi.37.com/api/p_register.php?login_account=
 @@||renewcanceltv.com/porpoiseant/banger.js$script,~third-party
 @@||repairtrackingsite.nintendo.eu/Tracking/$subdocument,domain=nintendo.co.uk
