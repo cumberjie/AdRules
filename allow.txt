@@ -1,6 +1,6 @@
 ! Title: Allowlist
-! Version: 2022-11-20 18:13:53（北京时间） 
-! Total count: 3121
+! Version: 2022-11-21 06:12:02（北京时间） 
+! Total count: 3122
 @@$generichide,domain=heapfiles.com|vidoza.co|vidoza.net
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
 @@-ds.metric.gstatic.com^
@@ -432,6 +432,7 @@
 @@||ads.twitter.com^$popup,~third-party
 @@||ads.vk.com^$popup
 @@||ads1.atpclick.com/atpClick.aspx?$image,script,domain=jobnet.co.il|jobs-israel.com
+@@||ads3.xumo.com^$domain=redbox.com
 @@||adsafeprotected.com/iasPET.$script,domain=reuters.com
 @@||adsafeprotected.com/services/$domain=reuters.com
 @@||adsafeprotected.com/vans-adapter-google-ima.js$script,domain=gamingbible.co.uk|ladbible.com|reuters.com
