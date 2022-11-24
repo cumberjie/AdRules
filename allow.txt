@@ -1,6 +1,6 @@
 ! Title: Allowlist
-! Version: 2022-11-24 18:13:08（北京时间） 
-! Total count: 3127
+! Version: 2022-11-25 06:11:48（北京时间） 
+! Total count: 3129
 @@$generichide,domain=heapfiles.com|vidoza.co|vidoza.net
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
 @@-ds.metric.gstatic.com^
@@ -432,7 +432,7 @@
 @@||ads.twitter.com^$popup,~third-party
 @@||ads.vk.com^$popup
 @@||ads1.atpclick.com/atpClick.aspx?$image,script,domain=jobnet.co.il|jobs-israel.com
-@@||ads3.xumo.com^$domain=redbox.com
+@@||ads3.xumo.com^$domain=2vnews.com|redbox.com
 @@||adsafeprotected.com/iasPET.$script,domain=reuters.com
 @@||adsafeprotected.com/services/$domain=reuters.com
 @@||adsafeprotected.com/vans-adapter-google-ima.js$script,domain=gamingbible.co.uk|ladbible.com|reuters.com
@@ -1460,6 +1460,7 @@
 @@||google-analytics.com/analytics.js$domain=saturn.at|schweizerfleisch.ch|unicef.de|vox.de
 @@||google-analytics.com/analytics.js$domain=skaties.lv
 @@||google-analytics.com/analytics.js$domain=tradera.com|xxl.se
+@@||google-analytics.com/analytics.js$domain=tuasaude.com
 @@||google-analytics.com/analytics.js$domain=tv3play.no
 @@||google-analytics.com/analytics.js$script,domain=hobbyhall.fi
 @@||google-analytics.com/gtm/js$script,domain=hobbyhall.fi
@@ -2746,6 +2747,7 @@
 @@||tgfcer.com/advert.js
 @@||th-sjy.com^$generichide
 @@||th7.cn/sanda2015/css/ads.js
+@@||thdstatic.com/experiences/local-ad/$domain=homedepot.com
 @@||the-japan-news.com/modules/js/lib/fgp/fingerprint2.js
 @@||thefreedictionary.com^$generichide
 @@||thegay.com/assets/jwplayer-*/jwplayer.core.controls.html5.js|$domain=thegay.com
