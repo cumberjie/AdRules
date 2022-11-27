@@ -1,6 +1,6 @@
 ! Title: Allowlist
-! Version: 2022-11-27 18:12:30（北京时间） 
-! Total count: 3136
+! Version: 2022-11-28 06:11:57（北京时间） 
+! Total count: 3138
 @@$generichide,domain=heapfiles.com|vidoza.co|vidoza.net
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
 @@-ds.metric.gstatic.com^
@@ -520,6 +520,7 @@
 @@||amazon-adsystem.com/aax2/apstag.js$domain=accuweather.com|barstoolsports.com|blastingnews.com|cnn.com|exomashomepage.com|familyhandyman.com|foxbusiness.com|gamingbible.co.uk|history.com|keloland.com|radio.com|rd.com|tasteofhome.com|thehealthy.com|time.com|wboy.com|wkrn.com|wlns.com|wvnstv.com
 @@||amazon-adsystem.com/aax2/apstag.js$script,domain=programme-tv.net
 @@||amazon-adsystem.com/e/cm?$document,subdocument,domain=affiliate-program.amazon.co.uk|affiliate-program.amazon.com|affiliate-program.amazon.in|affiliate.amazon.co.jp|afiliados.amazon.es|associados.amazon.com.br|associates.amazon.ca|associates.amazon.cn|partenaires.amazon.fr|partnernet.amazon.de|programma-affiliazione.amazon.it
+@@||amazon-adsystem.com/e/cm?$subdocument,domain=atcoder.jp
 @@||amazon-adsystem.com/e/ir?$image,domain=kasi-time.com
 @@||amazon-adsystem.com/widgets/q?$image,third-party
 @@||amazon-adsystem.com^$domain=affiliate-program.amazon.com
@@ -648,6 +649,7 @@
 @@||assets.giocdn.com/2.1/gio.js$domain=saicmg.com
 @@||assets.strossle.com/strossle-widget-sdk/$script,domain=como.fi|episodi.fi|fum.fi|inferno.fi|rumba.fi|soundi.fi|tilt.fi
 @@||assets.strossle.com^*/strossle-widget-sdk.js$script,domain=kaaoszine.fi
+@@||assoc-amazon.com/widgets/cm?$subdocument,domain=atcoder.jp
 @@||astatic.ccmbg.com^*/prebid$script,domain=linternaute.com
 @@||astyle.alicdn.com/??
 @@||at.adtech.redventures.io/lib/api/$xmlhttprequest,domain=gamespot.com|giantbomb.com|metacritic.com
