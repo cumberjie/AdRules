@@ -1,6 +1,6 @@
 ! Title: Allowlist
-! Version: 2022-11-27 06:11:22（北京时间） 
-! Total count: 3135
+! Version: 2022-11-27 18:12:30（北京时间） 
+! Total count: 3136
 @@$generichide,domain=heapfiles.com|vidoza.co|vidoza.net
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
 @@-ds.metric.gstatic.com^
@@ -2570,6 +2570,7 @@
 @@||smartrevise.online/css/analytics.min.css$~third-party
 @@||smartrevise.online/js/teacher.analytics.min.js$~third-party
 @@||smotrim.ru/js/stat.js$script
+@@||smsonline.cloud^$generichide
 @@||smtcaw.com^$generichide
 @@||smushcdn.com^*/1.gif$domain=retrounlim.com
 @@||snap.licdn.com/li.lms-analytics/insight.min.js$domain=msci.com
