@@ -1,6 +1,6 @@
 ! Title: Allowlist
-! Version: 2022-12-14 06:11:31（北京时间） 
-! Total count: 3153
+! Version: 2022-12-14 18:13:08（北京时间） 
+! Total count: 3155
 @@$generichide,domain=heapfiles.com|vidoza.co|vidoza.net
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
 @@-ds.metric.gstatic.com^
@@ -384,6 +384,7 @@
 @@||adoi.cn^$generichide
 @@||adroll.com^$xmlhttprequest,domain=adroll.com
 @@||ads-twitter.com/oct.js$domain=jp.square-enix.com
+@@||ads-twitter.com/uwt.js$domain=factory.pixiv.net
 @@||ads.adthrive.com/builds/$script,domain=www.mediaite.com
 @@||ads.adthrive.com/sites/$script,domain=www.mediaite.com
 @@||ads.alafish.cn^$~third-party
@@ -1521,6 +1522,7 @@
 @@||googleoptimize.com/optimize.js$script,domain=wallapop.com
 @@||googletagmanager.com/gtag/js$script,domain=academy.com|acornonline.com|aliexpress.com|carhartt-wip.com|cbslocal.com|devclass.com|honeystinger.com|kawasaki.com|liene-life.com|livongo.com|m.putlocker.how|mediaite.com|schwab.com|toptal.com|virginplus.ca|winefolly.com
 @@||googletagmanager.com/gtag/js$script,domain=dholic.co.jp|nihontsushin.com|zf1.tohoku-epco.co.jp
+@@||googletagmanager.com/gtag/js$script,domain=factory.pixiv.net
 @@||googletagmanager.com/gtag/js$script,domain=hostingvergelijker.nl
 @@||googletagmanager.com/gtag/js$script,domain=modehasen.de
 @@||googletagmanager.com/gtag/js$script,domain=radiosarajevo.ba
