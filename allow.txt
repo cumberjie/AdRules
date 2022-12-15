@@ -1,5 +1,5 @@
 ! Title: Allowlist
-! Version: 2022-12-15 18:13:20（北京时间） 
+! Version: 2022-12-16 06:10:44（北京时间） 
 ! Total count: 3156
 @@$generichide,domain=heapfiles.com|vidoza.co|vidoza.net
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
@@ -1619,7 +1619,7 @@
 @@||healthyadvertising.es^$~third-party
 @@||hearstapps.com/static/comscore.$script,domain=womenshealthmag.com
 @@||heatmap.it^$domain=heatmap.com|heatmap.it|heatmap.me|heatmap.org
-@@||helidon.io/docs/v3/pages/mp/metrics/metrics.js$~third-party
+@@||helidon.io/docs/*/metrics/metrics$~third-party,xmlhttprequest
 @@||hello.myfonts.net/count/$stylesheet,domain=cfr.org|furniturevillage.co.uk|luggagehero.com
 @@||herokuapp.com/api/analytics$domain=madeincookware.com
 @@||hh010.com^$generichide
