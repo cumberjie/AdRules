@@ -1,6 +1,6 @@
 ! Title: Allowlist
-! Version: 2022-12-16 06:10:44（北京时间） 
-! Total count: 3156
+! Version: 2022-12-16 18:12:24（北京时间） 
+! Total count: 3158
 @@$generichide,domain=heapfiles.com|vidoza.co|vidoza.net
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
 @@-ds.metric.gstatic.com^
@@ -2850,6 +2850,8 @@
 @@||trip.cmbchina.com^$generichide
 @@||trj.valuecommerce.com/vcushion.js
 @@||trueaccordengage.com/tae/api/v1/collectors/$~third-party
+@@||trustcommander.net/iab-tcfapi/tcfapi.js$script,domain=tf1info.fr
+@@||trustcommander.net/privacy/*/privacy$script,domain=tf1info.fr
 @@||trustprofile.com/banners/$image
 @@||tsyndicate.com/sdk/v1/n.js$domain=hpjav.tv
 @@||tt1069.com/adbrite.js
