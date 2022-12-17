@@ -1,5 +1,5 @@
 ! Title: Allowlist
-! Version: 2022-12-17 06:10:46（北京时间） 
+! Version: 2022-12-17 18:10:51（北京时间） 
 ! Total count: 3158
 @@$generichide,domain=heapfiles.com|vidoza.co|vidoza.net
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
@@ -603,7 +603,6 @@
 @@||api.paymentwall.com^$domain=adguard.com
 @@||api.perfops.net^$script,xmlhttprequest,domain=cdnperf.com|dnsperf.com
 @@||api.touchnote.io^$xmlhttprequest,domain=app.touchnote.com
-@@||api.transcend.io/privacy/graphql$xmlhttprequest,domain=privacy.patreon.com
 @@||api.tv.sohu.com/mobile_user/device^$app=com.sohu.sohuvideo
 @@||api.us1.exponea.com^$script,xmlhttprequest,domain=walmartpetrx.com
 @@||api.vigo.ru^*/network_status?$object,xmlhttprequest,domain=vk.com
@@ -1809,6 +1808,7 @@
 @@||kaixin001.com/ad/
 @@||kameleoon.com/geolocation.gif$domain=welt.de
 @@||kameleoon.com/ip.gif$domain=welt.de
+@@||kameleoon.eu/images/$image,domain=welt.de
 @@||kameleoon.eu/ip.gif$domain=welt.de
 @@||kameleoon.eu/kameleoon.js$domain=welt.de
 @@||kanalfrederikshavn.dk^*/jquery.openx.js?
