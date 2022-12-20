@@ -1,6 +1,6 @@
 ! Title: Allowlist
-! Version: 2022-12-20 18:12:46（北京时间） 
-! Total count: 3161
+! Version: 2022-12-21 06:11:00（北京时间） 
+! Total count: 3160
 @@$generichide,domain=heapfiles.com|vidoza.co|vidoza.net
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
 @@-ds.metric.gstatic.com^
@@ -869,14 +869,14 @@
 @@||cdn.plyvdo.live/scripts/$script
 @@||cdn.rozetka.com.ua^|
 @@||cdn.segment.com/analytics-next/
-@@||cdn.segment.com/analytics.js/$script,domain=app.cryptotrader.tax|driversed.com|fender.com|finerdesk.com|givingassistant.org|inxeption.io|my.foxnews.com|reuters.com
+@@||cdn.segment.com/analytics.js/$script,domain=app.cryptotrader.tax|driversed.com|fender.com|finerdesk.com|foxbusiness.com|foxnews.com|givingassistant.org|inxeption.io|reuters.com
 @@||cdn.segment.com/next-integrations/integrations/
 @@||cdn.segment.com/v1/projects/
 @@||cdn.segmentify.com^$script,domain=gratis.com
 @@||cdn.smartclip-services.com^$script,domain=cerebriti.com
+@@||cdn.staticfile.org^$script,domain=00ksw.com|147xiaoshuo.com|31xiaoshuo.com|biququ.info|feisucn.net|txtnovel.today|yushubo.com|ziyouge.top
 @@||cdn.staticfile.org^$script,domain=00ksw.com|147xiaoshuo.com|31xs.org|31xsxs.com|35xs.org|biquge18.com|biququ.info|manhuadui.com|qihaoqihao.com|rijutv.com|tsxsw.net|xbiqugexsw.com|xx31xs.org|ziyouge.com
 @@||cdn.staticfile.org^$script,domain=dybee.tv
-@@||cdn.staticfile.org^$script,domain=txtnovel.today|00ksw.com|147xiaoshuo.com|31xiaoshuo.com|biququ.info|feisucn.net|yushubo.com|ziyouge.top
 @@||cdn.treasuredata.com/sdk/$script,domain=retty.me
 @@||cdn.trustcommander.net/privacy$script,domain=tf1.fr
 @@||cdn.vidoza.co/js/$script,domain=heapfiles.com|vidoza.co|vidoza.net
@@ -1785,7 +1785,6 @@
 @@||js.monitor.azure.com/scripts/$script,domain=microsoft.com
 @@||js.monitor.azure.com^|
 @@||js.sentry-cdn.com^$script,domain=book.dmm.com|interacty.me|jobs.ch|pizzahut.com.au
-@@||js.taplytics.com/jssdk/$domain=foxnews.com
 @@||js.tv.itc.cn/gg.seed.js
 @@||jscssfunny.com/fe/appcreator/public/img/ad_img.$domain=flat-ads.com
 @@||jsdelivr.net/combine/npm/$domain=ulifestyle.com.hk
