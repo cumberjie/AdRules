@@ -1,5 +1,5 @@
 ! Title: Allowlist
-! Version: 2022-12-22 18:12:28（北京时间） 
+! Version: 2022-12-23 06:10:46（北京时间） 
 ! Total count: 3161
 @@$generichide,domain=heapfiles.com|vidoza.co|vidoza.net
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
@@ -519,7 +519,7 @@
 @@||allabout.co.jp/mtx_cnt.js$script,~third-party
 @@||almayadeen.net/Content/VideoJS/js/videoPlayer/VideoAds.js$script,~third-party
 @@||alphaapi.brandify.com/rest/clicktrack$xmlhttprequest,domain=traderjoes.com
-@@||amazon-adsystem.com/aax2/apstag.js$domain=accuweather.com|barstoolsports.com|blastingnews.com|cnn.com|exomashomepage.com|familyhandyman.com|foxbusiness.com|gamingbible.co.uk|history.com|keloland.com|radio.com|rd.com|tasteofhome.com|thehealthy.com|time.com|wboy.com|wkrn.com|wlns.com|wvnstv.com
+@@||amazon-adsystem.com/aax2/apstag.js$domain=accuweather.com|barstoolsports.com|blastingnews.com|cnn.com|exomashomepage.com|familyhandyman.com|foxbusiness.com|gamingbible.co.uk|history.com|inquirer.com|keloland.com|radio.com|rd.com|tasteofhome.com|thehealthy.com|time.com|wboy.com|wkrn.com|wlns.com|wvnstv.com
 @@||amazon-adsystem.com/aax2/apstag.js$script,domain=programme-tv.net
 @@||amazon-adsystem.com/e/cm?$document,subdocument,domain=affiliate-program.amazon.co.uk|affiliate-program.amazon.com|affiliate-program.amazon.in|affiliate.amazon.co.jp|afiliados.amazon.es|associados.amazon.com.br|associates.amazon.ca|associates.amazon.cn|partenaires.amazon.fr|partnernet.amazon.de|programma-affiliazione.amazon.it
 @@||amazon-adsystem.com/e/cm?$subdocument,domain=atcoder.jp
@@ -1295,7 +1295,7 @@
 @@||fangcloud.com^$generichide
 @@||fast.appcues.com^$script,domain=initial.inc
 @@||fast.appcues.com^$script,domain=static.abcmouse.com
-@@||fast.fonts.net/jsapi/core/mt.js$script,domain=gables.com|itsolutions-inc.com
+@@||fast.fonts.net/jsapi/core/mt.js$script,domain=gables.com|itsolutions-inc.com|senate.gov
 @@||fastcontentdelivery.com^$script,domain=flashx.to|flashx.tv
 @@||fastmail.com^$generichide
 @@||fastwhitecat.com/wp-content/plugins/duracelltomi-google-tag-manager/$script,domain=fastwhitecat.com
