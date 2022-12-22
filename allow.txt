@@ -1,6 +1,6 @@
 ! Title: Allowlist
-! Version: 2022-12-22 06:10:55（北京时间） 
-! Total count: 3163
+! Version: 2022-12-22 18:12:28（北京时间） 
+! Total count: 3161
 @@$generichide,domain=heapfiles.com|vidoza.co|vidoza.net
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
 @@-ds.metric.gstatic.com^
@@ -2101,7 +2101,6 @@
 @@||newrelic.com/nr-*.min.js$domain=surveymonkey.co.uk|surveymonkey.com|surveymonkey.de|surveymonkey.ru
 @@||newrelic.com/public/charts/$subdocument,xmlhttprequest
 @@||news.u17i.com/advert/
-@@||news24.jp/ad-navi/$domain=search.news24.jp
 @@||newsmth.net/nForum/*/ADAgent_
 @@||newver.api.dedecms.com/index.php$subdocument
 @@||nextcloud.com/remote.php/$~third-party,xmlhttprequest
@@ -2140,7 +2139,6 @@
 @@||ntou.edu.tw/bin/showads.
 @@||ntu.edu.tw/modules/banner.php
 @@||ntust.edu.tw/bin/showads.
-@@||ntv.co.jp/ad-navi/$domain=search.news24.jp
 @@||ntv.io/serve/load.js$domain=mcclatchydc.com
 @@||nvidia.cn^*-300x250-
 @@||nyt.com/analytics/json-$script,domain=nytimes.com
