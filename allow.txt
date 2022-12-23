@@ -1,6 +1,6 @@
 ! Title: Allowlist
-! Version: 2022-12-23 18:12:22（北京时间） 
-! Total count: 3161
+! Version: 2022-12-24 06:10:35（北京时间） 
+! Total count: 3162
 @@$generichide,domain=heapfiles.com|vidoza.co|vidoza.net
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
 @@-ds.metric.gstatic.com^
@@ -619,7 +619,7 @@
 @@||app.appsflyer.com^|
 @@||app.clarity.so^$~third-party
 @@||app.sushi.com/_next/static/chunks/pages/analytics$~third-party
-@@||appboycdn.com^*/appboy.min.js$script,domain=bakkt.com
+@@||appboycdn.com/web-sdk/$script,domain=magicseaweed.com
 @@||apple.com^$generichide
 @@||appledaily.com.hk/admedia/
 @@||appledaily.com.tw^*_ad_logo.
@@ -687,6 +687,7 @@
 @@||az.hp.transer.com/content/dam/isetan_mitsukoshi/advertise/$~third-party
 @@||az.hpcn.transer-cn.com/content/dam/isetan_mitsukoshi/advertise/$~third-party
 @@||azureedge.net/prod/smi/loader-config.json$domain=pressdemocrat.com
+@@||azureedge.net^*/analytics/eventtracking.js$script,domain=crimemapping.com
 @@||b-cloud.templatebank.com/js/gtag.js$~third-party
 @@||bagehd.com/iplookup.
 @@||baidu-taobao-av.com/js/home.js
