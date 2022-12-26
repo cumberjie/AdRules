@@ -1,6 +1,6 @@
 ! Title: Allowlist
-! Version: 2022-12-26 18:12:03（北京时间） 
-! Total count: 3160
+! Version: 2022-12-27 06:10:38（北京时间） 
+! Total count: 3162
 @@$generichide,domain=heapfiles.com|vidoza.co|vidoza.net
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
 @@-ds.metric.gstatic.com^
@@ -904,6 +904,7 @@
 @@||chasecdn.com^*/@ccb-blueanalytics/$script,domain=chase.com
 @@||chat.conveyhs.com/chatadapter/clickstream/clickstream.js$script
 @@||check.ddos-guard.net/check.js$script
+@@||check2.tsb.co.uk^|
 @@||cheshi-img.com/ad/csad_2019.js
 @@||chessfriends.com/js/live/GoogleAnalytics.js?$~third-party
 @@||china.com/dianbo/adv1.xml
@@ -2123,6 +2124,7 @@
 @@||noaa.gov/maps/resources/scripts/ga.js$script,~third-party
 @@||noahedu.com/ad/$~third-party
 @@||noahedu.com/advertising/
+@@||nobook.com/open-interface/official-sensors.git/$script,~third-party
 @@||nobugin.com^$generichide
 @@||nocookie.net^*/tracking-opt-in.min.js$script,domain=fandom.com
 @@||nodkey.xyz^$genericblock,generichide
