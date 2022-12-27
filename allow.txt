@@ -1,6 +1,6 @@
 ! Title: Allowlist
-! Version: 2022-12-27 06:10:38（北京时间） 
-! Total count: 3162
+! Version: 2022-12-27 18:12:05（北京时间） 
+! Total count: 3163
 @@$generichide,domain=heapfiles.com|vidoza.co|vidoza.net
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
 @@-ds.metric.gstatic.com^
@@ -2825,6 +2825,7 @@
 @@||torrindex.net^$image,script,stylesheet,domain=thepiratebay.org
 @@||totheglory.im/pic/ttg_logo
 @@||townhall.com/resources/dist/js/prebid-pjmedia.js$script,domain=pjmedia.com
+@@||townwork.net/js/AppMeasurement.js$~third-party
 @@||toyota.com/recall/static/js/custom/facebookPixel.js$~third-party
 @@||tpdads.com/configs/bigleaguepolitics.js$script,domain=bigleaguepolitics.com
 @@||tq121.com.cn/j/ad/caoyu-min.js$domain=products.weather.com.cn
