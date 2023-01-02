@@ -1,6 +1,6 @@
 ! Title: Allowlist
-! Version: 2023-01-02 18:12:23（北京时间） 
-! Total count: 3165
+! Version: 2023-01-03 06:10:39（北京时间） 
+! Total count: 3163
 @@$generichide,domain=heapfiles.com|vidoza.co|vidoza.net
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
 @@-ds.metric.gstatic.com^
@@ -905,7 +905,6 @@
 @@||chasecdn.com^*/@ccb-blueanalytics/$script,domain=chase.com
 @@||chat.conveyhs.com/chatadapter/clickstream/clickstream.js$script
 @@||check.ddos-guard.net/check.js$script
-@@||check2.tsb.co.uk^|
 @@||cheshi-img.com/ad/csad_2019.js
 @@||chessfriends.com/js/live/GoogleAnalytics.js?$~third-party
 @@||china.com/dianbo/adv1.xml
@@ -1593,7 +1592,6 @@
 @@||gumtree.co.za/my/ads.html$~third-party
 @@||gunosy.co.jp/img/ad/$image,~third-party
 @@||gymnasedeburier.ch/themes/segment/js/$~third-party
-@@||h-sdk.online-metrix.net^|
 @@||haaretz.co.il/logger/p.gif?$image,xmlhttprequest
 @@||habibs.com.br/build/assets/js/tracking.js$domain=habibs.com.br
 @@||hackread.com/wp-content/uploads/$image,~third-party
@@ -1921,7 +1919,6 @@
 @@||logentries.com^|
 @@||logging.apache.org^$~third-party
 @@||logic-immo.com/lib/xiti/xiti.js$script,~third-party
-@@||login.eki-net.com^|
 @@||login.ingbank.pl^*/satelliteLib-$script
 @@||login.sendpulse.com^|
 @@||logmein.com/js/tracking.js$domain=logme.in|logmein.com
@@ -2992,6 +2989,7 @@
 @@||wavepc.pl/wp-content/*-500x100.png$image,~third-party
 @@||wazimo.com/engine/common/widgets/content/main.js$domain=showsnob.com
 @@||wcs.naver.com/m$image,domain=sooldamhwa.com
+@@||web-ads.pulse.weatherbug.net/api/ads/targeting/$domain=weatherbug.net
 @@||web.archive.org^$generichide
 @@||web.dev/patterns/web-vitals-$~third-party
 @@||web.telegram.org^$generichide
