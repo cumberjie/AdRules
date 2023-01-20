@@ -1,6 +1,6 @@
 ! Title: Allowlist
-! Version: 2023-01-20 18:13:14（北京时间） 
-! Total count: 3164
+! Version: 2023-01-21 06:11:21（北京时间） 
+! Total count: 3166
 @@$generichide,domain=heapfiles.com|vidoza.co|vidoza.net
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
 @@-ds.metric.gstatic.com^
@@ -365,7 +365,7 @@
 @@||adobedtm.com^*/mbox-contents-$script,domain=fcbarcelona.jp|sony.jp
 @@||adobedtm.com^*/s-code-$script
 @@||adobedtm.com^*/satellite-$script
-@@||adobedtm.com^*/satelliteLib-$script,domain=absa.co.za|ally.com|americanexpress.com|argos.co.uk|auspost.com.au|backcountry.com|bmw.com.au|collegeboard.org|costco.com|crackle.com|crave.ca|crimewatchdaily.com|directline.com|eonline.com|fcbarcelona.com|firststatesuper.com.au|godigit.com|hellobank.fr|hgtv.com|hrw.com|jeep.com|laredoute.co.uk|laredoute.com|lenovo.com|lowes.com|malaysiaairlines.com|mastercard.us|mathworks.com|monoprice.com|nbcnews.com|nfl.com|nflgamepass.com|nofrills.ca|oprah.com|oracle.com|pnc.com|realtor.com|redbull.tv|repco.co.nz|searspartsdirect.com|shoppersdrugmart.ca|smooth.com.au|stuff.co.nz|subaru.com|telegraph.co.uk|timewarnercable.com|usanetwork.com|vanityfair.com|wired.com|wowway.net
+@@||adobedtm.com^*/satelliteLib-$script,domain=absa.co.za|ally.com|americanexpress.com|argos.co.uk|auspost.com.au|backcountry.com|bmw.com.au|collegeboard.org|costco.com|crackle.com|crave.ca|crimewatchdaily.com|directline.com|eonline.com|fcbarcelona.com|firststatesuper.com.au|godigit.com|hellobank.fr|hgtv.com|hrw.com|jeep.com|laredoute.co.uk|laredoute.com|lenovo.com|lowes.com|malaysiaairlines.com|mastercard.us|mathworks.com|monoprice.com|myaetnasupplemental.com|nbcnews.com|nfl.com|nflgamepass.com|nofrills.ca|oprah.com|oracle.com|pnc.com|realtor.com|redbull.tv|repco.co.nz|searspartsdirect.com|shoppersdrugmart.ca|smooth.com.au|stuff.co.nz|subaru.com|telegraph.co.uk|timewarnercable.com|usanetwork.com|vanityfair.com|wired.com|wowway.net
 @@||adobedtm.com^*/satelliteLib-$script,domain=ceair.com|fcbarcelona.cn
 @@||adobedtm.com^*/satelliteLib-$script,domain=conad.it|ilsole24ore.com|laredoute.it
 @@||adobedtm.com^*/satelliteLib-$script,domain=crackle.com.ar|crackle.com.ec|crackle.com.mx|crackle.com.pe|crackle.com.py|fcbarcelona.cat|fcbarcelona.es|laredoute.es|vtr.com
@@ -796,6 +796,7 @@
 @@||btgpactualdigital.com/digital/static/js/libraries/thirdparty/angulartics-google-analytics/
 @@||btsax.info^$generichide
 @@||bugsnag.com^$~third-party,domain=app.bugsnag.com
+@@||builder.io^$generichide
 @@||builder.lift.acquia.com/lift.js$script,domain=edwardjones.com
 @@||burt.io^$script,domain=gp.se
 @@||businessclick.ch/index.js$domain=finanzen.ch
@@ -1782,7 +1783,7 @@
 @@||js-agent.newrelic.com/nr-spa-$script,domain=kapwing.com
 @@||js.captcha-display.com/xhr_tag.js$script,domain=auth.garena.com
 @@||js.datadome.co/tags.js$script,domain=sso.garena.com
-@@||js.monitor.azure.com/scripts/$script,domain=microsoft.com
+@@||js.monitor.azure.com/scripts/$script,domain=microsoft.com|rubex.efilecabinet.net
 @@||js.monitor.azure.com^|
 @@||js.sentry-cdn.com^$script,domain=book.dmm.com|interacty.me|jobs.ch|pizzahut.com.au
 @@||js.tv.itc.cn/gg.seed.js
@@ -2211,6 +2212,7 @@
 @@||ozone.ru/assets/analytics.$script,~third-party
 @@||p.d.1emn.com^$script,domain=hotair.com
 @@||p.jwpcdn.com^$script
+@@||p.typekit.net/p.css$stylesheet,domain=browserstack.com|bungie.net
 @@||p11.techlab-cdn.com^$domain=wizzair.com
 @@||packagetrackr.com/api/v1/track/detecting.json$~third-party
 @@||pagead.l.doubleclick.net^|
@@ -2832,7 +2834,7 @@
 @@||tpdads.com/configs/bigleaguepolitics.js$script,domain=bigleaguepolitics.com
 @@||tq121.com.cn/j/ad/caoyu-min.js$domain=products.weather.com.cn
 @@||tra.scds.pmdstatic.net/advertising-core/$domain=voici.fr
-@@||tra.scds.pmdstatic.net/sourcepoint/$domain=businessinsider.fr|voici.fr
+@@||tra.scds.pmdstatic.net/sourcepoint/$domain=businessinsider.fr|capital.fr|voici.fr
 @@||track.adform.net/serving/scripts/trackpoint$script,domain=sky.it
 @@||track.atom-data.io/|$xmlhttprequest,domain=globes.co.il
 @@||track.nzz.ch^$script,~third-party
