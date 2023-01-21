@@ -1,6 +1,6 @@
 ! Title: Allowlist
-! Version: 2023-01-21 18:11:14（北京时间） 
-! Total count: 3166
+! Version: 2023-01-22 06:10:09（北京时间） 
+! Total count: 3167
 @@$generichide,domain=heapfiles.com|vidoza.co|vidoza.net
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
 @@-ds.metric.gstatic.com^
@@ -382,6 +382,7 @@
 @@||adobetag.com/d2/telecomitalia/live/Aggregato119TIM.js$domain=tim.it
 @@||adoi.cn^$generichide
 @@||adroll.com^$xmlhttprequest,domain=adroll.com
+@@||ads-i.org/images/ads3.jpg$~third-party
 @@||ads-twitter.com/oct.js$domain=jp.square-enix.com
 @@||ads-twitter.com/uwt.js$domain=factory.pixiv.net
 @@||ads.adthrive.com/builds/$script,domain=www.mediaite.com
