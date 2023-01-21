@@ -1,5 +1,5 @@
 ! Title: Allowlist
-! Version: 2023-01-21 06:11:21（北京时间） 
+! Version: 2023-01-21 18:11:14（北京时间） 
 ! Total count: 3166
 @@$generichide,domain=heapfiles.com|vidoza.co|vidoza.net
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
@@ -1158,7 +1158,7 @@
 @@||dmm.com^*/display_ad.js$~third-party
 @@||dmp.im-apps.net/pms/*/pmt.js$domain=zakzak.co.jp
 @@||dnbus.com.tw/AD/tab_route.html
-@@||dnsgom.net/public/$domain=jingwubook.com
+@@||dnsgom.net/public/$domain=jingwubook.com|xwdsc.com
 @@||dnsleak.privateinternetaccess.com^$xmlhttprequest,domain=dnsleak.com
 @@||dnspod.cn/static/common/js/analytics.js
 @@||doc110.com^*/ad.css?$stylesheet
