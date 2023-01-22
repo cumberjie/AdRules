@@ -1,6 +1,6 @@
 ! Title: Allowlist
-! Version: 2023-01-22 18:11:28（北京时间） 
-! Total count: 3170
+! Version: 2023-01-23 06:10:26（北京时间） 
+! Total count: 3171
 @@$generichide,domain=heapfiles.com|vidoza.co|vidoza.net
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
 @@-ds.metric.gstatic.com^
@@ -587,7 +587,7 @@
 @@||api.cxense.com/persisted/execute$script,domain=nippon.com
 @@||api.cxense.com/public/widget/$domain=tn.com.ar
 @@||api.cxense.com/public/widget/data$script,xmlhttprequest,domain=businessinsider.de|computerbild.de|handelsblatt.com
-@@||api.cxense.com/public/widget/data$script,xmlhttprequest,domain=cyclestyle.net|friday.gold|friday.kodansha.co.jp|mainichi.jp|nippon.com|wpb.shueisha.co.jp
+@@||api.cxense.com/public/widget/data$script,xmlhttprequest,domain=cyclestyle.net|friday.gold|friday.kodansha.co.jp|mainichi.jp|nippon.com|shueisha.co.jp
 @@||api.cxense.com/public/widget/data?$domain=bizjournals.com|marketwatch.com|wsj.com
 @@||api.cxense.com/public/widget/data?json=$script,domain=ksml.fi|savonsanomat.fi
 @@||api.dmcdn.net/pxl/advertisers/$domain=dailymotion.com
@@ -1070,7 +1070,7 @@
 @@||cxense.com/cx.cce.js$domain=mainichi.jp|tarzanweb.jp|wpb.shueisha.co.jp
 @@||cxense.com/cx.cce.js$script,domain=handelsblatt.com
 @@||cxense.com/cx.js$domain=businessinsider.de|computerbild.de|handelsblatt.com
-@@||cxense.com/cx.js$domain=cyclestyle.net|mainichi.jp|nippon.com|tarzanweb.jp|tv-tokyo.co.jp|wpb.shueisha.co.jp
+@@||cxense.com/cx.js$domain=cyclestyle.net|mainichi.jp|nippon.com|shueisha.co.jp|tarzanweb.jp|tv-tokyo.co.jp
 @@||cy.com/hz/*/ad
 @@||cy.com^$generichide
 @@||d.tailtarget.com/profiles.js$domain=superesportes.com.br
@@ -1501,6 +1501,7 @@
 @@||google.com/images/integrations/$image,~third-party
 @@||google.com/payments/*/adwords.$document,subdocument
 @@||google.com/recaptcha/$csp,subdocument
+@@||google.com/recaptcha/$subdocument,domain=s2dfree.cc|s2dfree.de|s2dfree.is|s2dfree.nl|s2dfree.to|soap2day.ac|soap2day.mx|soap2day.sh|soap2day.to
 @@||google.com/recaptcha/api.js
 @@||google.com/recaptcha/enterprise.js
 @@||google.com/recaptcha/enterprise/
@@ -1618,7 +1619,7 @@
 @@||hcaptcha.com^*/api.js
 @@||hdsky.net/ad/down.png
 @@||hdslb.com/bfs/cm/cm-sdk/static/js/bili-collect.js
-@@||hdslb.com/bfs/seed/log/report/log-reporter.js$domain=message.bilibili.com
+@@||hdslb.com/bfs/seed/log/report/log-reporter.js
 @@||health.halodoc.com^|
 @@||healthgateway.gov.bc.ca/snowplow.js$~third-party
 @@||healthyadvertising.es^$~third-party
