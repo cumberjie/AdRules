@@ -1,6 +1,6 @@
 ! Title: Allowlist
-! Version: 2023-01-22 06:10:09（北京时间） 
-! Total count: 3167
+! Version: 2023-01-22 18:11:28（北京时间） 
+! Total count: 3170
 @@$generichide,domain=heapfiles.com|vidoza.co|vidoza.net
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
 @@-ds.metric.gstatic.com^
@@ -277,6 +277,7 @@
 @@||abchina.com^*ad
 @@||abcnews.com/assets/js/prebid.min.js$~third-party
 @@||abcnews.com/assets/player/$script,~third-party
+@@||about.smartnews.com/ja/wp-content/assets/img/advertisers/ad_$~third-party
 @@||ac.ebis.ne.jp^|
 @@||acb.com/javascripts/jv_feeder_stats.js
 @@||accounts.google.com/adwords/$domain=accounts.google.com
@@ -330,6 +331,7 @@
 @@||adf.ly/static/image/ad_top_bg2.png?
 @@||adf.ly^$generichide
 @@||adfox.ru^$~third-party
+@@||adfurikun.jp/adfurikun/images/$~third-party
 @@||adguard.com/public/Adguard/Blog/Android/comparison/*_ads_$image,domain=adguard.com
 @@||adidasoriginals-lookbook.com.tw/js/adtracking.js
 @@||adinsurance.xyz^$generichide
@@ -1075,6 +1077,7 @@
 @@||d1-dm.com^$generichide
 @@||d1igp3oop3iho5.cloudfront.net^*/zaius.js$script,domain=subscriptions.management
 @@||d1km2unb2600pw.cloudfront.net/assets/tracking-history-popup-$script,domain=collectplus.yodel.co.uk
+@@||d2r1yp2w7bby2u.cloudfront.net^$domain=sonyliv.com
 @@||d2wy8f7a9ursnm.cloudfront.net/v4/bugsnag.min.js$script,domain=einthusan.tv|tlk.io
 @@||d2wy8f7a9ursnm.cloudfront.net^$script,domain=staples.ca
 @@||d2zv6vzmaqao5e.cloudfront.net/css/foodticket/*_google_analytics.js
