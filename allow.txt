@@ -1,6 +1,6 @@
 ! Title: Allowlist
-! Version: 2023-01-23 18:12:51（北京时间） 
-! Total count: 3171
+! Version: 2023-01-24 06:10:52（北京时间） 
+! Total count: 3172
 @@$generichide,domain=heapfiles.com|vidoza.co|vidoza.net
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
 @@-ds.metric.gstatic.com^
@@ -1802,6 +1802,7 @@
 @@||jsjiami.com^$generichide
 @@||json.geoiplookup.io/?callback=$script,domain=chilepeajes.cl
 @@||jsonip.com/?callback=$script,domain=pagtel.com.br
+@@||jsonip.com/?format=json$xmlhttprequest,domain=cyberpower.com
 @@||jsqsjn.com^$script,domain=fyxfcw.com
 @@||jsrdn.com/s/$script,domain=distro.tv
 @@||jswenhui.com^*/ad/
