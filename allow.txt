@@ -1,6 +1,6 @@
 ! Title: Allowlist
-! Version: 2023-01-24 18:12:16（北京时间） 
-! Total count: 3172
+! Version: 2023-01-25 06:11:00（北京时间） 
+! Total count: 3174
 @@$generichide,domain=heapfiles.com|vidoza.co|vidoza.net
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
 @@-ds.metric.gstatic.com^
@@ -216,6 +216,7 @@
 @@||4channel.org/adv/$image,xmlhttprequest,domain=4channel.org
 @@||4gtv.tv/4gtv/Data/GetAD.ashx
 @@||4horlover.com^$generichide
+@@||519.best^$generichide
 @@||51hanhua.com/2013/brtxt.js
 @@||51img1.com/??*/adsys.
 @@||51jobcdn.com/im/images/ads/$domain=51job.com
@@ -592,6 +593,7 @@
 @@||api.cxense.com/public/widget/data?json=$script,domain=ksml.fi|savonsanomat.fi
 @@||api.dmcdn.net/pxl/advertisers/$domain=dailymotion.com
 @@||api.docodoco.jp^|
+@@||api.enthusiastgaming.net^$xmlhttprequest,domain=diep.io
 @@||api.friends.ponta.jp/api/$~third-party
 @@||api.getmakerlog.com/discussions/$~third-party,websocket,xmlhttprequest
 @@||api.ipify.org^$script,domain=medexpress.com|right-on.co.jp
