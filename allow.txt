@@ -1,6 +1,6 @@
 ! Title: Allowlist
-! Version: 2023-01-25 18:12:26（北京时间） 
-! Total count: 3176
+! Version: 2023-01-26 06:11:24（北京时间） 
+! Total count: 3174
 @@$generichide,domain=heapfiles.com|vidoza.co|vidoza.net
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
 @@-ds.metric.gstatic.com^
@@ -3166,8 +3166,6 @@
 @@||zeit.de/cre-*/tracking/tracking.js$domain=zeit.de
 @@||zergnet.com^$image,script,stylesheet,domain=ci.craveonline.com|ci.gamerevolution.com|ci.momtastic.com|ci.thefashionspot.com|ci.totallyher.com
 @@||zhaiyd5.com^$script,domain=louzhong8.com|miwens.com
-@@||zhaopin.cn/js/app/popShow.
-@@||zhaopin.cn^*/adbox_
 @@||zinro.net/m/end.php?$~third-party
 @@||zinro.net/m/log.php
 @@||zjjcxy.cn^*/ad.css?$stylesheet
