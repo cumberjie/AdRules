@@ -1,6 +1,6 @@
 ! Title: Allowlist
-! Version: 2023-02-01 18:13:19（北京时间） 
-! Total count: 3180
+! Version: 2023-02-02 06:11:22（北京时间） 
+! Total count: 3173
 @@$generichide,domain=heapfiles.com|vidoza.co|vidoza.net
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
 @@-ds.metric.gstatic.com^
@@ -1095,13 +1095,9 @@
 @@||daoju.qq.com/time/*/js/ad/
 @@||darmstadt.ui-traffic.de/mobile/webapp/bower_components/heatmap.js$domain=darmstadt.ui-traffic.de
 @@||dashboard.adskeeper.co.uk^$domain=dashboard.adskeeper.co.uk
-@@||dashboard.idealmedia.com^$~third-party
-@@||dashboard.lentainform.com^$~third-party
-@@||dashboard.marketgid.com^$~third-party
 @@||dashboard.mgid.com^$popup
 @@||dashboard.mgid.com^$~third-party
 @@||dashboard.streetlib.com/_next/static/chunks/pages/$~third-party
-@@||dashboard.tovarro.com^$~third-party
 @@||dashboard.unity.com/dist/udash/app/assets/services/analytics/$domain=dashboard.unity.com|dashboard.unity3d.com
 @@||data.adxcel-ec2.com^$image,domain=laguardia.edu
 @@||datadoghq-browser-agent.com/datadog-$script,domain=bbcgoodfood.com|dashboard.getdriven.app|usa.experian.com
@@ -1167,7 +1163,6 @@
 @@||dmp.im-apps.net/pms/*/pmt.js$domain=zakzak.co.jp
 @@||dnbus.com.tw/AD/tab_route.html
 @@||dnsgom.net/public/$domain=jingwubook.com|xwdsc.com
-@@||dnsleak.privateinternetaccess.com^$xmlhttprequest,domain=dnsleak.com
 @@||dnspod.cn/static/common/js/analytics.js
 @@||doc110.com^*/ad.css?$stylesheet
 @@||docodoco.jp^*/docodoco?key=$script,domain=jrtours.co.jp
@@ -1288,7 +1283,6 @@
 @@||exoclick.com/iframe.php?idzone=*&size=468x60$domain=porn77.info
 @@||exosrv.com/video-slider.js$domain=xfreehd.com
 @@||experienceleague.adobe.com^$~third-party
-@@||experienceleague.corp.adobe.com^$~third-party
 @@||explainxkcd.com/wiki/images/$image,~third-party
 @@||exponential.com^*/tags.js$domain=yellowbridge.com
 @@||extreme-ip-lookup.com/json/$xmlhttprequest,domain=skaitv.gr
@@ -2223,7 +2217,7 @@
 @@||ozone.ru/assets/analytics.$script,~third-party
 @@||p.d.1emn.com^$script,domain=hotair.com
 @@||p.jwpcdn.com^$script
-@@||p.typekit.net/p.css$stylesheet,domain=browserstack.com|bungie.net|robertsspaceindustries.com
+@@||p.typekit.net/p.css$stylesheet,domain=browserstack.com|bungie.net|business.untappd.com|robertsspaceindustries.com
 @@||p11.techlab-cdn.com^$domain=wizzair.com
 @@||packagetrackr.com/api/v1/track/detecting.json$~third-party
 @@||pagead.l.doubleclick.net^|
@@ -2784,7 +2778,6 @@
 @@||techadvisor.com/cmsdata/$image,~third-party
 @@||technical-service.net^$xmlhttprequest,domain=n-tv.de|rtl.de|vip.de
 @@||techrepublic.com^*/dw-tracking-1.0.js$~third-party
-@@||television-envivo.com^$generichide
 @@||tennispro.eu/min/?$script,~third-party
 @@||tenpay.com/v2/res/pub/cps/main/bottom_ad.js
 @@||tenpay.com^*?ADTAG=
@@ -2965,8 +2958,8 @@
 @@||vidible.tv/stage/$media,object,other
 @@||vidible.tv^*/ComScore.StreamSense.js
 @@||vidible.tv^*/ComScore.Viewability.js
-@@||vidtodo.com^$image,script,stylesheet,xmlhttprequest,domain=vidtodo.com|vidtodoo.com
-@@||vidtodoo.com^$image,script,stylesheet,xmlhttprequest,domain=vidtodo.com|vidtodoo.com
+@@||vidtodo.com^$image,script,stylesheet,xmlhttprequest,domain=vidtodo.com
+@@||vidtodoo.com^$image,script,stylesheet,xmlhttprequest,domain=vidtodo.com
 @@||vipstatic.com/img/share/blank.png
 @@||visibleoffers.com/js/third-party/angulartics-google-analytics/dist/angulartics-ga.min.js$script,~third-party
 @@||visualwebsiteoptimizer.com/deploy/js_visitor_settings.php$script,domain=gre.magoosh.com
