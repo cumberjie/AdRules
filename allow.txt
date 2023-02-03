@@ -1,6 +1,6 @@
 ! Title: Allowlist
-! Version: 2023-02-03 06:11:16（北京时间） 
-! Total count: 3172
+! Version: 2023-02-03 18:12:38（北京时间） 
+! Total count: 3173
 @@$generichide,domain=heapfiles.com|vidoza.co|vidoza.net
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
 @@-ds.metric.gstatic.com^
@@ -261,6 +261,7 @@
 @@||95306.cn/public/images/ad/
 @@||95504.net/Advertisement_
 @@||95599.cn^*ad
+@@||99mk.info/js/
 @@||99wbwc.com^$generichide
 @@||99ybcc.com^$generichide
 @@||9cdn.net^*/js/tracking/$script,domain=nine.com.au
@@ -1789,7 +1790,7 @@
 @@||js.datadome.co/tags.js$script,domain=sso.garena.com
 @@||js.monitor.azure.com/scripts/$script,domain=microsoft.com|rubex.efilecabinet.net
 @@||js.monitor.azure.com^|
-@@||js.sentry-cdn.com^$script,domain=book.dmm.com|interacty.me|jobs.ch|pizzahut.com.au
+@@||js.sentry-cdn.com^$script,domain=app.homebinder.com|book.dmm.com|interacty.me|jobs.ch|pizzahut.com.au
 @@||js.tv.itc.cn/gg.seed.js
 @@||jscssfunny.com/fe/appcreator/public/img/ad_img.$domain=flat-ads.com
 @@||jsdelivr.net/combine/npm/$domain=ulifestyle.com.hk
