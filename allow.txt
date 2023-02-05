@@ -1,6 +1,6 @@
 ! Title: Allowlist
-! Version: 2023-02-05 06:10:27（北京时间） 
-! Total count: 3174
+! Version: 2023-02-05 18:11:18（北京时间） 
+! Total count: 3175
 @@$generichide,domain=heapfiles.com|vidoza.co|vidoza.net
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
 @@-ds.metric.gstatic.com^
@@ -1451,6 +1451,7 @@
 @@||global-uploads.webflow.com/*_dimensions-$image,domain=dimensions.com
 @@||glokom.club/adv/ads/popunder.js$script
 @@||gls-info.nl/Scripts/tracking.js$~third-party
+@@||gls-us.com/api/tracking/$~third-party
 @@||gminazamosc.pl/wp-content/plugins/wp-google-analytics-events/js/ga-scroll-events.js?
 @@||gn-web-assets.api.bbc.com/bbcdotcom/assets/$script,domain=bbc.co.uk
 @@||go.com/b/ss/$image
