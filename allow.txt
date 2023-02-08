@@ -1,6 +1,6 @@
 ! Title: Allowlist
-! Version: 2023-02-08 18:14:12（北京时间） 
-! Total count: 3179
+! Version: 2023-02-09 06:11:33（北京时间） 
+! Total count: 3180
 @@$generichide,domain=heapfiles.com|vidoza.co|vidoza.net
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
 @@-ds.metric.gstatic.com^
@@ -2280,7 +2280,6 @@
 @@||pepperjamnetwork.com/banners/$image,domain=extrarebates.com
 @@||petrochina.com.cn/advertisement_
 @@||pg-wuming.com^$generichide
-@@||pgcm58.com/files/h5/app.js
 @@||phatcatmedia.net/images/ad.jpg$image,domain=allsonicgames.net
 @@||photofunia.com/effects/$image,~third-party
 @@||photopea.com/ads.js
@@ -2460,6 +2459,7 @@
 @@||retailmenot.com/__wsm.gif$ping,~third-party,xmlhttprequest
 @@||rfksrv.com/rfk/js/*/init.js$script,domain=riteaid.com
 @@||right.com.cn/forum/*300*250$image
+@@||rltdxt.com/files/h5/app.js
 @@||rmdown.com/ads.js
 @@||rojadirecta.me^$generichide
 @@||rollbar.com^*/rollbar.min.js$domain=rollingstone.com|variety.com|wwd.com
@@ -2523,6 +2523,7 @@
 @@||script.ownpage.fr/v1/ownpage.js?$script,domain=lci.fr
 @@||scyts.com^$generichide
 @@||sdc.pingan.com^$~image
+@@||sdk.privacy-center.org^$domain=recup.paylib.fr
 @@||sdltutorials.com/Data/Ads/AppStateBanner.jpg$~third-party
 @@||sealserver.trustwave.com/seal.js$domain=zoom.us
 @@||search.brave.com/search$xmlhttprequest
