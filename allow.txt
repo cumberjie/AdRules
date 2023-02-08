@@ -1,5 +1,5 @@
 ! Title: Allowlist
-! Version: 2023-02-08 06:11:29（北京时间） 
+! Version: 2023-02-08 18:14:12（北京时间） 
 ! Total count: 3179
 @@$generichide,domain=heapfiles.com|vidoza.co|vidoza.net
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
@@ -222,6 +222,7 @@
 @@||520call.me/ad/ad_1.php
 @@||520call.me/jspopunder.
 @@||520call.me^$generichide
+@@||520cc.cc/ad/$script
 @@||520cc.cc/ad/ad_1.php
 @@||520cc.cc/api/jspopunder.
 @@||520cc.cc/jspopunder.
@@ -2958,7 +2959,6 @@
 @@||vefir.mms.is^*/static/analytics.js$~third-party
 @@||velet.jp/images/adv/$image,~third-party
 @@||video.520cc.cc/ad.php|
-@@||video.520cc.cc/ad/$script
 @@||video.520cc.cc^$generichide
 @@||video.qq.com^*&refer=http$script
 @@||vidible.tv/prod/$media,object,other
