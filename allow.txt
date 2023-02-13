@@ -1,6 +1,6 @@
 ! Title: Allowlist
-! Version: 2023-02-13 18:13:46（北京时间） 
-! Total count: 3183
+! Version: 2023-02-14 06:11:48（北京时间） 
+! Total count: 3184
 @@$generichide,domain=heapfiles.com|vidoza.co|vidoza.net
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
 @@-ds.metric.gstatic.com^
@@ -2220,6 +2220,7 @@
 @@||ovp.piksel.com/ipLookup.php$xmlhttprequest,domain=nhk.or.jp
 @@||ovp.piksel.tech/ipLookup.php$xmlhttprequest,domain=nhk.or.jp
 @@||oyster.com/wp-content/plugins/smartertravel-shared/assets/js/tracking.min.js$~third-party
+@@||ozabc.com^$generichide
 @@||ozone.ru/assets/analytics.$script,~third-party
 @@||p.d.1emn.com^$script,domain=hotair.com
 @@||p.jwpcdn.com^$script
