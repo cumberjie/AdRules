@@ -1,6 +1,6 @@
 ! Title: Allowlist
-! Version: 2023-02-14 06:11:48（北京时间） 
-! Total count: 3184
+! Version: 2023-02-14 18:13:42（北京时间） 
+! Total count: 3185
 @@$generichide,domain=heapfiles.com|vidoza.co|vidoza.net
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
 @@-ds.metric.gstatic.com^
@@ -1146,6 +1146,7 @@
 @@||disneyplus.com^$generichide
 @@||disneyplus.disney.co.jp/view/vendor/analytics/$~third-party
 @@||displayad.naver.com^$~third-party
+@@||disqus.com/embed/comments/$subdocument
 @@||ditiezu.com^*.php$subdocument
 @@||dizhi99.com^$generichide
 @@||dlh.net^$script,subdocument,domain=dlh.net
@@ -2062,7 +2063,7 @@
 @@||mozu.com^*/analytics.js$script,domain=acehardware.com
 @@||mozu.com^*/monetate.js$script,domain=acehardware.com
 @@||mparticle.com/js/v2/*/mparticle.js$script,domain=bk.com|cnbc.com|motortrendondemand.com
-@@||mpsnare.iesnare.com/snare.js$script,domain=power.fi
+@@||mpsnare.iesnare.com/snare.js$script,domain=power.fi|verkkokauppa.com
 @@||mpsnare.iesnare.com^$script,domain=citi.com|citibank.com|enmasse.com|equifax.ca|jbhifi.com.au|login.skype.com|princessauto.com|usbank.com|vitacost.com|westernunion.com
 @@||ms332.com^$generichide
 @@||msecnd.net/scripts/jsll-$domain=microsoft.com
