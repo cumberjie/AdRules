@@ -1,6 +1,6 @@
 ! Title: Allowlist
-! Version: 2023-02-15 06:11:35（北京时间） 
-! Total count: 3186
+! Version: 2023-02-15 18:13:28（北京时间） 
+! Total count: 3188
 @@$generichide,domain=heapfiles.com|vidoza.co|vidoza.net
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
 @@-ds.metric.gstatic.com^
@@ -618,10 +618,12 @@
 @@||apkpure.com^$generichide
 @@||apmebf.com/ad/$domain=betfair.com
 @@||app-advertise.zhihuishu.com^
+@@||app-cdn.minepi.com^|
 @@||app.adroll.com^$generichide
 @@||app.appsflyer.com^|
 @@||app.clarity.so^$~third-party
 @@||app.sushi.com/_next/static/chunks/pages/analytics$~third-party
+@@||app.veggly.net/plugins/cordova-plugin-admobpro/www/AdMob.js$script,~third-party
 @@||appboycdn.com/web-sdk/$script,domain=magicseaweed.com
 @@||apple.com^$generichide
 @@||appledaily.com.hk/admedia/
@@ -1204,7 +1206,7 @@
 @@||drive.google.com^$generichide
 @@||drivetrain.ai/drive/*/metrics/$~third-party
 @@||dropbox.com^$generichide
-@@||dropboxstatic.com/static/js/modules/clean/ux_analytics/$script,domain=dropbox.com
+@@||dropboxstatic.com/static/metaserver/static/js/ux_analytics/$script,domain=dropbox.com
 @@||dtp.tv3cloud.com/amc/beacon?$domain=telekomtvgo.hu
 @@||duckduckgo.com/?q=$generichide
 @@||duelmeta.com^$generichide
