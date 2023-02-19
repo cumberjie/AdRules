@@ -1,6 +1,6 @@
 ! Title: Allowlist
-! Version: 2023-02-19 18:12:10（北京时间） 
-! Total count: 3189
+! Version: 2023-02-20 06:11:00（北京时间） 
+! Total count: 3191
 @@$generichide,domain=heapfiles.com|vidoza.co|vidoza.net
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
 @@-ds.metric.gstatic.com^
@@ -836,6 +836,7 @@
 @@||captcha.su.baidu.com^
 @@||carandclassic.co.uk/images/free_advert/$image,~third-party
 @@||carexpert.com.tw/wp-content/plugins/like-box-pro/includes/javascript/front_end_js.js
+@@||caritas-international.de^*/analyticsmediator.js$domain=caritas-international.de
 @@||carsensor.net/usedcar/modules/clicklog_top_lp_revo.php$xmlhttprequest
 @@||cat.telia.no/gtm.js$script,domain=telia.no
 @@||catalogue.jbhifi.com.au^*/static/analytics.js$script,~third-party
@@ -2757,6 +2758,7 @@
 @@||taboola.com/libtrc/impl.$script,domain=businessinsider.com|insider.com
 @@||taboola.com^*/json?tim=$domain=sueddeutsche.de
 @@||tag.aticdn.net/583901/at.js$script,domain=tv5monde.com
+@@||tag.aticdn.net/piano-analytics.js$domain=yourstory.com
 @@||tag.aticdn.net^*/smarttag.js$domain=gouv.fr|mon.compteczam.fr
 @@||tag.aticdn.net^*/smarttag.js$domain=rte.ie|uktvplay.co.uk
 @@||tag.md-nx.com^$script,domain=weather.us
