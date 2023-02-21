@@ -1,9 +1,9 @@
 ! Title: Allowlist
-! Version: 2023-02-21 06:11:27（北京时间） 
-! Total count: 3192
+! Version: 2023-02-21 18:13:18（北京时间） 
+! Total count: 3191
 @@$generichide,domain=heapfiles.com|vidoza.co|vidoza.net
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
-@@-ds.metric.gstatic.com^
+@@-ds.metric.gstatic.com^|
 @@-social-bar.$domain=mobi.yahoo.com
 @@.adserver.$domain=litv.tv
 @@.com/ad.aspx|$domain=xdingdian.cc
@@ -430,7 +430,7 @@
 @@||ads.shopee.*/$popup
 @@||ads.spotify.com^$popup
 @@||ads.taboola.com^$popup
-@@||ads.tdbank.com^
+@@||ads.tdbank.com^|
 @@||ads.tiktok.com^$generichide
 @@||ads.tiktok.com^$popup
 @@||ads.tiktok.com^$~third-party
@@ -603,7 +603,6 @@
 @@||api.ipinfodb.com^$xmlhttprequest,domain=management30.com
 @@||api.ipstack.com/check$domain=blockfi.com|get-in.com|withpersona.com
 @@||api.ipstack.com^$domain=meteo365.es|ride.guru
-@@||api.nyda.pro^$websocket
 @@||api.paymentwall.com^$domain=adguard.com
 @@||api.perfops.net^$script,xmlhttprequest,domain=cdnperf.com|dnsperf.com
 @@||api.touchnote.io^$xmlhttprequest,domain=app.touchnote.com
@@ -1601,7 +1600,7 @@
 @@||guahao.cn/common/js/plugins/fingerprint.js
 @@||guancha.cn/ad/m_
 @@||guce.advertising.com/collectIdentifiers$~third-party
-@@||guce.advertising.com^
+@@||guce.advertising.com^|
 @@||guim.co.uk/uploader/$image,~third-party
 @@||gumtree.co.za/my/ads.html$~third-party
 @@||gunosy.co.jp/img/ad/$image,~third-party
@@ -1794,7 +1793,7 @@
 @@||jokerly.com/Okidak/vastChecker.htm$document,subdocument
 @@||joyk.com^$generichide
 @@||jpush.cn^$domain=jiguang.cn
-@@||js-agent.newrelic.com/nr-spa-$script,domain=kapwing.com
+@@||js-agent.newrelic.com^$domain=alliantcreditunion.com|kapwing.com
 @@||js.captcha-display.com/xhr_tag.js$script,domain=auth.garena.com
 @@||js.datadome.co/tags.js$script,domain=sso.garena.com
 @@||js.monitor.azure.com/scripts/$script,domain=microsoft.com|rubex.efilecabinet.net
@@ -1863,6 +1862,7 @@
 @@||kotaku.com/x-kinja-static/assets/new-client/adManager.$~third-party
 @@||krok8.com/wp-content/plugins/pageviews/pageviews.min.js$script,~third-party
 @@||kropka.onet.pl^*/onet.js$domain=tvnwarszawa.pl
+@@||ksapisrv.com/rest/wd/common/log/collect/
 @@||ksta.de/cre-1.0/tracking/call.js?$domain=ksta.de
 @@||ksta.de^*/api/tracking/service/ksta/templateclient.js$domain=ksta.de
 @@||ksta.de^*/tracking/tracking.js$domain=ksta.de
@@ -2643,7 +2643,6 @@
 @@||soufunimg.com/??*/fshare.
 @@||soufunimg.com/count/uvbforpc.js
 @@||sourcegraph.com^$generichide
-@@||sourcepoint.telegraph.co.uk^$~third-party,xmlhttprequest
 @@||sourcepointcmp.bloomberg.*/ccpa.js$script,domain=bloomberg.co.jp|bloomberg.com
 @@||sourcepointcmp.bloomberg.*/mms/get_site_data?$domain=bloomberg.co.jp|bloomberg.com
 @@||sozi.cn/images/ad/tj
