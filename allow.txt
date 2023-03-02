@@ -1,6 +1,6 @@
 ! Title: Allowlist
-! Version: 2023-03-02 06:11:33（北京时间） 
-! Total count: 3197
+! Version: 2023-03-02 18:13:23（北京时间） 
+! Total count: 3200
 @@$generichide,domain=heapfiles.com|vidoza.co|vidoza.net
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
 @@-ds.metric.gstatic.com^|
@@ -390,7 +390,10 @@
 @@||ads-i.org/images/ads3.jpg$~third-party
 @@||ads-twitter.com/oct.js$domain=jp.square-enix.com
 @@||ads-twitter.com/uwt.js$domain=factory.pixiv.net
+@@||ads.adthrive.com/api/$domain=packhacker.com
 @@||ads.adthrive.com/builds/$script,domain=www.mediaite.com
+@@||ads.adthrive.com/builds/core/*/js/adthrive.min.js$domain=packhacker.com
+@@||ads.adthrive.com/sites/$domain=packhacker.com
 @@||ads.adthrive.com/sites/$script,domain=www.mediaite.com
 @@||ads.alafish.cn^$~third-party
 @@||ads.amazon^$popup
