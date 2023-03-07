@@ -1,6 +1,6 @@
 ! Title: Allowlist
-! Version: 2023-03-07 18:13:45（北京时间） 
-! Total count: 3205
+! Version: 2023-03-08 06:12:01（北京时间） 
+! Total count: 3206
 @@$generichide,domain=heapfiles.com|vidoza.co|vidoza.net
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
 @@-ds.metric.gstatic.com^|
@@ -782,6 +782,7 @@
 @@||bloominc.jp/adtool/$~third-party
 @@||bluecare.express/js/tracking/$script,~third-party
 @@||blueconic.net/capitolbroadcasting.js$script,domain=wral.com
+@@||bluecore.com/triggermail.js$script,domain=fcpeuro.com
 @@||bluesky-soft.com/common/script/ga.js$script,~third-party
 @@||bnet.163.com^
 @@||boatwizard.com/ads_prebid.min.js$script,domain=boats.com
