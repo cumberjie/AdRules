@@ -1,6 +1,6 @@
 ! Title: Allowlist
-! Version: 2023-03-08 06:12:01（北京时间） 
-! Total count: 3206
+! Version: 2023-03-08 18:13:38（北京时间） 
+! Total count: 3207
 @@$generichide,domain=heapfiles.com|vidoza.co|vidoza.net
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
 @@-ds.metric.gstatic.com^|
@@ -1223,7 +1223,7 @@
 @@||dwstatic.com/b=amkit
 @@||dwstatic.com/b=amkit&f=*/adjoin.
 @@||dynamicyield.com/st$script,domain=gigasport.at|gigasport.ch|gigasport.de
-@@||dynamicyield.com/st?$script,domain=computeruniverse.net|croma.com|dreamcloudsleep.com|fendi.com|harborfreight.com|luisaviaroma.com|noelleeming.co.nz|thewarehouse.co.nz|zalora.com.my|zalora.com.ph|zalora.sg
+@@||dynamicyield.com/st?$script,domain=computeruniverse.net|croma.com|dreamcloudsleep.com|fendi.com|harborfreight.com|luisaviaroma.com|nectarsleep.com|noelleeming.co.nz|thewarehouse.co.nz|zalora.com.my|zalora.com.ph|zalora.sg
 @@||dz9qn8fh4jznm.cloudfront.net/script.js$script,domain=bostonglobe.com
 @@||e-stat.go.jp/modules/custom/retrieve/src/js/stat.js?$script,~third-party
 @@||e.cn.miaozhen.com/r/k=*=http
@@ -2501,6 +2501,7 @@
 @@||rumble.com/embedJS/$script,domain=usawatchdog.com
 @@||rumble.com/j/p/$script,domain=usawatchdog.com
 @@||runescape.wiki^$image,~third-party
+@@||ruralking.com^*/Creatuity_GoogleTagManager/$script,~third-party
 @@||ruten.com.tw/ahd/fetch_ad.php
 @@||ruten.com.tw/js/jquery.ruten.supertop_ad.js
 @@||s-microsoft.com/mscc/statics/$script,domain=microsoft.com
