@@ -1,6 +1,6 @@
 ! Title: Allowlist
-! Version: 2023-03-10 06:12:13（北京时间） 
-! Total count: 3209
+! Version: 2023-03-10 18:13:41（北京时间） 
+! Total count: 3210
 @@$generichide,domain=heapfiles.com|vidoza.co|vidoza.net
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
 @@-ds.metric.gstatic.com^|
@@ -1144,6 +1144,7 @@
 @@||dfdbz2tdq3k01.cloudfront.net/js/2.1.0/IbtRealTimeSJ/IbtRealTimeSJCore.js?$domain=social.economico.pt
 @@||dfdbz2tdq3k01.cloudfront.net/js/2.1.0/ortc.js$domain=social.economico.pt
 @@||dict.rambler.ru/fcgi-bin/$xmlhttprequest,domain=rambler.ru
+@@||dictionary.com/assets/standalone-analytics$~third-party
 @@||dictionary.search.yahoo.com/beacon/sc?&ajaxdd=tabsCard&
 @@||digiads.com.au/images/shared/misc/ad-disclaimer.gif
 @@||digiland.tw/advert.js
