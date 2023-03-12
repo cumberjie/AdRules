@@ -1,6 +1,6 @@
 ! Title: Allowlist
-! Version: 2023-03-12 06:10:18（北京时间） 
-! Total count: 3210
+! Version: 2023-03-12 18:11:29（北京时间） 
+! Total count: 3208
 @@$generichide,domain=heapfiles.com|vidoza.co|vidoza.net
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
 @@-ds.metric.gstatic.com^|
@@ -1095,7 +1095,6 @@
 @@||d1-dm.com^$generichide
 @@||d1igp3oop3iho5.cloudfront.net^*/zaius.js$script,domain=subscriptions.management
 @@||d1km2unb2600pw.cloudfront.net/assets/tracking-history-popup-$script,domain=collectplus.yodel.co.uk
-@@||d26opx5dl8t69i.cloudfront.net/js/reflektion.js$script,domain=jdsports.com|kegworks.com
 @@||d2r1yp2w7bby2u.cloudfront.net^$domain=sonyliv.com
 @@||d2wy8f7a9ursnm.cloudfront.net/v4/bugsnag.min.js$script,domain=einthusan.tv|tlk.io
 @@||d2wy8f7a9ursnm.cloudfront.net^$script,domain=staples.ca
@@ -3094,7 +3093,6 @@
 @@||wup-7b4df495.santander.cl^|
 @@||wuyong.fun^$generichide
 @@||wuyou.com.cn/Js/ad.js
-@@||www-cultofmac-com.ezoic.net^$domain=cultofmac.com
 @@||www.avtbf.com/*.css$domain=avtbf.com
 @@||www.bilibili.com/html/iframemessage.html
 @@||www.facebook.com/ads/$generichide
