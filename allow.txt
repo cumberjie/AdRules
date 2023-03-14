@@ -1,6 +1,6 @@
 ! Title: Allowlist
-! Version: 2023-03-14 18:15:01（北京时间） 
-! Total count: 3210
+! Version: 2023-03-15 06:11:10（北京时间） 
+! Total count: 3211
 @@$generichide,domain=heapfiles.com|vidoza.co|vidoza.net
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
 @@-ds.metric.gstatic.com^|
@@ -2386,6 +2386,7 @@
 @@||promo.gramedia.com^|
 @@||promo.zendesk.com^$xmlhttprequest,domain=promo.com
 @@||proto2ad.durasite.net^|
+@@||proxy.openathens.net^*/html/static/analytics.js$domain=openathens.net|openu.ac.il
 @@||przegladpiaseczynski.pl/wp-content/plugins/wppas/$~third-party
 @@||przegladpiaseczynski.pl/wp-content/uploads/*-300x250-$image,~third-party
 @@||ps.w.org/google-analytics-dashboard-for-wp/assets/
