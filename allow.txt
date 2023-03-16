@@ -1,6 +1,6 @@
 ! Title: Allowlist
-! Version: 2023-03-16 18:13:03（北京时间） 
-! Total count: 3211
+! Version: 2023-03-17 06:11:17（北京时间） 
+! Total count: 3212
 @@$generichide,domain=heapfiles.com|vidoza.co|vidoza.net
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
 @@-ds.metric.gstatic.com^|
@@ -847,6 +847,7 @@
 @@||carsensor.net/usedcar/modules/clicklog_top_lp_revo.php$xmlhttprequest
 @@||cat.telia.no/gtm.js$script,domain=telia.no
 @@||catalogue.jbhifi.com.au^*/static/analytics.js$script,~third-party
+@@||catchup.thisisdax.com^|
 @@||cbjs.baidu.com/js/m.js$domain=fxpan.com|iyingdi.com|pic.tiexue.net
 @@||cbs.com^$generichide
 @@||cbsi.com/dist/optanon.js$script,domain=cbsnews.com|zdnet.com
