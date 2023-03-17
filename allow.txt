@@ -1,5 +1,5 @@
 ! Title: Allowlist
-! Version: 2023-03-17 18:12:52（北京时间） 
+! Version: 2023-03-18 06:11:12（北京时间） 
 ! Total count: 3212
 @@$generichide,domain=vidoza.co|vidoza.net
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
@@ -353,14 +353,13 @@
 @@||adnz.co/dmp/publisher.js$domain=finanzen.ch
 @@||adnz.co/header.js?adTagId=$domain=finanzen.ch
 @@||adobedc.demdex.net/ee/v1/identity/$xmlhttprequest,domain=cibc.com
-@@||adobedtm.com/*-libraryCode_source.min.js$script,domain=ally.com|americanexpress.com|crave.ca|hilton.com|homedepot.ca|nbarizona.com
-@@||adobedtm.com/*-source.min.js$script,domain=53.com|aarp.org|ally.com|americanexpress.com|atresplayer.com|automobiles.honda.com|backcountry.com|bose.com|bt.com|cadenaser.com|churchofjesuschrist.org|cibc.com|crave.ca|currys.co.uk|dollargeneral.com|etihad.com|guitarcenter.com|healthsafe-id.com|helvetia.com|hgtv.com|hilton.com|homedepot.ca|ing.com.au|ingrammicro.com|kroger.com|mybell.bell.ca|natwest.com|nbarizona.com|news.sky.com|personal.natwest.com|ralphlauren.com|ssrn.com|telus.com|verizon.com|virginplus.ca|walgreens.com
-@@||adobedtm.com/*_source.min.js$script,domain=backcountry.com|hl.co.uk|kroger.com|telus.com
 @@||adobedtm.com/extensions/$script,domain=antena3.com|atresmedia.com|atresplayer.com|lasexta.com
 @@||adobedtm.com/extensions/$script,domain=apple.com|automobiles.honda.com|bravotv.com|cadenaser.com|crave.ca|foodnetwork.com|telus.com|verizon.com
 @@||adobedtm.com/launch-$script,xmlhttprequest
 @@||adobedtm.com^$script,domain=sonystyle.com.cn
+@@||adobedtm.com^*-libraryCode_source.min.js$script,domain=ally.com|americanexpress.com|crave.ca|hilton.com|homedepot.ca|nbarizona.com
 @@||adobedtm.com^*-libraryCode_source.min.js$script,domain=disneyplus.disney.co.jp
+@@||adobedtm.com^*-source.min.js$script,domain=53.com|aarp.org|ally.com|americanexpress.com|atresplayer.com|automobiles.honda.com|backcountry.com|bose.ae|bose.at|bose.ca|bose.ch|bose.cl|bose.co|bose.co.jp|bose.co.nz|bose.co.uk|bose.com|bose.com.au|bose.de|bose.dk|bose.es|bose.fi|bose.fr|bose.hk|bose.hu|bose.ie|bose.it|bose.lu|bose.mx|bose.nl|bose.no|bose.pe|bose.pl|bose.se|boseapac.com|bosebelgium.be|boselatam.com|bt.com|cadenaser.com|churchofjesuschrist.org|cibc.com|crave.ca|currys.co.uk|dollargeneral.com|etihad.com|guitarcenter.com|healthsafe-id.com|helvetia.com|hgtv.com|hilton.com|homedepot.ca|ing.com.au|ingrammicro.com|kroger.com|mybell.bell.ca|natwest.com|nbarizona.com|news.sky.com|personal.natwest.com|ralphlauren.com|ssrn.com|telus.com|verizon.com|virginplus.ca|walgreens.com
 @@||adobedtm.com^*/AppMeasurement.min.js$script,domain=sky.it
 @@||adobedtm.com^*/launch-$script,xmlhttprequest
 @@||adobedtm.com^*/mbox-contents-$script,domain=absa.co.za|ally.com|americanexpress.com|backcountry.com|costco.com|fcbarcelona.com|firststatesuper.com.au|hgtv.com|lenovo.com|lowes.com|nfl.com|oprah.com|pnc.com|shoppersdrugmart.ca|usanetwork.com|vanityfair.com|wired.com|wowway.net
@@ -386,6 +385,7 @@
 @@||adobedtm.com^*/satelliteLib-$script,domain=laredoute.pl
 @@||adobedtm.com^*/satelliteLib-$script,domain=laredoute.ru
 @@||adobedtm.com^*/satelliteLib-$script,domain=samsungmembers.cn
+@@||adobedtm.com^*_source.min.js$script,domain=backcountry.com|hl.co.uk|kroger.com|telus.com
 @@||adobetag.com/d2/telecomitalia/live/Aggregato119TIM.js$domain=tim.it
 @@||adoi.cn^$generichide
 @@||adroll.com^$xmlhttprequest,domain=adroll.com
