@@ -1,5 +1,5 @@
 ! Title: Allowlist
-! Version: 2023-03-19 06:10:10（北京时间） 
+! Version: 2023-03-19 18:11:45（北京时间） 
 ! Total count: 3211
 @@$generichide,domain=vidoza.co|vidoza.net
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
@@ -1202,7 +1202,7 @@
 @@||doubleclick.net/getconfig$xmlhttprequest,domain=spiegel.de
 @@||doubleclick.net/gpt/pubads_impl$domain=www.gamer.com.tw
 @@||doubleclick.net/gpt/pubads_impl_$domain=mytvsuper.com|tvb.com|tvbs.com.tw
-@@||doubleclick.net/gpt/pubads_impl_$script,xmlhttprequest,domain=accuweather.com|blastingnews.com|chromatographyonline.com|downdetector.com|epaper.timesgroup.com|formularywatch.com|managedhealthcareexecutive.com|mediaite.com|medicaleconomics.com|nationalworld.com|nbcsports.com|nycgo.com|physicianspractice.com|scotsman.com|weather.com|webmd.com
+@@||doubleclick.net/gpt/pubads_impl_$script,xmlhttprequest,domain=accuweather.com|blastingnews.com|chromatographyonline.com|downdetector.com|epaper.timesgroup.com|formularywatch.com|managedhealthcareexecutive.com|mediaite.com|medicaleconomics.com|nationalworld.com|nbcsports.com|nycgo.com|physicianspractice.com|scotsman.com|weather.com|webmd.com|telsu.fi
 @@||doubleclick.net/instream/ad_status.js$domain=investing.com
 @@||douyucdn.cn^*-share-master/
 @@||dove.com/etc/ui/dovemencare/clientlibs/core/core/config/analytics.js$script,~third-party
@@ -1397,7 +1397,7 @@
 @@||g.doubleclick.net/gpt/pubads_impl_$script,domain=spiegel.de
 @@||g.doubleclick.net/pagead/ads$subdocument,domain=game.anymanager.io
 @@||g.doubleclick.net/pagead/ads?*&description_url=https%3A%2F%2Fgames.wkb.jp$xmlhttprequest,domain=imasdk.googleapis.com
-@@||g.doubleclick.net/pagead/ppub_config?$domain=bloomberg.com|weather.com
+@@||g.doubleclick.net/pagead/ppub_config?$domain=bloomberg.com|weather.com|telsu.fi
 @@||g.doubleclick.net/tag/js/gpt.js$domain=spiegel.de
 @@||g.doubleclick.net/tag/js/gpt.js$script,xmlhttprequest,domain=accuweather.com|blastingnews.com|bloomberg.com|chromatographyonline.com|devclass.com|digitaltrends.com|edy.rakuten.co.jp|epaper.timesgroup.com|formularywatch.com|indy100.com|managedhealthcareexecutive.com|mediaite.com|medicaleconomics.com|nycgo.com|physicianspractice.com|standard.co.uk|theta.tv|weather.com|webmd.com
 @@||g.tbcdn.cn^
@@ -2568,7 +2568,7 @@
 @@||securepubads.g.doubleclick.net/gpt/pubads$domain=line.me
 @@||securepubads.g.doubleclick.net/gpt/pubads_impl_$domain=league-funny.com
 @@||securepubads.g.doubleclick.net/tag/js/gpt.js$domain=line.me
-@@||securepubads.g.doubleclick.net/tag/js/gpt.js$script,domain=olx.pl
+@@||securepubads.g.doubleclick.net/tag/js/gpt.js$script,domain=olx.pl|telsu.fi
 @@||securitytrails.com/app/api/domain/$~third-party,xmlhttprequest
 @@||segundamano.mx^*/tealium.js
 @@||selfimg.com.cn/??
