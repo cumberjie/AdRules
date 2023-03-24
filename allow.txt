@@ -1,6 +1,6 @@
 ! Title: Allowlist
-! Version: 2023-03-24 06:10:31（北京时间） 
-! Total count: 3209
+! Version: 2023-03-24 18:12:10（北京时间） 
+! Total count: 3208
 @@$generichide,domain=vidoza.co|vidoza.net
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
 @@-ds.metric.gstatic.com^|
@@ -2225,7 +2225,7 @@
 @@||optimatic.com/redux/optiplayer-$domain=pch.com
 @@||optimatic.com/shell.js$domain=pch.com
 @@||optimizely.addmilk.nl^$image,domain=simyo.nl
-@@||optimizely.com/datafiles/$domain=guildeducation.com|hm.com|nike.com|talktalk.co.uk|tommy.com|wallapop.com
+@@||optimizely.com/datafiles/$domain=guildeducation.com|hm.com|nike.com|printify.me|talktalk.co.uk|tommy.com|wallapop.com
 @@||optimizely.com^$script,domain=kabeleins.de|prosieben.de|prosiebenmaxx.de|ran.de|sat1.de|sixx.de
 @@||optimizely.guildeducation.com^$~third-party
 @@||optimove.net^$domain=app.touchnote.com
@@ -2550,7 +2550,6 @@
 @@||script.ownpage.fr/v1/ownpage.js?$script,domain=lci.fr
 @@||scyts.com^$generichide
 @@||sdc.pingan.com^$~image
-@@||sdk.privacy-center.org^$domain=recup.paylib.fr
 @@||sdltutorials.com/Data/Ads/AppStateBanner.jpg$~third-party
 @@||sealserver.trustwave.com/seal.js$domain=zoom.us
 @@||search.brave.com/search$xmlhttprequest
