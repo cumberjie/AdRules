@@ -1,6 +1,6 @@
 ! Title: Allowlist
-! Version: 2023-03-26 18:10:41（北京时间） 
-! Total count: 3211
+! Version: 2023-03-27 06:10:03（北京时间） 
+! Total count: 3213
 @@$generichide,domain=vidoza.co|vidoza.net
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
 @@-ds.metric.gstatic.com^|
@@ -1558,6 +1558,7 @@
 @@||googletagmanager.com/gtm.js$domain=blaklader.at|blaklader.be|blaklader.ca|blaklader.com|blaklader.cz|blaklader.de|blaklader.dk|blaklader.ee|blaklader.es|blaklader.fi|blaklader.fr|blaklader.ie|blaklader.it|blaklader.nl|blaklader.no|blaklader.pl|blaklader.se|blaklader.uk
 @@||googletagmanager.com/gtm.js$domain=casa.it|eprice.it|euronics.it|iphoneitalia.com|la7.it|lastampa.it|savethechildren.it|unieuro.it|video.repubblica.it
 @@||googletagmanager.com/gtm.js$domain=insiderstore.com.br|netcombo.com.br|odia.ig.com.br|saraiva.com.br|superesportes.com.br|topper.com.br|tugatech.com.pt
+@@||googletagmanager.com/gtm.js$domain=toyota-forklifts.se|tradera.com|xxl.se
 @@||googletagmanager.com/gtm.js$script,domain=animeanime.jp|anond.hatelabo.jp|benesse-style-care.co.jp|book.impress.co.jp|carcareplus.jp|cinemacafe.net|cmoa.jp|cyclestyle.net|dengekionline.com|dholic.co.jp|dlsite.com|gamebusiness.jp|gamespark.jp|hatenacorp.jp|inside-games.jp|junonline.jp|kakuyomu.jp|mainichi.jp|makitani.net|mangaseek.net|mycar-life.com|nap-camp.com|newscafe.ne.jp|nicovideo.jp|nihontsushin.com|okwave.jp|onlineshop.ocn.ne.jp|radiko.jp|rbbtoday.com|reanimal.jp|resemom.jp|response.jp|rocketnews24.com|sanwacompany.co.jp|scan.netsecurity.ne.jp|spyder7.com|stage.parco.jp|type.jp|viviennewestwood-tokyo.com|wowma.jp|ymobile.jp|youpouch.com|zakzak.co.jp|zf1.tohoku-epco.co.jp|zozo.jp
 @@||googletagmanager.com/gtm.js$script,domain=arvopaperi.fi|cdon.fi|como.fi|episodi.fi|fum.fi|hobbyhall.fi|iltalehti.fi|inferno.fi|mediuutiset.fi|mikrobitti.fi|rumba.fi|soundi.fi|talouselama.fi|tekniikkatalous.fi|tilt.fi|tivi.fi|veho.fi|www.kauppalehti.fi|www.uusisuomi.fi
 @@||googletagmanager.com/gtm.js$script,domain=beterbed.nl|finanzen.ch|hostingvergelijker.nl|mediamarkt.nl
@@ -1572,7 +1573,6 @@
 @@||googletagmanager.com/gtm.js?$domain=feex.co.il
 @@||googletagmanager.com/gtm.js?$domain=grandhood.dk
 @@||googletagmanager.com/gtm.js?$domain=journaldunet.com
-@@||googletagmanager.com/gtm.js?id=$domain=tradera.com|xxl.se
 @@||googletagservices.com/tag/js/gpt.js$domain=allestoringen.be|allestoringen.nl|downdetector.ae|downdetector.ca|downdetector.cl|downdetector.co.nz|downdetector.co.uk|downdetector.co.za|downdetector.com|downdetector.com.ar|downdetector.com.au|downdetector.com.br|downdetector.com.co|downdetector.cz|downdetector.dk|downdetector.ec|downdetector.es|downdetector.fi|downdetector.fr|downdetector.gr|downdetector.hk|downdetector.hr|downdetector.hu|downdetector.id|downdetector.ie|downdetector.in|downdetector.it|downdetector.jp|downdetector.mx|downdetector.my|downdetector.no|downdetector.pe|downdetector.ph|downdetector.pk|downdetector.pl|downdetector.pt|downdetector.ro|downdetector.ru|downdetector.se|downdetector.sg|downdetector.sk|downdetector.web.tr|xn--allestrungen-9ib.at|xn--allestrungen-9ib.ch|xn--allestrungen-9ib.de
 @@||googletagservices.com/tag/js/gpt.js$domain=chegg.com|chelseafc.com|epaper.timesgroup.com|k2radio.com|koel.com|kowb1290.com|nationalreview.com|nationalworld.com|nbcsports.com|scotsman.com|uefa.com|vimeo.com|windalert.com
 @@||googletagservices.com/tag/js/gpt.js$domain=farfeshplus.com|gentside.com|tv-asahi.co.jp|vlive.tv|voici.fr
@@ -2827,6 +2827,8 @@
 @@||thdstatic.com/experiences/local-ad/$domain=homedepot.com
 @@||the-japan-news.com/modules/js/lib/fgp/fingerprint2.js
 @@||thefreedictionary.com^$generichide
+@@||thegay.com/assets//jwplayer-*/jwplayer.core.controls.html5.js|$domain=thegay.com
+@@||thegay.com/assets//jwplayer-*/jwplayer.js|$domain=thegay.com
 @@||thegay.com/assets/jwplayer-*/jwplayer.core.controls.html5.js|$domain=thegay.com
 @@||thegay.com/assets/jwplayer-*/jwplayer.core.controls.js|$domain=thegay.com
 @@||thegay.com/assets/jwplayer-*/jwplayer.js|$domain=thegay.com
