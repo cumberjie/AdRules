@@ -1,6 +1,6 @@
 ! Title: Allowlist
-! Version: 2023-03-28 18:12:54（北京时间） 
-! Total count: 3216
+! Version: 2023-03-29 06:10:34（北京时间） 
+! Total count: 3217
 @@$generichide,domain=vidoza.co|vidoza.net
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
 @@-ds.metric.gstatic.com^|
@@ -1443,7 +1443,7 @@
 @@||geoplugin.net/javascript.gp?$script,domain=suicidepreventionlifeline.org|virginmobile.ca
 @@||geoplugin.net/json.gp?jsoncallback=$script,domain=worldc.am
 @@||geostag.cardinalcommerce.com/DeviceFingerprintWeb/includes/js/fingerprint2.min.js$script
-@@||get.geojs.io/v1/ip/geo.json$domain=shop.critrole.com
+@@||get.geojs.io/v1/ip/geo.json$domain=namlih.my.id|shop.critrole.com
 @@||get.s-onetag.com/*/tag.min.js$domain=zakzak.co.jp
 @@||getflywheel.com/addons/google-analytics/$~third-party
 @@||getjad.io/library/$script,domain=allocine.fr
@@ -2406,6 +2406,7 @@
 @@||publisher.adservice.com^$domain=publisher.adservice.com
 @@||publisher.adservice.com^$generichide
 @@||puch-ersatzteile.at^*/google-analytics.min.js
+@@||pushpushgo.com/js/$script,domain=centrumriviera.pl
 @@||pv.sohu.com/cityjson$domain=vip.jsjinfu.com
 @@||pv.sohu.com/suv/
 @@||pvtag.yahoo.co.jp^$script,domain=paypaymall.yahoo.co.jp
