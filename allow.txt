@@ -1,6 +1,6 @@
 ! Title: Allowlist
-! Version: 2023-04-01 06:09:50（北京时间） 
-! Total count: 3219
+! Version: 2023-04-01 18:10:30（北京时间） 
+! Total count: 3220
 @@$generichide,domain=vidoza.co|vidoza.net
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
 @@-ds.metric.gstatic.com^|
@@ -919,6 +919,7 @@
 @@||chasecdn.com^*/@ccb-blueanalytics/$script,domain=chase.com
 @@||chat.conveyhs.com/chatadapter/clickstream/clickstream.js$script
 @@||chat.d-id.com/assets/mixpanel.$~third-party
+@@||chathamdailynews.remembering.ca^|
 @@||check.ddos-guard.net/check.js$script
 @@||cheshi-img.com/ad/csad_2019.js
 @@||chessfriends.com/js/live/GoogleAnalytics.js?$~third-party
