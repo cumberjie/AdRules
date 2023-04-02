@@ -1,5 +1,5 @@
 ! Title: Allowlist
-! Version: 2023-04-02 18:10:24（北京时间） 
+! Version: 2023-04-03 06:09:19（北京时间） 
 ! Total count: 3222
 @@$generichide,domain=vidoza.co|vidoza.net
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
@@ -773,7 +773,7 @@
 @@||bitcoinbazis.hu/advertise-with-us/$~third-party
 @@||bitrix.info/ba.js$domain=galamart.ru
 @@||bjjhq.com/HttpCombiner.ashx?$script,~third-party
-@@||blackcircles.ca^*/gtm.js$~third-party
+@@||blackcircles.ca^$script,~third-party
 @@||blackmod.net^$generichide
 @@||blob.core.windows.net^*/annonser/$image,domain=bilplan.net
 @@||blog.logrocket.com^|
