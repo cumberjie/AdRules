@@ -1,6 +1,6 @@
 ! Title: Allowlist
-! Version: 2023-04-07 06:10:03（北京时间） 
-! Total count: 3079
+! Version: 2023-04-07 18:11:10（北京时间） 
+! Total count: 3080
 @@$generichide,domain=vidoza.co|vidoza.net
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
 @@-ds.metric.gstatic.com^|
@@ -1034,6 +1034,7 @@
 @@||criteo.net/js/ld/publishertag.js$domain=novayagazeta.ru
 @@||crm-cdn.peek-cloppenburg.com^|
 @@||crowdtwist.com/img/$image,domain=disneymovieinsiders.com
+@@||crowdtwist.com/img/$image,domain=lego.com
 @@||cruisecenter.com.tw/data/ad/
 @@||cruisemapper.com/assets/*/js/tracker.js$script,~third-party
 @@||crystalmark.info/wp-content/uploads/*-300x250.$image,~third-party
