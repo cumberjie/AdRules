@@ -1,6 +1,6 @@
 ! Title: Allowlist
-! Version: 2023-04-07 18:11:10（北京时间） 
-! Total count: 3080
+! Version: 2023-04-08 06:09:37（北京时间） 
+! Total count: 3070
 @@$generichide,domain=vidoza.co|vidoza.net
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
 @@-ds.metric.gstatic.com^|
@@ -70,7 +70,6 @@
 @@/api/ads?$domain=nmkjxy.com
 @@/bag2?r[]=*&r[]=$domain=free.com.tw
 @@/banner/ad/*$image,domain=achaloto.com
-@@/build/js/analytics.$script,domain=lx.com|nbcbayarea.com|nbcboston.com|nbcchicago.com|nbcconnecticut.com|nbcdfw.com|nbclosangeles.com|nbcmiami.com|nbcnewyork.com|nbcphiladelphia.com|nbcsandiego.com|nbcwashington.com|necn.com|telemundo40.com|telemundo48elpaso.com|telemundoarizona.com|telemundolasvegas.com|telemundopr.com
 @@/cgi-bin/counter_module?action=list_models$subdocument,~third-party
 @@/common/cf/*$domain=66u.com|changhong.com|fei3d.com|oneplusbbs.com|readboy.com
 @@/cpc_cpm_$domain=ygo-sem.cn
@@ -825,7 +824,6 @@
 @@||ccllaa.com^$generichide
 @@||cdc.gov/jscript/metrics/adobe/launch/$script,~third-party
 @@||cdiscount.com/Js/tracking/cdtmv2.js$script,~third-party
-@@||cdn-care.com/js/analytics/$script,domain=care.com
 @@||cdn-care.com/js/vendor/yarn_components/amplitude-js/amplitude.min.js$script,domain=care.com
 @@||cdn-ds.com/analytics/dfa.js$script,domain=tuttleclickgenesis.com
 @@||cdn-ds.com/analytics/sockjs.js$script,domain=tuttleclickgenesis.com
@@ -907,7 +905,6 @@
 @@||chycor.co.uk/cms/advert_search_thumb.php$image,domain=chycor.co.uk
 @@||cindyholbrook.lpages.co^|
 @@||cinema.pia.co.jp/img/ad/$image,~third-party
-@@||circuitv.com/assets/js/analytics.js$~third-party
 @@||citiintl.122.2o7.net^|
 @@||citroen.com.br/etc/clientlibs/wisdom/base/analytics.min.js$domain=citroen.com.br
 @@||citysbs.com^*/swfupload/
@@ -1290,7 +1287,6 @@
 @@||fingerprintjs.com^$generichide
 @@||firebase.google.com/docs/analytics/$~third-party
 @@||firefox.com.cn/media/img/mozcn/spread/468-60-
-@@||firststatesuper.com.au^*/js/analytics.js$script,~third-party
 @@||flashx.tv/js/jquery.cookie.js
 @@||flashx.tv/js/jquery.min.js|
 @@||flashx.tv/js/light.min.js|
@@ -1855,7 +1851,6 @@
 @@||liulanmi.com/wp-content/uploads/*/StatCounter-
 @@||liumingye.cn^$generichide
 @@||live.bbc.co.uk^*/comscore.js$~third-party
-@@||live.house.gov/js/analytics.$~third-party
 @@||live.lequipe.fr/thirdparty/prebid.js$~third-party
 @@||live.rezync.com^$script,domain=batteriesplus.com
 @@||live.streamtheworld.com/partnerIds$domain=iheart.com
@@ -2212,7 +2207,6 @@
 @@||paypalobjects.com/tagmgmt/bootstrap.js
 @@||paypalobjects.com/web/*/gAnalytics.js$script,domain=paypal.com
 @@||pbs.twimg.com/ad_img/$image,xmlhttprequest
-@@||pcbac.com/web/legacy/js/analytics.js$script,~third-party
 @@||pchome.com.tw/img/js/xpcadshow.js$domain=game735.com
 @@||pchomepay.com.tw/share/js/
 @@||peacocktv.com^$generichide
@@ -2374,7 +2368,6 @@
 @@||rba-screen.healthsafe-id.com/fp/tags.js$script,domain=myuhc.com
 @@||readmoo.com/images/social/
 @@||realclearpolitics.com/esm/assets/js/admiral.js$~third-party
-@@||realclearpolitics.com/esm/assets/js/analytics/$~third-party,xmlhttprequest
 @@||reallyfreegeoip.org/json/$domain=thekitchensafe.com
 @@||realtor.com/rentals/api/optimizely.js$script,~third-party
 @@||reastatic.net/150x200-$domain=realestate.com.au
@@ -2655,7 +2648,6 @@
 @@||support-beacon.nakanohito.jp^|
 @@||support-widget.nakanohito.jp/chatbot$script,stylesheet
 @@||support-widget.nakanohito.jp^|
-@@||support.brother.com^*/js/analytics.js$script,~third-party
 @@||support.google.com^$domain=support.google.com
 @@||survey.g.doubleclick.net^$script,domain=sporcle.com
 @@||surveymyopinion.researchnow.com^|
@@ -2705,7 +2697,6 @@
 @@||tb.mgtv.com/sdk/*/ad-sdk.
 @@||tb1.bdstatic.com/??/tb/_/*/ad_$script
 @@||tbcdn.cn^*/click_track.js
-@@||tbs.com/modules/custom/ten_video/js/analytics.js$script,~third-party
 @@||tbskip.taobao.com/json/
 @@||tccrestify-dot-tcc-cloud.appspot.com/tracking/$domain=tcc.com.co
 @@||tce.alicdn.com^$domain=alimama.com
@@ -2928,7 +2919,6 @@
 @@||vvic.com/monetize/ads/index/
 @@||waaw.to/adv/ads/popunder.js$script
 @@||waitrosecellar.com^*/eventTracking-Cellar.js$domain=waitrosecellar.com
-@@||walmart.ca/assets/store-selector-page/js/analytics.$script,~third-party
 @@||wancaibb.com/share/js/share.min.js
 @@||ware.shop.jd.com^$genericblock,generichide
 @@||wargag.ru/public/js/counter.js?
