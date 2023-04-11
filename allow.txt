@@ -1,6 +1,6 @@
 ! Title: Allowlist
-! Version: 2023-04-11 18:11:55（北京时间） 
-! Total count: 3069
+! Version: 2023-04-12 06:09:57（北京时间） 
+! Total count: 3070
 @@$generichide,domain=vidoza.co|vidoza.net
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
 @@-ds.metric.gstatic.com^|
@@ -2510,6 +2510,7 @@
 @@||signin.verizon.com^*/affiliate/$subdocument,xmlhttprequest
 @@||simba.taobao.com/?name=mcad$script
 @@||simba.taobao.com/?name=tcmad&$domain=www.taobao.com
+@@||simcotools.app/assets/adsense-*.js$~third-party
 @@||sina.com.cn/litong/*/close
 @@||sina.com.hk^*_ads.cgi
 @@||sinaimg.cn/ad/adimage/50x50_
