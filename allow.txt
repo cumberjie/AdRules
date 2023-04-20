@@ -1,5 +1,5 @@
 ! Title: Allowlist
-! Version: 2023-04-20 18:11:42（北京时间） 
+! Version: 2023-04-21 06:10:19（北京时间） 
 ! Total count: 3072
 @@$generichide,domain=vidoza.co|vidoza.net
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
@@ -115,6 +115,7 @@
 @@/show_ads_$domain=ygo-sem.cn
 @@/site/ad/*$domain=islide.cc
 @@/social-share.$domain=patentguru.com
+@@/static/ad/main.$domain=bhuai.top|bhuan.top
 @@/store_ad/*$domain=pcstore.com.tw
 @@/unadblock/adjs_$domain=hepan.com
 @@/urchin.js$domain=on.cc
@@ -708,7 +709,6 @@
 @@||bcebos.com/static/translation/widget/translate/output/AdBanner/AdBanner.js
 @@||bcebos.com^$script,domain=31xiaoshuo.com|biququ.info|jingwubook.com
 @@||bcicl.*.evergage.com^|
-@@||bcong.top/static/ad/main.js
 @@||bdash-cloud.com/recommend-script/$script,domain=junonline.jp
 @@||bdash-cloud.com/tracking-script/*/tracking.js$domain=junonline.jp
 @@||bdimg.com/advert/js/advert.js$domain=music.baidu.com
@@ -908,7 +908,6 @@
 @@||citysbs.com^*/swfupload/
 @@||citytalk.tw/js/ct/common/v3/ui/fblike/FBLike.html
 @@||cj.dotomi.com^|
-@@||cl9a.com/static/ad/main.js
 @@||classic.comunio.de/clubImg.phtml/$image,~third-party
 @@||classliving.lpages.co^|
 @@||clerk.io/clerk.js$script,domain=trony.it
@@ -1401,6 +1400,7 @@
 @@||ghstatic.com/images/site/zylom/scripts/google-analytics.js?$domain=zylom.com
 @@||gias.jd.com/js/td.js
 @@||gifshow.com/rest/wd/common/log/collect/acfun
+@@||giolandscaping.com/ads/$subdocument,domain=hentaihd.xyz
 @@||github.com/gorhill/uBlock/*/src/web_accessible_resources/fingerprint2.js$~third-party
 @@||github.com^$generichide
 @@||github.io/videojs-ima/node_modules/video.$domain=setn.com
@@ -1423,7 +1423,7 @@
 @@||gomokuworld.com/app/modules/analyze.js$~third-party
 @@||gomoplayer.com^$subdocument
 @@||goodinfo.tw/StockInfo/image/*.png
-@@||google-analytics.com/analytics.js$domain=beinsports.com|brooklinen.com|healthrangerstore.com|jackbox.tv|k2radio.com|koel.com|kowb1290.com|stressless.com|tracking.narvar.com|truwin.com|westernunion.com|worldsbiggestpacman.com
+@@||google-analytics.com/analytics.js$domain=beinsports.com|brooklinen.com|enmotive.com|healthrangerstore.com|jackbox.tv|k2radio.com|koel.com|kowb1290.com|stressless.com|tracking.narvar.com|truwin.com|westernunion.com|worldsbiggestpacman.com
 @@||google-analytics.com/analytics.js$domain=carnesvizzera.ch
 @@||google-analytics.com/analytics.js$domain=citytalk.tw|ebb.io|komica.org|lenovo.com.cn|linetv.tw|maminews.com.tw|support.amd.com
 @@||google-analytics.com/analytics.js$domain=cmoa.jp
@@ -1478,7 +1478,7 @@
 @@||googleoptimize.com/optimize.js$domain=lacomer.com.mx
 @@||googleoptimize.com/optimize.js$script,domain=binglee.com.au|inquirer.com|investing.com|lodgecastiron.com|tentree.ca|virginmedia.com
 @@||googleoptimize.com/optimize.js$script,domain=wallapop.com
-@@||googletagmanager.com/gtag/js$script,domain=academy.com|acornonline.com|aliexpress.com|carhartt-wip.com|cbslocal.com|devclass.com|ejgiftcards.com|herculesstands.com|honeystinger.com|kawasaki.com|liene-life.com|livongo.com|m.putlocker.how|mediaite.com|montcopa.org|schwab.com|toptal.com|virginplus.ca|winefolly.com
+@@||googletagmanager.com/gtag/js$script,domain=academy.com|acornonline.com|aliexpress.com|carhartt-wip.com|cbslocal.com|devclass.com|ejgiftcards.com|enmotive.com|herculesstands.com|honeystinger.com|kawasaki.com|liene-life.com|livongo.com|m.putlocker.how|mediaite.com|montcopa.org|schwab.com|toptal.com|virginplus.ca|winefolly.com
 @@||googletagmanager.com/gtag/js$script,domain=dholic.co.jp|game.anymanager.io|nihontsushin.com|zf1.tohoku-epco.co.jp
 @@||googletagmanager.com/gtag/js$script,domain=factory.pixiv.net
 @@||googletagmanager.com/gtag/js$script,domain=hostingvergelijker.nl
