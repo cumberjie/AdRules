@@ -1,6 +1,6 @@
 ! Title: Allowlist
-! Version: 2023-04-25 18:11:57（北京时间） 
-! Total count: 3070
+! Version: 2023-04-26 06:10:11（北京时间） 
+! Total count: 3071
 @@$generichide,domain=vidoza.co|vidoza.net
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
 @@-ds.metric.gstatic.com^|
@@ -2314,6 +2314,7 @@
 @@||px-cdn.net/api/v2/collector/ocaptcha$xmlhttprequest
 @@||px.a8.net^|
 @@||qbox.me/static/js/ads.js$domain=linux.cn
+@@||qcheng.cc/x/statics/js/guanggao.
 @@||qhimg.com^*/monitor_analytic.
 @@||qhres.com^*/monitor_analytic.js$domain=mse.360.cn
 @@||qianpanso.cn/other/*.js$domain=cilimao.co|cilimao.one
