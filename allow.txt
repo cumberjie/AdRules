@@ -1,6 +1,6 @@
 ! Title: Allowlist
-! Version: 2023-05-03 06:10:06（北京时间） 
-! Total count: 2637
+! Version: 2023-05-03 18:11:27（北京时间） 
+! Total count: 2638
 @@$generichide,domain=vidoza.co|vidoza.net
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
 @@-ds.metric.gstatic.com^|
@@ -1561,7 +1561,6 @@
 @@||linkbucks.com/tmpl/$image,stylesheet
 @@||links.e.theatlantic.com^|
 @@||links.getblueshift.com^|
-@@||links.iterable.com/lists/$domain=clickup.com
 @@||linkstars.com/union/
 @@||linksynergy.com/minified_logic.js$third-party,xmlhttprequest
 @@||listrakbi.com^$image,script,stylesheet,domain=sks-bottle.com
@@ -2196,6 +2195,7 @@
 @@||spiegel.de/layout/js/http/netmind-$script
 @@||spiegel.de^$genericblock,generichide
 @@||sportsnet.ca/wp-content/plugins/bwp-minify/$domain=sportsnet.ca
+@@||spxl.socy.es^$script,xmlhttprequest,domain=3djuegosguias.com|3djuegospc.com|applesfera.com|compradiccion.com|directoalpaladar.com|espinof.com|genbeta.com|poprosa.com|trendencias.com|trendenciashombre.com|vidaextra.com|vitonica.com|xatakamovil.com
 @@||src.fedoraproject.org/static/issues_stats.js?$~third-party
 @@||src.litix.io/shakaplayer/*/shakaplayer-mux.js
 @@||ssl-images-amazon.com^*/satelliteLib-$script,domain=audible.com
@@ -2491,6 +2491,7 @@
 @@||vk.me/css/al/ads.css$domain=vk.com
 @@||vk.me/images/ads_$domain=vk.com
 @@||vlist.se/advertisement.js
+@@||vodgc.net^*/genoa-event-tracking.min.js
 @@||vodjk.com/offlights.js
 @@||voeunblock.com^$subdocument
 @@||voeunblock3.com^$subdocument
