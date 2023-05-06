@@ -1,6 +1,6 @@
 ! Title: Allowlist
-! Version: 2023-05-06 06:09:55（北京时间） 
-! Total count: 2632
+! Version: 2023-05-06 18:10:21（北京时间） 
+! Total count: 2626
 @@$generichide,domain=vidoza.co|vidoza.net
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
 @@-ds.metric.gstatic.com^|
@@ -939,7 +939,6 @@
 @@||daikoku.ebis.ne.jp^|
 @@||daoju.qq.com/time/*/js/ad/
 @@||dashboard.mgid.com^$popup
-@@||dashboard.unity.com/dist/udash/app/assets/services/analytics/$domain=dashboard.unity.com|dashboard.unity3d.com
 @@||data.adxcel-ec2.com^$image,domain=laguardia.edu
 @@||datadoghq-browser-agent.com/datadog-$script,domain=bbcgoodfood.com|dashboard.getdriven.app|usa.experian.com
 @@||daumcdn.net/adfit/static/ad-native.min.js$domain=daum.net
@@ -1129,7 +1128,6 @@
 @@||forum.notebookreview.com^|
 @@||forums.opera.com/api/topic/$~third-party,xmlhttprequest
 @@||fotor.com.cn/static/web/share/js/
-@@||foxrentacar.com/etc/designs/dotcom/clientlibs_base/$script,~third-party
 @@||fplay.online/log_event$~third-party,xmlhttprequest
 @@||franklymedia.com/*/300x150_WBNQ_TEXT.png$image,domain=wbnq.com
 @@||freedidi.com^$generichide
@@ -1223,7 +1221,6 @@
 @@||gogoplay5.com^$subdocument
 @@||golangnote.com^$generichide
 @@||gomein.net.cn^*,
-@@||gomokuworld.com/app/modules/analyze.js$~third-party
 @@||gomoplayer.com^$subdocument
 @@||goodinfo.tw/StockInfo/image/*.png
 @@||google-analytics.com/analytics.js$domain=beinsports.com|brooklinen.com|carnesvizzera.ch|cmoa.jp|enmotive.com|healthrangerstore.com|hobbyhall.fi|infoconso-multimedia.fr|jackbox.tv|k2radio.com|koel.com|kowb1290.com|ligtv.com.tr|meritonsuites.com.au|nabortu.ru|news.gamme.com.tw|novatv.bg|poiskstroek.ru|rzd.ru|saturn.at|schweizerfleisch.ch|skaties.lv|stressless.com|teddyfood.com|tracking.narvar.com|tradera.com|tribuna.com|truwin.com|tuasaude.com|tv3play.no|unicef.de|viandesuisse.ch|vox.de|westernunion.com|worldsbiggestpacman.com|xxl.se
@@ -1323,7 +1320,6 @@
 @@||health.halodoc.com^|
 @@||healthgateway.gov.bc.ca/snowplow.js$~third-party
 @@||healthyadvertising.es^$~third-party
-@@||hearstapps.com/static/comscore.$script,domain=womenshealthmag.com
 @@||heatmap.it^$domain=heatmap.com|heatmap.it|heatmap.me|heatmap.org
 @@||hello.myfonts.net/count/$stylesheet,domain=cfr.org|furniturevillage.co.uk|luggagehero.com
 @@||hh010.com^$generichide
@@ -1676,8 +1672,6 @@
 @@||mnighthk.net^$elemhide
 @@||moea.gov.tw/EgisWeb/Scripts/google-analytics.js
 @@||moegirl.org.cn^$generichide
-@@||moengage.com/v2/$xmlhttprequest,domain=olx.com.lb
-@@||moengage.com/webpush/$script,domain=olx.com.lb
 @@||momovod.com/js/momo/adsbygoogle.js
 @@||money18.on.cc/js/ad/liveinfo_page/
 @@||money18.on.cc/js/adbanner.js
