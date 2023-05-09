@@ -1,6 +1,6 @@
 ! Title: Allowlist
-! Version: 2023-05-09 06:09:55（北京时间） 
-! Total count: 2627
+! Version: 2023-05-09 18:11:39（北京时间） 
+! Total count: 2629
 @@$generichide,domain=vidoza.co|vidoza.net
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
 @@-ds.metric.gstatic.com^|
@@ -1805,7 +1805,7 @@
 @@||optimatic.com/iframe.html$subdocument,domain=pch.com
 @@||optimatic.com/redux/optiplayer-$domain=pch.com
 @@||optimatic.com/shell.js$domain=pch.com
-@@||optimizely.com/datafiles/$domain=guildeducation.com|hm.com|nike.com|printify.me|talktalk.co.uk|tommy.com|wallapop.com
+@@||optimizely.com/datafiles/$domain=alaskaair.com|guildeducation.com|hm.com|nike.com|printify.me|talktalk.co.uk|tommy.com|wallapop.com
 @@||optimizely.com^$script,domain=kabeleins.de|prosiebenmaxx.de|ran.de|sat1.de|sixx.de
 @@||optimove.net^$domain=app.touchnote.com
 @@||optout.networkadvertising.org^$document
@@ -2001,6 +2001,8 @@
 @@||rba-screen.healthsafe-id.com/fp/tags.js$script,domain=myuhc.com
 @@||readmoo.com/images/social/
 @@||realclearpolitics.com/esm/assets/js/admiral.js$~third-party
+@@||realclearpolitics.com/esm/assets/js/analytics/chartbeat.js$~third-party
+@@||realclearpolitics.com/esm/assets/js/analytics/gaAnalytics.js$~third-party
 @@||reallyfreegeoip.org/json/$domain=thekitchensafe.com
 @@||reastatic.net/150x200-$domain=realestate.com.au
 @@||recaptcha.net/recaptcha/$script
