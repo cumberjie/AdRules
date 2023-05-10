@@ -1,6 +1,6 @@
 ! Title: Allowlist
-! Version: 2023-05-10 06:09:53（北京时间） 
-! Total count: 2629
+! Version: 2023-05-10 18:11:29（北京时间） 
+! Total count: 2631
 @@$generichide,domain=vidoza.co|vidoza.net
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
 @@-ds.metric.gstatic.com^|
@@ -475,6 +475,7 @@
 @@||amebame.com/pub/ads/$image,domain=abema.tv|ameba.jp|ameblo.jp
 @@||amplitude.com/libs/$script,domain=elconfidencial.com
 @@||amplitude.com/libs/amplitude-4.5.2-min.gz.js$script,domain=pdfexpert.com
+@@||amplitude.com/libs/amplitude-8.5.0-min.gz.js$script,domain=kink.com
 @@||ampproject.org/v0/amp-analytics-$script,domain=cnnespanol.cnn.com
 @@||an.yandex.ru/system/video-ads-sdk/adsdk.js$domain=5-tv.ru|armdb.org|gisher.org|peers.tv|tele-sport.ru
 @@||analytics-static.ugc.bazaarvoice.com/prod/$script,domain=hisense.co.uk
@@ -1297,6 +1298,7 @@
 @@||gunosy.co.jp/img/ad/$image,~third-party
 @@||gymnasedeburier.ch/themes/segment/js/$~third-party
 @@||h-cast.jp^$script,domain=bookoffonline.co.jp
+@@||h.imedia.cz/js/cmp2/scmp.js$domain=seznam.cz
 @@||haaretz.co.il/logger/p.gif?$image,xmlhttprequest
 @@||haiwai.com^$generichide
 @@||hanjubaike.com^$script,~third-party
