@@ -1,6 +1,6 @@
 ! Title: Allowlist
-! Version: 2023-05-12 18:10:57（北京时间） 
-! Total count: 2632
+! Version: 2023-05-13 06:10:11（北京时间） 
+! Total count: 2631
 @@$generichide,domain=vidoza.co|vidoza.net
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
 @@-ds.metric.gstatic.com^|
@@ -1929,7 +1929,6 @@
 @@||preromanbritain.com/maxymiser/$~third-party
 @@||pro-foto.jp/ads/img/$~third-party
 @@||pro.gooooal.com/ad/ad_2.js
-@@||pro.ip-api.com/json$xmlhttprequest,domain=aljazeera.com|cookappsgames.com|nontongp.xyz|sheee.co.il|walla.co.il|weatherscan.tk
 @@||promo.com/embed/$subdocument,third-party
 @@||promo.gramedia.com^|
 @@||promo.zendesk.com^$xmlhttprequest,domain=promo.com
