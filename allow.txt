@@ -1,6 +1,6 @@
 ! Title: Allowlist
-! Version: 2023-05-18 06:10:04（北京时间） 
-! Total count: 2636
+! Version: 2023-05-18 18:10:49（北京时间） 
+! Total count: 2637
 @@$generichide,domain=vidoza.co|vidoza.net
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
 @@-ds.metric.gstatic.com^|
@@ -817,7 +817,7 @@
 @@||cloud.notification-naviextras.com^|
 @@||cloud.talend.com/api/ipaas/services/analytics/$~third-party,xmlhttprequest
 @@||cloudflare.com/ajax/$stylesheet,domain=shink.me|shon.xyz
-@@||cloudflare.com/ajax/libs/fingerprintjs2/$domain=extracttable.com|winnipegfreepress.com
+@@||cloudflare.com/ajax/libs/fingerprintjs2/$domain=extracttable.com|fckrasnodar.ru|winnipegfreepress.com
 @@||cloudflare.com/ajax/libs/fuckadblock/$domain=seselah.com
 @@||cloudflare.com/cdn-cgi/trace$domain=infyspringboard.onwingspan.com|myair2.resmed.com
 @@||cloudflare.com^$script,stylesheet,domain=canyoublockit.com
@@ -1305,6 +1305,7 @@
 @@||h.imedia.cz/js/cmp2/scmp.js$domain=seznam.cz
 @@||haaretz.co.il/logger/p.gif?$image,xmlhttprequest
 @@||haiwai.com^$generichide
+@@||hakurei.ga/bin2img/wasm_export_bg.wasm$~third-party
 @@||hanjubaike.com^$script,~third-party
 @@||hanjuwang.com^$script,~third-party
 @@||hanjuwang.net^$script,~third-party
