@@ -1,6 +1,6 @@
 ! Title: Allowlist
-! Version: 2023-05-20 06:09:59（北京时间） 
-! Total count: 2638
+! Version: 2023-05-20 18:10:15（北京时间） 
+! Total count: 2636
 @@$generichide,domain=vidoza.co|vidoza.net
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
 @@-ds.metric.gstatic.com^|
@@ -359,7 +359,6 @@
 @@||ads.askgamblers.com^$popup
 @@||ads.cdn.tvb.com^*.key
 @@||ads.com^$popup
-@@||ads.cs.washington.edu^$popup
 @@||ads.doordash.com^$popup
 @@||ads.elevateplatform.co.uk^$popup
 @@||ads.emarketer.com/redirect.spark?$popup,domain=emarketer.com
@@ -2015,7 +2014,6 @@
 @@||reastatic.net/150x200-$domain=realestate.com.au
 @@||recaptcha.net/recaptcha/$script
 @@||receiveasms.com^$generichide
-@@||recoco.it^$image,xmlhttprequest,domain=bodysize.org|heavy-r.com|porngo.com|showbiz.cz|tostreamit.com|vumoo.to
 @@||redbull.com/gtm.js$~third-party
 @@||redditinc.com/assets/images/site/*_300x250.$image,~third-party
 @@||redguide.top^*/ad.css?$stylesheet
