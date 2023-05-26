@@ -1,6 +1,6 @@
 ! Title: Allowlist
-! Version: 2023-05-26 18:11:38（北京时间） 
-! Total count: 2603
+! Version: 2023-05-27 06:09:51（北京时间） 
+! Total count: 2600
 @@$generichide,domain=vidoza.co|vidoza.net
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
 @@-ds.metric.gstatic.com^|
@@ -555,7 +555,6 @@
 @@||ascii.jp/img/ad/$image,~third-party
 @@||assets.ctfassets.net^$media,domain=ads.spotify.com
 @@||assets.giocdn.com/2.1/gio.js$domain=saicmg.com
-@@||assets.strossle.com/strossle-widget-sdk/$script,domain=como.fi|episodi.fi|fum.fi|inferno.fi|rumba.fi|soundi.fi|tilt.fi
 @@||assets.strossle.com^*/strossle-widget-sdk.js$script,domain=kaaoszine.fi
 @@||assoc-amazon.com/widgets/cm?$subdocument,domain=atcoder.jp
 @@||astatic.ccmbg.com^*/prebid$script,domain=linternaute.com
@@ -759,7 +758,6 @@
 @@||cdnqq.net/ad/api/popunder.js$script
 @@||cedaron.visualstudio.com/*TrackingData.cs$~third-party
 @@||centro.co.il^$generichide
-@@||certona.net^*/resonance.js$domain=zooplus.fi
 @@||certona.net^*/scripts/resonance.js$script,domain=canadiantire.ca|finishline.com|summitracing.com|tumi.com
 @@||cgmodel.com/plugin/share/
 @@||chaintv.xyz/homestatic/js/adjs.js
@@ -802,7 +800,6 @@
 @@||click.virt.exacttarget.com^|
 @@||click.virt.s*.exacttarget.com^|
 @@||clickattr.wayup.com^|
-@@||clickdimensions.com^$subdocument,domain=fingrid.fi
 @@||clj.valuecommerce.com/*/vcushion.min.js
 @@||clk*.tradedoubler.com^|
 @@||cloud.google.com^$generichide
@@ -1480,6 +1477,7 @@
 @@||kaixin001.com/ad/
 @@||kameleoon.eu/images/$domain=welt.de
 @@||kameleoon.eu/kameleoon.js$domain=welt.de
+@@||kameleoon.eu/kameleoon.js$script,domain=buttercloth.com
 @@||kameleoon.io/geolocation^$domain=welt.de
 @@||kameleoon.io/ip^$domain=welt.de
 @@||kanalfrederikshavn.dk^*/jquery.openx.js?
@@ -2493,7 +2491,6 @@
 @@||widget.myrentacar.me^$script,subdocument
 @@||widget.trustpilot.com/bootstrap/$script,domain=amartfurniture.com.au|exodus.co.uk|imyfone.com
 @@||widgets.jobbio.com^*/display.min.js$domain=interestingengineering.com
-@@||widgets.sprinklecontent.com/v2/$script,xmlhttprequest,domain=como.fi|episodi.fi|fum.fi|inferno.fi|rumba.fi|soundi.fi|tilt.fi
 @@||widgets.trustedshops.com/reviews/tsSticker/$domain=koziol-shop.de
 @@||wikibooks.org^$generichide
 @@||wikidata.org^$generichide
