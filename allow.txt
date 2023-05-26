@@ -1,5 +1,5 @@
 ! Title: Allowlist
-! Version: 2023-05-26 06:10:06（北京时间） 
+! Version: 2023-05-26 18:11:38（北京时间） 
 ! Total count: 2603
 @@$generichide,domain=vidoza.co|vidoza.net
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
@@ -1085,7 +1085,6 @@
 @@||faculty.uml.edu^$image,stylesheet
 @@||fang.com/stats/clickm2011.js
 @@||fangcloud.com^$generichide
-@@||fast.appcues.com^$script,domain=initial.inc|myap.collegeboard.org|static.abcmouse.com|westrive.com
 @@||fast.fonts.net/jsapi/core/mt.js$script,domain=eclecticbars.co.uk|gables.com|itsolutions-inc.com|senate.gov
 @@||fastcontentdelivery.com^$script,domain=flashx.to|flashx.tv
 @@||fastmail.com^$generichide
@@ -2195,6 +2194,7 @@
 @@||staticflickr.com^*/analytics-min.js$domain=flickr.com
 @@||stats.g.doubleclick.net/dc.js$script,domain=chintaistyle.jp
 @@||stats.pusher.com/timeline/$script,domain=bringatrailer.com
+@@||stats.sports.bellmedia.ca^$domain=tsn.ca
 @@||stats.statbroadcast.com/interface/webservice/event/$~third-party
 @@||staty.portalradiowy.pl/wstats/$script,third-party
 @@||steamcn.com/source/plugin/steamcn_gift/template/images/*steam.png
