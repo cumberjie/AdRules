@@ -1,6 +1,6 @@
 ! Title: Allowlist
-! Version: 2023-05-29 18:11:41（北京时间） 
-! Total count: 2546
+! Version: 2023-05-30 06:09:59（北京时间） 
+! Total count: 2524
 @@$generichide,domain=vidoza.co|vidoza.net
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
 @@-ds.metric.gstatic.com^|
@@ -249,7 +249,6 @@
 @@||88box.com/images/ad_images/
 @@||8ox.cn/pge/?s=$script,domain=dlkoo.com
 @@||9.ujinbi.com/AD/
-@@||90-60-90.in.ua/images/moda/advt/$image,~third-party
 @@||91p49.com/*/*.mp4
 @@||930mh.com/js/config.js
 @@||939394.xyz^$generichide
@@ -395,7 +394,6 @@
 @@||ads.vk.com^$popup
 @@||ads3.xumo.com^$domain=2vnews.com|redbox.com
 @@||adsafeprotected.com/iasPET.$script,domain=reuters.com
-@@||adsafeprotected.com/services/$domain=reuters.com
 @@||adsafeprotected.com/vans-adapter-google-ima.js$script,domain=gamingbible.co.uk|ladbible.com|reuters.com
 @@||adsales.snidigital.com/*/ads-config.min.js$script
 @@||adsense.woso.cn^$~third-party
@@ -470,7 +468,6 @@
 @@||amazonaws.com/static.madlan.co.il/*/heatmap.json?$xmlhttprequest
 @@||amebame.com/pub/ads/$image,domain=abema.tv|ameba.jp|ameblo.jp
 @@||amplitude.com/libs/$script,domain=elconfidencial.com|kink.com|pdfexpert.com
-@@||an.yandex.ru/system/video-ads-sdk/adsdk.js$domain=5-tv.ru|armdb.org|gisher.org|peers.tv|tele-sport.ru
 @@||analytics-static.ugc.bazaarvoice.com/prod/$script,domain=hisense.co.uk
 @@||analytics.163.com/ntes.js$domain=3g.163.com
 @@||analytics.amplitude.com^$~third-party
@@ -513,7 +510,6 @@
 @@||api.touchnote.io^$xmlhttprequest,domain=app.touchnote.com
 @@||api.tv.sohu.com/mobile_user/device^$app=com.sohu.sohuvideo
 @@||api.us1.exponea.com^$script,xmlhttprequest,domain=walmartpetrx.com
-@@||api.vigo.ru^*/network_status?$object,xmlhttprequest,domain=vk.com
 @@||apibay.org^$script,xmlhttprequest,domain=thepiratebay.org
 @@||apis.google.com^$domain=openload.co|oload.tv|javno.me|imagebam.com|imagevenue.com|playvid.com|4horlover.com|linkshrink.net
 @@||apis.kostprice.com/fapi/$script,domain=gadgets.ndtv.com
@@ -1796,7 +1792,6 @@
 @@||patreonusercontent.com/*.gif?token-$image,domain=patreon.com
 @@||pay.citylink.pro/stats/services/$~third-party
 @@||payload.cargocollective.com^$image,~third-party
-@@||paymentgate.ru/payment/*_Advert/
 @@||paypal.com/xoplatform/logger/api/logger$domain=play.leagueofkingdoms.com
 @@||paypalobjects.com/*/pageView.js$script,domain=paypal.com
 @@||paypalobjects.com/pa/js/min/pa.js
@@ -1995,7 +1990,6 @@
 @@||s.yimg.jp/images/listing/tool/yads/yads-timeline-ex.js$domain=yahoo.co.jp
 @@||s.yjtag.jp/tag.js$script,domain=baseball.yahoo.co.jp|soccer.yahoo.co.jp|www.epson.jp
 @@||s0.2mdn.net/ads/studio/Enabler.js$domain=yuukinohana.co.jp
-@@||s0.2mdn.net/instream/html5/ima3.js$script,domain=tilt.fi
 @@||sahibinden.com/assets/analytics*.js$~third-party
 @@||sail-horizon.com/spm/spm.v1.min.js$script,domain=voguegirl.jp
 @@||salfordonline.com/wp-content/plugins/wp_pro_ad_system/$script
@@ -2090,7 +2084,6 @@
 @@||sjsmitaa.org/bin/showads.
 @@||slack.com^$generichide
 @@||smallseotools.com^$generichide
-@@||smarters.ro/academy$~third-party,xmlhttprequest
 @@||smartrevise.online/css/analytics.min.css$~third-party
 @@||smartrevise.online/js/teacher.analytics.min.js$~third-party
 @@||smotrim.ru/js/stat.js$script
@@ -2163,8 +2156,6 @@
 @@||stjscn.s-msn.com/portal/hp/2011/udctrack.
 @@||sto520.com^$generichide
 @@||str.hit.gemius.pl^|
-@@||stranger.se/socket.io/$~third-party
-@@||strangermeetup.com/socket.io/$~third-party
 @@||stream.adunity.com^$xmlhttprequest,domain=b1tv.ro
 @@||stream4free.live^$generichide
 @@||streamlare.com^$subdocument
@@ -2176,7 +2167,6 @@
 @@||suning.cn/project/msIndex/js/??
 @@||suntory.co.jp/beer/kinmugi/css2020/ad.css?
 @@||suntory.co.jp/beer/kinmugi/img/ad/$image,~third-party
-@@||supabase.co/rest/v1/advert$domain=matchers.fr
 @@||support-beacon.nakanohito.jp^|
 @@||support-widget.nakanohito.jp^|
 @@||support.google.com^$domain=support.google.com
@@ -2193,7 +2183,6 @@
 @@||szhr.com^$generichide
 @@||szhr.com^*ad
 @@||tab.gladly.io/newtab/|$document,subdocument
-@@||tabiat.gov.tr/KACMS/Files/ad-$image,~third-party
 @@||taboola.com/libtrc/$script,domain=bild.de|computerbild.de|fitbook.de|jetzt.de|metal-hammer.de|musikexpress.de|noizz.de|rollingstone.de|stylebook.de|sueddeutsche.de|techbook.de|travelbook.de|welt.de|wieistmeineip.at|wieistmeineip.ch|wieistmeineip.de
 @@||taboola.com/libtrc/impl.$script,domain=businessinsider.com|insider.com
 @@||taboola.com^*/json?tim=$domain=sueddeutsche.de
@@ -2397,18 +2386,7 @@
 @@||viu.com^*/tracking/
 @@||viu.tv^$generichide
 @@||vivocha.com^*/vivocha.js?$script,domain=kartell.com
-@@||vk.com/ads$generichide
-@@||vk.com/ads.php$~third-party,xmlhttprequest
-@@||vk.com/ads.php?$subdocument,domain=vk.com
 @@||vk.com/ads?$popup,domain=vk.com
-@@||vk.com/ads?act=$~third-party
-@@||vk.com/ads?act=payments&type$script,stylesheet
-@@||vk.com/ads_*php?$subdocument,~third-party
-@@||vk.com/images/ads_$domain=vk.com
-@@||vk.com/js/al/ads.js?$domain=vk.com
-@@||vk.com^*/ads.css$domain=vk.com
-@@||vk.me/css/al/ads.css$domain=vk.com
-@@||vk.me/images/ads_$domain=vk.com
 @@||vlist.se/advertisement.js
 @@||vodjk.com/offlights.js
 @@||voeunblock.com^$subdocument
