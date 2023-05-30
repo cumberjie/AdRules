@@ -1,6 +1,6 @@
 ! Title: Allowlist
-! Version: 2023-05-30 06:09:59（北京时间） 
-! Total count: 2524
+! Version: 2023-05-30 18:11:12（北京时间） 
+! Total count: 2513
 @@$generichide,domain=vidoza.co|vidoza.net
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
 @@-ds.metric.gstatic.com^|
@@ -719,6 +719,7 @@
 @@||cdn.mxpnl.com/libs/$script,domain=get.pumpkin.care
 @@||cdn.optimizely.com/js/$domain=compassion.com|creditsesame.com|fedex.com|freeshipping.com|heroku.com|kabeleins.de|prosiebenmaxx.de|ran.de|sat1.de|sixx.de|tcgplayer.com
 @@||cdn.optimizely.com/js/*.js$domain=kktv.me
+@@||cdn.perfops.net/rom3/rom3.min.js$domain=cdnperf.com
 @@||cdn.petametrics.com^$script,domain=comics.mecha.cc
 @@||cdn.plyvdo.live/scripts/$script
 @@||cdn.rozetka.com.ua^|
@@ -1041,7 +1042,6 @@
 @@||eu4cn.com^$generichide
 @@||eum-blue-saas.instana.io^|
 @@||ev.tpocdm.com^$xmlhttprequest,domain=wowma.jp
-@@||events-collector.spot.im/api/$xmlhttprequest
 @@||events.raceresult.com^$~third-party,xmlhttprequest
 @@||evil-inc.com/comic/advertising-age/$~third-party,xmlhttprequest
 @@||exoclick.com/iframe.php?*=2596969&$domain=jav777.cc
@@ -1084,7 +1084,6 @@
 @@||flashx.tv/js/xfs.js
 @@||flashx.tv/js/xupload.js
 @@||flashx.tv/player6/jwplayer.js
-@@||flipboard.com/setcookie?$~third-party
 @@||fltaradio.com/js/ads.js
 @@||fluidplayer.com^$script,stylesheet,domain=canyoublockit.com
 @@||flyert.com/plug/socialShare/js/social-share.
@@ -1158,15 +1157,11 @@
 @@||gemius.pl/gstream.js
 @@||genesyslogic.com^*/ads$~third-party
 @@||genshuixue.com/??/*/counter/action_
-@@||geo-targetly.com/geolocation?id$script,third-party
-@@||geo.gorillanation.com/geo.php$script,domain=sherdog.com
 @@||geo.kaloo.ga/json/$script,domain=tagesspiegel.de
 @@||geo.query.yahoo.com^$xmlhttprequest,domain=tw.autos.yahoo.com|tw.buy.yahoo.com
 @@||geoip-db.com/jsonp/$script,third-party
 @@||geoip.cookieyes.com/geoip/checker/result.php$domain=marktechpost.com
 @@||geolocation-db.com/jsonp$script,domain=parts.hp.com
-@@||geoplugin.net/javascript.gp?$script,domain=suicidepreventionlifeline.org|virginmobile.ca
-@@||geostag.cardinalcommerce.com/DeviceFingerprintWeb/includes/js/fingerprint2.min.js$script
 @@||get.geojs.io/v1/ip/geo.json$domain=namlih.my.id|shop.critrole.com
 @@||get.s-onetag.com/*/tag.min.js$domain=zakzak.co.jp
 @@||getflywheel.com/addons/google-analytics/$~third-party
@@ -1302,7 +1297,6 @@
 @@||history.com^$generichide
 @@||hit.gemius.pl/__/redataredir?$domain=ing.pl
 @@||hit.interia.pl/iwa_core$script,~third-party
-@@||hitfile.net/platform/js/fdlogger/fdlogger.js$script,~third-party
 @@||hiveworkscomics.com/frontboxes/300x250_$image,~third-party
 @@||hk.on.cc/js/v4/oncc-adbanner.js
 @@||hk.on.cc/js/v4/urchin.js
@@ -1348,7 +1342,6 @@
 @@||icloud.com^$generichide
 @@||id.i2i.jp^|
 @@||identity.mparticle.com^$xmlhttprequest
-@@||idfcbank.com/static/features/*/scripts/FingerPrint.js$script,~third-party
 @@||iejima.org/ad-banner/$image,~third-party
 @@||ifeng.com^*?new=*?new=$domain=i.ifeng.com
 @@||ifengimg.com/a/201*Player
@@ -1688,7 +1681,6 @@
 @@||newver.api.dedecms.com/index.php$subdocument
 @@||nextcloud.com/remote.php/$~third-party,xmlhttprequest
 @@||nflcdn.com/static/site/$script,domain=nfl.com
-@@||nhl.com/components/shared/omniture-tracking-scripts/newRelic.js$~third-party
 @@||nihasi.ru/upload/resize_cache/*/300_250_$image,~third-party
 @@||nike.com/assets/measure/data-capture/analytics-client.min.js$script,~third-party
 @@||nineto5mac-d.openx.net^|
@@ -1745,7 +1737,6 @@
 @@||online.mps-gba.de/praeludium/$script,domain=auto-motor-und-sport.de|caravaning.de|motorradonline.de
 @@||online.unionpay.com/ads/$script
 @@||onlinebanking.usbank.com/TUX/public/libs/adobe/appmeasurement.js$script,~third-party
-@@||onlyfans.com/theme/onlyfans/spa/statistics.js$~third-party
 @@||open.spotify.com^$generichide
 @@||open.spotifycdn.com/cdn/build/embed/overture.$script,domain=open.spotify.com
 @@||openapi.youku.com/router^$app=com.huawei.hwvplayer.youku
@@ -1974,7 +1965,6 @@
 @@||rule34.us/images/ad/$image,~third-party
 @@||rule34hentai.net^$generichide
 @@||rules.atgsvcs.com/EERules/view/$domain=lenovo.com
-@@||rum.perfops.net/rum.min.js$script,domain=cdnperf.com
 @@||runescape.wiki^$image,~third-party
 @@||ruten.com.tw/ahd/fetch_ad.php
 @@||ruten.com.tw/js/jquery.ruten.supertop_ad.js
@@ -2053,7 +2043,6 @@
 @@||shopback.com.tw^$generichide
 @@||shopeemobile.com/shopee/*/modules/ads/
 @@||shopeesz.com/shopee/*/modules/ads/
-@@||shopify.com/*assets/pixel.gif$image,domain=metrovac.com
 @@||shopify.com/shopifycloud/boomerang/shopify-boomerang-$domain=rydewear.com
 @@||shopping.naver.net/ad/$image,script,stylesheet,domain=naver.com
 @@||show.g.mediav.com/s?type=$domain=v.360kan.com
