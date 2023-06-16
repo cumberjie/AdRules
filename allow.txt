@@ -1,5 +1,5 @@
 ! Title: Allowlist
-! Version: 2023-06-16 06:09:56（北京时间） 
+! Version: 2023-06-16 18:11:12（北京时间） 
 ! Total count: 2511
 @@$generichide,domain=vidoza.co|vidoza.net
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
@@ -383,7 +383,7 @@
 @@||ads.reddit.com^$domain=myqqjd.com
 @@||ads.roblox.com/v1/sponsored-pages$xmlhttprequest,domain=roblox.com
 @@||ads.rogersmedia.com^$subdocument,domain=cbc.ca
-@@||ads.rubiconproject.com/prebid/$script,domain=everydayhealth.com
+@@||ads.rubiconproject.com/prebid/$script,domain=drudgereport.com|everydayhealth.com
 @@||ads.shopee.*/$popup
 @@||ads.spotify.com^$popup
 @@||ads.taboola.com^$popup
