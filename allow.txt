@@ -1,6 +1,6 @@
 ! Title: Allowlist
-! Version: 2023-06-17 06:09:47（北京时间） 
-! Total count: 2512
+! Version: 2023-06-17 18:10:11（北京时间） 
+! Total count: 2514
 @@$generichide,domain=vidoza.co|vidoza.net
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
 @@-ds.metric.gstatic.com^|
@@ -470,6 +470,7 @@
 @@||amazonaws.com/static.madlan.co.il/*/heatmap.json?$xmlhttprequest
 @@||amebame.com/pub/ads/$image,domain=abema.tv|ameba.jp|ameblo.jp
 @@||amplitude.com/libs/$script,domain=elconfidencial.com|kink.com|pdfexpert.com
+@@||analytics-sdk.yle.fi/yle-analytics.min.js$~third-party
 @@||analytics-static.ugc.bazaarvoice.com/prod/$script,domain=hisense.co.uk
 @@||analytics.163.com/ntes.js$domain=3g.163.com
 @@||analytics.amplitude.com^$~third-party
@@ -1077,6 +1078,7 @@
 @@||feilusw.com/search.html$genericblock,generichide
 @@||fengkongcloud.com/fpv2.js
 @@||fharr.com^$generichide
+@@||figma.com^$generichide
 @@||files.slack.com^$image,~third-party
 @@||fingerprintjs.com^$generichide
 @@||firebase.google.com/docs/analytics/$~third-party
@@ -1873,7 +1875,7 @@
 @@||pub.pixels.ai/prebid_standard.js$script,domain=standard.co.uk
 @@||pub.pixels.ai/wrap-independent-no-prebid-lib.js$script,domain=independent.co.uk
 @@||pubads.g.doubleclick.net/gampad/ads?*&description_url=https%3A%2F%2Fani.gamer.com.tw$domain=imasdk.googleapis.com
-@@||pubads.g.doubleclick.net/ssai/$domain=cbssports.com|newson.us|worldsurfleague.com
+@@||pubads.g.doubleclick.net/ssai/
 @@||public-cis.exponea.com^|
 @@||publicwww.com^$generichide
 @@||pushpushgo.com/js/$script,domain=centrumriviera.pl
