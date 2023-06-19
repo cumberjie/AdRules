@@ -1,6 +1,6 @@
 ! Title: Allowlist
-! Version: 2023-06-19 06:09:36（北京时间） 
-! Total count: 2451
+! Version: 2023-06-19 18:11:50（北京时间） 
+! Total count: 2446
 @@$generichide,domain=vidoza.co|vidoza.net
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
 @@-ds.metric.gstatic.com^|
@@ -315,9 +315,6 @@
 @@||addicted.es^*/ad728-$image,~third-party
 @@||addon.dismall.com/resource/*/ad
 @@||addthis.com/*-angularjs.min.js$script,domain=ead.senac.br|missingkids.com|missingkids.org
-@@||adf.ly/ad/banner/*=$xmlhttprequest
-@@||adf.ly/static/image/ad_top_bg2.png?
-@@||adf.ly^$generichide
 @@||adfurikun.jp/adfurikun/images/$~third-party
 @@||adidasoriginals-lookbook.com.tw/js/adtracking.js
 @@||adjs.8591.com.tw^$script
@@ -971,7 +968,6 @@
 @@||dqzsteel.com/Website/Image/guanggao/
 @@||drive.google.com^$generichide
 @@||dropbox.com^$generichide
-@@||dropboxstatic.com/static/metaserver/static/js/ux_analytics/$script,domain=dropbox.com
 @@||duckduckgo.com/?q=$generichide
 @@||duelmeta.com^$generichide
 @@||dushu.ru^$script,domain=bhshu.net
@@ -1480,7 +1476,6 @@
 @@||links.e.theatlantic.com^|
 @@||links.getblueshift.com^|
 @@||linkstars.com/union/
-@@||linksynergy.com/minified_logic.js$third-party,xmlhttprequest
 @@||listrakbi.com^$image,script,stylesheet,domain=sks-bottle.com
 @@||litv.tv/ads/ads.js
 @@||liulanmi.com/wp-content/uploads/*/StatCounter-
