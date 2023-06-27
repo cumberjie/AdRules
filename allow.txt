@@ -1,6 +1,6 @@
 ! Title: Allowlist
-! Version: 2023-06-27 18:13:29（北京时间） 
-! Total count: 2450
+! Version: 2023-06-28 06:11:12（北京时间） 
+! Total count: 2452
 @@$generichide,domain=vidoza.co|vidoza.net
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
 @@-ds.metric.gstatic.com^|
@@ -1053,6 +1053,8 @@
 @@||feilusw.com/search.html$genericblock,generichide
 @@||fengkongcloud.com/fpv2.js
 @@||fharr.com^$generichide
+@@||fichub.com/plugins/adobe/lib/AppMeasurement.js$domain=natgeotv.com
+@@||fichub.com/plugins/adobe/lib/VisitorAPI.js$domain=natgeotv.com
 @@||figma.com^$generichide
 @@||files.slack.com^$image,~third-party
 @@||fingerprintjs.com^$generichide
