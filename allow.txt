@@ -1,6 +1,6 @@
 ! Title: Allowlist
-! Version: 2023-07-06 06:11:59（北京时间） 
-! Total count: 2450
+! Version: 2023-07-06 18:13:45（北京时间） 
+! Total count: 2451
 @@$generichide,domain=vidoza.co|vidoza.net
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
 @@-ds.metric.gstatic.com^|
@@ -147,6 +147,7 @@
 @@|beta.publishers.adsterra.com^|
 @@|core.crazyegg.com^|
 @@|data:text^$popup,domain=box.com|clker.com|labcorp.com
+@@|ezodn.com^|
 @@|ftp.bmp.ovh^|
 @@|help-advertisers.adsterra.com^|
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org
