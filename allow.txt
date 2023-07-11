@@ -1,5 +1,5 @@
 ! Title: Allowlist
-! Version: 2023-07-11 18:13:19（北京时间） 
+! Version: 2023-07-12 06:11:18（北京时间） 
 ! Total count: 2440
 @@$generichide,domain=vidoza.co|vidoza.net
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
@@ -1917,7 +1917,7 @@
 @@||rmdown.com/ads.js
 @@||rollbar.com^*/rollbar.min.js$domain=rollingstone.com|variety.com|wwd.com
 @@||rtoaster.jp/Rtoaster.js$domain=peachjohn.co.jp|satofull.jp
-@@||rtoaster.jp^$script,domain=lexus.jp|melonbooks.co.jp
+@@||rtoaster.jp^$script,domain=lexus.jp|melonbooks.co.jp|pro.logitec.co.jp
 @@||rtr-vesti.ru/pvc_cdn/js/stat.js$domain=player.vgtrk.com
 @@||rubiconproject.com/prebid/dynamic/$script,domain=ask.com
 @@||rudaw.net/images/pixel.gif$~third-party
