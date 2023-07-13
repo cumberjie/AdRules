@@ -1,6 +1,6 @@
 ! Title: Allowlist
-! Version: 2023-07-13 06:11:07（北京时间） 
-! Total count: 2447
+! Version: 2023-07-13 18:12:57（北京时间） 
+! Total count: 2448
 @@$generichide,domain=vidoza.co|vidoza.net
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
 @@-ds.metric.gstatic.com^|
@@ -635,6 +635,7 @@
 @@||blackmod.net^$generichide
 @@||blog.ztjal.info^$generichide
 @@||bloominc.jp/adtool/$~third-party
+@@||blueconic.net/bostonglobemedia.js$domain=bostonglobe.com
 @@||blueconic.net/capitolbroadcasting.js$script,domain=wral.com
 @@||bluecore.com/triggermail.js$script,domain=fcpeuro.com
 @@||bnet.163.com^
