@@ -1,6 +1,6 @@
 ! Title: Allowlist
-! Version: 2023-07-22 06:09:45（北京时间） 
-! Total count: 2439
+! Version: 2023-07-22 18:10:19（北京时间） 
+! Total count: 2438
 @@$generichide,domain=vidoza.co|vidoza.net
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
 @@-ds.metric.gstatic.com^|
@@ -711,7 +711,6 @@
 @@||cdn.mxpnl.com/libs/$script,domain=get.pumpkin.care
 @@||cdn.optimizely.com/js/*.js$domain=kktv.me
 @@||cdn.perfops.net/rom3/rom3.min.js$domain=cdnperf.com
-@@||cdn.petametrics.com^$script,domain=comics.mecha.cc
 @@||cdn.plyvdo.live/scripts/$script
 @@||cdn.rozetka.com.ua^|
 @@||cdn.segment.com/analytics-next/
@@ -1879,7 +1878,6 @@
 @@||quapp.1122dh.com/top/man^$app=com.biquge.ebook.app
 @@||quapp.1122dh.com/v4/biquge/SearchEngine.html$app=com.biquge.ebook.app
 @@||quapp.1122dh.com/v4/biquge/man.html
-@@||query.petametrics.com^$image,xmlhttprequest,domain=comics.mecha.cc
 @@||r10s.jp/share/themes/ds/js/show_ads_randomly.js$domain=travel.rakuten.co.jp
 @@||r3sub.com^$generichide
 @@||radiofrance.targetspot.com^|
@@ -1915,7 +1913,7 @@
 @@||rmdown.com/ads.js
 @@||rollbar.com^*/rollbar.min.js$domain=rollingstone.com|variety.com|wwd.com
 @@||rtoaster.jp/Rtoaster.js$domain=peachjohn.co.jp|satofull.jp
-@@||rtoaster.jp^$script,domain=lexus.jp|melonbooks.co.jp|pro.logitec.co.jp
+@@||rtoaster.jp^$script,domain=lexus.jp|melonbooks.co.jp
 @@||rtr-vesti.ru/pvc_cdn/js/stat.js$domain=player.vgtrk.com
 @@||rubiconproject.com/prebid/dynamic/$script,domain=ask.com
 @@||rudaw.net/images/pixel.gif$~third-party
@@ -2103,6 +2101,7 @@
 @@||suning.cn/project/msIndex/js/??
 @@||suntory.co.jp/beer/kinmugi/css2020/ad.css?
 @@||suntory.co.jp/beer/kinmugi/img/ad/$image,~third-party
+@@||supercloudsms.com/static/js/taboola_ads.js
 @@||support-beacon.nakanohito.jp^|
 @@||support-widget.nakanohito.jp^|
 @@||support.google.com^$domain=support.google.com
