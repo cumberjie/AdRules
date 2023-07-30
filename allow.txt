@@ -1,6 +1,6 @@
 ! Title: Allowlist
-! Version: 2023-07-30 06:08:59（北京时间） 
-! Total count: 2443
+! Version: 2023-07-30 18:09:57（北京时间） 
+! Total count: 2442
 @@$generichide,domain=vidoza.co|vidoza.net
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
 @@-ds.metric.gstatic.com^|
@@ -427,7 +427,7 @@
 @@||ajax.googleapis.com/ajax/libs/$script,domain=shink.me|shon.xyz
 @@||ajax.googleapis.com/ajax/libs/$script,domain=vidoza.co|vidoza.net
 @@||ajax.googleapis.com^$script,domain=imgbox.com
-@@||ajax.googleapis.com^$script,domain=up-4ever.com|up-4ever.org
+@@||ajax.googleapis.com^$script,domain=up-4ever.net
 @@||ajio.com/static/assets/vendors~static/chunk/common/libraries/fingerprintjs2.$script,~third-party
 @@||ak77now.pixnet.net^$generichide
 @@||akamaiedge.net^$domain=canyoublockit.com
@@ -831,7 +831,7 @@
 @@||communityenergysolutions.com/ui/assets/gtm/gtm.js$script,~third-party
 @@||connatix.com*/connatix.player.$script,domain=ebaumsworld.com|funker530.com|washingtonexaminer.com
 @@||connatix.com/min/connatix.renderer.infeed.min.js$domain=accuweather.com|collider.com|gamepress.gg|salon.com
-@@||connect.facebook.net^$script,domain=up-4ever.com|up-4ever.org
+@@||connect.facebook.net^$script,domain=up-4ever.net
 @@||connect.facebook.net^*/fbevents.js$domain=elinoi.com
 @@||console.statsig.com/_next/$~third-party
 @@||contacts.google.com^$generichide
@@ -1068,7 +1068,7 @@
 @@||flying-lines.com/banners/$image,~third-party
 @@||fm.ipinyou.$domain=ipinyou.com.cn
 @@||fm.p0y.cn^$domain=ipinyou.com.cn
-@@||fonts.googleapis.com^$stylesheet,domain=up-4ever.com|up-4ever.org
+@@||fonts.googleapis.com^$stylesheet,domain=up-4ever.net
 @@||forecast.lemonde.fr/p/event/pageview?$image,~third-party
 @@||forexprostools.com^$domain=shougedui.com
 @@||forexprostools.com^$subdocument,domain=fx-rashinban.com
@@ -1526,7 +1526,7 @@
 @@||material.io^$generichide
 @@||matomo.miraheze.org/matomo.js$script,~third-party
 @@||maxcdn.bootstrapcdn.com^$stylesheet,domain=shink.me|shon.xyz
-@@||maxcdn.bootstrapcdn.com^$stylesheet,domain=up-4ever.com|up-4ever.org
+@@||maxcdn.bootstrapcdn.com^$stylesheet,domain=up-4ever.net
 @@||maxmind.com/geoip/$xmlhttprequest,domain=ibanez.com
 @@||maxmind.com^*/geoip.js$domain=aljazeera.com|ballerstatus.com|bikemap.net|carltonjordan.com|cashu.com|coolsport.tv|dereon.com|dr.dk|everydaysource.com|fab.com|girlgames4u.com|incgamers.com|ip-address.cc|maaduu.com|qatarairways.com|sat-direction.com|sotctours.com|stoli.com|vibe.com
 @@||maxmind.com^*/geoip2.js$domain=bandai-hobby.net|boostedboards.com|donorschoose.org|driftinnovation.com|fallout4.com|ibanez.com|instamed.com|metronews.ca|mtv.com.lb|runningheroes.com|teslamotors.com
@@ -2247,6 +2247,7 @@
 @@||tui.click^$generichide
 @@||tunein.com/api/v1/comscore$~third-party
 @@||tv.youtube.com^$generichide
+@@||tv99.tv^$generichide
 @@||tvb.com/social/share_
 @@||tvb.com^*/videojs.ads.
 @@||tvcom-static.ssl.cdn.cra.cz/*/videojs.ga.js$script,domain=tvcom.cz
@@ -2306,8 +2307,6 @@
 @@||video.qq.com^*&refer=http$script
 @@||vidible.tv^*/ComScore.StreamSense.js
 @@||vidible.tv^*/ComScore.Viewability.js
-@@||vidtodo.com^$image,script,stylesheet,xmlhttprequest,domain=vidtodo.com
-@@||vidtodoo.com^$image,script,stylesheet,xmlhttprequest,domain=vidtodo.com
 @@||vipstatic.com/img/share/blank.png
 @@||visualwebsiteoptimizer.com/deploy/js_visitor_settings.php$script,domain=gre.magoosh.com
 @@||visualwebsiteoptimizer.com^*/vis_opt-$script,domain=gre.magoosh.com
