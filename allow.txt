@@ -1,6 +1,6 @@
 ! Title: Allowlist
-! Version: 2023-08-02 06:09:41（北京时间） 
-! Total count: 2446
+! Version: 2023-08-02 18:11:17（北京时间） 
+! Total count: 2447
 @@$generichide,domain=vidoza.co|vidoza.net
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
 @@-ds.metric.gstatic.com^|
@@ -1790,6 +1790,7 @@
 @@||player.letvcdn.com*/newplayer/*.swf
 @@||player.letvcdn.com/*/letvPlayer.swf
 @@||player.mgtv.com/mgtv_*/ad.swf
+@@||player.odycdn.com/api/$xmlhttprequest,domain=odysee.com
 @@||player.vgtrk.com/js/stat.js?
 @@||players.fichub.com/plugins/adobe/$domain=24kitchen.pt
 @@||playwire.com/bolt/js/zeus/embed.js$script,third-party
