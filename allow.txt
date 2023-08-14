@@ -1,6 +1,6 @@
 ! Title: Allowlist
-! Version: 2023-08-14 18:11:05（北京时间） 
-! Total count: 2451
+! Version: 2023-08-15 06:09:30（北京时间） 
+! Total count: 2452
 @@$generichide,domain=vidoza.co|vidoza.net
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
 @@-ds.metric.gstatic.com^|
@@ -2207,6 +2207,7 @@
 @@||tm.r-ad.ne.jp/128/ra346756.js$script,domain=hpdsp.net
 @@||tmall.com/add?
 @@||tmall.com/go/*/banner.php
+@@||tms.oracle.com/main/prod/utag.sync.js$~third-party
 @@||tmx.bestbuy.com/z3nsvo31pnlmt3tw.js$domain=bestbuy.com
 @@||toggo.de/static/js/sourcepoint.js$domain=toggo.de
 @@||tokbox.com/prod/logging/ClientEvent$domain=examroom.ai
