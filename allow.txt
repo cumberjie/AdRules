@@ -1,6 +1,6 @@
 ! Title: Allowlist
-! Version: 2023-08-22 18:11:01（北京时间） 
-! Total count: 2463
+! Version: 2023-08-23 06:09:32（北京时间） 
+! Total count: 2465
 @@$generichide,domain=vidoza.co|vidoza.net
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
 @@-ds.metric.gstatic.com^|
@@ -2445,6 +2445,8 @@
 @@||yjtag.yahoo.co.jp/tag?$script,domain=bousai.yahoo.co.jp
 @@||yottaa.net^$script,domain=containerstore.com|hannaandersson.com
 @@||youaima.com/zz/play_
+@@||youchien.net/ad/*/ad/img/$~third-party
+@@||youchien.net/css/ad_side.css$~third-party
 @@||youku.com/cms/player/userinfo/
 @@||youku.com/cms/playlog/get?
 @@||youtube.com/ads/preferences/$popup
