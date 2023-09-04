@@ -1,6 +1,6 @@
 ! Title: Allowlist
-! Version: 2023-09-04 18:11:37（北京时间） 
-! Total count: 2469
+! Version: 2023-09-05 06:09:34（北京时间） 
+! Total count: 2468
 @@$generichide,domain=vidoza.co|vidoza.net
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
 @@-ds.metric.gstatic.com^|
@@ -459,7 +459,7 @@
 @@||amazon-adsystem.com/widgets/q?$image,third-party
 @@||amazonaws.com/static.madlan.co.il/*/heatmap.json?$xmlhttprequest
 @@||amebame.com/pub/ads/$image,domain=abema.tv|ameba.jp|ameblo.jp
-@@||amplitude.com/libs/$script,domain=elconfidencial.com|kink.com|pdfexpert.com
+@@||amplitude.com/libs/$script,domain=elconfidencial.com|kink.com|pdfexpert.com|xe.com
 @@||analytics-sdk.yle.fi/yle-analytics.min.js$~third-party
 @@||analytics-static.ugc.bazaarvoice.com/prod/$script,domain=hisense.co.uk
 @@||analytics.163.com/ntes.js$domain=3g.163.com
@@ -1484,7 +1484,6 @@
 @@||links.getblueshift.com^|
 @@||linkstars.com/union/
 @@||linksynergy.com/minified_logic.js$xmlhttprequest
-@@||listrakbi.com^$image,script,stylesheet,domain=sks-bottle.com
 @@||litv.tv/ads/ads.js
 @@||liulanmi.com/wp-content/uploads/*/StatCounter-
 @@||liumingye.cn^$generichide
