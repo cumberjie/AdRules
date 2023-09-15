@@ -1,6 +1,6 @@
 ! Title: Allowlist
-! Version: 2023-09-15 18:11:22（北京时间） 
-! Total count: 2477
+! Version: 2023-09-16 06:09:14（北京时间） 
+! Total count: 2478
 @@$generichide,domain=vidoza.co|vidoza.net
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
 @@-ds.metric.gstatic.com^|
@@ -1368,6 +1368,7 @@
 @@||ipinfo.io/static/images/use-cases/adtech.jpg$image,~third-party
 @@||ipip.net/ping.php?
 @@||ipstatp.com/business_center/dist/img/ad-$domain=tiktok.com
+@@||ipv4.seeip.org/jsonip$domain=empire-streaming.app
 @@||island.lk/userfiles/image/danweem/island.gif
 @@||itc.cn/site/share/
 @@||itv.com/itv/hserver/*/site=itv/$xmlhttprequest
