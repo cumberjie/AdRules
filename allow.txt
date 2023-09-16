@@ -1,6 +1,6 @@
 ! Title: Allowlist
-! Version: 2023-09-16 18:09:35（北京时间） 
-! Total count: 2479
+! Version: 2023-09-17 06:09:00（北京时间） 
+! Total count: 2472
 @@$generichide,domain=vidoza.co|vidoza.net
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
 @@-ds.metric.gstatic.com^|
@@ -79,7 +79,6 @@
 @@/fingerprint2.js$domain=fangcloud.com|fx678.com|pop-fashion.com
 @@/fingerprint2.min.js$domain=csdn.net|neets.cc|passport.vpgame.com|shixiseng.com
 @@/fingerprintjs2.min.js$domain=imooc.com
-@@/friendbuy.min.js$script,domain=butcherbox.com
 @@/fuckadblock.$domain=bde4.com|datehub.co|dilidili.one|golangnote.com|lnk2.cc|nfmovies.com|papalah.com|qqdie.com
 @@/fuckadblock.$domain=datehub.co|golangnote.com|joyk.com|liumingye.cn|lnk2.cc|poedb.tw|share1223.com
 @@/guanggao/*$domain=icbc.com.cn|igame.qq.com
@@ -652,7 +651,6 @@
 @@||brm-core-*.brsrvr.com^|
 @@||browser.cloud.ucweb.com^
 @@||browser.sentry-cdn.com^$domain=acustica-audio.com|dic.pixiv.net|doconcall.com.my|eco-clobber.co.uk|fundhero.io|marshmallow-qa.com|menshealth.com|podcasty.seznam.cz|roomster.com|spacemarket.com|timesprime.com|vivareal.com.br|womenshealthmag.com
-@@||brsrvr.com/api/$xmlhttprequest,domain=dollargeneral.com
 @@||btsax.info^$generichide
 @@||bugsnag.com^$~third-party,domain=app.bugsnag.com
 @@||builder.io^$generichide
@@ -794,7 +792,6 @@
 @@||cloudfront.net/atrk.js$domain=luxuryrealestate.com
 @@||cloudfront.net/js/common/invoke.js
 @@||cloudfront.net/libs/amplitude-$script,domain=elconfidencial.com
-@@||cloudfront.net/vis_opt.js$script,domain=gre.magoosh.com
 @@||cloudinary.com/perimeterx/$image,domain=perimeterx.com
 @@||club.tgfcer.com^$generichide
 @@||cm-beacon.nakanohito.jp^|
@@ -1276,7 +1273,6 @@
 @@||hh010.com^$generichide
 @@||highcharts.com.cn/highcharts/modules/heatmap.js
 @@||hinagiku-u.ed.jp/wp54/wp-content/themes/hinagiku/images/$image,~third-party
-@@||hirosystems.vscode-unpkg.net/*/clarity-lsp/$domain=github.dev|vscode.dev
 @@||histock.tw/JScript/AD/
 @@||history.com^$generichide
 @@||hit.gemius.pl/__/redataredir?$domain=ing.pl
@@ -1314,7 +1310,6 @@
 @@||ias.global.rakuten.com/adv/$script,domain=rakuten.co.jp
 @@||ibf.tw/user/plugins/webtech-topbar/fuckadblock.js
 @@||ibf.tw^$generichide
-@@||ibm.com/software/reports/compatibility/clarity-reports/js/$script,~third-party
 @@||ibon.com.tw/imageserver/images/ad_file/
 @@||icantw.com/platform/cover_ad/cover_ad.js
 @@||icbc.com.cn/ICBC_ADJS/
@@ -2152,7 +2147,6 @@
 @@||szhr.com^*ad
 @@||tab.gladly.io/newtab/|$document,subdocument
 @@||taboola.com/libtrc/$script,domain=bild.de|computerbild.de|fitbook.de|jetzt.de|metal-hammer.de|musikexpress.de|noizz.de|rollingstone.de|stylebook.de|sueddeutsche.de|techbook.de|travelbook.de|welt.de|wieistmeineip.at|wieistmeineip.ch|wieistmeineip.de
-@@||taboola.com/libtrc/impl.$script,domain=businessinsider.com|insider.com
 @@||tag.aticdn.net^$script,domain=gouv.fr|rte.ie|tv5monde.com|uktvplay.co.uk|visaconcierge.eu|yourstory.com
 @@||tag.search.sensefuel.live/tag/$script,domain=bricomart.es
 @@||tagcommander.com^*/tc_$script
@@ -2293,7 +2287,6 @@
 @@||udn.com/mall/images/spacer.gif?
 @@||udndata.com/ndapp/ads/$~third-party
 @@||udnplay.com/js/momo/adsbygoogle.js
-@@||udottraffic.utah.gov/javascripts/Piwik.js
 @@||udp2p.com^$generichide
 @@||ui.ads.microsoft.com^$~third-party
 @@||uim.tifbs.net/js/$script,domain=web.de
