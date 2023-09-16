@@ -1,6 +1,6 @@
 ! Title: Allowlist
-! Version: 2023-09-16 06:09:14（北京时间） 
-! Total count: 2478
+! Version: 2023-09-16 18:09:35（北京时间） 
+! Total count: 2479
 @@$generichide,domain=vidoza.co|vidoza.net
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
 @@-ds.metric.gstatic.com^|
@@ -1027,6 +1027,7 @@
 @@||epubit.com/static/epubit/share/js/share.min.js
 @@||eslite.com^*/ad
 @@||etsy.com/api/v3/ajax/bespoke/*log_performance_metrics=$~third-party
+@@||ettoday.net^$generichide
 @@||eu4cn.com^$generichide
 @@||eum-blue-saas.instana.io^|
 @@||ev.tpocdm.com^$xmlhttprequest,domain=wowma.jp
@@ -1332,7 +1333,7 @@
 @@||iis1.deliver.ifeng.com/showcode?$domain=v.ifeng.com
 @@||ik123.com/js/a.js
 @@||ikea.cn^*/img/ads/
-@@||ikea.com^*/assets/analyticsEvent.component-$script,~third-party
+@@||ikea.com^*/analyticsEvent.$script,~third-party
 @@||image.coolapk.com^
 @@||image.shutterstock.com^$image,domain=icons8.com
 @@||imasdk.googleapis.com/js/core/bridge*.html$subdocument,domain=~spotify.com
