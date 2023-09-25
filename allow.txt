@@ -1,6 +1,6 @@
 ! Title: Allowlist
-! Version: 2023-09-25 18:11:38（北京时间） 
-! Total count: 2474
+! Version: 2023-09-26 06:09:54（北京时间） 
+! Total count: 2475
 @@$generichide,domain=vidoza.co|vidoza.net
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
 @@-ds.metric.gstatic.com^|
@@ -1492,7 +1492,7 @@
 @@||live.lequipe.fr/thirdparty/prebid.js$~third-party
 @@||live.primis.tech/live/$script,domain=eurogamer.net|vg247.com
 @@||live.rezync.com^$script,domain=batteriesplus.com
-@@||live.streamtheworld.com/partnerIds$domain=iheart.com
+@@||live.streamtheworld.com/partnerIds$domain=iheart.com|player.amperwave.net
 @@||livesicilia.it/wp-content/plugins/digistream/digiplayer/js/videojs.ga.js?$script,third-party
 @@||livew.l.qq.com/crossdomain.xml
 @@||livew.l.qq.com/livemsg?pf=H5&ad$domain=m.v.qq.com
@@ -2047,6 +2047,7 @@
 @@||slack.com^$generichide
 @@||smallseotools.com^$generichide
 @@||smartadserver.com/genericpost$domain=filmweb.pl
+@@||smog.moja-ostroleka.pl/mapa/sensorsdata.json$~third-party
 @@||smotrim.ru/js/stat.js$script
 @@||smsonline.cloud^$generichide
 @@||smtcaw.com^$generichide
