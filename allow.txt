@@ -1,6 +1,6 @@
 ! Title: Allowlist
-! Version: 2023-09-26 06:09:54（北京时间） 
-! Total count: 2475
+! Version: 2023-09-26 18:11:28（北京时间） 
+! Total count: 2477
 @@$generichide,domain=vidoza.co|vidoza.net
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
 @@-ds.metric.gstatic.com^|
@@ -553,6 +553,7 @@
 @@||att.com/ui/services_co_myatt_common/$script,~third-party
 @@||att.tv^*/VisitorAPI.js$script,~third-party
 @@||atwiki.jp/common/_img/spacer.gif?$image,domain=atwiki.jp
+@@||ausha.tsbluebox.com^$media,domain=podcast.ausha.co
 @@||autocomplete.clearbit.com^$xmlhttprequest,domain=dzone.com
 @@||autohome.com.cn/javascript/fingerprint.js
 @@||autoimg.cn/bi/common/pvevent_all.
@@ -973,6 +974,7 @@
 @@||download.mokeedev.com^$genericblock,generichide
 @@||dqzsteel.com/Website/Image/guanggao/
 @@||drive.google.com^$generichide
+@@||driverfix.com^*/index_src.php?tracking=$~third-party
 @@||dropbox.com^$generichide
 @@||duckduckgo.com/?q=$generichide
 @@||duelmeta.com^$generichide
