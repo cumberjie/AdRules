@@ -1,6 +1,6 @@
 ! Title: Allowlist
-! Version: 2023-09-26 18:11:28（北京时间） 
-! Total count: 2477
+! Version: 2023-09-27 06:09:39（北京时间） 
+! Total count: 2480
 @@$generichide,domain=vidoza.co|vidoza.net
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
 @@-ds.metric.gstatic.com^|
@@ -1220,6 +1220,9 @@
 @@||googletagservices.com/tag/js/gpt.js$domain=chegg.com|chelseafc.com|epaper.timesgroup.com|farfeshplus.com|k2radio.com|koel.com|kowb1290.com|nationalreview.com|nationalworld.com|nbcsports.com|scotsman.com|tv-asahi.co.jp|uefa.com|vimeo.com|vlive.tv|voici.fr|windalert.com
 @@||googletagservices.com/tag/js/gpt.js$domain=fukuishimbun.co.jp
 @@||googletagservices.com/tag/js/gpt.js$domain=tvb.com|www.gamer.com.tw
+@@||googlevideo.com/videoplayback?*&pfa=$xmlhttprequest,domain=m.youtube.com|music.youtube.com|www.youtube.com
+@@||googlevideo.com/videoplayback?*yt_live_broadcast&$xmlhttprequest,domain=m.youtube.com|music.youtube.com|www.youtube.com
+@@||googlevideo.com/videoplayback?*yt_premiere_broadcast&$xmlhttprequest,domain=m.youtube.com|music.youtube.com|www.youtube.com
 @@||gooogle.how^$generichide
 @@||goto.target.com^|
 @@||goto.walmart.com^|
