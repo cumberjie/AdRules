@@ -1,5 +1,5 @@
 ! Title: Allowlist
-! Version: 2023-09-27 06:09:39（北京时间） 
+! Version: 2023-09-27 18:11:34（北京时间） 
 ! Total count: 2480
 @@$generichide,domain=vidoza.co|vidoza.net
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
@@ -2360,7 +2360,7 @@
 @@||warpwire.com/AD/
 @@||warpwire.net/AD/
 @@||wavepc.pl/wp-content/*-500x100.png$image,~third-party
-@@||web-ads.pulse.weatherbug.net/api/ads/targeting/$domain=weatherbug.net
+@@||web-ads.pulse.weatherbug.net/api/ads/targeting/$domain=weatherbug.com
 @@||web.archive.org^$generichide
 @@||web.dev/patterns/web-vitals-$~third-party
 @@||web.telegram.org^$generichide
