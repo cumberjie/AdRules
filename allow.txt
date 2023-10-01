@@ -1,6 +1,6 @@
 ! Title: Allowlist
-! Version: 2023-10-01 06:08:59（北京时间） 
-! Total count: 2481
+! Version: 2023-10-01 18:10:29（北京时间） 
+! Total count: 2483
 @@$generichide,domain=vidoza.co|vidoza.net
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
 @@-ds.metric.gstatic.com^|
@@ -703,6 +703,7 @@
 @@||cdn.bootcss.com^$script,domain=59xs.com|biqudd.com|luoqiuzw.com|u33.me|xbiqugela.com|xhtxt.cc|xs98.me|ysxs8.vip
 @@||cdn.doublemax.net/js/rwd_cap.js$domain=ibf.tw
 @@||cdn.duurzaam.greenchoice.nl^|
+@@||cdn.ex.co^$domain=theautopian.com
 @@||cdn.exp.qq.com/img/
 @@||cdn.heapanalytics.com^$script,domain=libertymutual.com
 @@||cdn.jsdelivr.net^$script,domain=35xss.com
@@ -1804,6 +1805,7 @@
 @@||player.aniview.com/script/$script,domain=odysee.com
 @@||player.anyclip.com/anyclip-widget/lre-widget/$script,domain=video.timeout.com|video.venturebeat.com
 @@||player.avplayer.com^$script,domain=explosm.net|gamingbible.co.uk|justthenews.com|ladbible.com
+@@||player.ex.co/player/$script,domain=theautopian.com
 @@||player.fc-zenit.ru/msi/geoip?$xmlhttprequest
 @@||player.letvcdn.com*/newplayer/*.swf
 @@||player.letvcdn.com/*/letvPlayer.swf
