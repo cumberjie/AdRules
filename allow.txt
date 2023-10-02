@@ -1,6 +1,6 @@
 ! Title: Allowlist
-! Version: 2023-10-02 18:11:37（北京时间） 
-! Total count: 2483
+! Version: 2023-10-03 06:09:45（北京时间） 
+! Total count: 2484
 @@$generichide,domain=vidoza.co|vidoza.net
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
 @@-ds.metric.gstatic.com^|
@@ -1134,6 +1134,7 @@
 @@||gaybeeg.info^$generichide
 @@||gaynetwork.co.uk/Images/ads/bg/$image,~third-party
 @@||gbf.wiki/images/$image,~third-party
+@@||gboku.com^$generichide
 @@||geekbang.org/resource/image/ad/14/addb521e20de1a302206f4286eac3914.png
 @@||geekzone.co.nz^$generichide
 @@||gelbooru.com^$generichide
