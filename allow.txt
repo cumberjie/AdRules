@@ -1,6 +1,6 @@
 ! Title: Allowlist
-! Version: 2023-10-06 18:11:10（北京时间） 
-! Total count: 2489
+! Version: 2023-10-07 06:09:32（北京时间） 
+! Total count: 2490
 @@$generichide,domain=vidoza.co|vidoza.net
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
 @@-ds.metric.gstatic.com^|
@@ -645,6 +645,7 @@
 @@||bookmate.com^*/impressions?$~third-party,xmlhttprequest
 @@||bootcss.com^$script,domain=bimibimi.tv|kan-tv.com|wnacg.com
 @@||bootcss.com^$script,domain=kan-tv.com
+@@||bordeaux.futurecdn.net/bordeaux.js$script,domain=tomsguide.com
 @@||borneobulletin.com.bn/wp-content/banners/bblogo.jpg$~third-party
 @@||bostonglobe.com/login/js/lib/AppMeasurement.js$~third-party
 @@||brave.com/static-assets/$image,~third-party
