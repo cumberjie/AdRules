@@ -1,6 +1,6 @@
 ! Title: Allowlist
-! Version: 2023-10-11 18:11:35（北京时间） 
-! Total count: 2497
+! Version: 2023-10-12 06:09:38（北京时间） 
+! Total count: 2499
 @@$generichide,domain=vidoza.co|vidoza.net
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
 @@-ds.metric.gstatic.com^|
@@ -1174,6 +1174,7 @@
 @@||gk.sina.cn/v1/gkmatch?
 @@||global-uploads.webflow.com/*_dimensions-$image,domain=dimensions.com
 @@||glookup.info/api/json/$domain=grabify.link
+@@||gmail.com^$generichide
 @@||gn-web-assets.api.bbc.com/bbcdotcom/assets/$script,domain=bbc.co.uk
 @@||go.adjust.com^|
 @@||go.ezodn.com/tardisrocinante/lazy_load.js?$script,domain=raiderramble.com
@@ -1984,6 +1985,7 @@
 @@||sascdn.com/tag/$script,domain=filmweb.pl
 @@||sax.sina.com.cn/video/newimpress?
 @@||sc.omtrdc.net^$domain=cibc.com
+@@||sc.youmaker.com/site/article/count?
 @@||sc2casts.com^$generichide
 @@||scan-manga.eu/*pageID=$~third-party
 @@||schemeflood.com^$generichide
