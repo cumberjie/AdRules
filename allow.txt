@@ -1,6 +1,6 @@
 ! Title: Allowlist
-! Version: 2023-10-11 06:09:57（北京时间） 
-! Total count: 2495
+! Version: 2023-10-11 18:11:35（北京时间） 
+! Total count: 2497
 @@$generichide,domain=vidoza.co|vidoza.net
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
 @@-ds.metric.gstatic.com^|
@@ -154,6 +154,7 @@
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org
 @@|partners.adsterra.com^|
 @@|publishers.adsterra.com^|
+@@|statcounter.com^|
 @@||*/assets/js/common/juqery/
 @@||060s.com/images_ad/*.png
 @@||073img.com/*,*,
@@ -2430,6 +2431,7 @@
 @@||www.nfmovies.com/pic/tu/banner03.jpg
 @@||www.nfmovies.com/static/side.jpg
 @@||www.statcounter.com/images/$image,third-party
+@@||www.statcounter.com^|
 @@||www.ticketmaster.$popup,domain=adclick.g.doubleclick.net
 @@||www.ups.com/WebTracking/processInputRequest
 @@||wwwimage-tve.cbsstatic.com^
