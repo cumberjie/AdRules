@@ -1,6 +1,6 @@
 ! Title: Allowlist
-! Version: 2023-10-12 06:09:38（北京时间） 
-! Total count: 2499
+! Version: 2023-10-12 18:11:26（北京时间） 
+! Total count: 2500
 @@$generichide,domain=vidoza.co|vidoza.net
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
 @@-ds.metric.gstatic.com^|
@@ -991,6 +991,7 @@
 @@||dw.com.com/js/dw.js$domain=cbsnews.com|tv.com
 @@||dwstatic.com/b=amkit
 @@||dwstatic.com/b=amkit&f=*/adjoin.
+@@||dynamicyield.com/scripts/*/dy-coll-nojq-min.js$domain=gigasport.at|gigasport.ch|gigasport.de
 @@||dz9qn8fh4jznm.cloudfront.net/script.js$script,domain=bostonglobe.com
 @@||e-stat.go.jp/modules/custom/retrieve/src/js/stat.js?$script,~third-party
 @@||e.cn.miaozhen.com/r/k=*=http
