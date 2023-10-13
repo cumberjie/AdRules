@@ -1,6 +1,6 @@
 ! Title: Allowlist
-! Version: 2023-10-13 06:10:19（北京时间） 
-! Total count: 2501
+! Version: 2023-10-13 18:11:31（北京时间） 
+! Total count: 2502
 @@$generichide,domain=vidoza.co|vidoza.net
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
 @@-ds.metric.gstatic.com^|
@@ -2022,6 +2022,7 @@
 @@||service-public.fr^*/assets/js/eulerian/eulerian.js$~third-party
 @@||service.apport.net/apport-spa-common/src/tracking/tracking.js$~third-party
 @@||serviceads.co.uk/api/ad/$~third-party,xmlhttprequest
+@@||services.chipotle.com/__imp_apg__/$~third-party
 @@||serving-sys.com/Serving/adServer.bs?$popup,domain=spaargids.be
 @@||serving-sys.com/serving/adServer.bs?$popup,domain=hongkongcard.com
 @@||seselah.com^$generichide
