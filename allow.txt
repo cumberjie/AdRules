@@ -1,6 +1,6 @@
 ! Title: Allowlist
-! Version: 2023-10-14 06:09:51（北京时间） 
-! Total count: 2503
+! Version: 2023-10-14 18:09:48（北京时间） 
+! Total count: 2502
 @@$generichide,domain=vidoza.co|vidoza.net
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
 @@-ds.metric.gstatic.com^|
@@ -1514,7 +1514,7 @@
 @@||live.rezync.com^$script,domain=batteriesplus.com
 @@||live.streamtheworld.com/partnerIds$domain=iheart.com|player.amperwave.net
 @@||liveapi.cleverpush.com/websocket$websocket,domain=heise.de
-@@||livesicilia.it/wp-content/plugins/digistream/digiplayer/js/videojs.ga.js?$script,third-party
+@@||livesicilia.it/wp-content/plugins/digistream/digiplayer/js/videojs.ga.js?$script,~third-party
 @@||livew.l.qq.com/crossdomain.xml
 @@||livew.l.qq.com/livemsg?pf=H5&ad$domain=m.v.qq.com
 @@||lncn.org/ad.json
@@ -2130,7 +2130,6 @@
 @@||statcounter.com/js/packed/statcounter-$script,~third-party
 @@||static-v*.trbo.com^|
 @@||static.amazon.jobs/assets/analytics-$script,domain=amazon.jobs
-@@||static.atgsvcs.com/js/atgsvcs.js$domain=officedepot.com|shop.lego.com
 @@||static.cloud.coveo.com/coveo.analytics.js/$domain=cabelas.com
 @@||static.doubleclick.net/instream/ad_status.js$script,domain=ignboards.com
 @@||static.foxnews.com^*/VisitorAPI.js$domain=foxbusiness.com|foxnews.com
