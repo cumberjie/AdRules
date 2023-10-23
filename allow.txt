@@ -1,6 +1,6 @@
 ! Title: Allowlist
-! Version: 2023-10-23 18:12:03（北京时间） 
-! Total count: 2505
+! Version: 2023-10-24 06:09:54（北京时间） 
+! Total count: 2506
 @@$generichide,domain=vidoza.co|vidoza.net
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
 @@-ds.metric.gstatic.com^|
@@ -381,6 +381,7 @@
 @@||ads.rogersmedia.com^$subdocument,domain=cbc.ca
 @@||ads.rubiconproject.com/prebid/$script,domain=drudgereport.com|everydayhealth.com
 @@||ads.shopee.*/$popup
+@@||ads.snapchat.com^$popup
 @@||ads.spotify.com^$popup
 @@||ads.taboola.com^$popup
 @@||ads.tdbank.com^|
@@ -1066,7 +1067,7 @@
 @@||faculty.uml.edu^$image,stylesheet
 @@||fang.com/stats/clickm2011.js
 @@||fangcloud.com^$generichide
-@@||fast.fonts.net/jsapi/core/mt.js$script,domain=eclecticbars.co.uk|gables.com|itsolutions-inc.com|senate.gov
+@@||fast.fonts.net/jsapi/core/mt.js$script,domain=bkmedical.com|eclecticbars.co.uk|gables.com|itsolutions-inc.com|senate.gov
 @@||fastmail.com^$generichide
 @@||fdyn.pubwise.io^$script,domain=urbanglasgow.co.uk
 @@||feed.adrelayer.com^|
