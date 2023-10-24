@@ -1,6 +1,6 @@
 ! Title: Allowlist
-! Version: 2023-10-24 06:09:54（北京时间） 
-! Total count: 2506
+! Version: 2023-10-24 18:11:43（北京时间） 
+! Total count: 2500
 @@$generichide,domain=vidoza.co|vidoza.net
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
 @@-ds.metric.gstatic.com^|
@@ -968,8 +968,6 @@
 @@||doda.jp/cmn_web/img/brand/ad/ad_text_
 @@||doda.jp/cmn_web/img/brand/ad/ad_top_3.mp4
 @@||dodo.ac/np/images/$image,domain=nookipedia.com
-@@||doodcdn.co^$domain=dood.la|dood.pm|dood.so|dood.to|dood.watch|dood.ws
-@@||doodstream.com^$subdocument
 @@||douban.com/popup/login?
 @@||doubibackup.com^$generichide
 @@||doubleclick.net/clk;$popup,domain=3g.co.uk|4g.co.uk|hotukdeals.com|jobamatic.com|play.google.com|santander.co.uk|techrepublic.com
@@ -2152,8 +2150,6 @@
 @@||str.hit.gemius.pl^|
 @@||stream.adunity.com^$xmlhttprequest,domain=b1tv.ro
 @@||stream4free.live^$generichide
-@@||streamlare.com^$subdocument
-@@||streamtape.com^$subdocument
 @@||studioclassroom.com/ad/
 @@||sudupan.com^*/*.gif
 @@||summitracing.com/global/images/bannerads/
@@ -2375,8 +2371,6 @@
 @@||vk.com/ads?$popup,domain=vk.com
 @@||vlist.se/advertisement.js
 @@||vodjk.com/offlights.js
-@@||voeunblock.com^$subdocument
-@@||voeunblock3.com^$subdocument
 @@||vvic.com/monetize/ads/index/
 @@||waaw.to/adv/ads/popunder.js$script
 @@||wancaibb.com/share/js/share.min.js
