@@ -1,6 +1,6 @@
 ! Title: Allowlist
-! Version: 2023-10-26 06:09:55（北京时间） 
-! Total count: 2498
+! Version: 2023-10-26 18:11:08（北京时间） 
+! Total count: 2501
 @@$generichide,domain=vidoza.co|vidoza.net
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
 @@-ds.metric.gstatic.com^|
@@ -274,6 +274,7 @@
 @@||aboluowang.com^$generichide
 @@||about.smartnews.com/ja/wp-content/assets/img/advertisers/ad_$~third-party
 @@||ac.ebis.ne.jp^|
+@@||account.adobe.com/newrelic.js$~third-party
 @@||accounts.google.com^$popup
 @@||accounts.intuit.com/fe_logger?$~third-party
 @@||accuweather.com/bundles/prebid.$script
@@ -1178,6 +1179,7 @@
 @@||glookup.info/api/json/$domain=grabify.link
 @@||gmail.com^$generichide
 @@||gn-web-assets.api.bbc.com/bbcdotcom/assets/$script,domain=bbc.co.uk
+@@||gnar.grammarly.com/events$xmlhttprequest,domain=account.grammarly.com
 @@||go.adjust.com^|
 @@||go.ezodn.com/tardisrocinante/lazy_load.js?$script,domain=raiderramble.com
 @@||go.scorptec.com.au^|
@@ -1926,6 +1928,7 @@
 @@||quapp.1122dh.com/v4/biquge/man.html
 @@||r10s.jp/share/themes/ds/js/show_ads_randomly.js$domain=travel.rakuten.co.jp
 @@||r3sub.com^$generichide
+@@||radio24.ilsole24ore.com/plugins/cordova-plugin-nielsen/www/nielsen.js$script,~third-party
 @@||radiofrance.targetspot.com^|
 @@||radiosun.fi/wp-content/uploads/*300x250$image,~third-party
 @@||radiotimes.com/static/advertising/$script,~third-party
