@@ -1,6 +1,6 @@
 ! Title: Allowlist
-! Version: 2023-11-02 06:09:51（北京时间） 
-! Total count: 2500
+! Version: 2023-11-02 18:11:38（北京时间） 
+! Total count: 2501
 @@$generichide,domain=vidoza.co|vidoza.net
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
 @@-ds.metric.gstatic.com^|
@@ -679,6 +679,7 @@
 @@||caf.fr^*/smarttag.js$script,~third-party
 @@||calendar.google.com^$generichide
 @@||camerabay.tv/ads/entry/camerabay/fullbk/bg.jpg
+@@||canadacomputers.com/templates/ccnew/assets/js/jquery.browser-fingerprint-$~third-party
 @@||canadianlisted.com^*/ad/index.css$stylesheet,~third-party
 @@||candidate.hr-manager.net/Advertisement/PreviewAdvertisement.aspx$subdocument,~third-party
 @@||capitolbroadcasting.blueconic.net^$image,script,xmlhttprequest,domain=wral.com
