@@ -1,6 +1,6 @@
 ! Title: Allowlist
-! Version: 2023-11-05 18:10:20（北京时间） 
-! Total count: 2503
+! Version: 2023-11-06 06:09:20（北京时间） 
+! Total count: 2504
 @@$generichide,domain=vidoza.co|vidoza.net
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
 @@-ds.metric.gstatic.com^|
@@ -2416,6 +2416,7 @@
 @@||wordpress.org/plugins/$domain=wordpress.org
 @@||wordpress.org/stats/plugin/$domain=wordpress.org
 @@||worldgravity.com^$script,domain=hotstar.com
+@@||wpfc.ml/b.gif$image,domain=holybooks.com
 @@||wrestlinginc.com/wp-content/themes/unified/js/prebid.js$~third-party
 @@||wsj.net/iweb/static_html_files/cxense-candy.js$script,domain=marketwatch.com
 @@||wuyong.fun^$generichide
