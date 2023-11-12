@@ -1,6 +1,6 @@
 ! Title: Allowlist
-! Version: 2023-11-12 06:09:09（北京时间） 
-! Total count: 2507
+! Version: 2023-11-12 18:10:24（北京时间） 
+! Total count: 2509
 @@$generichide,domain=vidoza.co|vidoza.net
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
 @@-ds.metric.gstatic.com^|
@@ -2141,6 +2141,7 @@
 @@||static.doubleclick.net/instream/ad_status.js$script,domain=ignboards.com
 @@||static.foxnews.com^*/VisitorAPI.js$domain=foxbusiness.com|foxnews.com
 @@||static.hdslb.com/ad-images/$image
+@@||static.knowledgehub.com/global/images/ping.gif?$~third-party
 @@||static.leaddyno.com/js$script,domain=s4l.us
 @@||static.vrv.co^$media,domain=crunchyroll.com
 @@||stats.g.doubleclick.net/dc.js$script,domain=chintaistyle.jp|gyutoro.com
@@ -2179,6 +2180,7 @@
 @@||szhr.com^*ad
 @@||tab.gladly.io/newtab/|$document,subdocument
 @@||taboola.com/libtrc/$script,domain=bild.de|computerbild.de|fitbook.de|jetzt.de|metal-hammer.de|musikexpress.de|noizz.de|rollingstone.de|stylebook.de|sueddeutsche.de|techbook.de|travelbook.de|welt.de|wieistmeineip.at|wieistmeineip.ch|wieistmeineip.de
+@@||tag.aticdn.net/piano-analytics.js$script,domain=boerzoektvrouw.kro-ncrv.nl
 @@||tag.aticdn.net^$script,domain=gouv.fr|rte.ie|tv5monde.com|uktvplay.co.uk|visaconcierge.eu|yourstory.com
 @@||tag.search.sensefuel.live/tag/$script,domain=bricomart.es
 @@||tagcommander.com^*/tc_$script
