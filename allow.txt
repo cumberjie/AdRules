@@ -1,6 +1,6 @@
 ! Title: Allowlist
-! Version: 2023-11-13 06:09:34（北京时间） 
-! Total count: 2510
+! Version: 2023-11-13 18:12:02（北京时间） 
+! Total count: 2511
 @@$generichide,domain=vidoza.co|vidoza.net
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
 @@-ds.metric.gstatic.com^|
@@ -1360,6 +1360,7 @@
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=4gtv.tv|881903.com|appledaily.com|linetv.tw|mytvsuper.com|nextmedia.com|now.com|tvb.com|udn.com|xuite.net
 @@||imasdk.googleapis.com/js/sdkloader/ima3_dai.js$domain=247sports.com|bloomberg.co.jp|bloomberg.com|cbc.ca|cbssports.com|embed.comicbook.com|history.com|paramountplus.com|s.yimg.jp|sbs.com.au|southpark.cc.com|tv.rakuten.co.jp|vk.sportsbull.jp|worldsurfleague.com
 @@||imasdk.googleapis.com/js/sdkloader/ima3_debug.js$domain=abcnews.go.com|brightcove.net|cbsnews.com|insideedition.com|pch.com
+@@||imasdk.googleapis.com/pal/sdkloader/pal.js$domain=cadenaser.com
 @@||imfeifan.com/adv/$~third-party
 @@||img.adnz.co^$image,domain=finanzen.ch
 @@||img.ads.tvb.com^
