@@ -1,6 +1,6 @@
 ! Title: Allowlist
-! Version: 2023-11-16 18:12:07（北京时间） 
-! Total count: 2513
+! Version: 2023-11-17 06:10:30（北京时间） 
+! Total count: 2516
 @@$generichide,domain=vidoza.co|vidoza.net
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
 @@-ds.metric.gstatic.com^|
@@ -1161,6 +1161,7 @@
 @@||geo.kaloo.ga/json/$script,domain=tagesspiegel.de
 @@||geo.query.yahoo.com^$xmlhttprequest,domain=tw.autos.yahoo.com|tw.buy.yahoo.com
 @@||geoip-db.com/jsonp/$script,third-party
+@@||geolocation-db.com/json/$domain=admanager.line.biz
 @@||geolocation-db.com/jsonp$script,domain=parts.hp.com
 @@||get.geojs.io/v1/ip/geo.json$domain=namlih.my.id|shop.critrole.com
 @@||get.s-onetag.com/*/tag.min.js$domain=zakzak.co.jp
@@ -1269,6 +1270,7 @@
 @@||gymnasedeburier.ch/themes/segment/js/$~third-party
 @@||h-cast.jp^$script,domain=bookoffonline.co.jp
 @@||h.imedia.cz/js/cmp2/scmp.js$domain=seznam.cz
+@@||h1g.jp/img/ad/ad_heigu.html$~third-party
 @@||haaretz.co.il/logger/p.gif?$image,xmlhttprequest
 @@||haichaobiao.com^$generichide
 @@||haiwai.com^$generichide
@@ -1726,6 +1728,7 @@
 @@||official.paymaya.com^|
 @@||oiihk.com^$generichide
 @@||oisd.nl^$generichide
+@@||oishi-kenko.com/kenko/assets/v2/ads/$~third-party
 @@||olcdn.com/net/v1/gb2312/$script
 @@||olgame.tw^$generichide
 @@||omniture.walmart.com^|
