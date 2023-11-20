@@ -1,6 +1,6 @@
 ! Title: Allowlist
-! Version: 2023-11-20 06:09:37（北京时间） 
-! Total count: 2516
+! Version: 2023-11-20 18:12:36（北京时间） 
+! Total count: 2517
 @@$generichide,domain=vidoza.co|vidoza.net
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
 @@-ds.metric.gstatic.com^|
@@ -1351,6 +1351,7 @@
 @@||ifeng.com^*?new=*?new=$domain=i.ifeng.com
 @@||ifengimg.com/a/201*Player
 @@||ifengimg.com/pdt/cfg/mudu/aplayer.xml$domain=v.ifeng.com
+@@||ignitetv.shaw.ca/js/api/fingerprint.js$~third-party
 @@||iis1.deliver.ifeng.com/showcode?$domain=v.ifeng.com
 @@||ik123.com/js/a.js
 @@||ikea.cn^*/img/ads/
