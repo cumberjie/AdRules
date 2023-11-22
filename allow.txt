@@ -1,6 +1,6 @@
 ! Title: Allowlist
-! Version: 2023-11-22 18:12:45（北京时间） 
-! Total count: 2519
+! Version: 2023-11-23 06:09:30（北京时间） 
+! Total count: 2518
 @@$generichide,domain=vidoza.co|vidoza.net
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
 @@-ds.metric.gstatic.com^|
@@ -682,7 +682,6 @@
 @@||calendar.google.com^$generichide
 @@||camerabay.tv/ads/entry/camerabay/fullbk/bg.jpg
 @@||canadacomputers.com/templates/ccnew/assets/js/jquery.browser-fingerprint-$~third-party
-@@||canadianlisted.com^*/ad/index.css$stylesheet,~third-party
 @@||candidate.hr-manager.net/Advertisement/PreviewAdvertisement.aspx$subdocument,~third-party
 @@||capitolbroadcasting.blueconic.net^$image,script,xmlhttprequest,domain=wral.com
 @@||captcha.qq.com^*&refer=http
@@ -2124,6 +2123,7 @@
 @@||speedtest.net^
 @@||spiegel.de/layout/js/http/netmind-$script
 @@||spiegel.de^$genericblock,generichide
+@@||spoc.sydtrafik.dk/CherwellPortal/dist/app/common/analytics/Analytics.js$~third-party
 @@||sponsor.nitropay.com^|
 @@||sportsnet.ca/wp-content/plugins/bwp-minify/$domain=sportsnet.ca
 @@||spxl.socy.es^$script,xmlhttprequest,domain=3djuegosguias.com|3djuegospc.com|applesfera.com|compradiccion.com|directoalpaladar.com|espinof.com|genbeta.com|poprosa.com|trendencias.com|trendenciashombre.com|vidaextra.com|vitonica.com|xatakamovil.com
@@ -2249,7 +2249,6 @@
 @@||thepiratebay.org/cdn-cgi/challenge-platform/$~third-party
 @@||thepiratebay.org/static/main.js$script,~third-party
 @@||thetvdb.com/banners/$image,domain=tvtime.com
-@@||thingiverse.com/assets/ad/$image,~third-party
 @@||thisav.com^$generichide
 @@||thisiswaldo.com/static/js/$script,domain=bestiefy.com
 @@||thomas.co/sites/default/files/google_tag/primary/google_tag.script.js$script,~third-party
