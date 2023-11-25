@@ -1,6 +1,6 @@
 ! Title: Allowlist
-! Version: 2023-11-25 06:09:48（北京时间） 
-! Total count: 2521
+! Version: 2023-11-25 18:10:21（北京时间） 
+! Total count: 2522
 @@$generichide,domain=vidoza.co|vidoza.net
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
 @@-ds.metric.gstatic.com^|
@@ -1401,6 +1401,7 @@
 @@||itv.com/itv/hserver/*/site=itv/$xmlhttprequest
 @@||itv.com/itv/tserver/$~third-party
 @@||iwa.iplsc.com/iwa.js$script
+@@||iwrite.unipus.cn/js/main/GPT.js$~third-party
 @@||ixueshu.com/ad-server/
 @@||izo.tw/wp-content/advert1.js
 @@||j.wit.qq.com/sc/crystal_ad.js?$domain=888.sports.qq.com
