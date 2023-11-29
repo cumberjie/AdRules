@@ -1,6 +1,6 @@
 ! Title: Allowlist
-! Version: 2023-11-29 06:10:16（北京时间） 
-! Total count: 2527
+! Version: 2023-11-29 18:12:17（北京时间） 
+! Total count: 2528
 @@$generichide,domain=vidoza.co|vidoza.net
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
 @@-ds.metric.gstatic.com^|
@@ -819,6 +819,7 @@
 @@||cmn.gyro-n.com/js/gyr.min.js$domain=benesse-style-care.co.jp
 @@||cmoney.tw/finance/js/googleanalytics.js
 @@||cmoney.tw/vt/js/google_analytics.js
+@@||cmp.inmobi.com^|
 @@||cmp.telerama.fr/js/telerama.min.js$~third-party
 @@||cnbeta.com.tw^$generichide
 @@||cnet.com/a/video-player/uvpjs-rv/$script,~third-party
