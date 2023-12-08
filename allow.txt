@@ -1,6 +1,6 @@
 ! Title: Allowlist
-! Version: 2023-12-08 06:10:48（北京时间） 
-! Total count: 2530
+! Version: 2023-12-08 18:11:48（北京时间） 
+! Total count: 2532
 @@$generichide,domain=vidoza.co|vidoza.net
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
 @@-ds.metric.gstatic.com^|
@@ -484,6 +484,9 @@
 @@||answers.ros.org/m/default/media/images/$image,~third-party
 @@||antlionaudio.com/cdn/shop/*/assets/fastclick.min.js$~third-party
 @@||anwb.webpower.eu^|
+@@||anyclip.com/anyclip-widget/$script,domain=dictionary.com|heute.at|video.timeout.com
+@@||anyclip.com/main.js$script,domain=video.timeout.com
+@@||anyclip.com/static/$script,domain=video.timeout.com
 @@||anyknew.com^$generichide
 @@||aobi.100bt.com/play/ad/ad*.swf
 @@||aone-soft.com/style/images/ad2.jpg
@@ -1839,7 +1842,6 @@
 @@||play.max.com^$generichide
 @@||playep.pro/log_event$~third-party,xmlhttprequest
 @@||player.aniview.com/script/$script,domain=odysee.com
-@@||player.anyclip.com/anyclip-widget/lre-widget/$script,domain=dictionary.com|video.timeout.com|video.venturebeat.com
 @@||player.avplayer.com^$script,domain=explosm.net|gamingbible.co.uk|justthenews.com|ladbible.com
 @@||player.ex.co/player/$script,domain=theautopian.com
 @@||player.fc-zenit.ru/msi/geoip?$xmlhttprequest
