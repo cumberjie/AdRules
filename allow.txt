@@ -1,6 +1,6 @@
 ! Title: Allowlist
-! Version: 2023-12-09 18:10:33（北京时间） 
-! Total count: 2532
+! Version: 2023-12-10 06:09:35（北京时间） 
+! Total count: 2529
 @@$generichide,domain=vidoza.co|vidoza.net
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
 @@-ds.metric.gstatic.com^|
@@ -836,7 +836,6 @@
 @@||cntv.cn^*_ad.js
 @@||cnzz.com/c.php?id=30070167$domain=m.tieyou.com
 @@||cnzz.com/q_stat.php$domain=qd.alibaba.com
-@@||code.jquery.com^$domain=mixdrop.co
 @@||codepen.io^$generichide
 @@||codesandbox.io^$generichide
 @@||codicefl.shinystat.com/cgi-bin/getserver.cgi?$script,domain=3bmeteo.com|quotidiano.net
@@ -1263,7 +1262,6 @@
 @@||gs.statcounter.com^|
 @@||gstatic.com/ads/external/images/$image,domain=support.google.com
 @@||gstatic.com/recaptcha/
-@@||gstatic.com^$domain=mixdrop.co
 @@||gstatic.com^*/firebase-performance-standalone.js$script,domain=flightradar24.com
 @@||gsuite.tools/js/gtag.js$script,~third-party
 @@||gtimg.cn/images/nz/cp/*/adimg.png$domain=qq.com
@@ -1666,7 +1664,6 @@
 @@||musictrack.jp/a/ad/banner_member.jpg
 @@||muzlan.top/ads/banner.png
 @@||muzlan.top^$generichide
-@@||mxdcontent.net^$xmlhttprequest,domain=mixdrop.co
 @@||mxpnl.com/libs/mixpanel-*.min.js$domain=change.org|frigidaire.com
 @@||mxpnl.com/libs/mixpanel-*.min.js$domain=eloan.co.il
 @@||mxpnl.com^$domain=mixpanel.com
