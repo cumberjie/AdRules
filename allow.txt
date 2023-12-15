@@ -1,5 +1,5 @@
 ! Title: Allowlist
-! Version: 2023-12-15 18:12:07（北京时间） 
+! Version: 2023-12-16 06:10:16（北京时间） 
 ! Total count: 2533
 @@$generichide,domain=vidoza.co|vidoza.net
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
@@ -205,6 +205,7 @@
 @@||3gmfw.cn/js/wap/8.js
 @@||3voor12.vpro.nl^*/streamsense.min.js$~third-party
 @@||40017.cn/cn/min/???/
+@@||423down.com^$generichide
 @@||4399sj.com^*/adview_pic_
 @@||4cdn.org/adv/$image,xmlhttprequest,domain=4channel.org
 @@||4channel.org/adv/$image,xmlhttprequest,domain=4channel.org
@@ -1387,8 +1388,7 @@
 @@||indeed.com/rpc/log/myjobs/$~third-party
 @@||infotel.ca/images/ads/$image,~third-party
 @@||infoworld.com/www/js/ads/gpt_includes.js$~third-party
-@@||ingest.sentry.io/api/$xmlhttprequest,domain=orionprotocol.io|tesco.com
-@@||ingest.sentry.io/api/$xmlhttprequest,domain=tesco.hu
+@@||ingest.sentry.io/api/$xmlhttprequest,domain=orionprotocol.io|play.tv3.lv|tesco.com|tesco.hu
 @@||inoreader.com^$genericblock,generichide
 @@||inpad.com.tw/data/adv/
 @@||inskinmedia.com^*/js/base/api/$domain=appledaily.com|nextmedia.com
