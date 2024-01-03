@@ -1,6 +1,6 @@
 ! Title: Allowlist
-! Version: 2024-01-03 06:10:16（北京时间） 
-! Total count: 2538
+! Version: 2024-01-03 18:11:50（北京时间） 
+! Total count: 2539
 @@$generichide,domain=vidoza.co|vidoza.net
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
 @@-ds.metric.gstatic.com^|
@@ -576,6 +576,7 @@
 @@||avclub.com^*/adManager.$script,~third-party
 @@||avgle.com/embed/$genericblock,generichide
 @@||awin1.com^|
+@@||awswaf.com/*/telemetry$domain=platform.ledn.io
 @@||az.hp.transer.com/content/dam/isetan_mitsukoshi/advertise/$~third-party
 @@||az.hpcn.transer-cn.com/content/dam/isetan_mitsukoshi/advertise/$~third-party
 @@||azureedge.net/prod/smi/loader-config.json$domain=pressdemocrat.com
