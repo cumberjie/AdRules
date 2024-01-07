@@ -1,6 +1,6 @@
 ! Title: Allowlist
-! Version: 2024-01-07 06:09:40（北京时间） 
-! Total count: 2545
+! Version: 2024-01-07 18:11:10（北京时间） 
+! Total count: 2546
 @@$generichide,domain=vidoza.co|vidoza.net
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
 @@-ds.metric.gstatic.com^|
@@ -38,6 +38,7 @@
 @@/adjs_pic_$domain=168gamer.net|slit.cn
 @@/admanager/*$domain=woego.cn
 @@/adpic/*$domain=baike.baidu.com|czsrc.com|nieyou.com|ontheup.com.tw|zform.net
+@@/adpro.js$domain=tingfm.com
 @@/ads-api.$domain=moneysave.info|zxmee.com
 @@/ads.js$domain=iyf.tv
 @@/ads/*$domain=189.cn|95516.com
@@ -576,7 +577,6 @@
 @@||avclub.com^*/adManager.$script,~third-party
 @@||avgle.com/embed/$genericblock,generichide
 @@||awin1.com^|
-@@||awswaf.com/*/telemetry$domain=platform.ledn.io
 @@||az.hp.transer.com/content/dam/isetan_mitsukoshi/advertise/$~third-party
 @@||az.hpcn.transer-cn.com/content/dam/isetan_mitsukoshi/advertise/$~third-party
 @@||azureedge.net/prod/smi/loader-config.json$domain=pressdemocrat.com
@@ -1848,7 +1848,7 @@
 @@||play.dlsite.com/csr/viewer/lib/newrelic.js
 @@||play.max.com^$generichide
 @@||playep.pro/log_event$~third-party,xmlhttprequest
-@@||player.aniview.com/script/$script,domain=odysee.com
+@@||player.aniview.com/script/$script,domain=odysee.com|pogo.com
 @@||player.avplayer.com^$script,domain=explosm.net|gamingbible.co.uk|justthenews.com|ladbible.com
 @@||player.ex.co/player/$script,domain=theautopian.com
 @@||player.fc-zenit.ru/msi/geoip?$xmlhttprequest
@@ -1863,6 +1863,7 @@
 @@||playy.online/log_event$~third-party,xmlhttprequest
 @@||plex.tv/api/v2/geoip$xmlhttprequest
 @@||plplayer.online/log_event$~third-party,xmlhttprequest
+@@||plugin.intuitcdn.net/vep-collab-smlk-ui/assets/vendor/glance/cobrowse/
 @@||plugins.matomo.org^$image,~third-party
 @@||pmdstatic.net/advertising-$script,xmlhttprequest,domain=programme-tv.net
 @@||pngimg.com/distr/$image,~third-party
