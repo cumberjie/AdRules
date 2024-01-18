@@ -1,6 +1,6 @@
 ! Title: Allowlist
-! Version: 2024-01-18 06:10:41（北京时间） 
-! Total count: 2551
+! Version: 2024-01-18 18:12:39（北京时间） 
+! Total count: 2548
 @@$generichide,domain=vidoza.co|vidoza.net
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
 @@-ds.metric.gstatic.com^|
@@ -486,9 +486,6 @@
 @@||annhe.net^$generichide
 @@||answers.ros.org/m/default/media/images/$image,~third-party
 @@||anwb.webpower.eu^|
-@@||anyclip.com/anyclip-widget/$script,domain=dictionary.com|heute.at|video.timeout.com
-@@||anyclip.com/main.js$script,domain=video.timeout.com
-@@||anyclip.com/static/$script,domain=video.timeout.com
 @@||anyknew.com^$generichide
 @@||aobi.100bt.com/play/ad/ad*.swf
 @@||aone-soft.com/style/images/ad2.jpg
