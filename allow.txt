@@ -1,5 +1,5 @@
 ! Title: Allowlist
-! Version: 2024-01-20 18:10:54（北京时间） 
+! Version: 2024-01-21 06:09:58（北京时间） 
 ! Total count: 2550
 @@$generichide,domain=vidoza.co|vidoza.net
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
@@ -298,7 +298,7 @@
 @@||ad.azure.com^
 @@||ad.crwdcntrl.net^$script,domain=rtl.nl
 @@||ad.doubleclick.net/clk*&destinationURL=$popup
-@@||ad.doubleclick.net/ddm/$popup,domain=billiger.de|guide-epargne.be|legacy.com|mail.yahoo.com|nytimes.com|spaargids.be
+@@||ad.doubleclick.net/ddm/$popup,domain=billiger.de|creditcard.com.au|finder.com|finder.com.au|guide-epargne.be|legacy.com|mail.yahoo.com|nytimes.com|spaargids.be
 @@||ad.doubleclick.net/ddm/clk/*http$popup
 @@||ad.doubleclick.net/ddm/trackclk/*http$popup
 @@||ad.ext.azure.com^
