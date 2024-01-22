@@ -1,6 +1,6 @@
 ! Title: Allowlist
-! Version: 2024-01-22 18:12:52（北京时间） 
-! Total count: 2553
+! Version: 2024-01-23 06:10:10（北京时间） 
+! Total count: 2552
 @@$generichide,domain=vidoza.co|vidoza.net
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
 @@-ds.metric.gstatic.com^|
@@ -107,6 +107,7 @@
 @@/needsharebutton.min.js$domain=leetcode-cn.com
 @@/pub/ad/*$domain=ruten.com.tw
 @@/pub1/??$domain=banggo.com
+@@/rwd_cap.js$domain=ibf.tw
 @@/sensorsdata-$domain=aixiaoyuan.cn|zkh.com
 @@/sensorsdata.$domain=36kr.com|binance.com|by56.com|canon.com.cn|chuanglan.com|fenbi.com|imooc.com|kuque.com|modian.com|saicskoda.com.cn|shanbay.com|tianyancha.com|ttcdw.cn|xinrenxinshi.com|zzjiasuqi.com
 @@/setCookie?$domain=ctrip.com|ctrip.com.hk|pinyin.cn
@@ -285,7 +286,6 @@
 @@||actiris.be/urchin.js
 @@||ad-api-v01.uliza.jp^$script,xmlhttprequest,domain=golfnetwork.co.jp|tv-asahi.co.jp
 @@||ad-gone.com^
-@@||ad-img.gmarket.com/ads/$image,domain=gmarket.co.kr
 @@||ad.10010.com^
 @@||ad.12306.cn^$elemhide,subdocument,domain=95306.cn
 @@||ad.3.cn/ads/mgets?$domain=jd.com
@@ -716,7 +716,6 @@
 @@||cdn.bootcss.com^$script,domain=59xs.com|biqudd.com|didaxiaoshuo.cc|rijutv.com|shudai.org|xhxswz.com|xsw55.com|ysxs8.com
 @@||cdn.bootcss.com^$script,domain=59xs.com|biqudd.com|luoqiuzw.com|u33.me|xbiqugela.com|xhtxt.cc|xs98.me|ysxs8.vip
 @@||cdn.cquotient.com/js/$domain=fender.com
-@@||cdn.doublemax.net/js/rwd_cap.js$domain=ibf.tw
 @@||cdn.duurzaam.greenchoice.nl^|
 @@||cdn.ex.co^$domain=theautopian.com
 @@||cdn.exp.qq.com/img/
@@ -1590,6 +1589,7 @@
 @@||material.angular.io^$generichide
 @@||material.io^$generichide
 @@||matomo.miraheze.org/matomo.js$script,~third-party
+@@||max.com^$generichide
 @@||maxcdn.bootstrapcdn.com^$stylesheet,domain=shink.me|shon.xyz
 @@||maxcdn.bootstrapcdn.com^$stylesheet,domain=up-4ever.net
 @@||maxmind.com/geoip/$xmlhttprequest,domain=ibanez.com
@@ -1849,7 +1849,6 @@
 @@||platform.twitter.com/oct.js$domain=ncsoft.jp
 @@||plausible.io/js/plausible.js$script,domain=sammobile.com
 @@||play.dlsite.com/csr/viewer/lib/newrelic.js
-@@||play.max.com^$generichide
 @@||playep.pro/log_event$~third-party,xmlhttprequest
 @@||player.aniview.com/script/$script,domain=odysee.com|pogo.com
 @@||player.avplayer.com^$script,domain=explosm.net|gamingbible.co.uk|justthenews.com|ladbible.com
