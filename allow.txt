@@ -1,6 +1,6 @@
 ! Title: Allowlist
-! Version: 2024-01-23 18:12:13（北京时间） 
-! Total count: 2551
+! Version: 2024-01-24 06:10:37（北京时间） 
+! Total count: 2543
 @@$generichide,domain=vidoza.co|vidoza.net
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
 @@-ds.metric.gstatic.com^|
@@ -435,8 +435,6 @@
 @@||akamaiedge.net^$domain=canyoublockit.com
 @@||akamaihd.net/nbad/player/*/appmeasurement.js$domain=watch.nba.com
 @@||akamaihd.net/nbad/player/*/visitorapi.js$domain=watch.nba.com
-@@||akamaized.net^*.stream/$domain=naver.com
-@@||akamaized.net^*/playlist.m3u8?$domain=naver.com
 @@||akinator.mobi.cdn.ezoic.net^$domain=akinator.mobi
 @@||alicdn.com/??*/tracker/
 @@||alicdn.com/dt/tracker/2.5.1/tracker.js$domain=alimama.com
@@ -505,7 +503,6 @@
 @@||api.getmakerlog.com/discussions/$~third-party,websocket,xmlhttprequest
 @@||api.ipinfodb.com^$xmlhttprequest,domain=management30.com
 @@||api.karte.io^|
-@@||api.paymentwall.com^$domain=adguard.com
 @@||api.perfops.net^$script,xmlhttprequest,domain=cdnperf.com|dnsperf.com
 @@||api.touchnote.io^$xmlhttprequest,domain=app.touchnote.com
 @@||api.tv.sohu.com/mobile_user/device^$app=com.sohu.sohuvideo
@@ -925,8 +922,6 @@
 @@||data.digital.costco.ca^|
 @@||data.digital.costco.com^|
 @@||datadoghq-browser-agent.com^$script,domain=bbcgoodfood.com|dashboard.getdriven.app|hungryroot.com|usa.experian.com
-@@||daumcdn.net/adfit/static/ad-native.min.js$domain=daum.net
-@@||daumcdn.net/adfit/static/ad.min.js$script,domain=daum.net
 @@||daziba.cn/Images/share.css
 @@||dcdirtylaundry.com/cdn-cgi/challenge-platform/$~third-party
 @@||delivery-cdn-cf.adswizz.com/adswizz/js/SynchroClient*.js$script,domain=tunein.com
@@ -949,7 +944,6 @@
 @@||discretemath.org^$image,stylesheet
 @@||disneyplus.com^$generichide
 @@||disneyplus.disney.co.jp/view/vendor/analytics/$~third-party
-@@||displayad.naver.com^$~third-party
 @@||disqus.com/embed/comments/$subdocument
 @@||ditiezu.com^*.php$subdocument
 @@||dizhi99.com^$generichide
@@ -1015,7 +1009,6 @@
 @@||easy-firmware.com/templates/default/html/*/assets/js/fingerprint2.min.js$script,~third-party
 @@||easylife.tw/js/adblockDetector.js
 @@||easylife.tw^$generichide
-@@||ebaykorea.com/ADS/$image,domain=gmarket.co.kr
 @@||ec.europa.eu/eurostat/databrowser/assets/analytics/piwik.js$script,~third-party
 @@||ecitic.com/source/*/pop
 @@||ecitic.com^
@@ -1604,6 +1597,7 @@
 @@||mclo.gs/js/logview.js$~third-party
 @@||mcmod.cn/js/jquery.cookie.js
 @@||mealty.ru/js/ga_events.js$~third-party
+@@||media-consumer365.desigual.com^|
 @@||media.jd.com/static/*/ad
 @@||media.kijiji.ca/api/$image,~third-party
 @@||media.org.hk^*/ads_
@@ -2039,7 +2033,6 @@
 @@||sealserver.trustwave.com/seal.js$domain=zoom.us
 @@||search.brave.com/search$xmlhttprequest
 @@||search.spotxchange.com/vmap/*&content_page_url=www.bsfuji.tv$xmlhttprequest,domain=imasdk.googleapis.com
-@@||searchad.naver.com^$~third-party
 @@||seasungame.com/ad/
 @@||secure.logmein.com/scripts/Tracking/$script,domain=logme.in|logmein.com
 @@||securegames.iwin.com/data/gtm.json$~third-party,xmlhttprequest
@@ -2078,7 +2071,6 @@
 @@||shopeemobile.com/shopee/*/modules/ads/
 @@||shopeesz.com/shopee/*/modules/ads/
 @@||shopify.com/shopifycloud/boomerang/shopify-boomerang-$domain=rydewear.com
-@@||shopping.naver.net/ad/$image,script,stylesheet,domain=naver.com
 @@||show.g.mediav.com/s?type=$domain=v.360kan.com
 @@||show.g.mediav.com/s?type=$script,domain=miercn.com
 @@||showcase.codethislab.com/banners/$image,~third-party
