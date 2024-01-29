@@ -1,5 +1,5 @@
 ! Title: Allowlist
-! Version: 2024-01-29 06:09:56（北京时间） 
+! Version: 2024-01-29 18:11:28（北京时间） 
 ! Total count: 2542
 @@$generichide,domain=vidoza.co|vidoza.net
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
@@ -254,7 +254,6 @@
 @@||8ox.cn/pge/?s=$script,domain=dlkoo.com
 @@||8tm.net/static/img/fbpixel.png$~third-party
 @@||9.ujinbi.com/AD/
-@@||91p49.com/*/*.mp4
 @@||930mh.com/js/config.js
 @@||939394.xyz^$generichide
 @@||95306.cn/public/images/ad/
@@ -2295,6 +2294,7 @@
 @@||totheglory.im/pic/ttg_logo
 @@||townhall.com/resources/dist/js/prebid-pjmedia.js$script,domain=pjmedia.com
 @@||townwork.net/js/AppMeasurement.js$~third-party
+@@||toy-people.com^$generichide
 @@||toyota.com/recall/static/js/custom/facebookPixel.js$~third-party
 @@||tpc.googlesyndication.com/pagead/js/$domain=googleads.g.doubleclick.net
 @@||tq121.com.cn/j/ad/caoyu-min.js$domain=products.weather.com.cn
