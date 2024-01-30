@@ -1,8 +1,7 @@
 ! Title: Allowlist
-! Version: 2024-01-30 18:12:08（北京时间） 
-! Total count: 2545
+! Version: 2024-01-31 06:09:59（北京时间） 
+! Total count: 2541
 @@$generichide,domain=vidoza.co|vidoza.net
-@@&adurl=http://$domain=360bifen.cc|360bifen.com
 @@-ds.metric.gstatic.com^|
 @@-social-bar.$domain=mobi.yahoo.com
 @@.adserver.$domain=litv.tv
@@ -168,7 +167,6 @@
 @@||10086.cn/framework/modules/sdc.js$script,~third-party
 @@||10086.cn^$generichide
 @@||10086.cn^*/ad$~third-party
-@@||107.182.131.103/cache/?q=/images/*/
 @@||111.75.255.103/Scripts/Controls/PageView.js
 @@||113.com.tw/www/image/index-ad.png
 @@||114la.com/|
@@ -240,7 +238,6 @@
 @@||5qidgde.com^$generichide
 @@||5w8.fun/myads/img/*.gif
 @@||6080ai.com/*play$script
-@@||61.164.108.184/tb/*.gif
 @@||70.86.24.120:8060/*/
 @@||75.125.41.29:8080/*/
 @@||79423.analytics.edgekey.net^|
@@ -1097,7 +1094,6 @@
 @@||forecast.lemonde.fr/p/event/pageview?$image,~third-party
 @@||forexprostools.com^$domain=shougedui.com
 @@||forexprostools.com^$subdocument,domain=fx-rashinban.com
-@@||forum.51nb.com/images/*/
 @@||forum.miuiturkiye.net/konu/reklam.$~third-party,xmlhttprequest
 @@||forum.notebookreview.com^|
 @@||forums.opera.com/api/topic/$~third-party,xmlhttprequest
