@@ -1,6 +1,6 @@
 ! Title: Allowlist
-! Version: 2024-01-31 06:09:59（北京时间） 
-! Total count: 2541
+! Version: 2024-01-31 18:10:58（北京时间） 
+! Total count: 2542
 @@$generichide,domain=vidoza.co|vidoza.net
 @@-ds.metric.gstatic.com^|
 @@-social-bar.$domain=mobi.yahoo.com
@@ -1176,6 +1176,7 @@
 @@||github.com^$generichide
 @@||github.io/videojs-ima/node_modules/video.$domain=setn.com
 @@||github.io^$generichide
+@@||gitlab.com/api/v4/projects/$~third-party
 @@||gitlab.com^$generichide
 @@||givingassistant.org/Advertisers/$~third-party
 @@||gk.sina.cn/v1/gkmatch?
@@ -1284,7 +1285,6 @@
 @@||haokoubei.top/sz/to_v_f.js
 @@||haoweichi.com/Public/js/ads.js
 @@||hb.afl.rakuten.co.jp^|
-@@||hbomax.com^$generichide
 @@||hbu.cn^*/ad.css?$stylesheet
 @@||hc360.com/ad/*.css
 @@||hcaptcha.com/captcha/$script,subdocument
@@ -1952,6 +1952,7 @@
 @@||radiosun.fi/wp-content/uploads/*300x250$image,~third-party
 @@||radiotimes.com/static/advertising/$script,~third-party
 @@||rakuten-bank.co.jp/rb/ams/img/ad/$~third-party
+@@||raw.githubusercontent.com^$domain=viewscreen.githubusercontent.com
 @@||readmoo.com/images/social/
 @@||realclearpolitics.com/esm/assets/js/admiral.js$~third-party
 @@||realclearpolitics.com/esm/assets/js/analytics/chartbeat.js$~third-party
