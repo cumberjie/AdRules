@@ -1,6 +1,6 @@
 ! Title: Allowlist
-! Version: 2024-02-01 06:10:40（北京时间） 
-! Total count: 2542
+! Version: 2024-02-01 18:12:04（北京时间） 
+! Total count: 2537
 @@$generichide,domain=vidoza.co|vidoza.net
 @@-ds.metric.gstatic.com^|
 @@-social-bar.$domain=mobi.yahoo.com
@@ -454,7 +454,7 @@
 @@||allabout.co.jp/mtx_cnt.js$script,~third-party
 @@||almayadeen.net/Content/VideoJS/js/videoPlayer/VideoAds.js$script,~third-party
 @@||alphaapi.brandify.com/rest/clicktrack$xmlhttprequest,domain=traderjoes.com
-@@||amazon-adsystem.com/aax2/apstag.js$domain=accuweather.com|barstoolsports.com|blastingnews.com|cnn.com|exomashomepage.com|familyhandyman.com|foxbusiness.com|gamingbible.co.uk|history.com|independent.co.uk|inquirer.com|keloland.com|radio.com|rd.com|si.com|sportbible.com|tasteofhome.com|thehealthy.com|time.com|wboy.com|wellgames.com|wkrn.com|wlns.com|wvnstv.com
+@@||amazon-adsystem.com/aax2/apstag.js$domain=accuweather.com|barstoolsports.com|blastingnews.com|cnn.com|familyhandyman.com|foxbusiness.com|gamingbible.co.uk|history.com|independent.co.uk|inquirer.com|keloland.com|radio.com|rd.com|si.com|sportbible.com|tasteofhome.com|thehealthy.com|time.com|wboy.com|wellgames.com|wkrn.com|wlns.com|wvnstv.com
 @@||amazon-adsystem.com/widgets/q?$image,third-party
 @@||amazonaws.com/static.madlan.co.il/*/heatmap.json?$xmlhttprequest
 @@||amebame.com/pub/ads/$image,domain=abema.tv|ameba.jp|ameblo.jp
@@ -720,7 +720,6 @@
 @@||cdn.mxpnl.com/libs/$script,domain=get.pumpkin.care
 @@||cdn.optimizely.com/js/*.js$domain=kktv.me
 @@||cdn.perfops.net/rom3/rom3.min.js$domain=cdnperf.com
-@@||cdn.plyvdo.live/scripts/$script
 @@||cdn.rozetka.com.ua^|
 @@||cdn.segment.com/analytics-next/
 @@||cdn.segment.com/analytics.js/$script,domain=abstractapi.com|app.cryptotrader.tax|driversed.com|fender.com|finerdesk.com|foxbusiness.com|foxnews.com|givingassistant.org|inxeption.io|reuters.com|squaretrade.com
@@ -2008,7 +2007,6 @@
 @@||s0.2mdn.net/ads/studio/Enabler.js$domain=yuukinohana.co.jp
 @@||sail-horizon.com/spm/spm.v1.min.js$script,domain=voguegirl.jp
 @@||salfordonline.com/wp-content/plugins/wp_pro_ad_system/$script
-@@||samplefan.com/img/ad/$image
 @@||sankei.co.jp/js/analytics/skd.Analysis.js$script
 @@||sanspo.com/parts/chartbeat/$xmlhttprequest
 @@||sascdn.com/tag/$script,domain=filmweb.pl
@@ -2016,7 +2014,6 @@
 @@||sc.omtrdc.net^$domain=cibc.com
 @@||sc.youmaker.com/site/article/count?
 @@||sc2casts.com^$generichide
-@@||scan-manga.eu/*pageID=$~third-party
 @@||schemeflood.com^$generichide
 @@||schwab.com/scripts/appdynamic/adrum-ext.$script,~third-party
 @@||sciencechannel.com^$generichide
@@ -2047,7 +2044,6 @@
 @@||serasaexperian.com.br/dist/scripts/fingerprint2.js$~third-party
 @@||service-public.fr^*/assets/js/eulerian/eulerian.js$~third-party
 @@||service.apport.net/apport-spa-common/src/tracking/tracking.js$~third-party
-@@||serviceads.co.uk/api/ad/$~third-party,xmlhttprequest
 @@||services.chipotle.com/__imp_apg__/$~third-party
 @@||serving-sys.com/Serving/adServer.bs?$popup,domain=spaargids.be
 @@||serving-sys.com/serving/adServer.bs?$popup,domain=hongkongcard.com
@@ -2495,7 +2491,6 @@
 @@||xnimg.cn^*/nx/ugc/share/js/hotlist.js
 @@||xsc.lise.edu.cn/ad/
 @@||xxxxx520.com^$generichide
-@@||yadayadayada.nl/banner/banner.php$image,domain=murf.nl|workhardclimbharder.nl
 @@||yads.c.yimg.jp/js/yads-async.js$domain=kobe-np.co.jp|yahoo.co.jp
 @@||yandex.com/search/?$generichide
 @@||yandex.ru/metrika/tag.js$script,domain=kuchenland.ru
