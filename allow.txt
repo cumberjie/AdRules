@@ -1,6 +1,6 @@
 ! Title: Allowlist
-! Version: 2024-02-02 18:11:53（北京时间） 
-! Total count: 2539
+! Version: 2024-02-03 06:09:20（北京时间） 
+! Total count: 2540
 @@$generichide,domain=vidoza.co|vidoza.net
 @@-ds.metric.gstatic.com^|
 @@-social-bar.$domain=mobi.yahoo.com
@@ -766,6 +766,7 @@
 @@||chinamobile.com^*/ad$~third-party
 @@||chinatelecom.com.cn^
 @@||chinatimes.com/css-main/ad.css
+@@||chineseanime.vip^$generichide
 @@||chtoen.com/js/adsbygoogle.js
 @@||chuangkit.com^$generichide
 @@||chuiyao.com/static/js*/pinglun.js?v=
@@ -1816,7 +1817,6 @@
 @@||petrochina.com.cn/advertisement_
 @@||pg-wuming.com^$generichide
 @@||photofunia.com/effects/$image,~third-party
-@@||photopea.com/ads.js
 @@||photos.google.com^$generichide
 @@||photovms.tv.sohu.com/*/*_hor_small_1.jpg$app=com.sohu.sohuvideo,important
 @@||photovms.tv.sohu.com/*/-*_1.jpg$app=com.sohu.sohuvideo,important
@@ -1966,6 +1966,7 @@
 @@||redditinc.com/assets/images/site/*_300x250.$image,~third-party
 @@||redguide.top^*/ad.css?$stylesheet
 @@||redian.news^$generichide
+@@||redir.ownpage.fr^|
 @@||redir.tradedoubler.com^|
 @@||redirect.appmetrica.yandex.com^|
 @@||redventures.io/lib/dist/prod/bidbarrel-$script,domain=cnet.com|techrepublic.com|zdnet.com
