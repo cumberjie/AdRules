@@ -1,6 +1,6 @@
 ! Title: Allowlist
-! Version: 2024-02-07 18:11:50（北京时间） 
-! Total count: 2533
+! Version: 2024-02-08 06:10:00（北京时间） 
+! Total count: 2534
 @@$generichide,domain=vidoza.co|vidoza.net
 @@-ds.metric.gstatic.com^|
 @@-social-bar.$domain=mobi.yahoo.com
@@ -1293,6 +1293,7 @@
 @@||healthgateway.gov.bc.ca/snowplow.js$~third-party
 @@||healthyadvertising.es^$~third-party
 @@||heatmap.it^$domain=heatmap.com|heatmap.it|heatmap.me|heatmap.org
+@@||helix.videotron.com/js/api/fingerprint.js$~third-party
 @@||hello.myfonts.net/count/$stylesheet,domain=cfr.org|condor.com|furniturevillage.co.uk|luggagehero.com
 @@||hh010.com^$generichide
 @@||highcharts.com.cn/highcharts/modules/heatmap.js
