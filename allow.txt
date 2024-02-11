@@ -1,6 +1,6 @@
 ! Title: Allowlist
-! Version: 2024-02-11 06:09:07（北京时间） 
-! Total count: 2538
+! Version: 2024-02-11 18:11:11（北京时间） 
+! Total count: 2540
 @@$generichide,domain=vidoza.co|vidoza.net
 @@-ds.metric.gstatic.com^|
 @@-social-bar.$domain=mobi.yahoo.com
@@ -844,6 +844,7 @@
 @@||collector.appconsent.io/hello$domain=lachainemeteo.com|lefigaro.fr
 @@||collector.leaddyno.com/shopify.js$script,domain=s4l.us
 @@||collusion.com/static/newrelic.js$script,~third-party
+@@||commerce.adobe.io^$xmlhttprequest,domain=superbrightleds.com
 @@||commons.wikimedia.org/w/api.php?$~third-party,xmlhttprequest
 @@||community.brave.com/t/$xmlhttprequest
 @@||connatix.com*/connatix.player.$script,domain=ebaumsworld.com|funker530.com|tvinsider.com|washingtonexaminer.com
@@ -1454,7 +1455,7 @@
 @@||kaixin001.com/ad/
 @@||kameleoon.eu/images/$domain=welt.de
 @@||kameleoon.eu/kameleoon.js$domain=welt.de
-@@||kameleoon.eu/kameleoon.js$script,domain=buttercloth.com
+@@||kameleoon.eu/kameleoon.js$script,domain=buttercloth.com|jules.com
 @@||kameleoon.io/geolocation^$domain=welt.de
 @@||kameleoon.io/ip^$domain=welt.de
 @@||kanalfrederikshavn.dk^*/jquery.openx.js?
@@ -1557,6 +1558,7 @@
 @@||ma135-r.analytics.edgekey.net^|
 @@||mabanque.fortuneo.fr/js/front/fingerprint2.js$script,domain=mabanque.fortuneo.fr
 @@||macauo2o.com/advertise/
+@@||magento-recs-sdk.adobe.net/v2/index.js$script,domain=superbrightleds.com
 @@||mail.bg/mail/index/getads/$xmlhttprequest
 @@||mail.google.com^$generichide
 @@||mail.proton.me^$generichide
