@@ -1,6 +1,6 @@
 ! Title: Allowlist
-! Version: 2024-02-19 18:12:10（北京时间） 
-! Total count: 2542
+! Version: 2024-02-20 06:10:47（北京时间） 
+! Total count: 2543
 @@$generichide,domain=vidoza.co|vidoza.net
 @@-ds.metric.gstatic.com^|
 @@-social-bar.$domain=mobi.yahoo.com
@@ -1478,6 +1478,7 @@
 @@||kk665403.pixnet.net^$generichide
 @@||kohls.com/ecustservice/js/sitecatalyst.js$script,~third-party
 @@||komas19.xyz/cdn-cgi/apps/$script,~third-party
+@@||komplett.no/gtm.js$script,~third-party
 @@||kotaku.com/x-kinja-static/assets/new-client/adManager.$~third-party
 @@||krok8.com/wp-content/plugins/pageviews/pageviews.min.js$script,~third-party
 @@||ksapisrv.com/rest/wd/common/log/collect/
