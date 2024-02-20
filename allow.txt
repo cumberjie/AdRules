@@ -1,6 +1,6 @@
 ! Title: Allowlist
-! Version: 2024-02-20 06:10:47（北京时间） 
-! Total count: 2543
+! Version: 2024-02-20 18:10:58（北京时间） 
+! Total count: 2544
 @@$generichide,domain=vidoza.co|vidoza.net
 @@-ds.metric.gstatic.com^|
 @@-social-bar.$domain=mobi.yahoo.com
@@ -721,6 +721,7 @@
 @@||cdn.jsdelivr.net^*/fp.min.js$script,domain=cuevana2.io
 @@||cdn.mxpnl.com/libs/$script,domain=get.pumpkin.care
 @@||cdn.optimizely.com/js/*.js$domain=kktv.me
+@@||cdn.optimizely.com/public/*.json/tag.js$domain=mobile.de
 @@||cdn.perfops.net/rom3/rom3.min.js$domain=cdnperf.com
 @@||cdn.rozetka.com.ua^|
 @@||cdn.segment.com/analytics-next/
