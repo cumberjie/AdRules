@@ -1,6 +1,6 @@
 ! Title: Allowlist
-! Version: 2024-02-21 18:12:31（北京时间） 
-! Total count: 2544
+! Version: 2024-02-22 06:10:00（北京时间） 
+! Total count: 2545
 @@$generichide,domain=vidoza.co|vidoza.net
 @@-ds.metric.gstatic.com^|
 @@-social-bar.$domain=mobi.yahoo.com
@@ -1514,6 +1514,7 @@
 @@||libs.baidu.com^$domain=m.supfree.net
 @@||lightning.bleacherreport.com/launch/*-source.min.js$~third-party
 @@||lightning.bleacherreport.com^*/launch-$~third-party
+@@||lightning.cnn.com^$script,domain=wfmz.com
 @@||line-scdn.net^*/torimochi.js$script,domain=demae-can.com
 @@||linetv.tw/public/scripts/ads.js
 @@||linetv.tw^*/scripts/ads.js
