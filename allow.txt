@@ -1,6 +1,6 @@
 ! Title: Allowlist
-! Version: 2024-02-27 18:12:36（北京时间） 
-! Total count: 2547
+! Version: 2024-02-28 06:11:48（北京时间） 
+! Total count: 2548
 @@$generichide,domain=vidoza.co|vidoza.net
 @@-ds.metric.gstatic.com^|
 @@-social-bar.$domain=mobi.yahoo.com
@@ -1531,6 +1531,7 @@
 @@||liumingye.cn^$generichide
 @@||live.lequipe.fr/thirdparty/prebid.js$~third-party
 @@||live.primis.tech^$script,domain=eurogamer.net|klaq.com|loudwire.com|screencrush.com|vg247.com|xxlmag.com
+@@||live.primis.tech^$xmlhttprequest,domain=xxlmag.com
 @@||live.rezync.com^$script,domain=batteriesplus.com
 @@||live.streamtheworld.com/partnerIds$domain=iheart.com|player.amperwave.net
 @@||liveapi.cleverpush.com/websocket$websocket,domain=heise.de
