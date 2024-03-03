@@ -1,6 +1,6 @@
 ! Title: Allowlist
-! Version: 2024-03-03 06:10:22（北京时间） 
-! Total count: 2547
+! Version: 2024-03-03 18:12:43（北京时间） 
+! Total count: 2548
 @@$generichide,domain=vidoza.co|vidoza.net
 @@-ds.metric.gstatic.com^|
 @@-social-bar.$domain=mobi.yahoo.com
@@ -1671,6 +1671,7 @@
 @@||mxpnl.com/libs/mixpanel-*.min.js$domain=change.org|frigidaire.com
 @@||mxpnl.com/libs/mixpanel-*.min.js$domain=eloan.co.il
 @@||mxpnl.com^$domain=mixpanel.com
+@@||my.goabode.com/assets/js/fp2.min.js$script,~third-party
 @@||my.tealiumiq.com^|
 @@||myaccount.chicagotribune.com/assets/scripts/tag-manager/googleTag.js$~third-party
 @@||myaccount.google.com^$generichide
