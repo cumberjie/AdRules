@@ -1,5 +1,5 @@
 ! Title: Allowlist
-! Version: 2024-03-05 06:09:45（北京时间） 
+! Version: 2024-03-05 18:12:11（北京时间） 
 ! Total count: 2548
 @@$generichide,domain=vidoza.co|vidoza.net
 @@-ds.metric.gstatic.com^|
@@ -1033,7 +1033,7 @@
 @@||emome.net/files/advertising/
 @@||energy.de^*/ivw.js?$domain=energy.de
 @@||ens.nzz.ch^$~third-party
-@@||ensighten.com^*/Bootstrap.js$domain=americanexpress.com|bestbuy.com|britishairways.com|capitalone.com|caranddriver.com|cart.autodesk.com|citi.com|citigold.com.sg|citizensbank.com|dell.com|fidelity.com|france24.com|hp.com|norton.com|rfi.fr|sbs.com.au|sfgate.com|staples.com|target.com|verizonwireless.com|williamhill.com|womenshealthmag.com|zales.com
+@@||ensighten.com^*/Bootstrap.js$domain=americanexpress.com|ba.com|bestbuy.com|britishairways.com|capitalone.com|caranddriver.com|cart.autodesk.com|citi.com|citigold.com.sg|citizensbank.com|dell.com|fidelity.com|france24.com|hp.com|norton.com|rfi.fr|sbs.com.au|sfgate.com|staples.com|target.com|verizonwireless.com|williamhill.com|womenshealthmag.com|zales.com
 @@||ensighten.com^*/code/$script
 @@||ensighten.com^*/scode/$script,domain=norton.com
 @@||ensighten.com^*/serverComponent.php?$script
@@ -1748,7 +1748,7 @@
 @@||omniture.walmart.com^|
 @@||omns.americanexpress.com/b/ss/
 @@||omsc.kpn.com^|
-@@||omtrdc.net/b/ss/$image,domain=britishairways.com|halifax-online.co.uk
+@@||omtrdc.net/b/ss/$image,domain=ba.com|britishairways.com|halifax-online.co.uk
 @@||omtrdc.net/m2/hsbcbankhase/mbox/ajax?$domain=hangseng.com
 @@||omtrdc.net/rest/$xmlhttprequest
 @@||omtrdc.net^*/mbox/json?$xmlhttprequest,domain=absa.co.za|att.com|pnc.com|vodafone.it
