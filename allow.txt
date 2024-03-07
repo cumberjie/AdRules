@@ -1,6 +1,6 @@
 ! Title: Allowlist
-! Version: 2024-03-07 18:10:58（北京时间） 
-! Total count: 2548
+! Version: 2024-03-08 06:10:14（北京时间） 
+! Total count: 2549
 @@$generichide,domain=vidoza.co|vidoza.net
 @@-ds.metric.gstatic.com^|
 @@-social-bar.$domain=mobi.yahoo.com
@@ -1432,7 +1432,7 @@
 @@||jpush.cn^$domain=jiguang.cn
 @@||js-agent.newrelic.com^$domain=alliantcreditunion.com|giftcards.com|kapwing.com
 @@||js-agent.newrelic.com^$script,domain=abema.tv
-@@||js.datadome.co/tags.js$script,domain=sso.garena.com
+@@||js.datadome.co/tags.js$script,domain=sso.garena.com|thefork.com
 @@||js.monitor.azure.com/scripts/$script,domain=genya.it|microsoft.com|rubex.efilecabinet.net
 @@||js.monitor.azure.com^|
 @@||js.sentry-cdn.com^$script,domain=app.homebinder.com|book.dmm.com|etsy.com|interacty.me|jobs.ch|pizzahut.com.au
@@ -1576,6 +1576,7 @@
 @@||maptiles.ping-admin.ru^$image,domain=ping-admin.com
 @@||marketing.net.idealo-partner.com^|
 @@||marketingautomation.services^$script,domain=leeuwerik.nl
+@@||martech.condenastdigital.com/lib/martech.js$script,domain=wired.com
 @@||martinfowler.com/articles/asyncJS.css$stylesheet,~third-party
 @@||masterkong.com.cn/adimages/
 @@||material.angular.io^$generichide
