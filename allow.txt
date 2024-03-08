@@ -1,6 +1,6 @@
 ! Title: Allowlist
-! Version: 2024-03-08 18:13:16（北京时间） 
-! Total count: 2551
+! Version: 2024-03-09 06:11:54（北京时间） 
+! Total count: 2552
 @@$generichide,domain=vidoza.co|vidoza.net
 @@-ds.metric.gstatic.com^|
 @@-social-bar.$domain=mobi.yahoo.com
@@ -879,6 +879,7 @@
 @@||cpt-static.gannettdigital.com/universal-web-client/master/latest/elements/vendor/adobe/visitor-api.html$xmlhttprequest
 @@||cq.qq.com/js/cody/*scroll_ad.js
 @@||cqcounter.com^$domain=cqcounter.com
+@@||crackedresource.com^$generichide
 @@||crackle.com/vendor/AdManager.js$script,~third-party
 @@||create.jd.com/ad/
 @@||creditas.cz/cb/public/assets/SmartTag-$script,~third-party
