@@ -1,6 +1,6 @@
 ! Title: Allowlist
-! Version: 2024-03-09 18:11:49（北京时间） 
-! Total count: 2555
+! Version: 2024-03-10 06:10:59（北京时间） 
+! Total count: 2560
 @@$generichide,domain=vidoza.co|vidoza.net
 @@-ds.metric.gstatic.com^|
 @@-social-bar.$domain=mobi.yahoo.com
@@ -122,9 +122,10 @@
 @@/vlive.qqvideo.tc.qq.com^$media,app=com.tencent.qqlivexiaomi
 @@/wp-content/*/social_$domain=servercat.me
 @@/wp-content/plugins/blockalyzer-adblock-counter/*$image,script,~third-party,domain=~gaytube.com|~pornhub.com|~pornhubthbh7ap3u.onion|~redtube.com|~redtube.com.br|~tube8.com|~tube8.es|~tube8.fr|~xtube.com|~youjizz.com|~youporn.com|~youporngay.com
+@@://10.0.0.$generichide
+@@://10.1.1.$generichide
 @@://127.0.0.1$generichide
-@@://192.168.0.1$generichide
-@@://192.168.1.1$generichide
+@@://192.168.$generichide
 @@://localhost:$generichide
 @@=mm_12852562_1778064_$domain=alimarket.tmall.com|www.taobao.com|www.tmall.com
 @@=mm_12852562_1778064_$domain=taojinbi.taobao.com
@@ -927,6 +928,7 @@
 @@||datadoghq-browser-agent.com^$script,domain=bbcgoodfood.com|dashboard.getdriven.app|hungryroot.com|usa.experian.com
 @@||daziba.cn/Images/share.css
 @@||dcdirtylaundry.com/cdn-cgi/challenge-platform/$~third-party
+@@||deezer.com^$generichide
 @@||delivery-cdn-cf.adswizz.com/adswizz/js/SynchroClient*.js$script,domain=tunein.com
 @@||delivery.satr.jp^$script,domain=mieru-ca.com
 @@||delta.com/dlhome/ruxitagentjs$~third-party
@@ -1671,6 +1673,7 @@
 @@||mtouch.facebook.com/ads/api/preview/$domain=business.facebook.com
 @@||mui.com^$generichide
 @@||munchkin.marketo.net/munchkin.js$domain=st.com|telus.com
+@@||music.amazon.$generichide
 @@||musictrack.jp/a/ad/banner_member.jpg
 @@||muzlan.top/ads/banner.png
 @@||muzlan.top^$generichide
@@ -1928,6 +1931,7 @@
 @@||qingdaoport.net/adv/random.jsp
 @@||qiyipic.com/common/fix/pub_images/
 @@||qm.redbullracing.com/gtm.js$~third-party
+@@||qobuz.com^$generichide
 @@||qq.com/ads/js/$domain=privacy.qq.com
 @@||qq.com/bossweb/jifen/
 @@||qq.com/cgi-bin/*?sid=ads
@@ -2238,6 +2242,7 @@
 @@||tcbk.com/application/files/4316/7521/1922/Q1-23-CD-Promo-Banner-Ad.png^$~third-party
 @@||tce.alicdn.com^$domain=alimama.com
 @@||tcss.qq.com^$domain=55you.com
+@@||tdn.da-services.ch/libs/prebid8.$script,domain=20min.ch
 @@||team-rec.jp^$domain=search-voi.0101.co.jp|voi.0101.co.jp
 @@||teams.microsoft.com/dialin-cdn-root/*/aria-web-telemetry-$~third-party
 @@||teams.microsoft.com^$generichide
