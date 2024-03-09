@@ -1,6 +1,6 @@
 ! Title: Allowlist
-! Version: 2024-03-09 06:11:54（北京时间） 
-! Total count: 2552
+! Version: 2024-03-09 18:11:49（北京时间） 
+! Total count: 2555
 @@$generichide,domain=vidoza.co|vidoza.net
 @@-ds.metric.gstatic.com^|
 @@-social-bar.$domain=mobi.yahoo.com
@@ -272,6 +272,7 @@
 @@||about.smartnews.com/ja/wp-content/assets/img/advertisers/ad_$~third-party
 @@||ac.ebis.ne.jp^|
 @@||account.adobe.com/newrelic.js$~third-party
+@@||accounts.google.com^$generichide
 @@||accounts.google.com^$popup
 @@||accounts.intuit.com/fe_logger?$~third-party
 @@||accuweather.com/bundles/prebid.$script
@@ -747,6 +748,7 @@
 @@||cdnjs.cloudflare.com/ajax/libs/$script,domain=vidoza.co|vidoza.net
 @@||cdnjs.cloudflare.com/ajax/libs/videojs-contrib-ads/*/videojs.ads.min.js$domain=linetv.tw
 @@||cdnqq.net/ad/api/popunder.js$script
+@@||cdpn.io^$generichide
 @@||centro.co.il^$generichide
 @@||certona.net^*/scripts/resonance.js$script,domain=canadiantire.ca|finishline.com|summitracing.com|tumi.com
 @@||cgmodel.com/plugin/share/
@@ -1608,6 +1610,7 @@
 @@||mediav.com/js/feed_ts.js$domain=toutiao.china.com
 @@||mediav.com/js/interactive_plugin.js$domain=v.360kan.com
 @@||mediav.com/js/reward_video_pc.min.js$domain=baiten.cn
+@@||meet.google.com^$generichide
 @@||megaup.net^$generichide
 @@||meituan.net/bs/js/*/js/tracker.js
 @@||meizu.com/fileserver/ad/img/
