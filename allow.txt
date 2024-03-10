@@ -1,6 +1,6 @@
 ! Title: Allowlist
-! Version: 2024-03-10 18:09:55（北京时间） 
-! Total count: 2560
+! Version: 2024-03-11 06:11:06（北京时间） 
+! Total count: 2561
 @@$generichide,domain=vidoza.co|vidoza.net
 @@-ds.metric.gstatic.com^|
 @@-social-bar.$domain=mobi.yahoo.com
@@ -1159,6 +1159,7 @@
 @@||geekbang.org/resource/image/ad/14/addb521e20de1a302206f4286eac3914.png
 @@||geekzone.co.nz^$generichide
 @@||gelbooru.com^$generichide
+@@||gemini.google.com^$generichide
 @@||gemini.yahoo.com/advertiser/$domain=gemini.yahoo.com
 @@||gemius.pl/gplayer.js$domain=tsn.ua
 @@||gemius.pl/gplayer.js$script,third-party
