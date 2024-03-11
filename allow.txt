@@ -1,6 +1,6 @@
 ! Title: Allowlist
-! Version: 2024-03-11 18:13:31（北京时间） 
-! Total count: 2560
+! Version: 2024-03-12 06:10:02（北京时间） 
+! Total count: 2559
 @@$generichide,domain=vidoza.co|vidoza.net
 @@-ds.metric.gstatic.com^|
 @@-social-bar.$domain=mobi.yahoo.com
@@ -137,10 +137,10 @@
 @@_300_250.$domain=nanrenwo.net
 @@_370x270.$domain=bairuitool-cn.aliyun-hk03.hicheng.net
 @@_ads_cpc_$domain=90lover.cn
+@@_adview_$domain=52xkdy.com|fydy8.com
 @@_adview_$domain=muzlan.top
-@@_cpa_cpm_$domain=52xkdy.com
 @@_cpc_cpm/$domain=youranshare.com
-@@_cpc_cpm_$domain=fydy8.com|saraba1st.com
+@@_cpc_cpm_$domain=saraba1st.com
 @@|ads.adsterra.com^|
 @@|adsterra.com^|
 @@|affiliates.adsterra.com^|
@@ -1289,9 +1289,7 @@
 @@||hanjuwang.com^$script,~third-party
 @@||hanjuwang.net^$script,~third-party
 @@||hao123img.com/resource/zt/widget/service/util/clickTrack.
-@@||haokoubei.top/check_img_block.js
-@@||haokoubei.top/dl/rfo_v_f_pc.js
-@@||haokoubei.top/sz/to_v_f.js
+@@||haokoubei.top/sz/tos_v_f.js
 @@||haoweichi.com/Public/js/ads.js
 @@||hb.afl.rakuten.co.jp^|
 @@||hbu.cn^*/ad.css?$stylesheet
@@ -1488,6 +1486,7 @@
 @@||komas19.xyz/cdn-cgi/apps/$script,~third-party
 @@||komplett.no/gtm.js$script,~third-party
 @@||kotaku.com/x-kinja-static/assets/new-client/adManager.$~third-party
+@@||kozkutak.hu/getdata.php?v*=pageview$~third-party
 @@||krok8.com/wp-content/plugins/pageviews/pageviews.min.js$script,~third-party
 @@||ksapisrv.com/rest/wd/common/log/collect/
 @@||l.ecn-ldr.de/loader/loader.js$domain=braun-hamburg.com
