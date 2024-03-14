@@ -1,6 +1,6 @@
 ! Title: Allowlist
-! Version: 2024-03-14 06:10:14（北京时间） 
-! Total count: 2560
+! Version: 2024-03-14 18:11:38（北京时间） 
+! Total count: 2561
 @@$generichide,domain=vidoza.co|vidoza.net
 @@-ds.metric.gstatic.com^|
 @@-social-bar.$domain=mobi.yahoo.com
@@ -629,6 +629,7 @@
 @@||beyondsoft.com/dataservice/img/ad_
 @@||bgp.he.net/images/flags/*.gif?$image,~third-party
 @@||bigfishaudio.com/banners/$image,~third-party
+@@||bikeportland.org/wp-content/plugins/advanced-ads/public/assets/js/advanced.min.js$script,~third-party
 @@||bilder-a.akamaihd.net/ip/js/ipdvdc/ipdvdc.min.js$domain=n-tv.de|toggo.de|vip.de
 @@||bilibili.com^*/web_page_view?$domain=message.bilibili.com
 @@||bing.com/search?$generichide
