@@ -1,6 +1,6 @@
 ! Title: Allowlist
-! Version: 2024-03-15 06:09:57（北京时间） 
-! Total count: 2562
+! Version: 2024-03-15 18:10:51（北京时间） 
+! Total count: 2564
 @@$generichide,domain=vidoza.co|vidoza.net
 @@-ds.metric.gstatic.com^|
 @@-social-bar.$domain=mobi.yahoo.com
@@ -1674,6 +1674,7 @@
 @@||msubload.com/sub/$xmlhttprequest
 @@||mtouch.facebook.com/ads/api/preview/$domain=business.facebook.com
 @@||mui.com^$generichide
+@@||multitest.ua/static/bower_components/boomerang/boomerang.js$~third-party
 @@||munchkin.marketo.net/munchkin.js$domain=st.com|telus.com
 @@||music.amazon.$generichide
 @@||musictrack.jp/a/ad/banner_member.jpg
@@ -1922,6 +1923,7 @@
 @@||px.a8.net^|
 @@||qbox.me/static/js/ads.js$domain=linux.cn
 @@||qcheng.cc/x/statics/js/guanggao.
+@@||qds.it/wp-content/plugins/digistream/digiplayer/js/videojs.ga.js?$script,~third-party
 @@||qhimg.com^*/monitor_analytic.
 @@||qhres.com^*/monitor_analytic.js$domain=mse.360.cn
 @@||qianpanso.cn/other/*.js$domain=cilimao.co|cilimao.one
