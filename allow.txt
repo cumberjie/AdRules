@@ -1,6 +1,6 @@
 ! Title: Allowlist
-! Version: 2024-03-18 18:12:08（北京时间） 
-! Total count: 2566
+! Version: 2024-03-19 06:10:42（北京时间） 
+! Total count: 2567
 @@$generichide,domain=vidoza.co|vidoza.net
 @@-ds.metric.gstatic.com^|
 @@-social-bar.$domain=mobi.yahoo.com
@@ -1752,6 +1752,7 @@
 @@||nytimes.com^*/EventTracker.js$~third-party
 @@||oa.tr.line.me^|
 @@||oauth.vk.com/authorize?
+@@||obituaries.therecord.com^|
 @@||ocdn.eu/ucs/static/*/onesignal.js$script,domain=pulsonline.rs
 @@||official.paymaya.com^|
 @@||oiihk.com^$generichide
