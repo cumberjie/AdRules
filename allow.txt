@@ -1,6 +1,6 @@
 ! Title: Allowlist
-! Version: 2024-03-21 18:11:22（北京时间） 
-! Total count: 2568
+! Version: 2024-03-22 06:10:38（北京时间） 
+! Total count: 2571
 @@$generichide,domain=vidoza.co|vidoza.net
 @@-ds.metric.gstatic.com^|
 @@-social-bar.$domain=mobi.yahoo.com
@@ -1585,6 +1585,7 @@
 @@||mapquestapi.com/logger/$domain=hertz.com
 @@||maptiles.ping-admin.ru^$image,domain=ping-admin.com
 @@||marketing.net.idealo-partner.com^|
+@@||marketing.unionpayintl.com/offer-promote/static/sensorsdata.min.js$script,~third-party
 @@||marketingautomation.services^$script,domain=leeuwerik.nl
 @@||martech.condenastdigital.com/lib/martech.js$script,domain=wired.com
 @@||martinfowler.com/articles/asyncJS.css$stylesheet,~third-party
@@ -1789,6 +1790,7 @@
 @@||optout.networkadvertising.org^$document
 @@||orientaldaily.on.cc/js/oncc-ad.js
 @@||ots.webtrends-optimize.com/$xmlhttprequest,domain=tvlicensing.co.uk
+@@||outbrainimg.com^$third-party,domain=computerbild.de|fitbook.de|metal-hammer.de|rollingstone.de|stylebook.de
 @@||ozabc.com^$generichide
 @@||p.d.1emn.com^$script,domain=hotair.com
 @@||p.jwpcdn.com^$script
@@ -2363,6 +2365,7 @@
 @@||tv99.tv^$generichide
 @@||tvb.com/social/share_
 @@||tvb.com^*/videojs.ads.
+@@||tvbanywherena.com^$generichide
 @@||tvcom-static.ssl.cdn.cra.cz/*/videojs.ga.js$script,domain=tvcom.cz
 @@||twitch.tv^$generichide
 @@||twitter.com/oct.js$domain=jp.square-enix.com
