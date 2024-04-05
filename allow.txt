@@ -1,5 +1,5 @@
 ! Title: Allowlist
-! Version: 2024-04-05 18:12:34（北京时间） 
+! Version: 2024-04-06 06:10:41（北京时间） 
 ! Total count: 2580
 @@$generichide,domain=vidoza.co|vidoza.net
 @@-ds.metric.gstatic.com^|
@@ -2021,7 +2021,7 @@
 @@||rosefile.net^$generichide
 @@||rt.rtoaster.jp^$image,domain=ec-store.net
 @@||rtoaster.jp/Rtoaster.js$domain=peachjohn.co.jp|satofull.jp
-@@||rtoaster.jp^$script,domain=ec-store.net|jreastmall.com|lexus.jp|melonbooks.co.jp
+@@||rtoaster.jp^$script,domain=cecile.co.jp|ec-store.net|jreastmall.com|lexus.jp|melonbooks.co.jp
 @@||rtr-vesti.ru/pvc_cdn/js/stat.js$domain=player.vgtrk.com
 @@||rubiconproject.com/prebid/dynamic/$script,domain=ask.com|journaldequebec.com
 @@||rudaw.net/images/pixel.gif$~third-party
