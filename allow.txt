@@ -1,6 +1,6 @@
 ! Title: Allowlist
-! Version: 2024-04-07 18:10:33（北京时间） 
-! Total count: 2581
+! Version: 2024-04-08 06:09:44（北京时间） 
+! Total count: 2586
 @@$generichide,domain=vidoza.co|vidoza.net
 @@-ds.metric.gstatic.com^|
 @@-social-bar.$domain=mobi.yahoo.com
@@ -466,6 +466,8 @@
 @@||analytics.amplitude.com^$~third-party
 @@||analytics.amplitude.com^|
 @@||analytics.analytics-egain.com/onetag/$script,domain=boohoo.com|digikey.at|digikey.be|digikey.bg|digikey.ca|digikey.ch|digikey.cn|digikey.co.il|digikey.co.nz|digikey.co.th|digikey.co.uk|digikey.co.za|digikey.com|digikey.com.au|digikey.com.br|digikey.com.mx|digikey.cz|digikey.de|digikey.dk|digikey.ee|digikey.es|digikey.fi|digikey.fr|digikey.gr|digikey.hk|digikey.hu|digikey.ie|digikey.in|digikey.it|digikey.jp|digikey.kr|digikey.lt|digikey.lu|digikey.lv|digikey.my|digikey.nl|digikey.no|digikey.ph|digikey.pl|digikey.pt|digikey.ro|digikey.se|digikey.sg|digikey.si|digikey.sk|digikey.tw
+@@||analytics.casper.com/gtag/js$~third-party
+@@||analytics.casper.com/gtm.js$~third-party
 @@||analytics.digitalpfizer.com/js/prod/pcc/pf_appmeasurement.js$domain=pfizer-covid19-vaccine.jp
 @@||analytics.edgekey.net/config/beacon-$xmlhttprequest,domain=raiplay.it
 @@||analytics.edgekey.net/html5/akamaihtml5-min.js$domain=br.de
@@ -629,6 +631,7 @@
 @@||beyondsoft.com/dataservice/img/ad_
 @@||bgp.he.net/images/flags/*.gif?$image,~third-party
 @@||bigfishaudio.com/banners/$image,~third-party
+@@||bihoku-minpou.co.jp/img/ad_top.jpg$~third-party
 @@||bikeportland.org/wp-content/plugins/advanced-ads/public/assets/js/advanced.min.js$script,~third-party
 @@||bilder-a.akamaihd.net/ip/js/ipdvdc/ipdvdc.min.js$domain=n-tv.de|toggo.de|vip.de
 @@||bilibili.com^*/web_page_view?$domain=message.bilibili.com
@@ -1389,6 +1392,7 @@
 @@||in.treasuredata.com/js/*api_key$script,domain=retty.me
 @@||indeed.com/rpc/log/myjobs/$~third-party
 @@||infotel.ca/images/ads/$image,~third-party
+@@||infotop.jp/html/ad/$image,~third-party
 @@||infoworld.com/www/js/ads/gpt_includes.js$~third-party
 @@||infra-api.newrelic.com^|
 @@||ingest.sentry.io/api/$xmlhttprequest,domain=orionprotocol.io|play.tv3.lv|tesco.com|tesco.hu
@@ -1927,6 +1931,7 @@
 @@||pubads.g.doubleclick.net/ondemand/hls/$domain=history.com
 @@||pubads.g.doubleclick.net/ssai/
 @@||public-cis.exponea.com^|
+@@||public.fbot.me/events/$domain=casper.com
 @@||publicwww.com^$generichide
 @@||pushpushgo.com/js/$script,domain=centrumriviera.pl
 @@||pv.sohu.com/suv/
