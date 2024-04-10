@@ -1,5 +1,5 @@
 ! Title: Allowlist
-! Version: 2024-04-10 06:09:47（北京时间） 
+! Version: 2024-04-10 18:11:25（北京时间） 
 ! Total count: 2586
 @@$generichide,domain=vidoza.co|vidoza.net
 @@-ds.metric.gstatic.com^|
@@ -1664,7 +1664,7 @@
 @@||mmy.la^*300*250
 @@||mnighthk.net/template/*/ad
 @@||mnighthk.net^$elemhide
-@@||moatads.com^$script,domain=imsa.com
+@@||moatads.com^$script,domain=imsa.com|nascar.com
 @@||moea.gov.tw/EgisWeb/Scripts/google-analytics.js
 @@||moegirl.org.cn^$generichide
 @@||momovod.com/js/momo/adsbygoogle.js
