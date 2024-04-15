@@ -1,5 +1,5 @@
 ! Title: Allowlist
-! Version: 2024-04-15 07:33:04（北京时间） 
+! Version: 2024-04-15 18:10:40（北京时间） 
 ! Total count: 2593
 @@$generichide,domain=vidoza.co|vidoza.net
 @@-ds.metric.gstatic.com^|
@@ -1396,7 +1396,7 @@
 @@||infotop.jp/html/ad/$image,~third-party
 @@||infoworld.com/www/js/ads/gpt_includes.js$~third-party
 @@||infra-api.newrelic.com^|
-@@||ingest.sentry.io/api/$xmlhttprequest,domain=orionprotocol.io|play.tv3.lv|tesco.com|tesco.hu
+@@||ingest.sentry.io/api/$xmlhttprequest,domain=core.app|orionprotocol.io|play.tv3.lv|tesco.com|tesco.hu
 @@||inoreader.com^$genericblock,generichide
 @@||inpad.com.tw/data/adv/
 @@||inskinmedia.com^*/js/base/api/$domain=appledaily.com|nextmedia.com
