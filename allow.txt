@@ -1,6 +1,6 @@
 ! Title: Allowlist
-! Version: 2024-04-17 06:10:57（北京时间） 
-! Total count: 2593
+! Version: 2024-04-17 18:12:25（北京时间） 
+! Total count: 2594
 @@$generichide,domain=vidoza.co|vidoza.net
 @@-ds.metric.gstatic.com^|
 @@-social-bar.$domain=mobi.yahoo.com
@@ -385,6 +385,7 @@
 @@||ads.taboola.com^$popup
 @@||ads.tdbank.com^|
 @@||ads.tiktok.com^$generichide
+@@||ads.tiktok.com^$popup
 @@||ads.tiktok.com^$~third-party
 @@||ads.twitter.com^$domain=ads.twitter.com|analytics.twitter.com
 @@||ads.twitter.com^$popup
