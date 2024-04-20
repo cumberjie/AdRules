@@ -1,6 +1,6 @@
 ! Title: Allowlist
-! Version: 2024-04-20 06:09:50（北京时间） 
-! Total count: 2597
+! Version: 2024-04-20 18:11:24（北京时间） 
+! Total count: 2590
 @@$generichide,domain=vidoza.co|vidoza.net
 @@-ds.metric.gstatic.com^|
 @@-social-bar.$domain=mobi.yahoo.com
@@ -482,7 +482,6 @@
 @@||anitasrecipes.com/Content/Images/Recipes/$image,~third-party
 @@||aniview.com/api/$script,domain=gamingbible.co.uk|ladbible.com
 @@||annhe.net^$generichide
-@@||answers.ros.org/m/default/media/images/$image,~third-party
 @@||anwb.webpower.eu^|
 @@||anyknew.com^$generichide
 @@||aobi.100bt.com/play/ad/ad*.swf
@@ -499,9 +498,7 @@
 @@||api.apolomedia.com/static/libs/event-tracking.min.js$script
 @@||api.babbel.io/gamma/v1/$ping,domain=babbel.com
 @@||api.docodoco.jp^|
-@@||api.enthusiastgaming.net^$xmlhttprequest,domain=diep.io
 @@||api.friends.ponta.jp/api/$~third-party
-@@||api.getmakerlog.com/discussions/$~third-party,websocket,xmlhttprequest
 @@||api.ipinfodb.com^$xmlhttprequest,domain=management30.com
 @@||api.karte.io^|
 @@||api.perfops.net^$script,xmlhttprequest,domain=cdnperf.com|dnsperf.com
@@ -522,7 +519,6 @@
 @@||app.clickfunnels.com/assets/lander.js$script,domain=propanefitness.com
 @@||app.hubspot.com/api/ads/$~third-party
 @@||app.veggly.net/plugins/cordova-plugin-admobpro/www/AdMob.js$script,~third-party
-@@||appboycdn.com/web-sdk/$script,domain=magicseaweed.com
 @@||apple.com^$generichide
 @@||appledaily.com.hk/admedia/
 @@||appledaily.com.tw^*_ad_logo.
@@ -530,7 +526,6 @@
 @@||apps.derstandard.at^*/TrackingCookieCheck?$subdocument
 @@||apv-launcher.minute.ly/api/$script
 @@||aqy103.com/js/aqy/main.js
-@@||aramex.co.nz/Umbraco/Api/Tracking/$~third-party
 @@||archive.org/BookReader/$image,~third-party,xmlhttprequest
 @@||archive.org/services/$image,~third-party,xmlhttprequest
 @@||arnhemland-safaris.com/images/made/$image,~third-party
@@ -575,7 +570,6 @@
 @@||az.hp.transer.com/content/dam/isetan_mitsukoshi/advertise/$~third-party
 @@||az.hpcn.transer-cn.com/content/dam/isetan_mitsukoshi/advertise/$~third-party
 @@||azureedge.net/prod/smi/loader-config.json$domain=pressdemocrat.com
-@@||azureedge.net^*/analytics/eventtracking.js$script,domain=crimemapping.com
 @@||b-cloud.templatebank.com/js/gtag.js$~third-party
 @@||bagehd.com/iplookup.
 @@||baidu-taobao-av.com/js/home.js
@@ -649,7 +643,6 @@
 @@||bloominc.jp/adtool/$~third-party
 @@||blueconic.net/bostonglobemedia.js$domain=bostonglobe.com
 @@||blueconic.net/capitolbroadcasting.js$script,domain=wral.com
-@@||bluecore.com/triggermail.js$script,domain=fcpeuro.com
 @@||bnet.163.com^
 @@||board-game.co.uk/cdn-cgi/zaraz/s.js$script,~third-party
 @@||boatwizard.com/ads_prebid.min.js$script,domain=boats.com
@@ -671,7 +664,6 @@
 @@||btsax.info^$generichide
 @@||bugsnag.com^$~third-party,domain=app.bugsnag.com
 @@||builder.io^$generichide
-@@||builder.lift.acquia.com/lift.js$script,domain=edwardjones.com
 @@||businessclick.ch/index.js$domain=finanzen.ch
 @@||buyad.bi-xenon.cn^
 @@||bytecdntp.com^$script,domain=51eshu.com
@@ -769,7 +761,7 @@
 @@||channel.images.production.web.w4a.tv^*/ard.png?$domain=yallo.tv
 @@||chart-embed.service.newrelic.com^$subdocument,xmlhttprequest
 @@||chartbeat.com/js/chartbeat_brightcove_plugin.js$domain=capital.it|deejay.it|m2o.it
-@@||chasecdn.com^*/@ccb-blueanalytics/$script,domain=chase.com
+@@||chasecdn.com/web/*/eventtracker.js$domain=chase.com
 @@||chat.d-id.com/assets/mixpanel.$~third-party
 @@||check.ddos-guard.net/check.js$script
 @@||cheshi-img.com/ad/csad_2019.js
@@ -894,6 +886,7 @@
 @@||crackle.com/vendor/AdManager.js$script,~third-party
 @@||create.jd.com/ad/
 @@||creditas.cz/cb/public/assets/SmartTag-$script,~third-party
+@@||crimemapping.com/cdn/*/analytics/eventtracking.js$~third-party
 @@||criteo.com/delivery/ajs.php?zoneid=$script,domain=gaus.ee
 @@||criteo.net/js/ld/publishertag.js$domain=novayagazeta.ru
 @@||crm-cdn.peek-cloppenburg.com^|
