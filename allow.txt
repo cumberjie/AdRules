@@ -1,6 +1,6 @@
 ! Title: Allowlist
-! Version: 2024-04-23 06:12:21（北京时间） 
-! Total count: 2590
+! Version: 2024-04-23 18:11:46（北京时间） 
+! Total count: 2591
 @@$generichide,domain=vidoza.co|vidoza.net
 @@-ds.metric.gstatic.com^|
 @@-social-bar.$domain=mobi.yahoo.com
@@ -1440,6 +1440,7 @@
 @@||join.southerncross.co.nz/quote/_assets/js/sx/app/helpers/gtm.js
 @@||jokerly.com/Okidak/adSelectorDirect.htm?id=$document,subdocument
 @@||jokerly.com/Okidak/vastChecker.htm$document,subdocument
+@@||josiad.ns.nl/DG/DEFAULT/$xmlhttprequest
 @@||joyk.com^$generichide
 @@||jpush.cn^$domain=jiguang.cn
 @@||js-agent.newrelic.com^$domain=alliantcreditunion.com|giftcards.com|kapwing.com
