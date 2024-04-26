@@ -1,6 +1,6 @@
 ! Title: Allowlist
-! Version: 2024-04-26 06:10:27（北京时间） 
-! Total count: 2591
+! Version: 2024-04-26 18:12:27（北京时间） 
+! Total count: 2593
 @@$generichide,domain=vidoza.co|vidoza.net
 @@-ds.metric.gstatic.com^|
 @@-social-bar.$domain=mobi.yahoo.com
@@ -2018,6 +2018,7 @@
 @@||res.yyets.com/ads/mediav-250.js
 @@||researchintel.com^*/feedback.asp$xmlhttprequest,domain=intel.com
 @@||responder.wt-safetag.com/resp/api/get/$script,domain=myhermes.de
+@@||rest.edit.site/geoip-service/geoip$domain=systemshouse.com
 @@||retailmenot.com/__wsm.gif$ping,~third-party,xmlhttprequest
 @@||rfksrv.com/rfk/js/*/init.js$script,domain=riteaid.com
 @@||right.com.cn/forum/*300*250$image
@@ -2555,6 +2556,7 @@
 @@||yellowbridge.com^$generichide
 @@||yesiget.i234.me^$generichide
 @@||yibada.com^$generichide
+@@||yieldlove.com/v2/yieldlove.js$script,domain=whatismyip.com
 @@||yimg.com/av/gemini-ui/*/advertiser/$domain=gemini.yahoo.com
 @@||yimg.com/dy/ads/native.js$script,domain=animedao.to
 @@||yimg.com/rq/darla/*/g-r-min.js$domain=yahoo.com
