@@ -1,6 +1,6 @@
 ! Title: Allowlist
-! Version: 2024-04-27 06:11:47（北京时间） 
-! Total count: 2593
+! Version: 2024-04-27 18:12:31（北京时间） 
+! Total count: 2594
 @@$generichide,domain=vidoza.co|vidoza.net
 @@-ds.metric.gstatic.com^|
 @@-social-bar.$domain=mobi.yahoo.com
@@ -1489,6 +1489,7 @@
 @@||kfcorder.com.tw^*/Advert
 @@||kilimall.co.ke/sensorsdata.min.js$~third-party
 @@||kilimall.co.tz/sensorsdata.min.js$~third-party
+@@||kilimall.com&*/js/sensorsdata.min.js$script,domain=kilimall.co.ke
 @@||kincho.co.jp/cm/img/bnr_ad_$image,~third-party
 @@||kissjav.com^$generichide
 @@||kk665403.pixnet.net^$generichide
