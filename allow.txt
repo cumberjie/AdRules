@@ -1,6 +1,6 @@
 ! Title: Allowlist
-! Version: 2024-05-03 06:11:19（北京时间） 
-! Total count: 2597
+! Version: 2024-05-03 18:12:27（北京时间） 
+! Total count: 2598
 @@$generichide,domain=vidoza.co|vidoza.net
 @@-ds.metric.gstatic.com^|
 @@-social-bar.$domain=mobi.yahoo.com
@@ -1213,7 +1213,7 @@
 @@||google-analytics.com/analytics.js$domain=beinsports.com|brooklinen.com|carnesvizzera.ch|cmoa.jp|enmotive.com|healthrangerstore.com|hobbyhall.fi|infoconso-multimedia.fr|jackbox.tv|k2radio.com|koel.com|kowb1290.com|ligtv.com.tr|meritonsuites.com.au|nabortu.ru|news.gamme.com.tw|novatv.bg|papajohns.com|poiskstroek.ru|rzd.ru|saturn.at|schweizerfleisch.ch|skaties.lv|stressless.com|teddyfood.com|tracking.narvar.com|tradera.com|tribuna.com|truwin.com|tuasaude.com|unicef.de|viandesuisse.ch|vox.de|westernunion.com|worldsbiggestpacman.com|xxl.se
 @@||google-analytics.com/analytics.js$domain=citytalk.tw|ebb.io|komica.org|lenovo.com.cn|linetv.tw|maminews.com.tw|support.amd.com
 @@||google-analytics.com/analytics.js$domain=ebb.io|komica.org|lenovo.com.cn|linetv.tw|maminews.com.tw|support.amd.com
-@@||google-analytics.com/ga.js$domain=meritonsuites.com.au
+@@||google-analytics.com/ga.js$domain=meritonsuites.com.au|realpage.com
 @@||google-analytics.com/gtm/js?$script,domain=unicef.de
 @@||google-analytics.com/gtm/optimize.js$domain=focus.de
 @@||google-analytics.com/plugins/ua/ec.js$domain=lenovo.com.cn
@@ -2322,6 +2322,7 @@
 @@||tkec.com.tw/api/ad/
 @@||tlaol.com^|
 @@||tlc.com^$generichide
+@@||tm.jsuol.com.br/modules/external/admanager/clickjogos_ads.js$script,domain=clickjogos.com.br
 @@||tm.jsuol.com.br/uoltm.js$script,domain=uol.com.br
 @@||tm.r-ad.ne.jp/128/ra346756.js$script,domain=hpdsp.net
 @@||tmall.com/add?
