@@ -1,6 +1,6 @@
 ! Title: Allowlist
-! Version: 2024-05-05 18:12:01（北京时间） 
-! Total count: 2602
+! Version: 2024-05-06 06:11:52（北京时间） 
+! Total count: 2603
 @@$generichide,domain=vidoza.co|vidoza.net
 @@-ds.metric.gstatic.com^|
 @@-social-bar.$domain=mobi.yahoo.com
@@ -1403,6 +1403,7 @@
 @@||instagram.com/api/v1/ads/$~third-party,xmlhttprequest
 @@||instagram.com^$generichide
 @@||instapundit.com^$generichide
+@@||instawp.xyz^$generichide
 @@||intersport.peerius.com^|
 @@||ipapi.co/json/$xmlhttprequest,domain=168.dailymaverick.co.za|audius.co
 @@||ipfs-lab.com^$generichide
