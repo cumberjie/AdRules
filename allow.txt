@@ -1,6 +1,6 @@
 ! Title: Allowlist
-! Version: 2024-05-05 06:10:13（北京时间） 
-! Total count: 2601
+! Version: 2024-05-05 18:12:01（北京时间） 
+! Total count: 2602
 @@$generichide,domain=vidoza.co|vidoza.net
 @@-ds.metric.gstatic.com^|
 @@-social-bar.$domain=mobi.yahoo.com
@@ -104,8 +104,10 @@
 @@/mobileads.$domain=naviking.localking.com.tw
 @@/modules/ads/*$domain=shopee.tw
 @@/needsharebutton.min.js$domain=leetcode-cn.com
+@@/prebid-js-$domain=mytvsuper.com|tvb.com|tvbs.com.tw
 @@/pub/ad/*$domain=ruten.com.tw
 @@/pub1/??$domain=banggo.com
+@@/pubads_impl.js$domain=mytvsuper.com|tvb.com|tvbs.com.tw
 @@/rwd_cap.js$domain=ibf.tw
 @@/sensorsdata-$domain=aixiaoyuan.cn|zkh.com
 @@/sensorsdata.$domain=36kr.com|binance.com|by56.com|canon.com.cn|chuanglan.com|fenbi.com|guancha.cn|imooc.com|kuque.com|modian.com|saicskoda.com.cn|shanbay.com|tianyancha.com|ttcdw.cn|xinrenxinshi.com|zzjiasuqi.com
@@ -992,7 +994,6 @@
 @@||doubleclick.net/gampad/*adPositionName%3Dsuperbanner_$xmlhttprequest,domain=spiegel.de
 @@||doubleclick.net/getconfig$xmlhttprequest,domain=spiegel.de
 @@||doubleclick.net/gpt/pubads_impl$domain=www.gamer.com.tw
-@@||doubleclick.net/gpt/pubads_impl_$domain=mytvsuper.com|tvb.com|tvbs.com.tw
 @@||doubleclick.net^$xmlhttprequest,domain=yyets.click
 @@||douyucdn.cn^*-share-master/
 @@||down.cc/down/js/ad.js
@@ -1258,7 +1259,7 @@
 @@||googletagservices.com/tag/js/gpt.js$domain=allestoringen.be|allestoringen.nl|downdetector.ae|downdetector.ca|downdetector.cl|downdetector.co.nz|downdetector.co.uk|downdetector.co.za|downdetector.com|downdetector.com.ar|downdetector.com.au|downdetector.com.br|downdetector.com.co|downdetector.cz|downdetector.dk|downdetector.ec|downdetector.es|downdetector.fi|downdetector.fr|downdetector.gr|downdetector.hk|downdetector.hr|downdetector.hu|downdetector.id|downdetector.ie|downdetector.in|downdetector.it|downdetector.jp|downdetector.mx|downdetector.my|downdetector.no|downdetector.pe|downdetector.ph|downdetector.pk|downdetector.pl|downdetector.pt|downdetector.ro|downdetector.ru|downdetector.se|downdetector.sg|downdetector.sk|downdetector.tw|downdetector.web.tr|xn--allestrungen-9ib.at|xn--allestrungen-9ib.ch|xn--allestrungen-9ib.de
 @@||googletagservices.com/tag/js/gpt.js$domain=chegg.com|chelseafc.com|epaper.timesgroup.com|farfeshplus.com|k2radio.com|koel.com|kowb1290.com|nationalreview.com|nationalworld.com|nbcsports.com|scotsman.com|tv-asahi.co.jp|uefa.com|vimeo.com|vlive.tv|voici.fr|windalert.com
 @@||googletagservices.com/tag/js/gpt.js$domain=fukuishimbun.co.jp
-@@||googletagservices.com/tag/js/gpt.js$domain=tvb.com|www.gamer.com.tw
+@@||googletagservices.com/tag/js/gpt.js$domain=tvb.com|www.gamer.com.tw|tvbs.com.tw
 @@||googletagservices.com^$script,domain=creaders.net
 @@||gooogle.how^$generichide
 @@||goto.target.com^|
