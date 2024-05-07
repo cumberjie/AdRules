@@ -1,6 +1,6 @@
 ! Title: Allowlist
-! Version: 2024-05-07 06:11:59（北京时间） 
-! Total count: 2606
+! Version: 2024-05-07 18:12:50（北京时间） 
+! Total count: 2607
 @@$generichide,domain=vidoza.co|vidoza.net
 @@-ds.metric.gstatic.com^|
 @@-social-bar.$domain=mobi.yahoo.com
@@ -717,6 +717,7 @@
 @@||cdn.duurzaam.greenchoice.nl^|
 @@||cdn.ex.co^$domain=theautopian.com
 @@||cdn.exp.qq.com/img/
+@@||cdn.getblueshift.com/blueshift.js$script,domain=rentcafe.com
 @@||cdn.heapanalytics.com^$script,domain=libertymutual.com
 @@||cdn.jsdelivr.net/npm/*/videojs-contrib-ads.min.js$domain=24ur.com
 @@||cdn.jsdelivr.net^$script,domain=35xss.com
