@@ -1,6 +1,6 @@
 ! Title: Allowlist
-! Version: 2024-05-12 06:09:44（北京时间） 
-! Total count: 2607
+! Version: 2024-05-12 18:11:02（北京时间） 
+! Total count: 2608
 @@$generichide,domain=vidoza.co|vidoza.net
 @@-ds.metric.gstatic.com^|
 @@-social-bar.$domain=mobi.yahoo.com
@@ -1873,6 +1873,7 @@
 @@||pinduoduo.com/advert/$~third-party
 @@||pingan.com^*/rrweb-record-
 @@||pingjs.qq.com^$~third-party
+@@||pinterest.com^$generichide
 @@||pjtra.com/b/$image,domain=extrarebates.com
 @@||pkstep.com^$generichide
 @@||pladform.ru/dive/$xmlhttprequest
