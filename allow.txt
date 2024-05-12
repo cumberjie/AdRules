@@ -1,6 +1,6 @@
 ! Title: Allowlist
-! Version: 2024-05-12 18:11:02（北京时间） 
-! Total count: 2608
+! Version: 2024-05-13 06:09:57（北京时间） 
+! Total count: 2613
 @@$generichide,domain=vidoza.co|vidoza.net
 @@-ds.metric.gstatic.com^|
 @@-social-bar.$domain=mobi.yahoo.com
@@ -1874,6 +1874,12 @@
 @@||pingan.com^*/rrweb-record-
 @@||pingjs.qq.com^$~third-party
 @@||pinterest.com^$generichide
+@@||pinterest.de^$generichide
+@@||pinterest.es^$generichide
+@@||pinterest.fr^$generichide
+@@||pinterest.it^$generichide
+@@||pinterest.jp^$generichide
+@@||pinterest.ph^$generichide
 @@||pjtra.com/b/$image,domain=extrarebates.com
 @@||pkstep.com^$generichide
 @@||pladform.ru/dive/$xmlhttprequest
@@ -1924,7 +1930,6 @@
 @@||prebid.adnxs.com^$xmlhttprequest,domain=go.cnn.com
 @@||preromanbritain.com/maxymiser/$~third-party
 @@||privatbank.ua/content/*/fp2.min.js$~third-party
-@@||pro-foto.jp/ads/img/$~third-party
 @@||pro.gooooal.com/ad/ad_2.js
 @@||promo.com/embed/$subdocument,third-party
 @@||promo.gramedia.com^|
