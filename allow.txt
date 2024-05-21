@@ -1,6 +1,6 @@
 ! Title: Allowlist
-! Version: 2024-05-21 18:12:30（北京时间） 
-! Total count: 2623
+! Version: 2024-05-22 06:10:43（北京时间） 
+! Total count: 2624
 @@$generichide,domain=vidoza.co|vidoza.net
 @@-ds.metric.gstatic.com^|
 @@-social-bar.$domain=mobi.yahoo.com
@@ -2098,6 +2098,7 @@
 @@||seasungame.com/ad/
 @@||secure.logmein.com/scripts/Tracking/$script,domain=logme.in|logmein.com
 @@||securegames.iwin.com/data/gtm.json$~third-party,xmlhttprequest
+@@||secureimage.securedataimages.com^|
 @@||securenetsystems.net/v5/scripts/
 @@||securepubads.g.doubleclick.net/gampad/ads?$domain=league-funny.com
 @@||securepubads.g.doubleclick.net/gpt/pubads$domain=line.me
