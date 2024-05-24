@@ -1,6 +1,6 @@
 ! Title: Allowlist
-! Version: 2024-05-24 18:12:26（北京时间） 
-! Total count: 2623
+! Version: 2024-05-25 06:11:36（北京时间） 
+! Total count: 2624
 @@$generichide,domain=vidoza.co|vidoza.net
 @@-ds.metric.gstatic.com^|
 @@-social-bar.$domain=mobi.yahoo.com
@@ -256,7 +256,6 @@
 @@||8tm.net/static/img/fbpixel.png$~third-party
 @@||9.ujinbi.com/AD/
 @@||930mh.com/js/config.js
-@@||939394.xyz^$generichide
 @@||95306.cn/public/images/ad/
 @@||95504.net/Advertisement_
 @@||95599.cn^*ad
@@ -1635,6 +1634,7 @@
 @@||mcmod.cn/js/jquery.cookie.js
 @@||mealty.ru/js/ga_events.js$~third-party
 @@||media-consumer365.desigual.com^|
+@@||media.foundit.*/trex/public/theme_3/dist/js/userTracking.js$script,~third-party
 @@||media.jd.com/static/*/ad
 @@||media.kijiji.ca/api/$image,~third-party
 @@||media.org.hk^*/ads_
@@ -2125,6 +2125,7 @@
 @@||shana.pe.kr^$generichide
 @@||share.baidu.com^$script,stylesheet,domain=k73.com
 @@||share1223.com^$generichide
+@@||sharethis.com/button/buttons.js$domain=bristan.com
 @@||shijue.me/advertise/getList?
 @@||shikoku-np.co.jp/img/ad/$~third-party
 @@||shine.cn/showadcode2.asp?posid=68&
