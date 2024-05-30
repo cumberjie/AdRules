@@ -1,6 +1,6 @@
 ! Title: Allowlist
-! Version: 2024-05-30 18:12:57（北京时间） 
-! Total count: 2628
+! Version: 2024-05-31 06:12:15（北京时间） 
+! Total count: 2627
 @@$generichide,domain=vidoza.co|vidoza.net
 @@-ds.metric.gstatic.com^|
 @@-social-bar.$domain=mobi.yahoo.com
@@ -806,7 +806,6 @@
 @@||cloud.google.com^$~third-party
 @@||cloud.mail.ru^$image,~third-party
 @@||cloud.notification-naviextras.com^|
-@@||cloud.roistat.com^|
 @@||cloudflare.com/ajax/libs/fingerprintjs2/$domain=extracttable.com|fckrasnodar.ru|login.kroton.com.br
 @@||cloudflare.com/ajax/libs/fuckadblock/$domain=seselah.com
 @@||cloudflare.com/cdn-cgi/trace$domain=infyspringboard.onwingspan.com|injora.com|myair.resmed.com
