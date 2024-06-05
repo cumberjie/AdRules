@@ -1,6 +1,6 @@
 ! Title: Allowlist
-! Version: 2024-06-05 06:11:58（北京时间） 
-! Total count: 2628
+! Version: 2024-06-05 18:12:52（北京时间） 
+! Total count: 2630
 @@$generichide,domain=vidoza.co|vidoza.net
 @@-ds.metric.gstatic.com^|
 @@-social-bar.$domain=mobi.yahoo.com
@@ -1865,6 +1865,7 @@
 @@||pbs.twimg.com/ad_img/$image,xmlhttprequest
 @@||pchome.com.tw/img/js/xpcadshow.js$domain=game735.com
 @@||pchomepay.com.tw/share/js/
+@@||pcoptimizedsettings.com/wp-content/uploads/breeze/google/gtag.js$~third-party
 @@||peacocktv.com^$generichide
 @@||pendo.io/agent/static/$script,domain=recruiting.adp.com
 @@||pepperjamnetwork.com/banners/$image,domain=extrarebates.com
@@ -2385,6 +2386,7 @@
 @@||track.adform.net/serving/scripts/trackpoint$script,domain=sky.it
 @@||track.rutarget.ru^|
 @@||track.shipstation.com/collections/trackingEvents.js$~third-party
+@@||track.webgains.com^|
 @@||tracker.namitiyu.com^
 @@||trackjs.com/agent/$script,domain=delta.com
 @@||tracklog.58.com/referrer$~third-party
