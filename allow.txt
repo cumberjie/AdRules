@@ -1,5 +1,5 @@
 ! Title: Allowlist
-! Version: 2024-06-07 06:11:01（北京时间） 
+! Version: 2024-06-07 18:12:43（北京时间） 
 ! Total count: 2633
 @@$generichide,domain=vidoza.co|vidoza.net
 @@-ds.metric.gstatic.com^|
@@ -1592,7 +1592,7 @@
 @@||lokopromo.com^*/adsimages/$~third-party
 @@||loltmcheck.com/js/ads.js
 @@||looker.com/api/internal/$~third-party
-@@||lostpod.space/static/streaming-playlists/$xhr,domain=videos.john-livingston.fr
+@@||lostpod.space/static/streaming-playlists/$domain=videos.john-livingston.fr
 @@||lr-ingest.io/LogRocket.min.js$domain=smartcare.com
 @@||lshstream.xyz/hls/$xmlhttprequest
 @@||ltzn.9377.com^
