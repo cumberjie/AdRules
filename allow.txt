@@ -1,6 +1,6 @@
 ! Title: Allowlist
-! Version: 2024-06-10 06:11:16（北京时间） 
-! Total count: 2635
+! Version: 2024-06-10 18:13:50（北京时间） 
+! Total count: 2636
 @@$generichide,domain=vidoza.co|vidoza.net
 @@-ds.metric.gstatic.com^|
 @@-social-bar.$domain=mobi.yahoo.com
@@ -2298,6 +2298,7 @@
 @@||tanx.com/ex?i=mm_$domain=www.hao123.com
 @@||taobao.com/go/app/tmall/login-api.php?
 @@||taobao.com^*&adgroupid=
+@@||taplytics.com^$domain=royalbank.com
 @@||target.microsoft.com/rest/$xmlhttprequest,domain=microsoft.com
 @@||targetimg1.com/webui/$script,domain=target.com
 @@||tb.mgtv.com/sdk/*/ad-sdk.js^$script
