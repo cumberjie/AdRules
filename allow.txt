@@ -1,6 +1,6 @@
 ! Title: Allowlist
-! Version: 2024-06-11 06:12:48（北京时间） 
-! Total count: 2637
+! Version: 2024-06-11 18:13:30（北京时间） 
+! Total count: 2638
 @@$generichide,domain=vidoza.co|vidoza.net
 @@-ds.metric.gstatic.com^|
 @@-social-bar.$domain=mobi.yahoo.com
@@ -405,6 +405,7 @@
 @@||adswizz.com/adswizz/js/SynchroClient*.js$script,third-party,domain=jjazz.net
 @@||adswizz.com/sca_newenco/$xmlhttprequest,domain=triplem.com.au
 @@||adtng.com/get/$subdocument,domain=hanime.tv
+@@||adtraction.com^$image,domain=ebjudande.se
 @@||adv.asahi.com^$popup
 @@||adv.gg^$popup
 @@||adv.welaika.com^$popup
