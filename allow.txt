@@ -1,5 +1,5 @@
 ! Title: Allowlist
-! Version: 2024-06-18 06:11:06（北京时间） 
+! Version: 2024-06-18 18:12:51（北京时间） 
 ! Total count: 2641
 @@$generichide,domain=vidoza.co|vidoza.net
 @@-ds.metric.gstatic.com^|
@@ -540,7 +540,7 @@
 @@||asahi.com/ads/$image,~third-party
 @@||ascii.jp/img/ad/$image,~third-party
 @@||assbbs.com^$generichide
-@@||assets.adobedtm.com/extensions/*/AppMeasurement.min.js$domain=nbc.com|tatamotors.com
+@@||assets.adobedtm.com/extensions/*/AppMeasurement.min.js$domain=nbc.com|tatamotors.com|usanetwork.com
 @@||assets.ctfassets.net^$media,domain=ads.spotify.com
 @@||assets.giocdn.com/2.1/gio.js$domain=saicmg.com
 @@||assets.msn.com/staticsb/statics/latest/adboxes/$script,~third-party
