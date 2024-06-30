@@ -1,6 +1,6 @@
 ! Title: Allowlist
-! Version: 2024-06-30 06:12:39（北京时间） 
-! Total count: 2646
+! Version: 2024-06-30 18:11:40（北京时间） 
+! Total count: 2648
 @@$generichide,domain=vidoza.co|vidoza.net
 @@-ds.metric.gstatic.com^|
 @@-social-bar.$domain=mobi.yahoo.com
@@ -2222,6 +2222,7 @@
 @@||spiegel.de^$genericblock,generichide
 @@||spoc.sydtrafik.dk/CherwellPortal/dist/app/common/analytics/Analytics.js$~third-party
 @@||sponsor.nitropay.com^|
+@@||sport.virgilio.it/js/web-vitals-evnt.25/web-vitals.attribution.js$script,domain=sport.virgilio.it
 @@||sportsnet.ca/wp-content/plugins/bwp-minify/$domain=sportsnet.ca
 @@||spxl.socy.es^$script,xmlhttprequest,domain=3djuegosguias.com|3djuegospc.com|applesfera.com|compradiccion.com|directoalpaladar.com|espinof.com|genbeta.com|poprosa.com|trendencias.com|trendenciashombre.com|vidaextra.com|vitonica.com|xatakamovil.com
 @@||src.fedoraproject.org/static/issues_stats.js?$~third-party
@@ -2323,6 +2324,7 @@
 @@||teams.microsoft.com/dialin-cdn-root/*/aria-web-telemetry-$~third-party
 @@||teams.microsoft.com^$generichide
 @@||technical-service.net^$xmlhttprequest,domain=n-tv.de|rtl.de|vip.de
+@@||tecnologia.libero.it/js/dist.1/web-vitals.attribution.js$script,domain=tecnologia.libero.it
 @@||tenki.jp/storage/static-images/top-ad/
 @@||tennispro.eu/min/?$script,~third-party
 @@||tenpay.com/v2/res/pub/cps/main/bottom_ad.js
