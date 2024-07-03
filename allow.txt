@@ -1,6 +1,6 @@
 ! Title: Allowlist
-! Version: 2024-07-03 18:13:38（北京时间） 
-! Total count: 2652
+! Version: 2024-07-04 06:12:17（北京时间） 
+! Total count: 2653
 @@$generichide,domain=vidoza.co|vidoza.net
 @@-ds.metric.gstatic.com^|
 @@-social-bar.$domain=mobi.yahoo.com
@@ -508,6 +508,7 @@
 @@||api.perfops.net^$script,xmlhttprequest,domain=cdnperf.com|dnsperf.com
 @@||api.touchnote.io^$xmlhttprequest,domain=app.touchnote.com
 @@||api.tv.sohu.com/mobile_user/device^$app=com.sohu.sohuvideo
+@@||api.vk.com/method/statEvents.$~third-party
 @@||apibay.org^$script,xmlhttprequest,domain=thepiratebay.org
 @@||apis.google.com^$domain=openload.co|oload.tv|javno.me|imagebam.com|imagevenue.com|playvid.com|4horlover.com|linkshrink.net
 @@||apis.kostprice.com/fapi/$script,domain=gadgets.ndtv.com
