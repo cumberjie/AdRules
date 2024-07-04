@@ -1,6 +1,6 @@
 ! Title: Allowlist
-! Version: 2024-07-04 06:12:17（北京时间） 
-! Total count: 2653
+! Version: 2024-07-04 18:12:52（北京时间） 
+! Total count: 2654
 @@$generichide,domain=vidoza.co|vidoza.net
 @@-ds.metric.gstatic.com^|
 @@-social-bar.$domain=mobi.yahoo.com
@@ -2483,6 +2483,7 @@
 @@||uze-ads.com/ads/$~third-party
 @@||v.17173.com/advideo/*.mp4
 @@||v.17173.com/advideo/20*.flv
+@@||v.fwmrm.net/?$xmlhttprequest
 @@||v.fwmrm.net/ad/g/*Nelonen$script
 @@||v.fwmrm.net/ad/g/1$domain=uktv.co.uk|vevo.com
 @@||v.fwmrm.net/ad/g/1?*mtv_desktop$xmlhttprequest
