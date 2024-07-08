@@ -1,6 +1,6 @@
 ! Title: Allowlist
-! Version: 2024-07-08 06:12:06（北京时间） 
-! Total count: 2656
+! Version: 2024-07-08 18:13:46（北京时间） 
+! Total count: 2658
 @@$generichide,domain=vidoza.co|vidoza.net
 @@-ds.metric.gstatic.com^|
 @@-social-bar.$domain=mobi.yahoo.com
@@ -2514,6 +2514,8 @@
 @@||vivocha.com^*/vivocha.js?$script,domain=kartell.com
 @@||vk.com/ads?$popup,domain=vk.com
 @@||vlist.se/advertisement.js
+@@||vms-players.minutemediaservices.com^$script,domain=si.com
+@@||vms-videos.minutemediaservices.com^$xmlhttprequest,domain=si.com
 @@||vodjk.com/offlights.js
 @@||vvic.com/monetize/ads/index/
 @@||waaw.to/adv/ads/popunder.js$script
