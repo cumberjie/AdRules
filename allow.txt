@@ -1,6 +1,6 @@
 ! Title: Allowlist
-! Version: 2024-07-16 06:12:09（北京时间） 
-! Total count: 2658
+! Version: 2024-07-16 18:11:27（北京时间） 
+! Total count: 2657
 @@$generichide,domain=vidoza.co|vidoza.net
 @@-ds.metric.gstatic.com^|
 @@-social-bar.$domain=mobi.yahoo.com
@@ -1207,6 +1207,7 @@
 @@||givingassistant.org/Advertisers/$~third-party
 @@||gk.sina.cn/v1/gkmatch?
 @@||global-uploads.webflow.com/*_dimensions-$image,domain=dimensions.com
+@@||globalatlanticannuity.com/assets/embed/gtm.js$script,~third-party
 @@||glookup.info/api/json/$domain=grabify.link
 @@||gmail.com^$generichide
 @@||gn-web-assets.api.bbc.com/bbcdotcom/assets/$script,domain=bbc.co.uk
@@ -2378,8 +2379,6 @@
 @@||tkec.com.tw/api/ad/
 @@||tlaol.com^|
 @@||tlc.com^$generichide
-@@||tm.jsuol.com.br/modules/external/admanager/clickjogos_ads.js$script,domain=clickjogos.com.br
-@@||tm.jsuol.com.br/uoltm.js$script,domain=uol.com.br
 @@||tm.r-ad.ne.jp/128/ra346756.js$script,domain=hpdsp.net
 @@||tmall.com/add?
 @@||tmall.com/go/*/banner.php
