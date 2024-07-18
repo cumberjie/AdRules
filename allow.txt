@@ -1,5 +1,5 @@
 ! Title: Allowlist
-! Version: 2024-07-18 06:12:10（北京时间） 
+! Version: 2024-07-18 18:13:19（北京时间） 
 ! Total count: 2660
 @@$generichide,domain=vidoza.co|vidoza.net
 @@-ds.metric.gstatic.com^|
@@ -562,7 +562,7 @@
 @@||atwiki.jp/common/_img/spacer.gif?$image,domain=atwiki.jp
 @@||ausha.tsbluebox.com^$media,domain=podcast.ausha.co
 @@||auth2.picpay.com^*/event-tracking.js$script,~third-party
-@@||autocomplete.clearbit.com^$xmlhttprequest,domain=dzone.com
+@@||autocomplete.clearbit.com^$xmlhttprequest
 @@||autohome.com.cn/javascript/fingerprint.js
 @@||autoimg.cn/bi/common/pvevent_all.
 @@||autoimg.cn/bi/common/pvevent_all_
