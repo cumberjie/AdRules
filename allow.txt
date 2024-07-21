@@ -1,6 +1,6 @@
 ! Title: Allowlist
-! Version: 2024-07-21 06:11:40（北京时间） 
-! Total count: 2660
+! Version: 2024-07-21 18:12:33（北京时间） 
+! Total count: 2662
 @@$generichide,domain=vidoza.co|vidoza.net
 @@-ds.metric.gstatic.com^|
 @@-social-bar.$domain=mobi.yahoo.com
@@ -1949,6 +1949,8 @@
 @@||popo8.com^$domain=www.6park.com
 @@||pornbraze.com^$generichide
 @@||portal.autotrader.co.uk/advert/$~third-party
+@@||portal.cityspark.com/PortalScripts/DailyCamera$domain=dailycamera.com
+@@||portal.cityspark.com/v1/event$domain=dailycamera.com
 @@||pos.baidu.com^$script,domain=fxpan.com|htqyy.com
 @@||pos.baidu.com^$subdocument,domain=bigpixel.cn
 @@||pos.baidu.com^*?di=u3160754&$domain=bigpixel.cn
