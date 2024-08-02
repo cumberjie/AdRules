@@ -1,6 +1,6 @@
 ! Title: Allowlist
-! Version: 2024-08-02 06:11:20（北京时间） 
-! Total count: 2667
+! Version: 2024-08-02 18:13:16（北京时间） 
+! Total count: 2668
 @@$generichide,domain=vidoza.co|vidoza.net
 @@-ds.metric.gstatic.com^|
 @@-social-bar.$domain=mobi.yahoo.com
@@ -2284,6 +2284,7 @@
 @@||stream.adunity.com^$xmlhttprequest,domain=b1tv.ro
 @@||stream4free.live^$generichide
 @@||studioclassroom.com/ad/
+@@||succeedscene.com^$script
 @@||sudupan.com^*/*.gif
 @@||summitracing.com/global/images/bannerads/
 @@||sundaysportclassifieds.com/ads/$image,~third-party
