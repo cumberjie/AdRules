@@ -1,6 +1,6 @@
 ! Title: Allowlist
-! Version: 2024-08-18 06:11:02（北京时间） 
-! Total count: 2673
+! Version: 2024-08-18 18:13:03（北京时间） 
+! Total count: 2674
 @@$generichide,domain=vidoza.co|vidoza.net
 @@-ds.metric.gstatic.com^|
 @@-social-bar.$domain=mobi.yahoo.com
@@ -495,6 +495,7 @@
 @@||api-v*.trbo.com^|
 @@||api-v4.trbo.com/r.php?$script,domain=blau.de
 @@||api.adinplay.com/libs/aiptag/assets/adsbygoogle.js$domain=bigescapegames.com|brofist.io|findcat.io|geotastic.net|lordz.io
+@@||api.adinplay.com/libs/aiptag/pub/$domain=geotastic.net
 @@||api.adnetmedia.lt/api/$~third-party
 @@||api.ads.tvb.com^
 @@||api.aliagents.ai/api/v1/activity$~third-party,xmlhttprequest
