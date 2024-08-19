@@ -1,6 +1,6 @@
 ! Title: Allowlist
-! Version: 2024-08-19 06:12:10（北京时间） 
-! Total count: 2674
+! Version: 2024-08-19 18:15:17（北京时间） 
+! Total count: 2676
 @@$generichide,domain=vidoza.co|vidoza.net
 @@-ds.metric.gstatic.com^|
 @@-social-bar.$domain=mobi.yahoo.com
@@ -665,6 +665,7 @@
 @@||briian.com/advert.
 @@||britannica.com/mendel-resources/3-52/js/libs/prebid4.$script,~third-party
 @@||brm-core-*.brsrvr.com^|
+@@||browser-intake-datadoghq.com^$domain=pluto.tv
 @@||browser.cloud.ucweb.com^
 @@||browser.sentry-cdn.com^$domain=acustica-audio.com|dic.pixiv.net|doconcall.com.my|eco-clobber.co.uk|fundhero.io|marshmallow-qa.com|menshealth.com|ocado.com|podcasty.seznam.cz|roomster.com|shop.dns-net.de|spacemarket.com|timesprime.com|vivareal.com.br|womenshealthmag.com
 @@||browserbench.org^$generichide
@@ -2481,6 +2482,7 @@
 @@||union.video.qq.com/fcgi-bin/$script,domain=qq.com
 @@||union.video.qq.com/fcgi-bin/data?$script
 @@||union2.50bang.org^$third-party
+@@||unpkg.com/@adobe/magento-storefront-event-collector@$domain=osprey.com
 @@||unpkg.com/web-vitals/dist/web-vitals.base.iife.js$script,domain=wpolityce.pl
 @@||unpkg.com^$script,domain=vidsrc.stream
 @@||up-load.io^$generichide
