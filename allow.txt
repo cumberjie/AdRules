@@ -1,5 +1,5 @@
 ! Title: Allowlist
-! Version: 2024-08-22 18:14:04（北京时间） 
+! Version: 2024-08-23 06:12:44（北京时间） 
 ! Total count: 2676
 @@$generichide,domain=vidoza.co|vidoza.net
 @@-ds.metric.gstatic.com^|
@@ -2587,7 +2587,7 @@
 @@||wsj.net/iweb/static_html_files/cxense-candy.js$script,domain=marketwatch.com
 @@||wuyong.fun^$generichide
 @@||wuyou.com.cn/Js/ad.js
-@@||wwads.cn/js/makemoney.js$domain=nodejs.cn
+@@||wwads.cn/js/makemoney.js$domain=baomidou.com|nodejs.cn
 @@||www.avtbf.com/*.css$domain=avtbf.com
 @@||www.bilibili.com/html/iframemessage.html
 @@||www.google.*/adsense/$~third-party,domain=google.cn
