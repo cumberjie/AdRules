@@ -1,6 +1,6 @@
 ! Title: Allowlist
-! Version: 2024-08-23 06:12:44（北京时间） 
-! Total count: 2676
+! Version: 2024-08-23 18:13:34（北京时间） 
+! Total count: 2677
 @@$generichide,domain=vidoza.co|vidoza.net
 @@-ds.metric.gstatic.com^|
 @@-social-bar.$domain=mobi.yahoo.com
@@ -1108,6 +1108,7 @@
 @@||fichub.com/plugins/adobe/lib/VisitorAPI.js$domain=natgeotv.com
 @@||figma.com^$generichide
 @@||files.slack.com^$image,~third-party
+@@||filme.imyfone.com/assets/js/gatrack.js$~third-party
 @@||fingerprintjs.com^$generichide
 @@||firebase.google.com/docs/analytics/$~third-party
 @@||firefox.com.cn/media/img/mozcn/spread/468-60-
