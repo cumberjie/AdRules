@@ -1,6 +1,6 @@
 ! Title: Allowlist
-! Version: 2024-09-13 18:14:04（北京时间） 
-! Total count: 2681
+! Version: 2024-09-14 06:13:17（北京时间） 
+! Total count: 2682
 @@$generichide,domain=vidoza.co|vidoza.net
 @@-ds.metric.gstatic.com^|
 @@-social-bar.$domain=mobi.yahoo.com
@@ -2080,6 +2080,7 @@
 @@||renfei.net^$generichide
 @@||repubblica.it/pw/pw.js?deskurl=$domain=gelocal.it|ilsecoloxix.it|lastampa.it
 @@||res-x.com^*/Resonance.aspx?
+@@||res.ads.nicovideo.jp^|
 @@||res.yyets.com/ads/mediav-250.js
 @@||researchintel.com^*/feedback.asp$xmlhttprequest,domain=intel.com
 @@||responder.wt-safetag.com/resp/api/get/$script,domain=myhermes.de
