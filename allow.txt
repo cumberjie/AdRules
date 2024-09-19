@@ -1,6 +1,6 @@
 ! Title: Allowlist
-! Version: 2024-09-19 06:12:56（北京时间） 
-! Total count: 2682
+! Version: 2024-09-19 18:14:31（北京时间） 
+! Total count: 2683
 @@$generichide,domain=vidoza.co|vidoza.net
 @@-ds.metric.gstatic.com^|
 @@-social-bar.$domain=mobi.yahoo.com
@@ -1172,6 +1172,7 @@
 @@||games.pch.com^$generichide
 @@||ganji.com/findjob/send_resume.*&ad_type=
 @@||ganma.jp/view/magazine/viewer/pages/advertisement/googleAdSense.html|$~third-party,xmlhttprequest
+@@||ganyancanavari.com/js/fingerprint2.min.js$~third-party
 @@||gate.first-id.fr^|
 @@||gaus.ee^$generichide
 @@||gaybeeg.info^$generichide
