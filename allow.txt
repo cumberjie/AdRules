@@ -1,6 +1,6 @@
 ! Title: Allowlist
-! Version: 2024-09-20 18:14:34（北京时间） 
-! Total count: 2683
+! Version: 2024-09-21 06:13:55（北京时间） 
+! Total count: 2684
 @@$generichide,domain=vidoza.co|vidoza.net
 @@-ds.metric.gstatic.com^|
 @@-social-bar.$domain=mobi.yahoo.com
@@ -394,8 +394,8 @@
 @@||ads.vk.com^$popup
 @@||ads.x.com^$popup
 @@||ads3.xumo.com^$domain=2vnews.com|redbox.com
-@@||adsafeprotected.com/iasPET.$script,domain=independent.co.uk|reuters.com
-@@||adsafeprotected.com/vans-adapter-google-ima.js$script,domain=gamingbible.co.uk|ladbible.com|reuters.com
+@@||adsafeprotected.com/iasPET.$script,domain=independent.co.uk|reuters.com|wjs.com
+@@||adsafeprotected.com/vans-adapter-google-ima.js$script,domain=gamingbible.co.uk|ladbible.com|reuters.com|wjs.com
 @@||adsales.snidigital.com/*/ads-config.min.js$script
 @@||adsense.woso.cn^$~third-party
 @@||adserver.juicyads.com/js/jads.js$domain=netflav.com
@@ -1451,6 +1451,7 @@
 @@||jandan.net^$generichide
 @@||jav777.cc/advertise/
 @@||jav777.xyz/advertise/
+@@||javedit.com/d/js/acmsd/thea0.
 @@||jbprogramnotes.com^$generichide
 @@||jd.com/adclick?$popup,~third-party
 @@||jd.com/adclick?$~third-party
