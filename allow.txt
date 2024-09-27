@@ -1,6 +1,6 @@
 ! Title: Allowlist
-! Version: 2024-09-27 18:14:51（北京时间） 
-! Total count: 2684
+! Version: 2024-09-28 06:12:58（北京时间） 
+! Total count: 2685
 @@$generichide,domain=vidoza.co|vidoza.net
 @@-ds.metric.gstatic.com^|
 @@-social-bar.$domain=mobi.yahoo.com
@@ -2554,6 +2554,7 @@
 @@||wavepc.pl/wp-content/*-500x100.png$image,~third-party
 @@||wavse.com^$generichide
 @@||web-ads.pulse.weatherbug.net/api/ads/targeting/$domain=weatherbug.com
+@@||web-sdk.urbanairship.com/notify/$script,domain=etoro.com
 @@||web.basemark.com^$generichide
 @@||web.dev/patterns/web-vitals-$~third-party
 @@||web.telegram.org^$generichide
