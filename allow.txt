@@ -1,6 +1,6 @@
 ! Title: Allowlist
-! Version: 2024-09-28 18:12:48（北京时间） 
-! Total count: 2685
+! Version: 2024-09-29 06:12:24（北京时间） 
+! Total count: 2686
 @@$generichide,domain=vidoza.co|vidoza.net
 @@-ds.metric.gstatic.com^|
 @@-social-bar.$domain=mobi.yahoo.com
@@ -1237,6 +1237,7 @@
 @@||google-analytics.com/ga.js$domain=meritonsuites.com.au|realpage.com
 @@||google-analytics.com/gtm/js?$script,domain=unicef.de
 @@||google-analytics.com/gtm/optimize.js$domain=focus.de
+@@||google-analytics.com/mp/collect?$domain=startse.com
 @@||google-analytics.com/plugins/ua/ec.js$domain=lenovo.com.cn
 @@||google-analytics.com/plugins/ua/ec.js$domain=saturn.at|teddyfood.com|xxl.se
 @@||google-analytics.com/plugins/ua/linkid.js$domain=support.amd.com
@@ -1480,7 +1481,7 @@
 @@||js.appboycdn.com/web-sdk/$domain=kfc.co.jp
 @@||js.assemblyexchange.com/videojs-skip-$domain=worldstar.com
 @@||js.assemblyexchange.com/wana.$domain=worldstar.com
-@@||js.datadome.co/tags.js$script,domain=sso.garena.com|thefork.com
+@@||js.datadome.co/tags.js$script,domain=monster.ca|sso.garena.com|thefork.com
 @@||js.monitor.azure.com/scripts/$script,domain=genya.it|microsoft.com|rubex.efilecabinet.net
 @@||js.monitor.azure.com^|
 @@||js.sentry-cdn.com^$script,domain=app.homebinder.com|book.dmm.com|etsy.com|interacty.me|jobs.ch|pizzahut.com.au
