@@ -1,6 +1,6 @@
 ! Title: Allowlist
-! Version: 2024-09-29 06:12:24（北京时间） 
-! Total count: 2686
+! Version: 2024-09-29 18:12:58（北京时间） 
+! Total count: 2687
 @@$generichide,domain=vidoza.co|vidoza.net
 @@-ds.metric.gstatic.com^|
 @@-social-bar.$domain=mobi.yahoo.com
@@ -1148,6 +1148,7 @@
 @@||g.doubleclick.net/gampad/ads$xmlhttprequest,domain=bloomberg.com|chromatographyonline.com|formularywatch.com|journaldequebec.com|managedhealthcareexecutive.com|medicaleconomics.com|physicianspractice.com
 @@||g.doubleclick.net/gampad/ads*%20Web%20Player$domain=imasdk.googleapis.com
 @@||g.doubleclick.net/gampad/ads?$domain=edy.rakuten.co.jp|tv-tokyo.co.jp|voici.fr
+@@||g.doubleclick.net/gampad/ads?*%2Ftver.$xmlhttprequest,domain=imasdk.googleapis.com
 @@||g.doubleclick.net/gampad/ads?*&prev_scp=kw%3Diqdspiegel%2Cdigtransform%2Ciqadtile4%2$xmlhttprequest,domain=spiegel.de
 @@||g.doubleclick.net/gampad/ads?*.crunchyroll.com$xmlhttprequest,domain=imasdk.googleapis.com
 @@||g.doubleclick.net/gampad/ads?*RakutenShowtime$xmlhttprequest,domain=imasdk.googleapis.com
@@ -2089,7 +2090,7 @@
 @@||responder.wt-safetag.com/resp/api/get/$script,domain=myhermes.de
 @@||rest.edit.site/geoip-service/geoip$domain=systemshouse.com
 @@||retailmenot.com/__wsm.gif$ping,~third-party,xmlhttprequest
-@@||rfksrv.com/rfk/js/*/init.js$script,domain=riteaid.com
+@@||rfksrv.com/rfk/js/*/init.js$script,domain=riteaid.com|spirithalloween.com
 @@||right.com.cn/forum/*300*250$image
 @@||rltdxt.com/files/h5/app.js
 @@||rmdown.com/ads.js
