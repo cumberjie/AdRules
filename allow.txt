@@ -1,6 +1,6 @@
 ! Title: Allowlist
-! Version: 2024-10-03 06:14:00（北京时间） 
-! Total count: 2687
+! Version: 2024-10-04 06:13:34（北京时间） 
+! Total count: 2688
 @@$generichide,domain=vidoza.co|vidoza.net
 @@-ds.metric.gstatic.com^|
 @@-social-bar.$domain=mobi.yahoo.com
@@ -1504,6 +1504,7 @@
 @@||jwpcdn.com/player/plugins/googima/*/googima.js$domain=viu.tv
 @@||k-img.com/script/analytics/s_code.js$script,domain=kakaku.com
 @@||k12-company.ru^*/statistics.js$script
+@@||kabumap.com/servlets/kabumap/html/common/img/ad/$~third-party
 @@||kaitao.cn/public/wenda/ad/css/ds-un-detail.css
 @@||kaixin001.com/ad/
 @@||kameleoon.eu/images/$domain=welt.de
