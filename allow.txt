@@ -1,6 +1,6 @@
 ! Title: Allowlist
-! Version: 2024-10-04 06:13:34（北京时间） 
-! Total count: 2688
+! Version: 2024-10-04 18:15:09（北京时间） 
+! Total count: 2691
 @@$generichide,domain=vidoza.co|vidoza.net
 @@-ds.metric.gstatic.com^|
 @@-social-bar.$domain=mobi.yahoo.com
@@ -508,6 +508,7 @@
 @@||api.friends.ponta.jp/api/$~third-party
 @@||api.ipinfodb.com^$xmlhttprequest,domain=management30.com
 @@||api.karte.io^|
+@@||api.omappapi.com/v3/geolocate/json$domain=seclore.com
 @@||api.perfops.net^$script,xmlhttprequest,domain=cdnperf.com|dnsperf.com
 @@||api.touchnote.io^$xmlhttprequest,domain=app.touchnote.com
 @@||api.tv.sohu.com/mobile_user/device^$app=com.sohu.sohuvideo
@@ -774,6 +775,7 @@
 @@||chartbeat.com/js/chartbeat_brightcove_plugin.js$domain=capital.it|deejay.it|m2o.it
 @@||chasecdn.com/web/*/eventtracker.js$domain=chase.com
 @@||chat.d-id.com/assets/mixpanel.$~third-party
+@@||chatgpt.com^$generichide
 @@||chaturbate.com/in/$subdocument,domain=cam-sex.net
 @@||check.ddos-guard.net/check.js$script
 @@||cheshi-img.com/ad/csad_2019.js
@@ -1624,6 +1626,7 @@
 @@||luoo.net/ad/
 @@||luoxiadushu.com^$generichide
 @@||lwadm.com/lw/pbjs?pid=$script,domain=sydostran.se
+@@||m1tm.insideevs.com/gtm.js$~third-party
 @@||ma135-r.analytics.edgekey.net^|
 @@||mabanque.fortuneo.fr/js/front/fingerprint2.js$script,domain=mabanque.fortuneo.fr
 @@||macauo2o.com/advertise/
@@ -1721,6 +1724,7 @@
 @@||monnsutogatya.com^$elemhide
 @@||mopar.com/moparsvc/mopar-analytics-state$~third-party
 @@||morosedog.gitlab.io^$generichide
+@@||morphic.sh^$generichide
 @@||motika.com.mk/wp-content/plugins/ajax-hits-counter/display-hits.rapid.php$~third-party
 @@||motortrader.com.my/advert/$image,~third-party
 @@||moviesunusa.net^$generichide
@@ -1842,7 +1846,6 @@
 @@||online.unionpay.com/ads/$script
 @@||onlinebanking.usbank.com/TUX/public/libs/adobe/appmeasurement.js$script,~third-party
 @@||open.spotify.com^$generichide
-@@||openai.com^$generichide
 @@||openapi.youku.com/router^$app=com.huawei.hwvplayer.youku
 @@||openfpcdn.io/fingerprintjs/v3/iife.min.js$script,domain=mos03education.ru
 @@||optimatic.com/iframe.html$subdocument,domain=pch.com
