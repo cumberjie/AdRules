@@ -1,6 +1,6 @@
 ! Title: Allowlist
-! Version: 2024-10-07 18:16:06（北京时间） 
-! Total count: 2690
+! Version: 2024-10-08 06:12:56（北京时间） 
+! Total count: 2691
 @@$generichide,domain=vidoza.co|vidoza.net
 @@-ds.metric.gstatic.com^|
 @@-social-bar.$domain=mobi.yahoo.com
@@ -1092,6 +1092,7 @@
 @@||f-gear.ec-optimizer.com/img/spacer.gif$image,domain=ec.f-gear.co.jp
 @@||f-gear.ec-optimizer.com/search4.do$script,domain=ec.f-gear.co.jp
 @@||f-gear.ec-optimizer.com/speights/searchresult2fgear.js$script,domain=ec.f-gear.co.jp
+@@||f-gear.ec-optimizer.com^|
 @@||f11.baidu.com/it^
 @@||facebook.com/ads/profile/$~third-party,xmlhttprequest
 @@||facebook.com^$generichide
