@@ -1,6 +1,6 @@
 ! Title: Allowlist
-! Version: 2024-10-09 18:15:05（北京时间） 
-! Total count: 2691
+! Version: 2024-10-10 06:13:26（北京时间） 
+! Total count: 2692
 @@$generichide,domain=vidoza.co|vidoza.net
 @@-ds.metric.gstatic.com^|
 @@-social-bar.$domain=mobi.yahoo.com
@@ -1984,6 +1984,7 @@
 @@||promo.zendesk.com^$xmlhttprequest,domain=promo.com
 @@||proto2ad.durasite.net^|
 @@||proton.me^$generichide
+@@||pruefernavi.de/vendor/elasticsearch/elastic-apm-rum.umd.min.js$~third-party
 @@||przegladpiaseczynski.pl/wp-content/plugins/wppas/$~third-party
 @@||przegladpiaseczynski.pl/wp-content/uploads/*-300x250-$image,~third-party
 @@||ps.w.org/wp-slimstat/$domain=wordpress.org
