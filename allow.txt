@@ -1,6 +1,6 @@
 ! Title: Allowlist
-! Version: 2024-10-12 06:12:29（北京时间） 
-! Total count: 2695
+! Version: 2024-10-12 18:13:03（北京时间） 
+! Total count: 2696
 @@$generichide,domain=vidoza.co|vidoza.net
 @@-ds.metric.gstatic.com^|
 @@-social-bar.$domain=mobi.yahoo.com
@@ -1549,6 +1549,7 @@
 @@||lacoste.com^*/click-analytics.js$~third-party
 @@||ladsp.com/script-sf/$script,domain=str.toyokeizai.net
 @@||lager.com.tw/images/layer6_adbanner/
+@@||lamycosphere.com/cdn/shop/*/assets/pixel.gif$image,~third-party
 @@||lancdn.com/landian/public/js/ads.js
 @@||landtop.com.tw/images/ad/
 @@||languagecloud.sdl.com/node_modules/fingerprintjs2/dist/fingerprint2.min.js$~third-party
