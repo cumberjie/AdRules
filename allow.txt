@@ -1,6 +1,6 @@
 ! Title: Allowlist
-! Version: 2024-10-14 18:15:24（北京时间） 
-! Total count: 2697
+! Version: 2024-10-15 06:14:37（北京时间） 
+! Total count: 2698
 @@$generichide,domain=vidoza.co|vidoza.net
 @@-ds.metric.gstatic.com^|
 @@-social-bar.$domain=mobi.yahoo.com
@@ -1120,6 +1120,7 @@
 @@||firebase.google.com/docs/analytics/$~third-party
 @@||firefox.com.cn/media/img/mozcn/spread/468-60-
 @@||fltaradio.com/js/ads.js
+@@||fluidplayer.com^$script,domain=rule34hentai.net
 @@||fluidplayer.com^$script,stylesheet,domain=canyoublockit.com
 @@||flyert.com/plug/socialShare/js/social-share.
 @@||flying-lines.com/banners/$image,~third-party
