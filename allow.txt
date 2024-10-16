@@ -1,6 +1,6 @@
 ! Title: Allowlist
-! Version: 2024-10-16 06:13:11（北京时间） 
-! Total count: 2698
+! Version: 2024-10-16 18:14:35（北京时间） 
+! Total count: 2699
 @@$generichide,domain=vidoza.co|vidoza.net
 @@-ds.metric.gstatic.com^|
 @@-social-bar.$domain=mobi.yahoo.com
@@ -1398,6 +1398,7 @@
 @@||ifeng.com^*?new=*?new=$domain=i.ifeng.com
 @@||ifengimg.com/a/201*Player
 @@||ifengimg.com/pdt/cfg/mudu/aplayer.xml$domain=v.ifeng.com
+@@||ignitetv.rogers.com/js/api/fingerprint.js$script,~third-party
 @@||ignitetv.shaw.ca/js/api/fingerprint.js$~third-party
 @@||iis1.deliver.ifeng.com/showcode?$domain=v.ifeng.com
 @@||ik123.com/js/a.js
