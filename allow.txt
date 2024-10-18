@@ -1,6 +1,6 @@
 ! Title: Allowlist
-! Version: 2024-10-18 06:13:13（北京时间） 
-! Total count: 2699
+! Version: 2024-10-18 18:15:52（北京时间） 
+! Total count: 2700
 @@$generichide,domain=vidoza.co|vidoza.net
 @@-ds.metric.gstatic.com^|
 @@-social-bar.$domain=mobi.yahoo.com
@@ -670,6 +670,7 @@
 @@||brm-core-*.brsrvr.com^|
 @@||browser-intake-datadoghq.com^$domain=pluto.tv
 @@||browser.cloud.ucweb.com^
+@@||browser.covatic.io/sdk/v1/bauer.js$script,domain=hellorayo.co.uk
 @@||browser.sentry-cdn.com^$domain=acustica-audio.com|dic.pixiv.net|doconcall.com.my|eco-clobber.co.uk|fundhero.io|marshmallow-qa.com|menshealth.com|ocado.com|podcasty.seznam.cz|roomster.com|shop.dns-net.de|spacemarket.com|timesprime.com|vivareal.com.br|womenshealthmag.com
 @@||browserbench.org^$generichide
 @@||btsax.info^$generichide
