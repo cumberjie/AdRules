@@ -1,6 +1,6 @@
 ! Title: Allowlist
-! Version: 2024-10-18 18:15:52（北京时间） 
-! Total count: 2700
+! Version: 2024-10-19 06:12:27（北京时间） 
+! Total count: 2701
 @@$generichide,domain=vidoza.co|vidoza.net
 @@-ds.metric.gstatic.com^|
 @@-social-bar.$domain=mobi.yahoo.com
@@ -284,6 +284,7 @@
 @@||acgbenzi.com//dist/images/top.png
 @@||acgdraw.com/ad$xmlhttprequest
 @@||acgvideo.com/*/ad/$xmlhttprequest,object-subrequest,domain=bilibili.com
+@@||acs-m.daraz.com.bd^|
 @@||actiris.be/urchin.js
 @@||ad-api-v01.uliza.jp^$script,xmlhttprequest,domain=golfnetwork.co.jp|tv-asahi.co.jp
 @@||ad-gone.com^
