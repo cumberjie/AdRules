@@ -1,6 +1,6 @@
 ! Title: Allowlist
-! Version: 2024-10-20 06:13:09（北京时间） 
-! Total count: 2701
+! Version: 2024-10-20 18:13:59（北京时间） 
+! Total count: 2702
 @@$generichide,domain=vidoza.co|vidoza.net
 @@-ds.metric.gstatic.com^|
 @@-social-bar.$domain=mobi.yahoo.com
@@ -2385,6 +2385,7 @@
 @@||th7.cn/sanda2015/css/ads.js
 @@||thaiairways.com/static/common/js/wt_js/webtrends.min.js$~third-party
 @@||thdstatic.com/experiences/local-ad/$domain=homedepot.com
+@@||thedailybeast.com/pf/resources/js/ads/arcads.js$~third-party
 @@||thefreedictionary.com^$generichide
 @@||thegay.com/assets//jwplayer-*/jwplayer.core.controls.html5.js|$domain=thegay.com
 @@||thegay.com/assets//jwplayer-*/jwplayer.core.controls.js|$domain=thegay.com
