@@ -1,6 +1,6 @@
 ! Title: Allowlist
-! Version: 2024-10-24 18:14:55（北京时间） 
-! Total count: 2704
+! Version: 2024-10-25 06:12:57（北京时间） 
+! Total count: 2705
 @@$generichide,domain=vidoza.co|vidoza.net
 @@-ds.metric.gstatic.com^|
 @@-social-bar.$domain=mobi.yahoo.com
@@ -361,6 +361,7 @@
 @@||ads.adthrive.com/builds/core/*/prebid.min.js$domain=mediaite.com
 @@||ads.adthrive.com/sites/$script,domain=adamtheautomator.com|mediaite.com|packhacker.com|packinsider.com
 @@||ads.alafish.cn^$~third-party
+@@||ads.atmosphere.copernicus.eu^$popup
 @@||ads.cdn.tvb.com^*.key
 @@||ads.doordash.com^$popup
 @@||ads.elevateplatform.co.uk^$popup
