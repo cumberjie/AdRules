@@ -1,6 +1,6 @@
 ! Title: Allowlist
-! Version: 2024-11-01 06:13:06（北京时间） 
-! Total count: 2705
+! Version: 2024-11-01 18:15:48（北京时间） 
+! Total count: 2707
 @@$generichide,domain=vidoza.co|vidoza.net
 @@-ds.metric.gstatic.com^|
 @@-social-bar.$domain=mobi.yahoo.com
@@ -1858,6 +1858,7 @@
 @@||onlinebanking.usbank.com/TUX/public/libs/adobe/appmeasurement.js$script,~third-party
 @@||open.spotify.com^$generichide
 @@||openapi.youku.com/router^$app=com.huawei.hwvplayer.youku
+@@||openfpcdn.io/botd/v1$script,domain=collinsdictionary.com
 @@||openfpcdn.io/fingerprintjs/v3/iife.min.js$script,domain=mos03education.ru
 @@||optimatic.com/iframe.html$subdocument,domain=pch.com
 @@||optimatic.com/redux/optiplayer-$domain=pch.com
@@ -2381,6 +2382,7 @@
 @@||tennispro.eu/min/?$script,~third-party
 @@||tenpay.com/v2/res/pub/cps/main/bottom_ad.js
 @@||tenpay.com^*?ADTAG=
+@@||testufo.com^$generichide
 @@||tf.360.cn/e/wb?
 @@||tgfcer.com/advert.js
 @@||th-sjy.com^$generichide
