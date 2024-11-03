@@ -1,6 +1,6 @@
 ! Title: Allowlist
-! Version: 2024-11-03 06:13:03（北京时间） 
-! Total count: 2707
+! Version: 2024-11-03 18:15:40（北京时间） 
+! Total count: 2706
 @@$generichide,domain=vidoza.co|vidoza.net
 @@-ds.metric.gstatic.com^|
 @@-social-bar.$domain=mobi.yahoo.com
@@ -2430,7 +2430,6 @@
 @@||tmall.com/go/*/banner.php
 @@||tms.capitalone.com^|
 @@||tms.oracle.com/main/prod/utag.sync.js$~third-party
-@@||tmx.bestbuy.com/z3nsvo31pnlmt3tw.js$domain=bestbuy.com
 @@||tntdrama.com/modules/custom/ten_video/js/analytics_v2.js$~third-party
 @@||toggo.de/static/js/sourcepoint.js$domain=toggo.de
 @@||tokbox.com/prod/logging/ClientEvent$domain=examroom.ai
