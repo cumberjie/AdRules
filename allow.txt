@@ -1,6 +1,6 @@
 ! Title: Allowlist
-! Version: 2024-11-11 18:15:15（北京时间） 
-! Total count: 2708
+! Version: 2024-11-12 06:12:49（北京时间） 
+! Total count: 2706
 @@$generichide,domain=vidoza.co|vidoza.net
 @@-ds.metric.gstatic.com^|
 @@-social-bar.$domain=mobi.yahoo.com
@@ -830,7 +830,6 @@
 @@||cloudflare.com/ajax/libs/fingerprintjs2/$domain=extracttable.com|fckrasnodar.ru|login.kroton.com.br
 @@||cloudflare.com/ajax/libs/fuckadblock/$domain=seselah.com
 @@||cloudflare.com/cdn-cgi/trace$domain=infyspringboard.onwingspan.com|injora.com|kiichin.com|myair.resmed.com|twgtea.com
-@@||cloudflare.com^$script,domain=happymh.com
 @@||cloudflare.com^$script,domain=rule34hentai.net
 @@||cloudflare.com^$script,stylesheet,domain=canyoublockit.com
 @@||cloudflare.com^*/videojs-contrib-ads.js$domain=wtk.pl
@@ -2514,7 +2513,6 @@
 @@||union2.50bang.org^$third-party
 @@||unpkg.com/@adobe/magento-storefront-event-collector@$domain=osprey.com
 @@||unpkg.com/web-vitals/dist/web-vitals.base.iife.js$script,domain=wpolityce.pl
-@@||unpkg.com^$script,domain=happymh.com
 @@||unpkg.com^$script,domain=vidsrc.stream
 @@||up-load.io^$generichide
 @@||up4ever.download^$domain=up-4ever.net
