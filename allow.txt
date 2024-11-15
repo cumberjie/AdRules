@@ -1,6 +1,6 @@
 ! Title: Allowlist
-! Version: 2024-11-15 06:13:27（北京时间） 
-! Total count: 2708
+! Version: 2024-11-15 18:15:41（北京时间） 
+! Total count: 2709
 @@$generichide,domain=vidoza.co|vidoza.net
 @@-ds.metric.gstatic.com^|
 @@-social-bar.$domain=mobi.yahoo.com
@@ -2703,6 +2703,7 @@
 @@||zbj.com^
 @@||zeebiz.com/ads/$image,~third-party
 @@||zhaiyd5.com^$script,domain=louzhong8.com|miwens.com
+@@||zillow.com/rental-manager/proxy/rental-manager-api/api/v1/users/freemium/analytics/pageViews$~third-party
 @@||zinro.net/m/log.php
 @@||zjjcxy.cn^*/ad.css?$stylesheet
 @@||zohopublic.com^*/ADManager_$subdocument,xmlhttprequest,domain=manageengine.com|zohopublic.com
