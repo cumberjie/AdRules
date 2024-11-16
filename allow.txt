@@ -1,6 +1,6 @@
 ! Title: Allowlist
-! Version: 2024-11-16 06:14:12（北京时间） 
-! Total count: 2709
+! Version: 2024-11-16 18:13:42（北京时间） 
+! Total count: 2710
 @@$generichide,domain=vidoza.co|vidoza.net
 @@-ds.metric.gstatic.com^|
 @@-social-bar.$domain=mobi.yahoo.com
@@ -1664,6 +1664,7 @@
 @@||masterkong.com.cn/adimages/
 @@||material.angular.io^$generichide
 @@||material.io^$generichide
+@@||matlab.mathworks.com^$generichide
 @@||matomo.miraheze.org/matomo.js$script,~third-party
 @@||max.com^$generichide
 @@||maxcdn.bootstrapcdn.com^$stylesheet,domain=up-4ever.net
