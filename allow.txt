@@ -1,5 +1,5 @@
 ! Title: Allowlist
-! Version: 2024-11-16 18:13:42（北京时间） 
+! Version: 2024-11-17 06:12:34（北京时间） 
 ! Total count: 2710
 @@$generichide,domain=vidoza.co|vidoza.net
 @@-ds.metric.gstatic.com^|
@@ -588,7 +588,6 @@
 @@||az.hpcn.transer-cn.com/content/dam/isetan_mitsukoshi/advertise/$~third-party
 @@||azureedge.net/prod/smi/loader-config.json$domain=pressdemocrat.com
 @@||b-cloud.templatebank.com/js/gtag.js$~third-party
-@@||b.karte.io/event$domain=online.ysroad.co.jp
 @@||bagehd.com/iplookup.
 @@||baidu-taobao-av.com/js/home.js
 @@||baidu-taobao-av.com/js/jquery.
@@ -1530,7 +1529,7 @@
 @@||kameleoon.io/ip^$domain=welt.de
 @@||kanalfrederikshavn.dk^*/jquery.openx.js?
 @@||kaptcha.com/collect/sdk?$domain=palmettostatearmory.com|wyze.com
-@@||karte.io/libs/tracker.$domain=zf1.tohoku-epco.co.jp|zozo.jp
+@@||karte.io/libs/tracker.$domain=online.ysroad.co.jp|zf1.tohoku-epco.co.jp|zozo.jp
 @@||kataweb.it/wt/wt.js?http$domain=gelocal.it|video.huffingtonpost.it|video.ilsecoloxix.it|video.lastampa.it|video.repubblica.it
 @@||kaxsdc.com/collect/sdk$xmlhttprequest,domain=vanillaereward.com
 @@||kayixin.com^*/advert
@@ -2307,6 +2306,7 @@
 @@||static.vrv.co^$media,domain=crunchyroll.com
 @@||statics.zcool.com.cn/track/sensors.$script,~third-party
 @@||stats.g.doubleclick.net/dc.js$script,domain=chintaistyle.jp|gyutoro.com
+@@||stats.gleague.nba.com/templates/angular/tables/events/shots.html$~third-party
 @@||stats.pusher.com/timeline/$script,domain=bringatrailer.com
 @@||stats.sports.bellmedia.ca^$domain=rds.ca|tsn.ca
 @@||stats.statbroadcast.com/interface/webservice/event/$~third-party
