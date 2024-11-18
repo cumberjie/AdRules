@@ -1,6 +1,6 @@
 ! Title: Allowlist
-! Version: 2024-11-18 18:16:27（北京时间） 
-! Total count: 2710
+! Version: 2024-11-19 06:13:51（北京时间） 
+! Total count: 2713
 @@$generichide,domain=vidoza.co|vidoza.net
 @@-ds.metric.gstatic.com^|
 @@-social-bar.$domain=mobi.yahoo.com
@@ -286,6 +286,7 @@
 @@||acgdraw.com/ad$xmlhttprequest
 @@||acgvideo.com/*/ad/$xmlhttprequest,object-subrequest,domain=bilibili.com
 @@||acs-m.daraz.com.bd^|
+@@||action.metaffiliation.com^|
 @@||actiris.be/urchin.js
 @@||ad-api-v01.uliza.jp^$script,xmlhttprequest,domain=golfnetwork.co.jp|tv-asahi.co.jp
 @@||ad-gone.com^
@@ -1883,6 +1884,7 @@
 @@||pagead2.googlesyndication.com/pagead/js/*/show_ads_impl.js$domain=doitwell.tw
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=23qb.net|4spaces.org|aboluowang.com|assbbs.com|bilinovel.com|chaojizhibo.net|chtoen.com|daxiaamu.com|demo.ama.pub|dizhishengcheng.com|doitwell.tw|ekamus.info|eu4cn.com|ff14angler.com|freedidi.com|fsbot.xyz|haoweichi.com|it365.abctool.info|linovelib.com|logi.im|mens1069.com|monnsutogatya.com|mpyit.com|myqqjd.com|numberempire.com|ozabc.com|pansearch.me|patch.ali213.net|pc3mag.com|reh.tw|shenfendaquan.com|sistersbedroom.com|sto520.com|vaptcha.com|wandhi.com|wenxuecity.com|wuyong.fun|xbeibeix.com|xiebruce.top|xugaoxiang.com|xxxxx520.com|yodu.org|yummy.best|zaixianjisuan.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=allb.game-db.tw|battlecats-db.com|cpu-world.com|game.anymanager.io|games.wkb.jp|html5.gamedistribution.com|knowfacts.info|lacoste.com|megagames.com|megaleech.us|newson.us|real-sports.jp|slideplayer.com|sudokugame.org|tampermonkey.net|teemo.gg|thefreedictionary.com
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=uiadmin.net
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,domain=duelmeta.com|linetv.tw|liout.com|moneysave.info|raenonx.cc|zxmee.com
 @@||pagead2.googlesyndication.com/pagead/js/google_top_exp.js$domain=ebb.io
 @@||pagead2.googlesyndication.com/pagead/managed/js/*/show_ads_impl$script,domain=battlecats-db.com|game.anymanager.io|games.wkb.jp|sudokugame.org
@@ -2506,6 +2508,7 @@
 @@||udnplay.com/js/momo/adsbygoogle.js
 @@||udp2p.com^$generichide
 @@||ui.ads.microsoft.com^$~third-party
+@@||uiadmin.net^$generichide
 @@||uim.tifbs.net/js/$script,domain=web.de
 @@||ujinbi.com/UpLoadFile/guanggao/
 @@||ukbride.co.uk/css/*/adverts.css
