@@ -1,6 +1,6 @@
 ! Title: Allowlist
-! Version: 2024-12-04 06:14:16（北京时间） 
-! Total count: 2713
+! Version: 2024-12-04 18:16:23（北京时间） 
+! Total count: 2714
 @@$generichide,domain=vidoza.co|vidoza.net
 @@-ds.metric.gstatic.com^|
 @@-social-bar.$domain=mobi.yahoo.com
@@ -574,6 +574,7 @@
 @@||att.com/ui/services_co_myatt_common/$script,~third-party
 @@||att.tv^*/VisitorAPI.js$script,~third-party
 @@||atwiki.jp/common/_img/spacer.gif?$image,domain=atwiki.jp
+@@||audience.io/api/v3/app/fetchPromo/$domain=campaign.aptivada.com
 @@||ausha.tsbluebox.com^$media,domain=podcast.ausha.co
 @@||auth2.picpay.com^*/event-tracking.js$script,~third-party
 @@||autocomplete.clearbit.com^$xmlhttprequest
