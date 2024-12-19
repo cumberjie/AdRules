@@ -1,5 +1,5 @@
 ! Title: Allowlist
-! Version: 2024-12-19 18:15:34（北京时间） 
+! Version: 2024-12-20 06:12:57（北京时间） 
 ! Total count: 2712
 @@$generichide,domain=vidoza.co|vidoza.net
 @@-ds.metric.gstatic.com^|
@@ -692,6 +692,7 @@
 @@||bytecdntp.com^$script,domain=51eshu.com
 @@||bytedance.com/ttwid/union/register/
 @@||bytegoofy.com/ad/$domain=jinritemai.com
+@@||c-web.cedyna.co.jp/customer/img/spacer.gif?$~third-party
 @@||c.ad6media.fr/l.js$domain=scan-manga.com
 @@||c.data.mob.com^$app=com.sinovatech.unicom.ui
 @@||c.lytics.io/api/tag/$script,domain=time.com
@@ -1085,7 +1086,6 @@
 @@||etsy.com/api/v3/ajax/bespoke/*log_performance_metrics=$~third-party
 @@||ettoday.net^$generichide
 @@||eu4cn.com^$generichide
-@@||eum-blue-saas.instana.io^|
 @@||ev.tpocdm.com^$xmlhttprequest,domain=wowma.jp
 @@||events.raceresult.com^$~third-party,xmlhttprequest
 @@||evil-inc.com/comic/advertising-age/$~third-party,xmlhttprequest
