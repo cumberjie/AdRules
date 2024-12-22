@@ -1,6 +1,6 @@
 ! Title: Allowlist
-! Version: 2024-12-22 18:13:00（北京时间） 
-! Total count: 2712
+! Version: 2024-12-23 06:12:20（北京时间） 
+! Total count: 2713
 @@$generichide,domain=vidoza.co|vidoza.net
 @@-ds.metric.gstatic.com^|
 @@-social-bar.$domain=mobi.yahoo.com
@@ -512,6 +512,7 @@
 @@||api.aliagents.ai/api/v1/activity$~third-party,xmlhttprequest
 @@||api.amplitude.com^$xmlhttprequest,domain=insiderintelligence.com
 @@||api.apolomedia.com/static/libs/event-tracking.min.js$script
+@@||api.app.mobilelocker.eu/api/latest/application-environment/ahoy/events$~third-party
 @@||api.babbel.io/gamma/v1/$ping,domain=babbel.com
 @@||api.docodoco.jp^|
 @@||api.friends.ponta.jp/api/$~third-party
