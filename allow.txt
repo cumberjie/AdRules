@@ -1,6 +1,6 @@
 ! Title: Allowlist
-! Version: 2024-12-23 18:15:53（北京时间） 
-! Total count: 2713
+! Version: 2024-12-24 06:13:17（北京时间） 
+! Total count: 2716
 @@$generichide,domain=vidoza.co|vidoza.net
 @@-ds.metric.gstatic.com^|
 @@-social-bar.$domain=mobi.yahoo.com
@@ -746,6 +746,7 @@
 @@||cdn.jsdelivr.net^$script,domain=yemancomic.com
 @@||cdn.jsdelivr.net^*/fp.min.js$script,domain=cuevana2.io
 @@||cdn.kaizenplatform.net^$script,domain=navi.onamae.com
+@@||cdn.matomo.cloud/tekuchi.matomo.cloud/matomo.js$domain=berkeleygroup.digital
 @@||cdn.mxpnl.com/libs/$script,domain=get.pumpkin.care
 @@||cdn.optimizely.com/js/*.js$domain=kktv.me
 @@||cdn.optimizely.com/public/*.json/tag.js$domain=mobile.de
@@ -1741,6 +1742,7 @@
 @@||momovod.com/js/momo/adsbygoogle.js
 @@||money18.on.cc/js/ad/liveinfo_page/
 @@||money18.on.cc/js/adbanner.js
+@@||moneypartners.co.jp/web/*/fingerprint.js$~third-party
 @@||moneysave.info^$generichide
 @@||monnsutogatya.com^$elemhide
 @@||mopar.com/moparsvc/mopar-analytics-state$~third-party
@@ -2555,6 +2557,7 @@
 @@||valuecommerce.com^$image,domain=pointtown.com
 @@||vast.btrll.com^$domain=hinet.net
 @@||vast.com/vimpressions.js$domain=everycarlisted.com
+@@||vcentry2.valuecommerce.ne.jp^|
 @@||vcentry3.valuecommerce.ne.jp^|
 @@||vd.l.qq.com^
 @@||video.520cc.cc/ad.php|
