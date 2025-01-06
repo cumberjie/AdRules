@@ -1,5 +1,5 @@
 ! Title: Allowlist
-! Version: 2025-01-06 18:15:34（北京时间） 
+! Version: 2025-01-07 06:13:22（北京时间） 
 ! Total count: 2718
 @@$generichide,domain=vidoza.co|vidoza.net
 @@-ds.metric.gstatic.com^|
@@ -2079,7 +2079,6 @@
 @@||quapp.1122dh.com/v4/biquge/man.html
 @@||r10s.jp/share/themes/ds/js/show_ads_randomly.js$domain=travel.rakuten.co.jp
 @@||r3sub.com^$generichide
-@@||rackcdn.com/stf.js$script,domain=20min.ch
 @@||radio24.ilsole24ore.com/plugins/cordova-plugin-nielsen/www/nielsen.js$script,~third-party
 @@||radiofrance.targetspot.com^|
 @@||radiosun.fi/wp-content/uploads/*300x250$image,~third-party
@@ -2107,6 +2106,7 @@
 @@||redventures.io/lib/dist/prod/bidbarrel-$script,domain=cnet.com|zdnet.com
 @@||refer.discover.com^|
 @@||regapi.37.com/api/p_register.php?login_account=
+@@||relevant-digital.com^$script,domain=20min.ch
 @@||remembering.ca^|
 @@||renewcanceltv.com/porpoiseant/banger.js$script,~third-party
 @@||renfei.net^$generichide
