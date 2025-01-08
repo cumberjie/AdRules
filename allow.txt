@@ -1,6 +1,6 @@
 ! Title: Allowlist
-! Version: 2025-01-08 18:15:14（北京时间） 
-! Total count: 2719
+! Version: 2025-01-09 06:13:13（北京时间） 
+! Total count: 2720
 @@$generichide,domain=vidoza.co|vidoza.net
 @@-ds.metric.gstatic.com^|
 @@-social-bar.$domain=mobi.yahoo.com
@@ -1747,6 +1747,7 @@
 @@||money18.on.cc/js/adbanner.js
 @@||moneypartners.co.jp/web/*/fingerprint.js$~third-party
 @@||moneysave.info^$generichide
+@@||monkfieldreptile.com/nlrum/nlRUM.js$~third-party
 @@||monnsutogatya.com^$elemhide
 @@||mopar.com/moparsvc/mopar-analytics-state$~third-party
 @@||morosedog.gitlab.io^$generichide
