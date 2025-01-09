@@ -1,6 +1,6 @@
 ! Title: Allowlist
-! Version: 2025-01-09 18:15:44（北京时间） 
-! Total count: 2721
+! Version: 2025-01-10 06:13:24（北京时间） 
+! Total count: 2724
 @@$generichide,domain=vidoza.co|vidoza.net
 @@-ds.metric.gstatic.com^|
 @@-social-bar.$domain=mobi.yahoo.com
@@ -519,6 +519,7 @@
 @@||api.ipinfodb.com^$xmlhttprequest,domain=management30.com
 @@||api.karte.io^|
 @@||api.lab.amplitude.com/v1/vardata?$domain=gaiagps.com
+@@||api.lab.amplitude.com^$domain=watch.outsideonline.com
 @@||api.omappapi.com/v3/geolocate/json$domain=seclore.com
 @@||api.perfops.net^$script,xmlhttprequest,domain=cdnperf.com|dnsperf.com
 @@||api.touchnote.io^$xmlhttprequest,domain=app.touchnote.com
@@ -1139,6 +1140,7 @@
 @@||fingerprintjs.com^$generichide
 @@||firebase.google.com/docs/analytics/$~third-party
 @@||firefox.com.cn/media/img/mozcn/spread/468-60-
+@@||flag.lab.amplitude.com^$domain=watch.outsideonline.com
 @@||fltaradio.com/js/ads.js
 @@||fluidplayer.com^$script,domain=rule34hentai.net
 @@||fluidplayer.com^$script,stylesheet,domain=canyoublockit.com
@@ -1774,6 +1776,7 @@
 @@||musictrack.jp/a/ad/banner_member.jpg
 @@||muzlan.top/ads/banner.png
 @@||muzlan.top^$generichide
+@@||mvcat.com^$generichide
 @@||mxpnl.com/libs/mixpanel-*.min.js$domain=change.org|frigidaire.com
 @@||mxpnl.com/libs/mixpanel-*.min.js$domain=eloan.co.il
 @@||mxpnl.com^$domain=mixpanel.com
