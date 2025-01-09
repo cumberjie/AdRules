@@ -1,6 +1,6 @@
 ! Title: Allowlist
-! Version: 2025-01-09 06:13:13（北京时间） 
-! Total count: 2720
+! Version: 2025-01-09 18:15:44（北京时间） 
+! Total count: 2721
 @@$generichide,domain=vidoza.co|vidoza.net
 @@-ds.metric.gstatic.com^|
 @@-social-bar.$domain=mobi.yahoo.com
@@ -1458,6 +1458,7 @@
 @@||instagram.com^$generichide
 @@||instapundit.com^$generichide
 @@||instawp.xyz^$generichide
+@@||intelyvale.com.mx/ads/images/$domain=valesdegasolina.mx
 @@||intersport.peerius.com^|
 @@||ipapi.co/json/$xmlhttprequest,domain=168.dailymaverick.co.za|audius.co
 @@||ipfs-lab.com^$generichide
