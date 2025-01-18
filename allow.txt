@@ -1,6 +1,6 @@
 ! Title: Allowlist
-! Version: 2025-01-18 06:12:32（北京时间） 
-! Total count: 2725
+! Version: 2025-01-18 18:13:09（北京时间） 
+! Total count: 2728
 @@$generichide,domain=vidoza.co|vidoza.net
 @@-ds.metric.gstatic.com^|
 @@-social-bar.$domain=mobi.yahoo.com
@@ -2152,6 +2152,8 @@
 @@||s0.2mdn.net/ads/studio/Enabler.js$domain=yuukinohana.co.jp
 @@||sail-horizon.com/spm/spm.v1.min.js$script,domain=voguegirl.jp
 @@||salfordonline.com/wp-content/plugins/wp_pro_ad_system/$script
+@@||sams.11freunde.de/ee/irl1/v1/interact?$domain=11freunde.de
+@@||sams.spiegel.de/ee/irl1/v1/interact?$domain=spiegel.de
 @@||sankei.co.jp/js/analytics/skd.Analysis.js$script
 @@||sanspo.com/parts/chartbeat/$xmlhttprequest
 @@||sanyonews.jp/files/image/ad/okachoku.jpg$~third-party
@@ -2501,6 +2503,7 @@
 @@||tt1069.com/dfp.
 @@||ttkdex.com^$generichide
 @@||ttkdex.com^*ad$~third-party
+@@||ttmetrics.faz.net/rest/v1/delivery?$domain=faz.net
 @@||tuhu.cn^
 @@||tui.click/js/ads.js
 @@||tui.click^$generichide
