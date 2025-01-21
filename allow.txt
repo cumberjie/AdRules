@@ -1,6 +1,6 @@
 ! Title: Allowlist
-! Version: 2025-01-21 18:14:35（北京时间） 
-! Total count: 2731
+! Version: 2025-01-22 06:12:50（北京时间） 
+! Total count: 2730
 @@$generichide,domain=vidoza.co|vidoza.net
 @@-ds.metric.gstatic.com^|
 @@-social-bar.$domain=mobi.yahoo.com
@@ -465,7 +465,6 @@
 @@||aliyun.com/scratchCardSlide/analyze.jsonp?
 @@||aliyundrive.com^*/share_link/$xmlhttprequest
 @@||allabout.co.jp/mtx_cnt.js$script,~third-party
-@@||allpornstream.com/api/ads?type=thumbnail$~third-party
 @@||almayadeen.net/Content/VideoJS/js/videoPlayer/VideoAds.js$script,~third-party
 @@||alphaapi.brandify.com/rest/clicktrack$xmlhttprequest,domain=traderjoes.com
 @@||am730.com.hk^$generichide
