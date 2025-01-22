@@ -1,6 +1,6 @@
 ! Title: Allowlist
-! Version: 2025-01-22 06:12:50（北京时间） 
-! Total count: 2730
+! Version: 2025-01-22 18:12:56（北京时间） 
+! Total count: 2733
 @@$generichide,domain=vidoza.co|vidoza.net
 @@-ds.metric.gstatic.com^|
 @@-social-bar.$domain=mobi.yahoo.com
@@ -888,6 +888,7 @@
 @@||connatix.com/min/connatix.renderer.infeed.min.js$domain=accuweather.com|collider.com|gamepress.gg|salon.com
 @@||connect.facebook.net^$script,domain=up-4ever.net
 @@||connect.facebook.net^*/fbevents.js$domain=elinoi.com
+@@||console.cloud.google.com^$generichide
 @@||console.statsig.com/_next/$~third-party
 @@||contacts.google.com^$generichide
 @@||content.adunity.com/aulib.js$script,domain=b1tv.ro
@@ -983,6 +984,7 @@
 @@||digitrend.it/wonder-marketing/assets/wordpress/js/videojs.ga.js?$script,domain=vrsicilia.it
 @@||discord.com^$generichide
 @@||discordapp.com/banners/$image
+@@||discoveryplus.com^$generichide
 @@||discretemath.org/ads/
 @@||discretemath.org^$image,stylesheet
 @@||disneyplus.com^$generichide
@@ -2152,7 +2154,7 @@
 @@||s0.2mdn.net/ads/studio/Enabler.js$domain=yuukinohana.co.jp
 @@||sail-horizon.com/spm/spm.v1.min.js$script,domain=voguegirl.jp
 @@||salfordonline.com/wp-content/plugins/wp_pro_ad_system/$script
-@@||sams.11freunde.de/ee/irl1/v1/interact?$domain=11freunde.de
+@@||sams.11freunde.de/ee/*/interact?$xmlhttprequest,domain=11freunde.de
 @@||sams.spiegel.de/ee/irl1/v1/interact?$domain=spiegel.de
 @@||sankei.co.jp/js/analytics/skd.Analysis.js$script
 @@||sanspo.com/parts/chartbeat/$xmlhttprequest
@@ -2506,6 +2508,7 @@
 @@||ttkdex.com^$generichide
 @@||ttkdex.com^*ad$~third-party
 @@||ttmetrics.faz.net/rest/v1/delivery?$domain=faz.net
+@@||tubitv.com^$generichide
 @@||tuhu.cn^
 @@||tui.click/js/ads.js
 @@||tui.click^$generichide
