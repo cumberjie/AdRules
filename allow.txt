@@ -1,6 +1,6 @@
 ! Title: Allowlist
-! Version: 2025-01-24 06:12:42（北京时间） 
-! Total count: 2738
+! Version: 2025-01-24 18:15:10（北京时间） 
+! Total count: 2739
 @@$generichide,domain=vidoza.co|vidoza.net
 @@-ds.metric.gstatic.com^|
 @@-social-bar.$domain=mobi.yahoo.com
@@ -716,6 +716,7 @@
 @@||captcha.qq.com^*?*=*=*=$subdocument
 @@||captcha.su.baidu.com^
 @@||carandclassic.co.uk/images/free_advert/$image,~third-party
+@@||carbuzz.com^$generichide
 @@||carexpert.com.tw/wp-content/plugins/like-box-pro/includes/javascript/front_end_js.js
 @@||carsensor.net/usedcar/modules/clicklog_top_lp_revo.php$xmlhttprequest
 @@||cat.telia.no/gtm.js$script,domain=telia.no
@@ -731,7 +732,7 @@
 @@||cdc.gov/jscript/metrics/adobe/launch/$script,~third-party
 @@||cdn-net.com/cc.js
 @@||cdn-pci.optimizely.com/public/*/sales_snippet.js$domain=talktalk.co.uk
-@@||cdn.adsninja.ca^$domain=xda-developers.com
+@@||cdn.adsninja.ca^$domain=carbuzz.com|xda-developers.com
 @@||cdn.advertserve.com^$domain=hutchgo.com|hutchgo.com.cn|hutchgo.com.hk|hutchgo.com.sg|hutchgo.com.tw
 @@||cdn.bootcdn.net^$script,domain=38kanshu.net|tianz.la
 @@||cdn.bootcss.com^$domain=openload.co|oload.tv|javno.me|imagebam.com|imagevenue.com|playvid.com|4horlover.com|linkshrink.net
