@@ -1,6 +1,6 @@
 ! Title: Allowlist
-! Version: 2025-01-25 06:12:41（北京时间） 
-! Total count: 2739
+! Version: 2025-01-25 18:12:45（北京时间） 
+! Total count: 2737
 @@$generichide,domain=vidoza.co|vidoza.net
 @@-ds.metric.gstatic.com^|
 @@-social-bar.$domain=mobi.yahoo.com
@@ -1471,8 +1471,6 @@
 @@||intuitcdn.net/libs/*/track-star.min.js$script,domain=turbotax.intuit.com
 @@||ipapi.co/json/$xmlhttprequest,domain=168.dailymaverick.co.za|audius.co
 @@||ipfs-lab.com^$generichide
-@@||ipinfo.io/?token=$domain=assurancemortgage.com|webtv.ert.gr
-@@||ipinfo.io/json$domain=ptube.pipio.site|queye.co
 @@||ipinfo.io/static/images/use-cases/adtech.jpg$image,~third-party
 @@||ipip.net/ping.php?
 @@||ipqualityscore.com/api/$script,domain=carousell.com.hk
