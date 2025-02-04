@@ -1,6 +1,6 @@
 ! Title: Allowlist
-! Version: 2025-02-04 18:14:59（北京时间） 
-! Total count: 2740
+! Version: 2025-02-05 06:12:58（北京时间） 
+! Total count: 2741
 @@$generichide,domain=androidpolice.com|babygaga.com|backyardboss.net|carbuzz.com|cbr.com|collider.com|dualshockers.com|footballfancast.com|footballleagueworld.co.uk|gamerant.com|givemesport.com|hardcoregamer.com|hotcars.com|howtogeek.com|makeuseof.com|moms.com|movieweb.com|pocket-lint.com|pocketnow.com|screenrant.com|simpleflying.com|thegamer.com|therichest.com|thesportster.com|thethings.com|thetravel.com|topspeed.com|xda-developers.com
 @@$generichide,domain=vidoza.co|vidoza.net
 @@-ds.metric.gstatic.com^|
@@ -1231,6 +1231,7 @@
 @@||geoip-db.com/jsonp/$script,third-party
 @@||geolocation-db.com/json/$domain=admanager.line.biz
 @@||geolocation-db.com/jsonp$script,domain=parts.hp.com
+@@||get.neofinancial.com^|
 @@||get.s-onetag.com/*/tag.min.js$domain=zakzak.co.jp
 @@||getflywheel.com/addons/google-analytics/$~third-party
 @@||getjad.io/library/$script,domain=allocine.fr
