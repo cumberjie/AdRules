@@ -1,6 +1,6 @@
 ! Title: Allowlist
-! Version: 2025-03-19 18:16:24（北京时间） 
-! Total count: 2743
+! Version: 2025-03-20 06:14:11（北京时间） 
+! Total count: 2745
 @@$generichide,domain=androidpolice.com|babygaga.com|backyardboss.net|carbuzz.com|cbr.com|collider.com|dualshockers.com|footballfancast.com|footballleagueworld.co.uk|gamerant.com|givemesport.com|hardcoregamer.com|hotcars.com|howtogeek.com|makeuseof.com|moms.com|movieweb.com|pocket-lint.com|pocketnow.com|screenrant.com|simpleflying.com|thegamer.com|therichest.com|thesportster.com|thethings.com|thetravel.com|topspeed.com|xda-developers.com
 @@$generichide,domain=vidoza.co|vidoza.net
 @@-ds.metric.gstatic.com^|
@@ -2267,6 +2267,7 @@
 @@||smotrim.ru/js/stat.js$script
 @@||smsonline.cloud^$generichide
 @@||smtcaw.com^$generichide
+@@||smtp.focusgroupresearch.com^|
 @@||smushcdn.com^*/1.gif$domain=retrounlim.com
 @@||snap.licdn.com/li.lms-analytics/insight.min.js$domain=msci.com
 @@||snva.jp/javascripts/reco/$script,domain=store.charle.co.jp
@@ -2460,6 +2461,7 @@
 @@||tkec.com.tw/api/ad/
 @@||tlaol.com^|
 @@||tlc.com^$generichide
+@@||tlh.gedidigital.it^|
 @@||tm.r-ad.ne.jp/128/ra346756.js$script,domain=hpdsp.net
 @@||tmall.com/add?
 @@||tmall.com/go/*/banner.php
