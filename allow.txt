@@ -1,6 +1,6 @@
 ! Title: Allowlist
-! Version: 2025-08-04 18:20:38（北京时间） 
-! Total count: 2749
+! Version: 2025-08-05 06:17:41（北京时间） 
+! Total count: 2751
 @@$generichide,domain=androidpolice.com|babygaga.com|backyardboss.net|carbuzz.com|cbr.com|collider.com|dualshockers.com|footballfancast.com|footballleagueworld.co.uk|gamerant.com|givemesport.com|hardcoregamer.com|hotcars.com|howtogeek.com|makeuseof.com|moms.com|movieweb.com|pocket-lint.com|pocketnow.com|screenrant.com|simpleflying.com|thegamer.com|therichest.com|thesportster.com|thethings.com|thetravel.com|topspeed.com|xda-developers.com
 @@$generichide,domain=vidoza.co|vidoza.net
 @@-ds.metric.gstatic.com^|
@@ -2156,6 +2156,7 @@
 @@||ruten.com.tw/ahd/fetch_ad.php
 @@||ruten.com.tw/js/jquery.ruten.supertop_ad.js
 @@||s-microsoft.com/mscc/statics/$script,domain=microsoft.com
+@@||s.bluecore.com^|
 @@||s.ntv.io/serve/load.js$domain=titantv.com
 @@||s.tgfcer.com^$generichide
 @@||s.w.org/wp-content/$stylesheet,domain=wordpress.org
@@ -2513,6 +2514,7 @@
 @@||trip-jam.com/resources/js/adsense.js
 @@||trip.cmbchina.com^$generichide
 @@||trj.valuecommerce.com/vcushion.js
+@@||trk.ecomm.lenovo.com^|
 @@||trustcommander.net/iab-tcfapi/tcfapi.js$script,domain=tf1info.fr
 @@||trustprofile.com/banners/$image
 @@||tsyndicate.com/sdk/v1/n.js$domain=hpjav.tv
