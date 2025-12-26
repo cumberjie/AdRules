@@ -1,6 +1,6 @@
 ! Title: Allowlist
-! Version: 2025-12-26 18:18:31（北京时间） 
-! Total count: 2763
+! Version: 2025-12-27 06:16:14（北京时间） 
+! Total count: 2765
 @@$generichide,domain=androidpolice.com|babygaga.com|backyardboss.net|carbuzz.com|cbr.com|collider.com|dualshockers.com|footballfancast.com|footballleagueworld.co.uk|gamerant.com|givemesport.com|hardcoregamer.com|hotcars.com|howtogeek.com|makeuseof.com|moms.com|movieweb.com|pocket-lint.com|pocketnow.com|screenrant.com|simpleflying.com|thegamer.com|therichest.com|thesportster.com|thethings.com|thetravel.com|topspeed.com|xda-developers.com
 @@$generichide,domain=vidoza.co|vidoza.net
 @@-ds.metric.gstatic.com^|
@@ -978,6 +978,7 @@
 @@||data.adxcel-ec2.com^$image,domain=laguardia.edu
 @@||data.digital.costco.ca^|
 @@||data.digital.costco.com^|
+@@||data.orders.costco.com^|
 @@||datadoghq-browser-agent.com^$script,domain=bbcgoodfood.com|cdn.spatialbuzz.com|dashboard.getdriven.app|hungryroot.com|usa.experian.com
 @@||daxiaamu.com^$generichide
 @@||daziba.cn/Images/share.css
@@ -1625,6 +1626,7 @@
 @@||line-scdn.net^*/torimochi.js$script,domain=demae-can.com
 @@||linetv.tw/public/scripts/ads.js
 @@||linetv.tw^*/scripts/ads.js
+@@||link.meet5.net^|
 @@||link.morningbrew.com^|
 @@||link.nzz.ch^|
 @@||link.sylikes.com^|
