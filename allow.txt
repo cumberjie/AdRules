@@ -1,6 +1,6 @@
 ! Title: Allowlist
-! Version: 2026-01-02 18:18:11（北京时间） 
-! Total count: 2765
+! Version: 2026-01-03 06:16:51（北京时间） 
+! Total count: 2766
 @@$generichide,domain=androidpolice.com|babygaga.com|backyardboss.net|carbuzz.com|cbr.com|collider.com|dualshockers.com|footballfancast.com|footballleagueworld.co.uk|gamerant.com|givemesport.com|hardcoregamer.com|hotcars.com|howtogeek.com|makeuseof.com|moms.com|movieweb.com|pocket-lint.com|pocketnow.com|screenrant.com|simpleflying.com|thegamer.com|therichest.com|thesportster.com|thethings.com|thetravel.com|topspeed.com|xda-developers.com
 @@$generichide,domain=vidoza.co|vidoza.net
 @@-ds.metric.gstatic.com^|
@@ -2215,6 +2215,7 @@
 @@||securepubads.g.doubleclick.net/gpt/pubads_impl_$domain=league-funny.com
 @@||securepubads.g.doubleclick.net/pagead/managed/js/gpt/*/pubads_impl.js$domain=line.me
 @@||securepubads.g.doubleclick.net/tag/js/gpt.js$domain=line.me
+@@||sedge.nfl.com^|
 @@||seg-cdn.pumpkin.care/analytics.js/$~third-party
 @@||seg-cdn.pumpkin.care/next-integrations/integrations/mixpanel/$domain=get.pumpkin.care
 @@||seguridad.compensar.com/lib/js/fingerprint2.js$~third-party
