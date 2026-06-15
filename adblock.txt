@@ -4,8 +4,8 @@
 ! Powerd by CatsTeam
 ! Expires: 12 Hours
 ! Description: 该规则合并自My AdFilters（for PC），EdentwCustom，adgk，Adaway，Uniartisan，规则以及乘风规则等
-! Version: 2026-06-14 23:04:28
-! Total count: 270784
+! Version: 2026-06-15 15:42:25
+! Total count: 270771
 ! ------加强屏蔽Start------ !
 
 !酷安"提到的好物"
@@ -5306,7 +5306,7 @@ $websocket,domain=wap.yushuwu.cloud
 /^https:\/\/([a-z]+\.){2}\w{2,3}\/\d{4}\/\d{2}\/\d{10,}\.txt$/$third-party,xmlhttprequest,match-case
 /^https:\/\/([a-z]-){10,15}[a-z]\.(?:com|net|org)\.tr\//$doc,to=com.tr|net.tr|org.tr
 /^https:\/\/(www\.)?[a-z0-9]+\.[a-z]+(\.[a-z]+)?\/(?:analyticsdata|metrics)\/?$/$script,1p,match-case
-/^https:\/\/(www\.)?[a-z0-9]+\.[a-z]+(\.[a-z]+)?\/[a-z0-9]{4}\/?$/$script,1p,match-case,domain=~leagueoflegends.com
+/^https:\/\/(www\.)?[a-z0-9]+\.[a-z]+(\.[a-z]+)?\/[a-z0-9]{4}\/?$/$script,1p,match-case,domain=~leagueoflegends.com,to=~xsso.lolesports.com|~xsso.playvalorant.com|~xsso.riotgames.com|~xsso.valorantesports.com
 /^https:\/\/(www\.)?sp\d{4,5}p\.com\//$doc,to=com|~shopee.vn
 /^https:\/\/(www\.)?zxzjhd\.com\/[0-9]+\.gif/$domain=zxzjhd.com
 /^https:\/\/(www|m)\.coupang\.com\/[A-Za-z0-9_]+\/[A-Za-z0-9_-]+\/[A-Za-z0-9_-]+\/[A-Za-z0-9_]+\/[A-Za-z0-9_]+(\/[A-Za-z0-9_-]+){0,5}$/$domain=coupang.com,xmlhttprequest,method=post,match-case
@@ -10691,7 +10691,6 @@ $websocket,domain=wap.yushuwu.cloud
 ://vip.*/?pge=$image,third-party
 ://wa.*/s?$image
 ://willap.jp/t?r=$image
-://www.*.js|$script,third-party,domain=159i.com|r3sub.com|thisav.com
 ://www.*.js|$script,third-party,domain=159i.com|thisav.com
 ://www.*.pro/y1.html|$doc
 ://www.bilibili.com/video/$removeparam=mid
@@ -14265,7 +14264,6 @@ $websocket,domain=wap.yushuwu.cloud
 @@||query1.petametrics.com/*&sdk=bc-jsonp$domain=lanacion.com.ar
 @@||query1.petametrics.com/*&sdk=bc-jsonp$domain=ranker.com
 @@||r10s.jp/com/img/home/t.gif?$domain=24.rakuten.co.jp
-@@||r3sub.com^$generichide
 @@||rackcdn.com/stf.js$domain=20min.ch
 @@||radio.com/player/javascript/tracking.js$domain=player.radio.com
 @@||radio24.ilsole24ore.com/plugins/cordova-plugin-nielsen/www/nielsen.js$script,~third-party
@@ -117321,7 +117319,7 @@ pan666.cn##.footer > .containerNarrow
 panc.cc##iframe[height="148"]
 panda.tv###download,.room-ad,.room-ad-banner,[href^="https://s.click.taobao.com/"],.room-co-activity-container,[href^="/ad_view?paew=pc_web-ad-"]
 panda.tv##.pd-plouto-container
-panda985.com,qqdsw8.cn,knews.com.tw,shiyrj.top,yalishi.com,guozaoke.com,100ec.cn,159i.com,1905.com,22vd.com,2345.cn,234fang.com,3gsc.com.cn,52youpiao.com,72g.com,8se.me,acg.bz,acg13.cn,acgbenzi.com,baiduyunpan.net,baike.com,bbs-mychat.com,cdyee.com,ce.cn,chinaqking.com,chinatimes.com,chinatruck.org,chinaz.com,cnforex.com,cnsoftnews.com,codepub.com,cq.xinhuanet.com,cxryun.cn,dav01.com,discuss.com.hk,djwma.com,dmzj.com,dmzj1.com,dngz.net,douban.com,dzwww.com,eastday.com,fengniao.com,focus.cn,fx112.com,gongkong.com,henan100.com,honglingjin.co.uk,house.jschina.com.cn,iciba.com,ifeng.com,ipeen.com.tw,isharebest.com,itavcn.com,jojf.cn,jrj.com.cn,kumi.cn,landiannews.com,lawtv.com.cn,lieyunwang.com,lncn.org,loveshang.com,ltn.com.tw,luo8.com,maxpda.com,mm111.net,moxing.net,mvcat.com,ncdiy.com,neotv.com.cn,newsmth.net,njdaily.cn,pc0359.cn,people.com.cn,pharmnet.com.cn,pixnet.net,pptv.com,ptbus.com,qncye.com,r3sub.com,sogou.com,sozi.cn,toolfk.com,tv.sohu.com,u-car.com.tw,weather.com.cn,xianbao.fun,yawin.cn,yb983.com,ydss.cn,yesky.com,yiche.com,yqxxs.com,zhihu.com,ziyuanyo.com##.ad
+panda985.com,qqdsw8.cn,knews.com.tw,shiyrj.top,yalishi.com,guozaoke.com,100ec.cn,159i.com,1905.com,22vd.com,2345.cn,234fang.com,3gsc.com.cn,52youpiao.com,72g.com,8se.me,acg.bz,acg13.cn,acgbenzi.com,baiduyunpan.net,baike.com,bbs-mychat.com,cdyee.com,ce.cn,chinaqking.com,chinatimes.com,chinatruck.org,chinaz.com,cnforex.com,cnsoftnews.com,codepub.com,cq.xinhuanet.com,cxryun.cn,dav01.com,discuss.com.hk,djwma.com,dmzj.com,dmzj1.com,dngz.net,douban.com,dzwww.com,eastday.com,fengniao.com,focus.cn,fx112.com,gongkong.com,henan100.com,honglingjin.co.uk,house.jschina.com.cn,iciba.com,ifeng.com,ipeen.com.tw,isharebest.com,itavcn.com,jojf.cn,jrj.com.cn,kumi.cn,landiannews.com,lawtv.com.cn,lieyunwang.com,lncn.org,loveshang.com,ltn.com.tw,luo8.com,maxpda.com,mm111.net,moxing.net,mvcat.com,ncdiy.com,neotv.com.cn,newsmth.net,njdaily.cn,pc0359.cn,people.com.cn,pharmnet.com.cn,pixnet.net,pptv.com,ptbus.com,qncye.com,sogou.com,sozi.cn,toolfk.com,tv.sohu.com,u-car.com.tw,weather.com.cn,xianbao.fun,yawin.cn,yb983.com,ydss.cn,yesky.com,yiche.com,yqxxs.com,zhihu.com,ziyuanyo.com##.ad
 panlobalid3.click.s11.sfmc-osl.com$image
 pansci.asia##body > section.hide-on-print.mt-5
 pansci.asia##div[class^="pansc-"]
@@ -118350,9 +118348,7 @@ r.rakuten.co.jp/*.gif?mpe=
 r.superhuman.com$image
 r1eadS= null;
 r3sub.com##[class^="movie ad"],[class$="ad"]
-r3sub.com##div[class] > a[href^="show.php?id="]
 r3sub.com##div[class] > a[href^="show.php?id="][target="_blank"] > img
-r3sub.com##source + img
 rabota.click.s11.sfmc-osl.com$image
 radioprofusion.com##.revolvermaps
 radioprofusion.com##footer > div.counter
@@ -126633,7 +126629,6 @@ zzzyk.com###Tinfo
 ||107.167.22.*.gif
 ||107788.com^$third-party
 ||109.123.233.251^
-||109.169.66.161^$third-party,domain=~adult-site.ip
 ||109218er.xyz^
 ||10fang.com/static/skin/tfy/layer/layer.js
 ||10haber.net/cu1m/
@@ -126931,7 +126926,6 @@ zzzyk.com###Tinfo
 ||17zhaole.com^$third-party
 ||17zheng.cn^
 ||180.76.2.18^$third-party
-||180.76.2.18^$third-party,domain=~baidu.ip
 ||180.96.27.85^*.htm
 ||180.xdwan.com^
 ||1800cnt.com^$third-party
@@ -126988,7 +126982,6 @@ zzzyk.com###Tinfo
 ||192.151.218.66^$third-party
 ||192168.luyouwang.com^
 ||192ly.com/wp-content/cache/*.js
-||193.197.158.209^$third-party,domain=~statistik.lubw.baden-wuerttemberg.de.ip
 ||194.59.220.161^
 ||194007.com/4058.gif
 ||1980s.click^$doc
@@ -127048,10 +127041,12 @@ zzzyk.com###Tinfo
 ||1hotu9uyll.com^
 ||1iuh5l.com^
 ||1iuybpo.com^
+||1iw9r46xh5.com^
 ||1j2n061x3td.www.digi.no^
 ||1jc5t.xyz^
 ||1jlp1qbgu.com^
 ||1jzocofm4.com^
+||1k2uh20wr.com^
 ||1k5vz1ejbcx.staging.probemas.com^
 ||1k8j786ks5.com^
 ||1kanz.cn^
@@ -127190,7 +127185,6 @@ zzzyk.com###Tinfo
 ||2114.com/zb_users/script/advertise.js
 ||211600.com/data/attachment/portal/
 ||211xd.com/js
-||212.95.32.75^$third-party,domain=~ipcounter.de.ip
 ||2143.pandasuite.io^
 ||2155ec.com^
 ||216.18.176.4/logger/
@@ -127295,7 +127289,6 @@ zzzyk.com###Tinfo
 ||24log.com^$third-party
 ||24log.de^$third-party
 ||24log.es^$third-party
-||24log.fr^$third-party
 ||24log.it^$third-party
 ||24log.ru^$third-party
 ||24meinv.org/js/total.js
@@ -128579,6 +128572,7 @@ zzzyk.com###Tinfo
 ||6v6.work^
 ||6vgood.com/d/$script
 ||6vhao.tv/d/
+||6vspt720xf.com^
 ||6vw.cc/d/$script
 ||6w4ix4bxz1.com^
 ||6x59axt21.com^
@@ -136670,7 +136664,6 @@ zzzyk.com###Tinfo
 ||airgreenland.com/tracking/
 ||airline49.top^
 ||airlogak.com^$third-party
-||airlogs.ru^$third-party
 ||airlytics-web.airlock.twcmobile.weather.com/eventproxy/track
 ||airlytics.airlock.twcmobile.weather.com^
 ||airouba.com/public/js/global.js
@@ -139399,7 +139392,6 @@ zzzyk.com###Tinfo
 ||annelinterv.fun^
 ||annonumapp.com^$all
 ||announcement.lyreco.com^
-||announcement.ru^$third-party
 ||announcements.bybit.com^$removeparam=pid
 ||announcements.bybit.com^$removeparam=sa_utm_channel
 ||announcements.bybit.com^$removeparam=sa_utm_ci
@@ -142712,6 +142704,7 @@ zzzyk.com###Tinfo
 ||assets.piercingkungen.se^
 ||assets.pixlee.com/assets/fp.js
 ||assets.pixlee.com/shopify/pixlee.shopify.v2.prod.js
+||assets.poool.fr/engage.min.js
 ||assets.poxo.com/jet/jet.js
 ||assets.prod.abebookscdn.com/*/scripts/digitaldata/analytics-
 ||assets.prod.abebookscdn.com/*/scripts/utilities/PixelRenderer-
@@ -146328,6 +146321,7 @@ zzzyk.com###Tinfo
 ||bowl.actonservice.com^
 ||bownow.jp/js/*/trace.js?referer=
 ||bownow.jp^$third-party
+||bowo666.com^
 ||box.bossdata.be^
 ||box.com/data/ptm.gif/
 ||box.com/index.php?rm=box_gen204_batch_record
@@ -153560,7 +153554,6 @@ zzzyk.com###Tinfo
 ||csyqts.tmon.co.kr^
 ||csyys0731.com^
 ||cszavakjlvtlhojrui.com^$doc
-||cszz.ru^$third-party
 ||ct-dev.taskhuman.com^
 ||ct-errs.cartrawler.com^
 ||ct.beslist.nl^
@@ -158756,6 +158749,7 @@ zzzyk.com###Tinfo
 ||data.tw-email.princess.com^
 ||data.tw-guest.princess.com^
 ||data.txn.puntoscolombia.com^
+||data.u.software^$third-party
 ||data.uat.business.deutsche-bank.de^
 ||data.uat.business.fyrst.de^
 ||data.uat.business.postbank.de^
@@ -160549,6 +160543,7 @@ zzzyk.com###Tinfo
 ||divine.alegria-verte.com^$doc
 ||divinedownload.com^$all
 ||divinex.at^$all
+||division43.top^
 ||divolution.com^$third-party
 ||diwapa3051.wixsite.com^$all
 ||diwuyu.com^
@@ -166623,6 +166618,7 @@ zzzyk.com###Tinfo
 ||fd.nl/pixel/
 ||fd173.cn/fzent/*ad$script
 ||fd2k1fa6oe.com^
+||fd6s5sa7ji.com^
 ||fd80s.com/static/m.
 ||fdbhv.knix.com^
 ||fdbs.actonservice.com^
@@ -168233,7 +168229,6 @@ zzzyk.com###Tinfo
 ||freesitemapgenerator.com^$third-party
 ||freesoftwarecreative.com^$doc
 ||freestat.ws^$third-party
-||freestats.biz^$third-party
 ||freestats.com^$third-party
 ||freestats.net^$third-party
 ||freestats.tv^$third-party
@@ -168247,8 +168242,6 @@ zzzyk.com###Tinfo
 ||freewebhostmost.com/consegna-pacchi/avviso/$doc
 ||freeweblogger.com^$third-party
 ||freezingbuilding.com^
-||freihit.de^$third-party
-||fremaks.net^$third-party
 ||frenchgerleman.actonservice.com^
 ||frequentflesh.com^
 ||fresh.inlinkz.com^$third-party
@@ -178479,6 +178472,7 @@ zzzyk.com###Tinfo
 ||hyteck.de/count.js
 ||hythroqu.com^
 ||hytzp.cn^
+||hyv8k1bh86.com^
 ||hyvyd.com/count$image,domain=mobile.de
 ||hywjmh.eriks.be^
 ||hyxvec.michaelpage.co.jp^
@@ -178610,7 +178604,6 @@ zzzyk.com###Tinfo
 ||i14laze0.xyz^
 ||i2019.jp^$doc
 ||i218435.net^
-||i22lo.com^$third-party
 ||i2ad.jp^$third-party
 ||i2fxsez4f0.com^
 ||i2i.jp/bin/
@@ -178830,6 +178823,7 @@ zzzyk.com###Tinfo
 ||id.db4devs.com.br^
 ||id.google.*/verify/
 ||id.idnkt78.com^
+||id.nbcuni.com^
 ||id.rambler.ru/api/v3/session/getRsidx
 ||id.rambler.ru/login-20/counters.js
 ||id.verticalhealth.net/script.js?partnerid=
@@ -185997,6 +185991,7 @@ zzzyk.com###Tinfo
 ||kzuxlydg.icu^
 ||kzvdi.livom.it^
 ||kzvfc.mylilteddy.com^
+||kzw8q8wlms.com^
 ||kzwogbeq.astrocenter.co.il^
 ||kzymlc.msccroisieres.fr^
 ||kzzuaq.liberotech.it^
@@ -188258,7 +188253,6 @@ zzzyk.com###Tinfo
 ||liosix.studio55.fi^
 ||lipit.sandcloud.com^
 ||lipolym.erosbd.shop^
-||lipstat.com^
 ||liqmh.pureromance.com^
 ||liquid.agora.pl^
 ||liquipedia.net/mm.js
@@ -202865,7 +202859,6 @@ zzzyk.com###Tinfo
 ||my-info-ee.web.app^$all
 ||my-ranking.de^$third-party
 ||my-staging.villa.ge^
-||my-stats.info^$third-party
 ||my-testing.tsgo.io^
 ||my.11teamsports.bg^
 ||my.11teamsports.com^
@@ -204858,7 +204851,6 @@ zzzyk.com###Tinfo
 ||noiselessplough.com^
 ||nojma.1800flowers.com^
 ||nojscontainer.pepperjam.com^$third-party
-||nokaut.link^$third-party
 ||nokiseitjnemnew.jp^$doc
 ||nol.yahoo.com^
 ||nom.familysearch.org^
@@ -206813,7 +206805,6 @@ zzzyk.com###Tinfo
 ||opensubtitles.org/gfx/banners_campaigns/2x2.gif
 ||opentelemetry-collector.shared-services.us-east-1.general.prod.wildlife.io^
 ||opentracker.net^$third-party
-||opentracking.ru^$third-party
 ||openvenue.com^$third-party
 ||openway.deepseeksvc.com/v*/write/rum
 ||openweb.bid^$third-party
@@ -209007,7 +208998,6 @@ zzzyk.com###Tinfo
 ||pdlavr.erwinmueller.com^
 ||pdmap.hawaiianhost.com^
 ||pdmntn.com^$third-party
-||pdmp.jp^$third-party
 ||pdmsmrt.buick.ca^
 ||pdmsmrt.buick.com^
 ||pdmsmrt.cadillac.com^
@@ -211314,7 +211304,6 @@ zzzyk.com###Tinfo
 ||profitmetrics.io^$third-party
 ||profitrumour.com^
 ||profitshare.ro^$third-party
-||proftrafficcounter.com^
 ||profullversion.net^$all
 ||profusesupport.com^
 ||progameguides.com/*/openweb-tracking.js
@@ -212688,6 +212677,7 @@ zzzyk.com###Tinfo
 ||qlqaec.suamusica.com.br^
 ||qlqvej.bahia-principe.com^
 ||qlrbf.petersheppard.com.au^
+||qls7v6jd3.com^
 ||qlsngs.paruvendu.fr^
 ||qlspmy.xlmoto.be^
 ||qlsszi.lululemon.co.nz^
@@ -213451,10 +213441,8 @@ zzzyk.com###Tinfo
 ||r39-g003-h8ig0w-u8f0we8-fgw0rgf-0we880e-rhgth.obs.ap-southeast-2.myhuaweicloud.com^$all
 ||r3nvrr4uzh.com^
 ||r3sub.com/images/aaa^
-||r3sub.com/images/ccc/
-||r3sub.com/posters/0069810.jpg
+||r3sub.com/nb/
 ||r3sub.com/posters/00698128.jpg
-||r3sub.com^*0.gif
 ||r40h9qvpq.com^
 ||r40xff8q48.com^
 ||r42tag.com^
@@ -214194,6 +214182,7 @@ zzzyk.com###Tinfo
 ||redtrack.weeshop.dk^
 ||redtram.com/px/
 ||redtube.com^$removeparam=from
+||redtvxjmgjbtlw.com^
 ||reductioncarnival.com^$doc
 ||reduxcms-sgtm-staging.1800gotjunk.com^
 ||reduxcms-sgtm.1800gotjunk.com^
@@ -219244,7 +219233,6 @@ zzzyk.com###Tinfo
 ||semnicneposilejte.cz^$third-party
 ||sempra.pro/stat/
 ||semrush.com^$removeparam=source
-||semtracker.de^$third-party
 ||sen8senjya.jp^$doc
 ||send.merit.me^
 ||send.preply.com^
@@ -245172,6 +245160,7 @@ zzzyk.com###Tinfo
 ||sxk9m8x.cn^
 ||sxmxpm.nectarsleep.com^
 ||sxp.allianz.de^
+||sxq9xn7t3.com^
 ||sxrb.com/front/stat/
 ||sxs.7dmc.ae^
 ||sxtown.jp^$doc
@@ -248778,7 +248767,6 @@ zzzyk.com###Tinfo
 ||themepicker.com^
 ||themescientist.app/*/event.json
 ||themesltd.com/online-users-counter/$third-party
-||thench.net^$third-party
 ||thenextweb.com/geppetto/s.js
 ||thenurafix-ss.checkoutera.com^
 ||theoplayer.com/t?
@@ -250010,7 +249998,6 @@ zzzyk.com###Tinfo
 ||topsem.com^$third-party
 ||topshop.com/wcsstore/ConsumerDirectStorefrontAssetStore/images/trans_pixel.gif
 ||topshows.theotherpalace.co.uk^
-||topsite.lv^$third-party
 ||topspin.npo.nl^
 ||topstat.cn^$third-party
 ||topstat.com^$third-party
@@ -255646,7 +255633,6 @@ zzzyk.com###Tinfo
 ||ttp.dishsavings.com^
 ||ttr.dentixor.com^
 ||ttr.villaciniz.com.tr^
-||ttrace.ru^$third-party
 ||tts.timar.com.au^
 ||ttst.vagabondtoursofireland.com^
 ||ttt.dentalprofessionalscroazia.it^
@@ -256737,6 +256723,7 @@ zzzyk.com###Tinfo
 ||ujof.cn^
 ||ujq1.destinia.is^
 ||ujqgr.twothirds.com^
+||ujth40hl4i.com^
 ||ujvh.pandasuite.io^
 ||ujvqrs.meandem.com^
 ||ujwfrf.uniformix.pl^
@@ -257490,6 +257477,7 @@ zzzyk.com###Tinfo
 ||usgzei.vidaxl.ch^
 ||usimsa.com/_nuxt/kakaoPixel.
 ||usimsa.com/_nuxt/naverAdsScript.
+||usine-digitale.fr/pf/resources/newrelic.js
 ||usingde.com^
 ||usingyourcard.americanexpress.co.uk^
 ||usizy.com/external/pageview
@@ -259636,7 +259624,6 @@ zzzyk.com###Tinfo
 ||vplrvf.icu^
 ||vpltf.poplin.co^
 ||vpmdiq.propertyfinder.qa^
-||vpn-access.site^$third-party
 ||vpnmentor.com/jssdk/track/
 ||vpnpay.io$removeparam=arf
 ||vpnpay.io$removeparam=pr
@@ -268785,7 +268772,7 @@ zzzyk.com###Tinfo
 141jj.com##.moboad + .webad
 141jj.com#?#li:-abp-contains(/贊助|推廣/)
 141jj.com#?#li:contains(/贊助|推廣/)
-141jj.com,jumi.su,preface.ai,r3sub.com##a[href*="bit.ly"]
+141jj.com,jumi.su,preface.ai##a[href*="bit.ly"]
 146.sfap-qa1.marketingcloudqaops.com$image
 158pic.com###gaosu
 159i.com###body > table[width="100%"]
