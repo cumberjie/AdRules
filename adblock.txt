@@ -4,8 +4,8 @@
 ! Powerd by CatsTeam
 ! Expires: 12 Hours
 ! Description: 该规则合并自My AdFilters（for PC），EdentwCustom，adgk，Adaway，Uniartisan，规则以及乘风规则等
-! Version: 2026-06-15 23:42:21
-! Total count: 270771
+! Version: 2026-06-16 14:58:56
+! Total count: 270802
 ! ------加强屏蔽Start------ !
 
 !酷安"提到的好物"
@@ -11811,6 +11811,7 @@ $websocket,domain=wap.yushuwu.cloud
 @@||cdn.mxpnl.com/libs/mixpanel-2-latest.min.js$domain=twe.no
 @@||cdn.optimizely.com/datafiles/$domain=metro.at|metro.bg|metro-cc.hr|metro.fr|metro.it|metro-kz.com|metro.md|metro.pk|metro.ro|metro.rs|metro.sk|makro.es|metro-tr.com|metro.ua|makro.pt|metro.de
 @@||cdn.optimizely.com/datafiles/*.json$domain=alaskaair.com
+@@||cdn.optimizely.com/datafiles/*.json$domain=bbc.com
 @@||cdn.optimizely.com/datafiles/*.json$domain=feverup.com
 @@||cdn.optimizely.com/datafiles/*.json$domain=hm.com
 @@||cdn.optimizely.com/datafiles/*.json$domain=pizzahut.*
@@ -16557,7 +16558,6 @@ baidu.com##.tb-threadlist__item.tb-banner
 baidu.com##.tc-card[tpl="fc_before_fixads"]
 baidu.com##.text-advertise
 baidu.com##.text-link-ads
-baidu.com##.tieba-pause-ad-container
 baidu.com##.top-ad-cont
 baidu.com##.top-banner-ad-wrap
 baidu.com##.ts-qrcode
@@ -16596,6 +16596,7 @@ baidu.com##div.suggest-hot
 baidu.com##div.wa-guanfanghao-main
 baidu.com##div[class$="-ecom-ads"]
 baidu.com##div[class*="fc-"][tplid]
+baidu.com##div[class*="tieba-pause-ad-container"]
 baidu.com##div[data-ad]
 baidu.com##div[data-key^="ad__"]
 baidu.com##div[id^="toast"]
@@ -108157,7 +108158,12 @@ hao7zhe.com##.a_mu,[width="150"][height="300"],.a_pt,.wp.a_f
 haodf.com##div.closeid,div[class^="index_bottom"]
 haoduoyun.cc#?#.ebookRight > div.tb_cell.mb10:has(> div.listcell > div.lc_head >h2:contains(课本赞助商))
 haojiyou.la##.iqshwad-div
+haokan.baidu.com###art-player-wrapper > div[class^="ArtVideo_"][class*="-pause-ad"]
 haokan.baidu.com##.page-top-rightinfo-popover
+haokan.baidu.com##div[class^="guessLike_guess-like-index__"] ul[class^="guessLike_guess-list__"] > li[class^="guessLike_guess-item__"]:not([vid]):has(> div[class^="guessLike_guess-item-link__q"]:only-child)
+haokan.baidu.com##div[class^="videoList_videolist__"] > div[class^="videoList_videolist-item__"]:has(> div[class^="videoList_videolist-aditem__"])
+haokan.baidu.com##div[class^="video_land_pageBottomGuesslike__"] ul[class^="GuessLike_guess-list__"] > li[class^="GuessLike_guess-item__"]:not([vid]):empty
+haokan.baidu.com##div[class^="video_land_pageBottomGuesslike__"] ul[class^="GuessLike_guess-list__"] > li[class^="GuessLike_guess-item__"]:not([vid]):has(> div[class^="adItem_"])
 haokan5.com##.ad8,.ads
 haokoo.com##[href="http://m.moomcherry.com/jysd/"],[href^="http://item.m.jd.com/product/"]
 haolexiang.com##div.ctrl_ad,div.right_ad2
@@ -108714,7 +108720,6 @@ huanqiu.com#%#//scriptlet('set-constant', 'AD_SURVEY_Add_AdPos', 'noopFunc')
 huanqiu.com#%#//scriptlet('set-constant', 'AD_SURVEY_Add_AdPos_Simple', 'noopFunc')
 huaren.live##.action-ad
 huaren.live##.pause-love
-huaren.live,huavod.com#%#//scriptlet('prevent-setTimeout', 'bait.offsetHeight===0')
 huaren.live,huavod.com#@#.ad_unit
 huaren.live,umbooks.com#%#//scriptlet('prevent-window-open')
 huaren.tv##.live-client_left
@@ -108728,7 +108733,10 @@ huarenjie.net##div[style*="top: 50px;"]
 huavod.cc#%#(()=>{if(!location.href.includes("://huavod.cc/player/index.php"))return;const e=()=>{const e=document.querySelector("body > center > h1");e?.textContent?.includes("404 Not Found")&&(()=>{const e=top.document.querySelector('#playleft > iframe[src^="https://newplayer.huaren.live/player/index.php"]');e&&(e.src=e.src.replace("huaren.live","huavod.top"))})()};"loading"===document.readyState?document.addEventListener("DOMContentLoaded",e):e()})();
 huavod.cc,huavod.top,huaren.live,huavod.com,huavod.net##a[href^="/go/baba/"]
 huavod.cc,huavod.top,huavod.net,huaren.live,huavod.com##div[id^="anti-adblock-"]
+huavod.cc,huavod.top,huavod.net,huaren.live,huavod.com#%#//scriptlet('abort-current-inline-script', 'MutationObserver', 'isAdblocked')
+huavod.cc,huavod.top,huavod.net,huaren.live,huavod.com#%#//scriptlet('abort-on-stack-trace', 'document.querySelector', 'isAdblocked')
 huavod.cc,huavod.top,huavod.net,huaren.live,huavod.com#%#//scriptlet('prevent-addEventListener', 'DOMContentLoaded', 'showModal')
+huavod.cc,huavod.top,huavod.net,huaren.live,huavod.com#%#//scriptlet('prevent-setTimeout', '/bait\.offsetHeight===0|isAdblocked|requestAnimationFrame\(/')
 huavod.cc,huavod.top,huavod.net,huavod.com,huaren.live#%#//scriptlet('set-constant', 'ConFig.ad_duration_ms', '0')
 huavod.cc,huavod.top,huavod.net,huavod.com,huaren.live#%#//scriptlet('trusted-replace-node-text', 'script', 'ConFig', 'let ConFig', 'var ConFig')
 huavod.cc,huavod.top,huavod.net,huavod.com,huaren.live#%#//scriptlet('trusted-set-constant', 'ConFig.config.ads', '{"pause":{"state":{}}}')
@@ -128327,6 +128335,7 @@ zzzyk.com###Tinfo
 ||5u941.com^
 ||5uazcu2o1.com^
 ||5uxmusq.cn^
+||5v19ql3xi1.com^
 ||5vdd.com/360
 ||5vdd.com/ktt.png
 ||5vdd.com/mobile.jpg
@@ -128791,6 +128800,7 @@ zzzyk.com###Tinfo
 ||7ue931y0gn.com^
 ||7usgqu07mk.com^
 ||7w.ro/js/trk.js
+||7w7kditsz.com^
 ||7wbb.com^$doc
 ||7wrxo2xh.iriscreative.co^
 ||7wzx9.com/tbad.
@@ -129242,6 +129252,7 @@ zzzyk.com###Tinfo
 ||9nl.eu^$third-party
 ||9npze.com^$doc
 ||9o29nhxgp.com^
+||9obmf866d.com^
 ||9odes.ltd^
 ||9oru1vh0w.com^
 ||9oxhstb2m2.com^
@@ -135601,6 +135612,7 @@ zzzyk.com###Tinfo
 ||adtd.parfumdreams.pt^
 ||adtd.parfumdreams.se^
 ||adtech-events.bookmyshow.com^
+||adtech.abs-cbn.com^
 ||adtech.yahooinc.com^
 ||adtechjp.com^
 ||adtechus.com^
@@ -144021,6 +144033,7 @@ zzzyk.com###Tinfo
 ||bagsurprise.com^
 ||bahamashello.com^
 ||bahamut.com.tw/js/ad.js
+||bahpqcq.com^
 ||bahrpo.dint.co.kr^
 ||bahyei.himaraya.co.jp^
 ||bai.luyouwang.com^
@@ -154620,6 +154633,7 @@ zzzyk.com###Tinfo
 ||d2o67tzzxkqap2.cloudfront.net^
 ||d2o9p5vky89u4e.cloudfront.net^
 ||d2oh4tlt9mrke9.cloudfront.net^
+||d2pfd8w05h.com^
 ||d2pozfvrp52dk4.cloudfront.net^
 ||d2pt12ct4kmq21.cloudfront.net^
 ||d2qmp7jjpd79k7.cloudfront.net^
@@ -160909,6 +160923,7 @@ zzzyk.com###Tinfo
 ||dndvms.24s.com^
 ||dndvms.24sevres.com^
 ||dnecea.vacances-lagrange.com^
+||dneimig.com^
 ||dneue.rufskin.com^
 ||dnevnik.si/tracker/
 ||dnews.alfaromeo.it^
@@ -172192,6 +172207,7 @@ zzzyk.com###Tinfo
 ||gtcslt-di2.com^$third-party
 ||gtekk.billallenlaw.com^
 ||gter.net/index.html?c=foot_js&type=footer.js
+||gtethuui.com^
 ||gteut.bareperformancenutrition.com^
 ||gtex3.com^$doc
 ||gtfccewpo.com^
@@ -176658,6 +176674,7 @@ zzzyk.com###Tinfo
 ||hdnse.newtonbaby.com^
 ||hdnux.com/HNP/stats/page_view?
 ||hdpdrandpd.xyz^
+||hdrezka.ax/api/logs/event
 ||hdsaison-$doc,to=cc|vip|~hdsaison.com.vn
 ||hdsky.me/adv/
 ||hdslb.com/*-tracker.js
@@ -176694,6 +176711,7 @@ zzzyk.com###Tinfo
 ||health.atlanticgeneral.org^
 ||health.brgeneral.org^
 ||health.com/*googletagmanager.com*gtm.js
+||health.ems.onet.pl/*/metric/collector
 ||health.fishersci.com^
 ||health.flowplayer.com^
 ||health.hillcrest.com^
@@ -202637,6 +202655,7 @@ zzzyk.com###Tinfo
 ||multilocal-leboncoin.com^$all
 ||multimedia.netplusentremont.ch^
 ||multiple46.top^
+||multiplication29.top^
 ||multiply5.top^
 ||multiup.us/cdn-cgi/trace
 ||multiyogaoffer.jp.net^$all
@@ -207554,6 +207573,7 @@ zzzyk.com###Tinfo
 ||p.ianmjones.com^
 ||p.iforge.app^
 ||p.imgur.com^
+||p.imgur.gg^
 ||p.jmlp.app^
 ||p.junshi881.com^
 ||p.junshifuxin.com^
@@ -209396,6 +209416,7 @@ zzzyk.com###Tinfo
 ||phyins.actonservice.com^
 ||physicstees.com^
 ||phywi.org^$third-party
+||phzlhhfidmntxc.com^
 ||pi-stats.com^$third-party
 ||pi-tarina.com^$doc
 ||pi.ai/proxy/api/event
@@ -209561,6 +209582,7 @@ zzzyk.com###Tinfo
 ||pings.conviva.com^
 ||pings.vidpulse.com^
 ||pingshetrip.com^
+||pingsurvey.com^
 ||pingtas.qq.com^
 ||pingtcss.qq.com^
 ||pingwest.com/api/news_ad
@@ -209957,6 +209979,7 @@ zzzyk.com###Tinfo
 ||pkvs.com/public/300/
 ||pkvs.com/public/as.js
 ||pkwnpgsex.com^
+||pkytxfiin.com^
 ||pl-go.experian.com^
 ||pl-topgal.m-shop.me^
 ||pl.1feed.app^
@@ -210052,6 +210075,7 @@ zzzyk.com###Tinfo
 ||plankton-gtm.a.autoscout24.com^
 ||plans.ceteraretirement.com^
 ||plans.fundtherebuild.com^
+||plantcourse.com^
 ||plants.outsidein.com^
 ||plarium.com/landings/$removeparam
 ||plas.imfeld.dev^
@@ -211020,6 +211044,8 @@ zzzyk.com###Tinfo
 ||prio.priomartbd.com^
 ||priority-app.hotdoc.com.au^
 ||priority.careskillstraining.org^
+||prisjakt.no/_next/monitoring
+||prisjakt.no/rbr9/
 ||prisjakt.nu/js.php?p=trafikfonden
 ||prism.app-us1.com^$script,third-party
 ||prism.drivingkyoto.com^
@@ -212738,6 +212764,7 @@ zzzyk.com###Tinfo
 ||qnlh1.paintingpan.com^
 ||qnmhf.nalgene.com^
 ||qnmjv.sokolovelaw.com^
+||qnpy8bumnc.com^
 ||qnqdpy.edreams.net^
 ||qnqvm.nohohomehawaii.com^
 ||qnsb.com/news/index.php?m=poster&
@@ -214403,6 +214430,7 @@ zzzyk.com###Tinfo
 ||renotifier.miniclippt.com/rntracking.js
 ||renren*.maoyun.tv/apptu/
 ||renrenkanpian.com^
+||rent.com/api/analytics|
 ||rent.mgrc.com^
 ||rentinfinity.com^
 ||renting.aldautomotive.es^
@@ -217699,7 +217727,6 @@ zzzyk.com###Tinfo
 ||sas.f.stable-int.peacocktv.com^
 ||sas.int-nft.peacocktv.com^
 ||sas.nsm-corp.com^
-||sas.peacocktv.com^
 ||sas.stable-int.peacocktv.com^
 ||sas15k01.com^$third-party
 ||sasadown.cn/ad/
@@ -219386,6 +219413,7 @@ zzzyk.com###Tinfo
 ||sentrymagic.com^
 ||senut.illesteva.com^
 ||senuti.org^$doc
+||senvio.ai/api/*/events/
 ||senxiaopang.top^
 ||seo-master.net^$third-party
 ||seo-service.domclick.ru^
@@ -222424,6 +222452,7 @@ zzzyk.com###Tinfo
 ||sesefu8.com/index.php?m=poster&
 ||sesefu8.com/statics/js/layer/layer.js
 ||seselagi.com^$doc
+||session-api.cloud.pji.nu/sessions/*/events
 ||session.mediacharge.com^
 ||session.timecommerce.net^
 ||sessioncam.com^$third-party
@@ -261380,6 +261409,7 @@ zzzyk.com###Tinfo
 ||wellsfargo.com/jenny/
 ||wellsfargo.com/tas|
 ||wellsfargo.com/tracking/
+||welovedata.go2cloud.org^
 ||welt-der-links.de^$third-party
 ||welt.de/assets/resources/webtrekk^
 ||welt.de/webtrekk/
@@ -264641,6 +264671,7 @@ zzzyk.com###Tinfo
 ||xsyhy.cn^
 ||xt.haircompounds.com^
 ||xt1nx0rs7n.com^
+||xt8esrr.com^
 ||xt918.com^
 ||xtazfx.50factory.com^
 ||xtbzff.xyz^
