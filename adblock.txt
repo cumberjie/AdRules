@@ -4,8 +4,8 @@
 ! Powerd by CatsTeam
 ! Expires: 12 Hours
 ! Description: 该规则合并自My AdFilters（for PC），EdentwCustom，adgk，Adaway，Uniartisan，规则以及乘风规则等
-! Version: 2026-06-17 13:38:24
-! Total count: 270377
+! Version: 2026-06-17 23:19:51
+! Total count: 270378
 ! ------加强屏蔽Start------ !
 
 !酷安"提到的好物"
@@ -203563,6 +203563,7 @@ zzzyk.com###Tinfo
 ||netlify-rum.netlify.app^
 ||netlify.app/errox01/?$all
 ||netlify.app/help/support/client_id=$doc
+||netlify.app/text.js|$1p
 ||netlog.ru^$third-party
 ||netmarbleslog.netmarble.com^
 ||netmera-web.com^$third-party
