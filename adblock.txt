@@ -4,8 +4,8 @@
 ! Powerd by CatsTeam
 ! Expires: 12 Hours
 ! Description: 该规则合并自My AdFilters（for PC），EdentwCustom，adgk，Adaway，Uniartisan，规则以及乘风规则等
-! Version: 2026-06-18 12:47:47
-! Total count: 270401
+! Version: 2026-06-18 23:41:37
+! Total count: 270404
 ! ------加强屏蔽Start------ !
 
 !酷安"提到的好物"
@@ -106474,6 +106474,7 @@ fh21.com.cn##.adv
 fhm.com.tw###add-box
 fhxy-a.top##.sd_recpic
 fifm.live###player_ad,.adsbygoogle
+fileditchfiles.me##+js(no-fetch-if, method:POST body:/pageview|engagement/)
 filmaker.cn###frame2gS3Ea
 finance.eastmoney.com###ContentBody > p[style="text-align:center;"]:has(> a[href^="https://acttg.eastmoney.com/pub/"])
 finance.ettoday.net##.all_news_text1
@@ -160318,6 +160319,7 @@ zzzyk.com###Tinfo
 ||dls2s.appsflyer.com^
 ||dlscord*.$all
 ||dlscrod*.$all
+||dlsite.com/maniax/dlaf/=/aid/*/url/$urlskip=/\/url\/(http.+)/ -uricomponent
 ||dlso-ap96.macgamingdb.app^
 ||dlswbr.baidu.com/heicha/mw/abclite-*.js
 ||dlswbr.baidu.com^
@@ -184245,6 +184247,7 @@ zzzyk.com###Tinfo
 ||kapkh.cn^
 ||kaqzb.fatbikeskopen.nl^
 ||kardon-rsa.com^$doc
+||karedeutschland.com^$all
 ||karelcapek.co.jp/Scripts/tracker.js
 ||karelia.info/counter/
 ||kari.com^$cookie=/^sid_/
