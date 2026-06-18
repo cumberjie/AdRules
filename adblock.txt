@@ -4,8 +4,8 @@
 ! Powerd by CatsTeam
 ! Expires: 12 Hours
 ! Description: 该规则合并自My AdFilters（for PC），EdentwCustom，adgk，Adaway，Uniartisan，规则以及乘风规则等
-! Version: 2026-06-17 23:19:51
-! Total count: 270378
+! Version: 2026-06-18 12:47:47
+! Total count: 270401
 ! ------加强屏蔽Start------ !
 
 !酷安"提到的好物"
@@ -2212,6 +2212,7 @@ $cookie=_sharedID_cst
 $cookie=_sharedid
 $cookie=_sharedid_cst
 $cookie=_shopify_analytics
+$cookie=_shopify_marketing
 $cookie=_shopify_y
 $cookie=_sotmpid
 $cookie=_sotmsid
@@ -2283,7 +2284,11 @@ $cookie=cX_LSS
 $cookie=cX_P
 $cookie=cX_S
 $cookie=camps,domain=wp.pl|money.pl|o2.pl|pudelek.pl|komorkomania.pl|gadzetomania.pl|fotoblogia.pl|autokult.pl|abczdrowie.pl|parenting.pl|videostar.pl|autocentrum.pl|benchmark.pl
+$cookie=cfz_adobe
+$cookie=cfz_facebook
+$cookie=cfz_facebook-pixel
 $cookie=cfz_google-analytics_v4
+$cookie=cfz_reddit
 $cookie=cfzs_google-analytics_v4
 $cookie=clRequestId
 $cookie=clVisitorId
@@ -6837,6 +6842,7 @@ $websocket,domain=wap.yushuwu.cloud
 /e.emails.ugg.com/o/p/*$image
 /e.gif?
 /e.mailer.*/o/p/*$image
+/e/*^ip=*^beacon=
 /e/ecmsshop/zhuanpan/js/*
 /e1t/o/*$image
 /e2t/o/*$image
@@ -15830,7 +15836,6 @@ androidauthority.com##+js(remove-cookie, _ALGOLIA, when, scroll keydown)
 androidauthority.com,cnet.com,hunker.com,insidehook.com,jljbacktoclassic.com,mobygames.com,nbcnews.com,otherweb.com,pcpartpicker.com,pcgamingwiki.com,popularmechanics.com,purewow.com,space.com,sport-passion.fr,thekitchn.com,tomshardware.com,zdnet.com##+js(href-sanitizer, 'body a[href*="?"][href*="url=http"]:is([href^="https://cc."][href*=".com/v1/otc/"],[href^="https://go.skimresources.com"],[href^="https://go.redirectingat.com"],[href^="https://invol.co/aff_m?"],[href^="https://shop-links.co/link"],[href^="https://track.effiliation.com/servlet/effi.redir?"],[href^="https://atmedia.link/product?url=http"],[href*=".com/a.ashx?"],[href^="https://www."][href*=".com/t/"],[href*=".prsm1.com/r?"],[href*=".com/click-"],[href*=".net/click-"],a[href*=".com/t/t?a="],a[href*=".dk/t/t?a="])', ?url)
 androiddevtools.cn###auto-scroll-ad-box
 androidpolice.com,makeuseof.com,movieweb.com,xda-developers.com##+js(cookie-remover, /articlesRead|previousPage/) 
-androplus.org##a[href^="https://px.a8.net/"]
 andylain.com,bee.coupons,blogspot.com,blogspot.hk,blogspot.jp,blogspot.tw,comic.tw,jasonblog.tw#@#.vertical-ads
 angels.webspecmail.com$image
 angelweb.cn###G640x60
@@ -108498,19 +108503,18 @@ huarenjie.com###LeftAd2
 huarenjie.com###RightAd2
 huarenjie.com###cftoutiao
 huarenjie.net##div[style*="top: 50px;"]
-huavod.cc#%#(()=>{if(!location.href.includes("://huavod.cc/player/index.php"))return;const e=()=>{const e=document.querySelector("body > center > h1");e?.textContent?.includes("404 Not Found")&&(()=>{const e=top.document.querySelector('#playleft > iframe[src^="https://newplayer.huaren.live/player/index.php"]');e&&(e.src=e.src.replace("huaren.live","huavod.top"))})()};"loading"===document.readyState?document.addEventListener("DOMContentLoaded",e):e()})();
 huavod.cc,huavod.top,huaren.live,huavod.com,huavod.net##a[href^="/go/baba/"]
 huavod.cc,huavod.top,huavod.net,huaren.live,huavod.com##div[id^="anti-adblock-"]
 huavod.cc,huavod.top,huavod.net,huaren.live,huavod.com#%#//scriptlet('abort-current-inline-script', 'MutationObserver', 'isAdblocked')
 huavod.cc,huavod.top,huavod.net,huaren.live,huavod.com#%#//scriptlet('abort-on-stack-trace', 'document.querySelector', 'isAdblocked')
 huavod.cc,huavod.top,huavod.net,huaren.live,huavod.com#%#//scriptlet('prevent-addEventListener', 'DOMContentLoaded', 'showModal')
 huavod.cc,huavod.top,huavod.net,huaren.live,huavod.com#%#//scriptlet('prevent-setTimeout', '/bait\.offsetHeight===0|isAdblocked|requestAnimationFrame\(/')
+huavod.cc,huavod.top,huavod.net,huavod.com,huaren.live#%#//scriptlet('abort-on-stack-trace', 'Element.prototype.attachShadow', 'Object.Score')
 huavod.cc,huavod.top,huavod.net,huavod.com,huaren.live#%#//scriptlet('set-constant', 'ConFig.ad_duration_ms', '0')
+huavod.cc,huavod.top,huavod.net,huavod.com,huaren.live#%#//scriptlet('trusted-replace-argument', 'Document.prototype.getElementById', '0', 'no_player-vip', 'player-vip')
 huavod.cc,huavod.top,huavod.net,huavod.com,huaren.live#%#//scriptlet('trusted-replace-node-text', 'script', 'ConFig', 'let ConFig', 'var ConFig')
 huavod.cc,huavod.top,huavod.net,huavod.com,huaren.live#%#//scriptlet('trusted-set-constant', 'ConFig.config.ads', '{"pause":{"state":{}}}')
-huavod.cc,huavod.top,huavod.net,huavod.com,huaren.live#%#//scriptlet('trusted-set-constant', 'mac_player_info.from', 'ARTVIPA')
 huavod.com##a[href^="https://lesi198.com"]
-huavod.net#%#(()=>{const e=()=>{const e=document.querySelector('iframe[src^="https://newplayer.huavod.net/player/index.php?code="]');if(e){const n=e.src.replace("://newplayer.huavod.net/","://newplayer.huaren.live/");e.src=n}};"loading"===document.readyState?document.addEventListener("DOMContentLoaded",e):e()})();
 huawei.com#@#.ad-section
 huawei.com#@#.ad-wrap:not(#google_ads_iframe_checktag)
 hubei.gov.cn#@##ad-side
@@ -126193,6 +126197,7 @@ zzzyk.com###Tinfo
 ||107788.com^$third-party
 ||109.123.233.251^
 ||109218er.xyz^
+||10eni3ogoo.com^
 ||10fang.com/static/skin/tfy/layer/layer.js
 ||10haber.net/cu1m/
 ||10stepswp.advancedtech.com^
@@ -141147,6 +141152,7 @@ zzzyk.com###Tinfo
 ||app.newsletter.bisnow.com^
 ||app.nhra.com^
 ||app.nhrmcmychart.com^
+||app.nicealts.com/user/referral/visit
 ||app.nissan.my-nissan-usa.com^
 ||app.niuhuskies.com^
 ||app.nootric.com^
@@ -145216,6 +145222,7 @@ zzzyk.com###Tinfo
 ||bjrfg.julep.com^
 ||bjs.faxingzhan.com^
 ||bjs.mscto.com^
+||bjsr03odzu.com^
 ||bjsxt.com/statics/js/bjsxt/js.js
 ||bjtag.littlespoon.com^
 ||bjtrld.com^
@@ -147170,6 +147177,7 @@ zzzyk.com###Tinfo
 ||c677.wisn.com^
 ||c6hhfkvxv.com^
 ||c6lc.pandasuite.io^
+||c6nxtri65t.com^
 ||c705.trentonian.com^
 ||c783.fastcompany.com^
 ||c7bijgz6zr.com^
@@ -150258,7 +150266,6 @@ zzzyk.com###Tinfo
 ||cloudflare.com/ajax/libs/fingerprintjs2/$script,redirect=fingerprintjs2,domain=gamebox.gesoten.com,important
 ||cloudflare.com/ajax/libs/jBox/$domain=localmv1.com
 ||cloudflare.com/cdn-cgi/trace$third-party,domain=~isbgpsafeyet.com|~wyndhamdestinations.com
-||cloudflare.com^$cookie=cfz_facebook-pixel
 ||cloudflare.st^
 ||cloudflareinsights.com^$third-party
 ||cloudfront-666.kxcdn.com/v4.js
@@ -151508,6 +151515,7 @@ zzzyk.com###Tinfo
 ||compliance.coniferhealth.com^
 ||compliance.govdocs.com^
 ||complianceupdates.aem.org^
+||compo-de.frontnow.app/api/event|
 ||components.justanswer.com/v3/main-tracking-script@released.js
 ||components2.*.it/rcs_tealium/
 ||components2.corriereobjects.it/rcs_data-tracking/
@@ -161329,6 +161337,7 @@ zzzyk.com###Tinfo
 ||dufbut.wtennis.com.br^
 ||dufile.com/jsa/
 ||dugout.co/das2.js
+||dugun.com^$cookie=uniqueId
 ||duhnet.tv/*/*/stats/init.min.js
 ||duier.top^
 ||duiwai.baidu.com^
@@ -169831,6 +169840,7 @@ zzzyk.com###Tinfo
 ||gkhergik.com^
 ||gkjmev3.com^
 ||gkkul.photozyme.com^
+||gklsfigkom.com^
 ||gkm.eriklopez.com.br^
 ||gknybkl.cn^
 ||gkopqp.coccodrillo.eu^
@@ -170064,6 +170074,7 @@ zzzyk.com###Tinfo
 ||gmxvmvptfm.com^
 ||gn.informaengage.com^
 ||gn01.top^
+||gn4yz5v9z.com^
 ||gn6u494hn.com^
 ||gnan.jp^$doc
 ||gnar.grammarly.com^
@@ -175474,6 +175485,7 @@ zzzyk.com###Tinfo
 ||gumgo.cn^$third-party
 ||gummy-debt.com^
 ||gumtree.com.au/tracking/
+||gun2v2neoo.com^
 ||gunmi.cn^$third-party
 ||guoad.com^
 ||guodulvyou.xyz^
@@ -176687,6 +176699,7 @@ zzzyk.com###Tinfo
 ||hi.xiunm.com^
 ||hi.xn--europenne-tests-de-produits-foc.fr^
 ||hi.zaufanarecenzja.pl^
+||hi2gmx3e1.com^
 ||hi2pv3e9pr.com^
 ||hi407ezyz.com^
 ||hi4c61mi8d.com^
@@ -178939,7 +178952,6 @@ zzzyk.com###Tinfo
 ||im286.net/286/
 ||image-ad.sm.cn^
 ||image-play.net^$doc
-||image-sap.sfmc-content.com^
 ||image-shop.baidu.com/n/imageproduct?
 ||image.39.net/style/
 ||image.51cto.com/ad/
@@ -184680,6 +184692,7 @@ zzzyk.com###Tinfo
 ||kingfisher.gedaly.com^
 ||kingnews.burgerking.co.za^
 ||kingsandqueens.splowser.com^
+||kingsealed.com^
 ||kingsoft-office-service.com/ad?
 ||kinhincauking.website^
 ||kinisi.mkb-brandstof.nl^
@@ -204635,6 +204648,7 @@ zzzyk.com###Tinfo
 ||nptkpt.vangraaf.com^
 ||npunr.cn^
 ||npuuh.ecoenclose.com^
+||npuwalz.com^
 ||npvbjv.yourroom.ru^
 ||npvcb.23andme.com^
 ||npvcfn.icu^
@@ -208736,6 +208750,7 @@ zzzyk.com###Tinfo
 ||perfo.salestube.pl^$removeparam=aff_click_id
 ||perfops.io^$third-party
 ||perfops.net/rom3/
+||performance-events.guardianapis.com^
 ||performance-logger.minted.com^
 ||performance.athleticgym.com.co^
 ||performance.inncollectiongroup.com^
@@ -210846,6 +210861,7 @@ zzzyk.com###Tinfo
 ||product.cel-fi.com^
 ||product.cloud.travelport.com^
 ||product.waterandplant.com^
+||product28.top^
 ||productcatalog.channeladvisor.com^$document,removeparam=DeviceTypeId
 ||productcatalog.channeladvisor.com^$document,removeparam=InteractionSessionId
 ||productcatalog.channeladvisor.com^$document,removeparam=PCAT_vNextTracking_LocalWidget
@@ -214564,6 +214580,7 @@ zzzyk.com###Tinfo
 ||rh1a.granions.fr^
 ||rhaam.phoozy.com^
 ||rhahvac.actonservice.com^
+||rhaol5omof.com^
 ||rhava.supportpets.com^
 ||rhdcmp.maxcolchon.com^
 ||rhea-cache.advividnetwork.com/tracker/
@@ -214921,6 +214938,7 @@ zzzyk.com###Tinfo
 ||roboform.com^$removeparam=s1
 ||robotflowermobile.com^
 ||robotgarages.com^
+||robotsrefinery.com^
 ||robtips50kj.blogspot.com^$all
 ||rochelle.wantsext.me^
 ||rockagainst.com^
@@ -241020,6 +241038,7 @@ zzzyk.com###Tinfo
 ||starfiles.co/analytics.php
 ||starfish.pandora.xiaomi.com^
 ||starfish.taskflow.io^
+||starfurniture.net^
 ||stargame.com/g.js
 ||stargate-spiritual.com^$doc
 ||stargate-spiritual.net^$doc
@@ -246763,6 +246782,7 @@ zzzyk.com###Tinfo
 ||taqrr.fromourplace.co.uk^
 ||tarantula.searchbox.tech^
 ||tarantula.tuxedo.media^
+||tarbfjimpnnbvi.com^
 ||target-omtrdc.deka.de^
 ||target-test.cisco.com^
 ||target-us.samsung.com^
@@ -252199,6 +252219,7 @@ zzzyk.com###Tinfo
 ||tracker-beam.tempo.co^
 ||tracker-dot-dfty-optimeeze-leroymerlinfr.appspot.com^
 ||tracker-dot-optimeeze.appspot.com^
+||tracker-proxy.getmimo.com^
 ||tracker-rec.smart-bdash.com^
 ||tracker-remp.active.radio^
 ||tracker-remp.premiumtimesng.com^
@@ -259896,6 +259917,7 @@ zzzyk.com###Tinfo
 ||warnwing.com^
 ||warrenfcu.actonservice.com^
 ||warrjy.feiler.jp^
+||wart.val.town^
 ||warthog4.top^
 ||warting.com/plus/hezuo.php?aid=
 ||was.epson.com^
@@ -261676,6 +261698,7 @@ zzzyk.com###Tinfo
 ||work.rubberco.co.uk^
 ||work.selecdoo.com^
 ||work.ua/analytics/view-page/
+||work.ua/api/v1/view-page/
 ||worker-app-dev.buildforce.com^
 ||worker-app-staging.buildforce.com^
 ||worker-app.buildforce.com^
