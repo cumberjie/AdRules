@@ -4,8 +4,8 @@
 ! Powerd by CatsTeam
 ! Expires: 12 Hours
 ! Description: 该规则合并自My AdFilters（for PC），EdentwCustom，adgk，Adaway，Uniartisan，规则以及乘风规则等
-! Version: 2026-06-18 23:41:37
-! Total count: 270404
+! Version: 2026-06-19 13:31:54
+! Total count: 270429
 ! ------加强屏蔽Start------ !
 
 !酷安"提到的好物"
@@ -109904,6 +109904,7 @@ jstv.com##.jadv
 jstv.com##DIV.bannerad,DIV.gg1,DIV.content_gg,DIV.delayadv,div.jadv,DIV#vplayad
 jszbug.com##.alert-danger
 jthysh.com##.box980
+jucha.com##.money_item
 juejin.cn##.activity-recommend
 juejin.cn##.aside.index-aside > .shadow.app-download-sidebar-block.sidebar-block
 juejin.cn##.recommend-box
@@ -114143,6 +114144,8 @@ mitbbs.ca,mitbbs.com##table[width="915"] > tbody > tr:first-child > td[width]
 miui.com###app
 miui.com##.single-poster-out__img
 miushuo.com###leftDiv1
+mixytalk.com###ad-interstitial
+mixytalk.com##.result-inline-ad
 mjzj.com##div[id^="sidebar-top-carouse"]
 mkt-email.servbay.com$image
 mkt.gitlab.cn$image
@@ -119844,6 +119847,7 @@ theplanet.ws##a[href="http://mycounter.com.ua/"]
 theporn.cc##.gg-config
 theporn.cc##.toolbar-gg
 theqoo.net##.theqoo-counter
+thestar.com.my#%#//scriptlet('set-local-storage-item', 'nx_anon_id_v1', '$remove$')
 theverge.com##+js(remove-cookie, vmidv1)
 theverge.com##+js(set-local-storage-item, csg_uid, $remove$)
 thewindowsclub.com##.entry-content > div > strong:has-text(find & fix Windows error)
@@ -123936,13 +123940,15 @@ wdzj.com##div[class$="-ad-top"]
 wdzzz.com##.zz
 wdzzz.com##.zz_nr
 we5200.com##table[bordercolor="#ffcc66"][width="900"]
+wealth.com.tw##div[class]:has(> div[class] > div[class^="rytass-ad-manager-"]:only-child)
+wealth.com.tw#?##root > div[class] > div[class] div[class] > div[class]:not([class*=" "], [id]):matches-property(/__reactFiber/.return.pendingProps.gtmCode=/^GTM-/)
 wealth.com.tw#?##root > div[class] > div[class]:matches-css(z-index: 4):has(> button path[d^="M16 4c6.627 0 12 5.373"])
 wealth.com.tw#?##root > div[class] > div[class]:matches-css(z-index: 4):has(> div[class]:matches-css(height: 250px))
+wealth.com.tw#?##root > div[class] > div[class]:matches-property(/__reactFiber/.return.elementType.displayName=/HeaderAdvertisement/)
 wealth.com.tw#?##root div[class]:matches-css(padding-left: 70px) > div[class]:matches-css(column-gap: 30px):has(> div[class]:matches-css(align-items: center))
 wealth.com.tw#?##root div[class]:matches-css(position: relative) > div[class]:matches-css(justify-content: center):has(> div[class]:matches-css(width: 300px))
 wealth.com.tw#?##root div[class]:matches-css(row-gap: 13px) > div[class]:matches-css(row-gap: 6px):has(> div[class]:matches-css(width: 300px))
 wealth.com.tw#?#div[class]:-abp-has(>div[class]>div[class*="-ad-manager-"])
-wealth.com.tw#?#div[class]:has(> div[class] > div[class^="rytass-ad-manager-"]:only-child)
 wealth.com.tw#?#div[class]:has(>div[class]>div[class*="-ad-manager-"])
 wealwomen.com##div[data-cptid]
 weather.com.cn###adtop_r
@@ -126580,6 +126586,7 @@ zzzyk.com###Tinfo
 ||1bva.sg.fr^
 ||1bw7etm93lf.www.woodbrass.com^
 ||1ccbt.com^
+||1cimslrk3.com^
 ||1cpbac.ru^
 ||1ctc.sfr.fr^
 ||1ddbsf9ac5v.vendorportal.bestseller.com^
@@ -128499,6 +128506,7 @@ zzzyk.com###Tinfo
 ||89mtdab.xyz^
 ||8bnouo6r6.com^
 ||8chj9.com^
+||8cjk04e7sb.com^
 ||8clkggoo62.com^
 ||8cnd.com^
 ||8d4b.pandasuite.io^
@@ -138324,7 +138332,6 @@ zzzyk.com###Tinfo
 ||analytics.omniscientai.com^$third-party
 ||analytics.omnivent.com^
 ||analytics.ompgroup.com^
-||analytics.onedio.com^
 ||analytics.onlinehomeretail.co.uk^
 ||analytics.onlyonlinemarketing.com^
 ||analytics.ooyala.com^
@@ -139357,6 +139364,7 @@ zzzyk.com###Tinfo
 ||api.andrologiachapeco.com.br^
 ||api.anthonymiranda.com.br^
 ||api.antibanads.com^
+||api.anyembed.xyz/api/user/event|
 ||api.apiimg.com/huaer/xiahe.js
 ||api.apiok.net.iberostar.com^
 ||api.aposentadoriamilitar.site^
@@ -144927,6 +144935,7 @@ zzzyk.com###Tinfo
 ||bike.turbobd.com^
 ||bikeexerciser.com^
 ||bikemag.com/.api/admiral
+||bikemanw.com^
 ||bikepaws.com^
 ||bikesboard.com^
 ||biketo.com/d/file/p/
@@ -149991,6 +150000,7 @@ zzzyk.com###Tinfo
 ||clickguard.com^$third-party
 ||clickguardian.app^$third-party
 ||clickguardian.co.uk^$third-party
+||clickhouse-collector.*.prod.plat.agency^
 ||clicki.cn^
 ||clicki.cn^$third-party
 ||clickinc.com^$third-party
@@ -159380,7 +159390,7 @@ zzzyk.com###Tinfo
 ||devtracking.risk.lexisnexis.com^
 ||devtribu.fr/t.php?
 ||dewdroplagoon.com^
-||dex.hu/x.php
+||dex.hu/x.php$xmlhttprequest
 ||dex50.deteql.net^
 ||dexinyi.cn^
 ||dextersolutions.actonservice.com^
@@ -162575,6 +162585,7 @@ zzzyk.com###Tinfo
 ||edijz.uspoloassn.com^
 ||edisound.com/api/p/medias/stats
 ||edisound.com/api/p/stats
+||edit-api-*.capcut.com/lv/v1/event/
 ||edit-document.com/click-event/
 ||edith-seb.xiaohongshu.com^
 ||edith.xiaohongshu.com/api/sns/web/v1/note/metrics_report
@@ -169675,6 +169686,7 @@ zzzyk.com###Tinfo
 ||gid.tapapis.cn^
 ||giddycoat.com^
 ||giddyuptrk.com^$third-party
+||gie0izinx.com^
 ||gif1.gifi.fr^
 ||gifcdncn.trafficmanager.net^
 ||gift.bangla-deal.com^
@@ -194079,6 +194091,7 @@ zzzyk.com###Tinfo
 ||lvula.4joypaddles.com^
 ||lvuptech.com/wp-content/plugins/deblocker/
 ||lvvhp.focl.com^
+||lvykdmk.icu^
 ||lvz.de/viewlog_receiver.php?
 ||lvzs619n1c.com^
 ||lw-c-log.lastwarapp.com^
@@ -197264,6 +197277,7 @@ zzzyk.com###Tinfo
 ||mcs-*.lemon8-app.us^
 ||mcs-*.tiktok.com^
 ||mcs-ie.tiktokw.eu^
+||mcs-normal-*.capcutapi.com^
 ||mcs-va-*.tiktokv.com^
 ||mcs-va-useast2a.tiktokv.com^
 ||mcs-va.capcutapi.com^
@@ -204054,6 +204068,7 @@ zzzyk.com###Tinfo
 ||nhuk707eex.com^
 ||nhukg.hyerboots.com^
 ||nhuovb.vpg.no^
+||nhwqjyn.icu^
 ||nhy9i8t56f.com^
 ||nhyvhmvw.com^
 ||nhzrlz.nieuwnieuw.com^
@@ -207296,6 +207311,7 @@ zzzyk.com###Tinfo
 ||p644.thereporter.com^
 ||p66jed4iv.com^
 ||p67-kuku4e.xyz^$doc
+||p6q6qpze3f.com^
 ||p70y44odg.com^
 ||p74ugyuur.com^
 ||p769.wgal.com^
@@ -208909,6 +208925,7 @@ zzzyk.com###Tinfo
 ||pgtrh.alicelanehome.com^
 ||pgznc.canadaswonderland.com^
 ||ph.bioharmonygoods1.com^
+||ph.givebutter.com^$ping
 ||phadia.thermo.com^
 ||phadia.thermofisher.com^
 ||phaja.littlebipsy.com^
@@ -212800,6 +212817,7 @@ zzzyk.com###Tinfo
 ||quora.com/qevents.js
 ||quora.com^$removeparam=share
 ||quotev.com/ajax/ping
+||quotient75.com^
 ||quotiq.ru/api/client_events
 ||qurl.f.360.cn^
 ||qursbq.berceaumagique.com^
@@ -213463,6 +213481,7 @@ zzzyk.com###Tinfo
 ||rdlrbm.studying.jp^
 ||rdm.containervip.com.br^
 ||rdmpkv76tv.com^
+||rdntpbeivqbjhi.com^
 ||rdoiwy.msccroisieres.ch^
 ||rdpcom.com^
 ||rdr.aromatica.one^
@@ -238177,6 +238196,7 @@ zzzyk.com###Tinfo
 ||ssyy881.com/zz/
 ||st-*.dynamicyield.com^
 ||st-5cva8vttppvjafpc7jvj.kodik.biz^
+||st-a.cdp.asia/insight.js
 ||st-a.cdp.asia^
 ||st-a8.tscubic.com^
 ||st-fly.b-cdn.net^
@@ -241754,6 +241774,7 @@ zzzyk.com###Tinfo
 ||stats-proto.pandora.com^
 ||stats-real-clients.zentech.gr^
 ||stats-ruzickap-github-io.ruzicka.dev^
+||stats-sdk.tange365.com^
 ||stats-sg.ganymede.eu^
 ||stats-ssl.mdanderson.org^
 ||stats.*.ronghub.com^
@@ -243811,6 +243832,7 @@ zzzyk.com###Tinfo
 ||studio-obs.net^$all
 ||studio.joinsalut.com^
 ||studio.osstudio.dk^
+||studioalkaline.com^
 ||studiogiamberardino.it^$doc
 ||studioibi.ibijus.com^
 ||studiostack.com^$third-party
@@ -248331,6 +248353,7 @@ zzzyk.com###Tinfo
 ||thecontroversialfiles.net^
 ||theconversation.com/javascripts/lib/content_tracker_hook.js
 ||thecounter.com^$third-party
+||thecounter.net^
 ||thecrazychili.com^
 ||theculturetrip.com^$cookie=tct-real-user
 ||thedailybeast.com/static/js/thirdparty.
@@ -257155,6 +257178,7 @@ zzzyk.com###Tinfo
 ||ut.iggroup.com^
 ||ut.upmc.com^
 ||ut19suycy9vt.nowyformat.nofluffjobs.com^
+||ut5hnwzebu.com^
 ||uta-net.com/res/banner_count_js.php
 ||uta-net.com/res/getreco.php
 ||utahpolicetraining.*.mybluehost.me^$all
@@ -258064,6 +258088,7 @@ zzzyk.com###Tinfo
 ||vats.vsl.co.at^
 ||vau.stagland.hu^
 ||vaudeville44.top^
+||vaughn.live/vsz/
 ||vault-stats.sladewatkins.net^
 ||vault.gostatera.com/collect/rap
 ||vault.gostatera.com^
