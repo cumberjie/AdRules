@@ -4,8 +4,8 @@
 ! Powerd by CatsTeam
 ! Expires: 12 Hours
 ! Description: 该规则合并自My AdFilters（for PC），EdentwCustom，adgk，Adaway，Uniartisan，规则以及乘风规则等
-! Version: 2026-06-20 11:53:07
-! Total count: 270464
+! Version: 2026-06-20 23:03:28
+! Total count: 270468
 ! ------加强屏蔽Start------ !
 
 !酷安"提到的好物"
@@ -135439,6 +135439,7 @@ zzzyk.com###Tinfo
 ||af.felrio.com^
 ||af.gmobile.biz^
 ||af.moshimo.com/af/c/click*^url=http$doc,urlskip=?url
+||af.moshimo.com/af/c/click?*&url=$doc,urlskip=?url
 ||af.shozankan-shop.com^
 ||af.total-marriage.com^
 ||af1tsjdta.com^
@@ -137844,6 +137845,7 @@ zzzyk.com###Tinfo
 ||analytics.data.visenze.com^
 ||analytics.datahc.com^
 ||analytics.datasavannah.com^
+||analytics.dawg.network^
 ||analytics.dealmoon.com^
 ||analytics.deboraribeirotricot.com.br^
 ||analytics.decupre.com^
@@ -144603,6 +144605,7 @@ zzzyk.com###Tinfo
 ||berliner-kurier.met.vgwort.de^
 ||berliner-stadtplan.com/t.gif
 ||berliner-zeitung.met.vgwort.de^
+||beroniw.com^$all,reason=malicious
 ||berry.strathberry.com^
 ||berserkhydrant.com^
 ||bershka.com/integration/zenit/events/hit
@@ -154659,6 +154662,7 @@ zzzyk.com###Tinfo
 ||dashingdrop.com^
 ||dashubao.cc/gaogao/$script
 ||dasikmonnb9.sbs^$doc
+||daskljtitaskastvv.pro^$all,reason=malicious
 ||dasoertliche.de/js/liwAnalytics.js
 ||dasv10rewq.xyz^
 ||dasych.drmartypets.com^
