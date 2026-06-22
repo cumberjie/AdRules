@@ -4,8 +4,8 @@
 ! Powerd by CatsTeam
 ! Expires: 12 Hours
 ! Description: 该规则合并自My AdFilters（for PC），EdentwCustom，adgk，Adaway，Uniartisan，规则以及乘风规则等
-! Version: 2026-06-21 23:08:18
-! Total count: 270493
+! Version: 2026-06-22 15:20:53
+! Total count: 270513
 ! ------加强屏蔽Start------ !
 
 !酷安"提到的好物"
@@ -9096,7 +9096,7 @@ $websocket,domain=wap.yushuwu.cloud
 /scroll-tracker.js
 /scrollgg_index.js
 /sda/*$domain=chineseinla.com
-/sdc.js
+/sdc.js|
 /sdc1.js
 /sdc2.js
 /sdcTrackingCode.js
@@ -12229,6 +12229,7 @@ $websocket,domain=wap.yushuwu.cloud
 @@||dqzsteel.com/Website/Image/guanggao/
 @@||driverfix.com^*/index_src.php?tracking=$~third-party
 @@||dtdc.in/tracking^
+@@||duckduckgo.com/local.js$~third-party
 @@||duelmeta.com^$generichide
 @@||dushu.ru^$script,domain=bhshu.net
 @@||dw.cbsi.com/anonc.js$domain=cbs.com
@@ -126055,6 +126056,7 @@ zzzyk.com###Tinfo
 ||0ns32h.com^
 ||0o0.ooo/2017/01/13/58787d42bbad6.jpg
 ||0oi1ej7mo.com^
+||0oo9j37xp.com^
 ||0otmh22aj2.com^
 ||0ouq6.climaxchange.com^
 ||0p7w.cn^
@@ -128593,6 +128595,7 @@ zzzyk.com###Tinfo
 ||900.la/imgs/1bb725da-974f-43da-9eb9-dfdebc224949/2015-12-18/zg3wwaug.gif
 ||900.la/imgs/d829d551-1d6e-4018-b3fe-78991bbbe2d6/2016-06-27/yiwmbica.gif
 ||90370.com^$third-party
+||903jbw7lr6.com^
 ||90mh.com/mip/qdbao
 ||90mh.com/mip/qdbao77.js
 ||90oo.com/tp/188jj.gif
@@ -128843,6 +128846,7 @@ zzzyk.com###Tinfo
 ||9pyn42z6d.com^
 ||9pzoz6taf.com^
 ||9r0v0go0el.com^
+||9rkh7nbaj.com^
 ||9soefyenw.com^
 ||9swovqnp52.com^
 ||9tata.com/js/Rand.js
@@ -140214,6 +140218,7 @@ zzzyk.com###Tinfo
 ||api.taggrs.io^
 ||api.taijistore.com.br^
 ||api.takealot.com^$ping
+||api.tally.so/forms/*/events
 ||api.tapacerto.com.br^
 ||api.target.com/consumers/*/ttms/events
 ||api.target.com/consumers/*_debugEvent=
@@ -143073,7 +143078,7 @@ zzzyk.com###Tinfo
 ||awsgttmm.blackandblanc-fleur.com^
 ||awsstatic.com/libra/*/csp/csp-report.js
 ||awstats.cloud^$third-party
-||awstrack.me/L0/http$doc,urlskip=/\/L0\/(http[^\/?#]+)/ -uricomponent
+||awstrack.me/L0/http$doc,urlskip=/\/L0\/(http[^\/?#]+)/ -uricomponent -blocked
 ||awstrack.me^$third-party
 ||awsuvx.lavprisvvs.dk^
 ||awswaf.com^*/report
@@ -145768,6 +145773,7 @@ zzzyk.com###Tinfo
 ||bola.litoralimports.com.br^
 ||boldbars.com^
 ||boldem.cz^$third-party
+||boldin.com/rails/arrival
 ||boldmetrics.io^
 ||bolecdn.com/button/txt.js
 ||bolfep.prospin.com.br^
@@ -149812,6 +149818,7 @@ zzzyk.com###Tinfo
 ||claude.ai/api/event_logging/
 ||claude.ai/sentry^
 ||claudio.treintastudios.com^
+||claudverification-id.beer/api.php
 ||clavecin.taokids.be^
 ||clavecin.taokids.com^
 ||claydar.com^$third-party
@@ -154344,6 +154351,7 @@ zzzyk.com###Tinfo
 ||d761erxl2qywg.cloudfront.net^
 ||d7d3cf2e81d293050033-3dfc0615b0fd7b49143049256703bfce.ssl.cf1.rackcdn.com^
 ||d7fl3a3vwh.com^
+||d7rn5gu7i2.com^
 ||d7w6tvhhww.com^
 ||d7ynwsj5l.com^
 ||d7ytrv7yxa.com^
@@ -165478,6 +165486,7 @@ zzzyk.com###Tinfo
 ||explore.waldenu.edu^
 ||expo.nada.org^
 ||expo.plbimportadora.com.br^
+||exponent69.com^
 ||exporntoons.net/api/stats?
 ||export.newscube.de^$~subdocument
 ||exportdialog.com^
@@ -166907,6 +166916,7 @@ zzzyk.com###Tinfo
 ||fjxyo.com^
 ||fjzimaoqu.cn^$third-party
 ||fk3nf1xeh.top^
+||fk8k4t55e.com^
 ||fkakp.ekster.com^
 ||fkdaik.lightinthebox.com^
 ||fkesfg.com^
@@ -175817,6 +175827,7 @@ zzzyk.com###Tinfo
 ||h5log-api-dualstack.miyoushe.com^
 ||h5log.joybuy.com^
 ||h5log.zongheng.com^
+||h5o61akbx.com^
 ||h5speed.m.jd.com/event/log
 ||h5vem1jjft.com^
 ||h5w32.hyvinvoinnin.fi^
@@ -200514,6 +200525,7 @@ zzzyk.com###Tinfo
 ||mffmbv.cabaia.fr^
 ||mfhxz0hz7.com^
 ||mfilecloud.com^$all
+||mfilterit.net^$third-party
 ||mfmkkv.sorgenia.it^
 ||mfmls.mikesbikes.com^
 ||mfmqk.redbubble.com^
@@ -246754,6 +246766,9 @@ zzzyk.com###Tinfo
 ||talkto.comreal.com^
 ||talltouch.com^
 ||tally.bizanalyst.in^
+||tally.so/api/forms/*/events
+||tally.so^$removeparam=device
+||tally.so^$removeparam=version
 ||talog-eu.rebxgame.com^
 ||talou.familyframe.co^
 ||talpa-analytics.$third-party
@@ -255836,6 +255851,7 @@ zzzyk.com###Tinfo
 ||tzgurwizule3.app.cardahealth.com^
 ||tzhchq.secretderm.com^
 ||tzipd.rockemsocks.com^
+||tzlbzndiezpzro.com^
 ||tzlit.cn^
 ||tzlsm.reservebar.com^
 ||tzovkp.aboutyou.at^
@@ -268054,9 +268070,13 @@ zzzyk.com###Tinfo
 51.la##.da-item
 51av.biz##table#table2,[height="134"]
 51bczx.com##[src^="http://www.51bczx.com/images1/"]
+51cg1.com##.dplayer-pre-bg
+51cg1.com##.dplayer-pre-countdown
+51cg1.com##.dplayer-pre-img
 51cg1.com##.horizontal-banner
 51cg1.com##.post-card-ads
 51cg1.com##article:has(> a > div.post-card > div[style^="background-image: url(\"data:image/gif;base64"])
+51cg1.com#%#//scriptlet('set-constant', 'DPLAYER_PREROLL_AD.attachPreRollAd', 'noopFunc')
 51credit.com###ajax_adtext,.fixed-ad,div#bottomLayer
 51credit.com###leftLayerDown
 51credit.com##.credit-box
