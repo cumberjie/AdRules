@@ -4,8 +4,8 @@
 ! Powerd by CatsTeam
 ! Expires: 12 Hours
 ! Description: 该规则合并自My AdFilters（for PC），EdentwCustom，adgk，Adaway，Uniartisan，规则以及乘风规则等
-! Version: 2026-06-22 23:15:41
-! Total count: 270513
+! Version: 2026-06-23 12:29:32
+! Total count: 270545
 ! ------加强屏蔽Start------ !
 
 !酷安"提到的好物"
@@ -14769,6 +14769,7 @@ $websocket,domain=wap.yushuwu.cloud
 @@||tennispro.eu/min/?$script,~third-party
 @@||tenpay.com/v2/res/pub/cps/main/bottom_ad.js
 @@||tenpay.com^*?ADTAG=
+@@||tesco.com/akam/13/$domain=tesco.com
 @@||texasroadhouse.com/common/javascript/google-analytics.js
 @@||tf.360.cn/e/wb?
 @@||tgfcer.com/advert.js
@@ -127131,6 +127132,7 @@ zzzyk.com###Tinfo
 ||3562wsgkbcm.xyz^
 ||3565433061881492849.academyofconsciousleadership.com^
 ||3587285621425460184.academyofconsciousleadership.net^
+||359z66txb.com^
 ||35kjurwwb6.com^
 ||35lnvz97cg.com^
 ||35vc.com^
@@ -128338,6 +128340,7 @@ zzzyk.com###Tinfo
 ||7k7kimg.cn/cms/cms10/20180706/135219_4911.jpg
 ||7kankan.com/scripts/new/indext
 ||7kjiiu.cn^
+||7kqn7qz4g4.com^
 ||7lavkpncj.com^
 ||7lbd4.armandthiery.fr^
 ||7leaf-clover.net^$doc
@@ -128591,6 +128594,7 @@ zzzyk.com###Tinfo
 ||8yy-ca-w-i9-z.com^$doc
 ||8z1eg6o2j.com^
 ||8ziyuan.com/images/infolinksad.jpg
+||8zovisffy.com^
 ||8zqpw2lj8n.com^
 ||900.la/imgs/1bb725da-974f-43da-9eb9-dfdebc224949/2015-12-18/zg3wwaug.gif
 ||900.la/imgs/d829d551-1d6e-4018-b3fe-78991bbbe2d6/2016-06-27/yiwmbica.gif
@@ -140063,6 +140067,8 @@ zzzyk.com###Tinfo
 ||api.pcid.ca/v1/client/logs
 ||api.pcsysoft.com/api/app/member^
 ||api.pcsysoft.com/api/app/video/ver2/sys/queryAppAddr/
+||api.pearcommerce.com/v1/client_request_log?
+||api.pearcommerce.com/v1/page_load?
 ||api.personaclick.com/push$xmlhttprequest
 ||api.personalizado.atacadoneon.com.br^
 ||api.persoonaschool.com.br^
@@ -147306,6 +147312,8 @@ zzzyk.com###Tinfo
 ||caesarsgames.com/dynamic/resources/common/js/functions/iframeTracker.js
 ||caesarsgames.com/dynamic/resources/common/js/functions/tracking.js
 ||caf.actonservice.com^
+||caf.fr/*/stormcaster.js
+||caf.fr/sites/default/files/smarttag/
 ||cafe-log.myshoplus.com^
 ||cafe.basesmedicas.com.br^
 ||cafe.bonusprice.com.br^
@@ -148650,6 +148658,9 @@ zzzyk.com###Tinfo
 ||cdn.metodolumens.com.br^
 ||cdn.metricastats.com^$all
 ||cdn.mircheigeshoa.com^
+||cdn.modrinth.com/data/$removeparam=mr_download_reason
+||cdn.modrinth.com/data/$removeparam=mr_game_version
+||cdn.modrinth.com/data/$removeparam=mr_loader
 ||cdn.moengage.com^$third-party
 ||cdn.monlabubu.ch^
 ||cdn.mrkhub.com/sks/js/sks_track.js
@@ -150868,6 +150879,7 @@ zzzyk.com###Tinfo
 ||codecademy.com/analytics/
 ||codeceo.com/images/*/boxuegu
 ||codeceo.com/images/2020/04/kaikebabanner.png
+||codedrink.com^
 ||codefa.st/js/script.js
 ||codejie.net/img/xiandai.gif
 ||codejie.net/wp-content/uploads/*/1120-50.
@@ -151170,6 +151182,7 @@ zzzyk.com###Tinfo
 ||collector.dcdn.baidu.com^
 ||collector.dgnet.ltd.uk^
 ||collector.ex.co^
+||collector.feedzop.com^
 ||collector.fiverr.com^
 ||collector.fullxh.com^
 ||collector.gamechanger.io^
@@ -151195,6 +151208,7 @@ zzzyk.com###Tinfo
 ||collector.pmc.com^
 ||collector.prod.expedia.com^
 ||collector.quillbot.com^
+||collector.quizzop.com^
 ||collector.reelevant.com^
 ||collector.retailcrm.pro^
 ||collector.rn.de^
@@ -151212,6 +151226,7 @@ zzzyk.com###Tinfo
 ||collector.theconversation.com^
 ||collector.theguardianlegalnetwork.com^
 ||collector.trendmd.com^
+||collector.umogames.com^
 ||collector.vhx.tv^
 ||collector.xh*/?log=
 ||collector.xhaccess.com^
@@ -152377,6 +152392,7 @@ zzzyk.com###Tinfo
 ||corporatemrguide.americanexpress.de^
 ||corporatepages.proximus.com^
 ||corporateplatino.americanexpress.it^
+||correctedcode.com^
 ||corriere.it/apw.js
 ||corriereobjects.it/*/js/tracking/
 ||cortellisconnections.thomsonreuters.com^
@@ -159241,6 +159257,7 @@ zzzyk.com###Tinfo
 ||derbypops.com^
 ||derew6xbsc.xyz^
 ||derivative10.top^
+||derivative44.top^
 ||derriar.site^$all
 ||derriks.site^$all
 ||derstandard.*/qpkdl/
@@ -181711,6 +181728,7 @@ zzzyk.com###Tinfo
 ||invitejs.trustpilot.com^
 ||invitemedia.com^$third-party
 ||invitereferrals.com^$third-party
+||invites-tracker-app.com^$all
 ||invites.nospace.app^
 ||invoc.us^$third-party
 ||invoca.net^$third-party
@@ -186405,6 +186423,7 @@ zzzyk.com###Tinfo
 ||lecturas.com/Content/*/js/trackPopup.js
 ||ledaren.cn^
 ||lederer.nl/incl/stats.js.php?
+||ledevoir.com/js/analytics/
 ||ledevoir.com/js/pianoAnalyticsTags.js
 ||ledger-wallet.gitlab.io^$all
 ||ledgerapp.created.app^$all
@@ -186464,6 +186483,7 @@ zzzyk.com###Tinfo
 ||lekuad.com^
 ||lekuad.com^$third-party
 ||lekven.jetcost.co.uk^
+||lel704cjev.com^
 ||lele36.com/p/*.gif
 ||lelekan.com/sp/fmt.js
 ||leleketang.com/dat/a/
@@ -186631,6 +186651,7 @@ zzzyk.com###Tinfo
 ||lfsgc.leukaemia.org.au^
 ||lftce.clearstem.com/load
 ||lftce.clearstem.com^
+||lftw3i7d5.com^
 ||lftxali.fancyapi.com^
 ||lftza.simplyseattle.com^
 ||lfuzec.bglen.net^
@@ -193916,6 +193937,7 @@ zzzyk.com###Tinfo
 ||lslynl.chiashake.cz^
 ||lsntzzy3.com/Runtime/js/psData.js
 ||lsnzxzy1.com/Runtime/js/psData.js
+||lsoclwa.icu^
 ||lspfuw.siwonschool.com^
 ||lspvo.weldernation.com^
 ||lsrke.marcos.com^
@@ -198106,7 +198128,6 @@ zzzyk.com###Tinfo
 ||merklesearch.com/merkle_track.js
 ||merkur.de/_cua.html
 ||merkur.met.vgwort.de^
-||merlininkazani.com/sayac
 ||mernrza.com^
 ||merpm.sokolovelaw.com^
 ||merqieth.com^
@@ -203186,6 +203207,7 @@ zzzyk.com###Tinfo
 ||natsp.xing.com^
 ||natu.natural-natural-pure.com^$doc
 ||naturalgain.naturelifebangladesh.com^
+||naturallieplantbased.com/?*&ver=$script,~third-party
 ||naturallon.com^
 ||naturaltracking.com^$third-party
 ||nature.com/platform/track/
@@ -210117,6 +210139,7 @@ zzzyk.com###Tinfo
 ||pn.vg^$third-party
 ||pn.ybp.yahoo.com/ab/secure/true/imp/
 ||pn.ybp.yahoo.com^
+||pn9f3utrxu.com^
 ||pnaagn.haekplanter-heijnen.dk^
 ||pnabr.vinylstatus.com^
 ||pnav.jp^$doc
@@ -215182,6 +215205,7 @@ zzzyk.com###Tinfo
 ||rpfkgf.volksfreund.de^
 ||rpfqvl.donnerwetter.de^
 ||rpfqvl.lokalwetter.de^
+||rphwjxzekcbzxu.com^
 ||rpiher.web-camp.io^
 ||rpjwzl.jungheinrich-profishop.ch^
 ||rpkav.vitauthority.com^
@@ -217866,6 +217890,7 @@ zzzyk.com###Tinfo
 ||script.opentracker.net$third-party
 ||script.wikia.nocookie.net/fandom-ae-assets/identity-service/$domain=fandom.com|tvguide.com
 ||script.wikia.nocookie.net/fandom-ae-assets/odyssey/prebid/production/main.js
+||scriptcat.org/api/*/advertise?
 ||scriptil.com^$third-party
 ||scripts-repo.reelevant.com^
 ||scripts.dadata.com.br^
@@ -248606,6 +248631,7 @@ zzzyk.com###Tinfo
 ||thragmoth.com^
 ||thraittidz.com^
 ||thraka.openapp.link^
+||thralgrean.com^
 ||threadloom.com/ga/
 ||threatbook.cn^$third-party
 ||threechurch.com^
@@ -255681,6 +255707,7 @@ zzzyk.com###Tinfo
 ||twho.cn^
 ||twhyhf.icu^
 ||twin-iq.kickfire.com^
+||twinfinite.net/*/gamurs-group-analytics/
 ||twinkleop.com^
 ||twirll-stape-int.twirll.com^
 ||twistairclub.net.anwalt.de^
@@ -263505,12 +263532,16 @@ zzzyk.com###Tinfo
 ||x.clearbit.com^$third-party
 ||x.clearbitjs.com^$third-party
 ||x.com/1.1/attribution
+||x.com/1.1/graphql/app_context.json
 ||x.com/1.1/graphql/error_log.json
 ||x.com/1.1/graphql/user_flow.json
+||x.com/1.1/graphql/viewer_context.json
 ||x.com/1.1/jot
 ||x.com/9/measurement/
+||x.com/i/api/1.1/graphql/app_context.json
 ||x.com/i/api/1.1/graphql/error_log.json
 ||x.com/i/api/1.1/graphql/user_flow.json
+||x.com/i/api/1.1/graphql/viewer_context.json
 ||x.com/i/api/1.1/jot
 ||x.com/i/api/1.1/jot/client_event.json
 ||x.com/i/csp_report
@@ -264906,6 +264937,7 @@ zzzyk.com###Tinfo
 ||ydgh0zc.com^
 ||ydgsvls.cn^
 ||ydhilninhp.com^
+||ydholdred.com^
 ||ydjfdkcv.com^
 ||ydjrew.fairplay142.com^
 ||ydjs.zol.com.cn^
