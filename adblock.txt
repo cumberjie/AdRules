@@ -4,8 +4,8 @@
 ! Powerd by CatsTeam
 ! Expires: 12 Hours
 ! Description: 该规则合并自My AdFilters（for PC），EdentwCustom，adgk，Adaway，Uniartisan，规则以及乘风规则等
-! Version: 2026-06-23 23:05:21
-! Total count: 270545
+! Version: 2026-06-24 12:16:09
+! Total count: 270591
 ! ------加强屏蔽Start------ !
 
 !酷安"提到的好物"
@@ -2645,6 +2645,7 @@ $removeparam=campid,domain=otto.de|ottoversand.at
 $removeparam=cid,domain=nhk.jp|nhk.or.jp
 $removeparam=cjdata
 $removeparam=cjevent
+$removeparam=clckid
 $removeparam=clickTrackInfo,domain=lazada.com.ph|lazada.vn
 $removeparam=clid,domain=adguard-vpn.*|adguardvpn-help.*
 $removeparam=cm_cr
@@ -11145,7 +11146,7 @@ $websocket,domain=wap.yushuwu.cloud
 @@||adobedtm.com/launch-$script,xmlhttprequest
 @@||adobedtm.com^$script,domain=sonystyle.com.cn
 @@||adobedtm.com^*-libraryCode_source.min.js$domain=doda.jp
-@@||adobedtm.com^*-source.min.js$script,domain=53.com|aarp.org|aircanada.com|ally.com|americanexpress.com|as.com|atresplayer.com|automobiles.honda.com|backcountry.com|bbva.com.ar|bbvacib.com|bbvauk.com|bestbuy.ca|bose.ae|bose.at|bose.ca|bose.ch|bose.cl|bose.co|bose.co.jp|bose.co.nz|bose.co.uk|bose.com|bose.com.au|bose.de|bose.dk|bose.es|bose.fi|bose.fr|bose.hk|bose.hu|bose.ie|bose.it|bose.lu|bose.mx|bose.nl|bose.no|bose.pe|bose.pl|bose.se|boseapac.com|bosebelgium.be|boselatam.com|bt.com|cadenaser.com|churchofjesuschrist.org|cibc.com|crave.ca|currys.co.uk|deutsche-bank.de|dollargeneral.com|etihad.com|eurosport.de|fedex.com|guitarcenter.com|healthsafe-id.com|healthy.kaiserpermanente.org|helvetia.com|hgtv.com|hilton.com|homedepot.ca|ihg.com|imsa.com|ing.com.au|ingrammicro.com|kroger.com|lenovo.com|lifetime.life|lowes.com|manager-magazin.de|marriott.com|mtvuutiset.fi|mybell.bell.ca|natwest.com|nbarizona.com|news.sky.com|philips.com|plasticsnews.com|pnc.com|poweredbycovermore.com|ralphlauren.com|samsung.com|sephora.com|snsbank.nl|ssrn.com|starwarscelebration.com|subway.com|tatacliq.com|telegraph.co.uk|telus.com|verizon.com|virginplus.ca|walgreens.com|xfinity.com
+@@||adobedtm.com^*-source.min.js$script,domain=53.com|aarp.org|aircanada.com|ally.com|americanexpress.com|as.com|atresplayer.com|automobiles.honda.com|backcountry.com|bbva.com.ar|bbvacib.com|bbvauk.com|bestbuy.ca|bose.ae|bose.at|bose.ca|bose.ch|bose.cl|bose.co|bose.co.jp|bose.co.nz|bose.co.uk|bose.com|bose.com.au|bose.de|bose.dk|bose.es|bose.fi|bose.fr|bose.hk|bose.hu|bose.ie|bose.it|bose.lu|bose.mx|bose.nl|bose.no|bose.pe|bose.pl|bose.se|boseapac.com|bosebelgium.be|boselatam.com|bt.com|cadenaser.com|churchofjesuschrist.org|cibc.com|crave.ca|currys.co.uk|deutsche-bank.de|dollargeneral.com|etihad.com|eurosport.de|fedex.com|guitarcenter.com|healthsafe-id.com|healthy.kaiserpermanente.org|helvetia.com|hgtv.com|hilton.com|homedepot.ca|ihg.com|imsa.com|ing.com.au|ingrammicro.com|kroger.com|lenovo.com|lifetime.life|lowes.com|manager-magazin.de|marriott.com|medscape.com|mtvuutiset.fi|mybell.bell.ca|natwest.com|nbarizona.com|news.sky.com|philips.com|plasticsnews.com|pnc.com|poweredbycovermore.com|ralphlauren.com|samsung.com|sephora.com|snsbank.nl|ssrn.com|starwarscelebration.com|subway.com|tatacliq.com|telegraph.co.uk|telus.com|verizon.com|virginplus.ca|walgreens.com|xfinity.com
 @@||adobedtm.com^*/AppMeasurement.min.js$script,domain=sky.it
 @@||adobedtm.com^*/launch-$script,xmlhttprequest
 @@||adobedtm.com^*/mbox-contents-$script,domain=absa.co.za|ally.com|americanexpress.com|as.com|backcountry.com|ceair.com|conad.it|costco.com|dhl.de|fcbarcelona.cat|fcbarcelona.cn|fcbarcelona.com|fcbarcelona.es|fcbarcelona.fr|fcbarcelona.jp|firststatesuper.com.au|hgtv.com|lenovo.com|lowes.com|nfl.com|oprah.com|pnc.com|shoppersdrugmart.ca|sony.jp|tatacliq.com|usanetwork.com|vanityfair.com|wired.com
@@ -11238,6 +11239,7 @@ $websocket,domain=wap.yushuwu.cloud
 @@||amazoncustomerservice.d2.sc.omtrdc.net^$domain=amazon.es
 @@||amc-widgets.crowdtwist.com/widgets/t/account-
 @@||amplitude.com/libs/$script,domain=b2c.voegol.com.br|elconfidencial.com|kink.com|pdfexpert.com|xe.com
+@@||an-sm.naughtycdn.com/js/lti-analytics-*.min.js$domain=members.naughtyamerica.com
 @@||analysys.cn^$domain=analysys.cn
 @@||analytics-*.clickdimensions.com/*/pages/*.html$subdocument,domain=nhs.uk
 @@||analytics-*.clickdimensions.com/*/pages/*.html$subdocument,domain=techuk.org
@@ -11655,6 +11657,7 @@ $websocket,domain=wap.yushuwu.cloud
 @@||cdn.clerk.io/clerk.js$domain=garmont.com
 @@||cdn.clerk.io/clerk.js$domain=globaltools.dk|globaltools.no|globaltools.se
 @@||cdn.clerk.io/clerk.js$domain=industrivarer.no
+@@||cdn.clerk.io/clerk.js$domain=jaktdepotet.no
 @@||cdn.clerk.io/clerk.js$domain=panzerglass.com
 @@||cdn.clerk.io/clerk.js$domain=smnovella.com
 @@||cdn.cquotient.com/js/*/gretel.min.js$domain=jp.drmartens.com
@@ -15752,7 +15755,7 @@ akamai.webspecmail.com$image
 akjunshi.com##.banner_ad,[class^="ad_two_"]
 akkxs.net#%#//scriptlet('abort-current-inline-script', 'eval', '_0x')
 akshare.moseasia.com$image
-al.com,attackofthefanboy.com,destructoid.com,edmontonsun.com,gamepur.com,gamerjournalist.com,gameskinny.com,lgbtqnation.com,macwelt.de,mlive.com,news8000.com,nj.com,pcwelt.de,primagames.com,siliconera.com,syracuse.com,themarysue.com,touchtapplay.com,wegotthiscovered.com#%#//scriptlet('ubo-aost', 'decodeURI', '/(?=^(?!.*\.js))/')
+al.com,attackofthefanboy.com,destructoid.com,edmontonsun.com,gamepur.com,gamerjournalist.com,gameskinny.com,lehighvalleylivecom,lgbtqnation.com,macwelt.de,mlive.com,news8000.com,nj.com,pcwelt.de,primagames.com,siliconera.com,syracuse.com,themarysue.com,touchtapplay.com,wegotthiscovered.com#%#//scriptlet('ubo-aost', 'decodeURI', '/(?=^(?!.*\.js))/')
 alba.alalikexpress.com$image
 album.moseasia.com$image
 alert.avadacom.com$image
@@ -106597,7 +106600,6 @@ flightclub.cn##.banner_area,.home_banner_section,.adsbygoogle,.fc_thread_top_ban
 flighty.cn###searchBox + #sidebarBox
 flo.com.tr##+js(remove-cookie, bunsar_visitor_id, when, scroll keydown)
 flo.com.tr##+js(set-local-storage-item, /__anon_id|efl-uuid/, $remove$)
-flo.com.tr#%#//scriptlet('set-local-storage-item', '__anon_id', '$remove$')
 flowus.cn##footer .swiper
 flstudiochina.com
 flux-globalid3.click.s11.sfmc-osl.com$image
@@ -113640,6 +113642,7 @@ megatime.com.tw,pchome.com.tw##.tripplead
 megatime.com.tw,pchome.com.tw##div[class^="ad_ec"]
 megatime.com.tw,pchome.com.tw##div[id^="ad_div_"]
 megatorrents.kg##a[href^="http://www.net.kg/stat.php"]
+mego.travel#%#//scriptlet('set-local-storage-item', '/^snowplowOutQueue_/', '$remove$')
 meiguoshenpo.com##DIV[class^="AD_"],[class^="info_"]
 meiju8.cc##.float_layer_hovertree
 meijumi.me###app_left
@@ -118190,6 +118193,7 @@ rgrp.bankerstrust.com$image
 rgrp.digipen.edu$image
 rgrp.fffenterprises.com$image
 riaway.com##.info_message_container
+ricardocuisine.com,thegentlemansjournal.com,thekrazycouponlady.com,flo.com.tr#%#//scriptlet('set-local-storage-item', '__anon_id', '$remove$')
 ridgemerino.com#%#//scriptlet('set-local-storage-item', 'kl-uid', '$remove$')
 right.com.cn###hd > div.wp > div.hdc > h2
 right.com.cn##.a_t
@@ -119834,14 +119838,12 @@ theav.xyz,69xx.one,theporn.cc#$#.q-body--prevent-scroll { position: static !impo
 theav.xyz,69xx.one,theporn.cc#%#//scriptlet("set-constant", "is_show", "false")
 thebaynet.com#@#.ad-above-footer
 thecatcity.com##.article-page__ad-block
-thegentlemansjournal.com#%#//scriptlet('set-local-storage-item', '__anon_id', '$remove$')
 thegreatdaily.com##[id^="ads"],#fbbox,.adsbygoogle,#rightAds
 thegreatdaily.com/cat##.col-lg-8.col-md-8{width:1190px;}
 thehill.com###block-thehill-blocks-amp-outbrain
 thehindu.com###sectiondivicymi
 thehindu.com##+js(remove-cookie, _pc_private)
 thekrazycouponlady.com#%#//scriptlet('set-local-storage-item', '/^ab\.storage\./', '$remove$')
-thekrazycouponlady.com#%#//scriptlet('set-local-storage-item', '__anon_id', '$remove$')
 themirror.com##reach-topbox
 thenewslens.com##div[class^="help-tnl-"]
 thenewslens.com##div[class^="help-tnl-container-"]
@@ -119857,6 +119859,7 @@ theporn.cc##.gg-config
 theporn.cc##.toolbar-gg
 theqoo.net##.theqoo-counter
 thestar.com.my#%#//scriptlet('set-local-storage-item', 'nx_anon_id_v1', '$remove$')
+thesun.co.uk#%#//scriptlet('set-local-storage-item', '/^optimizely_data/', '$remove$')
 theverge.com##+js(remove-cookie, vmidv1)
 theverge.com##+js(set-local-storage-item, csg_uid, $remove$)
 thewindowsclub.com##.entry-content > div > strong:has-text(find & fix Windows error)
@@ -127030,6 +127033,7 @@ zzzyk.com###Tinfo
 ||2vv.cc^
 ||2wgolxk.com^
 ||2wq9u06jq.com^
+||2wqs6d2gp.com^
 ||2xclick.ru^$third-party
 ||2xmzazd.cn^
 ||2xx63f0bfy.com^
@@ -127835,6 +127839,7 @@ zzzyk.com###Tinfo
 ||5bkhq0lwmq.com^
 ||5c.com.cn^
 ||5ch.io/jump/to?url=http$doc,urlskip=?url
+||5cyi6tp6h.com^
 ||5cyqzktkwh.com^
 ||5d7k30pv1u.com^
 ||5dfiuae82.com^
@@ -128066,6 +128071,7 @@ zzzyk.com###Tinfo
 ||685wo.com^
 ||68710266.com^
 ||688mob.com^
+||68b1hx8ej.com^
 ||68s4eyiru.com^
 ||68td4yete.com^
 ||68tkaiaji.com^
@@ -128805,6 +128811,7 @@ zzzyk.com###Tinfo
 ||9fgh98k.com^
 ||9fum.ifeng.com^
 ||9fwz.com^
+||9g3yx40s6.com^
 ||9gag.com/event/
 ||9gag.com/track/
 ||9game.cn/stat/
@@ -136787,6 +136794,9 @@ zzzyk.com###Tinfo
 ||alicdn.com^*yksdk/*sdk.js$script,domain=youku.com
 ||alice.bodyandbrows.com^
 ||alice.it/cnt/
+||alice.yandex.ru^$removeparam=device_id
+||alice.yandex.ru^$removeparam=utm_to
+||alice.yandex.ru^$removeparam=uuid
 ||alicekdsod.com^$doc
 ||alicloud.b-cdn.net/1.js
 ||alictibet.com^
@@ -142978,6 +142988,7 @@ zzzyk.com###Tinfo
 ||avgle.topgirlsdating.com^$domain=avgle.com
 ||avh3nuhxm.com^
 ||avhmf.toms.com^
+||aviakassa.com/api/v*/logger
 ||aviasales.*-analytics.
 ||aviasales.*/analytics_pv.
 ||aviasales.*/sentry-replay.
@@ -143021,6 +143032,7 @@ zzzyk.com###Tinfo
 ||avseesee.com/twad
 ||avsjo.stickley.com^
 ||avspda.xyz^$third-party
+||avsplow.com^
 ||avsplow.com^$third-party
 ||avtoradio.ru/design/images/site-design/top100.gif
 ||avvenire.it/content/js/track.es5.min.js?
@@ -148576,6 +148588,7 @@ zzzyk.com###Tinfo
 ||cdn.evgnet.com/beacon/*/scripts/evergage.min.js$script,redirect=noopjs
 ||cdn.fast.beintoo.net/static/tags/beintoo-tag.js
 ||cdn.firstpromoter.com^$third-party
+||cdn.flowplayer.com/releases/native/3/stable/plugins/ga4.min.js
 ||cdn.fugu-it.com/web/script.js
 ||cdn.galacg.me/img/*.gif
 ||cdn.galacg.me/img/*.jpg
@@ -154654,6 +154667,7 @@ zzzyk.com###Tinfo
 ||dap.amsterdam.nl^
 ||dap.digitalgov.gov/Universal-Federated-Analytics-Min.js
 ||dap.dmm.co.jp/imp?
+||dap.hindustantimes.com^
 ||dap.livemint.com^
 ||dap.rri.go.id/tracker/
 ||dap.worldota.net^
@@ -158928,6 +158942,7 @@ zzzyk.com###Tinfo
 ||ddhwxwi6h.com^
 ||ddiamond.com.tr/tom8/
 ||ddioce.wolverine.com^
+||dditsadn.com^$domain=livesex.com
 ||dditscdn.com/*fingerprints
 ||dditscdn.com/?a=
 ||dditscdn.com/log/
@@ -159590,6 +159605,7 @@ zzzyk.com###Tinfo
 ||dhauc.earthhero.com^
 ||dhawbu.crazyskin.co.kr^
 ||dhc.co.jp/com/cookie.jsp
+||dhcjty.com^
 ||dhckj73qr3.com^
 ||dhdaa.duke.edu^
 ||dhddv.rarevinyl.com^
@@ -164820,6 +164836,7 @@ zzzyk.com###Tinfo
 ||event-api.hackle.io^
 ||event-api.rdstation.com.br^
 ||event-api.reverb.com^
+||event-collector.analytics.onedio.com^
 ||event-collector.moviesanywhere.com^
 ||event-collector.prd.data.s.joyn.de^
 ||event-dot-learning-piano.appspot.com^
@@ -166070,6 +166087,7 @@ zzzyk.com###Tinfo
 ||fastgull.io^
 ||fastly-analytics.com^$third-party
 ||fastly-insights.com^$third-party
+||fastly.com/metrics/gtm/
 ||fastly.net/i?
 ||fastly.net/sp.js
 ||fastmail.com/api/event/
@@ -166915,6 +166933,7 @@ zzzyk.com###Tinfo
 ||fjlqqc.com/common/api/v1.0/slot-code/
 ||fjmailia.com^
 ||fjnrh.period.co^
+||fjordsand.com^
 ||fjordsand.com^$redirect=noopjs,script
 ||fjortk.braun-hamburg.com^
 ||fjpopxgyfrlxvc.com^
@@ -169051,6 +169070,7 @@ zzzyk.com###Tinfo
 ||geekotg.com^$all
 ||geekpark.net/api/v1/ads
 ||geekupdates.notion.site/Ultra-Security$doc
+||geeky-gadgets.net/api/event
 ||gefkkw.cyberport.de^
 ||gegdgwmi.dagsmejan.com^
 ||gege.la/template/skin1/images/g_js/
@@ -184714,6 +184734,8 @@ zzzyk.com###Tinfo
 ||kibn.cn^
 ||kibou-no-hane.com^$doc
 ||kick.com/*&loaderVersion=
+||kick.com/149e9513-01fa-4fb0-aad4-566afd725d1b/
+||kick.com/UcggFnr2hNhLCwLf/
 ||kickass.cd/analyze*.js
 ||kickass.immunicity.gold/analyze*.js
 ||kickass.unlockproj.party/analyze*.js
@@ -188059,6 +188081,13 @@ zzzyk.com###Tinfo
 ||livesearch-metrics.magento-ds.com^
 ||livesegmentservice.com^$third-party
 ||livesession.io^$third-party
+||livesex.com^$removeparam=dpid
+||livesex.com^$removeparam=jumpReferrer
+||livesex.com^$removeparam=mr
+||livesex.com^$removeparam=ms_rnd
+||livesex.com^$removeparam=psid
+||livesex.com^$removeparam=psprogram
+||livesex.com^$removeparam=pstool
 ||livestat.com^$third-party
 ||livestats.fr^$third-party
 ||livestats.kaltura.com^
@@ -193247,6 +193276,7 @@ zzzyk.com###Tinfo
 ||logapi.sooplive.com^
 ||logapi.tv.naver.com^
 ||logapi.zhipin.com^
+||logarithm29.top^
 ||logatera.net^$all
 ||logatera.work^$all
 ||logbak.hicloud.com^
@@ -203082,6 +203112,7 @@ zzzyk.com###Tinfo
 ||n72bn5s7uu.top^
 ||n730.timesunion.com^
 ||n74s9.com^$third-party
+||n7fyrdeen.com^
 ||n818.timesherald.com^
 ||n8bpikx1mt.com^
 ||n906n29tm.com^
@@ -205360,6 +205391,7 @@ zzzyk.com###Tinfo
 ||obs.branderblender.com^
 ||obs.du89buildings.com^
 ||obs.esnlocco.com^
+||obs.forseasky.com^
 ||obs.jollyoutdoorjogger.com^
 ||obs.system1onesource.com^
 ||obscenesidewalk.com^
@@ -205446,6 +205478,7 @@ zzzyk.com###Tinfo
 ||ocvdi0rum.com^
 ||ocvig.soluxury.ca^
 ||ocwlhv.ecid.com.br^
+||od6992uotl.com^
 ||oda.markitondemand.com^
 ||odb.outbrain.com^
 ||odc.1und1.de^
@@ -206262,6 +206295,10 @@ zzzyk.com###Tinfo
 ||onetag.co.kr^
 ||onetrust.com^$ping
 ||onetvb.com/assets/javascripts/
+||onetwotrip.com/_api_misc/kismx/e^
+||onetwotrip.com/_avia/statistics/
+||onetwotrip.com^$removeparam=meta_redirectid
+||onetwotrip.com^$removeparam=srcmarker2
 ||onevanilla.click^$all
 ||onewsvod.com^
 ||oneyearonechange.com^
@@ -211237,6 +211274,7 @@ zzzyk.com###Tinfo
 ||pscrb.fm/rss/p/$urlskip=/\/rss\/p\/([^?]+)/ +https
 ||pscrb.fm/shadow/ipv4/$urlskip=/\/ipv4\/([^?]+)/ +https
 ||pscunow.fmservice.com^
+||psdovpvghfphju.com^
 ||pse.gabor.com^
 ||psetu.citybonfires.com^
 ||psfcnf.ochsnersport.ch^
@@ -225458,7 +225496,10 @@ zzzyk.com###Tinfo
 ||skysa.com/tracker/
 ||skyscanner.*/*/collector
 ||skyscanner.*/*/metrics/
+||skyscanner.*/g/aps/public/api/v1/
+||skyscanner.*/g/banana-tallyman/tallyman/track/
 ||skyscanner.*/rf8vapwA/init.js
+||skyscanner.*/slipstream/
 ||skyscanner.*/slipstream/view
 ||skyscanner.co.kr/g/aps/public/api/v1/pixel/
 ||skyscanner.co.kr/slipstream/grp/*/custom/public/*/funnel_events/
@@ -255882,6 +255923,7 @@ zzzyk.com###Tinfo
 ||tzlit.cn^
 ||tzlsm.reservebar.com^
 ||tzovkp.aboutyou.at^
+||tzp61mplc.com^
 ||tzpiz.racecraftaus.com^
 ||tzqip.thevinessupply.co^
 ||tzur.intersport.me^
@@ -256950,6 +256992,7 @@ zzzyk.com###Tinfo
 ||upravel.com^$third-party
 ||uprinting.com/muffins/UPTracker-
 ||ups.com/img/icp.gif
+||ups.com^$removeparam=src
 ||ups.ksmobile.net^
 ||ups.liglig.com.br^
 ||ups.xplosion.de/ctx?event_id=$removeparam
@@ -265377,6 +265420,7 @@ zzzyk.com###Tinfo
 ||yncjsc.cn^
 ||yndhi.com^
 ||ynemmp.goertz.de^
+||ynet-pic1.yit.co.il/Common/Api/Scripts/GA4/ga4-ynetnews-*.js
 ||ynet.com/c/js/manto.min.js
 ||ynfxxbp.xyz^
 ||ynfzxh.com^
@@ -266835,6 +266879,7 @@ zzzyk.com###Tinfo
 ||zjst.net/3.gif
 ||zjthzf.xyz^
 ||zjtu.tv/add.
+||zju16obqzy.com^
 ||zjuoc.fromourplace.au^
 ||zjven.boysmells.com^
 ||zjxc.com/source/plugin/e6_xc_ad/
@@ -267145,6 +267190,7 @@ zzzyk.com###Tinfo
 ||zrnsl.alexanderwang.com^
 ||zrnsri.vogacloset.com^
 ||zrofz.spectacularacademy.com^
+||zrosq6dsha.com^
 ||zrpfi.cheershealth.com^
 ||zrrjq.pinkblushmaternity.com^
 ||zrsaff.petworld.no^
