@@ -4,8 +4,8 @@
 ! Powerd by CatsTeam
 ! Expires: 12 Hours
 ! Description: 该规则合并自My AdFilters（for PC），EdentwCustom，adgk，Adaway，Uniartisan，规则以及乘风规则等
-! Version: 2026-06-25 23:13:51
-! Total count: 270601
+! Version: 2026-06-26 12:07:48
+! Total count: 270629
 ! ------加强屏蔽Start------ !
 
 !酷安"提到的好物"
@@ -4172,6 +4172,7 @@ $websocket,domain=wap.yushuwu.cloud
 .com/adv1/?q=
 .com/adv?
 .com/adx/
+.com/af?o=$doc
 .com/afu.php?zoneid=$doc
 .com/api/stats?t=$xmlhttprequest,ping
 .com/api/users*^in=false&pii=$doc
@@ -4534,6 +4535,7 @@ $websocket,domain=wap.yushuwu.cloud
 .na1.hs-sales-engage.com/$image
 .na1.hubspotlinks.com/$image
 .ne16.com/do/
+.net/?fl=m9&m=$doc
 .net/?h=*&user=$script,3p
 .net/ad-
 .net/ad/$~object-subrequest
@@ -12911,6 +12913,7 @@ $websocket,domain=wap.yushuwu.cloud
 @@||googletagmanager.com/gtm.js$domain=gillette.de
 @@||googletagmanager.com/gtm.js$domain=givingfuel.com|regfox.com|ticketspice.com|redpodium.com
 @@||googletagmanager.com/gtm.js$domain=glamusha.ru
+@@||googletagmanager.com/gtm.js$domain=gocomics.com
 @@||googletagmanager.com/gtm.js$domain=gratis.com
 @@||googletagmanager.com/gtm.js$domain=gumtree.com
 @@||googletagmanager.com/gtm.js$domain=haisenryakuzu.net
@@ -16078,8 +16081,6 @@ assets.avadacom.com$image
 assets.blk.mail.rewardgateway.net$image
 assets.txn.mail.rewardgateway.net$image
 assrt.net###top-banner
-assume.gguaklar.cc,51cg1.com,51baoliao01.com,91cg1.com###adFloat
-assume.gguaklar.cc,51cg1.com,51baoliao01.com,91cg1.com##.recommend-layer
 ast.moseasia.com$image
 asterisk.avadacom.com$image
 asterix.avadacom.com$image
@@ -108225,6 +108226,8 @@ hmoe.one,hmoe.moe##a[href^="https://item.taobao.com"]
 hn.ifeng.com##.couplet,.fixed_ad
 hobbylog.jp##.pbancut
 hochi.news###ohtani-pickup
+hokztalt.cc,51cg1.com,51baoliao01.com,91cg1.com###adFloat
+hokztalt.cc,51cg1.com,51baoliao01.com,91cg1.com##.recommend-layer
 hola.rocket.la$image
 hold168.com##.news_ggimg
 holtrenfrew.com#%#//scriptlet('set-constant', 'ometria', 'emptyObj')
@@ -125170,6 +125173,7 @@ yahoo.com##.GeminiPortalStreamAd_handleViewport
 yahoo.com##.ad-tl2b
 yahoo.com##.bg-card-bg-1[class*="300px"]
 yahoo.com##.crazyad
+yahoo.com##.pointer-events-auto.h-\[91px\]
 yahoo.com##.pointer-events-none > .sticky:has(> div[id^="sda-"][id$="-iframe"]:only-child)
 yahoo.com##.stream-responsive-ad-item
 yahoo.com##.taboola-ad-item-wrapper
@@ -126091,6 +126095,7 @@ zzzyk.com###Tinfo
 ||0yq00i.cn^
 ||0yu3bxtqv.com^
 ||0z3zbnbkv.com^
+||0zo9nqijr.com^
 ||1-cl0ud.com^$third-party
 ||1.07swz.com^
 ||1.1.1.1/cdn-cgi/trace
@@ -127314,6 +127319,7 @@ zzzyk.com###Tinfo
 ||3is34bpqs4.com^
 ||3j0pw4ed7uac-a.akamaihd.net^
 ||3j1fiw14n9.com^
+||3j4vjpx7k.com^
 ||3jia5.com^$third-party
 ||3k2frl8r79.com^
 ||3k8.com/d/js/m/thea
@@ -127444,6 +127450,7 @@ zzzyk.com###Tinfo
 ||444223564.xyz^
 ||445nan.com/ad/
 ||4466.com/4466/
+||44b2zlch5q.com^
 ||44hd.cc/js/$script
 ||44ipavmq2n.com^
 ||44pd.com^*xds/
@@ -128174,6 +128181,7 @@ zzzyk.com###Tinfo
 ||6vw.cc/d/$script
 ||6w4ix4bxz1.com^
 ||6x59axt21.com^
+||6xu7at70ok.com^
 ||6ye.com.cn^
 ||6yfcuuw.com^
 ||6ynyejkv0j1s.app.tapmyback.com^
@@ -138847,6 +138855,7 @@ zzzyk.com###Tinfo
 ||analytics.wildlifestudios.com^
 ||analytics.wildtangent.com^
 ||analytics.winter.ink^
+||analytics.wispbyte.com^
 ||analytics.witglobal.net^
 ||analytics.wondershare.cc^
 ||analytics.wrc.nic.in^
@@ -142218,7 +142227,7 @@ zzzyk.com###Tinfo
 ||ask.wearelistening.co.nz^
 ||askanydifference.com/beardeddragon/gilamonster.js
 ||askdoctors.jp/assets/packs/js/impression_tracker-
-||askdriver.com^
+||askdriver.com^$redirect=noopjs,script
 ||askfollow.us^$doc
 ||askjbvjnejcbzweh.com^
 ||asklcnlkacnklnl.com^
@@ -149853,6 +149862,7 @@ zzzyk.com###Tinfo
 ||claude-code-$doc,to=edgeone.app|pages.dev|squarespace.com
 ||claude.ai/api/event_logging/
 ||claude.ai/sentry^
+||claude.ai^$removeparam=from
 ||claudio.treintastudios.com^
 ||claudverification-id.beer/api.php
 ||clavecin.taokids.be^
@@ -154263,6 +154273,7 @@ zzzyk.com###Tinfo
 ||d2fuc4clr7gvcn.cloudfront.net^
 ||d2g2u2795e3fzw.cloudfront.net^
 ||d2gbtcuv3w9qyv.cloudfront.net^
+||d2gt2ux04o03l1.cloudfront.net^
 ||d2hrivdxn8ekm8.cloudfront.net^$third-party
 ||d2i34c80a0ftze.cloudfront.net^
 ||d2ibu2ug0mt5qp.cloudfront.net^
@@ -171106,6 +171117,7 @@ zzzyk.com###Tinfo
 ||golfcartlaws.com^
 ||golfdigest.co.jp^$removeparam=car
 ||golfersrow.com^
+||gollum.monotote.com^
 ||gomabalerainc.top^$all
 ||gome.com.cn/flight?
 ||gomerchant.groupon.com^
@@ -176591,6 +176603,7 @@ zzzyk.com###Tinfo
 ||heraldandtimeslabs.com/sugar.js
 ||heraldcorp.com/view.php$removeparam=pos
 ||herbgreencolumn.com^
+||herbstarsbuilding.com^
 ||herculean57.com^
 ||hercules-progress.jp^$doc
 ||herebyintentionally.com^$doc
@@ -178506,6 +178519,7 @@ zzzyk.com###Tinfo
 ||icu/captcha.html$doc,frame
 ||icu^$doc,frame,ipaddress=94.154.35.152
 ||icugm.wagamama.us^
+||iculture.nl/ic-cgi/report/
 ||iculture.report^$third-party
 ||icvihl.cachecoeurlingerie.com^
 ||icwmzb.talisa.fr^
@@ -182136,6 +182150,7 @@ zzzyk.com###Tinfo
 ||is.fi/stats/
 ||is.lg.com^
 ||is16yobjh7.com^
+||is5qd8sk7a.com^
 ||is686.com^
 ||isac.thermofisher.com^
 ||isacglobal.com/sa.js
@@ -184915,6 +184930,7 @@ zzzyk.com###Tinfo
 ||kk.kvalitetskontroll.no^
 ||kk.pamo-design.com^
 ||kk3fefl2b3.com^
+||kk51qd5l4.com^
 ||kk99.co^
 ||kkbco.thehouseofmarley.co.uk^
 ||kkbiqu2.com/js/one.js
@@ -186484,6 +186500,7 @@ zzzyk.com###Tinfo
 ||legitscript.com/seals/$script
 ||lego.com/api/dl-event-ingest
 ||legolas-media.com^$third-party
+||legolas.monotote.com^
 ||legoo.simonpearce.com^
 ||legopq.site^
 ||legou361.com^
@@ -188050,6 +188067,7 @@ zzzyk.com###Tinfo
 ||liveadexchanger.com^
 ||liveadvert.com^
 ||liveany.com/images/8d8d.gif
+||liveball.sx/albert
 ||livechatinc.com^*/control.cgi?
 ||livecounter.dk^$third-party
 ||livecounter.theyosh.nl^
@@ -195032,6 +195050,7 @@ zzzyk.com###Tinfo
 ||majesticwaterscape.com^
 ||majesticwilderness.com^
 ||majiainc.com^$doc
+||majikichi.com/js/tracking.js
 ||majile.vip^
 ||majorgeeks.com/images/icons/red_icon_18x17px.png$image
 ||makaidong.com/img/
@@ -209811,6 +209830,7 @@ zzzyk.com###Tinfo
 ||plans.ceteraretirement.com^
 ||plans.fundtherebuild.com^
 ||plantcourse.com^
+||plantet.pl/products/ping/
 ||plants.outsidein.com^
 ||plarium.com/landings/$removeparam
 ||plas.imfeld.dev^
@@ -243820,7 +243840,7 @@ zzzyk.com###Tinfo
 ||streamads.com/view?
 ||streamate.com/api/metrics
 ||streamate.icfcdn.com/dist/getPerformanceMetrics.$script
-||streamcash.to/embed/ping/
+||streamcash.to/embed/$ping
 ||streamed.su/api/preload
 ||streamelements.com/z/i.js
 ||streamelements.com/z/s.js
@@ -245707,6 +245727,7 @@ zzzyk.com###Tinfo
 ||t.mm-uxrv.com^
 ||t.mma-adl.com^
 ||t.mmaeast.com^
+||t.mmganalytics.com^
 ||t.montecarlosbm.com^
 ||t.moonstreet.pl^
 ||t.morvextoys.com^
@@ -246071,6 +246092,7 @@ zzzyk.com###Tinfo
 ||t78obxl4h1.com^
 ||t7baxp1xmw00.boxoffice.adventuretix.com^
 ||t7cp4fldl.com^
+||t7fv5mjt8i.com^
 ||t7k3n9.micasa.ch^
 ||t7x22m7c.com^
 ||t7ywa5ai3.com^
@@ -247917,6 +247939,7 @@ zzzyk.com###Tinfo
 ||telemetry.bowflex.ca^
 ||telemetry.bowflex.com^
 ||telemetry.boxt.co.uk^
+||telemetry.bydata.com^
 ||telemetry.canva.com^
 ||telemetry.cardfactory.co.uk^
 ||telemetry.cfraresearch.com^
@@ -249344,6 +249367,7 @@ zzzyk.com###Tinfo
 ||tlutu.curbsideclothing.com^
 ||tluutoido.com^
 ||tlval.josephinenord.dk^
+||tlvbtryetgppha.com^
 ||tlvio.trendozashop.com^
 ||tlvmedia.com^
 ||tlwetv.bizento.com^
@@ -254519,6 +254543,7 @@ zzzyk.com###Tinfo
 ||trk.e.mailchimp.com^
 ||trk.e.underarmour.com^
 ||trk.earthday.org^
+||trk.edf.fr^
 ||trk.elmlea.com^
 ||trk.elmorietschle.cn^
 ||trk.elmorietschle.com^
@@ -256844,6 +256869,7 @@ zzzyk.com###Tinfo
 ||unjrkrxme.com^
 ||unjs.jingyanben.com^
 ||unjzcu.vita-mart.co.kr^
+||unknown47.top^
 ||unknowncrate.com^
 ||unknownidea.com^
 ||unl1zvy2zuyn.franchiseplus.nl^
@@ -256851,7 +256877,7 @@ zzzyk.com###Tinfo
 ||unleash-edge.wrtn.ai/api/frontend/client/metrics|
 ||unleash.livepix.gg^
 ||unlepre.jp^$doc
-||unloadyourself.com^
+||unloadyourself.com^$redirect=noopjs,script
 ||unlock.eleganceclothing.co^
 ||unm.emol.com^
 ||unpkg.com/@topsort/analytics.js
@@ -258251,6 +258277,7 @@ zzzyk.com###Tinfo
 ||vauu8z77p.com^
 ||vaxgyly.cn^
 ||vazulp.graniph.com^
+||vb5gi1zp5.com^
 ||vbanalytics.com^$third-party
 ||vbc08091op.com^
 ||vbc08100op.com^
@@ -259672,6 +259699,7 @@ zzzyk.com###Tinfo
 ||vvvvid.it^$ping
 ||vvwuqxp.icu^
 ||vvxhth.xyz^
+||vvzjhzccndbhva.com^
 ||vwakpz.vidri.com.sv^
 ||vwbbpe.aircaraibes.com^
 ||vwdealerdigital.com/cdn/sd.js
