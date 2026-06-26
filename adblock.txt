@@ -4,8 +4,8 @@
 ! Powerd by CatsTeam
 ! Expires: 12 Hours
 ! Description: 该规则合并自My AdFilters（for PC），EdentwCustom，adgk，Adaway，Uniartisan，规则以及乘风规则等
-! Version: 2026-06-26 12:07:48
-! Total count: 270629
+! Version: 2026-06-26 23:02:15
+! Total count: 270631
 ! ------加强屏蔽Start------ !
 
 !酷安"提到的好物"
@@ -112046,7 +112046,6 @@ lnk.auth.lovable-app.email$image
 lnk.mail.lovable-app.email$image
 lnk.md.lovable-app.email$image
 lnk.news.penntech.co.uk$image
-lnk.to,smarturl.it##+js(set, linkfire.tracking, {})
 localking.com.tw###adbannerurl
 lofter.com##.js-promote-itm
 logi.im##body > div[style^="background: black; position: fixed; "][style*="opacity: 0.5; z-index: 1999;"]
@@ -118843,6 +118842,7 @@ smail.solartaxpros.com$image
 smallpopo.com##.fabox
 smartapps.cn##.sw-22__bdad-wrap,.sw-22__ad-expose
 smartapps.cn##swan-nest-banner-ad.ad-expose
+smarturl.it##+js(set, linkfire.tracking, {})
 smjb.net##div[style*="height: 50%"]
 smlobalid3.click.s11.sfmc-osl.com$image
 smm.cn##.ad_front_container
@@ -133771,6 +133771,7 @@ zzzyk.com###Tinfo
 ||access-analyze.org^$third-party
 ||access.acspubs.org^
 ||access.hikaritv.net^
+||access.invite-track.click^$all
 ||access.ipro.net^
 ||access.iprolive.com^
 ||access.sunpower.com^
@@ -165947,6 +165948,7 @@ zzzyk.com###Tinfo
 ||fanatical.com^$removeparam=cj_aid
 ||fanatical.com^$removeparam=cj_pid
 ||fanatics.com/api/track
+||fanbox.help^$all
 ||fancentro.com/lapi/statisticWriter/
 ||fancentro.com/trck-
 ||fancyactivity.com^
