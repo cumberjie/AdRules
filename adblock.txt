@@ -4,8 +4,8 @@
 ! Powerd by CatsTeam
 ! Expires: 12 Hours
 ! Description: 该规则合并自My AdFilters（for PC），EdentwCustom，adgk，Adaway，Uniartisan，规则以及乘风规则等
-! Version: 2026-06-27 11:24:17
-! Total count: 270387
+! Version: 2026-06-27 22:58:34
+! Total count: 270388
 ! ------加强屏蔽Start------ !
 
 !酷安"提到的好物"
@@ -133730,7 +133730,6 @@ zzzyk.com###Tinfo
 ||access-analyze.org^$third-party
 ||access.acspubs.org^
 ||access.hikaritv.net^
-||access.invite-track.click^$all
 ||access.ipro.net^
 ||access.iprolive.com^
 ||access.sunpower.com^
@@ -160031,6 +160030,7 @@ zzzyk.com###Tinfo
 ||directelia.monexetmoi.com^
 ||directelia.my-loverelationship.com^
 ||directelia.premiumtarot.com^
+||directg.jp/js/fingerprint2.js$script,redirect=fingerprint2.js,important
 ||directions.mdanderson.org^
 ||directnews.co.uk/feedtrack/
 ||directory.cookieyes.com/api/v*/ip
@@ -181617,6 +181617,7 @@ zzzyk.com###Tinfo
 ||invite-demo.easypark.net^
 ||invite-sandbox.ritual.co^
 ||invite-test.sadapay.pk^
+||invite-track.click^$all
 ||invite.abra.com^
 ||invite.airtabapp.com^
 ||invite.ak-ecosystem.com^
