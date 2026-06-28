@@ -4,8 +4,8 @@
 ! Powerd by CatsTeam
 ! Expires: 12 Hours
 ! Description: 该规则合并自My AdFilters（for PC），EdentwCustom，adgk，Adaway，Uniartisan，规则以及乘风规则等
-! Version: 2026-06-27 22:58:34
-! Total count: 270388
+! Version: 2026-06-28 11:44:29
+! Total count: 270402
 ! ------加强屏蔽Start------ !
 
 !酷安"提到的好物"
@@ -11065,6 +11065,7 @@ $websocket,domain=wap.yushuwu.cloud
 @@||a.klaviyo.com/forms/api/*/full-forms?company_id=$domain=complyfoam.com
 @@||a.klaviyo.com/media/js/onsite/onsite.js$domain=kravebeauty.com
 @@||a.klaviyo.com/onsite/api/*/modules?company_id=$domain=complyfoam.com
+@@||a.run.app/api/stat?$domain=cocowa.app
 @@||a.usafacts.org/api/v4/Metrics$~third-party
 @@||a.visualrevenue.com/vrs.js$domain=nydailynews.com
 @@||a.visualrevenue.com/vrs.js$domain=t-online.de
@@ -12175,6 +12176,7 @@ $websocket,domain=wap.yushuwu.cloud
 @@||digit77.com^$generichide
 @@||digitale-sammlungen.gwlb.de^*/pageview.js$script,domain=digitale-sammlungen.gwlb.de
 @@||digitrend.it/wonder-marketing/assets/wordpress/js/videojs.ga.js?$script,domain=vrsicilia.it
+@@||directg.jp/js/fingerprint2.js$~third-party
 @@||directline.com/touchclarity/$script
 @@||dishtv.in/scripts/adobeAnalytics.js$~third-party
 @@||disneyplus.disney.co.jp/view/vendor/analytics/$~third-party
@@ -109383,6 +109385,7 @@ ithome.com##.down_app
 ithome.com##.indexV2 > div > a
 ithome.com##.j_iframe_show > iframe
 ithome.com##.lapin
+ithome.com##.op
 ithome.com##.open-app-banner
 ithome.com##.placeholder:has([data-original*='newsuploadfiles'])
 ithome.com##.rds
@@ -109392,6 +109395,7 @@ ithome.com##.rm-modal-body
 ithome.com##.rm-modal1-bg
 ithome.com##.rm-modal1-body
 ithome.com##.sb_list > .bx
+ithome.com##.visited-link-color-fixed:has(.tip-gray)
 ithome.com##DIV#hl960 + A > IMG[src^="http://t3.qpic.cn/"]:first-child,IMG[src^="http://ww2.sinaimg.cn/large/"],DIV#bbs_hl,div.a_pb,LI.sb_list > DIV.bx,ins.adsbygoogle,div[id^="a"][id$="g"],DIV#lagouData,DIV#hl-head,DIV#hl960,DIV#con > DIV#hl,IFRAME[src="http://www.ithome.com/block/headerline.htm"],div#side_pos1,div#hd_float,li#side_pos1,div#tt1,div[id$="hlindex"],div#hla,A[href^="http://e.cn.miaozhen.com"],div#tt5,li[style="padding-bottom:0;height:90px"],#hl-toutiao,#a_ad,[href^="http://go.ruanmei.com/"],#hongbao
 ithome.com##a[href*="/lapin."]
 ithome.com##a[href*="/lapin."] + .ad
@@ -126700,6 +126704,7 @@ zzzyk.com###Tinfo
 ||1ub29e88i.com^
 ||1und1.met.vgwort.de^
 ||1uo9djbnsr.com^
+||1urjtp1t6.com^
 ||1vd2esrss.com^
 ||1vyt1eguj27.ommasign.com^
 ||1w73a5d.cn^
@@ -137854,6 +137859,7 @@ zzzyk.com###Tinfo
 ||analytics.disneyplus.com^
 ||analytics.distributednews.com^
 ||analytics.diversitybestpractices.com^
+||analytics.divulg.org^
 ||analytics.dns-shop.ru^
 ||analytics.dollybeauty.com^
 ||analytics.dollymusical.com^
@@ -144033,6 +144039,7 @@ zzzyk.com###Tinfo
 ||bbppg.ardmoor.co.uk^
 ||bbpt.bodybarpilates.com^
 ||bbpysi.kagukuro.com^
+||bbqy4ihvz9.com^
 ||bbr.bru-zane.com^
 ||bbrav96ax.com^
 ||bbs-7.jp^$doc
@@ -146918,6 +146925,7 @@ zzzyk.com###Tinfo
 ||bytravel.cn/js/b_
 ||bytravel.cn/js/s_
 ||bytytxkz.icu^
+||byuh78fy2m.com^
 ||byuwzr.amanacapital.com^
 ||byvlph.xyz^
 ||bywxp.aritzia.com^
@@ -160031,6 +160039,7 @@ zzzyk.com###Tinfo
 ||directelia.my-loverelationship.com^
 ||directelia.premiumtarot.com^
 ||directg.jp/js/fingerprint2.js$script,redirect=fingerprint2.js,important
+||directg.jp/js/fingerprint2.js$script,redirect=fingerprintjs2
 ||directions.mdanderson.org^
 ||directnews.co.uk/feedtrack/
 ||directory.cookieyes.com/api/v*/ip
@@ -171788,6 +171797,7 @@ zzzyk.com###Tinfo
 ||gtags.net^$third-party
 ||gtagstape.myyogateacher.com^
 ||gtaqnnk.com^
+||gtavnhoxf.com^
 ||gtcntr.enamya.me^
 ||gtcqbnu.cn^
 ||gtcslt-di2.com^$third-party
@@ -184624,8 +184634,6 @@ zzzyk.com###Tinfo
 ||kibn.cn^
 ||kibou-no-hane.com^$doc
 ||kick.com/*&loaderVersion=
-||kick.com/149e9513-01fa-4fb0-aad4-566afd725d1b/
-||kick.com/UcggFnr2hNhLCwLf/
 ||kickass.cd/analyze*.js
 ||kickass.immunicity.gold/analyze*.js
 ||kickass.unlockproj.party/analyze*.js
@@ -200486,6 +200494,7 @@ zzzyk.com###Tinfo
 ||mg.xhkvff.cn^
 ||mg.yunchong6.cn^
 ||mg.zgcqxjzny.cn^
+||mg0pfou5o.com^
 ||mg21.com/wp-content/uploads/ad/
 ||mgagd.lacrawfish.com^
 ||mgaru.dev^$third-party
@@ -206414,6 +206423,7 @@ zzzyk.com###Tinfo
 ||operationsports.com/plow-lite-bundle
 ||operationsports.com/wp-json/navy/v1/tag?pid=
 ||operetta17.com^
+||opev2lhm7h.com^
 ||opfjj.vivobarefoot.com^
 ||oph7o.montecarlosbm-corporate.com^
 ||ophan.theguardian.com/a.gif
@@ -213062,6 +213072,7 @@ zzzyk.com###Tinfo
 ||r5dfwjtb.icu^
 ||r5g13d8py3.com^
 ||r5gcp9.com^
+||r5n8ic3on.com^
 ||r6pt6kfz.com^
 ||r6q4mtfno.com^
 ||r6yigjfvp.com^
@@ -213668,6 +213679,7 @@ zzzyk.com###Tinfo
 ||recs.richrelevance.com^$third-party
 ||recs.shareaholic.com^
 ||recsys-crawl.4paradigm.com^
+||rectangular18.com^
 ||recurly.com/js/v1/events
 ||recv-entry.tbs.co.jp^
 ||recv-jnn.tbs.co.jp^
@@ -264168,6 +264180,7 @@ zzzyk.com###Tinfo
 ||xrkadslmgg.top^
 ||xrkadslmgg.xyz^
 ||xrkbhl2cp.com^
+||xrnrplqcfmpxfg.com^
 ||xrnyhc.allmanmulsang.com^
 ||xrnyhc.alltype.co.kr^
 ||xrnyhc.arumdri.co.kr^
@@ -267088,6 +267101,7 @@ zzzyk.com###Tinfo
 ||zujz.cn^
 ||zukddms.cn^
 ||zulaedha.com^
+||zulphaqaq.in^
 ||zulu.dacaporio.com.br^
 ||zum7cc.oui.sncf^
 ||zumiq.ellevetwholesale.com^
@@ -268244,12 +268258,12 @@ zzzyk.com###Tinfo
 91porny.com##.jsv-g1
 91porny.com##.mobile-jsv-bottom,.mb-3.p-0,.d-sm-none,.mb-0.p-0
 91porny.com##A.display.d-block[href^='http'],A.display.d-block[href^='http'] ~ *
-91porny.com,91porn.fans###main > div[class][id] > .mb-0
-91porny.com,91porn.fans##.videoPlayContainer > style + div[data-nosnippet]
-91porny.com,91porn.fans#?##main > div[class][id]:-abp-has(>style)
-91porny.com,91porn.fans#?##main > div[class][id]:has(>style)
-91porny.com,91porn.fans#?#.colVideoList:-abp-has(>.video-elem>.d-block[href^="http"])
-91porny.com,91porn.fans#?#.colVideoList:has(>.video-elem>.d-block[href^="http"])
+91porny.com,91porn.fans,91porny.org###main > div[class][id] > .mb-0
+91porny.com,91porn.fans,91porny.org##.videoPlayContainer > style + div[data-nosnippet]
+91porny.com,91porn.fans,91porny.org#?##main > div[class][id]:-abp-has(>style)
+91porny.com,91porn.fans,91porny.org#?##main > div[class][id]:has(>style)
+91porny.com,91porn.fans,91porny.org#?#.colVideoList:-abp-has(>.video-elem>.d-block[href^="http"])
+91porny.com,91porn.fans,91porny.org#?#.colVideoList:has(>.video-elem>.d-block[href^="http"])
 91porny.com/api/getPos?jspath=/
 91rb99.com##.top
 91s.org##div.banner_ad,div.gg,div.right_Bor
