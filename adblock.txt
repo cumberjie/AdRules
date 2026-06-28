@@ -4,8 +4,8 @@
 ! Powerd by CatsTeam
 ! Expires: 12 Hours
 ! Description: 该规则合并自My AdFilters（for PC），EdentwCustom，adgk，Adaway，Uniartisan，规则以及乘风规则等
-! Version: 2026-06-28 11:44:29
-! Total count: 270402
+! Version: 2026-06-28 22:58:31
+! Total count: 270405
 ! ------加强屏蔽Start------ !
 
 !酷安"提到的好物"
@@ -7049,7 +7049,9 @@ $websocket,domain=wap.yushuwu.cloud
 /fingerprint.min.js
 /fingerprint/iife.min.js
 /fingerprint2.js
+/fingerprint2.js$script,redirect=fingerprint2.js
 /fingerprint2.min.js
+/fingerprint2.min.js$script,redirect=fingerprint2.js
 /fingerprint2.min.js^
 /fingerprint3.js
 /fingerprint3.min.js
@@ -202647,6 +202649,7 @@ zzzyk.com###Tinfo
 ||myanalytic.net^$3p
 ||myangular.life^
 ||myanimelist.net/static/logging.html
+||myanimelist.net/ux/
 ||myapp.branch.rocks^
 ||myapp.inchargeapp.com^
 ||myatpe.mebelaero.ru^
