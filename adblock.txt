@@ -4,8 +4,8 @@
 ! Powerd by CatsTeam
 ! Expires: 12 Hours
 ! Description: 该规则合并自My AdFilters（for PC），EdentwCustom，adgk，Adaway，Uniartisan，规则以及乘风规则等
-! Version: 2026-06-29 14:00:37
-! Total count: 270428
+! Version: 2026-06-29 22:52:23
+! Total count: 270430
 ! ------加强屏蔽Start------ !
 
 !酷安"提到的好物"
@@ -113562,6 +113562,7 @@ marketing.tradezero.co$image
 marketingcloud-np.delltechnologies.com$image
 marketwatch.com#%#//scriptlet('set-local-storage-item', 'pvid', '$remove$')
 markezine.jp##.carouselBlock > li[id^="cx_"].c-headlineindex_listitem
+mashable.com##+js(href-sanitizer, a[href^="https://zdcs.link/"], ?u)
 masok.cn###bottomLayer
 massmail.ficci.com$image
 masturbation22.com,playallvideos.com,pron.co,ratedxbiz.com,taporn.com##.ima
@@ -211145,6 +211146,7 @@ zzzyk.com###Tinfo
 ||prx.wayfair.com^
 ||prx6.destinia.ch^
 ||prxymecb.cn^
+||prydwen.gg/api/v1/ping/
 ||przucu.elkjop.no^
 ||ps.azurewaf.microsoft.com/*/event
 ||ps.azurewaf.microsoft.com/event
