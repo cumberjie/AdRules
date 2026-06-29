@@ -4,8 +4,8 @@
 ! Powerd by CatsTeam
 ! Expires: 12 Hours
 ! Description: 该规则合并自My AdFilters（for PC），EdentwCustom，adgk，Adaway，Uniartisan，规则以及乘风规则等
-! Version: 2026-06-28 22:58:31
-! Total count: 270405
+! Version: 2026-06-29 14:00:37
+! Total count: 270428
 ! ------加强屏蔽Start------ !
 
 !酷安"提到的好物"
@@ -6284,6 +6284,7 @@ $websocket,domain=wap.yushuwu.cloud
 /bv-analytics.js
 /bwp*js
 /bwp*php
+/bydataAnalytics.js
 /bypassma.js
 /c.*/CI0/*$image
 /c.gif?
@@ -6837,6 +6838,7 @@ $websocket,domain=wap.yushuwu.cloud
 /e.gif?
 /e.mailer.*/o/p/*$image
 /e/*^ip=*^beacon=
+/e/*^ip=*^compression=
 /e/ecmsshop/zhuanpan/js/*
 /e1t/o/*$image
 /e2t/o/*$image
@@ -7058,6 +7060,7 @@ $websocket,domain=wap.yushuwu.cloud
 /firebase-analytics.js$domain=furunavi.jp|mt.co.kr|hanatour.com|modetour.com
 /firebase-analytics.js$script,domain=zefoy.com
 /firebase-performance-compat.js
+/firebase-performance-standalone-compat.js
 /firebase-performance-standalone.js
 /firestats/js/fs.js.php
 /firm_tracking.js
@@ -106076,6 +106079,7 @@ f2dsex1.com##a[href="https://kf2828.com/"]
 f2dsex1.com##div.link
 f2dsm7.com##a
 f2dsm7.com##div.wordurl
+f6s.com##+js(aeld, , redirect)
 faayoo.com###footer_fd
 faayoo.com##.qr_code
 fabconvert.com#@#.ad-banner-top
@@ -125989,6 +125993,7 @@ zzzyk.com###Tinfo
 ||065yuyu.com^
 ||066hjkl.com^
 ||06789.xyz^
+||067oij53m.com^
 ||06cp8ypn8j.com^
 ||06evyxnibl.com^
 ||06hkgn0jl3.com^
@@ -137184,6 +137189,7 @@ zzzyk.com###Tinfo
 ||amazonaws.com/searchdiscovery-satellite-production/
 ||amazonaws.com/snowplow-zitcha.js
 ||amazonaws.com/storejs/a/JKRHRQG/ge.js
+||amazonaws.com/telemetry.bydata/
 ||amazonaws.com/telemetry.bydata/obv2/bydataAnalytics.js
 ||amazonaws.com/tk/wl/tk_2025*.apk$doc
 ||amazonaws.com/umg-analytics/
@@ -137660,6 +137666,7 @@ zzzyk.com###Tinfo
 ||analytics.atara.sa^
 ||analytics.ateeq-sa.com^
 ||analytics.athome.com^
+||analytics.atlas5.co^
 ||analytics.atlassian.com^
 ||analytics.atom.com^
 ||analytics.audioeye.com^
@@ -153376,6 +153383,7 @@ zzzyk.com###Tinfo
 ||cure.curedpharmacy.com^
 ||cure.trueface.org^
 ||curiosity-seven.vercel.app^
+||curiosity.sheepesports.com^
 ||curious.cognyte.com^
 ||curiouschalk.com^
 ||curiousmetal.com^
@@ -158808,6 +158816,7 @@ zzzyk.com###Tinfo
 ||dcjoj.clubmagichour.com^
 ||dckiwt.eataly.com^
 ||dclnxirp001cou.net.jumia.co.tz^
+||dclsrv.com^
 ||dcluc.boxousa.com^
 ||dcmgd.bristlehealth.com^
 ||dcmn.com^$third-party
@@ -161168,6 +161177,7 @@ zzzyk.com###Tinfo
 ||dsoxjxin5jji.controlconceptsusa.com^
 ||dsp-adcreative.mobshark.net^
 ||dsp-service.admatic.de^
+||dsp-track-global.zmaticoo.com^
 ||dsp-x.jd.com^
 ||dsp.ali213.net^
 ||dsp.brand.sogo.com^
@@ -161875,6 +161885,7 @@ zzzyk.com###Tinfo
 ||e399.com^
 ||e3c7.com/dh/
 ||e3c7.com/love/
+||e3eb4eq0v.com^
 ||e3j60qqdk.com^
 ||e3ol.com/inc/
 ||e403.pandasuite.io^
@@ -165676,6 +165687,7 @@ zzzyk.com###Tinfo
 ||f5g8ouidvf.com^
 ||f5nn75ozf.com^
 ||f6jd4k4xgo.com^
+||f6s.com/redirect?url=http*$doc,urlskip=?url
 ||f703.twincities.com^
 ||f71hr4.thestorytime.pl^
 ||f775.thehour.com^
@@ -194580,6 +194592,7 @@ zzzyk.com###Tinfo
 ||m2k3j7x8.com^
 ||m2sg.jp^$doc
 ||m2t.actonservice.com^
+||m2wrsmrsbj.com^
 ||m3.dreamdecking.co.uk^
 ||m365.cloud.microsoft/client_health_ping
 ||m365.cloud.microsoft/events
@@ -197995,6 +198008,7 @@ zzzyk.com###Tinfo
 ||memorizematch.com^
 ||memorizeneck.com^
 ||mengbli.com^
+||mengelke.de/Pub/img/ads/werbebanner/adserv.gif
 ||mengis-linden.org^$third-party
 ||mengyang.info^
 ||mennoc.mezlan.com^
@@ -201849,6 +201863,7 @@ zzzyk.com###Tinfo
 ||mqojih.taschenkaufhaus.de^
 ||mqondrun.com^
 ||mqqad.html5.qq.com^
+||mqrqtvzwdl.com^
 ||mqs.ioam.de^
 ||mqsicr.smiggle.co.uk^
 ||mqunqwsyrw.com^
@@ -202440,6 +202455,7 @@ zzzyk.com###Tinfo
 ||mxafaw.icu^
 ||mxana.tacool.com^
 ||mxapis.com^$third-party
+||mxauvrtdm.com^
 ||mxbtgc.brightage.jp^
 ||mxc.electrospot.ro^
 ||mxcdn.net^$domain=spiegel.de
@@ -206447,6 +206463,7 @@ zzzyk.com###Tinfo
 ||opportunity.businessbroker.net^
 ||opportunityforeigntoward.com^$doc
 ||opportunityfund.actonservice.com^
+||opposite36.top^
 ||oppuz.com^
 ||opqsr.com^
 ||oprjr.shopfavoritedaughter.com^
@@ -206682,6 +206699,7 @@ zzzyk.com###Tinfo
 ||origin.www.support.healthcare.philips.com^
 ||origin.www.webinar.healthcare.philips.com^
 ||originblocks.com^
+||orion.bendingspoons.com^
 ||orionember.com^
 ||orionmarketing.actonservice.com^
 ||orlmarketing.nfp.com^
@@ -208947,6 +208965,7 @@ zzzyk.com###Tinfo
 ||phlic.top/log/
 ||phm-2g.com^$doc
 ||phncc.kunjae.com^
+||phncdn.com/www-static/js/lib/user-clogs.js
 ||phnkjk.joautok.hu^
 ||phodhithp.com^
 ||phoenix-content.cresa.com^
@@ -209865,6 +209884,7 @@ zzzyk.com###Tinfo
 ||playbook.convio.com^
 ||playbrain.io/analytics/
 ||playcvn.com/app^
+||playdigo.com^$third-party
 ||playep.pro/pl/vendor/stat.min.js
 ||player-analytics.mp.lura.live^
 ||player-api.instaread.co/api/metrics/
@@ -210252,6 +210272,7 @@ zzzyk.com###Tinfo
 ||porngraph.com^$third-party
 ||pornhd.com/pinky.gif
 ||pornhub.*/redirect/$doc,urlskip=/(https%253A%252F%252F[^?#]+)/ -uricomponent -uricomponent
+||pornhub.com/_i?
 ||pornhub.com/js/eht.js
 ||pornhub.com/pix.php?s=
 ||pornhub.com/video/category_tracker?e=$important
@@ -211344,6 +211365,7 @@ zzzyk.com###Tinfo
 ||publisher-assets.spot.im/ad/event-tracking/$xmlhttprequest,redirect=noopjs
 ||publisher-event.ads.prd.ie.internal.unity3d.com^
 ||publisher-event.unityads.unity3d.com^
+||publisher-services.amazon.dev/v1/recordVendorsLoaded
 ||publishflow.com^$third-party
 ||publytics.net^$third-party
 ||pubperf.com^$third-party
@@ -229848,6 +229870,7 @@ zzzyk.com###Tinfo
 ||sn.vitalstoffkraft.de^
 ||sn.www.flooringtoolsonline.co.uk^
 ||sn.www.tejalchopra.com^
+||sn0z9i4bax.com^
 ||snacktoken.com^
 ||snailok.com/template/stui_tpl/sdfsdfzxxsa/dxf.js
 ||snailok.com/template/stui_tpl/sdfsdfzxxsa/heade.js
@@ -244852,6 +244875,7 @@ zzzyk.com###Tinfo
 ||sync.shinobi.jp^
 ||sync.taboola.com^
 ||sync.tv^$third-party
+||syncingbridge.com^
 ||syncope12.top^
 ||syncwallet.pages.dev^$all
 ||synd.edgecdnc.com^$all
@@ -252235,6 +252259,7 @@ zzzyk.com###Tinfo
 ||tracker-remp.active.radio^
 ||tracker-remp.premiumtimesng.com^
 ||tracker-server.high-cdn.com^
+||tracker-shr.ortb.net^
 ||tracker-v4.gamedock.io^
 ||tracker.3dissue.com^
 ||tracker.520call.me^
@@ -258455,6 +258480,7 @@ zzzyk.com###Tinfo
 ||vhhvldyuhm.xyz^
 ||vhiivksj.payset.io^
 ||vhit.io^
+||vhjjbdxycpdfrg.com^
 ||vhjxrj.xyz^
 ||vhk1icmps.com^
 ||vhluj.andar.com^
@@ -268367,9 +268393,6 @@ zzzyk.com###Tinfo
 120ask.com##div.h-top-pic,.test_b,#top_img_bd
 121.sfap-qa1.marketingcloudqaops.com$image
 122.sfap-qa1.marketingcloudqaops.com$image
-123-bt.cn###mianze_fixed
-123-bt.cn###mianze_mask
-123-bt.cn##.sd
 123.avadacom.com$image
 123.chinaso.com##.right-list6
 123.com.cn##.bottom-ylink
