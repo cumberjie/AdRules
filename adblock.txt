@@ -4,8 +4,8 @@
 ! Powerd by CatsTeam
 ! Expires: 12 Hours
 ! Description: 该规则合并自My AdFilters（for PC），EdentwCustom，adgk，Adaway，Uniartisan，规则以及乘风规则等
-! Version: 2026-06-30 12:05:12
-! Total count: 270441
+! Version: 2026-06-30 23:07:32
+! Total count: 270442
 ! ------加强屏蔽Start------ !
 
 !酷安"提到的好物"
@@ -197892,6 +197892,7 @@ zzzyk.com###Tinfo
 ||meetrics.net^$domain=spiegel.de
 ||meetrics.net^$third-party
 ||meetsourhig.biz^
+||meetu.usd1.party^$doc
 ||meetup.com^$cookie=MEETUP_BROWSER_ID
 ||meetup.com^$cookie=MEETUP_TRACK
 ||meetup.com^$removeparam=eventOrigin
