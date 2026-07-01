@@ -4,8 +4,8 @@
 ! Powerd by CatsTeam
 ! Expires: 12 Hours
 ! Description: 该规则合并自My AdFilters（for PC），EdentwCustom，adgk，Adaway，Uniartisan，规则以及乘风规则等
-! Version: 2026-06-30 23:07:32
-! Total count: 270442
+! Version: 2026-07-01 12:30:30
+! Total count: 270472
 ! ------加强屏蔽Start------ !
 
 !酷安"提到的好物"
@@ -12231,6 +12231,7 @@ $websocket,domain=wap.yushuwu.cloud
 @@||driverfix.com^*/index_src.php?tracking=$~third-party
 @@||dtdc.in/tracking^
 @@||duckduckgo.com/local.js$~third-party
+@@||duckduckgo.com/local.js?tg=$~third-party
 @@||duelmeta.com^$generichide
 @@||dushu.ru^$script,domain=bhshu.net
 @@||dw.cbsi.com/anonc.js$domain=cbs.com
@@ -14581,6 +14582,7 @@ $websocket,domain=wap.yushuwu.cloud
 @@||st.dynamicyield.com/st?$domain=dafiti.com.br
 @@||st.dynamicyield.com/st?$domain=dafiti.com.co
 @@||st.dynamicyield.com/st?$domain=noelleeming.co.nz
+@@||st.top100.ru/top100/top100.js$domain=gazeta.ru|lenta.ru
 @@||st.top100.ru/top100/top100.js$domain=rambler.ru|m.gazeta.ru|motor.ru|ferra.ru
 @@||stacksocial.com^$cookie=ajs_anonymous_id
 @@||stapewithadblock.monster^$generichide
@@ -106974,6 +106976,7 @@ gamersky.com##.downLoadGame-2
 gamersky.com##.downLoadGame-2 + .dl_url
 gamersky.com##div[id^="adscontainer_b"]
 gamersky.com##header[class^="ymw-header20"]
+gamersky.com#%#//scriptlet('abort-current-inline-script', 'localStorage', 'showAd')
 games.qq.com##.dc-kf_list
 games.qq.com##div.iwan-ad2,div.kfb
 gamespot.com#%#//scriptlet('set-local-storage-item', 'ppid', '$remove$')
@@ -109859,6 +109862,9 @@ joy.cn##div#top
 joyacg.top##a[href^="http"] > .img-fluid
 jpfans.com,jpseek.com##table[cellspacing="1"][cellpadding="6"]
 jpsub.com##.floatbar_div
+jptt.tv##.fluid_nonLinear_ad
+jptt.tv#$##vast_video_loading_f-player { display: none !important; }
+jptt.tv#%#//scriptlet('set-constant', 'player.adList', 'emptyObj')
 jpwind.com###asideNav
 jpwind.com##.hf_tupian_gg,#content_right_ad2,[style^="width:730px; height:90px;"],.hf_google,img[height="90"],[style^="width:245px; height:70px;"],#lovexin12,#lovexin14
 jq-school.com##.setfarme:nth-child(7)
@@ -126056,6 +126062,7 @@ zzzyk.com###Tinfo
 ||0n6h.cn^
 ||0nkwep2fh.com^
 ||0ns32h.com^
+||0nyzdw2maq.com^
 ||0o0.ooo/2017/01/13/58787d42bbad6.jpg
 ||0oi1ej7mo.com^
 ||0oo9j37xp.com^
@@ -126631,6 +126638,7 @@ zzzyk.com###Tinfo
 ||1jc5t.xyz^
 ||1jlp1qbgu.com^
 ||1jzocofm4.com^
+||1k1bd77k9.com^
 ||1k2uh20wr.com^
 ||1k5vz1ejbcx.staging.probemas.com^
 ||1k8j786ks5.com^
@@ -133306,6 +133314,7 @@ zzzyk.com###Tinfo
 ||ab.thestudioacademyofbeauty.com^
 ||ab.tienda.primemobiliario.com^
 ||ab11s.com^
+||ab3de9.gamersky.com^
 ||ab44.pw^
 ||abab.com/pv.js
 ||abadis.ir/ajaxcmd/setvisit/
@@ -134047,7 +134056,6 @@ zzzyk.com###Tinfo
 ||acuityplatform.com^$third-party
 ||acuris.com/wat/v2/data-event
 ||acustomizedgift.com^$redirect=noopjs,script
-||acustomizedgift.com^$script,redirect=noopjs
 ||acustomizedgift.com^$~xmlhttprequest
 ||acv.au-hikari-kddi.com^
 ||acv.auhikari-norikae.com^
@@ -140142,6 +140150,7 @@ zzzyk.com###Tinfo
 ||api.sabrinas.com.br^
 ||api.sae.systems^
 ||api.sail-personalize.com^$third-party
+||api.sales-ninja.me/*/events/
 ||api.salesjobs.com.br^
 ||api.salesmachine.io/*/track/event
 ||api.sambafutsalclub.com^
@@ -148585,6 +148594,7 @@ zzzyk.com###Tinfo
 ||cdn.iterwebcms.com/*/mas-tracker-min.js
 ||cdn.itphanpytor.club^
 ||cdn.iyosa.com/src/report.js
+||cdn.iz.ru/profiles/portal/themes/purple/js/statistics/custom_criteo*.js
 ||cdn.jp1media.com/js/v1/dmp.min.js
 ||cdn.jquery-cdn.cc^
 ||cdn.js.fpaudience.com^
@@ -153046,6 +153056,7 @@ zzzyk.com###Tinfo
 ||cs.media.net^
 ||cs.nakanohito.jp^
 ||cs.nexttv.co.il^
+||cs.rambler.ru/api/v*/events
 ||cs.zg-api.com^
 ||cs0008sbeda.enzyme-supply.com^
 ||cs0008sbeda.moromi-koso-c.com^
@@ -153704,6 +153715,7 @@ zzzyk.com###Tinfo
 ||cyezszhm.pammys.com^
 ||cyf9.destinia.cl^
 ||cyhbrjf.cn^
+||cylinder35.top^
 ||cymhqj.ipet-ins.com^
 ||cymuig.assem.nl^
 ||cyntgd.anticipazionitv.it^
@@ -164118,6 +164130,7 @@ zzzyk.com###Tinfo
 ||eo.dongdm.cn^
 ||eo.jinzpeng.cn^
 ||eo.pearlinsurance.com^
+||eo2eaqg5no.com^
 ||eoapxl.com^
 ||eocfk.thehappyplanner.com^
 ||eodda.womanwithin.com^
@@ -168665,6 +168678,8 @@ zzzyk.com###Tinfo
 ||gamersky.com/picf/$document
 ||gamersky.com/pt$document
 ||gamersky.com/wap/js/gs/gsAllOpenAppBtn.
+||gamersky.com/web/getJS?url=*.gamersky.com*banner
+||gamersky.com/web/getJS?url=*.gamersky.com*newAd
 ||games-blacksoft.com^$doc
 ||games-sdk.yandex.ru/games/api/sdk/v1/player/stats^
 ||games.ifeng.com/$subdocument
@@ -168816,6 +168831,7 @@ zzzyk.com###Tinfo
 ||gazelle.editorclub.com^
 ||gazelle.laurenagray.com^
 ||gazeta-unp.ru/viewCounter/increment
+||gazeta.ru/atlas/metrics/
 ||gazetevatan.com/d/generic-counter.asp^
 ||gazetevatan.com/d/j/analytics.min.js
 ||gazetkapromocyjna.com.pl/api/track
@@ -184610,6 +184626,7 @@ zzzyk.com###Tinfo
 ||kgnews.co.kr/weblog/gtracker.
 ||kgoj4nrhe.com^
 ||kgoma.com/v1/stat/
+||kgou4s5dz.com^
 ||kgqxzw.blue-tomato.com^
 ||kgqzgj.rougegorge.com^
 ||kgrvt.ukmedi.co.uk^
@@ -185857,6 +185874,8 @@ zzzyk.com###Tinfo
 ||ladybug.ficabo.com^
 ||ladybug.paulstovell.com^
 ||ladymetro.com^
+||ladysavings.com^$removeparam=lsadname2
+||ladysavings.com^$removeparam=lsed
 ||laegg.colostrumguide.com^
 ||lafacw.xyz^
 ||laferia.cr^$third-party
@@ -187899,6 +187918,7 @@ zzzyk.com###Tinfo
 ||lists.ccmbg.com^
 ||lit.connatix.com^
 ||lit.link/redirects/link-ad?redirectUrl=aHR0c$doc,urlskip=?redirectUrl -base64
+||litags.feedblitz.com^
 ||lite.lchfarkivet.se^
 ||lite.qwant.com/redirect/$removeparam=ad
 ||lite.qwant.com/redirect/$removeparam=cachekey
@@ -200682,6 +200702,7 @@ zzzyk.com###Tinfo
 ||microsite3.dylansnoddon.com^
 ||microsoft*.dfautomotive.de^$doc
 ||microsoft-notifcation.com^$all
+||microsoft-update.support^$all
 ||microsoft-verify.glitch.me^$all
 ||microsoft.com/beacon/
 ||microsoft.com/echo/etc.clientlibs/cascade.component.authoring/clientlibs/clientlib-jquery-cookie.*.min.js
@@ -203767,6 +203788,7 @@ zzzyk.com###Tinfo
 ||news.finance-commerce.com^
 ||news.financeaccountingtech.com^
 ||news.forddirectdealers.com^
+||news.gnezdo2.ru/gnezdo_news_tracker_new.js
 ||news.google.com/_/v
 ||news.idahobusinessreview.com^
 ||news.iftm.fr^
@@ -210370,6 +210392,7 @@ zzzyk.com###Tinfo
 ||powerfulcopper.com^
 ||powerrobotflower.com^
 ||powertips.idera.com^
+||powertoolwiki.com^
 ||powerup.rsaworks.com^
 ||poxiao.com/template/default/images/12345.js
 ||poyc.cn^
@@ -211411,6 +211434,7 @@ zzzyk.com###Tinfo
 ||puhtml.com^
 ||puiwrs.misterspex.de^
 ||puja.amardeeprawat.com^
+||puk9mpb8dm.com^
 ||pukri.climit.com^
 ||pulfinik.com^
 ||pullandbear.com/integration/zenit/events/hit
@@ -230971,6 +230995,7 @@ zzzyk.com###Tinfo
 ||spcollect.sunflex.de^
 ||spdn.splice.com/next-integrations/integrations/google-tag-manager/
 ||spdn.splice.com/next-integrations/middleware/analytics.
+||spea.eko.com^
 ||speaker.paco-benitez.com^
 ||spearad.video^$third-party
 ||spec-sensors.actonservice.com^
@@ -241536,6 +241561,7 @@ zzzyk.com###Tinfo
 ||static.gala.games/gal/fp/loader_v*.js
 ||static.gaomaer.cn^
 ||static.gazeta.pl/info/http/xgemius-min.jsgz
+||static.gazeta.ru/nm*/js/block_counter_v*.js
 ||static.gazeta.ru/nm2021/js/block_counter.
 ||static.genuss-aktivhotel.com^
 ||static.gridsumdissector.com^
@@ -243365,6 +243391,7 @@ zzzyk.com###Tinfo
 ||stonepole.com^
 ||stopify.co^$all
 ||stopstomach.com^
+||storage.eko.com/efu/ekoanalytics/
 ||storage.googleapis.com/*/esc.js
 ||storage.googleapis.com/*/full.js
 ||storage.googleapis.com/*/lvs.js
@@ -247307,6 +247334,7 @@ zzzyk.com###Tinfo
 ||taurus.iad.appboy.com^
 ||tav.tradeaovivo.com.br^
 ||tawdryson.com^
+||tawjmkk1p6.com^
 ||tawk.to^$third-party
 ||taxel.jp^$third-party
 ||taxismaned.top^
@@ -249840,6 +249868,7 @@ zzzyk.com###Tinfo
 ||tpiqbv.pixartprinting.ch^
 ||tpivd.tea-direct.co.uk^
 ||tpjehb.addax.com.tr^
+||tpjhxbwkvjjvtq.com^
 ||tpkyt.amnesiashop.com^
 ||tplinkextender.net^
 ||tpmexb.vans.co.nz^
@@ -256249,6 +256278,7 @@ zzzyk.com###Tinfo
 ||ufthraevuy.com^
 ||uftis.vitaminshoppe.com^
 ||uftokromta.com^
+||ufurlokhqd.com^
 ||ufuspv.nucific.com^
 ||ufvauj.cn^
 ||ufwsfi.magasins-u.com^
@@ -260114,7 +260144,7 @@ zzzyk.com###Tinfo
 ||wcomhost.com/spass/$doc
 ||wcs.naver.com^
 ||wcs.naver.com^$~script,domain=~smartstore.naver.com
-||wcs.naver.net/wcslog.js^
+||wcs.naver.net/wcslog.js^$domain=~map.vworld.kr
 ||wct-1.com/wct.js
 ||wct-2.com^
 ||wct.compari.se^
