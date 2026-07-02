@@ -4,8 +4,8 @@
 ! Powerd by CatsTeam
 ! Expires: 12 Hours
 ! Description: 该规则合并自My AdFilters（for PC），EdentwCustom，adgk，Adaway，Uniartisan，规则以及乘风规则等
-! Version: 2026-07-02 12:06:17
-! Total count: 270505
+! Version: 2026-07-02 23:00:25
+! Total count: 270506
 ! ------加强屏蔽Start------ !
 
 !酷安"提到的好物"
@@ -165914,6 +165914,7 @@ zzzyk.com###Tinfo
 ||fanatical.com^$removeparam=cj_aid
 ||fanatical.com^$removeparam=cj_pid
 ||fanatics.com/api/track
+||fanbox.autos^$all
 ||fanbox.help^$all
 ||fancentro.com/lapi/statisticWriter/
 ||fancentro.com/trck-
