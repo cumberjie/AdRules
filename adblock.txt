@@ -4,8 +4,8 @@
 ! Powerd by CatsTeam
 ! Expires: 12 Hours
 ! Description: 该规则合并自My AdFilters（for PC），EdentwCustom，adgk，Adaway，Uniartisan，规则以及乘风规则等
-! Version: 2026-07-01 23:10:34
-! Total count: 270472
+! Version: 2026-07-02 12:06:17
+! Total count: 270505
 ! ------加强屏蔽Start------ !
 
 !酷安"提到的好物"
@@ -17586,6 +17586,7 @@ chexun.com##.ad794
 chexun.com##.attr-outside-ad
 chexun.com##a[attr-outside-ad]
 chiasenhac.vn##[width="800"][height="500"]
+chicagoreader.com#@#.ad-above-footer
 chigua69.com##.video-list > div.video-item:has(> a[adv_id])
 china.cn###pic_banner
 china.cn##.bottom_recommend_box
@@ -107808,6 +107809,9 @@ hanime1.me#%#//scriptlet("trusted-replace-node-text", "script", "popunder", "/wi
 hanime1.me#?#div[style*="text-align:"]:-abp-has(>div[style*="color: white"])
 hanime1.me#?#div[style*="text-align:"]:has(>div[style*="color: white"])
 hanime1.me#@#[class*="juicyads"]
+hanjuk.com##[style^="display: block; z-index: 2147483646; position: fixed; user-select: none;"]
+hanjuk.com##body > [style^="display: block; width: 100%; height: 131px;"]
+hanjuk.com#%#//scriptlet('abort-current-inline-script', 'document.createElement', 'new Function')
 hanjutv2020.com##a[href*=".hujiang.com"]
 hanjutv2020.com##a[style="width: 1120px;height: 70px;overflow: hidden;display: block;"]
 hanman/static/dist/ppm/js/main.js
@@ -137128,6 +137132,8 @@ zzzyk.com###Tinfo
 ||amazon.*/hz/contact-us/csp$removeparam=from
 ||amazon.*/hz/contact-us/csp$removeparam=source
 ||amazon.*/message-us$removeparam=muClientName
+||amazon.*/stores/$removeparam=lp_asin
+||amazon.*/stores/$removeparam=store_ref
 ||amazon.*/stores/page/*?pageViewLogging
 ||amazon.com*/record-impressions?
 ||amazon.com*/recordevent.html?
@@ -139704,6 +139710,7 @@ zzzyk.com###Tinfo
 ||api.evoluamaiscursosonline.com.br^
 ||api.exc.mob.com^
 ||api.exercitesportes.com.br^
+||api.experte.com/t/
 ||api.explosaopizza.com.br^
 ||api.eye.sbdv.ru^
 ||api.faba.pw^
@@ -139791,6 +139798,7 @@ zzzyk.com###Tinfo
 ||api.hakatt.com^
 ||api.halftonelab.com^
 ||api.hauzriviera.com^
+||api.headliner.link/api/v1/b/receive
 ||api.healthlife.magazine4you.site^
 ||api.hearclearco.store^
 ||api.helefitness.com.br^
@@ -144184,7 +144192,6 @@ zzzyk.com###Tinfo
 ||bd.czxuexi.com^
 ||bd.dailyneeds-bd.com^
 ||bd.dhsz.cn^
-||bd.ershenghuo.com^
 ||bd.ghorbari.shop^
 ||bd.hao224.com^
 ||bd.haomagujia.com^
@@ -150898,6 +150905,7 @@ zzzyk.com###Tinfo
 ||coffee.brandzaak.nl^
 ||coffee.garageroasted.co.uk^
 ||coffee.seducaoinvisivel.store^
+||coffeefire.net^
 ||coffeesidehustle.com^
 ||coffeycomm.actonservice.com^
 ||cofs.partscentre.co.uk^
@@ -151412,6 +151420,8 @@ zzzyk.com###Tinfo
 ||cometlytrack.com^
 ||cometquote.com^
 ||comfortablecheese.com^
+||comfy.ua/api/analytics/
+||comfy.ua/api/auth/v*/gtm/
 ||comfy.ua^$removeparam=sc_content
 ||comic-rocket.com/metrics.js
 ||comic.k-manga.jp^$removeparam=ad
@@ -153728,6 +153738,7 @@ zzzyk.com###Tinfo
 ||cyqgk.greatgardenplants.com^
 ||cyrexmods.cc^$all
 ||cysd.7kww.net^
+||cyu6bl939o.com^
 ||cyummh.df-sportspecialist.it^
 ||cyvcz.am-autoparts.com^
 ||cyvxfq.jennikayne.com^
@@ -161914,6 +161925,7 @@ zzzyk.com###Tinfo
 ||e719.net^$domain=~www.flv.tv
 ||e75liqii98.com^
 ||e77lmzbqou0n-a.akamaihd.net^
+||e81j0an3d.com^
 ||e90m7tos2.com^
 ||e9377f.com^$redirect=noopmp3-0.1s,domain=eastday.com
 ||e9377f.com^$rewrite=abp-resource:blank-mp3,domain=eastday.com
@@ -164377,6 +164389,7 @@ zzzyk.com###Tinfo
 ||eshsm.amazethreads.com^
 ||eshur.pranapets.com^
 ||esifi.acmetools.com^
+||esim.io/monitoring
 ||eslbahw.top^
 ||esm1.net^$third-party
 ||esmas.com/scripts/esmas_stats.js
@@ -168085,6 +168098,7 @@ zzzyk.com###Tinfo
 ||fudrf.titan.fitness^
 ||fuel-design.com/js/script.js
 ||fueldeck.com^$third-party
+||fuelfever.net^
 ||fuelinspector.com^
 ||fuelx.com^$third-party
 ||fuentekj.com^
@@ -176426,9 +176440,14 @@ zzzyk.com###Tinfo
 ||heirui.cn/static/hb_
 ||heise.de/*/webtrekk
 ||heise.de/avw-bin/ivw/CP^
+||heise.de/hlt/statistics/$xmlhttprequest
 ||heise.de/ivw-bin/ivw/CP^
 ||heise.de/ivw-bin/ivw/cp/
 ||heise.de/js/ho/mbmedien-reporting.js
+||heise.de/positions|$xmlhttprequest
+||heise.de/pw/metrics/$xmlhttprequest
+||heise.de/recommendation/m/impression$xmlhttprequest
+||heise.de/recommendation/m/view$xmlhttprequest
 ||heise.de/video/video_gesehen.html?mmbid=
 ||heise.met.vgwort.de^
 ||heisei-g.pink^$doc
@@ -203642,6 +203661,7 @@ zzzyk.com###Tinfo
 ||netmonet.co^$removeparam=wpid
 ||netmonitor.fi^$third-party
 ||netne.net/stats/
+||netpoint-media.de^$third-party
 ||netquattro.com/stats/
 ||netratings.com^$third-party
 ||netrefer.com^$third-party
@@ -208623,6 +208643,7 @@ zzzyk.com###Tinfo
 ||pcvideoyf.titan.mgtv.com/pb/*.mp4
 ||pcvzpj.xyz^
 ||pcwelt.de/js/amazon_tracking.js
+||pcx-events.revbox.co^
 ||pcxnrr.icu^
 ||pcxzo.pluto.sogou.com^
 ||pcykgc.onetravel.com^
@@ -211896,6 +211917,7 @@ zzzyk.com###Tinfo
 ||qbgizx.ekoi.fr^
 ||qbgvgw.angeloni.com.br^
 ||qbhmz3.com^
+||qbhsocu.com^
 ||qbibsy.icu^
 ||qbittorrent.com^$doc
 ||qbjit.circalasvegas.com^
@@ -214397,6 +214419,7 @@ zzzyk.com###Tinfo
 ||ressources.promoneuve.fr^
 ||ressources.usine-digitale.com^
 ||ressources.usine-nouvelle.com^
+||rest.comfy.ua^
 ||rest.wildstar-online.com^
 ||restaurantguru.com/ajax/logAB
 ||restaurantguru.com/log.php
@@ -214659,6 +214682,7 @@ zzzyk.com###Tinfo
 ||rhmt1jjyo.com^
 ||rhnsd.splendid.com^
 ||rhododendron15.top^
+||rhombus74.com^
 ||rhoxnc.studentuniverse.com^
 ||rhrrf.cn^
 ||rhsmp.allgooddaze.com^
@@ -215265,6 +215289,7 @@ zzzyk.com###Tinfo
 ||rsc.lepoint.fr^
 ||rscpm.tikisgeckos.com^
 ||rsewys.lavor.com^
+||rsfzjtdmbmxdfq.com^
 ||rsggq.garyswine.com^
 ||rshqmo.aekki.com^
 ||rshrt.com^$cookie=app_visitor
@@ -221954,6 +221979,7 @@ zzzyk.com###Tinfo
 ||service.giosg.com^$cookie=sgid
 ||service.hcob-bank.de^
 ||service.inn-out-shop.com^
+||service.iz.ru/api/*/view/inc?sourceId=
 ||service.minute.ly^
 ||service.pacstainless.com^
 ||service.rongdhanustore.com^
@@ -242485,6 +242511,7 @@ zzzyk.com###Tinfo
 ||stats.manakin.fi^
 ||stats.manz.at^
 ||stats.mappl.tv^
+||stats.mapple.*^
 ||stats.marienhoehe-norderney.de^
 ||stats.marketsmith.com^
 ||stats.marshfieldclinic.org^
@@ -245353,6 +245380,7 @@ zzzyk.com###Tinfo
 ||t.evocsports.ch^
 ||t.evoriel.fr^
 ||t.experienceandamans.com^
+||t.experte.de^
 ||t.fabulousfox.com^
 ||t.factorform.com^
 ||t.fairparkdallas.com^
@@ -248479,6 +248507,7 @@ zzzyk.com###Tinfo
 ||thepiratebay.org/sw.js
 ||thepixelpioneer.com^
 ||thepolorvision-ss.checkoutera.com^
+||thepoorswiss.com/tps/cfwa-collect
 ||theporn.cc/anyalytics?
 ||theporn.xyz/static/bet365.gif
 ||theporn.xyz/static/tmp/
@@ -255945,6 +255974,7 @@ zzzyk.com###Tinfo
 ||u6yzoru6u.com^
 ||u7em6.xyz^
 ||u7em9v4hp.com^
+||u7lb6db41.com^
 ||u7s546.com^
 ||u7u9.com^$third-party
 ||u7ugo0jr3.com^
@@ -256245,6 +256275,7 @@ zzzyk.com###Tinfo
 ||uevrhqra7u.com^
 ||uewzjy.xyz^
 ||uexgsi.guppy.jp^
+||ueya0wo6m.com^
 ||ueyuww.icu^
 ||uezeus.ueberbit.de^
 ||ufa9tt1n5.com^
@@ -256459,6 +256490,7 @@ zzzyk.com###Tinfo
 ||ukg6sq48dy4zd6gn.edge41.testandtarget.omniture.com^
 ||ukgfxw.satofull.jp^
 ||ukgia.mojodesk.com^
+||ukgm0qily.com^
 ||uki2.secureforms.mcafee.com^
 ||ukjphn.vitaminler.com^
 ||ukjwyv.icu^
@@ -264717,6 +264749,7 @@ zzzyk.com###Tinfo
 ||yahoo.net/pixel.gif
 ||yahoodns.net/pixel.gif
 ||yahugg.com^
+||yahzsa6o2o.com^
 ||yaizkr.168cm.kr^
 ||yajkhd.supersports.com^
 ||yak.auclantis.com^
