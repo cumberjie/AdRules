@@ -4,8 +4,8 @@
 ! Powerd by CatsTeam
 ! Expires: 12 Hours
 ! Description: 该规则合并自My AdFilters（for PC），EdentwCustom，adgk，Adaway，Uniartisan，规则以及乘风规则等
-! Version: 2026-07-02 23:00:25
-! Total count: 270506
+! Version: 2026-07-03 12:05:44
+! Total count: 270538
 ! ------加强屏蔽Start------ !
 
 !酷安"提到的好物"
@@ -1928,6 +1928,7 @@ malimali2.com##div.leo-container:nth-child(4) > div:nth-child(5)
 ##html > body.body > div.container > div.content > form > table.optoutForm
 ##html > body.hold-transition.theme-primary.bg-img[style^="background-image"][style*="wallpaperaccess.com"][style*="background-repeat"][style*="background-size"]
 ##html#html[sti][vic][lang] > body#allbody
+##html.canvas > body.wp-singular + div[popover="manual"]
 ##html.wap [style='left: 40%;']
 ##html[data-scrapbook-source][data-scrapbook-create][data-scrapbook-title] > body.no-js > div.main-wrapper[role="main"] > div.main-content
 ##html[lang] > body#body > * > div.cv-xwrapper > div.cvc > div.cv-inner
@@ -2515,7 +2516,7 @@ $cookie=yoc_visxuid,domain=wp.pl
 $cookie=yotpo_pixel
 $csp=child-src 'none'; frame-src 'self' *; worker-src 'none',domain=fileone.tv|theappguruz.com
 $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vidoza.net
-$csp=script-src 'self' * 'unsafe-inline',domain=bijiyd.com|7zhens.com|wamuku.cc|scmmxs.com|jinduxs.com|buhesw.com|luenbook.cc|zahubook.com|heciwk.com|quhesw.com|erzuwk.com|bowoxs.com|guashuge.com|mudanxs.com|mzbook.cc|haduks.com|caimozw.com|zaaizw.com|bogeks.com|oushuku.com|haxu8.com|pucixs.com|tuqisw.com|xueyisw.com|zuye8.com|yawoxs.com|guwoxs.com|jiufuzw.com|beianxs.com|shuying6.com|mafusw.com|cule9.com|riquzw.com|xingksw.com|enbusw.com|waguwk.cc|ruyisw.com|zuxiku.com|jinmusb.com|hunshuge.com|puyewk.com|kaaiwk.com|hadu520.com|qubosw.com|meisibook.com|cuaizw.cc|boxue8.cc|cipubook.com|ququsk.cc|yiyezao.com|shanhuxs.com|jiutusw.com|chahuax.com|candoug.com|hanziwen.com|haduzw.com|modaoshu.com|nipubook.com|nuoshuge.com|puquz.com|wuwusk.com
+$csp=script-src 'self' * 'unsafe-inline',domain=bijiyd.com|7zhens.com|wamuku.cc|scmmxs.com|jinduxs.com|buhesw.com|luenbook.cc|zahubook.com|heciwk.com|quhesw.com|erzuwk.com|bowoxs.com|guashuge.com|mudanxs.com|mzbook.cc|haduks.com|caimozw.com|zaaizw.com|bogeks.com|haxu8.com|pucixs.com|tuqisw.com|xueyisw.com|zuye8.com|yawoxs.com|guwoxs.com|jiufuzw.com|beianxs.com|shuying6.com|mafusw.com|cule9.com|riquzw.com|xingksw.com|enbusw.com|waguwk.cc|ruyisw.com|zuxiku.com|jinmusb.com|hunshuge.com|puyewk.com|kaaiwk.com|hadu520.com|qubosw.com|meisibook.com|cuaizw.cc|boxue8.cc|cipubook.com|ququsk.cc|yiyezao.com|shanhuxs.com|jiutusw.com|chahuax.com|candoug.com|hanziwen.com|haduzw.com|modaoshu.com|nipubook.com|nuoshuge.com|puquz.com|wuwusk.com
 $csp=script-src 'self' * 'unsafe-inline',domain=shuhaige.net|ygshu.com|kbook8.com|yemancomic.com|erciyan.com|feiguaks.com|iqmxs.cc|hshfm.com|xbiqige.cc|1qxs.com|xddxsw.net|98dxs.net|bisowu.net|zyywenxue.com|xiakezw.com|biqul.com|biqugeks.org|girlsoncam.net|japonfilmleri.com|minaeast.net|shumi.la|59xs.com|biqugen.com|8181zw.vip|biqugequ.org|69shumi.com|fxxs3.com|efuxs.com|i3book.com|genbiquge.com|quanbiqu.com|pinshu.org|13xsw.com|bbiquge.cc|taobiquge.com|haijiaobooksw.top|zlobin.net|piaotianxiaoshuo.com|jvbiquge.com|vipbiquge.com|jpbqg7.com|zuizhong.net|oldtimeswx.org|5book.cc|softtechsolution.org|product44.com|snxsw.com|xiexinde.net|m.6666xsw.com|m.niupizhi.net|jmshuwu.net|wodexiaoshuoh.com|tetservices.net|haitangsoshu.org|4hrz.net|x33yq.org|56xiaoshuo.net|novelser.com|ykxs.cc|biqudd.com|diyibanzhu44444.com|dbrxs.org|kaixindu.net|1ingatlan.net|gaofuwu.org|yushuwu.cloud|yswxs.com|biquge2345.com|dingdian911.com|bqug8.com|xianguke.net|kunnu.com|yourbiquge.com|biquge345.com|666biquge.com|biquwx.cc|aidu123.com|biquluo.info|bqgh.com|maxshuku.com|shukuge.com|sthuojia.net|tvyun07.com|zk01.net
 $csp=script-src 'self' * 'unsafe-inline',domain=smsonline.cloud
 $csp=script-src 'self' *,domain=yebiquge.com|zduxs.com|90shuyuan.com|hunhunxs.com|sswwxs.com|akexs.com|qqmmxs.com|qimiaoxs.cc|qimiaoxiaoshuo.com|wuwxs.com|biquge678.com|biqugezw.us
@@ -5192,7 +5193,7 @@ $websocket,domain=wap.yushuwu.cloud
 /\.(?:cc|com|top|vip)\/index\/index\/lang\/[a-z]{2}-[a-z]{2}\b/$doc,to=cc|com|top|vip
 /\.(?:click|pages\.dev|surge\.sh)\/help\/contact\/\d{14,19}\b/$doc,match-case,to=click|pages.dev|surge.sh|~facebook.com
 /\.(?:pages\.dev|vercel\.app)\/appeal_case_id\b/$doc,to=pages.dev|vercel.app
-/\.[a-z]+[\:\/]/$~image,third-party,domain=bijiyd.com|7zhens.com|wamuku.cc|scmmxs.com|jinduxs.com|buhesw.com|luenbook.cc|zahubook.com|heciwk.com|quhesw.com|erzuwk.com|bowoxs.com|guashuge.com|mudanxs.com|mzbook.cc|haduks.com|caimozw.com|zaaizw.com|bogeks.com|oushuku.com|haxu8.com|pucixs.com|tuqisw.com|xueyisw.com|zuye8.com|yawoxs.com|guwoxs.com|jiufuzw.com|beianxs.com|shuying6.com|mafusw.com|cule9.com|riquzw.com|xingksw.com|enbusw.com|waguwk.cc|ruyisw.com|zuxiku.com|jinmusb.com|hunshuge.com|puyewk.com|kaaiwk.com|hadu520.com|qubosw.com|meisibook.com|cuaizw.cc|boxue8.cc|cipubook.com|ququsk.cc|yiyezao.com|shanhuxs.com|jiutusw.com|chahuax.com|candoug.com|hanziwen.com|haduzw.com|modaoshu.com|nipubook.com|nuoshuge.com|puquz.com|wuwusk.com
+/\.[a-z]+[\:\/]/$~image,third-party,domain=bijiyd.com|7zhens.com|wamuku.cc|scmmxs.com|jinduxs.com|buhesw.com|luenbook.cc|zahubook.com|heciwk.com|quhesw.com|erzuwk.com|bowoxs.com|guashuge.com|mudanxs.com|mzbook.cc|haduks.com|caimozw.com|zaaizw.com|bogeks.com|haxu8.com|pucixs.com|tuqisw.com|xueyisw.com|zuye8.com|yawoxs.com|guwoxs.com|jiufuzw.com|beianxs.com|shuying6.com|mafusw.com|cule9.com|riquzw.com|xingksw.com|enbusw.com|waguwk.cc|ruyisw.com|zuxiku.com|jinmusb.com|hunshuge.com|puyewk.com|kaaiwk.com|hadu520.com|qubosw.com|meisibook.com|cuaizw.cc|boxue8.cc|cipubook.com|ququsk.cc|yiyezao.com|shanhuxs.com|jiutusw.com|chahuax.com|candoug.com|hanziwen.com|haduzw.com|modaoshu.com|nipubook.com|nuoshuge.com|puquz.com|wuwusk.com
 /\.[a-z]{3,}\/a\.aspx\?cid=/$doc,match-case,to=~com|~net|~org|~gov|~edu
 /\.[a-z]{3,}\/products\.aspx\?cname=.+&cid=/$doc,match-case,to=~com|~net|~org|~gov|~edu
 /\.cloudfront\.net\/(?=[a-z]{0,6}\d)[a-f0-9]{7}\.js$/$script,3p,match-case,to=~d3dvi1l4i1go4x.cloudfront.net
@@ -5972,6 +5973,7 @@ $websocket,domain=wap.yushuwu.cloud
 /api/client-logs$domain=theridgefieldpress.com|thetelegraph.com|beaumontenterprise.com|bigrapidsnews.com|chron.com|ctinsider.com|ctpost.com|darientimes.com|seattlepi.com|expressnews.com|fuelfix.com|greenwichtime.com|houstonchronicle.com|lakecountystar.com|lmtonline.com|manisteenews.com|michigansthumb.com|middletownpress.com|milfordmirror.com|mrt.com|myjournalcourier.com|myplainview.com|mysanantonio.com|ncadvertiser.com|newstimes.com|nhregister.com|ourmidland.com|recordpatriot.com|registercitizen.com|seattlepi.com|sfchronicle.com|sfgate.com|sheltonherald.com|smallbusiness.chron.com|stamfordadvocate.com|theheraldreview.com|thehour.com|theintelligencer.com|timesunion.com|trumbulltimes.com|weekand.com|wiltonbulletin.com|work.chron.com|yourconroenews.com
 /api/cmp_tracker|
 /api/collect|$ping,xmlhttprequest
+/api/css.js^$3p,script
 /api/datafast/*
 /api/drpStats
 /api/event-rfkj/*
@@ -20931,6 +20933,7 @@ cmail.carezone.com$image
 cmail.sportsbet.io$image
 cmbc.com.cn#@#.adBox
 cmhello.com##.gpost-above
+cmoney.tw##.stockGrid__topbar
 cms-demolobalid3.click.s11.sfmc-osl.com$image
 cmsky.com##.textwidget a[href^="http"]:not([href*="cmsky"])
 cn-healthcare.com##.fh_ad_wrap
@@ -21678,6 +21681,7 @@ disqus.com##+js(remove-cookie, disqus_unique, when, scroll keydown)
 disqus.com##+js(trusted-set-cookie, disqus_unique, 0, , , domain, disqus.com)
 disqus.com##a[href][data-link-out]:remove-attr(data-link-out)
 disqus.com#%#//scriptlet('href-sanitizer', 'a[href*="://disq.us/url?url="]', '?url')
+disqus.com#%#//scriptlet('set-cookie', 'disqus_tracking_optout', '1')
 ditu.so.com##.label-ads
 ditu.so.com##a[class^="index-bcItem"]
 ditu.so.com##a[href^="https://e.so.com/"]
@@ -112076,6 +112080,7 @@ lolfun.cn##.detail_container_download,#detail_con_id,#sidebar_id,.detail_contain
 lolshipin.com##.box2
 lolshipin.com##[src^="/zt/sxx/"]
 lolshipin.com,loldk.com##iframe[src^="http://img.xa9t.com/"],div.ad,div.ad_time,div.box,div.float_layer,.box2,#weixin_ad,.ad-area,img[id^="meizi"],a#lolmz-ad,div#video_new_ad,#right_bottom,.appfix,[href="http://www.iyuezan.com/?from=share_ad"]
+longhall.consulting##+js(rmnt, script, /document\.currentScript\.remove|0x0/)
 longhoo.net##.lybm2016,.tigerEyes
 longhorn.click.s11.sfmc-osl.com$image
 longyu.cc##div.a_pt,div.a_pb,div.ly_wrap.a_h,div.a_wp.ly_wrap.ad_fixed,div.ly_wrap.a_t.ad_fixed,textarea.ads ,div#ads_three,div.wp.a_ly_index.ad_fixed
@@ -119102,6 +119107,8 @@ soft4fun.net###xad_mu
 soft5566.com###sharebtn
 soft6.com##.main_ad_center,.header_top_ad,.lists_right_ad
 soft7788.com##span[style="float:left;width:100%;height:30px;"]
+soft8ware.com##ins.adsbygoogle
+soft8ware.com#%#//scriptlet('prevent-setTimeout', 'triggerAdBlockModal')
 softblog.tw#@#.dshare
 sogi.com.tw##div[class="row my-2 ad-slot-970"]
 sogi.com.tw#?##main > div.container:has(> div#ad)
@@ -125162,6 +125169,7 @@ y.qq.com##.top_box
 y.qq.com##.top_operation_bar__btn
 y.qq.com##.top_operation_box
 y4dg.cc##.a_mu,.a_pb,.a_pt,.wp.a_h,.frameBox4,[class^="a_"]
+ya.ru#%#//scriptlet('abort-on-property-write', 'Ya.clck')
 yaerwen.com##table[height="250"]
 yahoo.com###ACT_crazy
 yahoo.com###ACT_takeover
@@ -126061,6 +126069,7 @@ zzzyk.com###Tinfo
 ||0kkbb.com/js/i.js
 ||0krdn3.com^
 ||0l34c7sqy.com^
+||0l7t5qhb4.com^
 ||0m483y7.cn^
 ||0m9mjmrd.top^
 ||0n6h.cn^
@@ -126697,6 +126706,7 @@ zzzyk.com###Tinfo
 ||1qkssfop4l.com^
 ||1qocqk1fho.com^
 ||1qwe3r.com^
+||1r0br5zeq.com^
 ||1r49n.cn^
 ||1rer.hummel.net^
 ||1rljzo9nt.com^
@@ -127836,6 +127846,7 @@ zzzyk.com###Tinfo
 ||5bess6df0.com^
 ||5bf0fdacd2.apps.iocnt.de^
 ||5bkhq0lwmq.com^
+||5bpajgg436.com^
 ||5c.com.cn^
 ||5ch.io/jump/to?url=http$doc,urlskip=?url
 ||5cyi6tp6h.com^
@@ -128150,6 +128161,7 @@ zzzyk.com###Tinfo
 ||6quspne.com^
 ||6rooms.com/$image,domain=~6.cn
 ||6s0zo8jzbb.com^
+||6s78n1rj4r.com^
 ||6s8w2ck1g.com^
 ||6sc.co^$third-party
 ||6spczz2hj1.com^
@@ -143813,6 +143825,7 @@ zzzyk.com###Tinfo
 ||bakercommunications.actonservice.com^
 ||bakrathtfa.com^
 ||bal.balciselahattin.com^
+||balancenotes.com^
 ||baldeagle.e-ma.re^
 ||balenaetcher.$all,domain=~etcher.balena.io
 ||balkog.withmoment.co.kr^
@@ -150176,6 +150189,7 @@ zzzyk.com###Tinfo
 ||clipcentric.com^$third-party
 ||clipkit.co/clipkit_assets/beacon-
 ||clipkit.de/metrics?
+||clipro.tv/v*/events
 ||clipsyndicate.com/cs_api/cliplog?
 ||cliquelead.com^
 ||clixgalore.com/Lead.aspx*^AffDirectURL=$doc,urlskip=?AffDirectURL -uricomponent +https
@@ -150397,6 +150411,7 @@ zzzyk.com###Tinfo
 ||cloudmade.com^
 ||cloudmax.jp^$doc
 ||cloudmetrics.xenforo.com^
+||cloudproxy.digital^$3p,xhr
 ||cloudpush.iqiyi.com^
 ||cloudtracer101.com^$third-party
 ||cloudwp.io^
@@ -159461,6 +159476,7 @@ zzzyk.com###Tinfo
 ||df.pmweb.com.br^$third-party
 ||df.tanx.com^
 ||df33iyey8.com^
+||df6m7fvrds.com^
 ||df888.eastday.com^
 ||dfadas13.com^
 ||dfaikhkm.xyz^
@@ -167006,6 +167022,7 @@ zzzyk.com###Tinfo
 ||flasmr.top/leb.
 ||flaticon.com/_ga?
 ||flaticon.com^$cookie=g_state
+||flavamovie.com^$all
 ||flavg.drinkfreespirits.com^
 ||flavors.firmenich.com^
 ||flbuhz.justlease.be^
@@ -171324,6 +171341,7 @@ zzzyk.com###Tinfo
 ||goose.surfboardpayments.com^
 ||goose64.top^
 ||goosedaily.com/advertise/
+||gopay.sh/collect
 ||gopher.mina.ca^
 ||gopjn.com^$third-party
 ||goprediction.com^$third-party
@@ -171544,6 +171562,7 @@ zzzyk.com###Tinfo
 ||grduswfx.com^
 ||gre.groobee.io^
 ||greasysquare.com^
+||great-fade.sbs^$all
 ||greatnumeric.com^
 ||greatservice.online^
 ||greatviews.de^$third-party
@@ -171628,6 +171647,7 @@ zzzyk.com###Tinfo
 ||groupon.com/analytic/
 ||groupon.com/api/v*/logs
 ||groupon.com/v*/dataPoint
+||groupon.de/mobilenextapi/v*/logs
 ||groupon.it/tracky|
 ||groupondata.com/tracky
 ||groupondata.com/trest
@@ -171917,6 +171937,7 @@ zzzyk.com###Tinfo
 ||gtm-stape.dorsia.es^
 ||gtm-stape.loclefilms.com^
 ||gtm-stape.rakousko.cz^
+||gtm-tools.xyz^$all
 ||gtm-werkenbij.onstweedethuis.nl^
 ||gtm-wp.paradaisehosts.com.br^
 ||gtm.12minutes.de^
@@ -209692,6 +209713,7 @@ zzzyk.com###Tinfo
 ||pl.noartmusic.com^
 ||pl.paradiesgartenfestival.at^
 ||pl.paradisecity.be^
+||pl.primis.tech^
 ||pl.scandal.events^
 ||pl.schaatsbaanmuseumplein.nl^
 ||pl.sharpmarketing.eu^
@@ -213426,6 +213448,7 @@ zzzyk.com###Tinfo
 ||rbjwels.xyz^
 ||rbkidelmug.com^
 ||rbl.ms/res/users/tracking/
+||rbl.ms/spacer.gif?
 ||rblx-copier.vercel.app^$all
 ||rblx.land^$all
 ||rbmg4agmo.com^
@@ -213566,6 +213589,7 @@ zzzyk.com###Tinfo
 ||rdyikd.auto-savings.com^
 ||rdzkb.houseofchingasos.com^
 ||re-ads.com^
+||re-captcha.xyz^$all
 ||re-captha-version-$all
 ||re-volver.net/visitor/
 ||re.focusdice.com^
@@ -214209,6 +214233,7 @@ zzzyk.com###Tinfo
 ||reporting.cdndex.io^
 ||reporting.singlefeed.com^
 ||reportlog.dftoutiao.com^
+||reportmyads.com^$third-party
 ||reports-api.sqreen.io^
 ||reports-tsi.tangerine.io^
 ||reports.adguard.com/-/metrics/
@@ -243777,6 +243802,7 @@ zzzyk.com###Tinfo
 ||streamnoads.com/stat/
 ||streamoptim.com/log.js
 ||streamoptim.com/log/report?
+||streams-scores.rbl.ms^
 ||streams.bestbuy.com/customer/web-streams/v*/events/digital-experience-event
 ||streams.bestbuy.com/customer/web-streams/v1/events/cj-page-visits
 ||streams.cablecar.sph.com.sg^
@@ -244937,6 +244963,7 @@ zzzyk.com###Tinfo
 ||sync.clearnview.com^
 ||sync.ebis.ne.jp^$third-party
 ||sync.getpublica.com^
+||sync.inmobi.com^
 ||sync.morgdm.ru^
 ||sync.opendsp.ru^
 ||sync.outbrain.com^$third-party
@@ -251368,6 +251395,7 @@ zzzyk.com###Tinfo
 ||tra.scds.pmdstatic.net/sourcepoint/
 ||tra.suitstore.shop^
 ||tra.zonia.ro^
+||trabalho.amazon.com.br/resources/js/adobe_analytics.js
 ||trac.clicplan.co.uk^
 ||trac.clicplan.es^
 ||trac.clicplan.fr^
@@ -253955,6 +253983,7 @@ zzzyk.com###Tinfo
 ||transporter.makemytrip.global^
 ||tranyasy.com.cn^$all
 ||trap.skype.com^
+||trapezium69.top^
 ||trappcloudservices.trapptechnology.com^
 ||trapptech.actonservice.com^
 ||trappush.com^
@@ -255657,6 +255686,7 @@ zzzyk.com###Tinfo
 ||tw.reppublika.com^
 ||tw.spiriteq.com^
 ||tw1.ru/Orange/$doc
+||tw6eg2vusa.com^
 ||twa735xojg.com^
 ||twavtv.com/js/jquery.colorbox
 ||twb98.com^
@@ -263891,6 +263921,7 @@ zzzyk.com###Tinfo
 ||xiarikui08.com^
 ||xiazaizhijia.com/w2/js/wxzzj.js
 ||xibspj.komehyo.jp^
+||xibuvdzihpjlrq.com^
 ||xibvdjz2x2.com^
 ||xiexingcun.com/tongji.js
 ||xiexingcun.com/tyong.js
@@ -264703,6 +264734,7 @@ zzzyk.com###Tinfo
 ||y9ppy0icw1.com^
 ||ya*.dwstatic.com^
 ||ya.ru/clck/
+||ya.ru/search/_crpd/*/*/$ping
 ||yaacdn.top^
 ||yaanimail.com/assets/js/facebook/pageview.js
 ||yaaumqa.top^
