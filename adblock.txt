@@ -4,8 +4,8 @@
 ! Powerd by CatsTeam
 ! Expires: 12 Hours
 ! Description: 该规则合并自My AdFilters（for PC），EdentwCustom，adgk，Adaway，Uniartisan，规则以及乘风规则等
-! Version: 2026-07-03 22:57:45
-! Total count: 270538
+! Version: 2026-07-04 11:22:59
+! Total count: 270566
 ! ------加强屏蔽Start------ !
 
 !酷安"提到的好物"
@@ -13987,7 +13987,7 @@ $websocket,domain=wap.yushuwu.cloud
 @@||pagead2.googlesyndication.com/pagead/*/show_ads_impl$domain=bilinovel.com
 @@||pagead2.googlesyndication.com/pagead/js/*/show_ads_impl$domain=ff14angler.com|logi.im
 @@||pagead2.googlesyndication.com/pagead/js/*/show_ads_impl.js$domain=doitwell.tw
-@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=chajianmi.com|huavod.com|huaren.live|tt1069.com|akashio.com|1991421.cn|kantie.org|kejilion.pro|bilinovel.com|mcappx.com|yeeach.com|blog.6ziz.com|docsmall.com|uiadmin.net|4horlover.com|23qb.net|4spaces.org|aboluowang.com|assbbs.com|chaojizhibo.net|chtoen.com|daxiaamu.com|demo.ama.pub|dizhishengcheng.com|doitwell.tw|ekamus.info|eu4cn.com|ff14angler.com|freedidi.com|fsbot.xyz|haoweichi.com|it365.abctool.info|linovelib.com|logi.im|mens1069.com|monnsutogatya.com|mpyit.com|numberempire.com|ozabc.com|pansearch.me|patch.ali213.net|pc3mag.com|reh.tw|shenfendaquan.com|sistersbedroom.com|sto520.com|vaptcha.com|wandhi.com|wenxuecity.com|wuyong.fun|xbeibeix.com|xiebruce.top|xugaoxiang.com|xxxxx520.com|yodu.org|yummy.best|zaixianjisuan.com
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=soft8ware.com|chajianmi.com|huavod.com|huaren.live|tt1069.com|akashio.com|1991421.cn|kantie.org|kejilion.pro|bilinovel.com|mcappx.com|yeeach.com|blog.6ziz.com|docsmall.com|uiadmin.net|4horlover.com|23qb.net|4spaces.org|aboluowang.com|assbbs.com|chaojizhibo.net|chtoen.com|daxiaamu.com|demo.ama.pub|dizhishengcheng.com|doitwell.tw|ekamus.info|eu4cn.com|ff14angler.com|freedidi.com|fsbot.xyz|haoweichi.com|it365.abctool.info|linovelib.com|logi.im|mens1069.com|monnsutogatya.com|mpyit.com|numberempire.com|ozabc.com|pansearch.me|patch.ali213.net|pc3mag.com|reh.tw|shenfendaquan.com|sistersbedroom.com|sto520.com|vaptcha.com|wandhi.com|wenxuecity.com|wuyong.fun|xbeibeix.com|xiebruce.top|xugaoxiang.com|xxxxx520.com|yodu.org|yummy.best|zaixianjisuan.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,domain=duelmeta.com|linetv.tw|liout.com|moneysave.info|raenonx.cc|zxmee.com
 @@||pagead2.googlesyndication.com/pagead/js/google_top_exp.js$domain=ebb.io
 @@||pagead2.googlesyndication.com/pagead/show_ads.js$domain=knowlet3389.blogspot.com|knowlet3389.blogspot.hk|knowlet3389.blogspot.jp|knowlet3389.blogspot.tw|mnighthk.net|weithenn.org
@@ -125169,7 +125169,6 @@ y.qq.com##.top_box
 y.qq.com##.top_operation_bar__btn
 y.qq.com##.top_operation_box
 y4dg.cc##.a_mu,.a_pb,.a_pt,.wp.a_h,.frameBox4,[class^="a_"]
-ya.ru#%#//scriptlet('abort-on-property-write', 'Ya.clck')
 yaerwen.com##table[height="250"]
 yahoo.com###ACT_crazy
 yahoo.com###ACT_takeover
@@ -127435,6 +127434,7 @@ zzzyk.com###Tinfo
 ||42vaywaovr.com^
 ||42ye.com^
 ||42yenxh.cn^
+||431kls9qsf.com^
 ||43290662000156.bsmultas.com.br^
 ||4336wang.cn^
 ||43423.com/template/skin1/images/g_js/
@@ -128145,6 +128145,7 @@ zzzyk.com###Tinfo
 ||6o2k80jf8w.com^
 ||6o719vq4x.com^
 ||6ogiuks905.com^
+||6ovzwbq4o.com^
 ||6p2g1kk03.com^
 ||6p6vcukqz.com^
 ||6pal.consobaby.com^
@@ -145840,6 +145841,7 @@ zzzyk.com###Tinfo
 ||book234h.fun^$doc
 ||bookbeef.com^
 ||bookben.com/js/m/wap.js
+||bookcabin.com/api/log-browser
 ||booking.com/*/track^
 ||booking.com/87sduif98q3rijax
 ||booking.com/c360/v1/track
@@ -166765,6 +166767,7 @@ zzzyk.com###Tinfo
 ||fiqns.mfimedical.com^
 ||fircokqe.com^
 ||fire.solutions.jci.com^
+||fireanalytics.firestream.to^
 ||firearmtire.com^
 ||firebase.googleapis.com^$domain=hotmediahub.com
 ||firebase.googleapis.com^$domain=terabox.fun
@@ -168082,6 +168085,7 @@ zzzyk.com###Tinfo
 ||ftp2.verypsp.com/*.gif|$image
 ||ftp2.verypsp.com/55qp.jpg$image
 ||ftqmv.midtownumbrellas.com^
+||ftqn9wedv.com^
 ||ftqsz.frankiesbikinis.com^
 ||ftrack.dowasdeal.com^
 ||ftrfnx.icu^
@@ -180088,6 +180092,7 @@ zzzyk.com###Tinfo
 ||indmetric.rediff.com^
 ||indoeasia.edm.globalsources.com^
 ||indoleads.com/api/pixel-content/
+||indonesiadefense.com/metrikgtg
 ||industry.statefoodsafety.com^
 ||industry.tafensw.edu.au^
 ||industrystock.de/ajax/track.php
@@ -182783,6 +182788,7 @@ zzzyk.com###Tinfo
 ||jdhop.skknbykim.com^
 ||jdhsx357.com^
 ||jdiicp.ezup.com^
+||jdjkljs.click^
 ||jdks7a.sportmeals.com^
 ||jdlog.uu.cc^
 ||jdn.blueb.ge^
@@ -188154,6 +188160,7 @@ zzzyk.com###Tinfo
 ||lkpmprksau.com^
 ||lkpseyc3d.com^
 ||lkqce.dermaflash.com^
+||lkqivtsnfvriw.website^
 ||lkr.reply.eu^
 ||lksiz.mydancerbox.com^
 ||lksrhj.green-acres.pt^
@@ -204424,6 +204431,7 @@ zzzyk.com###Tinfo
 ||nltx.kikar.co.il/v*/analytics/
 ||nltzqx.autodoc.co.uk^
 ||nlvgxr.xyz^
+||nlvia9e7me.com^
 ||nlvmu.korres.com^
 ||nlvnht.miror.jp^
 ||nlvuh.longtermdenial.com^
@@ -205009,6 +205017,7 @@ zzzyk.com###Tinfo
 ||nulltm.com/adv.js
 ||nuloox.com^$third-party
 ||num.irp.gg^
+||number.bunshun.jp^$removeparam=rf
 ||numbers.coolconfetti.com^
 ||numbers.monthlyphotos.com^
 ||numerama.com/plsbl/api/event
@@ -207175,6 +207184,8 @@ zzzyk.com###Tinfo
 ||ozkkuy.fabianafilippi.com^
 ||ozkri.apotheke-zaversky.at^
 ||oznlro.sanity.com.au^
+||ozon.ru/p-api/tracker/
+||ozon.ru/pop-stats-collector/
 ||ozon.ru/tracker/
 ||ozon.ru^$removeparam=__rr
 ||ozon.ru^$removeparam=abt_att
@@ -213784,6 +213795,7 @@ zzzyk.com###Tinfo
 ||recs.richrelevance.com^$third-party
 ||recs.shareaholic.com^
 ||recsys-crawl.4paradigm.com^
+||rectangle99.com^
 ||rectangular18.com^
 ||recurly.com/js/v1/events
 ||recv-entry.tbs.co.jp^
@@ -214760,6 +214772,7 @@ zzzyk.com###Tinfo
 ||ridibooks.com^$removeparam=_rdt_arg
 ||ridibooks.com^$removeparam=_rdt_idx
 ||ridibooks.com^$removeparam=_rdt_sid
+||ridibooks.com^$removeparam=airbridge_referrer
 ||ridmvd.dazzystore.com^
 ||ridus.ru/stat?
 ||ridve.simmsfishing.com^
@@ -238392,6 +238405,7 @@ zzzyk.com###Tinfo
 ||st.olloaudio.com^
 ||st.onemazdausa.com^
 ||st.onlygip.tech^$third-party
+||st.ozone.ru/s*/client-metrics/
 ||st.ozone.ru/s3/ozon-tag-manager/
 ||st.partypro.nl^
 ||st.pba.xl.pt/pbasitetracker/pbasitetracker.min.js
@@ -246032,6 +246046,7 @@ zzzyk.com###Tinfo
 ||t7baxp1xmw00.boxoffice.adventuretix.com^
 ||t7cp4fldl.com^
 ||t7fv5mjt8i.com^
+||t7h2otlhd.com^
 ||t7k3n9.micasa.ch^
 ||t7x22m7c.com^
 ||t7ywa5ai3.com^
@@ -246832,6 +246847,7 @@ zzzyk.com###Tinfo
 ||tanju.vip/nyindex.
 ||tanks.lv/top/stats.php
 ||tanseb.com/vads/
+||tanstack.com/_a/gtag.js
 ||tansuotv.com^
 ||tantifilm.top^*/ping
 ||tanvir.efooddokan.com^
@@ -248809,6 +248825,7 @@ zzzyk.com###Tinfo
 ||tiktok.com/tiktok/popup/dispatch/
 ||tiktok.com/ttwid/check/
 ||tiktok.com/v1/list
+||tiktok.com/view/product/$removeheader=request:referer
 ||tiktok.com/web/report?
 ||tiktok.com/web/report^
 ||tiktok.com/whale/
@@ -248819,11 +248836,17 @@ zzzyk.com###Tinfo
 ||tiktok.com^$removeparam=refer
 ||tiktok.com^$removeparam=referer_url
 ||tiktok.com^$removeparam=sec_uid
+||tiktok.com^$removeparam=sec_user_id
 ||tiktok.com^$removeparam=share_app_id
 ||tiktok.com^$removeparam=share_author_id
 ||tiktok.com^$removeparam=share_link_id
+||tiktok.com^$removeparam=share_region
+||tiktok.com^$removeparam=social_share_type
+||tiktok.com^$removeparam=trackParams
 ||tiktok.com^$removeparam=tt_from
 ||tiktok.com^$removeparam=u_code
+||tiktok.com^$removeparam=ug_btm
+||tiktok.com^$removeparam=user_id
 ||tiktok.com^$removeparam=web_id
 ||tiktok.tray.com.br^
 ||tiktokcdn-us.com/obj/static-tx/slardar/*/sdk-web/plugins/common-monitors.*.js
@@ -258093,6 +258116,7 @@ zzzyk.com###Tinfo
 ||v5ad.com^
 ||v5rv8mnfk.com^
 ||v6jt.cn^
+||v700rtlhd.com^
 ||v7d8v.brilliance.com^
 ||v812.lakecountystar.com^
 ||v84tz11w7.com^
@@ -259163,6 +259187,7 @@ zzzyk.com###Tinfo
 ||vltjn.bucketsquad.com^
 ||vltrqt.bffect.com^
 ||vlujojf.icu^
+||vlxmfvvknsxldw.com^
 ||vlzcsh.dtrtmen.com^
 ||vlzuz.bcbg.com^
 ||vm.aty.sohu.com^
@@ -263635,6 +263660,9 @@ zzzyk.com###Tinfo
 ||xalzny.xyz^
 ||xanalytics.vip^
 ||xapi.ozon.by/perf-metrics-collector/
+||xapi.ozon.ru/api/logs-gateway/
+||xapi.ozon.ru/api/logs-shredder/
+||xapi.ozon.ru/perf-metrics-collector/
 ||xapi.ozon.ru^$ping
 ||xapu7phoge.com^
 ||xaqprd.gardenbenches.com^
