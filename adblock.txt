@@ -4,8 +4,8 @@
 ! Powerd by CatsTeam
 ! Expires: 12 Hours
 ! Description: 该规则合并自My AdFilters（for PC），EdentwCustom，adgk，Adaway，Uniartisan，规则以及乘风规则等
-! Version: 2026-07-04 22:54:39
-! Total count: 270570
+! Version: 2026-07-05 11:26:41
+! Total count: 270590
 ! ------加强屏蔽Start------ !
 
 !酷安"提到的好物"
@@ -128852,6 +128852,7 @@ zzzyk.com###Tinfo
 ||9mdg9cu59.com^
 ||9miwo.com^
 ||9nl.eu^$third-party
+||9nzrfglryy.com^
 ||9o29nhxgp.com^
 ||9obmf866d.com^
 ||9odes.ltd^
@@ -134628,9 +134629,15 @@ zzzyk.com###Tinfo
 ||adgomob.com^
 ||adgreed.com^$third-party
 ||adguard*/-/event/
+||adguard-dns.io/-/event/
+||adguard-dns.io/-/logs/
+||adguard-dns.io/-/metrics/
 ||adguard-dns.io^$removeparam=clid
 ||adguard.$removeparam=clid
 ||adguard.com/-/event/
+||adguardcheckout.com/-/event/
+||adguardcheckout.com/-/logs/
+||adguardcheckout.com/-/metrics/
 ||adguardvpnnew.biz^$all
 ||adh.byeten.com^
 ||adh.machbari.com^
@@ -137543,6 +137550,7 @@ zzzyk.com###Tinfo
 ||analytics-egain.com^
 ||analytics-events.inshorts.com^
 ||analytics-fe.digital-cloud-prem.medallia.com^
+||analytics-fe.digital-cloud-prem.medallia.eu^
 ||analytics-fe.digital-cloud-west.medallia.com^
 ||analytics-fe.digital-cloud.medallia.ca/api/web/events|
 ||analytics-fe.digital-cloud.medallia.ca^
@@ -165721,6 +165729,7 @@ zzzyk.com###Tinfo
 ||f2f89od5.eulerian.io^
 ||f361.wvtm13.com^
 ||f362.nola.com^
+||f3a95oy5m.com^
 ||f3k194f9i7.com^
 ||f4cebacks.com^
 ||f4h.feeling4home.de^
@@ -165759,6 +165768,7 @@ zzzyk.com###Tinfo
 ||f9bnlbgjf.com^
 ||fa.fantabulousbd.com^
 ||fa5.dn4.it^
+||fa7z99cnam.com^
 ||fab-inst.com^$doc
 ||fab.havaoficial.com^
 ||fabcharting.com^
@@ -175864,6 +175874,7 @@ zzzyk.com###Tinfo
 ||h6295.com^$popup
 ||h689.nydailynews.com^
 ||h6cp.icu^
+||h6dc4eiwjf.com^
 ||h6fh0e4hg.com^
 ||h6n6i7v98.com^
 ||h702886htm.com^
@@ -194208,6 +194219,7 @@ zzzyk.com###Tinfo
 ||lwmbc.cn^
 ||lwmnyf.modivo.hu^
 ||lwnxzp.icu^
+||lwoffilapu.com^
 ||lwozzk.legacy.com^
 ||lwrmft.icu^
 ||lwsrs.zanerobe.com.au^
@@ -194692,6 +194704,7 @@ zzzyk.com###Tinfo
 ||m5uiy5gd1.com^
 ||m69tvg6wqd.com^
 ||m6c4t9vmqarj.www.cefirates.com^
+||m6cx48b0e.com^
 ||m6d3h9vc3z.com^
 ||m6r.eu^$third-party
 ||m6ulblxep4.execute-api.us-east-1.amazonaws.com^
@@ -210284,6 +210297,7 @@ zzzyk.com###Tinfo
 ||polyfill-js.cn^
 ||polyfill-js.cn^$all
 ||polyfill.io^$all
+||polygon58.top^
 ||polymorphicads.jp^$third-party
 ||polypak.actonservice.com^
 ||ponos.zeronaught.com^
@@ -230046,6 +230060,7 @@ zzzyk.com###Tinfo
 ||snlyplsoli.com^
 ||snmi.cn^
 ||snmi.cn^$third-party
+||snmytvt.com^
 ||snmzj.blade-city.com^
 ||sno1.snowrental.com^
 ||snohetta.com/js/plascript.js
@@ -241649,6 +241664,7 @@ zzzyk.com###Tinfo
 ||static.jfrft.com/js/main_video.js^$script,redirect=noopjs,domain=dilidili.wang,important
 ||static.jobrapido.com/public/tracking/
 ||static.journify.io^
+||static.jvc.gg/*/js/traffic.js
 ||static.kbdmp.com/ma/kb_
 ||static.kbs.co.kr/recommend/rcmd_track.js
 ||static.klaviyo.com/onsite/js/event_adapter.
@@ -247463,6 +247479,7 @@ zzzyk.com###Tinfo
 ||tbsone.imtt.qq.com^
 ||tbsyaf.vtutor.com^
 ||tbt.btb.info^
+||tbthrfrgkqltpw.com^
 ||tbvjrd.gocase.com.br^
 ||tbvzp.foodandwood.nl^
 ||tbwzcos.retreatmentbotanics.com^
@@ -258248,6 +258265,7 @@ zzzyk.com###Tinfo
 ||vbdbmqzu.com^
 ||vbe.voyage-prive.be^
 ||vbefb.goclove.com^
+||vbfsljw.com^
 ||vbgyniffuy.com^
 ||vbhgjhj.premium-sofas.com^
 ||vbiakpu.icu^
@@ -258694,6 +258712,7 @@ zzzyk.com###Tinfo
 ||vidads.gr/imp/
 ||vidapi.expepp.de^$third-party
 ||vidara.to/api/heartbeat
+||vidavaca.net/api/heartbeat
 ||vidazoo.com/aggregate
 ||vidazoo.com/aggregate?
 ||vidazoo.com/event/
@@ -264431,6 +264450,7 @@ zzzyk.com###Tinfo
 ||xstar.cc^
 ||xstat.gazeta.bo^
 ||xstats.net^$third-party
+||xstats.st^$third-party
 ||xstt5.com/skin/v3/js/dibu.js
 ||xstt5.com/template/js/fx
 ||xsu.cc^
