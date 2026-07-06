@@ -4,8 +4,8 @@
 ! Powerd by CatsTeam
 ! Expires: 12 Hours
 ! Description: 该规则合并自My AdFilters（for PC），EdentwCustom，adgk，Adaway，Uniartisan，规则以及乘风规则等
-! Version: 2026-07-05 22:57:53
-! Total count: 270590
+! Version: 2026-07-06 13:40:46
+! Total count: 270600
 ! ------加强屏蔽Start------ !
 
 !酷安"提到的好物"
@@ -6532,6 +6532,7 @@ $websocket,domain=wap.yushuwu.cloud
 /code/cpc.asp?
 /code/cpm.asp?
 /code/cpv.asp?
+/code/e.js|$~third-party
 /code/mypop.asp?
 /code/pop_cpf.
 /code/popjs.
@@ -10541,7 +10542,6 @@ $websocket,domain=wap.yushuwu.cloud
 ://elqtrk.
 ://email.*/o/$image
 ://emailtracking.$image
-://estats.*/code/e.js
 ://fallback.*/collector
 ://fathom.$domain=~fathom.care|~fathom.co.za|~fathom.fm|~fathom.info|~fathom.io|~fathom.lib.uchicago.edu|~fathom.org|~fathom.video|~fathom.world|~fathomdelivers.com|~fathomseo.com|~usesfathom.com
 ://gtm.*.js?id=GTM-
@@ -10598,7 +10598,6 @@ $websocket,domain=wap.yushuwu.cloud
 ://ssgtm.
 ://sst.*.js?id=GTM-
 ://stat.*/pageview/$xmlhttprequest
-://stats.*/code/e.js
 ://t.*/open^$image
 ://t.order.*/r/?id=$image
 ://t.targito.
@@ -126734,6 +126733,7 @@ zzzyk.com###Tinfo
 ||1weorpu.com^
 ||1win.com^$ping
 ||1wkg.cn^
+||1wo2fytcws.com^
 ||1worldsync.com/log?
 ||1x3x.com^
 ||1x6666.com/img/
@@ -133305,6 +133305,7 @@ zzzyk.com###Tinfo
 ||aax-us-iad.amazon.com/e/xsp/imp?
 ||aax-us-iad.amazon.com^$script
 ||aaxdetect.com^$third-party
+||aaxggkj.com^
 ||aaxr.shop^$doc
 ||aazfby.auto.de^
 ||aazmiw.reisenthel.com^
@@ -159737,6 +159738,7 @@ zzzyk.com###Tinfo
 ||dialogue.nl.mazda.be^
 ||dialogue32.com^
 ||diamages.carte-gr.total.fr^
+||diameter94.com^
 ||diamiu.com/wp-content/uploads/1200-200.
 ||diamond-line.net^$doc
 ||dian500.com^
@@ -178411,6 +178413,7 @@ zzzyk.com###Tinfo
 ||ibfkf.katalyst.com^
 ||ibghs.saatchiart.com^
 ||ibillboard.com^$third-party
+||ibjsaz5v4.com^
 ||ibkups.rci.com^
 ||ibm.com/analytics/build/bluemix-analytics.min.js
 ||ibmcloud.com/collector/
@@ -204345,6 +204348,7 @@ zzzyk.com###Tinfo
 ||njam.tv/tracking/
 ||njawz0tlek.com^
 ||njbhp.promixnutrition.com^
+||njbilmh12.com^
 ||njbrwf.pilatesshop.it^
 ||njcchu.flowercampings.com^
 ||njcengpianwang.cn^
@@ -204442,6 +204446,7 @@ zzzyk.com###Tinfo
 ||nlpd.technosurf.ch^
 ||nlpd.vaudvins.ch^
 ||nlpnh.superiorseating.com^
+||nlthaiu88.com^
 ||nltihf.fashiondays.ro^
 ||nltui.eflownutrition.com^
 ||nltx.kikar.co.il/v*/analytics/
@@ -205502,6 +205507,7 @@ zzzyk.com###Tinfo
 ||odz12g5ag.com^
 ||oe-static.de^*/wws.js
 ||oe8mnxdtoi.com^
+||oe9s24wy9.com^
 ||oebarc.ekosport.at^
 ||oeclu.craftedelements.com^
 ||oedbml.collage-shop.jp^
@@ -216601,6 +216607,7 @@ zzzyk.com###Tinfo
 ||s5.charliehebdo.fr^
 ||s615419487.sc.origins.en25.com^
 ||s65m.win^
+||s6ctxsmoaj.com^
 ||s6in.cc^
 ||s7.qhres.com/static^$domain=m.haiduomi.com,third-party
 ||s72h7io4o.com^
@@ -260003,6 +260010,8 @@ zzzyk.com###Tinfo
 ||wallapop.com^$cookie=device_id
 ||wallapop.com^$cookie=rl_anonymous_id
 ||wallet.chain.com^
+||wallethacks.com/js/t/|
+||wallethacks.com/js/w
 ||wallkit.net^*/user/event
 ||walmart.ca/api/bsp/logger
 ||walmart.ca/api/home-page/logger
@@ -266526,6 +266535,7 @@ zzzyk.com###Tinfo
 ||zeof-defender.pro^$all
 ||zeookuv.xyz^
 ||zeotap.com^$third-party
+||zepcdxyiqtxtbc.com^
 ||zephyrcatalyst.com^
 ||zephyrlabyrinth.com^
 ||zeppelinradio.com^
