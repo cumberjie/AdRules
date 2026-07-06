@@ -4,8 +4,8 @@
 ! Powerd by CatsTeam
 ! Expires: 12 Hours
 ! Description: 该规则合并自My AdFilters（for PC），EdentwCustom，adgk，Adaway，Uniartisan，规则以及乘风规则等
-! Version: 2026-07-06 13:40:46
-! Total count: 270600
+! Version: 2026-07-06 23:02:47
+! Total count: 270601
 ! ------加强屏蔽Start------ !
 
 !酷安"提到的好物"
@@ -159126,7 +159126,8 @@ zzzyk.com###Tinfo
 ||deeplinktest.yooture.info^
 ||deeplinkuat.upoker.net^
 ||deepmode.com^$removeparam=fpr
-||deepseek.$all,to=deepseek.app|deepseek.top|~deepseek.com
+||deepseek.app^$all
+||deepseek.top^$all
 ||deepsystems.com/wp-content/plugins/integrate-posthog-web-analytics/
 ||deeptack.com^
 ||deer.m1x.co^
