@@ -4,8 +4,8 @@
 ! Powerd by CatsTeam
 ! Expires: 12 Hours
 ! Description: 该规则合并自My AdFilters（for PC），EdentwCustom，adgk，Adaway，Uniartisan，规则以及乘风规则等
-! Version: 2026-07-07 12:24:02
-! Total count: 270624
+! Version: 2026-07-07 22:56:53
+! Total count: 270627
 ! ------加强屏蔽Start------ !
 
 !酷安"提到的好物"
@@ -4522,6 +4522,7 @@ $websocket,domain=wap.yushuwu.cloud
 .mkt51.net/eos/
 .moa0*ju.com/$script,xmlhttprequest,third-party
 .monster/?t=$doc
+.monster/index*.php?flow_id=$doc
 .mozilla.org/eos/$image
 .mp4?*sdtfrom=&$domain=m.v.qq.com
 .n.2.1.js^$third-party
@@ -4922,7 +4923,6 @@ $websocket,domain=wap.yushuwu.cloud
 /?id=*&traceId=$doc
 /?imp_id=
 /?ip=*&uclickhash=$doc
-/?js*&f=*&t=$xhr,redirect=noop.txt
 /?l=*&ymid=$doc
 /?livehit=
 /?local_ga_js=
@@ -5260,8 +5260,10 @@ $websocket,domain=wap.yushuwu.cloud
 /^https:\/\/(www|m)\.coupang\.com\/[A-Za-z0-9_]+\/[A-Za-z0-9_-]+\/[A-Za-z0-9_-]+\/[A-Za-z0-9_]+\/[A-Za-z0-9_]+(\/[A-Za-z0-9_-]+){0,5}$/$domain=coupang.com,xmlhttprequest,method=post,match-case
 /^https:\/\/[-a-z]{16,}\.z\d{2}\.web\.core\.windows\.net\/[a-z]{70,}(\/[a-z]{40,})?\.html/$doc,match-case,to=web.core.windows.net
 /^https:\/\/[-a-z]{4,}\.dogfriendlytahoe\.com\//$doc,to=dogfriendlytahoe.com
+/^https:\/\/[0-9a-z][0-9a-z][0-9a-z][0-9a-z]\.[a-z][a-z][a-z][a-z][a-z][a-z][a-z][a-z][a-z][a-z][a-z][a-z][a-z][a-z][a-z]+\.monster\/\?[0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f]$/$doc
 /^https:\/\/[0-9a-z]{3,}\.[-a-z]{10,}\.(?:li[fv]e|top|xyz)\/[a-z]{8}\/(?:article\d{4}\.doc)?\?utm_campaign=\w{40,}/$doc,match-case,to=life|live|top|xyz
 /^https:\/\/[0-9a-z]{30,}\.s3\.[-a-z]+\d+\.backblazeb2\.com\/W[0-9A-Za-z]*in0[0-9A-Za-z]*Er0[0-9A-Za-z]*\/index\.html/$doc,match-case,domain=backblazeb2.com
+/^https:\/\/[0-9a-z]{4}\.[a-z]{15,}\.monster\/\?[0-9a-f]{16,}$/$doc
 /^https:\/\/[0-9a-z]{6,8}\.[a-z]{2,10}\/[!.+,=?@\[][\/0-9a-z]{20,30}\.[-a-z]{2,7}$/$doc,to=agency|art|asia|auction|bar|beauty|beer|best|biz|bond|business|cam|cards|casa|click|cloud|coupons|courses|cv|digital|diy|fashion|food|forum|gay|guru|hair|info|life|live|living|link|ltd|my|ooo|property|pw|qpon|republican|rocks|run|sale|sbs|services|shop|skin|store|studio|support|surf|tattoo|tech|today|top|uno|watch|work,match-case
 /^https:\/\/[0-9a-z]{7,25}\.com\/(?:assets|build|bundles|chunks|dist|files|j|public|scripts|static)?\/?(?:js\/)?[0-9_a-z]{6,16}\/?[0-9_a-z]{5,120}(?:[-.](?:app|bundle|ma?in|module|prod|index|v\d|vendor))?(?:\.js)?(?:\?r=\d)?$/$script,3p,match-case,redirect=noopjs,to=com|~adatoolbar.com|~aswpsdkus.com|~chimpstatic.com|~clickiocmp.com|~mojirater.com|~polldaddy.com|~squareoffs.com|~succeedscene.com|~tallysight.com|~veraviews.com,_____,from=15min.lt|247sports.com|abc17news.com|addictinggames.com|agrodigital.com|al.com|aliontherunblog.com|allaboutthetea.com|allmusic.com|allthingsthrifty.com|amessagewithabottle.com|arstechnica.com|artforum.com|artnews.com|audiomack.com|awkward.com|azcentral.com|barcablaugranes.com|barnsleychronicle.com|bethcakes.com|betweenenglandandiowa.com|bgr.com|billboard.com|blazersedge.com|blogher.com|bloxinformer.com|blu-ray.com|bluegraygal.com|boredpanda.com|briefeguru.de|brobible.com|cagesideseats.com|cbsnews.com|cbssports.com|celiacandthebeast.com|chaptercheats.com|cheatsheet.com|cleveland.com|clickondetroit.com|coloradoan.com|commercialobserver.com|competentedigitale.ro|cracked.com|dailycaller.com|dailydot.com|dailykos.com|dailyvoice.com|danslescoulisses.com|databazeknih.cz|deadline.com|decider.com|dexerto.com|didyouknowfacts.com|digitalmusicnews.com|dogtime.com|dpreview.com|dwell.com|eater.com|ebaumsworld.com|egoallstars.com|eldiariony.com|fark.com|femestella.com|flickr.com|fmradiofree.com|forums.hfboards.com|free-power-point-templates.com|freeconvert.com|freep.com|frogsandsnailsandpuppydogtail.com|funtasticlife.com|fwmadebycarli.com|golfdigest.com|greenbaypressgazette.com|grunge.com|gulflive.com|hollywoodreporter.com|homeglowdesign.com|honeygirlsworld.com|ibtimes.co.in|imgur.com|indiewire.com|intouchweekly.com|iphoneincanada.ca|jasminemaria.com|jsonline.com|kens5.com|kinobox.cz|kion546.com|knowyourmeme.com|krem.com|last.fm|lehighvalleylive.com|lettyskitchen.com|lifeandstylemag.com|lifeinleggings.com|lizzieinlace.com|localnews8.com|lonestarlive.com|macwelt.de|macworld.com|madeeveryday.com|maidenhead-advertiser.co.uk|mandatory.com|mardomreport.net|masslive.com|melangery.com|meteomedia.com|miamiherald.com|mlive.com|mmamania.com|momtastic.com|mostlymorgan.com|motherwellmag.com|motor1.com|motorsport.com|musicfeeds.com.au|naszemiasto.pl|nationalpost.com|nationalreview.com|nbcsports.com|news.com.au|ninersnation.com|nj.com|nordot.app|nothingbutnewcastle.com|nsjonline.com|nypost.com|observer.com|ocala.com|ontvtonight.com|oregonlive.com|pagesix.com|palmbeachpost.com|patheos.com|pauladeen.com|pcbolsa.com|pennlive.com|pep.ph|pethelpful.com|phillyvoice.com|playstationlifestyle.net|pnj.com|pravda.sk|press-citizen.com|prydwen.gg|puckermom.com|pwinsider.com|reelmama.com|reuters.com|rlfans.com|robbreport.com|rollingstone.com|royalmailchat.co.uk|sandrarose.com|sbnation.com|sheknows.com|sidereel.com|silive.com|smartworld.it|sneakernews.com|sourcingjournal.com|sport-fm.gr|sportico.com|sportsgamblingpodcast.com|spotofteadesigns.com|ssnewstelegram.com|stacysrandomthoughts.com|stylecaster.com|superherohype.com|syracuse.com|tablelifeblog.com|tasteofhome.com|tastingtable.com|techcrunch.com|thecelticblog.com|thedailymeal.com|theflowspace.com|thegatewaypundit.com|themarysue.com|thenerdstash.com|thenerdyme.com|theprudentgarden.com|theverge.com|tiermaker.com|timesofisrael.com|tiscali.cz|tokfm.pl|torontosun.com|tvline.com|usatoday.com|usmagazine.com|variety.com|viralviralvideos.com|wallup.net|wannacomewith.com|wcnc.com|weather.com|wimp.com|windsorexpress.co.uk|woojr.com|worldoftravelswithkids.com|worldstar.com|worldstarhiphop.com|worldsurfleague.com|wunderground.com|wwd.com|wyborkierowcow.pl|wzzm13.com|ydr.com|yourcountdown.to|zdnet.com
 /^https:\/\/[0-9a-z]{7,25}\.com\/(?:assets|build|bundles|chunks|dist|files|j|public|scripts|static)?\/?(?:js\/)?[0-9_a-z]{6,16}\/?[0-9_a-z]{5,120}(?:[-.](?:app|bundle|ma?in|module|prod|index|v\d|vendor))?(?:\.js)?(?:\?r=\d)?$/$script,3p,match-case,redirect=noopjs,to=com|~adatoolbar.com|~aswpsdkus.com|~chimpstatic.com|~clickiocmp.com|~mojirater.com|~polldaddy.com|~squareoffs.com|~succeedscene.com|~tallysight.com|~veraviews.com,_____,from=athlonsports.com|autoblog.com|bikemag.com|dengarden.com|mensfitness.com|mensjournal.com|parade.com|paradehomeandgarden.com|paradepets.com|pethelpful.com|powder.com|shophq.com|surfer.com|thespun.com|thestreet.com|travelhost.com
@@ -5303,7 +5305,6 @@ $websocket,domain=wap.yushuwu.cloud
 /^https:\/\/[a-z]{7,}\.[a-z]{3,}\/img\/$/$script,3p,match-case,to=~edu|~gov
 /^https:\/\/amazon[a-z]\d\.com\//$doc,to=com
 /^https:\/\/anon1.gt\d{6}.com/
-/^https:\/\/api\.[a-z]{2,}\.[a-z]{2,}\/\?[a-z]{2,3}=[0-9a-f]{32}$/$doc,match-case
 /^https:\/\/blockchecker[0-9]\.pages\.dev\//$doc,to=pages.dev
 /^https:\/\/booking(-[a-z]{3,}){2}\.(?:baby|lat|lol|xyz)\//$doc,to=baby|lat|lol|xyz|~booking.com
 /^https:\/\/booking\.[a-z]{3,}-(?:id)?\d{3,8}\.eu\//$doc,to=eu|~booking.com
@@ -5948,6 +5949,8 @@ $websocket,domain=wap.yushuwu.cloud
 /api-analytics.
 /api-insights/log?
 /api.controld.com/pixel/*$image
+/api.php?k=*&d=$xhr,redirect=noop.txt
+/api.php?s=*&_v=$script
 /api.transferwise.com/v1/notification-flow/messages/*/open.gif
 /api/0/stats
 /api/LM/Report?placeUUID=$third-party
@@ -9498,7 +9501,6 @@ $websocket,domain=wap.yushuwu.cloud
 /stwc-counter/code.js
 /stwc/code.js
 /submission/pageview
-/submit.php?i=*&t=$xhr
 /sungg/*$domain=sun0769.com
 /superad*
 /supercookie.asp
@@ -10508,8 +10510,6 @@ $websocket,domain=wap.yushuwu.cloud
 ://analytics.*/page_entry
 ://analytics.*/pageview/
 ://api.*.com/sh/*.js$script,third-party
-://api.*/?zqs=$doc
-://api.*/?zrs=$doc
 ://b.*/vanity/?
 ://backstory.ebay.
 ://banner.$third-party
@@ -114267,6 +114267,7 @@ mongo.alalikexpress.com$image
 mongoing.com#?#.widget_custom_html:-abp-has(> .custom-html-widget > a[href^="http"]:not([href*="mongoing.com"]))
 mongoing.com#?#.widget_custom_html:has(> .custom-html-widget > a[href^="http"]:not([href*="mongoing.com"]))
 monitor.mail.y-con.nl$image
+monster###bw-rc-host[style="position: fixed !important; inset: 0px !important; z-index: 2147483647 !important;"]
 mooc1.chaoxing.com#@#iframe[width="100%"][height="120"]:not([src*="bandcamp.com"], [src*="player-widget.mixcloud.com"])
 moonbbs.com##.dm-header-ad
 moonbt.com##.money_all
@@ -142863,6 +142864,7 @@ zzzyk.com###Tinfo
 ||authentic.sobidha.com^
 ||authentic3d.actonservice.com^
 ||authorinsights.com^$third-party
+||authorization-cdn-press-enter.info^
 ||authsignonstaff*.softr.app^$all
 ||authsmtp.happ.social^
 ||autivnay.com^
@@ -146464,7 +146466,6 @@ zzzyk.com###Tinfo
 ||bsbaswq.cn^
 ||bsbho.randco.com^
 ||bsbmex.flaschenpost.ch^
-||bsc-testnet.bnbchain.org^$xhr
 ||bsdgjmy.com^
 ||bshare.cn/bshare_view?Callback=
 ||bshare.cn^
@@ -241288,8 +241289,10 @@ zzzyk.com###Tinfo
 ||startappservice.com/tracking/
 ||startappservice.com^
 ||startercost.com^
+||startpage.com/clev
 ||startpage.com/perf
 ||startpage.com/sp/$ping
+||startpage.com/sp/atq/*/getconfig/sodar
 ||startpage.com/sp/atq/ep2/sodar/sodar2.js
 ||startpage.com/sp/cl|
 ||startpage.com/sp/dplpxs
