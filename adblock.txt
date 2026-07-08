@@ -4,8 +4,8 @@
 ! Powerd by CatsTeam
 ! Expires: 12 Hours
 ! Description: 该规则合并自My AdFilters（for PC），EdentwCustom，adgk，Adaway，Uniartisan，规则以及乘风规则等
-! Version: 2026-07-07 22:56:53
-! Total count: 270627
+! Version: 2026-07-08 11:43:43
+! Total count: 270647
 ! ------加强屏蔽Start------ !
 
 !酷安"提到的好物"
@@ -2518,6 +2518,7 @@ $csp=child-src 'none'; frame-src 'self' *; worker-src 'none',domain=fileone.tv|t
 $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vidoza.net
 $csp=script-src 'self' * 'unsafe-inline',domain=bijiyd.com|7zhens.com|wamuku.cc|scmmxs.com|jinduxs.com|buhesw.com|luenbook.cc|zahubook.com|heciwk.com|quhesw.com|erzuwk.com|bowoxs.com|guashuge.com|mudanxs.com|mzbook.cc|haduks.com|caimozw.com|zaaizw.com|bogeks.com|haxu8.com|pucixs.com|tuqisw.com|xueyisw.com|zuye8.com|yawoxs.com|guwoxs.com|jiufuzw.com|beianxs.com|shuying6.com|mafusw.com|cule9.com|riquzw.com|xingksw.com|enbusw.com|waguwk.cc|ruyisw.com|zuxiku.com|jinmusb.com|hunshuge.com|puyewk.com|kaaiwk.com|hadu520.com|qubosw.com|meisibook.com|cuaizw.cc|boxue8.cc|cipubook.com|ququsk.cc|yiyezao.com|shanhuxs.com|jiutusw.com|chahuax.com|candoug.com|hanziwen.com|haduzw.com|modaoshu.com|nipubook.com|nuoshuge.com|puquz.com|wuwusk.com
 $csp=script-src 'self' * 'unsafe-inline',domain=shuhaige.net|ygshu.com|kbook8.com|yemancomic.com|erciyan.com|feiguaks.com|iqmxs.cc|hshfm.com|xbiqige.cc|1qxs.com|xddxsw.net|98dxs.net|bisowu.net|zyywenxue.com|xiakezw.com|biqul.com|biqugeks.org|girlsoncam.net|japonfilmleri.com|minaeast.net|shumi.la|59xs.com|biqugen.com|8181zw.vip|biqugequ.org|69shumi.com|fxxs3.com|efuxs.com|i3book.com|genbiquge.com|quanbiqu.com|pinshu.org|13xsw.com|bbiquge.cc|taobiquge.com|haijiaobooksw.top|zlobin.net|piaotianxiaoshuo.com|jvbiquge.com|vipbiquge.com|jpbqg7.com|zuizhong.net|oldtimeswx.org|5book.cc|softtechsolution.org|product44.com|snxsw.com|xiexinde.net|m.6666xsw.com|m.niupizhi.net|jmshuwu.net|wodexiaoshuoh.com|tetservices.net|haitangsoshu.org|4hrz.net|x33yq.org|56xiaoshuo.net|novelser.com|ykxs.cc|biqudd.com|diyibanzhu44444.com|dbrxs.org|kaixindu.net|1ingatlan.net|gaofuwu.org|yushuwu.cloud|yswxs.com|biquge2345.com|dingdian911.com|bqug8.com|xianguke.net|kunnu.com|yourbiquge.com|biquge345.com|666biquge.com|biquwx.cc|aidu123.com|biquluo.info|bqgh.com|maxshuku.com|shukuge.com|sthuojia.net|tvyun07.com|zk01.net
+$csp=script-src 'self' * 'unsafe-inline',domain=shuhaige.net|ygshu.com|kbook8.com|yemancomic.com|erciyan.com|feiguaks.com|iqmxs.cc|hshfm.com|xbiqige.cc|1qxs.com|xddxsw.net|bisowu.net|zyywenxue.com|xiakezw.com|biqul.com|biqugeks.org|girlsoncam.net|japonfilmleri.com|minaeast.net|shumi.la|59xs.com|biqugen.com|8181zw.vip|biqugequ.org|69shumi.com|fxxs3.com|efuxs.com|i3book.com|genbiquge.com|quanbiqu.com|pinshu.org|13xsw.com|bbiquge.cc|taobiquge.com|haijiaobooksw.top|zlobin.net|piaotianxiaoshuo.com|jvbiquge.com|vipbiquge.com|jpbqg7.com|zuizhong.net|oldtimeswx.org|5book.cc|softtechsolution.org|product44.com|snxsw.com|xiexinde.net|m.6666xsw.com|m.niupizhi.net|jmshuwu.net|wodexiaoshuoh.com|tetservices.net|haitangsoshu.org|4hrz.net|x33yq.org|56xiaoshuo.net|novelser.com|ykxs.cc|biqudd.com|diyibanzhu44444.com|dbrxs.org|kaixindu.net|1ingatlan.net|gaofuwu.org|yushuwu.cloud|yswxs.com|biquge2345.com|dingdian911.com|bqug8.com|xianguke.net|kunnu.com|yourbiquge.com|biquge345.com|666biquge.com|biquwx.cc|aidu123.com|biquluo.info|bqgh.com|maxshuku.com|shukuge.com|sthuojia.net|tvyun07.com|zk01.net
 $csp=script-src 'self' * 'unsafe-inline',domain=smsonline.cloud
 $csp=script-src 'self' *,domain=yebiquge.com|zduxs.com|90shuyuan.com|hunhunxs.com|sswwxs.com|akexs.com|qqmmxs.com|qimiaoxs.cc|qimiaoxiaoshuo.com|wuwxs.com|biquge678.com|biqugezw.us
 $doc,ipaddress=185.216.143.121
@@ -4541,6 +4542,8 @@ $websocket,domain=wap.yushuwu.cloud
 .net/c/*?s1=$doc,to=net
 .net/js/ads/
 .net/l.gif?
+.net/themes/jieqi/wap/js/fixed.
+.net/themes/jieqi/wap/js/test.
 .net/v2/stats/1*$third-party
 .net/vh1/$script,third-party
 .net/vh1/1*$third-party
@@ -5253,7 +5256,9 @@ $websocket,domain=wap.yushuwu.cloud
 /^https:\/\/([a-vx-z][a-z]{2,}\.)?[0-9a-z-]{3,}\.(com|net|org)\/index\.php\?main_page=product_info(&stl=\d)?&(cPath|products_id)=/$doc
 /^https:\/\/([a-z]+\.){2}\w{2,3}\/\d{4}\/\d{2}\/\d{10,}\.txt$/$third-party,xmlhttprequest,match-case
 /^https:\/\/([a-z]-){10,15}[a-z]\.(?:com|net|org)\.tr\//$doc,to=com.tr|net.tr|org.tr
-/^https:\/\/(www\.)?[a-z0-9]+\.[a-z]+(\.[a-z]+)?\/(?:analyticsdata|metrics)\/?$/$script,1p,match-case
+/^https:\/\/(www\.)?[a-z0-9]+\.[a-z]+(\.[a-z]+)?\/(?:analyticsdata|gemets|metrics)\/?$/$script,1p,match-case
+/^https:\/\/(www\.)?[a-z0-9]+\.[a-z]+(\.[a-z]+)?\/[a-z0-9]{4,6}\/\?id=AW-\d+/$script,1p,match-case,to=~xsso.leagueoflegends.com|~xsso.lolesports.com|~xsso.playvalorant.com|~xsso.riotgames.com|~xsso.valorantesports.com
+/^https:\/\/(www\.)?[a-z0-9]+\.[a-z]+(\.[a-z]+)?\/[a-z0-9]{4,6}\/\?id=G-[A-Z0-9]+/$script,1p,match-case,to=~xsso.leagueoflegends.com|~xsso.lolesports.com|~xsso.playvalorant.com|~xsso.riotgames.com|~xsso.valorantesports.com
 /^https:\/\/(www\.)?[a-z0-9]+\.[a-z]+(\.[a-z]+)?\/[a-z0-9]{4}\/$/$script,1p,match-case,to=~xsso.leagueoflegends.com|~xsso.lolesports.com|~xsso.playvalorant.com|~xsso.riotgames.com|~xsso.valorantesports.com
 /^https:\/\/(www\.)?sp\d{4,5}p\.com\//$doc,to=com|~shopee.vn
 /^https:\/\/(www\.)?zxzjhd\.com\/[0-9]+\.gif/$domain=zxzjhd.com
@@ -12384,11 +12389,13 @@ $websocket,domain=wap.yushuwu.cloud
 @@||feliz-web.data.tm-awx.com/smile-web.min.js$domain=liverpoolecho.co.uk|mirror.co.uk|birminghammail.co.uk|dailystar.co.uk|manchestereveningnews.co.uk
 @@||feliz-web.data.tm-awx.com/smile-web.min.js$domain=ok.co.uk
 @@||feliz-web.data.tm-awx.com/smile-web.min.js$domain=themirror.com
+@@||feliz-web.data.tm-awx.com^$domain=football.london
 @@||feliz.data.tm-awx.com/smile-web-v*/$domain=ok.co.uk
 @@||feliz.data.tm-awx.com/smile-web-v2/rootEvent$domain=examinerlive.co.uk
 @@||feliz.data.tm-awx.com/smile-web-v2/rootEvent$domain=liverpoolecho.co.uk|mirror.co.uk|birminghammail.co.uk|dailystar.co.uk|manchestereveningnews.co.uk
 @@||feliz.data.tm-awx.com/smile-web-v2/rootEvent$domain=mirror.co.uk
 @@||feliz.data.tm-awx.com/smile-web-v2/rootEvent$domain=themirror.com
+@@||feliz.data.tm-awx.com^$domain=football.london
 @@||fengkongcloud.com/fpv2.js
 @@||fharr.com^$generichide
 @@||fichub.com/plugins/adobe/lib/AppMeasurement.js$domain=natgeotv.com
@@ -133893,6 +133900,7 @@ zzzyk.com###Tinfo
 ||acqephvfx.com^
 ||acquisition.cbre.com.au^
 ||acquisition.klm.com^
+||acqxgk1an3.com^
 ||acr-*-prd.samsungcloud.tv^
 ||acridtwist.com^
 ||acro.egghead.link^
@@ -148603,6 +148611,7 @@ zzzyk.com###Tinfo
 ||cdn.dulceauroraa.com^
 ||cdn.dzen.ru/pingx
 ||cdn.eaec.fpfis.tech.ec.europa.eu^
+||cdn.eu.amplitude.com/libs/analytics-browser-
 ||cdn.evgnet.com/beacon/*/scripts/evergage.min.js$script,redirect=noopjs
 ||cdn.fast.beintoo.net/static/tags/beintoo-tag.js
 ||cdn.firstpromoter.com^$third-party
@@ -169855,6 +169864,7 @@ zzzyk.com###Tinfo
 ||gitcrumbs.com^
 ||gitee.com/joinli/Api/raw/master/banner$replace=/ad_url//
 ||gitfrominstall.com^$all
+||gitfut.com/*/view
 ||github.com/_private/browser/errors
 ||github.com/_private/browser/stats
 ||github.com/_stats
@@ -171594,6 +171604,8 @@ zzzyk.com###Tinfo
 ||gre.groobee.io^
 ||greasysquare.com^
 ||great-fade.sbs^$all
+||greatandhra.com^$cookie=uid-s
+||greatandhra.com^$cookie=vsid
 ||greatnumeric.com^
 ||greatservice.online^
 ||greatviews.de^$third-party
@@ -202248,6 +202260,7 @@ zzzyk.com###Tinfo
 ||mtgs.zdravysvet.cz^
 ||mtgs.zdravysvet.sk^
 ||mtguwx.xyz^
+||mtgvrhc.com^
 ||mthonpga.com^
 ||mthp.napoleoncasino.be^
 ||mthp.napoleondice.be^
@@ -206033,6 +206046,7 @@ zzzyk.com###Tinfo
 ||omnie.ai/api/ddMetric
 ||omnifpc.devry.edu^
 ||omnifpcs.devry.edu^
+||omnimove.tourradar.com^
 ||omniomar.com^
 ||omnis.basspro.com^
 ||omnis.bd.pcmall.com^
@@ -212012,6 +212026,7 @@ zzzyk.com###Tinfo
 ||qbwkux.home24.at^
 ||qbwniy.baldur-garten.at^
 ||qbwsbh.prixtel.com^
+||qbxxi23a2.com^
 ||qbyngdjq8g.com^
 ||qbzbrn.nordictrack.fr^
 ||qc.arstechnica.com^
@@ -214812,7 +214827,6 @@ zzzyk.com###Tinfo
 ||ridibooks.com^$removeparam=_rdt_arg
 ||ridibooks.com^$removeparam=_rdt_idx
 ||ridibooks.com^$removeparam=_rdt_sid
-||ridibooks.com^$removeparam=airbridge_referrer
 ||ridmvd.dazzystore.com^
 ||ridus.ru/stat?
 ||ridve.simmsfishing.com^
@@ -254331,6 +254345,7 @@ zzzyk.com###Tinfo
 ||triadtechnologies.actonservice.com^
 ||trialapp.live-english.co.jp^
 ||trialfire.com^$third-party
+||triangle23.com^
 ||trib.al$removeparam=__tn__
 ||trib.al$removeparam=c[0]
 ||trib.al$removeparam=fbclid
@@ -259697,6 +259712,7 @@ zzzyk.com###Tinfo
 ||vvrlh.naturens-medicin.se^
 ||vvszccbu.rhinox-group.com^
 ||vvszccbu.rhinox-group.us^
+||vvtpftuiqrbdha.com^
 ||vvuii.ogee.com^
 ||vvv.ieduw.com^
 ||vvvkp.com/template/ttk/img/
@@ -259736,6 +259752,7 @@ zzzyk.com###Tinfo
 ||vxcewh.cn^
 ||vxcjoz.nextadvisor.com^
 ||vxcsbi.northshorecare.com^
+||vxhpzrqgczxbzi.com^
 ||vxhsj.cn^
 ||vxhtxt.xyz^
 ||vxinzheng.xyz^
@@ -260013,6 +260030,7 @@ zzzyk.com###Tinfo
 ||wagzqhq.cn^
 ||wahid.elementorit.com^
 ||wai69.com/js/baidu/
+||waioidmwg.com^
 ||waipian*.com/statics/recommend/
 ||wait.re^
 ||waitingnumber.com^
@@ -266646,6 +266664,7 @@ zzzyk.com###Tinfo
 ||zgb6rg0r3h.com^
 ||zgc66.com^$third-party
 ||zgclmw.cn^
+||zgcuq93h5s.com^
 ||zgdshoes.com^
 ||zgfilz.propertyfinder.eg^
 ||zgfshoes.com^
@@ -267025,6 +267044,7 @@ zzzyk.com###Tinfo
 ||zmhqhuq.cn^
 ||zmhsxr.hometogo.com^
 ||zmiqg.eccouncil.org^
+||zmjt3xi8k.com^
 ||zmk.pw/zfb.png
 ||zmk852tp7.com^
 ||zmkma.com^
