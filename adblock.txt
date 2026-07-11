@@ -4,8 +4,8 @@
 ! Powerd by CatsTeam
 ! Expires: 12 Hours
 ! Description: 该规则合并自My AdFilters（for PC），EdentwCustom，adgk，Adaway，Uniartisan，规则以及乘风规则等
-! Version: 2026-07-11 11:00:39
-! Total count: 270730
+! Version: 2026-07-11 22:42:18
+! Total count: 270728
 ! ------加强屏蔽Start------ !
 
 !酷安"提到的好物"
@@ -124888,7 +124888,6 @@ wzzy.cc##.xgplayer-error
 x-mol.com###floatWindow
 x-mol.com###rightAllJournal
 x-mol.com##.news-white-content-right
-x.com##+js(no-xhr-if, /i/api/1.1/flow/viewer.json)
 x.com/*/videoads/
 x.jd.com
 x3cn.com###portal_block_12045
@@ -263715,7 +263714,6 @@ zzzyk.com###Tinfo
 ||x.com/1.1/graphql/viewer_context.json
 ||x.com/1.1/jot
 ||x.com/9/measurement/
-||x.com/i/api/1.1/flow/*.json
 ||x.com/i/api/1.1/flow/viewer.json
 ||x.com/i/api/1.1/graphql/app_context.json
 ||x.com/i/api/1.1/graphql/error_log.json
