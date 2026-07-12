@@ -4,8 +4,8 @@
 ! Powerd by CatsTeam
 ! Expires: 12 Hours
 ! Description: 该规则合并自My AdFilters（for PC），EdentwCustom，adgk，Adaway，Uniartisan，规则以及乘风规则等
-! Version: 2026-07-11 22:42:18
-! Total count: 270728
+! Version: 2026-07-12 11:07:06
+! Total count: 270745
 ! ------加强屏蔽Start------ !
 
 !酷安"提到的好物"
@@ -124888,6 +124888,10 @@ wzzy.cc##.xgplayer-error
 x-mol.com###floatWindow
 x-mol.com###rightAllJournal
 x-mol.com##.news-white-content-right
+x.com#%#//scriptlet('set-constant', '__INITIAL_STATE__.featureSwitch.defaultConfig.rweb_home_jot_context_enabled.value', 'false')
+x.com#%#//scriptlet('set-constant', '__INITIAL_STATE__.featureSwitch.user.config.rweb_home_jot_context_enabled.value', 'false')
+x.com#%#//scriptlet('ubo-set', '__INITIAL_STATE__.featureSwitch.defaultConfig.rweb_home_jot_context_enabled.value', 'false')
+x.com#%#//scriptlet('ubo-set', '__INITIAL_STATE__.featureSwitch.user.config.rweb_home_jot_context_enabled.value', 'false')
 x.com/*/videoads/
 x.jd.com
 x3cn.com###portal_block_12045
@@ -126393,6 +126397,7 @@ zzzyk.com###Tinfo
 ||12ypksztq.com^
 ||131377.com^
 ||131458.com/union/
+||131r3lknzg.com^
 ||1328f.com/js/jquery.js
 ||133u.com^
 ||133uu.com^
@@ -127516,6 +127521,7 @@ zzzyk.com###Tinfo
 ||4b.oktium.com^
 ||4bo5t8fzd.com^
 ||4br824ktty.com^
+||4c0wa2ml2f.com^
 ||4cxup4kp3c.com^
 ||4d0m.cn^
 ||4d45i6p0g.com^
@@ -127802,6 +127808,7 @@ zzzyk.com###Tinfo
 ||5689285.com^
 ||56ads.com/js/main.js
 ||56fba.cn^
+||56gwxudcy1.com^
 ||56img.com^*/baidu-promotion.js
 ||56img.com^*/search-engine-promotion.js
 ||56rmm.com:8888/js
@@ -144959,6 +144966,7 @@ zzzyk.com###Tinfo
 ||biddingx.com^$third-party
 ||bidef.sokolovelaw.com^
 ||bidgx.com^
+||bidmachine.io^
 ||bidpapers.com^
 ||bidphysics.com^$third-party
 ||bidr.io^
@@ -167996,6 +168004,7 @@ zzzyk.com###Tinfo
 ||freshrelevance.com^$third-party
 ||fresnel-events.vimeocdn.com^
 ||fresnel.vimeocdn.com/add/player-test-impression?beacon
+||fretsaw55.top^
 ||freundin.de/_next/data
 ||freychang.fun^
 ||freyr.futurecdn.net/freyr.js
@@ -184042,6 +184051,7 @@ zzzyk.com###Tinfo
 ||justwowjars.com^
 ||jutarnji.hr/template/js/eph_analytics.js
 ||jutwzssh.icu^
+||juu5p55799.com^
 ||juvkc.plantpeople.co^
 ||juvsf.revolution-nutrition.com^
 ||juweixin.com/static/spk
@@ -194329,6 +194339,7 @@ zzzyk.com###Tinfo
 ||lxoemc.siviaggia.it^
 ||lxoemc.tuttocitta.it^
 ||lxpgll.icu^
+||lxrjekw.com^
 ||lxsway.alltforforaldrar.se^
 ||lxsway.blo.gg^
 ||lxsway.blogg.se^
@@ -194758,6 +194769,7 @@ zzzyk.com###Tinfo
 ||m2.washmen.com^
 ||m2.yqxs.cc/js^
 ||m24.ru^$removeparam=from
+||m292dfq9c.com^
 ||m2k3j7x8.com^
 ||m2sg.jp^$doc
 ||m2t.actonservice.com^
@@ -215139,6 +215151,7 @@ zzzyk.com###Tinfo
 ||rnpqa.famousdaves.com^
 ||rnqhle.airberry.kr^
 ||rnqsc.whiskeyskies.com^
+||rnrjpr8gc.com^
 ||rnrxer.wsp.ne.jp^
 ||rnt.oralsinniteroi.com^
 ||rnvwzd0t9.com^
@@ -215178,6 +215191,7 @@ zzzyk.com###Tinfo
 ||roboform.com^$removeparam=s1
 ||robotflowermobile.com^
 ||robotgarages.com^
+||robotrefinery.com^
 ||robotsrefinery.com^
 ||rochelle.wantsext.me^
 ||rockagainst.com^
@@ -259794,6 +259808,7 @@ zzzyk.com###Tinfo
 ||vvzjhzccndbhva.com^
 ||vwakpz.vidri.com.sv^
 ||vwbbpe.aircaraibes.com^
+||vwbptvlcrlxzpo.com^
 ||vwdealerdigital.com/cdn/sd.js
 ||vwe5pjt0jq.com^
 ||vwfppr.xyz^
@@ -263764,6 +263779,7 @@ zzzyk.com###Tinfo
 ||x360xs.com/tops/
 ||x3jhw0klp.com^
 ||x3lps9uuog.com^
+||x3p7c2tvda.com^
 ||x3pfkiohz.com^
 ||x3zy2.icu^
 ||x42zfctilh.com^
@@ -264891,6 +264907,7 @@ zzzyk.com###Tinfo
 ||y2.ifengimg.com/*.flv
 ||y2down.cc/cdn-cgi/trace
 ||y2ej3xxfve.com^
+||y2o57pzzx.com^
 ||y2vorexg2u.com^
 ||y3600.cc/20
 ||y3600.cc/js/jquery.min.js
