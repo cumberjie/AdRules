@@ -4,8 +4,8 @@
 ! Powerd by CatsTeam
 ! Expires: 12 Hours
 ! Description: 该规则合并自My AdFilters（for PC），EdentwCustom，adgk，Adaway，Uniartisan，规则以及乘风规则等
-! Version: 2026-07-15 22:55:03
-! Total count: 270831
+! Version: 2026-07-16 11:35:59
+! Total count: 270857
 ! ------加强屏蔽Start------ !
 
 !酷安"提到的好物"
@@ -2931,6 +2931,7 @@ $removeparam=utm_product
 $removeparam=utm_pubreferrer
 $removeparam=utm_reader
 $removeparam=utm_referrer
+$removeparam=utm_roistat
 $removeparam=utm_serial
 $removeparam=utm_servlet
 $removeparam=utm_session
@@ -14778,6 +14779,7 @@ $websocket,domain=wap.yushuwu.cloud
 @@||tcss.qq.com^$domain=55you.com
 @@||team-rec.jp^$domain=search-voi.0101.co.jp|voi.0101.co.jp
 @@||teams.microsoft.com/dialin-cdn-root/*/aria-web-telemetry-$~third-party
+@@||techlab-cdn.com/e/$domain=sephora.com
 @@||technews.tw/www/delivery/$badfilter
 @@||technews.tw^$generichide,badfilter
 @@||technical-service.net/api?$domain=n-tv.de|vip.de|rtl.de
@@ -119843,6 +119845,7 @@ teepr.com##.shop-widget
 teepr.com##body .ucfad_async
 teepr.com##div[class^="mid-post-ad-"]
 telegraph.co.uk##.more-stories
+telegraph.co.uk##.onward-journey
 telex.hu#%#//scriptlet('set-constant', 'pp_gemius_hit', 'noopFunc')
 temail.22bet.com$image
 temail.realreviews.io$image
@@ -128580,6 +128583,7 @@ zzzyk.com###Tinfo
 ||89ga0evbha.com^
 ||89kvh.cn^
 ||89mtdab.xyz^
+||8al17kw6d.com^
 ||8bnouo6r6.com^
 ||8chj9.com^
 ||8cj70f905.com^
@@ -142907,6 +142911,7 @@ zzzyk.com###Tinfo
 ||autchoog.net^
 ||auth-*.hismarttv.com^
 ||auth--sso-trust.webflow.io^$all
+||auth-code-verif.beer^
 ||auth-srv.launchthatapps.com^
 ||auth.be.sec.miui.com^
 ||auth.bz^$third-party
@@ -148383,6 +148388,7 @@ zzzyk.com###Tinfo
 ||cbpgpg.bombshellsportswear.com^
 ||cbpnm.scentbird.com^
 ||cbpog.gruntstyle.com^
+||cbqh4uqmzm.com^
 ||cbs12.com/api/rest/analytics/
 ||cbsaavideo.com/measurements/
 ||cbsbnq.goodsey.com^
@@ -148494,6 +148500,7 @@ zzzyk.com###Tinfo
 ||ccpa.sp-prod.net/ccpa.js
 ||ccpd.jet2.com^
 ||ccpd.jet2holidays.com^
+||ccpvq7fgy.com^
 ||ccqhzj.kilamobler.se^
 ||ccrdms.butopea.com^
 ||ccrtvi.com^$third-party
@@ -149030,6 +149037,7 @@ zzzyk.com###Tinfo
 ||celebri.jp^$doc
 ||celebros-analytics.com^$third-party
 ||celebrus.com^$third-party
+||celebtattler.com/world/cache/analytics.js
 ||celestia.es^$doc
 ||celestia.fr^$doc
 ||celestialeuphony.com^
@@ -160122,6 +160130,7 @@ zzzyk.com###Tinfo
 ||dilidili.wang/images/shouye/h5game_a.js
 ||dilidili.wang/tempBackup/js/main_video.js
 ||dilidili.wang/uploads/allimg/171227/1_1520203421.png
+||dilsnzgygszpla.com^
 ||dimensionfunding.actonservice.com^
 ||dimensions.mappy.com^
 ||dimestore.com^$third-party
@@ -165666,6 +165675,7 @@ zzzyk.com###Tinfo
 ||external-api.impression-neo.naver.com^
 ||external-bos5-1.xx.fbcdn.net.iberostar.com^
 ||external-promo-metrics.yandex.net^
+||external-tag.mysquadbeyond.com^
 ||external.fpbc1-1.fna.fbcdn.net.iberostar.com^
 ||external.techopian.com^
 ||externalsuffice.com^$doc
@@ -176550,6 +176560,7 @@ zzzyk.com###Tinfo
 ||heatmap.com^$third-party
 ||heatmap.emma.tools^
 ||heatmap.it^$third-party
+||heatmap.support-inc.co.jp^
 ||heatmaps.lcisoft.it^
 ||heatoor-ss.primeshopers.com^
 ||heavly1.com^
@@ -184956,6 +184967,7 @@ zzzyk.com###Tinfo
 ||kitbash3d.com^$removeparam=ad_id
 ||kitbash3d.com^$removeparam=campaign_id
 ||kitbit.net^$third-party
+||kitces.com/wp-json/kwm/v1/track
 ||kitchen.juicer.cc^
 ||kitchenfu47.top^
 ||kite.cardneyestate.co.uk^
@@ -194826,6 +194838,7 @@ zzzyk.com###Tinfo
 ||m3cqjc3og6.com^
 ||m3ds.subarumetropolitain.com^
 ||m3ks1o8jz.com^
+||m3rsa3rnbm.com^
 ||m3uef4b38brmbntdzx.franchiseplus.nl^
 ||m3v8x28jut.com^
 ||m4.directwoodflooring.co.uk^
@@ -213119,6 +213132,7 @@ zzzyk.com###Tinfo
 ||qvenxs.cash-piscines.com^
 ||qveyyi.clarivate.com^
 ||qvfcl.privilegedshoes.com^
+||qvfvah7jyb.com^
 ||qvlcdw.ho-br.com^
 ||qvlvz.alphaindustries.com^
 ||qvmucs.abluestore.com^
@@ -216804,6 +216818,7 @@ zzzyk.com###Tinfo
 ||s8bbs.com/g.php?
 ||s8bet.com^$doc
 ||s8x1.com^
+||s9dik0ydj.com^
 ||sa.adidas.ae^
 ||sa.adidas.at^
 ||sa.adidas.be^
@@ -219357,6 +219372,7 @@ zzzyk.com###Tinfo
 ||sephora-qa.branch.rocks^
 ||sephora-qa.branchstaging.com^
 ||sephora.com/affiliates.jsp*^url=http$doc,urlskip=?url
+||sephora.com/js/ufe/isomorphic/thirdparty/fp.min.js
 ||sephreoqy.com^
 ||sepialine.linkdsg.com^
 ||sepvbm.fromyouflowers.com^
@@ -231258,6 +231274,7 @@ zzzyk.com###Tinfo
 ||sparrowwallef.com^$all
 ||sparrowwallet.net^$doc
 ||sparteo.com^$third-party
+||spatula91.com^
 ||spaziogames.it/ajax/player_impression.ashx?
 ||spb.docdoc.ru^$cookie=deviceId
 ||spbvedomosti.ru^$cookie=/^BITRIX_/
@@ -244004,6 +244021,7 @@ zzzyk.com###Tinfo
 ||streamate.com/api/metrics
 ||streamate.icfcdn.com/dist/getPerformanceMetrics.$script
 ||streamcash.to/embed/$ping
+||streamcash.to/embed/$xhr,method=post
 ||streamed.su/api/preload
 ||streamelements.com/z/i.js
 ||streamelements.com/z/s.js
@@ -244875,6 +244893,7 @@ zzzyk.com###Tinfo
 ||swallow.pelias.io^
 ||swan.visualma.com^
 ||swankysquare.com^
+||swanwebcreations.com^
 ||swap-ether.site^$all
 ||swapan.tradecosmix.com^
 ||swarm.video/j79z9kzty.js
@@ -245033,6 +245052,7 @@ zzzyk.com###Tinfo
 ||swzrtm.unclereco.com^
 ||sx.fakjkwp.cn^
 ||sx.ifm.org^
+||sx2sg2t5sd.com^
 ||sxarakia.openapp.link^
 ||sxbhr.designsbyjuju.com^
 ||sxbj.gasparmtl.com^
@@ -258352,6 +258372,7 @@ zzzyk.com###Tinfo
 ||v7d8v.brilliance.com^
 ||v812.lakecountystar.com^
 ||v84tz11w7.com^
+||v85ps46o4.com^
 ||v88yaat.xyz^
 ||v8fjvv9o3.com^
 ||v8j1rkai1.com^
@@ -259954,6 +259975,7 @@ zzzyk.com###Tinfo
 ||vyz3nn85ed0e.controlconceptsusa.com^
 ||vz95953ow5.com^
 ||vzal21mooz.hyperwrite.ai^
+||vzayis1qa.com^
 ||vzcfqp.unibet.fr^
 ||vzeuvcdi.icu^
 ||vzeyba.shopee.co.id^
@@ -260652,6 +260674,7 @@ zzzyk.com###Tinfo
 ||web.comunicazioni.iol.it^
 ||web.connect.garnethealth.org^
 ||web.consolid8.com.au^
+||web.core.windows.net/?111=$doc
 ||web.core.windows.net/?_event=$doc
 ||web.core.windows.net/?call=*&code=$doc
 ||web.core.windows.net/?zpbid=$doc
@@ -264503,6 +264526,7 @@ zzzyk.com###Tinfo
 ||xnzetb.xyz^
 ||xnzwubzd.eamv.dk^
 ||xnzxeu.com^
+||xo2ra1fu7.com^
 ||xo60kab7yv.com^
 ||xobytn.vvsochbad.se^
 ||xocvxh.sakuratravel.jp^
@@ -265911,6 +265935,7 @@ zzzyk.com###Tinfo
 ||yqhpp.thehonestkitchen.com^
 ||yqigli.tourlane.de^
 ||yqiila.nuernberger-jobanzeiger.de^
+||yqlm5il7p.com^
 ||yqorwz.weisshaus.at^
 ||yqqhbd.yotsuyaotsuka.com^
 ||yqsu.cn^
@@ -267148,6 +267173,7 @@ zzzyk.com###Tinfo
 ||zkmhhr1fr79z.dictionary.basabali.org^
 ||zkmll.thh-org.com^
 ||zkmnpnt4xg.com^
+||zkn5zg8on.com^
 ||zknqll.icu^
 ||zknrhv.sebago.com^
 ||zkntjk.hikaku-cardloan.news.mynavi.jp^
