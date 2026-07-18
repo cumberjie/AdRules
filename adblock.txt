@@ -4,8 +4,8 @@
 ! Powerd by CatsTeam
 ! Expires: 12 Hours
 ! Description: 该规则合并自My AdFilters（for PC），EdentwCustom，adgk，Adaway，Uniartisan，规则以及乘风规则等
-! Version: 2026-07-18 10:58:49
-! Total count: 270913
+! Version: 2026-07-18 22:43:20
+! Total count: 270914
 ! ------加强屏蔽Start------ !
 
 !酷安"提到的好物"
@@ -2733,6 +2733,7 @@ $removeparam=hsa_ol
 $removeparam=hsa_src
 $removeparam=hsa_tgt
 $removeparam=hsa_ver
+$removeparam=hss_channel
 $removeparam=i3_ord,domain=dmm.co.jp|dmm.com
 $removeparam=i3_ref,domain=dmm.co.jp|dmm.com
 $removeparam=ici,domain=shein.co.uk|shein.com
