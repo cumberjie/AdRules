@@ -4,8 +4,8 @@
 ! Powerd by CatsTeam
 ! Expires: 12 Hours
 ! Description: 该规则合并自My AdFilters（for PC），EdentwCustom，adgk，Adaway，Uniartisan，规则以及乘风规则等
-! Version: 2026-07-19 11:06:26
-! Total count: 270516
+! Version: 2026-07-19 22:46:25
+! Total count: 270520
 ! ------加强屏蔽Start------ !
 
 !酷安"提到的好物"
@@ -17913,6 +17913,7 @@ cisionone-email.woodawards.com$image
 cisionone-email.yieldpr.de$image
 cisionone-email.yourmindmedia.com$image
 ciudad.com.ar###cxense-wrapper
+civitai.com##+js(no-fetch-if, faro.civitai.com)
 civitfun.check-in.zinema7hotel.com$image
 cj.sina.cn##.module-footer
 cj.sina.cn##.module-hot.module-extend
@@ -149761,6 +149762,8 @@ zzzyk.com###Tinfo
 ||civicscience.com^$3p
 ||civitai.*/api/page-view
 ||civitai.*/api/trpc/track.addView
+||civitai.com/api/internal/ping
+||civitai.com/api/internal/pulse
 ||civitai.com/api/page-view
 ||civitai.com/api/trpc/track.addView
 ||cix0wk.com^
@@ -208897,6 +208900,7 @@ zzzyk.com###Tinfo
 ||petametrics.com^
 ||petametrics.com^$third-party,domain=~meidasnews.com|~telegraph.co.uk|~thestreet.com
 ||petametrics.com^$~script
+||petbok.com^$all
 ||petbook.de^$removeparam=cid
 ||petbook.de^$removeparam=dicbo
 ||petco.com/track-production/analytics.js
