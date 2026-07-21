@@ -4,8 +4,8 @@
 ! Powerd by CatsTeam
 ! Expires: 12 Hours
 ! Description: 该规则合并自My AdFilters（for PC），EdentwCustom，adgk，Adaway，Uniartisan，规则以及乘风规则等
-! Version: 2026-07-20 22:55:45
-! Total count: 270532
+! Version: 2026-07-21 11:43:42
+! Total count: 270576
 ! ------加强屏蔽Start------ !
 
 !酷安"提到的好物"
@@ -249,6 +249,7 @@ malimali2.com##div.leo-container:nth-child(4) > div:nth-child(5)
 ###bottommob.bottommob
 ###breadCrumb + .c + .t[style="margin-top:8px"]
 ###breadCrumb + .t[style="margin-top:8px"]
+###captchaBox
 ###cat_intro_first_ad
 ###cat_intro_second_ad
 ###chs_bannerArea
@@ -342,6 +343,7 @@ malimali2.com##div.leo-container:nth-child(4) > div:nth-child(5)
 ###index_banner[src*=".meituan.net"]
 ###index_content_ad
 ###interstitial_fade[style^="display: block"]
+###ipBar + .main
 ###j-new-ad
 ###js-ad-map
 ###js-ysjpp
@@ -384,6 +386,7 @@ malimali2.com##div.leo-container:nth-child(4) > div:nth-child(5)
 ###lt-ad-radio
 ###lunbo1
 ###magneturlpost + .movie + .movie[style="padding:12px; margin-top:15px"]
+###mainBtn[onclick="startVerify()"]
 ###mainbody:nth-child(5) > .mylist
 ###menu + #topBox
 ###menu + script + #topBox
@@ -790,6 +793,7 @@ malimali2.com##div.leo-container:nth-child(4) > div:nth-child(5)
 ##.buttonautocl
 ##.c-ad
 ##.callApp_fl_btn[onclick^="open_app"]
+##.captcha-wrap
 ##.cari-ads
 ##.ceo_ads
 ##.cfa_popup
@@ -2138,6 +2142,8 @@ $cookie=__kla_session
 $cookie=__pulseEnvironmentId
 $cookie=__pvi
 $cookie=__qca
+$cookie=__rtbh.lid
+$cookie=__rtbh.uid
 $cookie=__stid
 $cookie=__stidv
 $cookie=__tbc
@@ -2205,6 +2211,7 @@ $cookie=_pcid
 $cookie=_pctx
 $cookie=_pcus
 $cookie=_perhip,domain=womenshealthmag.com|bicycling.com|bestproducts.com|caranddriver.com|cosmopolitan.com|countryliving.com|delish.com|elledecor.com|elle.com|esquire.com|goodhousekeeping.com|harpersbazaar.com|housebeautiful.com|oprahdaily.com|prevention.com|redbookmag.com|roadandtrack.com|runnersworld.com|seventeen.com|townandcountrymag.com|veranda.com|womansday.com|autoweek.com|thepioneerwoman.com|popularmechanics.com
+$cookie=_pin_unauth
 $cookie=_pubCommonId
 $cookie=_pubCommonId_cst
 $cookie=_pubcid
@@ -10557,7 +10564,7 @@ $websocket,domain=wap.yushuwu.cloud
 ://email.*/o/$image
 ://emailtracking.$image
 ://fallback.*/collector
-://fathom.$domain=~fathom.care|~fathom.co.za|~fathom.fm|~fathom.info|~fathom.io|~fathom.lib.uchicago.edu|~fathom.org|~fathom.video|~fathom.world|~fathomdelivers.com|~fathomseo.com|~usesfathom.com
+://fathom.$domain=~fathom.care|~fathom.co.za|~fathom.fm|~fathom.info|~fathom.io|~fathom.lib.uchicago.edu|~fathom.news|~fathom.org|~fathom.video|~fathom.world|~fathomdelivers.com|~fathomseo.com|~usesfathom.com
 ://gtm.*.js?id=GTM-
 ://gtm.*.js?st=
 ://gtrack.*.com/dye?
@@ -11253,6 +11260,7 @@ $websocket,domain=wap.yushuwu.cloud
 @@||amc-widgets.crowdtwist.com/widgets/t/account-
 @@||amplitude.com/libs/$script,domain=b2c.voegol.com.br|elconfidencial.com|kink.com|pdfexpert.com|xe.com
 @@||an-sm.naughtycdn.com/js/lti-analytics-*.min.js$domain=members.naughtyamerica.com
+@@||an.gr-wcon.com/script/$domain=chipstore.de
 @@||analysys.cn^$domain=analysys.cn
 @@||analytics-*.clickdimensions.com/*/pages/*.html$subdocument,domain=nhs.uk
 @@||analytics-*.clickdimensions.com/*/pages/*.html$subdocument,domain=techuk.org
@@ -14951,6 +14959,7 @@ $websocket,domain=wap.yushuwu.cloud
 @@||upaiyun.com^*.js$domain=cilimao.co|cilimao.one
 @@||uploadnow.*/share$removeparam=utm_source
 @@||ups.com/*/WebTracking/track&dcs
+@@||ups.com/*/fragments/tracking-widget.plain.html$~third-party
 @@||ups.com/*/tracking.cgi
 @@||ups.com/WebTracking/
 @@||ups.xplosion.de/ctx$domain=ingame.de
@@ -15955,7 +15964,7 @@ apkpure.*#%#//scriptlet('set-constant', '$$.analytics.send', 'noopFunc')
 apkpure.com#%#//scriptlet('remove-node-text', 'script', '/deviceId|__apkpureFirstInteractionType|fingerprintjs|pvid/i')
 apkpure.com#%#//scriptlet('set-local-storage-item', '__BEACON_deviceId', '$remove$')
 apkpure.net,apkpure.com##DIV.js-ad-slot
-apnews.com,artforum.com,artnews.com,billboard.com,calgaryherald.com,calgarysun.com,crooksandliars.com,deadline.com,dpreview.com,driving.ca,financialpost.com,goldderby.com,golfdigest.com,hollywoodreporter.com,indiewire.com,lfpress.com,nationalpost.com,nbcsports.com,oregonlive.com,ottawasun.com,robbreport.com,rollingstone.com,sherdog.com,sidereel.com,superherohype.com,techcrunch.com,torontosun.com,vancouversun.com,variety.com,vibe.com,windsorstar.com,wwd.com#%#//scriptlet('ubo-acs', 'document.getElementsByTagName', '.pubads')
+apnews.com,artforum.com,artnews.com,billboard.com,calgaryherald.com,calgarysun.com,crooksandliars.com,deadline.com,dpreview.com,driving.ca,financialpost.com,goldderby.com,golfdigest.com,hollywoodreporter.com,indiewire.com,lfpress.com,nationalpost.com,nbcsports.com,oregonlive.com,ottawasun.com,robbreport.com,rollingstone.com,sherdog.com,sidereel.com,superherohype.com,techcrunch.com,torontosun.com,vancouversun.com,variety.com,vibe.com,windsorstar.com,wtsp.com,wwd.com#%#//scriptlet('ubo-acs', 'document.getElementsByTagName', '.pubads')
 apowersoft.cn##.activity-poster
 app##center#yangchen > iframe#external-frame[src="https://im136.mom/"]:not([class])
 app.bilibili.com##[id^="ad_info"]
@@ -118034,6 +118043,7 @@ qunar.com##DIV.b_banner,[id^="ad_"],OBJECT[id^="banner_home_"],div.qn_slide,div#
 qushucheng.com##.appguide-wrap
 qushucheng.com##.hotcmd-wp
 quwanshe.com##.vivo-search,[class^="guanggao"],[src="http://www.187sy.com/image/7788.jpg"],[class^="m_ad"],.dhxgg
+qwant.com#%#//scriptlet('prevent-fetch', 'apm.qwant.com/intake/v2/rum/events')
 qxfun.com###beautiful-things
 qxfun.com###reward-me > figure:nth-child(n+2)
 qyer.com###zpui-head-ad
@@ -121208,6 +121218,7 @@ tw.news.yahoo.com###sda-MON
 tw.news.yahoo.com###sda-WPS-iframe
 tw.news.yahoo.com##.YDC-Lead
 tw.news.yahoo.com##.caas-body > .caas-iframe-wrapper > .flourish
+tw.news.yahoo.com##blockquote.mb-module-gap
 tw.news.yahoo.com##div[data-google-query-id]
 tw.news.yahoo.com##div[id^="defaultLDRB"]
 tw.news.yahoo.com##li[id^="ad-"]
@@ -127818,6 +127829,7 @@ zzzyk.com###Tinfo
 ||56img.com^*/baidu-promotion.js
 ||56img.com^*/search-engine-promotion.js
 ||56rmm.com:8888/js
+||56wj96l0x.com^
 ||56xiaoshuo.net/mm.
 ||56yk.com^
 ||574p3.letitbeintimate.com^
@@ -128381,6 +128393,7 @@ zzzyk.com###Tinfo
 ||7jqi6um1g.com^
 ||7junshi.com/con/ad
 ||7junshi.com/static/red-envelopes.js
+||7k1p812e9l.com^
 ||7k7k.com/api/position/
 ||7k7k.com/js/bg-img.js
 ||7k7k.com^*/loding.htm
@@ -140347,6 +140360,7 @@ zzzyk.com###Tinfo
 ||api.usebepro.com.br^
 ||api.useragentswitcher.org/api/settingslist?data-wid
 ||api.userstyles.org/tic/stats
+||api.usestoryteller.com/api/app/activity/recordActivity?
 ||api.v4comercialengenharia.com.br^
 ||api.valenttmoda.com.br^
 ||api.valmirjunior.com.br^
@@ -144579,6 +144593,7 @@ zzzyk.com###Tinfo
 ||beedigital.padigital.es^
 ||beehiiv-adnetwork-production.s*.amazonaws.com^
 ||beeline.beeline-tire.co.jp^
+||beelinecolor.com^
 ||beemray.com^$third-party
 ||beemrdwn.com^$third-party
 ||beencounter.com^$third-party
@@ -144667,6 +144682,7 @@ zzzyk.com###Tinfo
 ||beneficios.davivienda.hn^
 ||beneficios.davivienda.sv^
 ||benefits.aon.com^
+||benefitssense.com^
 ||benelux2.secureforms.mcafee.com^
 ||benent.net/nf/analysis/
 ||bengbeng.com^
@@ -145345,6 +145361,7 @@ zzzyk.com###Tinfo
 ||bkad13gfu.com^
 ||bkam33lsr.com^
 ||bkbck.frugalkitchens.com^
+||bkbntniwbhlntm.com^
 ||bkcommdata.v.qq.com^
 ||bke.actonservice.com^
 ||bkhblj.xyz^
@@ -145717,6 +145734,7 @@ zzzyk.com###Tinfo
 ||bnaezl.hair-gallery.fr^
 ||bnamic.com/referrer/
 ||bnbc-onay-sayfasi-global.smtp-host.de^$all
+||bnbklsss.homes^
 ||bnbn.jp^$doc
 ||bnc-papago.naver.com^
 ||bnc.autopass.xyz^
@@ -146013,6 +146031,7 @@ zzzyk.com###Tinfo
 ||box.com/data/ptm.gif/
 ||box.com/index.php?rm=box_gen204_batch_record
 ||box.kryptotrejder.sk^
+||boxandcover.com^
 ||boxer.baidu.com^
 ||boxmp4.com/js/foot.js
 ||boxwcr.icu^
@@ -146973,6 +146992,7 @@ zzzyk.com###Tinfo
 ||bxumze.wickedlocal.com^
 ||bxw666.com/storage/*.gif
 ||bxwccii.cn^
+||bxwvk2ggv3.com^
 ||bxwx8.org/wap/qijixs/afoot.js
 ||bxwzds.spartoo.hu^
 ||bxzm9a.icu^
@@ -148039,6 +148059,7 @@ zzzyk.com###Tinfo
 ||capitalopera.com^
 ||capitfes.andrefilipe.com.br^
 ||capitp.teacherpimenta.com^
+||caplights.com^
 ||capping.sirius.press^
 ||capplanllc.actonservice.com^
 ||capricious-chosen.com^$doc
@@ -148639,6 +148660,7 @@ zzzyk.com###Tinfo
 ||cdn.dsmcdn.com/frontend/web/production/dom-event-tracker-
 ||cdn.dsmcdn.com/sfint/production/demeter-prod-*.umd.js
 ||cdn.dsmcdn.com/sfx/mergen/
+||cdn.dsmcdn.com/web/prod/ring-manager.js
 ||cdn.dsspn.com^
 ||cdn.dulceauroraa.com^
 ||cdn.dzen.ru/pingx
@@ -150335,6 +150357,7 @@ zzzyk.com###Tinfo
 ||clonezilla.it^$doc
 ||clothing.blue-industry.com^
 ||clothing.pinglelifestyle.com^
+||clothsense.com^
 ||cloud-exploration.com^$third-party
 ||cloud-iq.com^$third-party
 ||cloud-log.yy.com^
@@ -154257,6 +154280,7 @@ zzzyk.com###Tinfo
 ||d1pmhihatyvp1k.cloudfront.net^
 ||d1q4x2p7t0gq14.cloudfront.net^
 ||d1q7pknmpq2wkm.cloudfront.net/js/my.fanplayr.com/
+||d1qmrxg9gbf226.cloudfront.net^
 ||d1qnmu4nrib73p.cloudfront.net^
 ||d1qpxk1wfeh8v1.cloudfront.net^
 ||d1r27qvpjiaqj3.cloudfront.net^
@@ -154309,6 +154333,7 @@ zzzyk.com###Tinfo
 ||d25082025.rastreadordecarro.com.br^
 ||d26b395fwzu5fz.cloudfront.net/keen-tracking-*.min.js
 ||d276.ourmidland.com^
+||d27623md02evp.cloudfront.net^
 ||d27s92d8z1yatv.cloudfront.net/js/jquery.jw.analitycs.js
 ||d28082025.entrelogik.com.br^
 ||d2badvwg0mti9p.cloudfront.net/script.js
@@ -154325,6 +154350,7 @@ zzzyk.com###Tinfo
 ||d2fj3s7h83rb61.cloudfront.net
 ||d2fuc4clr7gvcn.cloudfront.net/track.js
 ||d2fuc4clr7gvcn.cloudfront.net^
+||d2fw3s7rfepszt.cloudfront.net^
 ||d2g2u2795e3fzw.cloudfront.net^
 ||d2gbtcuv3w9qyv.cloudfront.net^
 ||d2gt2ux04o03l1.cloudfront.net^
@@ -154379,6 +154405,7 @@ zzzyk.com###Tinfo
 ||d34r8q7sht0t9k.cloudfront.net^
 ||d35u1vg1q28b3w.cloudfront.net^
 ||d37d9zbli5ytch.cloudfront.net^
+||d37l98t2r94go6.cloudfront.net^
 ||d38tudgzjt8cbb.cloudfront.net/log.gif?
 ||d395ev7kdef0wl.cloudfront.net/a.gif?
 ||d39ion77s0ucuz.cloudfront.net^
@@ -158991,7 +159018,6 @@ zzzyk.com###Tinfo
 ||dd.garena.com^
 ||dd.leboncoin.fr^
 ||dd.nytimes.com^
-||dd.qwant.com^
 ||dd.reuters.com^
 ||dd.seloger-bureaux-commerces.com^
 ||dd.seloger.com^
@@ -161423,6 +161449,7 @@ zzzyk.com###Tinfo
 ||dtx.delcasas.com.br^
 ||dtxngr.com^$third-party
 ||dtxtngytz5im1.cloudfront.net^
+||dty0ycn35t4d2.cloudfront.net^
 ||dtym7iokkjlif.cloudfront.net/dough/
 ||dtzrrz.green-japan.com^
 ||dtzru.colorescience.com^
@@ -162528,6 +162555,7 @@ zzzyk.com###Tinfo
 ||ecranlarge.com/stat
 ||ecriqadg.com^
 ||ecrzm.cusocuts.com^
+||ecs.*.on.aws/events?cee=
 ||ecsnl.hotelcollection.au^
 ||ecsv2.roblox.com^
 ||ecsv2.roblox.com^$image
@@ -165762,6 +165790,7 @@ zzzyk.com###Tinfo
 ||f20hgvkx7r.com^
 ||f20r1b13iw.com^
 ||f23jjd8.xyz^
+||f25ifd815p.com^
 ||f27tltnd.de^
 ||f2dsex1.com/public/fb*.png
 ||f2f89od5.eulerian.io^
@@ -168800,6 +168829,7 @@ zzzyk.com###Tinfo
 ||gamme.com.tw/uploads/*?2
 ||gamojinsegesegeas.com^$doc
 ||gamona.de/*package/smbanalyticstracking
+||gamsgo.com^$cookie=_gv_visit_tracking
 ||ganalytics.live^$third-party
 ||gandb.emma.fr^
 ||gangjuw.com/style/lmjs/
@@ -171647,6 +171677,7 @@ zzzyk.com###Tinfo
 ||gridsumdissector.com^
 ||gridsumdissector.com^$third-party
 ||griffithdds.com/*/madeinchina.com/$all
+||grinder47.com^
 ||gripcorn.com^
 ||griza.homebase.co.uk^
 ||grizly.*/metrics/
@@ -176531,6 +176562,7 @@ zzzyk.com###Tinfo
 ||helal.heelshoes.co.uk^
 ||helens.actonservice.com^
 ||helfen.famev.de^
+||helios.g2a.com^
 ||helios.undergroundgameshow.com^
 ||helix.bitformations.ca^
 ||hello-jm.com/foot.js
@@ -185215,7 +185247,9 @@ zzzyk.com###Tinfo
 ||kokos.click^$third-party
 ||kolayik.com/gjyo/
 ||kolesa.kz/ms/rum/v1/send
+||kolivo.id/api/v1/track/event
 ||koljnda.com^
+||kollabo.id/*/vitals
 ||kolsh.cn^$third-party
 ||komiic.com/ads/
 ||kommersant.ru/a.asp?p=
@@ -188202,6 +188236,7 @@ zzzyk.com###Tinfo
 ||llbquucai.com^
 ||lldnn.aaronchang.com^
 ||lldpz.footlocker.com^
+||lle6t62id.com^
 ||llemc.xandrolab.com^
 ||lliep.etrendygo.com^
 ||lline.com.cn^$all
@@ -215677,6 +215712,7 @@ zzzyk.com###Tinfo
 ||run.app/event-tracking-trigger
 ||run.app/events$domain=imgur.com|worldstar.com|worldstarhiphop.com
 ||run.app/events-receiver/get-web-event
+||run.app/events?cee=
 ||run.app/metrics/
 ||run.app/track.js
 ||run.crtx.info/track.min.js
@@ -230008,6 +230044,7 @@ zzzyk.com###Tinfo
 ||sniperlog.ru^$third-party
 ||snipesusa.com/6XNN2xkk/init.js
 ||sniphub.com^$third-party
+||snippet.affilimate.io^
 ||snitcher.com^$third-party
 ||snjvh.calecimprofessional.com^
 ||snljxd.tdarsenal.ru^
@@ -230141,6 +230178,7 @@ zzzyk.com###Tinfo
 ||socialprofitmachine.com^$third-party
 ||socialrank.fr/client/$third-party
 ||socialtrack.co^$third-party
+||socialxup.com/api/track
 ||sociaplus.com^$third-party
 ||society.discoverylandco.com^
 ||socital.com^*/socital.js
@@ -245128,6 +245166,7 @@ zzzyk.com###Tinfo
 ||t.*/v1/lst/universal-script?ph=$script
 ||t.10er-tagesticket.de^
 ||t.12thman.com^
+||t.2x.nz^
 ||t.360.audion.fm^
 ||t.360playvid.info^
 ||t.451.io^
@@ -248903,6 +248942,7 @@ zzzyk.com###Tinfo
 ||tinybluewhale.com^
 ||tinyclues.com^$third-party
 ||tinycounter.com^$third-party
+||tinylytics.app^$third-party
 ||tinypass.com/checkout/offer/trackShow
 ||tinypass.com^*/track?
 ||tinypic.com^$domain=fdzone.org|jandown.com|mimima.com
@@ -256401,6 +256441,7 @@ zzzyk.com###Tinfo
 ||uhhmdy.jaloezieen-fabriek.nl^
 ||uhhtr.secend.ch^
 ||uhit.eu/id/$third-party
+||uhiwh2tsu.com^
 ||uhjeg.tjswim.com^
 ||uhlagm.rakurakuseisan.jp^
 ||uhlkij.bonprix.it^
@@ -261052,6 +261093,7 @@ zzzyk.com###Tinfo
 ||weekand.com/413gkwMT/init.js
 ||weem.weemco.com^
 ||weewci.icu^
+||wefk2dgegr.com^
 ||wefoidnknsl.net^
 ||weg.de/etc/designs/comvel/clientlibs/tracking
 ||weg.weegallery.com^
@@ -263860,6 +263902,7 @@ zzzyk.com###Tinfo
 ||xhtkm35sw.com^
 ||xhuahy.juwelo.it^
 ||xhunion.com^
+||xhuqhgmc.com^
 ||xhwojh.nimikoruni.com^
 ||xhxmhs.ounass.ae^
 ||xhxnkyy.com^
@@ -267368,6 +267411,7 @@ zzzyk.com###Tinfo
 ||zygscl.cn^
 ||zyifk.cn^
 ||zyiis.net^
+||zyjfjziavcdpnk.com^
 ||zykqk.com^$all
 ||zykwnj.cn^
 ||zymbrlgu.cn^
