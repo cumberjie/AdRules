@@ -4,8 +4,8 @@
 ! Powerd by CatsTeam
 ! Expires: 12 Hours
 ! Description: 该规则合并自My AdFilters（for PC），EdentwCustom，adgk，Adaway，Uniartisan，规则以及乘风规则等
-! Version: 2026-07-21 22:51:47
-! Total count: 270579
+! Version: 2026-07-22 11:44:05
+! Total count: 270601
 ! ------加强屏蔽Start------ !
 
 !酷安"提到的好物"
@@ -6980,7 +6980,6 @@ $websocket,domain=wap.yushuwu.cloud
 /eventStream|$domain=autoguide.com|motorcycle.com|upgradedhome.com
 /event_log/*
 /event_logger
-/event_logging/*
 /eventad/*
 /eventing.coursera.org/img/*
 /eventproxy/track
@@ -107077,6 +107076,7 @@ gasaq.com##.guanggao_ime_big
 gasaq.com##[class^="guanggao"]
 gate.baidu.com,m.baidu.com###container
 gate.happycustomer.io$image
+gazetadopovo.com.br##section[class^="pianoRecommender"]
 gbatemp.net,usatoday.com#%#//scriptlet('ubo-set', 'admiral', 'noopFunc')
 gbyhn.com.tw##.footer-widget-column
 gcdsdk.appsflyersdk.com^
@@ -140154,6 +140154,7 @@ zzzyk.com###Tinfo
 ||api.pg.maggicaminhoes.com.br^
 ||api.phnx.click/js/article-stat-
 ||api.phoenix-widget.com/c?wid=
+||api.pico.bendingspoonsapps.com/v*/web-events
 ||api.pico.tools/metrics/
 ||api.picox.bendingspoons.com/v1/events
 ||api.pilarglass.com.br^
@@ -144311,6 +144312,7 @@ zzzyk.com###Tinfo
 ||bd1.wowoqq.com^
 ||bd1.xiby.cn^
 ||bd1.yidu.cc^
+||bd1.zuimeitianqi.com^
 ||bd100.010lm.com^
 ||bd11.nipic.com^
 ||bd3.chuiyue.com^
@@ -149926,7 +149928,6 @@ zzzyk.com###Tinfo
 ||classroomlf.com^
 ||classy-online.jp/wp-content/plugins/wp-associate-post-r2/js/click-tracking.js
 ||claude-code-$doc,to=edgeone.app|pages.dev|squarespace.com
-||claude.ai/api/event_logging/
 ||claude.ai/sentry^
 ||claude.ai^$removeparam=from
 ||claudio.treintastudios.com^
@@ -159872,6 +159873,7 @@ zzzyk.com###Tinfo
 ||diepresse.com/js/xtclicks.js
 ||diepresse.com/layout/diepresse/services/proxy/share-counter.jsp
 ||diesci.simpletire.com^
+||diestock56.top^
 ||dietj.cardboardcutoutstandees.com^
 ||dietpartner.jp^$removeparam=from
 ||diezhanmi.net/js/aa^
@@ -161145,6 +161147,7 @@ zzzyk.com###Tinfo
 ||dragonbats.com^
 ||dragonfly.jala-one.com^
 ||dragonquest.jp^$removeparam=_bdld
+||dragontamer.net^
 ||drainpaste.com^
 ||dramaticdirection.com^
 ||drau.viessmann.si^
@@ -162262,6 +162265,7 @@ zzzyk.com###Tinfo
 ||eat.newtrina.com^
 ||eat9.thebeat925.ca^
 ||eatablesquare.com^
+||eatinglate.com^
 ||eatjav.ekosport.fr^
 ||eatmycookies.mockingbirdcinema.com^
 ||eatonaero.advancedtech.com^
@@ -162509,6 +162513,7 @@ zzzyk.com###Tinfo
 ||echidna.honeybadger.io^
 ||echoacloud.com^
 ||echoinghaven.com^
+||echoturkey.com^
 ||ecimg.tw/img/xdsys/*/layout/*/sign/channel*/ad_*.jpg
 ||ecjsot.aosom.es^
 ||eck.brettspieleck.de^
@@ -164520,6 +164525,7 @@ zzzyk.com###Tinfo
 ||esrtech.com/web-pixels
 ||esrzqibdfpah-xeb.com^$doc
 ||essaygiants.com^
+||essayplanet.com^
 ||essayspin.com^
 ||essen.essentia-bd.com^
 ||essence-one.net^$doc
@@ -165379,6 +165385,7 @@ zzzyk.com###Tinfo
 ||evrget.nikkan-gendai.com^
 ||evri.*.xyz^$doc
 ||evri.com/analytics/
+||evrmwlh0dl.com^
 ||evs.data.ciceksepeti.com^
 ||evs.icy-lake.kickstarter.com^
 ||evs.segment.complex.com^
@@ -166747,6 +166754,7 @@ zzzyk.com###Tinfo
 ||finalid.com^$third-party
 ||finalizeforce.com^
 ||finallyy2.top^
+||finaloptics.com^
 ||finalyticsdata.com^$third-party
 ||finance-superchain.net^$all
 ||finance.yahoo.co.jp^$removeparam=cpt_m
@@ -176391,6 +176399,7 @@ zzzyk.com###Tinfo
 ||hd126.com/js/$script
 ||hd2.3g.qq.com^
 ||hd21.com/ajax/track?
+||hd2o34yu8.com^
 ||hd30.jiarui666.cn/api/ad^
 ||hdai.homedesigns.ai^
 ||hdapp1003-a.akamaihd.net^
@@ -203210,6 +203219,7 @@ zzzyk.com###Tinfo
 ||nanfengyl.com/static/js/zdad.js
 ||nang-cap-$doc
 ||nang-hang-$doc
+||nannvshuo.com^
 ||nanopress.it/lab.js
 ||nanostatistics.net/api/event^
 ||nanostats.nanopress.it^
@@ -205325,6 +205335,7 @@ zzzyk.com###Tinfo
 ||o69cab6a.eulerian.io^
 ||o6oxvugdl.com^
 ||o8.hyatt.com^
+||o8agbq0qwm.com^
 ||o8u3n4q7fe.com^
 ||o9qdqbu6nu.com^
 ||o9tt6h08li.execute-api.eu-west-1.amazonaws.com^
@@ -206349,6 +206360,7 @@ zzzyk.com###Tinfo
 ||online.sharjahart.org^
 ||online.siteboosters.de^
 ||online.spsglobal.com^
+||online.spsglobal.com^$badfilter
 ||online.yodle.com^
 ||onlinedown.net/Public/img/bomAD.jpg
 ||onlineis.actonservice.com^
@@ -213039,6 +213051,7 @@ zzzyk.com###Tinfo
 ||qyvnic.footshop.cz^
 ||qywjep.miniinthebox.com^
 ||qyysqs.color4care.no^
+||qyyvoquib.com^
 ||qyzyd.top^
 ||qzbpfqqc.mysterymakers.dk^
 ||qzbtb.heybudskincare.com^
@@ -216446,6 +216459,7 @@ zzzyk.com###Tinfo
 ||s1.barrosbueno.com.br^
 ||s1.bdstatic.com/r/www/cache/biz/ecom/common/api/$script
 ||s1.bkjn.nl^
+||s1.bss.2gis.com^
 ||s1.carnext.com^
 ||s1.carryonx.de^
 ||s1.dapenti.com^
@@ -230181,6 +230195,7 @@ zzzyk.com###Tinfo
 ||socialprofitmachine.com^$third-party
 ||socialrank.fr/client/$third-party
 ||socialtrack.co^$third-party
+||socialxup.com/api/sale-accounts
 ||socialxup.com/api/track
 ||sociaplus.com^$third-party
 ||society.discoverylandco.com^
@@ -241401,6 +241416,7 @@ zzzyk.com###Tinfo
 ||stat.img-space.com^
 ||stat.indidata.com^
 ||stat.interestfree.com.au^
+||stat.ip.sb^
 ||stat.iteye.com^
 ||stat.jc001.cn^
 ||stat.jetsetter.com^
@@ -243420,6 +243436,9 @@ zzzyk.com###Tinfo
 ||stlhf.hometeamluxuryrentals.com^
 ||stliom.vidaxl.cz^
 ||stlkh.janeiredale.com^
+||stloadi.live/errors
+||stloadi.live/events
+||stloadi.live/stat
 ||stlog*-local.kakao.com^
 ||stlog.d.dmkt-sp.jp^
 ||stlog.dmarket.docomo.ne.jp^
@@ -248384,6 +248403,7 @@ zzzyk.com###Tinfo
 ||tg.sv/panggahokeee^$all
 ||tg.tebiezhuan.com^
 ||tg.vartesan.com.br^
+||tg0val4vb.com^
 ||tg1.premiumimpression.com^
 ||tg33.cn^
 ||tg525.com^$doc
@@ -265660,6 +265680,7 @@ zzzyk.com###Tinfo
 ||ypzps.com^
 ||yqaxvu.leilian-online.com^
 ||yqcgzf.specialized-onlinestore.jp^
+||yqfax76xs.com^
 ||yqg.jobui.com^
 ||yqgtuqf.icu^
 ||yqgzaewe.cn^
@@ -265694,6 +265715,7 @@ zzzyk.com###Tinfo
 ||yruws6.com^
 ||yrvbgr.eduwill.net^
 ||yrvrso.nutribio.pt^
+||yrwks6l3cy.com^
 ||yryxcn.e-ohaka.com^
 ||ys-log-upload-os.hoyoverse.com^
 ||ys2000.cdn.bcebos.com^
