@@ -4,8 +4,8 @@
 ! Powerd by CatsTeam
 ! Expires: 12 Hours
 ! Description: 该规则合并自My AdFilters（for PC），EdentwCustom，adgk，Adaway，Uniartisan，规则以及乘风规则等
-! Version: 2026-07-22 22:57:38
-! Total count: 270601
+! Version: 2026-07-23 11:47:52
+! Total count: 270620
 ! ------加强屏蔽Start------ !
 
 !酷安"提到的好物"
@@ -793,7 +793,6 @@ malimali2.com##div.leo-container:nth-child(4) > div:nth-child(5)
 ##.buttonautocl
 ##.c-ad
 ##.callApp_fl_btn[onclick^="open_app"]
-##.captcha-wrap
 ##.cari-ads
 ##.ceo_ads
 ##.cfa_popup
@@ -15409,8 +15408,8 @@ accept.alalikexpress.com$image
 access.moseasia.com$image
 account-email.bellmedia.ca$image
 accounting.avadacom.com$image
-accuweather.com,acmemarkets.com,aiskillsnavigator.microsoft.com,boston.com,capezio.com,chime.com,costco.com,crunchyroll.com,deezer.com,delta.com,dnb.co.uk,dnb.com,dollargeneral.com,engadget.com,espn.com,eventbrite.com,filson.com,flyfrontier.com,formula1.com,geizhals.de,gladiatorgarageworks.com,harborfreight.com,hopwtr.com,jdsports.com,kkrt.com,lenscrafters.com,livewithkellyandmark.com,madewell.com,mail.yahoo.com,mazdausa.com,milesplit.live,monsterenergy.com,newyorker.com,norton.com,pandora.com,payment.nba.com,porsche.com,qobuz.com,rivals.com,soundcloud.com,spotify.com,subway.com,techcrunch.com,ticketmaster.*,tidal.com,tirerack.com,twitter.com,uber.com,ubereats.com,usaa.com,vimeo.com,visible.com,weather.com,wunderground.com,www.yahoo.com,x.com#%#//scriptlet('ubo-set', 'Navigator.prototype.globalPrivacyControl', 'false')
-accuweather.com,acmemarkets.com,aiskillsnavigator.microsoft.com,boston.com,capezio.com,chime.com,costco.com,crunchyroll.com,deezer.com,delta.com,dnb.co.uk,dnb.com,dollargeneral.com,engadget.com,espn.com,eventbrite.com,filson.com,flyfrontier.com,formula1.com,geizhals.de,gladiatorgarageworks.com,harborfreight.com,hopwtr.com,jdsports.com,kkrt.com,lenscrafters.com,livewithkellyandmark.com,madewell.com,mail.yahoo.com,mazdausa.com,milesplit.live,monsterenergy.com,newyorker.com,norton.com,pandora.com,payment.nba.com,porsche.com,qobuz.com,rivals.com,soundcloud.com,spotify.com,subway.com,techcrunch.com,ticketmaster.*,tidal.com,tirerack.com,twitter.com,uber.com,ubereats.com,usaa.com,vimeo.com,visible.com,weather.com,wunderground.com,www.yahoo.com,x.com#%#//scriptlet('ubo-set', 'navigator.globalPrivacyControl', 'false')
+accuweather.com,acmemarkets.com,aiskillsnavigator.microsoft.com,boston.com,capezio.com,chime.com,costco.com,crunchyroll.com,deezer.com,delta.com,dnb.co.uk,dnb.com,dollargeneral.com,engadget.com,espn.com,eventbrite.com,filson.com,flyfrontier.com,formula1.com,geizhals.de,gladiatorgarageworks.com,harborfreight.com,hopwtr.com,jdsports.com,kkrt.com,lenscrafters.com,livewithkellyandmark.com,madewell.com,mail.yahoo.com,mazdausa.com,michaels.com,milesplit.live,monsterenergy.com,newyorker.com,norton.com,pandora.com,payment.nba.com,porsche.com,qobuz.com,rivals.com,soundcloud.com,spotify.com,subway.com,techcrunch.com,ticketmaster.*,tidal.com,tirerack.com,twitter.com,uber.com,ubereats.com,usaa.com,vimeo.com,visible.com,weather.com,wunderground.com,www.yahoo.com,x.com#%#//scriptlet('ubo-set', 'Navigator.prototype.globalPrivacyControl', 'false')
+accuweather.com,acmemarkets.com,aiskillsnavigator.microsoft.com,boston.com,capezio.com,chime.com,costco.com,crunchyroll.com,deezer.com,delta.com,dnb.co.uk,dnb.com,dollargeneral.com,engadget.com,espn.com,eventbrite.com,filson.com,flyfrontier.com,formula1.com,geizhals.de,gladiatorgarageworks.com,harborfreight.com,hopwtr.com,jdsports.com,kkrt.com,lenscrafters.com,livewithkellyandmark.com,madewell.com,mail.yahoo.com,mazdausa.com,michaels.com,milesplit.live,monsterenergy.com,newyorker.com,norton.com,pandora.com,payment.nba.com,porsche.com,qobuz.com,rivals.com,soundcloud.com,spotify.com,subway.com,techcrunch.com,ticketmaster.*,tidal.com,tirerack.com,twitter.com,uber.com,ubereats.com,usaa.com,vimeo.com,visible.com,weather.com,wunderground.com,www.yahoo.com,x.com#%#//scriptlet('ubo-set', 'navigator.globalPrivacyControl', 'false')
 aceee.org#%#//scriptlet('prevent-canvas', '2d')
 acfun.cn###ad-comment,#ad-player-view
 acfun.cn###bd_ad1
@@ -117262,8 +117261,6 @@ photopea.com##.flexrow > div[style^="padding-top:"]
 php.cn##.close_id
 php.cn##.layui-show > UL > .top-img
 php.cn##.wwads-cn
-php.cn##.zwwad
-php.cn##a[href*="/go."]:not([href*="Fwww.php"])
 php1.cn##.baidu_ad_box
 phpvar.com##.aliPic
 phpvar.com##.post_content_linkad
@@ -118257,7 +118254,7 @@ rgrp.fffenterprises.com$image
 riaway.com##.info_message_container
 ricardocuisine.com,thegentlemansjournal.com,thekrazycouponlady.com,flo.com.tr#%#//scriptlet('set-local-storage-item', '__anon_id', '$remove$')
 ridgemerino.com#%#//scriptlet('set-local-storage-item', 'kl-uid', '$remove$')
-right.com.cn###hd > div.wp > div.hdc > h2
+right.com.cn###hd > div.wp > div.hdc > h2 img.boardlogo
 right.com.cn##.a_t
 right.com.cn##.wp > .a_t:has(> table > tbody > tr > td > .adsbygoogle)
 right.com.cn##a[href^="https://jd.dangbei.com/"]
@@ -126116,6 +126113,7 @@ zzzyk.com###Tinfo
 ||0ihw4ipvm5.com^
 ||0jghm60qg.com^
 ||0kkbb.com/js/i.js
+||0kplffrs42.com^
 ||0krdn3.com^
 ||0l34c7sqy.com^
 ||0l7t5qhb4.com^
@@ -128503,6 +128501,7 @@ zzzyk.com###Tinfo
 ||84dwl4bbq.com^
 ||84pb.com/go.js
 ||84pb.com/pv.js
+||84v3xysu80.com^
 ||84zm8.xyz^
 ||85270jylmzsym.top^
 ||85566.net/js/loadjs/jquery
@@ -139878,6 +139877,7 @@ zzzyk.com###Tinfo
 ||api.healthlife.magazine4you.site^
 ||api.hearclearco.store^
 ||api.helefitness.com.br^
+||api.helloextend.com/mintsight
 ||api.herbalista.net^
 ||api.hinutrition.com.br^
 ||api.hisavana.com/hisavana/eventtracking/
@@ -140293,6 +140293,7 @@ zzzyk.com###Tinfo
 ||api.store-macys.com/event-queue
 ||api.strats.gg/internal/api/*/visits
 ||api.streamelements.com/science/
+||api.strem.io/api/events
 ||api.studioimmagine.com.br^
 ||api.superembalagem.com.br^
 ||api.svan.com.br^
@@ -145572,6 +145573,7 @@ zzzyk.com###Tinfo
 ||bloombergbusiness.com/horizon/track
 ||bloomreach.co^
 ||bloomsend.com^
+||blowlamp65.com^
 ||bloxstrap.*^$doc,domain=~bloxstraplabs.com,to=~bloxstrap.pizzaboxer.xyz
 ||blozoo.info/js/inouttool/
 ||blozoo.info/js/ranktool/
@@ -149611,6 +149613,8 @@ zzzyk.com###Tinfo
 ||chongyayakk.xyz^
 ||choose.adelaide.edu.au^
 ||choose.nu.edu^
+||choosefi.com/api/site/track
+||choosefi.com/block-event
 ||chopsticks22.com^
 ||chosentalladvanced.com^$doc
 ||chosun.com/hitlog/
@@ -165957,6 +165961,7 @@ zzzyk.com###Tinfo
 ||fairfeeling.com^
 ||fairiesbranch.com^
 ||fairprice.com.sg/VZl2n4/
+||fairstone.ca^$removeparam=adplacementid
 ||fairygaze.com^
 ||faithrowold.com^
 ||faiusr.com/2/ABUIABACGAAg_dCW0gUo7NqNJjDgATh3.jpg
@@ -166410,6 +166415,7 @@ zzzyk.com###Tinfo
 ||fds-1230.cc^
 ||fds.api.xiaomi.com/plato-banner^
 ||fdt.kraken.com^
+||fdtarpaueilvrs.com^
 ||fdv77tcm.bsteuern.com^
 ||fdxtbs.meeters.org^
 ||fdyqre.pormadeonline.com.br^
@@ -171520,6 +171526,7 @@ zzzyk.com###Tinfo
 ||gowatchit.com^*/tracking/
 ||gowestgroup.actonservice.com^
 ||gowhiteowl.actonservice.com^
+||gownbea.icu^
 ||goxfyr.popy.jp^
 ||goxob6wo.icu^
 ||goya.rutube.ru^$~image
@@ -177025,6 +177032,7 @@ zzzyk.com###Tinfo
 ||hit2map.com^$third-party
 ||hitachi-hightech-as.actonservice.com^
 ||hitbox.com^$third-party
+||hitboxdesigns.com^
 ||hitcount.dk^$third-party
 ||hitcounter.ru$third-party
 ||hitcountersonline.com^$third-party
@@ -182157,6 +182165,7 @@ zzzyk.com###Tinfo
 ||iroha-oran24.com^$doc
 ||ironbeast.io^$third-party
 ||irp37bmmt.com^
+||irq0ql8or.com^
 ||irqewz.vilebrequin.com^
 ||irqjb.saachistyle.com^
 ||irqoqr.industrywest.com^
@@ -185958,6 +185967,7 @@ zzzyk.com###Tinfo
 ||lab.ocean-vert.com^
 ||lab.prodesp.sp.gov.br^
 ||lab.sensilia.com^
+||labelsensor.com^
 ||labor-day-*.top^$doc
 ||laboredlocket.com^
 ||labs.jlplanner.co^
@@ -186085,6 +186095,7 @@ zzzyk.com###Tinfo
 ||landsnail.garasjeport1.no^
 ||landsnail.motin.eu^
 ||landstar.actonservice.com^
+||landsuites.com^
 ||landuscooperative.actonservice.com^
 ||landwestern.com^
 ||langren85.com^
@@ -192956,6 +192967,8 @@ zzzyk.com###Tinfo
 ||loader.mantis-intelligence.com^$third-party
 ||loadsurprise.com^
 ||loadus.exelator.com^
+||loan.fairstone.ca^$removeparam=jumpsource
+||loan.fairstone.ca^$removeparam=priority
 ||loans.rategenius.com^
 ||loansales.cbre.com^
 ||lobhn.jacksonandperkins.com^
@@ -193569,6 +193582,7 @@ zzzyk.com###Tinfo
 ||loopa.net.au^$third-party
 ||loopcybersec.com^
 ||loopfuse.net^$third-party
+||looprecycled.com^
 ||loosecase.com^
 ||looseloaf.com^
 ||looyu.com^$third-party
@@ -208571,6 +208585,7 @@ zzzyk.com###Tinfo
 ||pbm-email.rightwayhealthcare.com^
 ||pbmp.ali213.net/
 ||pbmp.ali213.net/js/
+||pbo8y8igrp.com^
 ||pbox.no.photobox.com^
 ||pbox.photobox.at^
 ||pbox.photobox.be^
@@ -209122,8 +209137,6 @@ zzzyk.com###Tinfo
 ||photovms.tv.sohu.com/*/*_1.jpg$app=com.sohu.sohuvideo
 ||phow238wzh.com^
 ||phozatoi.com^
-||php.cn/ad1.
-||php.cn/hezuo/
 ||php.panasiaticsolutions.com^
 ||php1.cn/uploads/huayun.jpg
 ||php?*=cpv
@@ -214807,6 +214820,7 @@ zzzyk.com###Tinfo
 ||rifyeldz.top^
 ||rigelink.com^$third-party
 ||rigengjihua.cn/banner/
+||right.com.cn/forum/data/attachment/common/template/boardimg_20260602yahb3wsd.
 ||right.com.cn/forum/static/image/common/logo
 ||right.com.cn/forum/static/image/common/logo*.gif
 ||right.com.cn/forum/static/image/common/logo1.
@@ -243860,6 +243874,7 @@ zzzyk.com###Tinfo
 ||streams.bestbuy.com/customer/web-streams/v1/events/cj-page-visits
 ||streams.cablecar.sph.com.sg^
 ||streamsend.com^$third-party
+||streamsports99.su/assets/trackingManager.*.js
 ||streamssitesearch.com^$all
 ||streamstats.prd.dlive.tv^
 ||streamta.pe/stat/
@@ -247752,6 +247767,7 @@ zzzyk.com###Tinfo
 ||tea.tescobank.com^
 ||tea2.tescobank.com^
 ||teach.graduateprogram.org^
+||teacher.php.cn/php/
 ||teads.tv^$third-party
 ||teal.cdt.santander.com.co^
 ||teal.openbank.de^
@@ -263849,6 +263865,7 @@ zzzyk.com###Tinfo
 ||xfidfuxidr.in^
 ||xfile.a.88cdn.com/file^$third-party
 ||xfinity.com/event/
+||xfjy2fh28b.com^
 ||xflsj.com^
 ||xfobuc.serenaandlily.com^
 ||xforce-cracks.com^$doc
@@ -266266,6 +266283,7 @@ zzzyk.com###Tinfo
 ||zareen.craftorabyporshia.com^
 ||zarget.com^$third-party
 ||zarkph.lacotto.jp^
+||zas4hfcxr.com^
 ||zasjf.xyz^
 ||zasjfget.xyz^
 ||zathrilgiw.com^
@@ -266279,6 +266297,7 @@ zzzyk.com###Tinfo
 ||zawad.sarnora.com^
 ||zawqwpajq.club^
 ||zawra9izy3.com^
+||zaxffxesykzvfs.com^
 ||zay7gs1xkl.com^
 ||zaycev.net/clickmeter_
 ||zazgbqg*.xyz^
