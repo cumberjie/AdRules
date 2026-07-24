@@ -4,8 +4,8 @@
 ! Powerd by CatsTeam
 ! Expires: 12 Hours
 ! Description: 该规则合并自My AdFilters（for PC），EdentwCustom，adgk，Adaway，Uniartisan，规则以及乘风规则等
-! Version: 2026-07-24 11:38:10
-! Total count: 270636
+! Version: 2026-07-24 22:57:14
+! Total count: 270637
 ! ------加强屏蔽Start------ !
 
 !酷安"提到的好物"
@@ -9651,7 +9651,7 @@ $websocket,domain=wap.yushuwu.cloud
 /tenant.min.js
 /tencentvideo/script/webtips/*
 /test.php?q=
-/text_tel.js$domain=app|dev|fit|me|page|site|github.io|azurestaticapps.net
+/text_tel.js$domain=app|azurestaticapps.net|dev|fit|me|page|site|github.io|herokuapp.com
 /textad*
 /tghr.js$domain=159i.com
 /the_top$domain=28188.net
@@ -143434,6 +143434,7 @@ zzzyk.com###Tinfo
 ||azureedge.net/wp-content/uploads/*-AD0
 ||azureedge.net^*/fnix.js
 ||azurefd.net/?bcda=$doc
+||azurefd.net/Win20Errfb020/index.html$doc
 ||azurefd.net/fullscreen.js
 ||azurefd.net/js/customone.js
 ||azurefd.net/js/customtwo.js
