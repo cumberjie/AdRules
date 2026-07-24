@@ -4,8 +4,8 @@
 ! Powerd by CatsTeam
 ! Expires: 12 Hours
 ! Description: 该规则合并自My AdFilters（for PC），EdentwCustom，adgk，Adaway，Uniartisan，规则以及乘风规则等
-! Version: 2026-07-23 22:52:02
-! Total count: 270619
+! Version: 2026-07-24 11:38:10
+! Total count: 270636
 ! ------加强屏蔽Start------ !
 
 !酷安"提到的好物"
@@ -6032,6 +6032,7 @@ $websocket,domain=wap.yushuwu.cloud
 /api/v1/impressions|
 /api/v1/metrics
 /api/v1/reportData/*
+/api/v1/reporting/flows
 /api/v1/stat?
 /api/v1/streamtelemetry
 /api/v2/collector
@@ -128134,6 +128135,7 @@ zzzyk.com###Tinfo
 ||69shi.cn/p.php?id=
 ||69shu.org/cnm.js
 ||69shuba.cx^*/shu.js
+||69shuba.tw/js/gg.js
 ||69shux.com/js/otherad.
 ||69t49.com/floating/layer.js
 ||6acupxubky.com^
@@ -128620,6 +128622,7 @@ zzzyk.com###Tinfo
 ||8oghu1wcau.com^
 ||8ox.cn^
 ||8p14q886v2.com^
+||8p814q01np.com^
 ||8pbiddjtp.com^
 ||8pjqjxmr.com^
 ||8proe3xx6.com^
@@ -136513,6 +136516,7 @@ zzzyk.com###Tinfo
 ||aktion.kurier.de/umfrage/anlvi/setIframeParent
 ||aktkb.eshopygo.pl^
 ||aktrack.pubmatic.com^
+||akuohvb4u.com^
 ||akutagawa.consumer.gopuff.com^
 ||akuto23.com^$doc
 ||akuziti.com/tu/*.js
@@ -139961,7 +139965,6 @@ zzzyk.com###Tinfo
 ||api.kwaizt.com^
 ||api.lab8oficial.com.br^
 ||api.lafiorestore.com.br^
-||api.laftel.net/api/*/status/$xmlhttprequest,redirect=noopjs
 ||api.laganeb.com^
 ||api.lamhah.com^
 ||api.landing.dcml.com.br^
@@ -145666,6 +145669,7 @@ zzzyk.com###Tinfo
 ||bm.h576.com^
 ||bm.met.vgwort.de^
 ||bm.paypal.com/spd3TxHV/init.js
+||bm1wk259np.com^
 ||bm23.com^$third-party
 ||bm3xyw6am.com^
 ||bm6c3pthv.com^
@@ -159693,6 +159697,7 @@ zzzyk.com###Tinfo
 ||dglge.sophiawebster.com^
 ||dgmolb.irishjobs.ie^
 ||dgnqrl.icu^
+||dgpvbzhqklzddy.com^
 ||dgqur.shopsassyjones.com^
 ||dgrpeldt54.com^
 ||dgstatic.jd.com^
@@ -165408,6 +165413,7 @@ zzzyk.com###Tinfo
 ||evtubescms.phncdn.com^
 ||evtubescms.phncdn.com^$redirect=noopmp4-1s
 ||evupmg.olehenriksen.com^
+||evycvuy.icu^
 ||evyy.net^$third-party
 ||ew.healthierbazar.shop^
 ||ew.mittwald.de^
@@ -168393,6 +168399,7 @@ zzzyk.com###Tinfo
 ||fwsgvo.takami-labo.com^
 ||fwsir.com/static/cpt/
 ||fwsir.com/templets/img/ms.js
+||fwujkh7jw.com^
 ||fwvzx907rr.com^
 ||fwwang.cn/templets/fw/js/art
 ||fwzvlp.xyz^
@@ -181996,6 +182003,7 @@ zzzyk.com###Tinfo
 ||ipogh.magicmolecule.com^
 ||ipokabu.net/js/analytics.js
 ||iporn.world/attachment/ad/
+||iportal.ru/static/mediadash/tracker.iife.min.js
 ||ippen.space/idat
 ||ipqc5ejfe.icu^
 ||ipqualityscore.com/api/$third-party
@@ -184247,6 +184255,7 @@ zzzyk.com###Tinfo
 ||k1wa.jp^$doc
 ||k2.dancihu.com^
 ||k203.adn.com^
+||k2bividyt.com^
 ||k2n0f.cn^$third-party
 ||k2s.cc/log|
 ||k2s.cc^$removeparam=site
@@ -198156,6 +198165,7 @@ zzzyk.com###Tinfo
 ||mensch.ekd.de^
 ||mensjournal.com/.api/admiral
 ||mensjournal.com/.bootscripts/analytics.min.js
+||menteechain.com^
 ||mentimeter.com/performance-metrics
 ||mentor.adrianscalper.com^
 ||mentor.direitocomprado.com.br^
@@ -205198,6 +205208,7 @@ zzzyk.com###Tinfo
 ||nxwm44neo.com^
 ||nxwniq.aboutyou.ie^
 ||nxxyjn.com^
+||nxydz27pj.com^
 ||ny.frontpush.com.br^
 ||ny2oqsu7et.com^
 ||ny70zesy5v.com^
@@ -206301,6 +206312,7 @@ zzzyk.com###Tinfo
 ||onemanhua.com/js/dynamicjs.js
 ||onemanhua.com/js/xvideo.js
 ||onemob.mobi^$third-party
+||onemorebump.com^
 ||onenet.gakujutsu.com^
 ||onepush.app^$third-party
 ||oneroof.co.nz/*/record-log/
@@ -206407,6 +206419,7 @@ zzzyk.com###Tinfo
 ||onlyfreelesbianporn.com^$all
 ||onlyhotdgirl.com^$all
 ||onlyitv.com/assets/js/onlyitv.js
+||onlystreets.com^
 ||onlytvb.com/assets/javascripts/
 ||onlywoofs.com^
 ||onmlkjiion.carte-gr.total.fr^
@@ -230207,6 +230220,7 @@ zzzyk.com###Tinfo
 ||socialmedia-careers-office.com^$all
 ||socialprofitmachine.com^$third-party
 ||socialrank.fr/client/$third-party
+||socialsend.net^
 ||socialtrack.co^$third-party
 ||socialxup.com/api/sale-accounts
 ||socialxup.com/api/track
@@ -254046,6 +254060,7 @@ zzzyk.com###Tinfo
 ||traktor.ru^*/counter.php?
 ||tralut.*.*/collect
 ||tralut.chatpdf.com^
+||trammel74.top^
 ||trandgid.com^
 ||tranquilcan.com^
 ||tranquilplume.com^
@@ -259481,6 +259496,7 @@ zzzyk.com###Tinfo
 ||vpw1lig85.com^
 ||vpx4fmj4z6.com^
 ||vpxyw6rbv3.com^
+||vpy105341.com^
 ||vpydjogaytpg.xyz^
 ||vpyiov.fbs.co.th^
 ||vqbidy.benetton.com^
@@ -267239,6 +267255,7 @@ zzzyk.com###Tinfo
 ||zsevyy.imfat.co.kr^
 ||zsgmpd.zba.jp^
 ||zsh-work.com^
+||zsi24utdu.com^
 ||zsi4.com^$all
 ||zsi7.destinia.do^
 ||zsimzv.hsecret.co.kr^
