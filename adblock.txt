@@ -4,8 +4,8 @@
 ! Powerd by CatsTeam
 ! Expires: 12 Hours
 ! Description: 该规则合并自My AdFilters（for PC），EdentwCustom，adgk，Adaway，Uniartisan，规则以及乘风规则等
-! Version: 2026-07-26 11:15:33
-! Total count: 270675
+! Version: 2026-07-26 22:56:10
+! Total count: 270677
 ! ------加强屏蔽Start------ !
 
 !酷安"提到的好物"
@@ -3004,6 +3004,7 @@ $third-party,websocket,xmlhttprequest,domain=qiyoudy2.com|qiyoudy4.com
 $third-party,xmlhttprequest,domain=opensubtitles.org
 $third-party,xmlhttprequest,domain=subhd.tv|subhdtw.com|zzzzz688.com
 $third-party,~image,domain=12zw.com|32xs.org|3xs.cc|baoshuu.com|bbiqugew.com|biqu.ge|biqubao.com|biquduge.com|biqug.org|biquga.com|biquge.info|biquge.tv|biquge001.com|biquge123.com|biquge5200.cc|biqugedu.com|biqugeg.com|biquger.com|biquges.com|biqugewx.com|biqugle.com|biquku.la|biquw.com|biquwu.cc|gebiqu.com|hehuamei.com|ibqg5200.com|m.fengyunok.com|mybooks8.com|shuquge.com|snzb.org|xbiquge.la|xsbiquge.com|xshengyan.com|xswang.com|yiyi120.com|yuanzunxs.cc|zuimeng8.com|zzbiquge.com|75dr.com|bggee.com|biquge96.com|biqugeabc.com|aishu5.com|biquger.net|senwy.com|biqugeso.org|whzh-xs.com|bqg.org|mmbqg.com
+$uritransform=/#Echobox=[\d]{10}$//,to=iltalehti.fi|hs.fi
 $websocket,domain=wap.yushuwu.cloud
 %2Fevent.gif%3F
 %2Fo.gif&
@@ -149953,6 +149954,7 @@ zzzyk.com###Tinfo
 ||classroominc.actonservice.com^
 ||classroomlf.com^
 ||classy-online.jp/wp-content/plugins/wp-associate-post-r2/js/click-tracking.js
+||claude-ai.cyou^$all
 ||claude-code-$doc,to=edgeone.app|pages.dev|squarespace.com
 ||claude.ai/sentry^
 ||claude.ai^$removeparam=from
