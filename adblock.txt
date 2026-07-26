@@ -4,8 +4,8 @@
 ! Powerd by CatsTeam
 ! Expires: 12 Hours
 ! Description: 该规则合并自My AdFilters（for PC），EdentwCustom，adgk，Adaway，Uniartisan，规则以及乘风规则等
-! Version: 2026-07-25 22:50:51
-! Total count: 270665
+! Version: 2026-07-26 11:15:33
+! Total count: 270675
 ! ------加强屏蔽Start------ !
 
 !酷安"提到的好物"
@@ -2531,7 +2531,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 $csp=script-src 'self' * 'unsafe-inline',domain=bijiyd.com|7zhens.com|wamuku.cc|scmmxs.com|jinduxs.com|buhesw.com|luenbook.cc|zahubook.com|heciwk.com|quhesw.com|erzuwk.com|bowoxs.com|guashuge.com|mudanxs.com|mzbook.cc|haduks.com|caimozw.com|zaaizw.com|bogeks.com|haxu8.com|pucixs.com|tuqisw.com|xueyisw.com|zuye8.com|yawoxs.com|guwoxs.com|jiufuzw.com|beianxs.com|shuying6.com|mafusw.com|cule9.com|riquzw.com|xingksw.com|enbusw.com|waguwk.cc|ruyisw.com|zuxiku.com|jinmusb.com|hunshuge.com|puyewk.com|kaaiwk.com|hadu520.com|qubosw.com|meisibook.com|cuaizw.cc|boxue8.cc|cipubook.com|ququsk.cc|yiyezao.com|shanhuxs.com|jiutusw.com|chahuax.com|candoug.com|hanziwen.com|haduzw.com|modaoshu.com|nipubook.com|puquz.com|wuwusk.com
 $csp=script-src 'self' * 'unsafe-inline',domain=ltbook.net|shuhaige.net|ygshu.com|kbook8.com|yemancomic.com|erciyan.com|feiguaks.com|iqmxs.cc|hshfm.com|xbiqige.cc|1qxs.com|xddxsw.net|bisowu.net|zyywenxue.com|xiakezw.com|biqul.com|biqugeks.org|girlsoncam.net|japonfilmleri.com|minaeast.net|shumi.la|59xs.com|biqugen.com|8181zw.vip|biqugequ.org|69shumi.com|fxxs3.com|efuxs.com|i3book.com|genbiquge.com|quanbiqu.com|pinshu.org|13xsw.com|bbiquge.cc|taobiquge.com|haijiaobooksw.top|zlobin.net|piaotianxiaoshuo.com|jvbiquge.com|vipbiquge.com|jpbqg7.com|zuizhong.net|oldtimeswx.org|5book.cc|softtechsolution.org|product44.com|snxsw.com|xiexinde.net|m.6666xsw.com|m.niupizhi.net|jmshuwu.net|wodexiaoshuoh.com|tetservices.net|haitangsoshu.org|4hrz.net|x33yq.org|56xiaoshuo.net|novelser.com|ykxs.cc|biqudd.com|diyibanzhu44444.com|dbrxs.org|kaixindu.net|1ingatlan.net|gaofuwu.org|yushuwu.cloud|yswxs.com|biquge2345.com|dingdian911.com|bqug8.com|xianguke.net|kunnu.com|yourbiquge.com|biquge345.com|666biquge.com|biquwx.cc|aidu123.com|biquluo.info|bqgh.com|maxshuku.com|shukuge.com|sthuojia.net|tvyun07.com|zk01.net
 $csp=script-src 'self' * 'unsafe-inline',domain=smsonline.cloud
-$csp=script-src 'self' *,domain=yebiquge.com|zduxs.com|90shuyuan.com|hunhunxs.com|sswwxs.com|akexs.com|qqmmxs.com|qimiaoxs.cc|qimiaoxiaoshuo.com|wuwxs.com|biquge678.com|biqugezw.us
+$csp=script-src 'self' *,domain=yebiquge.com|zduxs.com|90shuyuan.com|sswwxs.com|akexs.com|qqmmxs.com|qimiaoxs.cc|qimiaoxiaoshuo.com|wuwxs.com|biquge678.com|biqugezw.us
 $doc,ipaddress=185.216.143.121
 $doc,removeparam=s_cid
 $domain=ads.adxadserv.com|adserver.juicyads.com|cs.adxpansion.com|olmsoneenh.info|static.javhd.com|syndication.exosrv.com
@@ -8251,6 +8251,7 @@ $websocket,domain=wap.yushuwu.cloud
 /mixpanel.$domain=~mixpanel.com
 /mkt.kultivi.com/email/*$image
 /mkto-*.com/trk?$image
+/ml.bitcash.co.jp/c/*$image
 /mlb-ml-analytics.min.js
 /mlopen_track.html
 /mmclient.js
@@ -13679,7 +13680,7 @@ $websocket,domain=wap.yushuwu.cloud
 @@||marketo.com/index.php/form/
 @@||marketo.com/js/forms$script,stylesheet
 @@||martech.condenastdigital.com/lib/martech.js$domain=wired.com
-@@||martech.condenastdigital.com/lib/martech.js$script,domain=wired.com
+@@||martech.condenastdigital.com/lib/martech.js$script,domain=cntraveler.com|wired.com
 @@||masterkong.com.cn/adimages/
 @@||matomo.miraheze.org/matomo.js$script,~third-party
 @@||matsukiyococokara-online.com/store/*/rtoaster.js
@@ -15966,7 +15967,7 @@ apkpure.*#%#//scriptlet('set-constant', '$$.analytics.send', 'noopFunc')
 apkpure.com#%#//scriptlet('remove-node-text', 'script', '/deviceId|__apkpureFirstInteractionType|fingerprintjs|pvid/i')
 apkpure.com#%#//scriptlet('set-local-storage-item', '__BEACON_deviceId', '$remove$')
 apkpure.net,apkpure.com##DIV.js-ad-slot
-apnews.com,artforum.com,artnews.com,billboard.com,calgaryherald.com,calgarysun.com,crooksandliars.com,deadline.com,dpreview.com,driving.ca,financialpost.com,goldderby.com,golfdigest.com,hollywoodreporter.com,indiewire.com,lfpress.com,nationalpost.com,nbcsports.com,oregonlive.com,ottawasun.com,robbreport.com,rollingstone.com,sherdog.com,sidereel.com,superherohype.com,techcrunch.com,torontosun.com,vancouversun.com,variety.com,vibe.com,wfaa.com,windsorstar.com,wtsp.com,wwd.com#%#//scriptlet('ubo-acs', 'document.getElementsByTagName', '.pubads')
+apnews.com,artforum.com,artnews.com,billboard.com,calgaryherald.com,calgarysun.com,crooksandliars.com,deadline.com,dpreview.com,driving.ca,financialpost.com,goldderby.com,golfdigest.com,hollywoodreporter.com,indiewire.com,lfpress.com,nationalpost.com,nbcsports.com,oregonlive.com,ottawasun.com,robbreport.com,rollingstone.com,sherdog.com,sidereel.com,superherohype.com,techcrunch.com,torontosun.com,vancouversun.com,variety.com,vibe.com,wfaa.com,windsorstar.com,wqad.com,wtol.com,wtsp.com,wwd.com#%#//scriptlet('ubo-acs', 'document.getElementsByTagName', '.pubads')
 apowersoft.cn##.activity-poster
 app##center#yangchen > iframe#external-frame[src="https://im136.mom/"]:not([class])
 app.bilibili.com##[id^="ad_info"]
@@ -126021,6 +126022,7 @@ zzzyk.com###Tinfo
 ||039nez.com^
 ||03asdf.com^
 ||03in08p3r1.com^
+||03mhpavj25.com^
 ||03t441b8w.com^
 ||03wa.com/api.php
 ||03wa.com/img/
@@ -127583,6 +127585,7 @@ zzzyk.com###Tinfo
 ||4kporn.xxx/static/analytics/
 ||4kwu.cc/static/js/tj.js
 ||4l5bbkug99.com^
+||4mvkxs0o0.com^
 ||4mythtracker.xyz^$third-party
 ||4name.com^$third-party
 ||4nc4qc1fo.com^
@@ -127934,6 +127937,7 @@ zzzyk.com###Tinfo
 ||5gtb.com^
 ||5h3wnuhr8.com^
 ||5hdz1gnue.com^
+||5hebtbbgbo.com^
 ||5hffr1p22j.com^
 ||5ho41ueq7w.com^
 ||5hu7hee0pt.com^
@@ -128386,6 +128390,7 @@ zzzyk.com###Tinfo
 ||7eehi3vqy3.com^
 ||7eer.net^$third-party
 ||7eleven.marketing.7eleven.com.au^
+||7g6p21pmm.com^
 ||7g761j2nc.com^
 ||7gra.us/path-tracker-js/
 ||7hdl8dlfjm4g.www.cybernetman.com^
@@ -128588,6 +128593,7 @@ zzzyk.com###Tinfo
 ||8cjk04e7sb.com^
 ||8clkggoo62.com^
 ||8cnd.com^
+||8csgiuclxz.com^
 ||8d4b.pandasuite.io^
 ||8d7hhh8x.com^
 ||8d8d.me/images/dealer.gif
@@ -147094,6 +147100,7 @@ zzzyk.com###Tinfo
 ||bzpics.com/jslib/st.js?
 ||bzqqftz.icu^
 ||bzqxze.remixshop.com^
+||bzqy2p14z.com^
 ||bzr.openai.com^
 ||bzrcdn.openai.com^
 ||bzrch.heyskipperfishing.com^
@@ -171587,6 +171594,7 @@ zzzyk.com###Tinfo
 ||gproxy-beta.mableai.workers.dev/wtag/js
 ||gpsqnl.delsey.com^
 ||gptgirlfriend.online^$removeparam=ref
+||gpu2rbzpe.com^
 ||gpuijq.mothercare.com.sa^
 ||gpukye.holabirdsports.com^
 ||gpxxbyf.cn^
@@ -209111,6 +209119,7 @@ zzzyk.com###Tinfo
 ||phb123.com/skin/js/tongji.js
 ||phbkm.com/js/
 ||phbnix.rocelec.com^
+||phbyrmvjn.icu^
 ||phcbi-solution.phchd.com^
 ||phcnvk.schalke04.de^
 ||phczhg.johnjohndenim.com.br^
@@ -267534,6 +267543,7 @@ zzzyk.com###Tinfo
 ||zzghp.velotricbike.com^
 ||zzgxqlzh.com^
 ||zzhengyuli.com^
+||zzhizbzowrzlvy.com^
 ||zzisnvb.cn^
 ||zzjcz.downeaststyle.com^
 ||zzjod.greenbayremodeling.com^
