@@ -4,7 +4,7 @@
 ! Powerd by CatsTeam
 ! Expires: 12 Hours
 ! Description: 该规则合并自My AdFilters（for PC），EdentwCustom，adgk，Adaway，Uniartisan，规则以及乘风规则等
-! Version: 2026-07-27 12:52:32
+! Version: 2026-07-27 22:56:39
 ! Total count: 270696
 ! ------加强屏蔽Start------ !
 
@@ -15873,7 +15873,7 @@ android-tools.ru###text-8
 android.265g.com##div#fmt-wrap
 android.webspecmail.com$image
 androidauthority.com##+js(remove-cookie, _ALGOLIA, when, scroll keydown)
-androidauthority.com,cnet.com,hunker.com,insidehook.com,jljbacktoclassic.com,mobygames.com,nbcnews.com,otherweb.com,pcpartpicker.com,pcgamingwiki.com,popularmechanics.com,purewow.com,space.com,sport-passion.fr,thekitchn.com,tomshardware.com,zdnet.com##+js(href-sanitizer, 'body a[href*="?"][href*="url=http"]:is([href^="https://cc."][href*=".com/v1/otc/"],[href^="https://go.skimresources.com"],[href^="https://go.redirectingat.com"],[href^="https://invol.co/aff_m?"],[href^="https://shop-links.co/link"],[href^="https://track.effiliation.com/servlet/effi.redir?"],[href^="https://atmedia.link/product?url=http"],[href*=".com/a.ashx?"],[href^="https://www."][href*=".com/t/"],[href*=".prsm1.com/r?"],[href*=".com/click-"],[href*=".net/click-"],a[href*=".com/t/t?a="],a[href*=".dk/t/t?a="])', ?url)
+androidauthority.com,cnet.com,electricteeth.com,hunker.com,insidehook.com,jljbacktoclassic.com,mobygames.com,nbcnews.com,otherweb.com,pcpartpicker.com,pcgamingwiki.com,popularmechanics.com,purewow.com,space.com,sport-passion.fr,thekitchn.com,tomshardware.com,zdnet.com##+js(href-sanitizer, 'body a[href*="?"][href*="url=http"]:is([href^="https://cc."][href*=".com/v1/otc/"],[href^="https://go.skimresources.com"],[href^="https://go.redirectingat.com"],[href^="https://invol.co/aff_m?"],[href^="https://shop-links.co/link"],[href^="https://track.effiliation.com/servlet/effi.redir?"],[href^="https://atmedia.link/product?url=http"],[href^="https://track.flexlinks"],[href^="https://www."][href*=".com/t/"],[href*=".prsm1.com/r?"],[href*=".com/click-"],[href*=".net/click-"],a[href*=".com/t/t?a="],[href*=".com/a.ashx?"],a[href*=".dk/t/t?a="])', ?url)
 androiddevtools.cn###auto-scroll-ad-box
 androidpolice.com,makeuseof.com,movieweb.com,xda-developers.com##+js(cookie-remover, /articlesRead|previousPage/) 
 andylain.com,bee.coupons,blogspot.com,blogspot.hk,blogspot.jp,blogspot.tw,comic.tw,jasonblog.tw#@#.vertical-ads
@@ -22390,6 +22390,8 @@ elecfans.com##div[class^="banner_ad"]
 elecfans.com##div[id^="new-listAd"]
 elecfans.com##div[style^="width: 960px;height: 40px;"]
 elecinfo.com##div[class$="-advert"]
+electricteeth.com,insidehook.com,nbcnews.com,shutupandtakemyyen.com,space.com,thisiswhyimbroke.com,xda-developers.com##+js(href-sanitizer, body a[href*="awin1.com/"][href*=".php?"][href*="p=http"], ?p)
+electricteeth.com,insidehook.com,nbcnews.com,shutupandtakemyyen.com,space.com,thisiswhyimbroke.com,xda-developers.com##+js(href-sanitizer, body a[href*="awin1.com/"][href*=".php?"][href*="ued=http"], ?ued)
 element-plus.gitee.io##.sidebar > .page-content
 element-plus.gitee.io##.toc-content > .m-t-16px
 element-plus.gitee.io##aside > .page-content
@@ -109123,8 +109125,6 @@ inside-games.jp##.cx-subhead
 inside.com.tw##.advertisement,.fb-like
 insidehook.com,jljbacktoclassic.com##+js(href-sanitizer, body a[href*=".com/r.cfm?"][href*="urllink=http"], ?urllink)
 insidehook.com,nbcnews.com,pcpartpicker.com,space.com,tomshardware.com##+js(href-sanitizer, a[href^="https://click.linksynergy.com/"][href*="link?id="][href*="&murl=http"], ?murl)
-insidehook.com,nbcnews.com,shutupandtakemyyen.com,space.com,thisiswhyimbroke.com,xda-developers.com##+js(href-sanitizer, body a[href*="awin1.com/"][href*=".php?"][href*="p=http"], ?p)
-insidehook.com,nbcnews.com,shutupandtakemyyen.com,space.com,thisiswhyimbroke.com,xda-developers.com##+js(href-sanitizer, body a[href*="awin1.com/"][href*=".php?"][href*="ued=http"], ?ued)
 insideout.e.aremedia.com.au$image
 instrument.com.cn###leftFlash
 instrument.com.cn,tool.lu##.swiper-container
@@ -251910,8 +251910,8 @@ zzzyk.com###Tinfo
 ||track.fitbee-deutschland.com^
 ||track.fitnessshopbd.com^
 ||track.fleetlink.de^
-||track.flexlinks.com/a.ashx*^url=http$doc,urlskip=?url
-||track.flexlinkspro.com/a.ashx*^url=http$doc,urlskip=?url
+||track.flexlinks.com/*^url=http$doc,urlskip=?url
+||track.flexlinkspro.com/*^url=http$doc,urlskip=?url
 ||track.fluffyfalcon.com^
 ||track.fly99.online^
 ||track.flyx.it^
