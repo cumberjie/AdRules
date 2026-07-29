@@ -4,8 +4,8 @@
 ! Powerd by CatsTeam
 ! Expires: 12 Hours
 ! Description: 该规则合并自My AdFilters（for PC），EdentwCustom，adgk，Adaway，Uniartisan，规则以及乘风规则等
-! Version: 2026-07-29 11:57:28
-! Total count: 270787
+! Version: 2026-07-29 22:56:38
+! Total count: 270786
 ! ------加强屏蔽Start------ !
 
 !酷安"提到的好物"
@@ -121124,7 +121124,6 @@ trck.mail.pxbt.com$image
 trcksp.cordial.io$image
 trendyol-milla.com#%#//scriptlet('set-constant', 'process', 'emptyObj')
 trendyol-milla.com#%#//scriptlet('set-constant', 'process.env', '')
-trendyol.com##+js(remove-cookie, /anonUserId|pid|sid/)
 trendyol.com#%#//scriptlet('set-constant', 'process', 'emptyObj')
 trendyol.com#%#//scriptlet('set-constant', 'process.env', 'emptyObj')
 trendyol.com,trendyol-milla.com##+js(set, process, {})
