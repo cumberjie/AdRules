@@ -4,8 +4,8 @@
 ! Powerd by CatsTeam
 ! Expires: 12 Hours
 ! Description: 该规则合并自My AdFilters（for PC），EdentwCustom，adgk，Adaway，Uniartisan，规则以及乘风规则等
-! Version: 2026-07-30 23:01:07
-! Total count: 270826
+! Version: 2026-07-31 11:55:18
+! Total count: 270854
 ! ------加强屏蔽Start------ !
 
 !酷安"提到的好物"
@@ -7856,6 +7856,7 @@ $websocket,domain=wap.yushuwu.cloud
 /js/zhong.js
 /js_ad_utf8.
 /js_ibeat_ext.cms
+/js_includes_ux_metrics.js
 /js_log_error.js
 /js_logger.php
 /js_php/ajsf.php?id=$third-party
@@ -9999,6 +10000,7 @@ $websocket,domain=wap.yushuwu.cloud
 /uecomscore_cmp_event_mundo.js
 /uedata?
 /uem-ep.js
+/ui-core-analytics-bundle.js
 /uisprime/track
 /umami.js
 /umg-analytics.min.js
@@ -113776,6 +113778,8 @@ meritgiftcards.shopmygiftcards.com$image
 messages.coreandmain.com$image
 messages.pawjourr.com$image
 meta.happycustomer.io$image
+metacritic.com#%#//scriptlet('set-local-storage-item', 'ppid', '$remove$')
+metacritic.com#%#//scriptlet('set-local-storage-item', 'uds_anon_id', '$remove$')
 metager.org##+js(href-sanitizer, a[href^="https://metager.org/partner/r?link=http"], ?link)
 metrics.mail.account.mathworks.com$image
 metrics.recruiting.mathworks.com$image
@@ -119959,6 +119963,7 @@ thepaper.cn##[class^='index_footer_banner']
 thepiratebay.org##.ads,#sky-right
 thepiratebay.se##a#image,iframe[src^="//cdn1.adexprt.com/"],iframe[src^="//cdn2.adexprt.com/"]
 theplanet.ws##a[href="http://mycounter.com.ua/"]
+theplayerstribune.com#%#//scriptlet('set-local-storage-item', 'userIdentifier', '$remove$')
 theporn.cc##.gg-config
 theporn.cc##.toolbar-gg
 theqoo.net##.theqoo-counter
@@ -128553,6 +128558,7 @@ zzzyk.com###Tinfo
 ||82e9ac3c1.com^
 ||82o9v830.com^
 ||83133.com/api/
+||83z19h37fj.com^
 ||84232.com^
 ||84dwl4bbq.com^
 ||84pb.com/go.js
@@ -133754,6 +133760,7 @@ zzzyk.com###Tinfo
 ||aboardlevel.com^
 ||abody.39.net^
 ||about.me/track?
+||aboutcorgis.com^
 ||above.50degreesintheshade.com^
 ||above.fearlessgrad.com^
 ||above.tw/blog/wp-content/plugins/popups/public/assets/js/public.js
@@ -136723,7 +136730,7 @@ zzzyk.com###Tinfo
 ||al1n6v56m.com^
 ||alaburger.openapp.link^
 ||aladdinupdate.blackrock.com^
-||aladinia.app^
+||aladinia.app/tracking.js
 ||alamin.annawabi.com^
 ||alamocapital.actonservice.com^
 ||alapita.openapp.link^
@@ -137031,6 +137038,7 @@ zzzyk.com###Tinfo
 ||allvfz.chapellerie-traclet.com^
 ||allvideometrika.com^
 ||allxing.net^
+||allycoop.com^
 ||allyes.
 ||allyes.$third-party
 ||allyes.com^$third-party
@@ -138797,6 +138805,7 @@ zzzyk.com###Tinfo
 ||analytics.tedium.co^
 ||analytics.teespring.com^
 ||analytics.tempmail100.com^
+||analytics.tempy.email^
 ||analytics.tenson.com^
 ||analytics.test.cheggnet.com^
 ||analytics.thegroupbuyexperiment.com^
@@ -139647,6 +139656,8 @@ zzzyk.com###Tinfo
 ||api.brunoacosta.com^
 ||api.brutalkill.com.br^
 ||api.bslacademy.com.br^
+||api.btmessage.com/events/
+||api.btmessage.com/log?
 ||api.bugsnag.com^
 ||api.builtin.com/track/client-events
 ||api.bulldrop.com.br^
@@ -142463,6 +142474,7 @@ zzzyk.com###Tinfo
 ||assets.hearstapps.com/commerce/release/affiliate-bundle.
 ||assets.htvapps.com/lumiere/fallback/analytics.js
 ||assets.ikventilasjon.no^
+||assets.jimstatic.com/at.js
 ||assets.kost1.no^
 ||assets.mediadelivery.net/rum.js
 ||assets.mediahostingcdn.com^
@@ -146129,6 +146141,7 @@ zzzyk.com###Tinfo
 ||boylove.cc^*/img/20*.gif
 ||boyloves.fun^*/img/20*.gif
 ||boyner.com.tr/1eus/
+||boyplus.net/589n/
 ||boyvtr8.com^
 ||boyxu.cn^
 ||bozhihua.com^
@@ -146199,6 +146212,7 @@ zzzyk.com###Tinfo
 ||bqloqigu.com^
 ||bqoiz.ingoodtaste.com^
 ||bqoulb.nowo.pt^
+||bqplydkjst.com^
 ||bqrfet.midasshoes.com.au^
 ||bqstreamer.com^
 ||bqtxcs.bellacoastaldecor.com^
@@ -167733,6 +167747,7 @@ zzzyk.com###Tinfo
 ||fowl.teamyap.app^
 ||fox.4fox.pl^
 ||fox.visionaudiovisual.com^
+||foxdfpbmignjdq.com^
 ||foxford.ru/traqtor|
 ||foxlagoon.com^
 ||foxload.com^$doc
@@ -169918,6 +169933,7 @@ zzzyk.com###Tinfo
 ||ghifrc.baldai1.lt^
 ||ghjie.com/JS/youcegg.js
 ||ghjie.com/images/2012/images/bg
+||ghjyw4h23.com^
 ||ghland.site^
 ||ghlft.mercimamanboutique.com^
 ||ghlxqh.yayoi-kk.co.jp^
@@ -179026,6 +179042,7 @@ zzzyk.com###Tinfo
 ||ignfa.rowenhomes.com^
 ||ignhl.aura.com^
 ||ignite.liftigniter.com^
+||igniteseurope.com/stats/
 ||ignorezest.net^$doc
 ||ignse.aroma360.au^
 ||ignslkgs.com^
@@ -183757,6 +183774,7 @@ zzzyk.com###Tinfo
 ||jqzmfh.autolucas.ro^
 ||jqzmji.nnn.ed.jp^
 ||jr-cross.co.jp/lib/js/ekinakaPotal-ga.js
+||jr9v5lx1ro.com^
 ||jraasj.kobo.com^
 ||jraopiteln.ems-dolorclast-usa.com^
 ||jraum.highereducation.shop^
@@ -193517,6 +193535,7 @@ zzzyk.com###Tinfo
 ||logger.virgul.com^
 ||logger.yp.ca^
 ||logger007.cam4.com^
+||loggerx.com^$third-party
 ||logging.api.intuit.com^
 ||logging.carambo.la^
 ||logging.e-himart.co.kr^
@@ -194922,6 +194941,7 @@ zzzyk.com###Tinfo
 ||m886.kmbc.com^
 ||m8h5qjmlb3.com^
 ||m8qk101065.com^
+||m9sm6th48c.com^
 ||m9sz0hh3f7.com^
 ||m9ylqs5rn.com^
 ||ma-adx.ctrip.com^
@@ -231304,6 +231324,7 @@ zzzyk.com###Tinfo
 ||specialscissors.com^
 ||specialstat.com^$third-party
 ||specialty75.com^
+||specialtypin.com^
 ||specific-sample-orderline.vercel.app^$all
 ||specola.coertini.com^
 ||spectacularstamp.com^
@@ -231325,6 +231346,7 @@ zzzyk.com###Tinfo
 ||speedtrap.shopdirect.com^
 ||speedyfox.io^
 ||speedyrhino.co^
+||speedysteaks.com^
 ||speee-ad.akamaized.net^
 ||speee-ad.jp^$third-party
 ||speetals.com^$third-party
@@ -242112,6 +242134,7 @@ zzzyk.com###Tinfo
 ||stats-blog.lewsion.com^
 ||stats-bq.stylight.net/track/
 ||stats-bq.stylight.net^
+||stats-cdn.polyspeak.ai^
 ||stats-connect.comet.it^
 ||stats-dc1.frz.io^
 ||stats-dev.brid.tv^
@@ -243508,6 +243531,7 @@ zzzyk.com###Tinfo
 ||std.o.rxlist.com^
 ||std.odontoiatrika.it^
 ||std.stdrapidtestkits.com^
+||std72yw0s.com^
 ||stdm.ayudante.jp^
 ||ste.siemens-healthineers.cloud^
 ||ste.siemens-healthineers.com^
@@ -244595,6 +244619,7 @@ zzzyk.com###Tinfo
 ||suplementos.strongest.com.br^
 ||supplementen.energeticanatura.com^
 ||supplieradvisor.ciamlogin.com^$all
+||supply.amazon.com^$removeparam=ref_
 ||supply.bi.serviceplan.com^
 ||supplyreward.com^
 ||support-16.ubpages.com^$all
@@ -259952,6 +259977,7 @@ zzzyk.com###Tinfo
 ||vyse.rajanaga777trend.site^
 ||vysqlt.essoco.com^
 ||vysr4o0eg.com^
+||vytf0mqa0.com^
 ||vyuodh.your-look-for-less.nl^
 ||vyxw.cn^
 ||vyye.cn^
@@ -261608,6 +261634,7 @@ zzzyk.com###Tinfo
 ||whitefish.autharmor.com^
 ||whitefish.kenku.fm^
 ||whitelist-memefi.com^$doc
+||whitening76.top^
 ||whitenoise554popular.com^$doc
 ||whitepages.com/api/log-
 ||whitepages.com/static/dist/setupGaConfig.js
@@ -265912,6 +265939,7 @@ zzzyk.com###Tinfo
 ||yqqhbd.yotsuyaotsuka.com^
 ||yqsu.cn^
 ||yquqoj.com^
+||yqwueei.icu^
 ||yqxg4.compandsave.com^
 ||yqzhishen.me/Statistics/statistics.
 ||yr-names.click^
@@ -268164,7 +268192,7 @@ zzzyk.com###Tinfo
 10minutemail.net###leftover,#right
 10pan.cc###dl_tips,#b1
 10pan.cn##[style="height:60px;"],#r1,.adsbygoogle,#b1
-11alive.com,apnews.com,artforum.com,artnews.com,billboard.com,calgaryherald.com,calgarysun.com,cbs19.tv,crooksandliars.com,deadline.com,dpreview.com,driving.ca,financialpost.com,goldderby.com,golfdigest.com,hollywoodreporter.com,indiewire.com,kcentv.com,kgw.com,lfpress.com,nationalpost.com,nbcsports.com,oregonlive.com,ottawasun.com,robbreport.com,rollingstone.com,sherdog.com,sidereel.com,superherohype.com,techcrunch.com,torontosun.com,vancouversun.com,variety.com,vibe.com,wfaa.com,windsorstar.com,wqad.com,wthr.com,wtol.com,wtsp.com,wwd.com#%#//scriptlet('ubo-acs', 'document.getElementsByTagName', '.pubads')
+11alive.com,9news.com,apnews.com,artforum.com,artnews.com,billboard.com,calgaryherald.com,calgarysun.com,cbs19.tv,crooksandliars.com,deadline.com,dpreview.com,driving.ca,financialpost.com,goldderby.com,golfdigest.com,hollywoodreporter.com,indiewire.com,kcentv.com,kgw.com,krem.com,lfpress.com,nationalpost.com,nbcsports.com,newswest9.com,oregonlive.com,ottawasun.com,robbreport.com,rollingstone.com,sherdog.com,sidereel.com,superherohype.com,techcrunch.com,torontosun.com,vancouversun.com,variety.com,vibe.com,weareiowa.com,wfaa.com,windsorstar.com,wqad.com,wthr.com,wtol.com,wtsp.com,wwd.com#%#//scriptlet('ubo-acs', 'document.getElementsByTagName', '.pubads')
 11dkim1._domainkey.biz.maxis.com.my$image
 11dkim1._domainkey.email1.onduo.com$image
 11dkim1._domainkey.snapcap.com$image
