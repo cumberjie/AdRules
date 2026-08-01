@@ -4,8 +4,8 @@
 ! Powerd by CatsTeam
 ! Expires: 12 Hours
 ! Description: 该规则合并自My AdFilters（for PC），EdentwCustom，adgk，Adaway，Uniartisan，规则以及乘风规则等
-! Version: 2026-07-31 22:55:50
-! Total count: 270854
+! Version: 2026-08-01 11:12:44
+! Total count: 270877
 ! ------加强屏蔽Start------ !
 
 !酷安"提到的好物"
@@ -1233,6 +1233,7 @@ malimali2.com##div.leo-container:nth-child(4) > div:nth-child(5)
 ##.width.imgs_1
 ##.wordurl[style="   width: 42%; float:left; text-align: center;"]
 ##.wp > .ad-box
+##.wp-singular > div[data-sm][style*="2147483647"] > iframe[style*="100%"][allow*="clipboard-write"]
 ##.wp.a2_h
 ##.wp.a_f
 ##.wp.a_h
@@ -5969,6 +5970,8 @@ $websocket,domain=wap.yushuwu.cloud
 /apc/trans.gif?$domain=live.com|office.com
 /api-analytics.
 /api-insights/log?
+/api-integration/ad-rotator/stats^
+/api-integration/ad-rotator/track/*
 /api.controld.com/pixel/*$image
 /api.php?k=*&d=$xhr,redirect=noop.txt
 /api.php?s=*&_v=$script
@@ -7932,6 +7935,7 @@ $websocket,domain=wap.yushuwu.cloud
 /landing.$removeparam=clickid
 /landing.$removeparam=pixelid
 /landing.$removeparam=ref
+/landing/windows.html?src=$frame,3p
 /lanye2015/images/kuan.jpg
 /lanye2015/images/lanyeht.jpg
 /lapi/sign/brandapi/getinfo
@@ -10000,7 +10004,6 @@ $websocket,domain=wap.yushuwu.cloud
 /uecomscore_cmp_event_mundo.js
 /uedata?
 /uem-ep.js
-/ui-core-analytics-bundle.js
 /uisprime/track
 /umami.js
 /umg-analytics.min.js
@@ -10309,6 +10312,8 @@ $websocket,domain=wap.yushuwu.cloud
 /wp-content/plugins/google-analytics-dashboard-for-wp/*$domain=xpornass.com|vitacig.eu.com|musicman.co.jp|wilfmovies.com
 /wp-content/plugins/google-analytics-for-wordpress/*
 /wp-content/plugins/google-analytics-premium/*
+/wp-content/plugins/google-site-kit/dist/assets/js/googlesitekit-consent-mode-
+/wp-content/plugins/google-site-kit/dist/assets/js/googlesitekit-events-provider-
 /wp-content/plugins/google-site-kit/dist/assets/js/googlesitekit-events-provider-contact-form-
 /wp-content/plugins/jetpack/jetpack_vendor/automattic/woocommerce-analytics/*
 /wp-content/plugins/pageviews-counter/*
@@ -17517,6 +17522,7 @@ cartoonmad.com##td[width="890"] > table > tbody > tr > td[colspan="4"][height="1
 cartoonmad.com##tr:nth-child(n+5) > td > table[width="732"]
 cartoonpornvideos.com##[style*="font-size:"],td[class="detail-side-td"],center
 cartune.me#?#.contents-inner > div > div#taboola-alternating-thumbnails-a:upward(1)
+casabasics.es##+js(rmnt, script, String.fromCharCode)
 casecontrol.collections.breyta.nl$image
 cats.recruitingroom.com$image
 catsoneemail.conservationcorps.org$image
@@ -128580,6 +128586,7 @@ zzzyk.com###Tinfo
 ||8684.com/shuang11/
 ||86aocbvvsh.com^
 ||86fm.com^
+||86o5bui4n.com^
 ||86uk.com/banners/
 ||86uk.com/uploads/*0.gif
 ||86uk.com/uploads/*0x
@@ -129370,6 +129377,7 @@ zzzyk.com###Tinfo
 ||a0.awsstatic.com/eb-csr/*/orchestrate.js
 ||a0.awsstatic.com/libra/*/vendor/require-marketo-munchkin.js
 ||a0.awsstatic.com/libra/*/vendor/web-vitals.attribution.iife.js
+||a005hakt6.com^
 ||a013.com^$third-party
 ||a0b22.com^
 ||a0c00.com^
@@ -130101,6 +130109,7 @@ zzzyk.com###Tinfo
 ||a19895.actonservice.com^
 ||a19930.actonservice.com^
 ||a19997.actonservice.com^
+||a1ajfrk4i.com^
 ||a1at.mno.link^
 ||a1bw2cup.top^
 ||a1tai7.jp^$doc
@@ -139085,6 +139094,7 @@ zzzyk.com###Tinfo
 ||ancqie.finanztrends.info^
 ||and-pro.jp^$removeparam=waad
 ||andersenit.dk^$third-party
+||andfauna.net^
 ||andina.nasuacasa.coca-cola.com.br^$cookie=/^_snrs_/
 ||andina.nasuacasa.coca-cola.com.br^$cookie=/^vtex-search-/
 ||andlache.com^
@@ -144116,6 +144126,7 @@ zzzyk.com###Tinfo
 ||barracuda.carte-gr.total.fr^
 ||barracuda.civicdatalibrary.org^
 ||barracuda.verto.exchange^
+||barrelcider.com^
 ||barrister85.top^
 ||barrons.com/cookies/pixel.gif
 ||barry-callebaut.com/pd.js
@@ -160321,6 +160332,7 @@ zzzyk.com###Tinfo
 ||disagreeabledrop.com^
 ||discards55.com^
 ||disciplineavarice.com^$doc
+||discjockeys.net^
 ||discopond.com^
 ||discord*.gift^$all,domain=~discord.gift
 ||discord*.gifts^$all,domain=~discord.gifts
@@ -163071,6 +163083,7 @@ zzzyk.com###Tinfo
 ||egdehs.selected.com^
 ||egg.afisha.ru^
 ||eggplant.cloud^$third-party
+||eggrecipe.com^
 ||eghaailr.com^
 ||eghrbf.immowelt.at^
 ||eghyahl.cn^
@@ -170283,6 +170296,7 @@ zzzyk.com###Tinfo
 ||globalwebindex.net^$third-party
 ||globase.com^$third-party
 ||globel.co.uk^$third-party
+||globes.co.il/news/scripts/fp2.min.js
 ||globes.co.il/shared/s.ashx?
 ||globetrackr.com^$third-party
 ||globo-ab.globo.com^
@@ -177840,6 +177854,7 @@ zzzyk.com###Tinfo
 ||hqq.tv/js/gcounter.js
 ||hqrixc.dorocy.co.kr^
 ||hqvkbn.icu^
+||hqvldtiayuvrho.com^
 ||hqvrvageaf.com^
 ||hqwtqa.intelligence-artificielle-school.com^
 ||hqxbuy.rugs-direct.com^
@@ -182759,6 +182774,7 @@ zzzyk.com###Tinfo
 ||j7ifivzy.icu^
 ||j7kv55pr70.com^
 ||j85izots6.com^
+||j8n60aooj.com^
 ||j8tzoy3xwn.com^
 ||j927.statnews.com^
 ||j93557g.com^
@@ -195257,6 +195273,7 @@ zzzyk.com###Tinfo
 ||makeway.pl^$cookie=uid
 ||makoto-in-room.wixsite.com^$doc
 ||malenirt.site^$all
+||maletoks.pro^$all
 ||maliciousmusic.com^
 ||malimali5.com/ad1.png
 ||maling.dn.no^
@@ -201274,6 +201291,7 @@ zzzyk.com###Tinfo
 ||mjurz.springandmulberry.com^
 ||mjutjc.telstarsurf.de^
 ||mjuzs.strutmasters.com^
+||mjvb60t4g.com^
 ||mjwnxc.julbie.com^
 ||mjzkws.marcovasco.fr^
 ||mk-log.makeshop.co.kr/analytics/events
@@ -201743,6 +201761,7 @@ zzzyk.com###Tinfo
 ||mohamed.net.anwalt.de^
 ||mohecm.com^
 ||moigv.spartan.com^
+||moika78.ru/wp-json/optimization-detective/v*/url-metrics
 ||moira-101.com^$doc
 ||moji.com/ad^
 ||mojok.maxify.pro^
@@ -212223,6 +212242,7 @@ zzzyk.com###Tinfo
 ||qcalq.whirleypopshop.com^
 ||qcb2xeg.icu^
 ||qcblzn.pinkpanda.it^
+||qccxvtfbk.com^
 ||qcdch.saltlaboratory.com^
 ||qceyjl.cellularoutfitter.com^
 ||qcgg.net^
@@ -244537,6 +244557,7 @@ zzzyk.com###Tinfo
 ||sun0769.com^*sungg/File/$script
 ||sun66387567606.online^
 ||sun66387567606.site^
+||sunblock65.com^
 ||suncanny.marvel.com^
 ||suncanny.marvelhq.com^
 ||suncorp.activate.ensighten.com^
@@ -260486,6 +260507,7 @@ zzzyk.com###Tinfo
 ||wc.yahoodns.net^$image
 ||wc4.net^$image,third-party
 ||wc6y3nrv7g.com^
+||wc74aa875.com^
 ||wcanj.com/2345/
 ||wcaos.com^
 ||wcbmp.sugarloaf.com^
@@ -266293,6 +266315,7 @@ zzzyk.com###Tinfo
 ||yynncbn.cn^
 ||yyqlpi.danmusikk.no^
 ||yyqozaldwa.com^
+||yyrodzxm5.com^
 ||yyrtip.mujkoberec.cz^
 ||yyselrqpyu.com^
 ||yysjea.stepstone.nl^
