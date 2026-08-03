@@ -4,8 +4,8 @@
 ! Powerd by CatsTeam
 ! Expires: 12 Hours
 ! Description: 该规则合并自My AdFilters（for PC），EdentwCustom，adgk，Adaway，Uniartisan，规则以及乘风规则等
-! Version: 2026-08-02 22:51:41
-! Total count: 270977
+! Version: 2026-08-03 12:52:23
+! Total count: 270983
 ! ------加强屏蔽Start------ !
 
 !酷安"提到的好物"
@@ -125036,6 +125036,7 @@ xgan.cn##.bottom_fixed
 xgan.cn##.container center > a[target="_blank"] > img
 xgan.cn##a[href^="https://www.jspp9.xyz"]
 xgan.cn##body > center > a[target="_blank"][rel="nofollow"]
+xgcartoon.com#%#//scriptlet('abort-on-stack-trace', 'document.createElement', 'mount_adsqrt_ad')
 xgeshu.com,boqushu.com##div[style="display:block;width:100%;height:100px;overflow:hidden;"]
 xghylt.com##div[class="mb5"],.index_fivead,div.a_pr,div.a_pb,.ad,div.mt10,.a_mu
 xgo.com.cn##div.ad.ad-1,div[class^="ad ad_r"],div.gmine_ad
@@ -163126,6 +163127,7 @@ zzzyk.com###Tinfo
 ||egtpf.freshcleantees.com^
 ||egvemw.aboutyou.ee^
 ||egvhd2ggc1.com^
+||egvnfpnb31.com^
 ||egxo.cn^
 ||egzfc.topluxuryproperty.com^
 ||egzum.instyler.com^
@@ -183412,6 +183414,7 @@ zzzyk.com###Tinfo
 ||jj40z.amacx.es^
 ||jj40z.amacx.fr^
 ||jj40z.amacx.nl^
+||jj5zwmzcze.com^
 ||jjade.xyz^
 ||jjcbg.forcast.com.au^
 ||jjckb.cn/flash/1031ad/
@@ -256430,6 +256433,7 @@ zzzyk.com###Tinfo
 ||u896.weekand.com^
 ||u8ad.com^
 ||u8rnuky6e.com^
+||u90p9zk9r7.com^
 ||u927.sfgate.com^
 ||u939.colgate.com^
 ||u999.wcvb.com^
@@ -264748,6 +264752,7 @@ zzzyk.com###Tinfo
 ||xraws.com^$cookie=client_id
 ||xray.mail.ru^
 ||xrb0owc.icu^
+||xrb5zmxe2j.com^
 ||xrcekj.networkdry.com^
 ||xrcksn.vvf-villages.fr^
 ||xrhrrk.steepandcheap.com^
@@ -266673,6 +266678,7 @@ zzzyk.com###Tinfo
 ||zazzle.fr/botdefender/init.js
 ||zazzle.fr/svc/px
 ||zb.516624.com^
+||zb4ohbnsf9.com^
 ||zbb.bbb.*.pics^
 ||zbc6hy*.live^
 ||zbc6hye*.xyz^
