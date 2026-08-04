@@ -4,8 +4,8 @@
 ! Powerd by CatsTeam
 ! Expires: 12 Hours
 ! Description: 该规则合并自My AdFilters（for PC），EdentwCustom，adgk，Adaway，Uniartisan，规则以及乘风规则等
-! Version: 2026-08-04 11:59:32
-! Total count: 270996
+! Version: 2026-08-04 22:58:51
+! Total count: 270998
 ! ------加强屏蔽Start------ !
 
 !酷安"提到的好物"
@@ -9668,7 +9668,7 @@ $websocket,domain=wap.yushuwu.cloud
 /tenant.min.js
 /tencentvideo/script/webtips/*
 /test.php?q=
-/text_tel.js$domain=app|azurestaticapps.net|dev|fit|me|page|site|github.io|herokuapp.com
+/text_tel.js$domain=amplifyapp.com|app|azurestaticapps.net|dev|fit|me|page|site|github.io|herokuapp.com
 /textad*
 /tghr.js$domain=159i.com
 /the_top$domain=28188.net
@@ -16304,7 +16304,7 @@ azhibo.tv##.fill-content,[width="680"][height="60"],[href^="http://www.00880808.
 azofreeware.com###HTML7
 azofreeware.com,pttjoke.com###HTML3
 azrhymes.com#%#//scriptlet('set-local-storage-item', 'visitor_hash', '$remove$')
-azurefd.net,ondigitalocean.app##body#mycanvas.map[style="cursor:none"]
+azurefd.net,azurestaticapps.net,ondigitalocean.app##body#mycanvas.map[style="cursor:none"]
 b.kyodo.co.jp##.banner-area-entry + h3.category-title
 b2b.hc360.com##[class="maincont-one-main"],div#cu_channel,div#leftsuspend,div[class^="line"],div.wechactLi
 b2bname.com##.block-ad
@@ -193838,6 +193838,8 @@ zzzyk.com###Tinfo
 ||los.2hisnd.com^$third-party
 ||losecounter.de^$third-party
 ||losslace.com^
+||losslesscut.$doc,to=~losslesscut.app
+||losslesscut.cn^$all
 ||losslesscut.net^$all
 ||losstrack.com^$third-party
 ||lot.luck-fortune.com^$doc
