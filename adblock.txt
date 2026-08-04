@@ -4,8 +4,8 @@
 ! Powerd by CatsTeam
 ! Expires: 12 Hours
 ! Description: 该规则合并自My AdFilters（for PC），EdentwCustom，adgk，Adaway，Uniartisan，规则以及乘风规则等
-! Version: 2026-08-03 22:55:52
-! Total count: 270983
+! Version: 2026-08-04 11:59:32
+! Total count: 270996
 ! ------加强屏蔽Start------ !
 
 !酷安"提到的好物"
@@ -9873,6 +9873,7 @@ $websocket,domain=wap.yushuwu.cloud
 /tracking.srv2.de/op/*$image
 /tracking.vegasgems.com/*$image
 /tracking.vidt
+/tracking/affiliate|$image
 /tracking/airdog
 /tracking/call.$script
 /tracking/common.html
@@ -138403,6 +138404,7 @@ zzzyk.com###Tinfo
 ||analytics.mattresswarehouse.com^
 ||analytics.mawashico.com^
 ||analytics.maxroll.gg^
+||analytics.maxx53.com^
 ||analytics.mbga.jp^
 ||analytics.mc500.info^
 ||analytics.mcw.nz^
@@ -149989,6 +149991,7 @@ zzzyk.com###Tinfo
 ||ck1997.com/js/lunbo.js
 ||ck33.top^
 ||ck4g3p2x92.com^
+||ck7uo6g36.com^
 ||ckcikq.dondup.com^
 ||ckerw.xyz^
 ||ckfkzn.dubz.com^
@@ -161355,6 +161358,7 @@ zzzyk.com###Tinfo
 ||driver.jugnoo.in^
 ||drjzh.loveinfaith.life^
 ||drkaq.nlbeauty.bg^
+||drlagqnl.com^
 ||drmcmm.baidu.com^
 ||drnrr.supplylife.com^
 ||drnsvp.starcasino.be^
@@ -163258,6 +163262,7 @@ zzzyk.com###Tinfo
 ||ekrki.jessicasimpson.com^
 ||ekuhv.wearpepper.com^
 ||el.quizlet.com^
+||el.siglo.mx^
 ||el2m3qr7v.com^
 ||ela-3-tnk.com^$third-party
 ||elade.mensuas.com^
@@ -164279,6 +164284,7 @@ zzzyk.com###Tinfo
 ||engagefront.theweathernetwork.com^
 ||engagelab.cc^
 ||engagemaster.com^$third-party
+||engagement.coremedia.cloud^
 ||engagement.feedly.com^
 ||engagements.appsflyer.com^
 ||engagemetrics.cisco.com^
@@ -164717,6 +164723,7 @@ zzzyk.com###Tinfo
 ||estrelaapps.com/collect
 ||estuary98.top^
 ||esub.akkusys.de^
+||esudrp.cn^
 ||esvkay.unifriend.co.kr^
 ||eswpwi.xlmoto.pl^
 ||esywhf.everbags.com.br^
@@ -166209,6 +166216,7 @@ zzzyk.com###Tinfo
 ||fanhaodang.org/Runtime/js/
 ||fanicon.net^$removeparam=from
 ||fanjs.top^
+||fanless.net^
 ||fanp.me/*/silveregg_tracking.html
 ||fanpage.it/views/
 ||fanpingbi*.gaokao.com^
@@ -166231,6 +166239,7 @@ zzzyk.com###Tinfo
 ||fanyi.baidu.com/wise/afd?
 ||fanyi100.com.cn^
 ||fanzhuang.net.cn^$third-party
+||faoda4xd2.com^
 ||faokwl.sklepogrodniczy.pl^
 ||fap.bar/a.js
 ||fapello.xyz^$all
@@ -166571,6 +166580,7 @@ zzzyk.com###Tinfo
 ||fdkbu.thespeakerlab.com^
 ||fdkeip.azafashions.com^
 ||fdldg.trtltravel.com^
+||fdluoxnn.com^
 ||fdmsu.greenpan.us^
 ||fdnyk.suzannesomers.com^
 ||fdowic.hoiku.mynavi.jp^
@@ -178871,6 +178881,7 @@ zzzyk.com###Tinfo
 ||ids.actonservice.com^
 ||idsce.com^
 ||idsfq.katespade.de^
+||idsmodules.com^
 ||idsod.catholic.com^
 ||idsqb.evanalexandergrooming.com^
 ||idstatus.sky.com^
@@ -183338,6 +183349,7 @@ zzzyk.com###Tinfo
 ||jin10.com/news_service/static/config/details.config.
 ||jinair.nsc.jinair.com^
 ||jinair.sc.jinair.com^
+||jinanrqz.com^
 ||jinbao888.com^
 ||jinbaozy.com/images/tb/
 ||jinbaozy.com/images/zhangshang.jpg
@@ -193894,6 +193906,7 @@ zzzyk.com###Tinfo
 ||lowermybills.actonsoftware.com^
 ||lowerthewatts.net^
 ||lowes.com/baymax/events/
+||lowes.com/baymax/events/track?
 ||lowes.com/gauge/
 ||lowes.com/pharos/api/webTelemetry?
 ||lowes.com/resources/*/collect?
@@ -198306,6 +198319,7 @@ zzzyk.com###Tinfo
 ||meijutt.tv/js/layer/mobile/layer.
 ||meijutt.tv/js/pcjs/alltop_960_1.js
 ||meijuxz.com/template/ZQ/
+||meijxqop.com^
 ||meilele.com/js/mll/baiduLabelRecommend.
 ||meimpheaea.com^
 ||mein.onlinekonto.de^$removeparam=ref
@@ -257035,18 +257049,13 @@ zzzyk.com###Tinfo
 ||um.viuapi.io/loggingservice/
 ||um29.com/$third-party,~font,popup
 ||um5xcgngmart.xyz^
+||umami.
 ||umami.*/script.js|$script
-||umami.aigenerations.net^
 ||umami.dev^
 ||umami.flixer.su^
 ||umami.is^$third-party
 ||umami.spencerdevs.xyz^
-||umami.subdavis.com^
-||umami.syg.ma^
-||umami.vidcore.net^
-||umami.vidfast.
 ||umami.vidfast.pro^
-||umami.vidup.to^
 ||umami.wakarimasen.moe^
 ||umami.webtor.io^
 ||umamix.fadunews.in^
@@ -257085,7 +257094,8 @@ zzzyk.com###Tinfo
 ||umlvbe.rucipello.com^
 ||umnico.com/tracker/
 ||umnoho.bazaarmall.co.kr^
-||umommy.online^
+||umommy.*/api/
+||umommy.cyou^
 ||ump.sf-express.com/monitor/*/report|
 ||umqigvethe.com^
 ||umrvmb.net.anwalt.de^
@@ -260702,6 +260712,7 @@ zzzyk.com###Tinfo
 ||wdtw.cn^
 ||wdukge.midwayusa.com^
 ||wdyfx.ltliang.com^
+||wdziitkl.com^
 ||wdzwd.xyz^
 ||we-love-privacy.humane.club^
 ||we-stats.com^$third-party
@@ -264008,6 +264019,7 @@ zzzyk.com###Tinfo
 ||x0ri3.bbqexperiencecenter.nl^
 ||x1.52aoteman.com^
 ||x1abo.com^
+||x1cz6f8gb.com^
 ||x21.cn/service/feeds.
 ||x23qb.com/skin/themex.js
 ||x3-policy-maker.goguardian.com^
@@ -264372,6 +264384,7 @@ zzzyk.com###Tinfo
 ||xiguasuwu.com/static/m.
 ||xihawan8.com^$third-party
 ||xii1ybb2hk.com^
+||xikprjbbp.com^
 ||xilofr.xyz^
 ||ximit8023.maijijo.com^
 ||xin.ycitys.cn/code^
