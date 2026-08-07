@@ -4,8 +4,8 @@
 ! Powerd by CatsTeam
 ! Expires: 12 Hours
 ! Description: 该规则合并自My AdFilters（for PC），EdentwCustom，adgk，Adaway，Uniartisan，规则以及乘风规则等
-! Version: 2026-08-07 01:28:11
-! Total count: 271030
+! Version: 2026-08-07 10:48:00
+! Total count: 271040
 ! ------加强屏蔽Start------ !
 
 !酷安"提到的好物"
@@ -139558,6 +139558,7 @@ zzzyk.com###Tinfo
 ||api.amplitudeexperiment.com^
 ||api.anacorso.com.br^
 ||api.analebear.com^
+||api.analytics.dobrosvyaz.com^
 ||api.analytics.omgpop.com^
 ||api.anandainsights.com.br^
 ||api.anapaulacarvalho.com^
@@ -139592,6 +139593,7 @@ zzzyk.com###Tinfo
 ||api.audiumesquadrias.com^
 ||api.aurorea.com.br^
 ||api.autoflixtreinamentos.com^
+||api.autogram.site/api/tracking/track.js
 ||api.autopilothq.com^
 ||api.autopilothq.com^$third-party
 ||api.aws.mapquest.com/logger
@@ -149869,6 +149871,7 @@ zzzyk.com###Tinfo
 ||cimri.com/r/analytics
 ||cinarra.com^$third-party
 ||cincinnati-content.cresa.com^
+||cine.su/api/site-beacon|
 ||cinemabonus.com^
 ||cinematoday.jp^$removeparam=g_clk
 ||cinemaup.top^
@@ -152307,6 +152310,8 @@ zzzyk.com###Tinfo
 ||content.ntwine-conferencing.com^
 ||content.nxp.com^
 ||content.ohcare.ohiohealth.com^
+||content.osgnetworks.tv/*/content/ga4.js
+||content.osgnetworks.tv/js/global/permutive.js
 ||content.paladion.net^
 ||content.palram.com^
 ||content.pix.style^
@@ -164597,6 +164602,7 @@ zzzyk.com###Tinfo
 ||erlirscid.com^
 ||erlpbwy.cn^
 ||ermiph.petermanningnyc.com^
+||ernax.pro/cdn-cgi/trace
 ||ero-advertising.com^
 ||eroar.lionsclubs.org^
 ||erocm.com^$doc
@@ -185130,6 +185136,7 @@ zzzyk.com###Tinfo
 ||kitbit.net^$third-party
 ||kitces.com/wp-json/kwm/v1/track
 ||kitchen.juicer.cc^
+||kitchenbasin.com^
 ||kitchenfu47.top^
 ||kite.cardneyestate.co.uk^
 ||kite.devin.website^
@@ -209290,6 +209297,7 @@ zzzyk.com###Tinfo
 ||petbook.de^$removeparam=cid
 ||petbook.de^$removeparam=dicbo
 ||petco.com/track-production/analytics.js
+||petersenshunting.com/js/convivaAppTracker.js
 ||petitechili.com^
 ||petpgn.artisanparfumeur.com^
 ||pets.channeladvisor.com^
@@ -210786,6 +210794,7 @@ zzzyk.com###Tinfo
 ||posthog.com/api/signup-count
 ||posthog.football24.ua^
 ||posthog.lingvanex.com^
+||posthog.russpass.ru^
 ||posthog.tarnkappe.info^
 ||postimg.cc^*-960x60.
 ||postmates.com/_events$redirect=nooptext
@@ -248770,6 +248779,7 @@ zzzyk.com###Tinfo
 ||tfoydw.topvintage.be^
 ||tfoyfx.dukefotografia.com^
 ||tfpeev.chanluu.com^
+||tfpodf.ars.appsflyersdk.com^
 ||tfrln.prostatehealthreport.com^
 ||tfsuggestion.live^
 ||tftjgl.brice.fr^
