@@ -4,8 +4,8 @@
 ! Powerd by CatsTeam
 ! Expires: 12 Hours
 ! Description: 该规则合并自My AdFilters（for PC），EdentwCustom，adgk，Adaway，Uniartisan，规则以及乘风规则等
-! Version: 2026-08-06 11:59:25
-! Total count: 271029
+! Version: 2026-08-07 01:28:11
+! Total count: 271030
 ! ------加强屏蔽Start------ !
 
 !酷安"提到的好物"
@@ -184549,6 +184549,7 @@ zzzyk.com###Tinfo
 ||kagxyvk.com^
 ||kahdz.carechanges.com^
 ||kahgjjd.com^
+||kai-search.com^$all
 ||kaicn.com/style/js/js.js$script
 ||kaigan-kaiun-fortune.com^$doc
 ||kaigonoshigoto.jp^$removeparam=scid
@@ -243696,7 +243697,7 @@ zzzyk.com###Tinfo
 ||steam.zssjsq.com^$all
 ||steamchina.com/default/usabilitytracking
 ||steamchina.com/events/
-||steamcommunity.^$doc,to=~steamcommunity.com
+||steamcommunity.$doc,to=~steamcommunity.com|~steamcommunity.rocks
 ||steamcommunitylog.chez.com^$all
 ||steamers77.com^
 ||steampowered.com/default/usabilitytracking
