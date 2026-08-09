@@ -4,8 +4,8 @@
 ! Powerd by CatsTeam
 ! Expires: 12 Hours
 ! Description: 该规则合并自My AdFilters（for PC），EdentwCustom，adgk，Adaway，Uniartisan，规则以及乘风规则等
-! Version: 2026-08-08 22:23:18
-! Total count: 270940
+! Version: 2026-08-09 10:29:21
+! Total count: 270949
 ! ------加强屏蔽Start------ !
 
 !酷安"提到的好物"
@@ -15825,7 +15825,7 @@ akamai.webspecmail.com$image
 akjunshi.com##.banner_ad,[class^="ad_two_"]
 akkxs.net#%#//scriptlet('abort-current-inline-script', 'eval', '_0x')
 akshare.moseasia.com$image
-al.com,attackofthefanboy.com,destructoid.com,edmontonsun.com,gamepur.com,gamerjournalist.com,gameskinny.com,lehighvalleylivecom,lgbtqnation.com,macwelt.de,mlive.com,news8000.com,nj.com,pcwelt.de,pennlive.com,primagames.com,progameguides.com,siliconera.com,syracuse.com,themarysue.com,touchtapplay.com,wegotthiscovered.com#%#//scriptlet('ubo-aost', 'decodeURI', '/(?=^(?!.*\.js))/')
+al.com,attackofthefanboy.com,destructoid.com,edmontonsun.com,gamepur.com,gamerjournalist.com,gameskinny.com,lehighvalleylivecom,lgbtqnation.com,macwelt.de,mlive.com,news8000.com,nj.com,pcwelt.de,pennlive.com,primagames.com,progameguides.com,queerty.com,siliconera.com,syracuse.com,themarysue.com,touchtapplay.com,wegotthiscovered.com#%#//scriptlet('ubo-aost', 'decodeURI', '/(?=^(?!.*\.js))/')
 alba.alalikexpress.com$image
 album.moseasia.com$image
 alert.avadacom.com$image
@@ -137490,6 +137490,7 @@ zzzyk.com###Tinfo
 ||ampltd.top.gg^
 ||ampltd2.medal.tv^
 ||ampproject.org/preconnect.gif
+||ampscamp.net^
 ||amptrack-dailymail-co-uk.cdn.ampproject.org^
 ||amqbl.ballarddesigns.com^
 ||amradmin.5173.com^
@@ -161540,6 +161541,7 @@ zzzyk.com###Tinfo
 ||dt243100.com^
 ||dta.apploye.com^
 ||dtag.breadfinancial.com^
+||dtasrvr.com^
 ||dtaum.frontgate.com^
 ||dtbkg.withjean.com.au^
 ||dtbw.pawfy.co.uk^
@@ -211817,6 +211819,7 @@ zzzyk.com###Tinfo
 ||pulse.fluparks.ch^
 ||pulse.flyparks.com.au^
 ||pulse.ftools.fluege.de^
+||pulse.genki.world^
 ||pulse.hetadreswebshop.nl^
 ||pulse.impartner.com^
 ||pulse.intersettle.nl^
@@ -264293,6 +264296,11 @@ zzzyk.com###Tinfo
 ||xiaohongshu.com/api/v2/collect
 ||xiaohongshu.com^$cookie=xhsTrackerId
 ||xiaohongshu.com^$cookie=xhsTrackerId.sig
+||xiaohongshu.com^$removeparam=app_platform
+||xiaohongshu.com^$removeparam=app_version
+||xiaohongshu.com^$removeparam=share_channel
+||xiaohongshu.com^$removeparam=share_id
+||xiaohongshu.com^$removeparam=xhsshare
 ||xiaohuangshu.me/visit.php
 ||xiaohuangshu.me^
 ||xiaohuks.com/1.
@@ -268282,6 +268290,7 @@ zzzyk.com###Tinfo
 11dkim1._domainkey.biz.maxis.com.my$image
 11dkim1._domainkey.email1.onduo.com$image
 11dkim1._domainkey.snapcap.com$image
+11freunde.de##section[data-area*="Eigenwerbung"]
 012.tw#@#.ad728
 12dkim1._domainkey.alerts.cvs.com$image
 12dkim1._domainkey.eg.hotels.com$image
