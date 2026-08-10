@@ -4,8 +4,8 @@
 ! Powerd by CatsTeam
 ! Expires: 12 Hours
 ! Description: 该规则合并自My AdFilters（for PC），EdentwCustom，adgk，Adaway，Uniartisan，规则以及乘风规则等
-! Version: 2026-08-09 22:25:16
-! Total count: 270950
+! Version: 2026-08-10 11:03:27
+! Total count: 270952
 ! ------加强屏蔽Start------ !
 
 !酷安"提到的好物"
@@ -124972,8 +124972,6 @@ wzzy.cc##.xgplayer-error
 x-mol.com###floatWindow
 x-mol.com###rightAllJournal
 x-mol.com##.news-white-content-right
-x.com##+js(prevent-xhr, /i/api/1.1/flow/viewer.json)
-x.com##+js(proxy-apply-config, {"dontProxyToString":true})
 x.com#%#//scriptlet('prevent-fetch', '/i/api/1.1/flow/viewer.json')
 x.com/*/videoads/
 x.jd.com
@@ -128414,6 +128412,7 @@ zzzyk.com###Tinfo
 ||79.125.117.123^$third-party
 ||79181531227.com^
 ||797sun.com/include/js/common_footer.
+||7996epzfh.com^
 ||79cm.com^
 ||79mob.com^
 ||79n4cubmu8.com^
@@ -139257,6 +139256,7 @@ zzzyk.com###Tinfo
 ||anti-cheat.info^$third-party
 ||antiadtape.com/stat/
 ||antiblock.info^$third-party
+||antibot.wildberries.ru^
 ||antico.openapp.link^
 ||antidoto.antidotodigital.com^
 ||antillephone.com^$third-party
@@ -162889,6 +162889,7 @@ zzzyk.com###Tinfo
 ||edge.truistinsurance.com^
 ||edge.truistmomentum.com^
 ||edge.truistsecurities.com^
+||edge.venatusmedia.com^
 ||edge.virginplus.ca^
 ||edge.vironafashion.com^
 ||edge.vr.de^
@@ -182538,6 +182539,7 @@ zzzyk.com###Tinfo
 ||itkdlu.howrse.sk^
 ||itllo.bronzesnake.com^
 ||itlrj.bluemercury.com^
+||itm1yqknq.com^
 ||itmedia.co.jp/js/itmdp_code.js
 ||itmedia.co.jp^$cookie=s_ubid
 ||itmedia.co.jp^$cookie=s_vid
