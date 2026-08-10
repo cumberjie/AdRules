@@ -4,8 +4,8 @@
 ! Powerd by CatsTeam
 ! Expires: 12 Hours
 ! Description: 该规则合并自My AdFilters（for PC），EdentwCustom，adgk，Adaway，Uniartisan，规则以及乘风规则等
-! Version: 2026-08-10 11:03:27
-! Total count: 270952
+! Version: 2026-08-10 22:32:26
+! Total count: 270963
 ! ------加强屏蔽Start------ !
 
 !酷安"提到的好物"
@@ -21883,6 +21883,7 @@ dop2p.com##div.brand
 doralobalid3.click.s11.sfmc-osl.com$image
 dospy.com##div#ad,div#phoneimg,div.com-adm,.fixed
 douban.com###dale_movie_subject_middle_right,#dale_movie_subject_top_right,#dale_movie_subject_bottom_super_banner,#dale_movie_home_top_right,#dale_movie_homepage_bottom
+douban.com##+js(href-sanitizer, body a[href^="https://www.douban.com/link2/?url=http"], ?url)
 douban.com##.bottom_ad_download
 douban.com##.channel_promo
 douban.com##.lnk-doubanapp
@@ -107047,6 +107048,7 @@ gamer.com.tw###BH-bigbanner
 gamer.com.tw###billboardAd
 gamer.com.tw###flyRightBox
 gamer.com.tw###flySalve
+gamer.com.tw##+js(href-sanitizer, body a[href^="https://ref.gamer.com.tw/redir.php?url=http"], ?url)
 gamer.com.tw##.a-mercy-d:not([href*=".gamer."])
 gamer.com.tw##.b-list_ad
 gamer.com.tw##.goAPP
@@ -110380,6 +110382,7 @@ lalulalu.com###overture-side-bar-ads
 lalulalu.com###overture_main_banner
 lalulalu.com##.overture_banner
 lan-sha.com#?#.post-list > li.post-item:not(:has(> div.post-item-container a[href^="https://www.lan-sha.com/"][href$=".html"]))
+landian.news##+js(href-sanitizer, body a[href^="https://www.landian.news/go?url=http"], ?url)
 landiannews.com###block-2
 landiannews.com##.content-gg
 landiannews.com##.sidebar > section#block-4
@@ -124972,6 +124975,8 @@ wzzy.cc##.xgplayer-error
 x-mol.com###floatWindow
 x-mol.com###rightAllJournal
 x-mol.com##.news-white-content-right
+x.com##+js(prevent-xhr, /i/api/1.1/flow/viewer.json)
+x.com##+js(proxy-apply-config, {"skipToString":true})
 x.com#%#//scriptlet('prevent-fetch', '/i/api/1.1/flow/viewer.json')
 x.com/*/videoads/
 x.jd.com
@@ -147307,6 +147312,8 @@ zzzyk.com###Tinfo
 ||c.pandorashop.rs^
 ||c.pandorashop.si^
 ||c.paypal.com^$image,script
+||c.pc.qq.com^$urlskip=?pfurl
+||c.pc.qq.com^$urlskip=?url
 ||c.pepperjamnetwork.com/click*^url=http$doc,urlskip=?url
 ||c.photologo.co^
 ||c.plerdy.com^
@@ -161089,6 +161096,7 @@ zzzyk.com###Tinfo
 ||dotshellmain.com^
 ||dotvox.actonservice.com^
 ||douban.com/?unit=dale_movie_trailer_after_play&
+||douban.com/link2/?url=http$doc,urlskip=?url
 ||douban.com/view/dale-online/dale_ad
 ||douban.com^$removeparam=_i
 ||douban.com^$removeparam=dt_platform
@@ -186247,6 +186255,7 @@ zzzyk.com###Tinfo
 ||landchief.com^
 ||landfowl.agoredbuild.com^
 ||landfowl.typegang.com^
+||landian.news/go?url=http$doc,urlskip=?url
 ||landing-activemeetings.wolterskluwer.com^
 ||landing-annotext.wolterskluwer.com^
 ||landing-dictnow.wolterskluwer.com^
@@ -205348,6 +205357,7 @@ zzzyk.com###Tinfo
 ||nuucmzuc.com^
 ||nuusqu.kpm-berlin.com^
 ||nuvi.actonservice.com^
+||nuviatoon.com/nuvia-api/analytics/
 ||nuwoxw.incanto.eu^
 ||nuwurorwbr.com^
 ||nuyibu.pieper.de^
@@ -214239,6 +214249,7 @@ zzzyk.com###Tinfo
 ||ref.dealerinspire.com^
 ||ref.digital.pumb.ua^$removeparam
 ||ref.elitehrv.com^
+||ref.gamer.com.tw/redir.php?url=http$doc,urlskip=?url
 ||ref.migliorgomme.it^
 ||ref.mybb.id^
 ||ref.ridershotel.com^
