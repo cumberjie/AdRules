@@ -4,8 +4,8 @@
 ! Powerd by CatsTeam
 ! Expires: 12 Hours
 ! Description: 该规则合并自My AdFilters（for PC），EdentwCustom，adgk，Adaway，Uniartisan，规则以及乘风规则等
-! Version: 2026-08-11 10:45:50
-! Total count: 270994
+! Version: 2026-08-11 22:36:12
+! Total count: 271000
 ! ------加强屏蔽Start------ !
 
 !酷安"提到的好物"
@@ -119496,6 +119496,7 @@ ssm.fun##.cAnnouncements
 ssm.fun##.cAnnouncementsContent
 ssnn.net###float_picr
 ssnn.net###nrk_gg
+sspai.com##+js(href-sanitizer, body a[href^="https://sspai.com/link?target=http"], ?target)
 sspai.com##.box-gapless,#s1,.advertDiv
 sspai.com##.content hr:nth-last-child(-n+4) ~ p
 ssports.com##.ad-1,.new_i_rbanner
@@ -120588,6 +120589,7 @@ torkitty.com,torrentkitty.app,torrentkitty.io,torrentkitty.lol,torrentkitty.net,
 torrentkitty.app,torrentkitty.tv###fixedbanner
 torrentkitty.app,torrentkitty.tv##a[href*=".nordvpn.net/"]
 torrentsearchweb.net##div#__cpf_popup__
+touchgal.ink##+js(href-sanitizer, body a[href^="/redirect?url=http"], ?url)
 touchgal.org##a[href*=".sailing.ink"]
 tourister.ru##.nt-foot-item[style="overflow:hidden;"]
 tourister.ru#%#//scriptlet('href-sanitizer', 'a[href*="/go?"]', '?url')
@@ -125702,6 +125704,7 @@ zhidao.baidu.com,www.baidu.com##[class^="EC_ads_"],.wgt-ads,div#left-promotion,d
 zhideqiang.com##A[href*="quan.zhideqiang.com"]
 zhiding.cn###MgBox
 zhidiy.com###festival_float_bottom
+zhihu.com##+js(href-sanitizer, body a[href^="https://link.zhihu.com/?target=http"], ?target)
 zhihu.com##+js(no-xhr-if, log-sdk.ksapisrv.com/rest/wd/common/log/collect method:POST)
 zhihu.com##.AppMagicBanner
 zhihu.com##.Banner
@@ -187891,6 +187894,7 @@ zzzyk.com###Tinfo
 ||link.your.storage^
 ||link.yourway.burgerking.ca^
 ||link.yuu.sg^
+||link.zhihu.com/?target=http$doc,urlskip=?target
 ||link.zikto.com^
 ||link.zipsit.com^
 ||link.zulily.com^
@@ -234847,6 +234851,7 @@ zzzyk.com###Tinfo
 ||ssp.zf313.com^
 ||sspai.com/api/v1/recommend*=article_
 ||sspai.com/attachment/sponsor/
+||sspai.com/link?target=http$doc,urlskip=?target
 ||sspkbf.ragtag.jp^
 ||ssplitvice.book-official-website.com^
 ||sspnm.emol.com^
@@ -243668,7 +243673,7 @@ zzzyk.com###Tinfo
 ||steam.zssjsq.com^$all
 ||steamchina.com/default/usabilitytracking
 ||steamchina.com/events/
-||steamcommunity.$doc,to=~steamcommunity.com|~steamcommunity.rocks
+||steamcommunity.$doc,to=~steamcommunity.com|~steamcommunity.gg|~steamcommunity.rocks
 ||steamcommunitylog.chez.com^$all
 ||steamers77.com^
 ||steampowered.com/default/usabilitytracking
@@ -250245,6 +250250,7 @@ zzzyk.com###Tinfo
 ||touchclarity.com^$third-party
 ||touchcommerce.com/tagserver/logging/
 ||touchcommerce.com/tagserver/logging/$third-party
+||touchgal.ink/redirect?url=http$doc,urlskip=?url
 ||touchoshirase.net^$all
 ||touchpoint.airbridge.io/deferred-deeplink/*/apps/joonggonara
 ||touchtacchi.net^$all
