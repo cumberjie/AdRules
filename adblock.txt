@@ -4,8 +4,8 @@
 ! Powerd by CatsTeam
 ! Expires: 12 Hours
 ! Description: 该规则合并自My AdFilters（for PC），EdentwCustom，adgk，Adaway，Uniartisan，规则以及乘风规则等
-! Version: 2026-08-12 10:56:33
-! Total count: 271032
+! Version: 2026-08-12 22:35:29
+! Total count: 271035
 ! ------加强屏蔽Start------ !
 
 !酷安"提到的好物"
@@ -5350,6 +5350,7 @@ $websocket,domain=wap.yushuwu.cloud
 /^https:\/\/hotels-\d{6}\.eu\//$doc,to=eu|~booking.com
 /^https:\/\/kick\.com\/[0-9A-z]{16}\/[0-9A-z]{16}\?apiKey=/$script,1p,match-case,domain=kick.com
 /^https:\/\/korea\.epsilonsoft\.to/[a-zA-Z0-9][a-zA-Z0-9][a-zA-Z0-9][a-zA-Z0-9][a-zA-Z0-9][a-zA-Z0-9][a-zA-Z0-9].js$/$script,domain=epsilonsoft.to
+/^https:\/\/link\.theverge\.com\/click\/[0-9]+\.[0-9]+\/aHR0c/$doc,urlskip=/(aHR0c[a-zA-Z0-9%_-]+)/ -base64
 /^https:\/\/m\.2shuqu\.net\/static\/[a-z0-9]+\/[a-z0-9]+\.js/$script,domain=m.2shuqu.net
 /^https:\/\/mbdk\d+\.com\//$doc,to=com|~mbbank.com.vn
 /^https:\/\/mudah\.my\/[a-zA-Z0-9]{16}\/[a-zA-Z0-9]{16}\?apiKey=/$script,1p,domain=mudah.my
@@ -17083,6 +17084,7 @@ bing.com###TopApp
 bing.com###b_results > li:has(.b_adProvider)
 bing.com###bingBrand
 bing.com###id_mobile
+bing.com##+js(href-sanitizer, a[href*="bing.com/ck/a"], ?u /^a1(.*)$/ -base64)
 bing.com##+js(href-sanitizer, body a[href^="/rebates/welcome?url=http"], ?url)
 bing.com##.OpInNwWndw
 bing.com##.b_algo:has(.ad_esltitle)
@@ -145264,7 +145266,7 @@ zzzyk.com###Tinfo
 ||bing.com/alink/link?url=http$doc,urlskip=?url
 ||bing.com/api/shopping/v1/telemetry
 ||bing.com/api/v1/mediation/tracking?
-||bing.com/ck/a*^u=a1aHR0c$doc,urlskip=/[?&]u=a1(aHR0c[^&#]+)/ -safebase64
+||bing.com/ck/a*u=a1$urlskip=?u /^a1(.*)$/ -safebase64
 ||bing.com/fd/ls/
 ||bing.com/fd/ls/GLinkPing.aspx?
 ||bing.com/fd/ls/l?IG=
@@ -187420,6 +187422,7 @@ zzzyk.com###Tinfo
 ||link.creditonemail.com^
 ||link.crowdfireapp.com^
 ||link.crumbl.com^
+||link.csdn.net^$urlskip=?target
 ||link.curious.com^
 ||link.curve.com^
 ||link.dana.id^
