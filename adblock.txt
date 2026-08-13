@@ -4,8 +4,8 @@
 ! Powerd by CatsTeam
 ! Expires: 12 Hours
 ! Description: 该规则合并自My AdFilters（for PC），EdentwCustom，adgk，Adaway，Uniartisan，规则以及乘风规则等
-! Version: 2026-08-12 22:35:29
-! Total count: 271035
+! Version: 2026-08-13 10:57:08
+! Total count: 271061
 ! ------加强屏蔽Start------ !
 
 !酷安"提到的好物"
@@ -12205,10 +12205,12 @@ $websocket,domain=wap.yushuwu.cloud
 @@||dd.jaycar.com.au.first-party-js.datadome.co^$script,third-party,domain=jaycar.com.au
 @@||dd.qa.moneygram.com.first-party-js.datadome.co^$script,xmlhttprequest,domain=moneygram.com
 @@||dd.subito.it.first-party-js.datadome.co^$script,xmlhttprequest,domain=areariservata.subito.it
+@@||dd.thetrainline.com.first-party-js.datadome.co^$domain=thetrainline.com
 @@||dd.wizzair.com.first-party-js.datadome.co^$domain=wizzair.com
 @@||dd6zx4ibq538k.cloudfront.net/static/images/$domain=tkmaxx.com
 @@||deals.nextag.com^*/ClickTracker.jsp
 @@||debenhams.com/foresee/foresee-trigger.js
+@@||dekra-akademie.de/resource/*/eCom_FrontendV3/assets/js/gtm.js$~third-party
 @@||delivery.satr.jp^$script,domain=mieru-ca.com
 @@||dell.com^$cookie=/^AMCVS?_.*AdobeOrg/
 @@||delta.com/dlhome/ruxitagentjs$~third-party
@@ -127014,6 +127016,7 @@ zzzyk.com###Tinfo
 ||249999.xyz^*.gif
 ||24cmm.com:8888/js
 ||24counter.com^$third-party
+||24jp8wjmho.com^
 ||24kad.com^
 ||24klm.cn^
 ||24klm.net^
@@ -127128,6 +127131,7 @@ zzzyk.com###Tinfo
 ||2gis.*/log|
 ||2gis.ru/_/log
 ||2gis.ru/_/metrics
+||2gvnr9sx9.com^
 ||2h1.jp^$doc
 ||2hiu.com^$third-party
 ||2hlcovn7n.com^
@@ -127135,6 +127139,7 @@ zzzyk.com###Tinfo
 ||2ip.*/member_photo/$domain=~2ip.com|~2ip.ru
 ||2ip.io/sbar/$third-party
 ||2ip.ru/sbar/$third-party
+||2j9banjbst.com^
 ||2jse6.icu^
 ||2juyabihe.com^
 ||2kandy.com/js/123/
@@ -143725,6 +143730,7 @@ zzzyk.com###Tinfo
 ||b3mxnuvcer.com^
 ||b4641y3dw.com^
 ||b477.life^$popup,third-party
+||b47e82rmue.com^
 ||b4afsapz0.com^
 ||b4dg.life/love/
 ||b4g7k9d2.com^
@@ -145102,6 +145108,7 @@ zzzyk.com###Tinfo
 ||bibi100.com^
 ||biblio.sviluppo.host^$doc
 ||biccamera.com^$removeparam=source
+||bickiron84.com^
 ||bickiron92.com^
 ||biconcave43.com^
 ||bicp-analytics.postscript.io^
@@ -145266,7 +145273,7 @@ zzzyk.com###Tinfo
 ||bing.com/alink/link?url=http$doc,urlskip=?url
 ||bing.com/api/shopping/v1/telemetry
 ||bing.com/api/v1/mediation/tracking?
-||bing.com/ck/a*u=a1$urlskip=?u /^a1(.*)$/ -safebase64
+||bing.com/ck/a*u=a1$doc,urlskip=?u /^a1(.*)$/ -safebase64
 ||bing.com/fd/ls/
 ||bing.com/fd/ls/GLinkPing.aspx?
 ||bing.com/fd/ls/l?IG=
@@ -149145,7 +149152,6 @@ zzzyk.com###Tinfo
 ||cdvsd9.com^
 ||cdwlxi.cadremploi.fr^
 ||cdxyb.cn^$third-party
-||cdxyspa.com/js/e
 ||cdyee.com/external/5070.files/ad/
 ||cdzjqz.gratis.com.tr^
 ||cdzzo.highr.co^
@@ -150040,6 +150046,7 @@ zzzyk.com###Tinfo
 ||cl.inhaabit.com^
 ||cl.naturalhealing.fun^
 ||cl.t3n.de^
+||cl1npfik45.com^
 ||cl3ywestv3b5.ru.themoneytizer.com^
 ||claiim-hadiahh-danax-$all,to=~dana.id
 ||claimspaace.pages.dev^$doc
@@ -150995,6 +151002,7 @@ zzzyk.com###Tinfo
 ||cnstats.cdev.eu^
 ||cnstats.ru^$third-party
 ||cnstrc.com/behavior?
+||cnsy8lwlyv.com^
 ||cnsynt.thirdlove.com^
 ||cnt-*.svc.iptv.rt.ru/event_collector
 ||cnt.3dmy.net^
@@ -157778,6 +157786,7 @@ zzzyk.com###Tinfo
 ||data.gxv.test.ajo.adobe.com^
 ||data.gzuzfa.cn^
 ||data.habert-sa.fr^
+||data.hailuo.ai^
 ||data.halcyontimber.co.uk^
 ||data.hardrock.palladiumhotelgroup.com^
 ||data.hashoutsoftapacptrsd.adobesandbox.com^
@@ -167534,6 +167543,7 @@ zzzyk.com###Tinfo
 ||fnopf.etrendygo.com^
 ||fnoqgg.roninwear.com^
 ||fns.modanisa.com/*/analytics.js
+||fnsdycspg.com^
 ||fnttu.addictivewellness.com^
 ||fnual.brooksbrothers.com^
 ||fnvma.milanuncios.com^
@@ -176239,6 +176249,7 @@ zzzyk.com###Tinfo
 ||haiyuer.com/nb.js
 ||haiyuer.com/uc
 ||haizhangs.com^
+||hajolxtoruvvps.com^
 ||hajwlpsb.vidrush.ai^
 ||hakchi2.com^$doc
 ||hal.courrierinternational.com^
@@ -201291,6 +201302,7 @@ zzzyk.com###Tinfo
 ||missyuan.com/sy/
 ||mistervillas.com^
 ||misto.zp.ua/img/reiting_$third-party
+||mistral.ai/api/trpc/event.sendEventToDatalake?
 ||mistyhorizon.com^
 ||misumi-ec.com/api/v1/log/
 ||misumi-ec.com/vcommon/common/js/karte.js
@@ -209136,6 +209148,11 @@ zzzyk.com###Tinfo
 ||pee.cn^
 ||peek-cloppenburg.at/assets/js/3rdparty/tags.tiqcdn.com/utag.js
 ||peepcloud.joinpeep.io^
+||peepshow.com^$removeparam=affS1
+||peepshow.com^$removeparam=affS4
+||peepshow.com^$removeparam=linkId
+||peepshow.com^$removeparam=sourceId
+||peepshow.com^$removeparam=tenantId
 ||peeringhost.net^
 ||peerius.com^$third-party
 ||peerius.episerver.net/tracker/
@@ -213215,6 +213232,7 @@ zzzyk.com###Tinfo
 ||quickmeme.com/tracker/
 ||quickpcfixer.click^
 ||quicksandear.com^
+||quicktattoo.com^
 ||quicktrick.net^
 ||quiddity.goguardian.com^
 ||quidel.actonservice.com^
@@ -216043,6 +216061,7 @@ zzzyk.com###Tinfo
 ||rum-collector.leaderint.workers.dev^
 ||rum-ingress-coralogix.com^
 ||rum-metrics.bunny.net^
+||rum-openway.guance.com^
 ||rum-static.pingdom.net/*-*.js$script,redirect=noopjs,important,domain=leboncoin.fr
 ||rum.aliyuncs.com^
 ||rum.api.intuit.com^
@@ -225633,6 +225652,7 @@ zzzyk.com###Tinfo
 ||sites.google.com/view/ai-image-3d^$all
 ||sites.google.com/view/awesome-themes-desktop^$all
 ||sites.google.com/view/blue-softs^$all
+||sites.google.com/view/codex-desktop-app$doc
 ||sites.google.com/view/drcheats6|$doc
 ||sites.google.com/view/easylaunch|$doc
 ||sites.google.com/view/entteraccess^$all
@@ -225691,6 +225711,7 @@ zzzyk.com###Tinfo
 ||sizkvubl.wirklich-achtsam.de^
 ||sizybn.shipsltd.co.jp^
 ||sizzlingsmoke.com^
+||sj2xvswu3r.com^
 ||sjanff.v-moda.com^
 ||sjardw.footlocker.fr^
 ||sjarvis.taobao.com^
@@ -254426,6 +254447,7 @@ zzzyk.com###Tinfo
 ||traktor.ru^*/counter.php?
 ||tralut.*.*/collect
 ||tralut.chatpdf.com^
+||trammel46.top^
 ||trammel74.top^
 ||trandgid.com^
 ||tranquilcan.com^
@@ -256200,6 +256222,7 @@ zzzyk.com###Tinfo
 ||twirll-stape-int.twirll.com^
 ||twistairclub.net.anwalt.de^
 ||twistloss.com^
+||twisty.net^
 ||twitob.com^$doc
 ||twitter-circle.com^$all
 ||twitter.com/1.1/attribution
@@ -258796,6 +258819,7 @@ zzzyk.com###Tinfo
 ||vecer.com/js/remp.js
 ||vechtsportonline.nl/static/*/tracking.js
 ||vector.co/pixel.js
+||vectorshirt.com^
 ||vedhalmin.com^
 ||vedomosti.ru/boom?
 ||vedomosti.ru^$removeparam=from
@@ -259303,6 +259327,7 @@ zzzyk.com###Tinfo
 ||vinted.nl/relay/events
 ||vinub.com^$third-party
 ||violation-*.surge.sh^$doc
+||violetdemise.com^
 ||violoncello21.top^
 ||viously.com/*/mt?
 ||viously.com^*/mt?
@@ -260463,7 +260488,6 @@ zzzyk.com###Tinfo
 ||wangzhanmeng.com/link/link.html
 ||wanmei.com/public/js/stat.js
 ||wanmei.la/a*.js
-||wanmeisxs.cc/js/m.
 ||wannads.com/api/track/fingerprint^
 ||wantaiss.com^
 ||wantgoo.com/wantgoofiles/banner/
@@ -266260,6 +266284,7 @@ zzzyk.com###Tinfo
 ||yunqishi8.com^
 ||yunsennet.com^$popup
 ||yunshipei.com^
+||yuntu68.com/imgcimo/
 ||yuntue.com/zb_users/plugin/MoreLinks*.php
 ||yunupload.net/jsa/
 ||yunzhan365.com/resourceFiles/js/weixin-share.js
@@ -267597,6 +267622,7 @@ zzzyk.com###Tinfo
 ||zpzatutb.com^
 ||zq.lansedir.com^
 ||zq3ke8yxu.com^
+||zq7fe47jh.com^
 ||zq84.com^
 ||zqcpf.wovenbyrd.com^
 ||zqeajs.basicgagu.com^
