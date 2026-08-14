@@ -4,8 +4,8 @@
 ! Powerd by CatsTeam
 ! Expires: 12 Hours
 ! Description: 该规则合并自My AdFilters（for PC），EdentwCustom，adgk，Adaway，Uniartisan，规则以及乘风规则等
-! Version: 2026-08-14 10:54:07
-! Total count: 271086
+! Version: 2026-08-14 22:17:33
+! Total count: 271096
 ! ------加强屏蔽Start------ !
 
 !酷安"提到的好物"
@@ -1813,6 +1813,7 @@ malimali2.com##div.leo-container:nth-child(4) > div:nth-child(5)
 ##body.page > .popup
 ##body.page.player > DIV.shortcuts-mobile-overlay
 ##body.page.player > div.popup.popup-tips.popup-icon.open
+##body.user-clicked[style="cursor: auto;"] > #root > .app-container
 ##body[onload*="u()"] > #x
 ##body[onresize="stopDebugger()"][onbeforecopy="return!1"] > div#root div.m0auto > div > div.grid + div > div:empty
 ##body[onresize="stopDebugger()"][onbeforecopy="return!1"] > div#root div:has(> img[src$=".gif"])
@@ -2534,6 +2535,7 @@ $csp=script-src 'self' * 'unsafe-inline',domain=156xsbb.com|ltbook.net|shuhaige.
 $csp=script-src 'self' * 'unsafe-inline',domain=bijiyd.com|7zhens.com|wamuku.cc|scmmxs.com|jinduxs.com|buhesw.com|luenbook.cc|zahubook.com|heciwk.com|quhesw.com|erzuwk.com|bowoxs.com|guashuge.com|mudanxs.com|mzbook.cc|haduks.com|caimozw.com|zaaizw.com|bogeks.com|haxu8.com|pucixs.com|tuqisw.com|xueyisw.com|zuye8.com|yawoxs.com|guwoxs.com|jiufuzw.com|beianxs.com|shuying6.com|mafusw.com|cule9.com|riquzw.com|xingksw.com|enbusw.com|waguwk.cc|ruyisw.com|zuxiku.com|jinmusb.com|hunshuge.com|puyewk.com|kaaiwk.com|hadu520.com|qubosw.com|meisibook.com|cuaizw.cc|boxue8.cc|cipubook.com|ququsk.cc|yiyezao.com|shanhuxs.com|jiutusw.com|chahuax.com|hanziwen.com|haduzw.com|modaoshu.com|nipubook.com|puquz.com|wuwusk.com
 $csp=script-src 'self' * 'unsafe-inline',domain=smsonline.cloud
 $csp=script-src 'self' *,domain=yebiquge.com|zduxs.com|90shuyuan.com|sswwxs.com|akexs.com|qimiaoxs.cc|qimiaoxiaoshuo.com|wuwxs.com|biquge678.com|biqugezw.us
+$doc,ipaddress=185.100.85.248
 $doc,ipaddress=185.216.143.121
 $doc,removeparam=s_cid
 $domain=ads.adxadserv.com|adserver.juicyads.com|cs.adxpansion.com|olmsoneenh.info|static.javhd.com|syndication.exosrv.com
@@ -7582,11 +7584,13 @@ $websocket,domain=wap.yushuwu.cloud
 /images//ads/*
 /images/ad/*
 /images/ads/*
+/images/bip.mp3|$media,1p
 /images/content/1436/*$domain=chineseinla.com
 /images/friend/*.webp?$domain=pornbest.org|pornlulu.com
 /images/masha*.gif
 /images/masha*.png
 /images/mobileads*.jpg
+/images/script.mp3|$media,1p
 /images/segucrwj*.gif
 /images/segucrwj*.jpg
 /images/sgcrwj*.gif
@@ -9673,7 +9677,7 @@ $websocket,domain=wap.yushuwu.cloud
 /tenant.min.js
 /tencentvideo/script/webtips/*
 /test.php?q=
-/text_tel.js$domain=amplifyapp.com|app|azurestaticapps.net|dev|fit|me|page|site|github.io|herokuapp.com
+/text_tel.js$domain=amplifyapp.com|app|azurestaticapps.net|dev|fit|me|on-forge.com|page|site|github.io|herokuapp.com
 /textad*
 /tghr.js$domain=159i.com
 /the_top$domain=28188.net
@@ -148352,6 +148356,7 @@ zzzyk.com###Tinfo
 ||carrierzone.com/sharepoint/$doc
 ||carrot.hepper.com^
 ||carrotsaystopping.com^$all
+||carrymedias.com^$all
 ||cars.autopia.com.au^
 ||cars.com/ajax/activityloggingapi^
 ||cars.smartfleetaustralia.com.au^
@@ -177662,6 +177667,7 @@ zzzyk.com###Tinfo
 ||home.xdf.cn/lee_sq/js/
 ||home2.elxis.com^
 ||homebizplaza.com^
+||homebuying-guide.com^$all
 ||homecareresources.rosemarksystem.com^
 ||homedepot-static.com/data-collection/
 ||homedepot.ca/mr/thd-ca-prod.js
@@ -186255,6 +186261,7 @@ zzzyk.com###Tinfo
 ||lacinfo.motorolasolutions.com^
 ||lackadaisicalkite.com^
 ||lacoccinelle.net/tools.js
+||ladesona.com^$all
 ||ladghy.jcb.co.jp^
 ||ladsp.com^
 ||ladsp.com^$third-party
@@ -194413,6 +194420,7 @@ zzzyk.com###Tinfo
 ||luegnh.sneakercage.gr^
 ||lufulibaa.com/ad$script
 ||lugansk-info.ru^$third-party
+||luiosmardc.ink^$all
 ||luisaviaroma.com/*/p$removeparam=lvrid
 ||luisaviaroma.com/dynamic/log
 ||luiz.lgaadvs.com.br^
@@ -215608,6 +215616,7 @@ zzzyk.com###Tinfo
 ||royalroad.com/dist/sentry.js$script
 ||royalsbagels.com^
 ||royalsweeper.com^
+||roykuashkimayo.$all
 ||roywc0iql.com^
 ||royzgi.giftishow.com^
 ||rozetka.com.ua^$removeparam=afclid
@@ -250181,6 +250190,7 @@ zzzyk.com###Tinfo
 ||tools.ranker.com^
 ||tools.ricoh.co.uk^
 ||tools.ricoh.de^
+||toolsmastercracked.$all
 ||toomanyalts.com^
 ||toomics.com^$removeparam=channel
 ||toomics.com^$removeparam=gen
