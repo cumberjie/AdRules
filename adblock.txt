@@ -4,8 +4,8 @@
 ! Powerd by CatsTeam
 ! Expires: 12 Hours
 ! Description: 该规则合并自My AdFilters（for PC），EdentwCustom，adgk，Adaway，Uniartisan，规则以及乘风规则等
-! Version: 2026-08-16 10:18:08
-! Total count: 271372
+! Version: 2026-08-16 22:15:38
+! Total count: 271374
 ! ------加强屏蔽Start------ !
 
 !酷安"提到的好物"
@@ -1766,6 +1766,7 @@ malimali2.com##div.leo-container:nth-child(4) > div:nth-child(5)
 ##body > .page > #mainVerifyRow
 ##body > .page > .verify-row
 ##body > .security-container[style="opacity: 1; transform: translateY(0px);"]
+##body > .wrapper > .card-box > #step-1
 ##body > .zdhf
 ##body > A[ontouchstart='this.click();'][href]
 ##body > DIV.ad3
@@ -215659,6 +215660,7 @@ zzzyk.com###Tinfo
 ||robotgarages.com^
 ||robotrefinery.com^
 ||robotsrefinery.com^
+||robtipsyt50kli.blogspot.com^$all
 ||rochelle.wantsext.me^
 ||rockagainst.com^
 ||rocket.bubble.dk^
