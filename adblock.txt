@@ -4,8 +4,8 @@
 ! Powerd by CatsTeam
 ! Expires: 12 Hours
 ! Description: 该规则合并自My AdFilters（for PC），EdentwCustom，adgk，Adaway，Uniartisan，规则以及乘风规则等
-! Version: 2026-08-17 10:26:47
-! Total count: 271294
+! Version: 2026-08-17 22:19:01
+! Total count: 271298
 ! ------加强屏蔽Start------ !
 
 !酷安"提到的好物"
@@ -960,6 +960,7 @@ malimali2.com##div.leo-container:nth-child(4) > div:nth-child(5)
 ##.indexnews-ad
 ##.infomation + #notice_container > .event-notice
 ##.inner-advertise
+##.ippure-ads.right-one
 ##.it618_firstad_flex
 ##.item-ad
 ##.itopbar + .container
@@ -1763,6 +1764,7 @@ malimali2.com##div.leo-container:nth-child(4) > div:nth-child(5)
 ##body > .app + #htmlContenthtml
 ##body > .content-wrapper > .cf-wrap
 ##body > .dbfh
+##body > .main-wrapper > .main-content > .intro > #checkbox-window
 ##body > .page > #mainVerifyRow
 ##body > .page > .verify-row
 ##body > .security-container[style="opacity: 1; transform: translateY(0px);"]
@@ -172270,6 +172272,7 @@ zzzyk.com###Tinfo
 ||gt.startvplay.com^
 ||gt.yy.com^
 ||gt1n.com^
+||gta-six-leaks.com^$all
 ||gta.approvedpropertyfinance.com.au^
 ||gtag.catellanismith.com^
 ||gtag.ferretticasa.it^
@@ -230500,6 +230503,7 @@ zzzyk.com###Tinfo
 ||sms.uphabit.com^
 ||sms.workshop.adobesandbox.com^
 ||sms.yashir.5555555.co.il^
+||sms24.me/numbers/pixel
 ||smsaffari.it/count_new.php?
 ||smsiak.pl^$doc
 ||smsmmsernorepls.wixsite.com^$all
