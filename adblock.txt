@@ -4,8 +4,8 @@
 ! Powerd by CatsTeam
 ! Expires: 12 Hours
 ! Description: 该规则合并自My AdFilters（for PC），EdentwCustom，adgk，Adaway，Uniartisan，规则以及乘风规则等
-! Version: 2026-08-18 22:17:49
-! Total count: 402503
+! Version: 2026-08-19 10:22:54
+! Total count: 402533
 ! ------加强屏蔽Start------ !
 
 !酷安"提到的好物"
@@ -13039,6 +13039,7 @@ $websocket,domain=wap.yushuwu.cloud
 @@||googletagmanager.com/gtm.js$domain=linline-clinic.ru
 @@||googletagmanager.com/gtm.js$domain=m.kinomax.ru
 @@||googletagmanager.com/gtm.js$domain=m.papajohns.ru
+@@||googletagmanager.com/gtm.js$domain=magasiner.familiprix.com
 @@||googletagmanager.com/gtm.js$domain=mainichi.jp
 @@||googletagmanager.com/gtm.js$domain=makitani.net
 @@||googletagmanager.com/gtm.js$domain=mall.heiwa.jp
@@ -15871,7 +15872,7 @@ akamai.webspecmail.com$image
 akjunshi.com##.banner_ad,[class^="ad_two_"]
 akkxs.net#%#//scriptlet('abort-current-inline-script', 'eval', '_0x')
 akshare.moseasia.com$image
-al.com,attackofthefanboy.com,beavertonvalleytimes.com,destructoid.com,edmontonsun.com,gamepur.com,gamerjournalist.com,gameskinny.com,lehighvalleylivecom,lgbtqnation.com,macwelt.de,mlive.com,news8000.com,nj.com,pcwelt.de,pennlive.com,portlandtribune.com,primagames.com,progameguides.com,queerty.com,siliconera.com,syracuse.com,thebeenews.com,themarysue.com,theoutlookonline.com,touchtapplay.com,wegotthiscovered.com#%#//scriptlet('ubo-aost', 'decodeURI', '/(?=^(?!.*\.js))/')
+al.com,attackofthefanboy.com,beavertonvalleytimes.com,destructoid.com,edmontonsun.com,gamepur.com,gamerjournalist.com,gameskinny.com,lehighvalleylivecom,lgbtqnation.com,macwelt.de,mlive.com,news8000.com,nj.com,pcwelt.de,pennlive.com,portlandtribune.com,primagames.com,progameguides.com,queerty.com,siliconera.com,syracuse.com,techcrunch.com,thebeenews.com,themarysue.com,theoutlookonline.com,touchtapplay.com,wegotthiscovered.com#%#//scriptlet('ubo-aost', 'decodeURI', '/(?=^(?!.*\.js))/')
 alba.alalikexpress.com$image
 album.moseasia.com$image
 alert.avadacom.com$image
@@ -223020,6 +223021,7 @@ niotv.com##.epg_ad_list
 niotv.com##.right_ad1
 nipic.com##.vip_homeshow
 nipic.com##.vip_show
+nishispo.nishinippon.co.jp#?##access-ranking:contains(Recent Articles)
 niuacc.com##.botLm-container
 niuacc.com##.masks
 niuacc.com##.yure
@@ -228506,7 +228508,9 @@ tech.sina.com.cn##.zc-app-btn.right-bar-btn
 tech.sina.com.cn##iframe[src^="http://pfp.sina.com.cn/iframe/tech/"]
 techbang.com###stickies
 techbang.com##.ad_grey_floor
+techbang.com##.ads-reserve
 techbang.com##.article > #post-additional
+techbang.com##.content-top
 techbang.com##.google-dfp
 techbang.com##.phone-ads
 techbang.com##.post-side > .related-article
@@ -244541,6 +244545,10 @@ zzzyk.com###Tinfo
 ||adelixir.com^$third-party
 ||adeng.hpplay.cn^
 ||ader.naver.com^$domain=~search.naver.com,xmlhttprequest
+||adesampa.com.br^$removeparam=cp_smn_content
+||adesampa.com.br^$removeparam=cp_smn_source
+||adesampa.com.br^$removeparam=cp_smn_term
+||adesampa.com.br^$removeparam=suid
 ||adeventtracker.spotify.com^
 ||adeventtrackermonitoring.spotify.com^
 ||adex.kintetsu-re.co.jp^
@@ -247664,6 +247672,7 @@ zzzyk.com###Tinfo
 ||analytics.3q.sa^
 ||analytics.7-herbs.com^
 ||analytics.74.ru^
+||analytics.7reels.cc^
 ||analytics.a-f.io^
 ||analytics.academy.com^
 ||analytics.ad.daum.net^
@@ -248470,6 +248479,7 @@ zzzyk.com###Tinfo
 ||analytics.net.dz.jumia.com^
 ||analytics.netkeiba.com^
 ||analytics.netralex.com^
+||analytics.netronline.dev^
 ||analytics.newdirectionsaromatics.ca^
 ||analytics.newdirectionsaromatics.com^
 ||analytics.neworleanssaints.com^
@@ -248812,6 +248822,7 @@ zzzyk.com###Tinfo
 ||analytics.strapi.io^
 ||analytics.streamfab.
 ||analytics.streamingworld.xyz^
+||analytics.streamvaultsrc.click^
 ||analytics.studiodesignapp.com^
 ||analytics.styria.hr^
 ||analytics.subzero-wolf.com^
@@ -252541,6 +252552,7 @@ zzzyk.com###Tinfo
 ||aqxh9x1o7m.com^
 ||aqy103.com/js/aqy/
 ||aqzkl.ergopouch.com^
+||ar-cdn.net/api/v1/events/view
 ||ar-x.site^$third-party
 ||ar.allrun.fr^
 ||ar.i-run.fr^
@@ -254234,6 +254246,7 @@ zzzyk.com###Tinfo
 ||b1.engdvd.com^
 ||b1.xiao84.com^
 ||b10.justacdn.net^
+||b11yn56zn.com^
 ||b168.net^*.*?$image
 ||b1img.com^$third-party
 ||b1js.com^$third-party
@@ -261201,6 +261214,7 @@ zzzyk.com###Tinfo
 ||cinarra.com^$third-party
 ||cincinnati-content.cresa.com^
 ||cine.su/api/site-beacon|
+||cine.su/api/telemetry|
 ||cinemabonus.com^
 ||cinemafair.com^
 ||cinematoday.jp^$removeparam=g_clk
@@ -262504,6 +262518,7 @@ zzzyk.com###Tinfo
 ||coco.fun/share/$removeparam=m
 ||coco.fun/share/$removeparam=share_to
 ||coco988.cn^
+||cocoacafes.com^
 ||cocoawu.b0.upaiyun.com^
 ||cocojen.cdn.bcebos.com^
 ||cocomanga.com/js/atmp.html
@@ -267055,6 +267070,7 @@ zzzyk.com###Tinfo
 ||danawa.com/logger/
 ||danawa.com^$cookie=/_INSIGHT_CK_/
 ||danawa.com^$cookie=wcs_bt
+||dancingmarmot.com^
 ||dandb.com/*/pixel/?$third-party
 ||dandr.alexandriauk.com^
 ||dandydune.com^
@@ -274708,6 +274724,7 @@ zzzyk.com###Tinfo
 ||dp.tuex.ca^
 ||dp1.duceppe.com^
 ||dp1fzft1fdb84.cloudfront.net^
+||dp2c7quvk7.com^
 ||dp3.play.aiseet.atianqi.com^
 ||dp3.qq.com/qqcom/
 ||dp3.qq.com^
@@ -276078,6 +276095,7 @@ zzzyk.com###Tinfo
 ||earopro-ss.checkoutera.com^
 ||earthly.dev/blog/assets/js/analytics.js
 ||earthlybuzz.com^
+||earthsauce.com^
 ||earthups.com^
 ||earthworm.creatifmediagroup.com^
 ||earthworm.elenabirkenwald.com^
@@ -281565,6 +281583,7 @@ zzzyk.com###Tinfo
 ||fitgirlrepackz.*^$all,domain=~fitgirl-repacks.site
 ||fitgirls-repack.*^$all,domain=~fitgirl-repacks.site
 ||fitgirltorrent.*^$all,domain=~fitgirl-repacks.site
+||fitgreatest.com^
 ||fitibeats-ss.checkoutera.com^
 ||fitibeats-ss.offeroshop.com^
 ||fitnessmapper.com^
@@ -296119,6 +296138,7 @@ zzzyk.com###Tinfo
 ||i100.cao-gao.xyz/aimgs/
 ||i12het785.com^
 ||i14laze0.xyz^
+||i16vlgqdhh.com^
 ||i2019.jp^$doc
 ||i218435.net^
 ||i2ad.jp^$third-party
@@ -299566,6 +299586,7 @@ zzzyk.com###Tinfo
 ||instreet.cn^
 ||instructables.com/counter
 ||instrument95.com^
+||instyle.com/static/*/static/modules/js/AssertiveYield/
 ||insulatech.com^
 ||insulator05.top^
 ||insurance.alliant.com^
@@ -301468,6 +301489,7 @@ zzzyk.com###Tinfo
 ||jn23.madeindesign.it^
 ||jncx1s.michaellindahl.com^
 ||jnecc.jadedldn.com^
+||jnes2uutqu.com^
 ||jngdg.top^
 ||jnhfex.diezauberscheren.de^
 ||jnhgm.com^
@@ -313996,6 +314018,7 @@ zzzyk.com###Tinfo
 ||m886.kmbc.com^
 ||m8h5qjmlb3.com^
 ||m8qk101065.com^
+||m8ysv4ckls.com^
 ||m9sm6th48c.com^
 ||m9sz0hh3f7.com^
 ||m9ylqs5rn.com^
@@ -316559,6 +316582,7 @@ zzzyk.com###Tinfo
 ||massivecams.com/api/statsd
 ||massivecams.com/api/v1/activity
 ||massivemark.com^
+||massivesalad.com^
 ||master-push.com^$third-party
 ||master-shopify-tracker.s3.amazonaws.com^
 ||master.cifraclub.com.br^
@@ -333520,6 +333544,7 @@ zzzyk.com###Tinfo
 ||qdp.qidian.com^
 ||qdp.qidian.com^$redirect=noopjs
 ||qdqdfp.toitsutest-koukou.com^
+||qdqf7syrx0.com^
 ||qdqnd.snipesusa.com^
 ||qdqvmn.mobica.com.mx^
 ||qdross.com/vip/
@@ -334405,7 +334430,6 @@ zzzyk.com###Tinfo
 ||quicklyedit.com^
 ||quickmeme.com/tracker/
 ||quickpcfixer.click^
-||quicktattoo.com^
 ||quicktrick.net^
 ||quiddity.goguardian.com^
 ||quidel.actonservice.com^
@@ -336608,6 +336632,7 @@ zzzyk.com###Tinfo
 ||rkdcil.monamenagementmaison.fr^
 ||rkdms.com^
 ||rkdms.com^$third-party
+||rkdyj4usf.com^
 ||rkeit.livom.at^
 ||rken104.com^$doc
 ||rkgwzfwjgk.com^
@@ -371302,6 +371327,7 @@ zzzyk.com###Tinfo
 ||stepik.org/api/metrics/
 ||stepioserver.citicrow.com^
 ||stepladder10.top^
+||stepladder46.top^
 ||stepservernew.sixtsix.com^
 ||stepstomeasure.qlearn.com.bd^
 ||stepup.bdamadermart.com^
@@ -373182,6 +373208,7 @@ zzzyk.com###Tinfo
 ||sy57d8wi.com^
 ||syakoba.com^$doc
 ||syasei.com^$doc
+||syb8jon4zb.com^
 ||sybhpi.cn^
 ||syblyj.com^
 ||sybnzs.cn^
@@ -376048,6 +376075,7 @@ zzzyk.com###Tinfo
 ||tcx-beacon.docs.aws.dev^
 ||tcx0wyp0nn.com^
 ||tcxrdt.trendhim.be^
+||tcyudzjp.com^
 ||tczulp.econea.cz^
 ||tczxjkdb.scalemyniche.com^
 ||td-online-carta.codeanyapp.com^$all
@@ -385050,6 +385078,7 @@ zzzyk.com###Tinfo
 ||tv699.com/Templet699/js/
 ||tv7box.com/Runtime/Js/
 ||tv99.tv/wp-content/uploads/pum/
+||tva4k92u14.com^
 ||tvabqt.cn^
 ||tvaniz.tooles.pl^
 ||tvanl.lawfirm.com^
@@ -394640,6 +394669,7 @@ zzzyk.com###Tinfo
 ||xtgreat.com^$third-party
 ||xthaap.schwaebische-alb-jobanzeiger.de^
 ||xthhod.beevitamins.com.au^
+||xtjgtbzugy.com^
 ||xtjpdfr.cn^
 ||xtnwxhjv.xyz^
 ||xtpmpp.cruisewinkel.nl^
@@ -398379,7 +398409,7 @@ zzzyk.com###Tinfo
 10minutemail.net###leftover,#right
 10pan.cc###dl_tips,#b1
 10pan.cn##[style="height:60px;"],#r1,.adsbygoogle,#b1
-10tv.com,11alive.com,12news.com,12newsnow.com,13newsnow.com,13wmaz.com,5newsonline.com,9news.com,abc10.com,apnews.com,artforum.com,artnews.com,billboard.com,birdsandblooms.com,calgaryherald.com,calgarysun.com,cbs19.tv,cbs8.com,cleveland.com,crooksandliars.com,deadline.com,dpreview.com,driving.ca,familyhandyman.com,financialpost.com,firstcoastnews.com,fox43.com,fox61.com,goldderby.com,golfdigest.com,hollywoodreporter.com,indiewire.com,kare11.com,kcentv.com,kens5.com,kgw.com,kiiitv.com,king5.com,krem.com,ktvb.com,kvue.com,lfpress.com,localmemphis.com,masslive.com,myfoxzone.com,nationalpost.com,nbcsports.com,newscentermaine.com,newswest9.com,oregonlive.com,ottawasun.com,rd.com,robbreport.com,rollingstone.com,sherdog.com,sidereel.com,superherohype.com,techcrunch.com,thv11.com,torontosun.com,vancouversun.com,variety.com,vibe.com,wbir.com,wcnc.com,weareiowa.com,wfaa.com,wfmynews2.com,wgrz.com,whas11.com,windsorstar.com,wkyc.com,wltx.com,wnep.com,wqad.com,wthr.com,wtol.com,wtsp.com,wusa9.com,wwd.com,wwltv.com,wzzm13.com#%#//scriptlet('ubo-acs', 'document.getElementsByTagName', '.pubads')
+10tv.com,11alive.com,12news.com,12newsnow.com,13newsnow.com,13wmaz.com,5newsonline.com,9news.com,abc10.com,apnews.com,artforum.com,artnews.com,billboard.com,birdsandblooms.com,calgaryherald.com,calgarysun.com,cbs19.tv,cbs8.com,cleveland.com,crooksandliars.com,deadline.com,dpreview.com,driving.ca,familyhandyman.com,financialpost.com,firstcoastnews.com,fox43.com,fox61.com,goldderby.com,golfdigest.com,hollywoodreporter.com,indiewire.com,kare11.com,kcentv.com,kens5.com,kgw.com,kiiitv.com,king5.com,krem.com,ktvb.com,kvue.com,lfpress.com,localmemphis.com,masslive.com,myfoxzone.com,nationalpost.com,nbcsports.com,newscentermaine.com,newswest9.com,oregonlive.com,ottawasun.com,rd.com,robbreport.com,rollingstone.com,sherdog.com,sidereel.com,superherohype.com,tasteofhome.com,thv11.com,torontosun.com,vancouversun.com,variety.com,vibe.com,wbir.com,wcnc.com,weareiowa.com,wfaa.com,wfmynews2.com,wgrz.com,whas11.com,windsorstar.com,wkyc.com,wltx.com,wnep.com,wqad.com,wthr.com,wtol.com,wtsp.com,wusa9.com,wwd.com,wwltv.com,wzzm13.com#%#//scriptlet('ubo-acs', 'document.getElementsByTagName', '.pubads')
 11dkim1._domainkey.biz.maxis.com.my$image
 11dkim1._domainkey.e.ulta.com$image
 11dkim1._domainkey.ealerts2.bankofamerica.com$image
