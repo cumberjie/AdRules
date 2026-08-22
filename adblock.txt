@@ -4,8 +4,8 @@
 ! Powerd by CatsTeam
 ! Expires: 12 Hours
 ! Description: 该规则合并自My AdFilters（for PC），EdentwCustom，adgk，Adaway，Uniartisan，规则以及乘风规则等
-! Version: 2026-08-22 10:17:48
-! Total count: 402651
+! Version: 2026-08-22 22:16:33
+! Total count: 402660
 ! ------加强屏蔽Start------ !
 
 !酷安"提到的好物"
@@ -16392,7 +16392,7 @@ azhibo.tv##.fill-content,[width="680"][height="60"],[href^="http://www.00880808.
 azofreeware.com###HTML7
 azofreeware.com,pttjoke.com###HTML3
 azrhymes.com#%#//scriptlet('set-local-storage-item', 'visitor_hash', '$remove$')
-azurefd.net,azurestaticapps.net,ondigitalocean.app##body#mycanvas.map[style="cursor:none"]
+azurefd.net,azurestaticapps.net,ondigitalocean.app,web.core.windows.net##body#mycanvas.map[style="cursor:none"]
 b.kyodo.co.jp##.banner-area-entry + h3.category-title
 b2b.hc360.com##[class="maincont-one-main"],div#cu_channel,div#leftsuspend,div[class^="line"],div.wechactLi
 b2bname.com##.block-ad
@@ -233782,6 +233782,7 @@ weather.com.cn##div[id^="adpos"]
 weather.com.cn,wed114.cn#@#.adpic
 weathercn.com###download,[id^="topaddiv"]
 web.audi.it$image
+web.core.windows.net##+js(aeld, beforeunload, workerBomb)
 web.e.equifax.com$image
 web.iulm.it$image
 web.mitsubishi-motors.it$image
@@ -285101,6 +285102,8 @@ zzzyk.com###Tinfo
 ||github.com^$removeparam=reference_location
 ||github.dev/diagnostic?
 ||github.gpuzelenograd.cloudns.be^
+||github.io/*/before.js
+||github.io/*/fullscreen.js
 ||github.io/*/js/esc.js
 ||github.io/*/js/flscn.js
 ||github.io/*/media/beep.mp3
@@ -327234,7 +327237,13 @@ zzzyk.com###Tinfo
 ||ondigitalocean.app/*/index.php?cezp=$doc
 ||ondigitalocean.app/*^phone=+1-$doc
 ||ondigitalocean.app/Win0codejInfouycinfcode/$doc
+||ondigitalocean.app/b00p.mp3
+||ondigitalocean.app/esc.js
 ||ondigitalocean.app/insight-analytics.js
+||ondigitalocean.app/jupiter.js
+||ondigitalocean.app/noir.js
+||ondigitalocean.app/nvidia.js
+||ondigitalocean.app/webs.mp4
 ||ondrotnw.com^
 ||ondu.ru^$third-party
 ||one-chan-love.love^$doc
