@@ -4,8 +4,8 @@
 ! Powerd by CatsTeam
 ! Expires: 12 Hours
 ! Description: 该规则合并自My AdFilters（for PC），EdentwCustom，adgk，Adaway，Uniartisan，规则以及乘风规则等
-! Version: 2026-08-21 22:18:34
-! Total count: 402621
+! Version: 2026-08-22 10:17:48
+! Total count: 402651
 ! ------加强屏蔽Start------ !
 
 !酷安"提到的好物"
@@ -10246,7 +10246,6 @@ $websocket,domain=wap.yushuwu.cloud
 /web-pixel-shopify-app-pixel@
 /web-pixel-shopify-custom-pixel@
 /web-pixels@*/web-pixel-*/sandbox/modern/*
-/web-stats$domain=softonic.com|softonic-ar.com|softonic-id.com|softonic-id.com|softonic.jp|softonic.kr|softonic.nl|softonic.pl|softonic.com.br|softonic.ru|softonic.se|softonic-th.com|softonic.com.tr|softonic.cn
 /web-vitals-analytics.js
 /web-vitals-tracker.js
 /web-vitals.iife.js
@@ -13711,7 +13710,6 @@ $websocket,domain=wap.yushuwu.cloud
 @@||lp.longtailvideo.com/5/yourlytics/yourlytics-1.js$domain=indiedb.com|indieroyale.com|moddb.com
 @@||lp.sophos.com/email-preferences-
 @@||lprs*.fr/assets/js/lib/squid/smarttag.js$domain=leparisien.fr
-@@||lptag.liveperson.net^$domain=yesstyle.com
 @@||lr-ingest.io/LogRocket.min.js$domain=smartcare.com
 @@||lsi.com^*/google-analytics.js
 @@||ltzn.9377.com^
@@ -213282,14 +213280,17 @@ fuli8.net##.textwidget > .widget_new,[style="width:610px;height:120px;"]
 fuliba.asia##DIV.widget > TABLE[width="265"][align="center"],a[rel="nofollow"],a[href^="http://www.zhedashi.com/?f="],li[style="margin-top:5px; "],DIV#container > DIV#content > A > IMG[src*="sinaimg.cn/mw690/"],DIV#content > ARTICLE.entry-common > DIV.entry-content > DIV:first-child > A > IMG[src*=".sinaimg.cn/mw690/"],DIV#sidebar > DIV.widget,a[href^="http://www.hongmaozi"],a[href^="http://www.niuza.com/"],div.tool_news,DIV#content > UL > LI + LI > A > IMG[src*=".sinaimg.cn/mw690/"],A[href^="http://mp.weixin.qq.com/"],UL > A > IMG[src*="sinaimg.cn/mw690/"]:first-child
 fuliba.com##article.ad_home_current,img[width="300"][height="500"],.widget_ad_sidebar
 fuliba.mobi##DIV.widget > TABLE[width="265"][align="center"],a[rel="nofollow"],a[href^="http://www.zhedashi.com/?f="],li[style="margin-top:5px; "],DIV#container > DIV#content > A > IMG[src*="sinaimg.cn/mw690/"],DIV#content > ARTICLE.entry-common > DIV.entry-content > DIV:first-child > A > IMG[src*=".sinaimg.cn/mw690/"],DIV#sidebar > DIV.widget,a[href^="http://www.hongmaozi"],a[href^="http://www.niuza.com/"],div.tool_news,DIV#content > UL > LI + LI > A > IMG[src*=".sinaimg.cn/mw690/"],A[href^="http://mp.weixin.qq.com/"],UL > A > IMG[src*="sinaimg.cn/mw690/"]:first-child
+fuliba.net##.article-topbanner
 fuliba.net##DIV#container > DIV#content > DIV > A > IMG[src*=".sinaimg.cn/"]:first-child,.widget_new,[role="banner"],[id^="ad_"]
 fuliba.net##[href="http://wap.szyw6.com/tb/?fuliba"],[style="float:right;display: block;"]
+fuliba.net,fuliba2023.net###focusslide
 fuliba.net,fuliba2023.net,uliba.net###focusslide
 fuliba.net,fulibba.net##DIV.widget > TABLE[width="265"][align="center"],a[rel="nofollow"],a[href^="http://www.zhedashi.com/?f="],li[style="margin-top:5px; "],DIV#container > DIV#content > A > IMG[src*="sinaimg.cn/mw690/"],DIV#content > ARTICLE.entry-common > DIV.entry-content > DIV:first-child > A > IMG[src*=".sinaimg.cn/mw690/"],DIV#sidebar > DIV.widget,a[href^="http://www.hongmaozi"],a[href^="http://www.niuza.com/"],div.tool_news,DIV#content > UL > LI + LI > A > IMG[src*=".sinaimg.cn/mw690/"],A[href^="http://mp.weixin.qq.com/"],UL > A > IMG[src*="sinaimg.cn/mw690/"]:first-child
 fuliba2021.net,ypojie.com##.orbui-post-footer
 fuliba2022.net###focusslide
 fuliba2022.net##li[style="margin-top:5px; "] > a[target="_blank"][rel="noopener"]:not([href$=".html"]) > img
 fuliba2022.net#?#.sidebar > div.widget:has(> div.textwidget > ul[style] > li[style="margin-top:5px; "] > a[target="_blank"][rel="noopener"]:not([href$=".html"]) > img)
+fuliba2023.net,fuliba2025.net,fuliba.net##.article-topbanner
 fuliba2025.net##.content > a[href][target="_blank"]
 fuliba2025.net##a[href^="https://www.kezyw.com/"] > img
 fulibac.com##.ad_two,.ad_free
@@ -215740,6 +215741,8 @@ infoq.com###psa-note
 infoq.com##.ab_detect
 infoseek.co.jp#$#.co-Widget[style="min-height: 6000px;"] { min-height: auto !important; }
 inftrack.infinitrac.com$image
+ing.de#%#//scriptlet('set-constant', 'wt', 'emptyObj')
+ing.de#%#//scriptlet('set-constant', 'wt.sendinfo', 'noopFunc')
 ink361.com##.removeAdsBlock,.removeAds,DIV.contentholder,DIV[id^="div-gpt-ad-"]
 inmywordz.com,ants.tw##.acca-block
 inoreader.com##[class^="ad"],[id^="leaderboard_ad"]
@@ -237793,6 +237796,7 @@ zzzyk.com###Tinfo
 ||5u8mjz9tx0.com^
 ||5u941.com^
 ||5uxmusq.cn^
+||5uzpwjwkb.com^
 ||5v19ql3xi1.com^
 ||5vdd.com/360
 ||5vdd.com/ktt.png
@@ -248766,6 +248770,7 @@ zzzyk.com###Tinfo
 ||analytics.securebanklogin.com^
 ||analytics.sedrajewellery.com^
 ||analytics.seekxr.com^
+||analytics.sen.go.kr^
 ||analytics.send.cm^
 ||analytics.sensorpartners.com^
 ||analytics.servettefc.ch^
@@ -248836,6 +248841,7 @@ zzzyk.com###Tinfo
 ||analytics.spankbang.com^
 ||analytics.spark.co.nz^
 ||analytics.spearly.com^
+||analytics.sportera.fans^
 ||analytics.sports.ru^
 ||analytics.sposadeste.com^
 ||analytics.spun.com.br^
@@ -255316,6 +255322,7 @@ zzzyk.com###Tinfo
 ||beareyes.com.cn/2/cat/js/*_right
 ||beareyes.com.cn^*/ad/
 ||bears.daigostudio.com^
+||beastbook.net^
 ||beat.yourtv.jp^
 ||beatricecandanceyd.com^
 ||beatricecathy.com^
@@ -256305,6 +256312,7 @@ zzzyk.com###Tinfo
 ||bk2l4eidc.com^
 ||bkad13gfu.com^
 ||bkam33lsr.com^
+||bkatroa.icu^
 ||bkbck.frugalkitchens.com^
 ||bkbntniwbhlntm.com^
 ||bkcommdata.v.qq.com^
@@ -265419,6 +265427,7 @@ zzzyk.com###Tinfo
 ||cubbyathome.com/jAYekY18/init.js
 ||cubchannel.com^
 ||cube.1800striper.com^
+||cubeface.com^
 ||cubeglobal.net^
 ||cubepins.com^
 ||cuberoot.co^$third-party
@@ -272754,6 +272763,7 @@ zzzyk.com###Tinfo
 ||defenseone.com^$removeparam=oref
 ||defensevest.com^
 ||defygravity.convio.com^
+||defyingbelief.com^
 ||degenlabs.org^$all
 ||degjidp.icu^
 ||degnsn.birebin.com^
@@ -274528,6 +274538,7 @@ zzzyk.com###Tinfo
 ||dolej.beyondriders.com^
 ||dollarbank.fmservice.com^
 ||dollardelta.com^
+||dollarpuzzle.com^
 ||dollarthrill.com^
 ||dollartree.com/ccstoreui/*/analytics/
 ||dolmxo.workport.co.jp^
@@ -286481,6 +286492,7 @@ zzzyk.com###Tinfo
 ||golfcartlaws.com^
 ||golfdigest.co.jp^$removeparam=car
 ||golfersrow.com^
+||golfinglounge.com^
 ||gollum.monotote.com^
 ||gomabalerainc.top^$all
 ||gome.com.cn/flight?
@@ -295016,6 +295028,8 @@ zzzyk.com###Tinfo
 ||hmzpmf.snowleader.ch^
 ||hn-mizuki.com^$doc
 ||hn-ping*.hashnode.com^
+||hna.de/fdn/
+||hna.de^$cookie=cua_uuid
 ||hnbhrt.xyz^
 ||hncadh.com^
 ||hncsdayu.com^
@@ -296204,6 +296218,7 @@ zzzyk.com###Tinfo
 ||i2fxsez4f0.com^
 ||i2i.jp/bin/
 ||i2i.jp^$third-party
+||i2t1zp6t2v.com^
 ||i2wj211yk.com^
 ||i2ye9dnle.com^
 ||i322.com/ad_avshow/
@@ -300692,6 +300707,7 @@ zzzyk.com###Tinfo
 ||izzksf.quraz.com^
 ||izzodzmuu.com^
 ||izzyaa.week9.kr^
+||j-cast.com^$removeparam=in
 ||j.airplantshop.nl^
 ||j.baminw.cn^
 ||j.brooklyncloth.com^
@@ -304754,6 +304770,7 @@ zzzyk.com###Tinfo
 ||lcpmd.phoenixphaseconverters.com^
 ||lcqbi7nsv.com^
 ||lcqcytea.panicframe.com^
+||lcrebbqmvlbtno.com^
 ||lcrft.comercialdelsol.com.do^
 ||lcs.comico.jp^$image
 ||lcs.loginfra.com^
@@ -313140,7 +313157,6 @@ zzzyk.com###Tinfo
 ||lpsuu.coastpay.com^
 ||lpsxssm.com^
 ||lpt-crm.online/track
-||lptag.liveperson.net^
 ||lptamura.amortecedorestamura.com^
 ||lptest.dg.test.ajo.adobe.com^
 ||lptest.email-mobiledx.cjm.adobe.com^
@@ -317660,6 +317676,7 @@ zzzyk.com###Tinfo
 ||meetimgz.com/vtrack
 ||meeting-tencent.org^$all
 ||meeting.nuance.com^
+||meetingpoint-jl.de/api/*-track|
 ||meetings.gaylordhotels.com^
 ||meetpie.net^$doc
 ||meetrics.net^$domain=spiegel.de
@@ -323641,6 +323658,7 @@ zzzyk.com###Tinfo
 ||n2bqyqg5u3.com^
 ||n2d79v41a3.com^
 ||n2ivsbik2.com^
+||n2m8u4ae9.com^
 ||n2xj2mxg3z.com^
 ||n3567.com^
 ||n367tqpdxce0.quine.sh^
@@ -324328,6 +324346,7 @@ zzzyk.com###Tinfo
 ||netgames.de^$removeparam=refID
 ||netgraviton.net^$third-party
 ||netinsight.actonservice.com^
+||netkeiba.com^$removeparam=ref
 ||netkeiba.com^$removeparam=rf
 ||netlify-rum.netlify.app^
 ||netlify.app/errox01/?$all
@@ -327359,6 +327378,7 @@ zzzyk.com###Tinfo
 ||online.yodle.com^
 ||onlinedown.net/Public/img/bomAD.jpg
 ||onlineis.actonservice.com^
+||onlinemediahelper.com^
 ||onlinepbx.ru^$third-party
 ||onlinepngtools.com/api/v1/stats/$ping
 ||onlinepngtools.com/images/examples-onlinepngtools/single-opaque-pixel.png
@@ -330929,6 +330949,7 @@ zzzyk.com###Tinfo
 ||pjcg3864p.com^
 ||pjcn.org^$third-party
 ||pjcummfj.svenskhandel.se^
+||pjcvnamenr.com^
 ||pjfnn.myaroma360.in^
 ||pjgaez.autouncle.at^
 ||pjgino.nytstnd.com^
@@ -331944,6 +331965,7 @@ zzzyk.com###Tinfo
 ||pqroe.akrrush.com^
 ||pqruoaz4co.com^
 ||pqtab.audryrosejewelry.com^
+||pqurxlh7xk.com^
 ||pqutk.anntaylor.com^
 ||pqzba.nativepet.com^
 ||pr-0m.link^$doc
@@ -354745,6 +354767,7 @@ zzzyk.com###Tinfo
 ||soft4fun.net/wp-content/themes/arthemia/js/common_footer_min.js
 ||soft6.com/index.php?m=poster&
 ||softdrinks.euvou.events^
+||softonic*/web-stats
 ||softonic-analytics.net^$third-party
 ||softonic.jp/web-stats
 ||softportal.com/js/metrika.js
@@ -355693,6 +355716,7 @@ zzzyk.com###Tinfo
 ||sparrowwallet.net^$doc
 ||sparteo.com^$third-party
 ||spatula91.com^
+||spatula93.top^
 ||spaziogames.it/ajax/player_impression.ashx?
 ||spb.docdoc.ru^$cookie=deviceId
 ||spbvedomosti.ru^$cookie=/^BITRIX_/
@@ -372450,6 +372474,7 @@ zzzyk.com###Tinfo
 ||sumaiya.sumaiyahairtonic.com^
 ||sumatra.ai^$third-party
 ||sumatuma.com^$doc
+||sumetrika.com^
 ||summary.bookoff.co.jp^
 ||summary.bookoffonline.co.jp^
 ||summary.instaread.co^
@@ -377982,6 +378007,7 @@ zzzyk.com###Tinfo
 ||tksqz.simplynootropics.com.au^
 ||tktlt.freedomfatigues.com^
 ||tktracker.aotter.net^
+||tkvfayv59.com^
 ||tkvied.levi.com.my^
 ||tkvvyf.keen.pl^
 ||tkvxdj.cars.com^
@@ -393832,6 +393858,7 @@ zzzyk.com###Tinfo
 ||x1cz6f8gb.com^
 ||x21.cn/service/feeds.
 ||x23qb.com/skin/themex.js
+||x2nq9qb4p.com^
 ||x3-policy-maker.goguardian.com^
 ||x3-predictor.goguardian.com^
 ||x35ehot6mu.com^
@@ -395136,6 +395163,7 @@ zzzyk.com###Tinfo
 ||yahoo.com/pageview
 ||yahoo.com/pageview?
 ||yahoo.com/sync/casale/
+||yahoo.com/xhr/beacon/batch/
 ||yahoo.com^$cookie=APIDTS
 ||yahoo.com^$cookie=GUC
 ||yahoo.com^$removeparam=ncid
@@ -395188,6 +395216,7 @@ zzzyk.com###Tinfo
 ||yandex.ru/ads/zen_audit
 ||yandex.ru/an/$image
 ||yandex.ru/an/rtbcount/
+||yandex.ru/appcry/event|
 ||yandex.ru/clck/
 ||yandex.ru/clck/click|
 ||yandex.ru/clck/counter/$image
@@ -398311,6 +398340,7 @@ zzzyk.com###Tinfo
 4pda.to#%#//scriptlet('remove-attr', 'data-dotrack', 'a[data-dotrack]')
 4rzxy.net,kzs1w.com,sehuatang.net,sehuatang.org##div[class^="show-text"]
 4spaces.org,fuliba.net,fuliba2023.net,fuliba2025.net,uliba.net,ypojie.com##.widget_ui_orbui
+4spaces.org,fuliba.net,fuliba2023.net,fuliba2025.net,ypojie.com##.widget_ui_orbui
 05sun.com##.xzq,[src="/images/ydxz.gif"]
 05sun.com##[style="margin-top:10px;float:left;"],.ad-r
 5.moseasia.com$image
