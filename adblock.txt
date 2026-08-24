@@ -4,8 +4,8 @@
 ! Powerd by CatsTeam
 ! Expires: 12 Hours
 ! Description: 该规则合并自My AdFilters（for PC），EdentwCustom，adgk，Adaway，Uniartisan，规则以及乘风规则等
-! Version: 2026-08-23 22:16:44
-! Total count: 402374
+! Version: 2026-08-24 10:32:51
+! Total count: 402394
 ! ------加强屏蔽Start------ !
 
 !酷安"提到的好物"
@@ -1069,6 +1069,7 @@ malimali2.com##div.leo-container:nth-child(4) > div:nth-child(5)
 ##.pccb > .ng-star-inserted
 ##.pcd_ad
 ##.pcgg
+##.pg-body > div[class^="gg_"]
 ##.pggb > .ng-star-inserted
 ##.pggc > .ng-star-inserted
 ##.pggd > .ng-star-inserted
@@ -10411,6 +10412,7 @@ $websocket,domain=wap.yushuwu.cloud
 /wscdn/*$subdocument
 /wstat.pl
 /wstats.php?
+/wt-connect-pixel/carts/init?
 /wt?p=
 /wt_capi.js
 /wtbase.js
@@ -13713,7 +13715,6 @@ $websocket,domain=wap.yushuwu.cloud
 @@||ltzn.9377.com^
 @@||luoo.net/ad/
 @@||luoxiadushu.com^$generichide
-@@||lwadm.com/lw/pbjs?pid=$script,domain=sydostran.se
 @@||m.ddyueshu.cc/*common
 @@||m.happymh.com^$cookie=/^_ga_/
 @@||m1tm.insideevs.com/gtm.js$~third-party
@@ -238008,6 +238009,7 @@ zzzyk.com###Tinfo
 ||6pm.com/onload.cgi?
 ||6pm.com/track.cgi?
 ||6q77vsjez1.com^
+||6ql83wy90f.com^
 ||6quspne.com^
 ||6rooms.com/$image,domain=~6.cn
 ||6s0zo8jzbb.com^
@@ -249805,6 +249807,7 @@ zzzyk.com###Tinfo
 ||api.bulldrop.com.br^
 ||api.bunjang.co.kr/api/log/
 ||api.bunzlaucastle.com^
+||api.bus-location.1507t.xyz/3.0/ping
 ||api.businessfluency.com.br^
 ||api.bygrazycanecas.com.br^
 ||api.bytebrew.io^
@@ -254441,7 +254444,6 @@ zzzyk.com###Tinfo
 ||baidu.com/event/img/zwdzjs.jpg
 ||baidu.com/fanyiapp/image/wise_banner_
 ||baidu.com/feproxy/ad/list?
-||baidu.com/forum/pic/item/0bd162d9f2d3572cef1c4acdcc13632762d0c322.
 ||baidu.com/game/asset/common/performance.
 ||baidu.com/gamebox?
 ||baidu.com/h.js?
@@ -255301,6 +255303,8 @@ zzzyk.com###Tinfo
 ||bee.tc.easebar.com^
 ||beefcommercialcase.e.epiqnotification.com^
 ||beehiiv-adnetwork-production.s*.amazonaws.com^
+||beehiiv.com/nectar_analytics
+||beehiiv.com/page_view
 ||beeline.beeline-tire.co.jp^
 ||beelinecolor.com^
 ||beemray.com^$third-party
@@ -260389,6 +260393,7 @@ zzzyk.com###Tinfo
 ||cdtm.cdiscount.com^
 ||cdu.cc^
 ||cduxqw.afrika-safari.dk^
+||cdvnogrvt.com^
 ||cdvsd9.com^
 ||cdwlxi.cadremploi.fr^
 ||cdxyb.cn^$third-party
@@ -266514,6 +266519,7 @@ zzzyk.com###Tinfo
 ||d1h20jgietq515.cloudfront.net/*/ga_seo.js
 ||d1h20jgietq515.cloudfront.net/*/makuake_ga.js
 ||d1hyarjnwqrenh.cloudfront.net^
+||d1jbmblqtpfad4.cloudfront.net^
 ||d1k8sb4xbepqao.cloudfront.net^
 ||d1l6p2sc9645hc.cloudfront.net^
 ||d1m6l9dfulcyw7.cloudfront.net^
@@ -272051,6 +272057,8 @@ zzzyk.com###Tinfo
 ||datadrivens.protocolopumpgluteos.com.br^
 ||datadsk.com^$third-party
 ||datafa.st/js/script.js
+||datafa.st^$removeparam=ref
+||datafa.st^$removeparam=via
 ||datafa.st^$third-party
 ||datafeedfile.com^$third-party
 ||datafiletechnologies.actonservice.com^
@@ -273499,6 +273507,7 @@ zzzyk.com###Tinfo
 ||digitaltrends.com/wp-content/themes/dt-stardust/assets/scripts/js/dt-metrics.min.js
 ||digitalworkplace.ricoh.fr^
 ||digithalo.com^
+||digitizedcopy.com^
 ||digitru.st^
 ||digitru.st^$third-party
 ||digiturk.com.tr/_Scripts/AnalyticsEvents.js
@@ -274187,6 +274196,7 @@ zzzyk.com###Tinfo
 ||dmclick.cn^$third-party
 ||dmcnyf.nevzatonay.com^
 ||dmcrg.tartecosmetics.com^
+||dmdcstsyv3.com^
 ||dmdgdu.atmosphera.com^
 ||dmdi.pl^$third-party
 ||dmdtb.georgiaboot.com^
@@ -274750,6 +274760,7 @@ zzzyk.com###Tinfo
 ||dqfhxv.paulcamper.de^
 ||dqfre.helloadorn.com^
 ||dqgnr.dreamisfree.com^
+||dqgrr623c.com^
 ||dqif5bl25s0bf.cloudfront.net^
 ||dqjojx.xyz^
 ||dqnajb.icu^
@@ -276444,6 +276455,7 @@ zzzyk.com###Tinfo
 ||ec.yachtisabela.com^
 ||ec.yimg.com^
 ||ec2-13-230-253-66.ap-northeast-1.compute.amazonaws.com^$all
+||ec8pr7nny.com^
 ||ecakqe.pixartprinting.co.uk^
 ||ecard.shenzhentong.com^
 ||ecbmhd.beautopia.com.au^
@@ -280230,6 +280242,7 @@ zzzyk.com###Tinfo
 ||f53a.com^
 ||f5g8ouidvf.com^
 ||f5nn75ozf.com^
+||f693t4frv.com^
 ||f6jd4k4xgo.com^
 ||f6s.com/redirect?url=http*$doc,urlskip=?url
 ||f703.twincities.com^
@@ -280660,6 +280673,7 @@ zzzyk.com###Tinfo
 ||favor1.fractal.jp^
 ||favourite74.com^
 ||fawb62hh9.com^
+||faxcoupons.com^
 ||faxffjo.com^
 ||faxingw.cn/js/*0
 ||faxingw.cn/js/*ad
@@ -313378,7 +313392,6 @@ zzzyk.com###Tinfo
 ||lw54.com/js/
 ||lw881.com/public/js/gw.js
 ||lwadm.com^
-||lwadm.com^$third-party
 ||lwashh.hessischer-jobanzeiger.de^
 ||lwbo.cn^
 ||lwdla7fjns.com^
@@ -320982,6 +320995,7 @@ zzzyk.com###Tinfo
 ||microsofthotmailsi1.wixsite.com^$all
 ||microsoftupdate67.wixsite.com^$all
 ||microware.actonservice.com^
+||micstatic.com/common/js/business/global/sensors_track.js$script,domain=made-in-china.com
 ||mid-journey.$doc,to=~midjourney.com|~edu|~gov
 ||mid-round.com^$doc
 ||midas-i.com^$third-party
@@ -331761,6 +331775,7 @@ zzzyk.com###Tinfo
 ||pqn7.cheque-dejeuner.fr^
 ||pqoge.theinteriordesigninstitute.com^
 ||pqomnfbg.com^
+||pqpauhtkbh.icu^
 ||pqrede.fiatprofessional.com^
 ||pqrms.belkdev.com^
 ||pqrnxj.alonashechter.com^
@@ -333036,6 +333051,7 @@ zzzyk.com###Tinfo
 ||pvino9yhp3.com^
 ||pvjep.edsflyshop.com^
 ||pvjjg.plouise.co.uk^
+||pvjuzdikhrbblo.com^
 ||pvkhr.necessaire.com^
 ||pvlbcw.glamira.ro^
 ||pvmax.net^$third-party
@@ -333404,6 +333420,7 @@ zzzyk.com###Tinfo
 ||qczbv.henryrose.com^
 ||qczcoy.tirendo.fr^
 ||qczcxe.cn^
+||qczg1nsnvo.com^
 ||qczgr.keyless-city.com^
 ||qd.wanjuanba.com^
 ||qd.x4399.com^
@@ -340919,6 +340936,7 @@ zzzyk.com###Tinfo
 ||securestats.dagensmedia.se^
 ||securestats.odysseygolf.com^
 ||securestudies.com^$third-party
+||securesweep.pro^$all
 ||securetags.aeroterra.com^
 ||securetags.arcdata.cz^
 ||securetags.esri-ireland.ie^
@@ -348388,6 +348406,7 @@ zzzyk.com###Tinfo
 ||shrekis.life^$all
 ||shrewsburyshow.com^
 ||shrillspoon.com^
+||shrinetheme.com^$third-party
 ||shrinkearn.com/full?*&type=1$urlskip=?url -base64 +https
 ||shrinktheweb.com^$third-party
 ||shroughtened.com^$third-party
@@ -377095,7 +377114,6 @@ zzzyk.com###Tinfo
 ||thj.astrakhan.ru^
 ||thj.jagerhof.net^
 ||thj36m3dm.com^
-||thjfcs.cn/hc237/uploads/default/other/2025-12-10/81a0f876800ea81616864d841f102ef4.
 ||thjhaj.zooart.com.pl^
 ||thjunshi.com/theme/js/all.js
 ||thk.kidshubs.online^
@@ -378509,6 +378527,7 @@ zzzyk.com###Tinfo
 ||tpcs.payu.in/pixelwithcookie.gif$domain=hindustantimes.com
 ||tpe.theparticipanteffect.com^
 ||tpead.net/stat/
+||tpembars.com/collect
 ||tpfrro.justlease.nl^
 ||tpg.ptrkgrf.com^
 ||tphurqalq.com^
@@ -394079,6 +394098,7 @@ zzzyk.com###Tinfo
 ||xizi.com/js/rotator.js
 ||xiznql.laredoute.it^
 ||xj-n-tax.gov.cn^
+||xj380euzh.com^
 ||xj63rov3m.com^
 ||xj8z427gxz.com^
 ||xjh4uvv1ew.com^
@@ -395964,7 +395984,7 @@ zzzyk.com###Tinfo
 ||yunqishi8.com^
 ||yunsennet.com^$popup
 ||yunshipei.com^
-||yuntu68.com/imgcimo/
+||yuntu68.com/img
 ||yuntue.com/zb_users/plugin/MoreLinks*.php
 ||yunupload.net/jsa/
 ||yunzhan365.com/resourceFiles/js/weixin-share.js
