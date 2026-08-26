@@ -4,8 +4,8 @@
 ! Powerd by CatsTeam
 ! Expires: 12 Hours
 ! Description: 该规则合并自My AdFilters（for PC），EdentwCustom，adgk，Adaway，Uniartisan，规则以及乘风规则等
-! Version: 2026-08-25 22:21:26
-! Total count: 402438
+! Version: 2026-08-26 10:30:12
+! Total count: 402469
 ! ------加强屏蔽Start------ !
 
 !酷安"提到的好物"
@@ -3980,6 +3980,7 @@ $websocket,domain=wap.yushuwu.cloud
 -*-*-*-*.alpha^$script,third-party
 -*-*-*-*.as^$script,third-party
 -*-*-*-*.panda^$script,third-party
+-Verify-Cloudflare-$doc
 -adobe-analytics/
 -adobeDatalayer_bridge.js
 -adrevenue.appsflyersdk.com^
@@ -5999,6 +6000,7 @@ $websocket,domain=wap.yushuwu.cloud
 /api/Video/GetAdsData?
 /api/Video/GetAdsDataList?
 /api/aaaac/list
+/api/ad-track$ping
 /api/ad/*
 /api/adplogger/*
 /api/ads-bff-client/*
@@ -6033,6 +6035,7 @@ $websocket,domain=wap.yushuwu.cloud
 /api/log-visit
 /api/metrics/collect
 /api/metrics/event
+/api/notify-track$ping
 /api/pageactivity
 /api/pageview/*$ping
 /api/pageview?
@@ -7575,7 +7578,6 @@ $websocket,domain=wap.yushuwu.cloud
 /icloud2022-esp.php^$doc,to=~edu|~gov|~apple.com
 /icost/*
 /id?d_visid_
-/identity/token/verify?browser_id=
 /if/services/tdg$domain=foerde-sparkasse.de|sparkasse-dachau.de|sparkasse-hochfranken.de|sparkasse-mittelfranken-sued.de
 /if/services/tdg?hs=
 /ifengRotatorAd.js
@@ -10352,6 +10354,7 @@ $websocket,domain=wap.yushuwu.cloud
 /wp-content/plugins/pb-ga-google-analytics/*$domain=~wordpress.org
 /wp-content/plugins/pixelyoursite-pro/*
 /wp-content/plugins/pixelyoursite/*
+/wp-content/plugins/plausible-analytics/*
 /wp-content/plugins/pmc-plugins/pmc-harmony-companion/build/ga.js$domain=wwd.com|sportico.com
 /wp-content/plugins/pmc-plugins/pmc-social-share-bar/build/tracking.js$domain=billboard.com|deadline.com
 /wp-content/plugins/quick-cache-cleaner/qcc-script.js
@@ -217013,7 +217016,6 @@ larocheposay.co.kr#%#//scriptlet('set-constant', 'wptg_tagscript', 'noopFunc')
 larocheposay.co.kr#%#//scriptlet('set-constant', 'wptg_tagscript.exec', 'noopFunc')
 las.ac.cn###img
 lashou.com##div.com-client
-lasisa.net,president.jp##.recommend
 lastminute.com.au/api/uisprime/track
 latam.underarmour.com$image
 launchpad-email.swapcard.com$image
@@ -219052,6 +219054,7 @@ lkong.com##.lkong-ads
 lkvod.me##.ec-ad-img
 llduang.com##[class$="cokitaobao1"]
 llss.bz###secondary img:not(.avatar)
+lmaga.jp,lasisa.net,president.jp##.recommend
 lmail.mecp.com$image
 lmail.proformation.fr$image
 lmail.thelanguageunschool.com$image
@@ -225857,8 +225860,8 @@ pincong.rocks#%#//scriptlet("prevent-setInterval", "Ad Block")
 pindao.hao123.com##.cmsad_wrapper
 ping.chinaz.com##.sth > .col-red
 ping.mg.apexpay.org$image
-ping0.cc###adgright
-ping0.cc##.xbeles
+ping0.cc###adhright
+ping0.cc##.xceles
 ping0.cc##a[rel="noopener nofollow"][target="_blank"]:has(> [class^="close"])
 pinggu.org##.banner2015
 pinggu.org##.hdbanner
@@ -237163,6 +237166,7 @@ zzzyk.com###Tinfo
 ||3k8.com/d/js/m/thea
 ||3kans.*/biquge_m/js/tools.js
 ||3l0zszdzjhpw.www.comicleaks.com^
+||3lbqpzrlmz.com^
 ||3li5a.elisacavaletti.it^
 ||3llzzztmz.com^
 ||3lxk4afsb.com^
@@ -237187,6 +237191,7 @@ zzzyk.com###Tinfo
 ||3qx0pnhyzi.com^
 ||3qxsa.cc/js/news2.js
 ||3rdspacetech.com^
+||3rs337ci4.com^
 ||3rsppty.cn^
 ||3s7m2ss7g.com^
 ||3s8rz1nq6yw.nightowl.app^
@@ -237933,6 +237938,7 @@ zzzyk.com###Tinfo
 ||68710266.com^
 ||688mob.com^
 ||68b1hx8ej.com^
+||68pzwbugo.com^
 ||68td4yete.com^
 ||68tkaiaji.com^
 ||69-74.net.jumia.sn^
@@ -252697,6 +252703,7 @@ zzzyk.com###Tinfo
 ||art.carte-gr.total.fr^
 ||art.rollinart.at^
 ||art2wave.actonservice.com^
+||artbranch.net^
 ||arte.tv/log-player/
 ||artefact.is^$third-party
 ||artemis-cdn.ocdn.eu^
@@ -252716,6 +252723,7 @@ zzzyk.com###Tinfo
 ||articulture.org/_t/
 ||artisan.actonservice.com^
 ||artistchristinacarmel.ericksonbuilt.com^
+||artistgrid.cx/ineedthis.js
 ||artlist.io^$removeparam=artlist_aid
 ||arts-cloud.net^
 ||arttrk.com/p/$urlskip=/\/p\/[^\/]+\/([^?]+)/ +https
@@ -253582,6 +253590,7 @@ zzzyk.com###Tinfo
 ||auto.ru/-/ajax/$~xmlhttprequest
 ||auto.ru/cookiesync/
 ||autoaffiliatenetwork.com^$third-party
+||autoappearancetraining.com^
 ||autoaudience.com^$third-party
 ||autoblog.com/.api/admiral
 ||autodaily.ru^$removeparam=from
@@ -255237,7 +255246,7 @@ zzzyk.com###Tinfo
 ||beacon.www.theguardian.com^
 ||beacon.ztgame.com^
 ||beaconcdn.qq.com^
-||beaconimages.netflix.net^$image
+||beaconimages.netflix.net^
 ||beacons*.gvt3.com^
 ||beacons-prod.fubo.tv^
 ||beacons.ads.fubo.tv^
@@ -255539,6 +255548,7 @@ zzzyk.com###Tinfo
 ||bewsgxy.solidandstriped.com^
 ||beyolp.pebmed.com.br^
 ||beyond.bluewolf.com^
+||beyondgoodness.com^
 ||beyondmeasure.rigoltech.com^
 ||beyondsecurity.com^$third-party
 ||beyondwickedmapping.org^
@@ -256542,6 +256552,7 @@ zzzyk.com###Tinfo
 ||blue.unitedbyblue.com^
 ||bluebusiness.actonservice.com^
 ||bluecava.com^$third-party
+||bluecollarmuse.com^
 ||blueconic.net^$third-party
 ||bluecore-email.branch.rocks^
 ||bluecore.com^$third-party
@@ -259939,7 +259950,7 @@ zzzyk.com###Tinfo
 ||cdn.aimtell.com^$third-party
 ||cdn.almamedia.tech/esm/geo-client/
 ||cdn.amplitude.com/engagement-browser/
-||cdn.amplitude.com/libs/analytics-browser-*-min.js
+||cdn.amplitude.com/libs/analytics-browser-*min.js
 ||cdn.amplitude.com/libs/plugin-session-replay-browser-$third-party
 ||cdn.ampproject.org/*/amp-analytics-
 ||cdn.ampproject.org/*/analytics-vendors/metrika.json
@@ -259963,6 +259974,7 @@ zzzyk.com###Tinfo
 ||cdn.branch.io/branch-latest.min.js$important,domain=nbc.com|pac-12.com
 ||cdn.branch.io^$script
 ||cdn.brevo.com/js/sdk-loader.js
+||cdn.brownbrothers.io/api/impression
 ||cdn.builder.io/api/v1/pixel
 ||cdn.buscaveicular.com^
 ||cdn.byjema.dk^
@@ -260154,6 +260166,7 @@ zzzyk.com###Tinfo
 ||cdn.permutive.app/*-web.js$script,redirect=noopjs,domain=theglobeandmail.com
 ||cdn.piazzasquareitaliano.com^
 ||cdn.ping0.cc/images/dx/*.gif$~third-party
+||cdn.ping0.cc/images/ex/*.gif
 ||cdn.pitaya.dk^
 ||cdn.pmweb.com.br/df/tag.js
 ||cdn.polarbyte.com^
@@ -279204,6 +279217,7 @@ zzzyk.com###Tinfo
 ||eusdbk.philosophyofficial.com^
 ||eusuperior.metodoeusuperior.com.br^
 ||eutme.livewellandfully.com^
+||eutrnfnm.com^
 ||eutzh.bokksu.com^
 ||euuh.cn^
 ||euvdp.maxbp.com^
@@ -279850,7 +279864,9 @@ zzzyk.com###Tinfo
 ||exceklcmicrosftprotection.pages.dev^$all
 ||excelhome.net/js/banner-
 ||exceptionlog.kugou.com^
+||excess-ga.duolingo.com^
 ||excess.duolingo.com/batch
+||excess.duolingo.com^
 ||exch.adaptable.nl^
 ||exch.bolderman.nl^
 ||exch.de-duurzame-jongens.nl^
@@ -282837,6 +282853,7 @@ zzzyk.com###Tinfo
 ||fruitflan.com^$third-party
 ||fruity.redpitaya.com^
 ||frus.alforce.shop^
+||frustum47.top^
 ||frustum77.top^
 ||frwxkb.p-31.kr^
 ||frysfood.com/assets/*/collect?
@@ -293980,6 +293997,7 @@ zzzyk.com###Tinfo
 ||hdzupx.bonprix-wa.be^
 ||he2d.com^$third-party
 ||he3tf77ow.com^
+||he4j6lz6d.com^
 ||head4.net/ad_
 ||headlines.peta.org^$removeparam=en_txn7
 ||headshot.monster^$all
@@ -298002,6 +298020,7 @@ zzzyk.com###Tinfo
 ||inews.co.uk/rta2/
 ||inews.name/top.php
 ||inf.miui.com^
+||infamouscomer.com^
 ||infamousstream.com^
 ||infcnw.footway.cz^
 ||inferclick.com^$third-party
@@ -304717,6 +304736,7 @@ zzzyk.com###Tinfo
 ||ldxeyz.openmedical.co.kr^
 ||ldxinb.xyz^
 ||ldxpmz.people.com^
+||ldyqwzfmd.com^
 ||ldzhg.biglifemarketing.com^
 ||le.com/*ark=
 ||le.com/op/
@@ -311993,6 +312013,7 @@ zzzyk.com###Tinfo
 ||loans.rategenius.com^
 ||loansales.cbre.com^
 ||lobhn.jacksonandperkins.com^
+||lobhvxlikxbjju.com^
 ||lobup.whoiselijah.uk^
 ||loc.kr^$third-party
 ||local-bang.com^$all
@@ -314411,6 +314432,7 @@ zzzyk.com###Tinfo
 ||manqian.cn/784a6e27-be5b-4442-86e5-9f4adb51894d?
 ||manqian.cn/async/adLocationConfig
 ||manscaped.com/rud-dataplane/
+||mantan-web.jp^$removeparam=ext_m
 ||mantra-7-teach.net^$doc
 ||mantra-7.net^$doc
 ||mantra-7teach.com^$doc
@@ -317117,6 +317139,7 @@ zzzyk.com###Tinfo
 ||meanwellaustralia.actonservice.com^
 ||meapk.com^
 ||meaqcj.cn^
+||meas.join-stories.com^
 ||meas.plantizia.sk^
 ||measlymiddle.com^
 ||measure.adem.london^
@@ -317454,6 +317477,7 @@ zzzyk.com###Tinfo
 ||mediav.com^$domain=~v5bjq.com|~999.com|~dev.360.cn
 ||mediav.com^$third-party
 ||mediav.com^$third-party,domain=~dev.360.cn|~g.360.cn
+||mediawatch.kr/weblog/gtracker.php
 ||mediaweaver.jp^$third-party
 ||medibot.delling.care/api/counts/
 ||medical.response.midmark.com^
@@ -331401,6 +331425,7 @@ zzzyk.com###Tinfo
 ||pnkas.kiki.world^
 ||pnlhnx.xyz^
 ||pnlwakao.santegidio.org^
+||pnlx1ofua.com^
 ||pnnjhokq.bateel.com^
 ||pnnpan.cv-library.co.uk^
 ||pnovfl.karaca.com^
@@ -334913,6 +334938,10 @@ zzzyk.com###Tinfo
 ||rapidzebra.io^
 ||rapndh.icu^
 ||rapsmnz.cyou^
+||raptorsupplies.*/js/analytics.js
+||raptorsupplies.*/js/ga4-events.js
+||raptorsupplies.*/js/posthog.js
+||raptorsupplies.*/js/visitor_id.js
 ||raqwjl.dienthoaigiakho.vn^
 ||rarbt.cc/js/index960_
 ||rarejob.com^$cookie=guest_id_ads
@@ -355937,6 +355966,7 @@ zzzyk.com###Tinfo
 ||src.ebay-us.com/*=usllpic$script,domain=ebay.com
 ||src.freshmarketer.in^
 ||src.fwusercontent.com/mas|
+||src.fwusercontent.com^
 ||src.secmailtrackr.com^
 ||src.vector.com^
 ||srcap.4patriots.com^
@@ -393693,6 +393723,7 @@ zzzyk.com###Tinfo
 ||x6u6kw4sg.com^
 ||x77918.com/qt/$script
 ||x77918.net/qt/adtop.js$script
+||x7qhjjryf1.com^
 ||x7weiubb2f.com^
 ||x8.cho-chin.com^
 ||x822.mrt.com^
