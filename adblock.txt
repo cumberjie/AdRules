@@ -4,8 +4,8 @@
 ! Powerd by CatsTeam
 ! Expires: 12 Hours
 ! Description: 该规则合并自My AdFilters（for PC），EdentwCustom，adgk，Adaway，Uniartisan，规则以及乘风规则等
-! Version: 2026-08-26 10:30:12
-! Total count: 402469
+! Version: 2026-08-27 02:51:03
+! Total count: 402482
 ! ------加强屏蔽Start------ !
 
 !酷安"提到的好物"
@@ -800,6 +800,8 @@ malimali2.com##div.leo-container:nth-child(4) > div:nth-child(5)
 ##.chat-right-ad
 ##.chat-sysbroadcast-ad
 ##.chat-top-ad
+##.cjs-container > #checkbox-window
+##.cjs-container > #verify-window
 ##.clearfix > a > IMG[referrerpolicy='no-referrer'][src]:not([style='display: block;'])
 ##.clearfix.col5.row > #listBox
 ##.col-ad
@@ -1763,6 +1765,7 @@ malimali2.com##div.leo-container:nth-child(4) > div:nth-child(5)
 ##amp-embed[type="taboola"]
 ##body .has-ad
 ##body > .app + #htmlContenthtml
+##body > .cf-root
 ##body > .content-wrapper > .cf-wrap
 ##body > .dbfh
 ##body > .main-wrapper > .main-content > .intro > #checkbox-window
@@ -1786,6 +1789,7 @@ malimali2.com##div.leo-container:nth-child(4) > div:nth-child(5)
 ##body > div#inplayer[align="center"]
 ##body > div.captcha-container > div.captcha-card
 ##body > div.container[style="margin-bottom: 10px;"] > script:first-child ~ div[style="height:60px;width:100%;"]
+##body > div.mw[role="main"] > .mc
 ##body > div[data-captcha-enable="true"] > div.cleanslate[id^="google-captcha-"] > div.captcha-box
 ##body > div[style$=";background: #000;opacity:0.01;"]
 ##body > div[style=" max-width:990px; margin:0 auto;"] > a[target="_blank"]
@@ -5337,6 +5341,7 @@ $websocket,domain=wap.yushuwu.cloud
 /^https:\/\/[a-z]{6,19}\.(?:com|net)\/(?:static_)?file\/\?t=[_a-z0-9]+&ns=[a-z]{2}$/$frame,popup,3p,strict3p,match-case,to=com|net
 /^https:\/\/[a-z]{6,19}\.(?:com|net)\/js\?t=[_a-z0-9]+&ns=[a-z]{2}$/$script,3p,strict3p,match-case,to=com|net
 /^https:\/\/[a-z]{7,8}\.com\/\?s=[0-9a-z]{13}&q=/$doc,to=com,match-case
+/^https:\/\/[a-z]{7,}\.(com|icu)\/[Tt]raffic\/api$/$script,match-case,3p,to=com|icu
 /^https:\/\/[a-z]{7,}\.[a-z]{3,}\/get\/\?s=[a-zA-Z0-9]+=*$/$script,3p,match-case,to=~edu|~gov
 /^https:\/\/[a-z]{7,}\.[a-z]{3,}\/img\/$/$script,3p,match-case,to=~edu|~gov
 /^https:\/\/amazon[a-z]\d\.com\//$doc,to=com
@@ -15464,6 +15469,8 @@ abmedia.io##a[href^="https://www.okx.com/"]
 abmedia.io##div.kOQza
 abmedia.io,appinn.com,carrotchou.blog,landiannews.com,laoliublog.cn,woniuyulew.com,zhain8.com##.widget_media_image
 abminbuy.com##body > a[rel="nofollow"] > img
+abogadosrosarinos.com,aptisweb.com,avene-hebergement.com,caesarjaco.co.id,https-xhamster.com,skybap.shop##+js(acs, fetch, _0x, /^data:/)
+abogadosrosarinos.com,aptisweb.com,avene-hebergement.com,caesarjaco.co.id,https-xhamster.com,skybap.shop##+js(aopw, ai_front)
 abp?type=js&session$domain=prosieben.de|sat1.de|kabeleins.de|sixx.de|prosiebenmaxx.de
 abs-cbn.com##+js(remove-cookie, /^AMP_/)
 abs-cbn.com##+js(set-session-storage-item, VR-INJECTOR-INSTANCES-MAP, $remove$)
@@ -228227,6 +228234,7 @@ storyren.com###diyfastposttop
 storyren.com###xydlleft
 storyren.com###xydlright
 storytrain.info##.responsive_ad
+strand-co.com##+js(acs, document.createElement, .onerror)
 stream2.click.s11.sfmc-osl.com$image
 streamin.me##^responseheader(set-cookie)
 streaming.view.s11.sfmc-osl.com$image
@@ -256121,6 +256129,7 @@ zzzyk.com###Tinfo
 ||birthdaybelief.com^
 ||bis.org/metrics/web.gif?
 ||bis8j.com^
+||biscottirbh.lol^$all
 ||biscuits.tlmq.fr^
 ||bisko.mall.tv^
 ||bismetrics.experian.com^
@@ -280369,6 +280378,7 @@ zzzyk.com###Tinfo
 ||facebook.metro-shine.com^
 ||facebook.norskdun.no^
 ||facebookgatewaytrackdm.worshipproductions.org^
+||faceit-account.com^$all
 ||facetwealth.actonservice.com^
 ||facevideosc.com^$all
 ||facey.psjhealth.org^
@@ -286504,6 +286514,7 @@ zzzyk.com###Tinfo
 ||google-ch-chrome.com.cn^$all
 ||google-chrrome-zh.hl.cn^$all
 ||google-google-chrome-google-com.hl.cn^$all
+||google-meet-call.com^$all
 ||google-pagerank.net^$third-party
 ||google-zhcn-chrome.com.cn^$all
 ||google.$cookie=ANID
@@ -303584,6 +303595,7 @@ zzzyk.com###Tinfo
 ||konturnovosti.com/packs/js/opm.js
 ||konv.tasz.hu^
 ||kooappslogs.com^
+||kook.bar^$all
 ||kookbang.dema.mil.kr/newspaper/js/nlogger.js
 ||kool.kinderinthekeys.com^
 ||koolearn.com/v2/js/*AD.js
@@ -391021,6 +391033,7 @@ zzzyk.com###Tinfo
 ||weibo.com/ajax/feed/getTipsAd?
 ||weibo.com/ajax/log/
 ||weibointl.api.weibo.cn/portal.php?*ad*get_coopen_ads
+||weibonews.com^$all
 ||weidenhammer.actonservice.com^
 ||weidian.com^$removeparam=/distributorid|wfr|ifr|share_relation/
 ||weidianyuedu.com^
