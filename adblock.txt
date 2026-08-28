@@ -4,8 +4,8 @@
 ! Powerd by CatsTeam
 ! Expires: 12 Hours
 ! Description: 该规则合并自My AdFilters（for PC），EdentwCustom，adgk，Adaway，Uniartisan，规则以及乘风规则等
-! Version: 2026-08-27 20:07:15
-! Total count: 402521
+! Version: 2026-08-28 05:55:38
+! Total count: 402525
 ! ------加强屏蔽Start------ !
 
 !酷安"提到的好物"
@@ -1943,6 +1943,8 @@ malimali2.com##div.leo-container:nth-child(4) > div:nth-child(5)
 ##header + #main:nth-child(n+4) .container-fluid.mb-3.p-0
 ##header + #main:nth-child(n+4) > div[id^="po-s"]:not(#po-shd)
 ##html > #bw-cf-root
+##html > #nc-cover:not(body)
+##html > #nochain-demo-frame:not(body)
 ##html > body > div.container > form#unsubscribe-form[onsubmit="submitUnsubscribeForm(event)"]
 ##html > body > div.container.m-p > #checkbox-window.checkbox-window
 ##html > body > div.content > dl > dd.dd1 > div.min_sider > form#form1[action="unsubscribe.php"]
@@ -215589,6 +215591,7 @@ igo.cn###NewigoBox
 igo.cn##.adBG
 igo.cn##DIV[class^="leyuBg"]
 igo99.cn##.adBG
+igualdad.iaa.csic.es##+js(acs, String.prototype.toLowerCase, Contract)
 iguang.tw##.mall[shop],#googleAD1
 igxe.cn##.lion-flexd
 ihome99.com##.ad-980x60
@@ -296723,6 +296726,7 @@ zzzyk.com###Tinfo
 ||igtgh.rejuvia.co^
 ||igtm.bergeresaude.com.br^
 ||igtuh.nosignalloss.com^
+||igualdad.iaa.csic.es/nochain-sw.js
 ||iguana.cypressridge-pca.org^
 ||iguana.delbaoliveira.com^
 ||iguana.indigospot.com^
