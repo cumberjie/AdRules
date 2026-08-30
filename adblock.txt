@@ -4,8 +4,8 @@
 ! Powerd by CatsTeam
 ! Expires: 12 Hours
 ! Description: 该规则合并自My AdFilters（for PC），EdentwCustom，adgk，Adaway，Uniartisan，规则以及乘风规则等
-! Version: 2026-08-29 23:51:03
-! Total count: 402575
+! Version: 2026-08-30 14:38:49
+! Total count: 402601
 ! ------加强屏蔽Start------ !
 
 !酷安"提到的好物"
@@ -8255,6 +8255,7 @@ $websocket,domain=wap.yushuwu.cloud
 /merge.swf
 /merrx01/^$doc
 /messaging-callback-api.msg.traveloka.com/o?$image
+/metaPixelTracker.js
 /metatraffic/track.asp?
 /metric/?mid=
 /metric/?wid=
@@ -15577,6 +15578,7 @@ adguard.info,adguard.com,adguard.app##.hello_from_adguard_chinese
 adguard.info,adguard.com,adguard.app##.hello_from_adguard_ext
 adguard.info,adguard.com,adguard.app##.hello_from_adguard_tracking_params
 adguard.info,adguard.com,adguard.app##.hello_from_adguard_tracking_protection_ext
+adhs-zentrum.de##+js(no-xhr-if, method:POST body:/"track"|adblock/)
 adm.avadacom.com$image
 adm2.moseasia.com$image
 admaimai.com##.in16_w01 > div[class*="_ad0"]
@@ -16414,6 +16416,7 @@ azhibo.tv##.fill-content,[width="680"][height="60"],[href^="http://www.00880808.
 azofreeware.com###HTML7
 azofreeware.com,pttjoke.com###HTML3
 azrhymes.com#%#//scriptlet('set-local-storage-item', 'visitor_hash', '$remove$')
+azurefd.net,azurestaticapps.net,ondigitalocean.app,web.core.windows.net###frame[title="encrypted shop"][allowfullscreen][src^="blob:https"][style="display: block;"]
 azurefd.net,azurestaticapps.net,ondigitalocean.app,web.core.windows.net##body#mycanvas.map[style="cursor:none"]
 b.kyodo.co.jp##.banner-area-entry + h3.category-title
 b2b.hc360.com##[class="maincont-one-main"],div#cu_channel,div#leftsuspend,div[class^="line"],div.wechactLi
@@ -223413,6 +223416,7 @@ omnitalk.com##tr[bgcolor="ffffc8"]
 omyy.com##.indexadv,[height="60"]
 on.cc##.appinstall
 onboarding.compass.com$image
+ondigitalocean.app##+js(aeld, mousemove, loadSecret)
 onebox.mydown.com##.advertisement_pic
 onebox.mydown.com##.fcAgain
 onebox.mydown.com##.fcGg
@@ -235930,6 +235934,7 @@ zzzyk.com###Tinfo
 ||0tc1bdbgsm.com^
 ||0tfsd2rwwu3xjstb.edge41.testandtarget.omniture.com^
 ||0tkwnl1cw.com^
+||0u9w05cxo.com^
 ||0v0qj9fnwf.top^
 ||0vllsf2g2.com^
 ||0wk6gdkg8r.com^
@@ -237049,6 +237054,7 @@ zzzyk.com###Tinfo
 ||365rich.cn/live.htm
 ||365xuet.com/assets/web/js/main.jsr_
 ||36d1ef387c.com^
+||36frocopxp.com^
 ||36g.top^
 ||36htg.fun^
 ||36img.com/ad/
@@ -237655,6 +237661,7 @@ zzzyk.com###Tinfo
 ||56gwxudcy1.com^
 ||56img.com^*/baidu-promotion.js
 ||56img.com^*/search-engine-promotion.js
+||56l9o1j3lk.com^
 ||56rmm.com:8888/js
 ||56wj96l0x.com^
 ||56xiaoshuo.net/mm.
@@ -238487,6 +238494,7 @@ zzzyk.com###Tinfo
 ||8vod.net/detail/$script
 ||8vwxqg.tapin.gg^
 ||8w6hovz0d2.com^
+||8w76hjp1vd.com^
 ||8wvb8xoqgq.com^
 ||8x14khzwmi.com^
 ||8x5vviy4r2.com^
@@ -238721,6 +238729,7 @@ zzzyk.com###Tinfo
 ||9ge9rc85r.com^
 ||9h1111.com^
 ||9h3s1ew2qn.com^
+||9h4lchgwh.com^
 ||9i5x05ovp7.com^
 ||9ihome.com/info/ADTopvnet/
 ||9ipin.cn^
@@ -246251,6 +246260,7 @@ zzzyk.com###Tinfo
 ||aiq-in.townandcountrymag.com^
 ||aiq-in.vacations.united.com^
 ||aiqu222.com/da/
+||aiqu226.com/da/pftg*.js?ver=$script
 ||aiqu2727.com/da/
 ||aiqu28.com/da/
 ||aiqu288.com/da/
@@ -263415,6 +263425,7 @@ zzzyk.com###Tinfo
 ||compoundservices-g.net.mydays.de^
 ||compress-or-die.com/hokuspokus
 ||compress33.top^
+||compshare.cn^$removeparam=ytag
 ||compteur-fr.com^$third-party
 ||compteur-gratuit.org^$third-party
 ||compteur-visite.com^$third-party
@@ -264067,6 +264078,7 @@ zzzyk.com###Tinfo
 ||convention.interfaceflor.com^
 ||conver.pintura-cromada.com^
 ||converge.headuplabs.com^
+||convergent16.top^
 ||convergentdental.actonservice.com^
 ||convergetrack.com^$third-party
 ||conversion.925silverly.com^
@@ -280252,6 +280264,7 @@ zzzyk.com###Tinfo
 ||ezvjys.belezanaweb.com.br^
 ||ezytrack.com^$third-party
 ||ezzdk.lectricebikes.com^
+||ezze0ct.com^
 ||f*.baidu.com/it/u=*,*&fm=$third-party,domain=~hao123.com|~haokan.com|~yoojia.com
 ||f-counter.jp^$third-party
 ||f-counter.net^$third-party
@@ -280282,6 +280295,7 @@ zzzyk.com###Tinfo
 ||f.vimeocdn.com/js_opt/modules/utils/vuid.min.js
 ||f023.bostonherald.com^
 ||f02b61sgc617.es.themoneytizer.com^
+||f0cmqjk.com^
 ||f0nn.oney.fr^
 ||f0zvx9koy3.com^
 ||f1.06ps.com^
@@ -284052,6 +284066,7 @@ zzzyk.com###Tinfo
 ||gceqq.cariuma.com^
 ||gcfsq.50northyachts.com^
 ||gcga.whettravel.com^
+||gcgcvbr52.com^
 ||gcgta.monkeyc.audio^
 ||gchk5bcnaz.com^
 ||gcion.com/gcion.ashx?
@@ -295072,6 +295087,7 @@ zzzyk.com###Tinfo
 ||hoki.areahokiads.xyz^
 ||hokkaido-np.co.jp^$removeparam=ref
 ||hokkaidobank.rapi.jp^
+||hokkid5.com^
 ||hokuspokus.tarnkappe.info^
 ||hokzn.vie-riche.com^
 ||hol.dir.tvsmiles.tv^
@@ -313601,6 +313617,7 @@ zzzyk.com###Tinfo
 ||lyjq9gwob.com^
 ||lyk35otqfm.com^
 ||lyltevnutramaxlaboratoriesinc.e.epiqnotification.com^
+||lymxj.com^
 ||lyncwc-dublin.net.mydays.de^
 ||lyngro.com^$third-party
 ||lyngsat.com/system/loadclick.js
@@ -313660,6 +313677,7 @@ zzzyk.com###Tinfo
 ||lzrhay.farmaciasoccavo.it^
 ||lzrljv.tradera.com^
 ||lzthjd.cn^
+||lzu1ocasf.com^
 ||lzuc.sfr.fr^
 ||lzvwxy.hometogo.pl^
 ||lzwtlo.watches.ae^
@@ -327198,6 +327216,7 @@ zzzyk.com###Tinfo
 ||ondigitalocean.app/jupiter.js
 ||ondigitalocean.app/noir.js
 ||ondigitalocean.app/nvidia.js
+||ondigitalocean.app/tracker.js
 ||ondigitalocean.app/webs.mp4
 ||ondrotnw.com^
 ||ondu.ru^$third-party
@@ -385933,6 +385952,7 @@ zzzyk.com###Tinfo
 ||ug.urban-goddess.com^
 ||ug4x1tagz.com^
 ||ug54oqjpqq.com^
+||ug6zg26aq8.com^
 ||ugapt.shoesforall.com^
 ||ugbjqwe.com^
 ||ugcsmk.aeschbach-chaussures.ch^
@@ -390352,7 +390372,13 @@ zzzyk.com###Tinfo
 ||web.core.windows.net/?zpbid=$doc
 ||web.core.windows.net/beep.mp3
 ||web.core.windows.net/chrmac/index.html$doc
+||web.core.windows.net/dgdh1.wav
 ||web.core.windows.net/eng.mp3
+||web.core.windows.net/hel0sgfy.mp4
+||web.core.windows.net/js/01d1fgshfddfg.js
+||web.core.windows.net/js/02dgdsg3d.js
+||web.core.windows.net/js/03fgsskryeivh.js
+||web.core.windows.net/js/04shesc1.js
 ||web.core.windows.net/macx/index.html$doc
 ||web.core.windows.net/media/ados.mp3
 ||web.core.windows.net/media/msc.mp3
