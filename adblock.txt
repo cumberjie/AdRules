@@ -4,8 +4,8 @@
 ! Powerd by CatsTeam
 ! Expires: 12 Hours
 ! Description: 该规则合并自My AdFilters（for PC），EdentwCustom，adgk，Adaway，Uniartisan，规则以及乘风规则等
-! Version: 2026-08-31 00:10:03
-! Total count: 402604
+! Version: 2026-08-31 17:21:49
+! Total count: 402631
 ! ------加强屏蔽Start------ !
 
 !酷安"提到的好物"
@@ -252,6 +252,7 @@ malimali2.com##div.leo-container:nth-child(4) > div:nth-child(5)
 ###captchaBox
 ###cat_intro_first_ad
 ###cat_intro_second_ad
+###cf-challenge-root
 ###chs_bannerArea
 ###cmdTextDisplay
 ###cmdTextDisplay ~ *
@@ -15941,6 +15942,8 @@ ali213.net#@#.subscribe-container
 alibabacloud.com###carousel-whois
 alibabacloud.com##.b-alicloud-bottom
 alibabacloud.com##.hmod-alicloud-contact-sales-support
+aliexpress.com,aliexpress.ru,aliexpress.us#%#//scriptlet('ubo-set', 'OfflineAudioContext', 'undefined')
+aliexpress.com,aliexpress.ru,aliexpress.us#%#//scriptlet('ubo-set', 'navigator.bluetooth', 'undefined')
 alipay.com###J-cooperant-banner
 alist.nn.ci##.ss
 aliyun.com###yq-a-r-bottom
@@ -18175,6 +18178,7 @@ cisionone-email.zero.wortwerkstatt.de$image
 ciudad.com.ar###cxense-wrapper
 civitai.com##+js(no-fetch-if, faro.civitai.com)
 civitfun.check-in.zinema7hotel.com$image
+cizitensports.com##+js(rmnt, script, randomUUID)
 cj.sina.cn##.module-footer
 cj.sina.cn##.module-hot.module-extend
 cj.sina.cn##.u-article-video-title4
@@ -233805,7 +233809,7 @@ weather.com.cn##div[id^="adpos"]
 weather.com.cn,wed114.cn#@#.adpic
 weathercn.com###download,[id^="topaddiv"]
 web.audi.it$image
-web.core.windows.net##+js(aeld, beforeunload, workerBomb)
+web.core.windows.net##+js(aeld, beforeunload, /[Ww]orker/)
 web.e.equifax.com$image
 web.iulm.it$image
 web.mitsubishi-motors.it$image
@@ -237352,6 +237356,7 @@ zzzyk.com###Tinfo
 ||470kk.com/js/indextop.js
 ||477zw.com/js/nzm
 ||47c7zhqak.com^
+||480ipil.com^
 ||48475dse.varme-expressen.dk^
 ||484r.com/images/flash/gallery_
 ||48dswtxkw.com^
@@ -244125,7 +244130,6 @@ zzzyk.com###Tinfo
 ||ad-kraft.aloe-tallow.com^
 ||ad-log-upload-os.hoyoverse.com^
 ||ad-log.dable.io^
-||ad-log.wemakeprice.com^
 ||ad-platform.jmty.jp^
 ||ad-plus.com.tr^$third-party
 ||ad-score.com^$third-party
@@ -245442,6 +245446,7 @@ zzzyk.com###Tinfo
 ||aehudh.rakumachi.jp^
 ||aehvf.tentree.com^
 ||aeibnv.golfino.com^
+||aeis.alicdn.com/awsc/fireyejs/$script,domain=alibaba.com
 ||aejfyn.rsd-reisen.de^
 ||aeletheacd.com^
 ||aem-collector.daumkakao.io^
@@ -247670,7 +247675,6 @@ zzzyk.com###Tinfo
 ||analytics-lgs.corebridgefinancial.com^
 ||analytics-log.withhive.com^
 ||analytics-logger.service.junctiontv.net^
-||analytics-mkt.wemakeprice.com^
 ||analytics-nssl.bradyid.com^
 ||analytics-op.streak.ninja^
 ||analytics-prd.aws.wehaa.net^
@@ -250843,6 +250847,7 @@ zzzyk.com###Tinfo
 ||api.toyboxdiversoes.com.br^
 ||api.trabalhedeondequiser.com.br^
 ||api.transcy.io/api/statistic/
+||api.transtore.app/api/v2/storefront/tracking
 ||api.tricotstore.com.br^
 ||api.trocvan.com^
 ||api.trueaudience.io^
@@ -251106,6 +251111,7 @@ zzzyk.com###Tinfo
 ||apllogistics.actonservice.com^
 ||aplobv.xexymix.com^
 ||aplus.alibaba.com^
+||aplus.aliexpress.$image,ping,~third-party
 ||aplus.aliexpress.*/Product.*.Event
 ||aplus.aliexpress.*/ae.pc_click.statweb_ae_click
 ||aplus.aliexpress.*/ae.pc_ctr.statweb_ae_ctr
@@ -254871,6 +254877,7 @@ zzzyk.com###Tinfo
 ||bb.rushbrush.com^
 ||bb1nn.com/js/i.js
 ||bb2.ifeng.com^
+||bb2k0pq1vf.com^
 ||bb8.aotter.net^
 ||bb999.net/pic/n/agents/C-79.gif
 ||bbagnw.sedaily.com^
@@ -255530,6 +255537,7 @@ zzzyk.com###Tinfo
 ||bestbuycreators.7tiv.net^$removeparam=svlink
 ||bestchat-chat.com^$doc
 ||bestclimbers.net^
+||bestcoffeemachine.net^
 ||bestcontactform.com^$~image,third-party
 ||beste1.icu^
 ||bestill.help.no^
@@ -264973,6 +264981,7 @@ zzzyk.com###Tinfo
 ||crocodile.rapid-sale.co.uk^
 ||crom.spiegelshop.nl^
 ||crookedcreature.com^
+||crossbar13.com^
 ||crossees.com^
 ||crossengage.io^
 ||crosset.onward.co.jp/ajax/getExternalServiceWebTrackingTags
@@ -281288,6 +281297,7 @@ zzzyk.com###Tinfo
 ||fi.on-channel.com^
 ||fi/a/Amendes/*.php^$doc,to=fi|~amendes.gouv.fr
 ||fi/part/Amendes/*.php^$doc,to=fi|~amendes.gouv.fr
+||fi0e0xtinp.com^
 ||fiawmk.empik.com^
 ||fiber.zayo.com^
 ||fibfrc.thecara.co.kr^
@@ -281883,6 +281893,7 @@ zzzyk.com###Tinfo
 ||flixcar.com/gvid
 ||flixcart.com/px/gNtTli3A/init.js
 ||flixcdn.com^*/track.js
+||flixcloud.cc/swetrix.js
 ||flixfacts.co.uk^$third-party
 ||flixgvid.flix360.io^
 ||flixster.com^*/analytics.
@@ -283247,6 +283258,7 @@ zzzyk.com###Tinfo
 ||fwepd.xyz^
 ||fwjtfo8f4z.com^
 ||fwkwtw.amorossa.com^
+||fwlkokvvkx.icu^
 ||fwlrv.cn^
 ||fwmbjrl.cn^
 ||fwmqki.eckerle.de^
@@ -283385,7 +283397,6 @@ zzzyk.com###Tinfo
 ||g.163.com/*&affiliate=
 ||g.163.com^
 ||g.3lian.com^
-||g.alicdn.com/AWSC/fireyejs/
 ||g.alicdn.com/alilog/s/*/plugin/aplus_spmact.js
 ||g.alicdn.com/alilog^
 ||g.aline.co^
@@ -296288,6 +296299,7 @@ zzzyk.com###Tinfo
 ||iazwzp.lyst.com^
 ||ib-ibi.com^$third-party
 ||ib.snssdk.com^
+||ib5s02kbxy.com^
 ||ibaiducdn.com/Public/Assets/js/hz_
 ||ibamolecular.actonservice.com^
 ||ibaotu.com/revision/js/ad/
@@ -300725,6 +300737,7 @@ zzzyk.com###Tinfo
 ||j6gi9jgjpb.com^
 ||j6zh4g0.cn^
 ||j7ifivzy.icu^
+||j7kuo30qtn.com^
 ||j7kv55pr70.com^
 ||j85izots6.com^
 ||j8n60aooj.com^
@@ -302271,6 +302284,7 @@ zzzyk.com###Tinfo
 ||justanswer.com/jatag/
 ||justconfig.com^
 ||justdial.com/jd-trkr
+||justfordocs.com^
 ||justicejudo.com^
 ||justid.io^
 ||justjoin.it^$cookie=userUid
@@ -303927,6 +303941,7 @@ zzzyk.com###Tinfo
 ||ktzuoc.bueroshop24.de^
 ||ku6.com^
 ||ku63.com^
+||ku8d1fla8.com^
 ||kuaibaopay.com^
 ||kuaiboads.com^
 ||kuaicad.com/rest/common/getConfigureByName?
@@ -313682,6 +313697,7 @@ zzzyk.com###Tinfo
 ||lzu1ocasf.com^
 ||lzuc.sfr.fr^
 ||lzvwxy.hometogo.pl^
+||lzwdh6iwo.com^
 ||lzwtlo.watches.ae^
 ||lzwxzz.chintaistyle.jp^
 ||lzyysw.com/upload/
@@ -316600,6 +316616,7 @@ zzzyk.com###Tinfo
 ||marriedbelief.com^
 ||marriedmailbox.com^
 ||marriedvalue.com^
+||marriott.com/mi/api/shop-renderer/logger
 ||marriott.com^$removeparam=dtm_user_id
 ||mars.jd.com^
 ||mars.msfin.at^
@@ -326193,6 +326210,7 @@ zzzyk.com###Tinfo
 ||oajfpqojev.net^
 ||oajkd.youngla.com^
 ||oak.brunobett.de^
+||oakleysunglassesindia.com^$all
 ||oakqa.apotekar24.com^
 ||oal2.destinia.co.uk^
 ||oapdi.deltoroshoes.com^
@@ -326253,6 +326271,7 @@ zzzyk.com###Tinfo
 ||obs.forseasky.com^
 ||obs.greencolumnblog.com^
 ||obs.jollyoutdoorjogger.com^
+||obs.sd4823.spglobal.com^
 ||obs.system1onesource.com^
 ||obscenesidewalk.com^
 ||obscure.stomp-nutrition.com^
@@ -327593,6 +327612,7 @@ zzzyk.com###Tinfo
 ||ophwrh.cn^
 ||opim.pixmania.com^
 ||opinary.com/v1/events
+||opinicl.com^
 ||opjnbmk.com^
 ||opjqa.wineinsiders.com^
 ||opkkjh.xyz^
@@ -330848,6 +330868,7 @@ zzzyk.com###Tinfo
 ||pixel.tuko.co.ke^
 ||pixel.udpauto.ru^
 ||pixel.underzstore.com^
+||pixel.uppromote.com^
 ||pixel.veritone-ce.com^
 ||pixel.videohub.tv^
 ||pixel.visitiq.io^
@@ -334827,6 +334848,7 @@ zzzyk.com###Tinfo
 ||r2.dev/media/_Fm7-alert.mp3
 ||r25.jp/api/tracking/
 ||r255.wmtw.com^
+||r27y52dd7.com^
 ||r2b2.cz/events.php?
 ||r2pnq.montecarlovirtualtour.com^
 ||r2r.utas.edu.au^
@@ -335392,6 +335414,7 @@ zzzyk.com###Tinfo
 ||realytics.net^$third-party
 ||realzeit.io^$third-party
 ||reanimator.net/informer-images/
+||reanime.to/pv.js
 ||reaonq.xn--hdks770u8f0a8dvzft.net^
 ||rearealrea.com^$doc
 ||reauthenticator.com^
@@ -335678,6 +335701,7 @@ zzzyk.com###Tinfo
 ||reflectpaint.com^
 ||reflow.tv/pixels/
 ||reformal.ru/log.php
+||refraction55.com^
 ||refundradar.com^
 ||refveq.reviskorea.co.kr^
 ||refwkk.cas.sk^
@@ -335735,6 +335759,7 @@ zzzyk.com###Tinfo
 ||rehmann.actonservice.com^
 ||rei.com/customer-analytics-attributes/
 ||reibootmac.com/script/rn_event_track_v*.min.js
+||reibootmac.com/script/rn_event_track_v2.min.js
 ||reichelt.com/setsid.php?
 ||reico.actonservice.com^
 ||reifen24.de^$removeparam=sv1
@@ -340474,7 +340499,6 @@ zzzyk.com###Tinfo
 ||search.naver.com/p/crd/rd$removeparam=sy,document,image
 ||search.naver.com/p/crd/rd$removeparam=time,document,image
 ||search.naver.com/search.naver$removeparam=tqi
-||search.tmon.co.kr/api/direct/*/searchstatapi/api/search/count/click/
 ||search.yahoo.co.jp^$removeparam=fr
 ||search.yahoo.com/beacon
 ||searchads.apple.com^
@@ -355680,6 +355704,7 @@ zzzyk.com###Tinfo
 ||spankbang.com^$cookie=ana_sid
 ||spankbang.com^$cookie=ana_vid
 ||spanking.wiki/morning-bread-
+||spanner44.com^
 ||spareapp.com^
 ||spark.cloud.funkedigital.de/agnes.js
 ||spark.thelyst.com^
@@ -370210,6 +370235,7 @@ zzzyk.com###Tinfo
 ||stats.fishersci.it^
 ||stats.flightformation.com^
 ||stats.flightsphere.com^
+||stats.flixcloud.cc^
 ||stats.flixhq.live^
 ||stats.florianfritz.net^
 ||stats.flowphantom.com^
@@ -370777,6 +370803,7 @@ zzzyk.com###Tinfo
 ||stats.realestate.cv.ua^
 ||stats.realestate.kyiv.ua^
 ||stats.realestate.uz.ua^
+||stats.reanime.to^
 ||stats.redlabelsports.com^
 ||stats.redpandabooks.com^
 ||stats.referralhero.com^
@@ -372502,7 +372529,6 @@ zzzyk.com###Tinfo
 ||suning.com/getCpcDatas?
 ||sunios.de^$third-party
 ||sunjianlong.com^
-||sunknudsen.com/static/media/js/fathom
 ||sunlightmetrics.b-cdn.net^
 ||sunnysani.com/lb/$all
 ||suno.com/9i3s/
@@ -373116,6 +373142,7 @@ zzzyk.com###Tinfo
 ||swisspost.web.app^$all
 ||switchadhub.com^
 ||swkism.moon-trade.ru^
+||swkqmcv.com^
 ||swlife.jp^$doc
 ||swm.nozemoil.nl^
 ||swm.supremacy.nl^
@@ -378786,6 +378813,7 @@ zzzyk.com###Tinfo
 ||tq121.com.cn/j/ad/
 ||tqaqn.ysebeauty.com^
 ||tqbdio.medicare.pt^
+||tqbjevhkgw.icu^
 ||tqcot.globalhealing.com^
 ||tqdcll.josephandstacey.com^
 ||tqdctl.xyz^
@@ -388660,6 +388688,7 @@ zzzyk.com###Tinfo
 ||vipredirectaccept-domain.net.mydays.de^
 ||vipsj.zgallerie.com^
 ||vipstatic.com/mars/
+||vipsunglassesindia.in^$all
 ||vipvps.shop^
 ||vipwao.nutrimuscle.com^
 ||vipwfa.footway.ch^
@@ -390285,7 +390314,6 @@ zzzyk.com###Tinfo
 ||weather.com.cn/a1.js
 ||weather.com/weather/assets/omniture-app-measurement.*.js
 ||weather.com/weather/assets/omniture-visitorapi.*.js
-||weather.go.kr/w/resources/js/logger
 ||weatherbytes.net^
 ||weathercn.com/m_mobile/ad_image/
 ||weathernews.jp^$removeparam=fm
@@ -391241,7 +391269,6 @@ zzzyk.com###Tinfo
 ||weltbild.de/tracking/
 ||weltsgtm.weltausholz.de^
 ||weltsport.appspot.com/hstrck-detect.js^
-||wemakeprice.com^$removeparam=refer
 ||wemqip.misli.com^
 ||wemztu.cuirs-guignard.com^
 ||wen.miaoceshi.com/img/*.gif$domain=lanzous.com
@@ -391803,7 +391830,6 @@ zzzyk.com###Tinfo
 ||wlog.ifdo.co.kr^
 ||wlog.ksapisrv.com^
 ||wlog.kuaishou.com^
-||wlog.tmon.co.kr^
 ||wlp3.aegon.es^
 ||wlpdfo.choicefurnituresuperstore.co.uk^
 ||wlptux.habitaclia.com^
@@ -394484,6 +394510,7 @@ zzzyk.com###Tinfo
 ||xn--80affa3aj0al.xn--80asehdb^$all
 ||xn--9krv3x413bbyb.com^
 ||xn--bqro42frpg5up.cn^
+||xn--czru2dx3eszw3lat53b.com^
 ||xn--d1aqfkf.xn--p1ai/bitrix/.../GlobalSources/$all
 ||xn--e1aaipcdgnfsn.su^*/counter.php
 ||xn--edkc9m807k.jp^$doc
