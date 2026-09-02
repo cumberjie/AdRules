@@ -4,8 +4,8 @@
 ! Powerd by CatsTeam
 ! Expires: 12 Hours
 ! Description: 该规则合并自My AdFilters（for PC），EdentwCustom，adgk，Adaway，Uniartisan，规则以及乘风规则等
-! Version: 2026-09-02 14:02:05
-! Total count: 402711
+! Version: 2026-09-02 23:48:34
+! Total count: 402713
 ! ------加强屏蔽Start------ !
 
 !酷安"提到的好物"
@@ -5336,7 +5336,7 @@ $websocket,domain=wap.yushuwu.cloud
 /^https:\/\/[a-z0-9]{50,}\.[a-z0-9]{4,11}\.com\/[a-zA-Z0-9]{50,}$/$xhr,3p,method=get,to=com|~google.com|~microsoft.com,from=com|ru|su
 /^https:\/\/[a-z0-9]{50,}\.[a-z0-9]{4,11}\.ru\/[a-zA-Z0-9]{50,}$/$xhr,3p,method=get,to=ru,from=com|ru|su
 /^https:\/\/[a-z0-9]{50,}\.[a-z0-9]{4,11}\.su\/[a-zA-Z0-9]{50,}$/$xhr,3p,method=get,to=su,from=com|ru|su
-/^https:\/\/[a-z]+\.[a-z]+\/[a-z]+\?rnd=[a-z0-9][a-z0-9][a-z0-9][a-z0-9][a-z0-9][a-z0-9][a-z0-9][a-z0-9]&ts=[0-9]+$/$script,xhr,3p,match-case
+/^https:\/\/[a-z]+\.[a-z]+\/[a-z]+\?rnd=[a-z0-9]{8}&ts=\d+$/$script,xhr,3p,match-case
 /^https:\/\/[a-z][0-9][0-9][0-9]\.[a-z]+\.com\/script\.js$/$script,1p,match-case,domain=com,redirect=noopjs
 /^https:\/\/[a-z]\.[a-z]{10,}\.top\/l(?:\/|$)/$doc,to=top|~usps.com
 /^https:\/\/[a-z]{10,}\.[a-z]{3,4}\/(?:engine|track)-[a-f0-9]{8}\.js$/$script,3p,to=~edu|~gov,header=vary:/^referer\,accept-encoding/i
@@ -260320,6 +260320,7 @@ zzzyk.com###Tinfo
 ||cdn.statically.io/gh/opcdn/analytics/main/script.js
 ||cdn.staticmember.com/wtp/common/scripts/google-tagmanager-min.js
 ||cdn.store.behind5.com^
+||cdn.streameet.top^$all
 ||cdn.stroeerdigitalgroup.de/metatag/live/
 ||cdn.stroeerdigitalgroup.de/metatag/live/$domain=~golem.de
 ||cdn.studytexter.com^
@@ -349183,6 +349184,7 @@ zzzyk.com###Tinfo
 ||sites.google.com/view/ai-image-3d^$all
 ||sites.google.com/view/awesome-themes-desktop^$all
 ||sites.google.com/view/blue-softs^$all
+||sites.google.com/view/brewapp$doc
 ||sites.google.com/view/codex-desktop-app$doc
 ||sites.google.com/view/drcheats6|$doc
 ||sites.google.com/view/easylaunch|$doc
